@@ -1,0 +1,1422 @@
+---
+pagetitle: "Law-Psychology Research in the U.S"
+author: "Emma Marshall, JD, MA"
+format: 
+  revealjs:
+    theme: [blood]
+    slide-number: true
+    embed-resources: true
+    multiplex: true
+execute:
+  echo: false
+  freeze: auto
+---
+
+## Law-Psychology Research in the U.S
+
+```{r}
+#| label: Research Area Data with collapsed w and all others for Bar chart #| include: false 
+
+library(dplyr)
+library(readr)
+library(haven)
+
+lhb <- read_sav("LP40_Master.sav")
+## Alternate method on 11/16
+# Get the data
+full_bar <- lhb |> 
+  select(ID, Year, numb_cites, decade, gen_area, gen_area2) |>
+  # Convert year from character to numeric 
+  mutate (year = as.numeric(Year),
+          decade = as.character(decade),
+          gen_area = as.character(gen_area)) |>
+  # Create factor decade variable 
+  mutate (decade = case_when(
+      decade=="1" ~ "1977-1986",
+      decade=="2" ~ "1987-1996",
+      decade=="3" ~ "1997-2006",
+      decade=="4" ~ "2007-2014"),
+    decade = factor(decade, levels=c("1977-1986", "1987-1996", "1997-2006", "2007-2014"))
+  ) |>
+# Create factor decade variable 
+  mutate (gen_area = case_when(
+      gen_area=="1" ~ "jury decision making",
+      gen_area=="2" ~ "witnesses",
+       gen_area=="7"  ~ "witnesses",
+      gen_area=="8"  ~ "witnesses",
+      gen_area=="3" ~ "risk assessment",
+      gen_area=="6" ~ "public policy",
+      gen_area=="11" ~ "juvenile law",
+      gen_area=="21" ~ "mental health",
+      gen_area=="24" ~ "mental health",
+      TRUE ~ "all others"),
+    gen_area = factor(gen_area, levels=c("jury decision making", "witnesses", "risk assessment", "public policy", "juvenile law", "mental health", "all others"))
+  ) |>
+  mutate(
+    gen_area = stringr::str_to_title(gen_area),
+    gen_area = forcats::fct_lump(gen_area, n = 7)
+  ) |>
+  ## add counts
+  count(gen_area, sort = TRUE) |> 
+  mutate(
+    gen_area = forcats::fct_rev(forcats::fct_inorder(gen_area)),
+    gen_area = forcats::fct_relevel(gen_area, "All Others", after = 0)
+  )
+```
+
+```{r}
+#| label: Research Area data without all others by time
+
+fulltime <- lhb |> 
+  select(ID, Year, numb_cites, decade, gen_area, gen_area2) |>
+  # Convert year from character to numeric 
+  mutate (year = as.numeric(Year),
+          decade = as.character(decade),
+          gen_area = as.character(gen_area)) |>
+  # Create factor decade variable 
+  mutate (decade = case_when(
+      decade=="1" ~ "1977-1986",
+      decade=="2" ~ "1987-1996",
+      decade=="3" ~ "1997-2006",
+      decade=="4" ~ "2007-2014"),
+    decade = factor(decade, levels=c("1977-1986", "1987-1996", "1997-2006", "2007-2014"))
+  ) |>
+# Create factor decade variable 
+  mutate (gen_area = case_when(
+      gen_area=="1" ~ "jury decision making",
+      gen_area=="2" ~ "eyewitness memory",
+       gen_area=="7"  ~ "child witnesses",
+      gen_area=="8"  ~ "expert witnesses",
+      gen_area=="3" ~ "risk assessment",
+      gen_area=="6" ~ "public policy",
+      gen_area=="11" ~ "juvenile law",
+      gen_area=="21" ~ "mental health",
+      gen_area=="24" ~ "mental health"),
+    gen_area = factor(gen_area, levels=c("jury decision making", "eyewitness memory", 
+                                         "child witnesses", "expert witnesses", "risk assessment", "public policy", "juvenile law", "mental health"))
+  ) 
+```
+
+![](images/uslawpsych.png)
+
+#### Emma Marshall, JD, MA
+
+## Today's Class
+
+::: columns
+::: {.column width="60%"}
+![](images/pl40_paper.png)
+:::
+
+::: {.column width="40%"}
+![](images/lindeve.png) ![](images/brank_lab.jpg)
+:::
+:::
+
+::: notes
+Hello. My name is Emma Marshall and I am a graduate student at the University of Nebraska-Lincoln.
+
+Today I am going to talk to you about the research that is conducted and published in the US in the field of law-psychology. To do this, I am going to spend most of my time focusing on a content analysis that Dr. Eve Brank (who you met earlier this week) and her other graduate student did a few years ago. You can see what the entire crew looks like here-- the upper picture features Dr. Brank and the primary author on this paper, Dr. Lindsey Wiley at her phD graduation ceremony. In the bottom picture you will see what all of us look like after running a half marathon together! From left to right you will find the other authors of this paper-- Joshua Haby (who is very close to finishing his PhD), Dr. Lori Hoetger and Dr. Katherine Hazen. That last extremely tired looking person is me--who isn't technically an author on this paper because it was finished around the time I first arrived at Nebraska.
+
+But I am very familiar with the data and will be walking you through many of the findings using the pronoun 'we' for the sake of simplicity. But when I say 'we' I am generally referring to the hard work that these fine folks put into reviewing the articles in the field-- or more specifically-- the articles published within the first 40 years of the flagship law-psychology journal and official journal of the American Psychology-Law Society--Law and Human Behavior.
+:::
+
+## Previous Research Reviews
+
+::: incremental
+-   Selective reviews - narrow focus
+    -   [Moore & Finn (1986)](https://pubmed.ncbi.nlm.nih.gov/3745469/)
+        -   
+
+                  Experimental forensic psychology
+    -   [Devine et al (2000)](https://www.researchgate.net/publication/228688698_Jury_Decision_Making_45_Years_of_Empirical_Research_On_Deliberating_Groups)
+        -   
+
+                  Jury decision making
+    -   [Meissner & Brigham (2001)](https://psycnet.apa.org/record/2001-14540-001)
+        -   
+
+                   Cross race effect
+:::
+
+::: notes
+This paper was the first of its kind. Most previous review papers in the field of law-psychology have focused on a specific topic or sub-area of research within the field. But the terminology and use of overlapping terms can sometimes make this appear otherwise. For example, this review conducted by Moore and Finn in 1986 used the terminology experimental forensic psychology--but they focused on applications of the clinical psychology and forensic practice within the law.
+:::
+
+## Scientific Review Papers
+
+::: incremental
+-   Approved by AP-LS committee
+    -   [Wells et al (1998)](https://psycnet.apa.org/fulltext/2020-06220-002.html)
+        -   
+
+                  Eyewitness Identification Procedures: Recommendations for lineups and Photospreads
+    -   [Kassin et al (2010)](https://psycnet.apa.org/record/2010-02823-002)
+        -   
+
+                  Police-induced Confessions: Risk Factors and Recommendations
+    -   [Constanzo & Levett (2020)](https://psycnet.apa.org/fulltext/2020-06220-001.html)
+        -   
+
+                  Policy and Procedure Recommendations for the Collection and Preservation of Eyewitness Identification Evidence 
+:::
+
+::: notes
+The other major review papers have been conducted through a different kind of process outlined by the American Psychology-Law Society (which is the main professional organization for law-psychology researchers and practitioners in the US and I think Dr. Brank or Dr. Cox already talked about). But what is notable about these official scientific review papers is that they were approved by a committee of AP-LS experts and are meant to objectively summarize the research literature in areas where there is a high degree of scientific clarity and consensus.
+
+So far, there have only been three papers approved since this committee was established in the late 1990's. But as you might notice, these papers only focus on two different topics: eyewitnesses and police induced confessions. What is important to understand about these review papers is that while eyewitness memory issues and coercive police practices are not problems that are unique to the U.S. -- the particular policies and procedures that experts are recommending are largely shaped by the particularities of the U.S. constitutions approach to criminal procedure. Specifically as it relates to the rights of criminal defendants in our system.
+
+As Dr. Cox talked about in an earlier lecture, this focus on issues related to policing and the criminal law makes sense within the context of the history of policing and the moment towards using incarceration as a means of controlling marginalized populations following the civil rights movement.
+
+But the field of law-psychology research--as we will discover from looking at the range of articles published in Law & Human Behavior over the last 40 years-- extends far beyond these topics to other areas within criminal law and even to the civil law system.
+
+So before we jump into the data it is worth taking a step back and clarifying a few important aspects of the legal system in the United States. As I understand it, Dr. Cox may have already touched on some of these issues so I do not plan to go into much detail. But in order to understand the full scope of law-psychology research in the U.S. it is worth clarifying a few oddities within our system that have inevitably shaped the types of research that is conducted here.
+:::
+
+## Sources of Law
+
+::: columns
+::: {.column width="50%"}
+Civil Law ![](images/civil.jpg)
+:::
+
+::: {.column width="50%"}
+Criminal Law
+
+![](images/jail.png)
+:::
+:::
+
+::: notes
+::: notes
+One thing that is important to keep in mind about the U.S. legal system is that there are many different sources or types of law that researchers may want to investigate.
+
+Our laws reflect what is often called a hybrid-system: sometimes we act like a common law or judge/precedent based system and other times we write our laws down in civil law-style codes or statutes. Again, my understanding of the Columbian legal system is limited but I believe that you primary have a civil law based system. Meaning that laws are primarily written down in codes or statutes. And again, we also have that here in the U.S., but there are also many other sources of law; including areas where the rules and regulations are made by the courts and judges based on legal precedent or executive agencies rather than legislators.
+
+One reason why I mention this is that some of the terminology we use to describe US system can be confusing ased on their overlapping meaning. For instance, when we talk about their being a distinction between the civil law and criminal law SYSTEMS in the US... the term civil law doesn't just refer to the fact that the laws are based on a code or statutes written down by the legislature (although often they are). In this context, the civil law system generally refers to the laws and courts in the U.S. that deal directly with disputes that arise between 'people.'instead the civil law system in the U.S. refers to the laws and courts that deal directly with the disputes that arise between the 'people.'
+
+Things like family courts for divorce and child custody. Resolving property disputes between neighbors over the location of a fence. Employment lawsuits and contracts between businesses -- generally speaking--all of this falls under the category of the "civil law" in our system.
+
+This system of civil laws is different from our system of 'criminal laws' that generally refer to situations where the governemnt is seeking to punish someone for their conduct. Again, I am over-simplifying things here, but typically when the government is a party in a case or controversy--it is a matter of criminal law.
+
+Additionally, just to be clear, while the civil and criminal laws systems are the most well-known and studied, but there is also a separate body of law referred to as administrative law that is governed by an entirely different set of rules and procedures. And as Dr. Cox mentioned there are also many specialized bodies of laws and courts that deal with juveniles or other special issues like immigration that operates outside of the traditional criminal and civil law systems.
+
+Law-psychology researchers in the U.S. include people with varying level of familiarity with the complexities of these systems. As Dr. Brank talked about earlier this week, the quirks of the legal system and practice of law in the U.S. is one reason why joint law and psychology programs exist. And given that the many differences between the civil and criminal systems matter a lot in terms of what law gets applies and who gets to make what decisions in what contexts--they also influence the type of law-psychology research that is conducted.
+:::
+:::
+
+## Law in the U.S.
+
+![](images/usmap.png){fig-align="center" width="80%"}
+
+::: notes
+Another structural feature of the U.S legal system that impacts law-psychology research here in U.S. is the unique division of power that exists between our federal government and the government of individual states. The 'law' in the U.S. is really best understand as a interconnected web of many different mini-legal systems that are run by semi-autonomous governments that are not required to listen to each other--but occasionally have to do what the federal government says.
+
+To make things more complicated we have also further divided our federal court system into 13 different 'circuit courts' or regions. These regions look mostly the same today as they did when they were first established in the late 19th century. Except based on the boundaries that made sense when they were first established back in the late 19th century except for: the 10th circuit which used to be part of the 8th circuit and the 11th circuit which used to be part of the 5th circuit. Before they got too big to manage.
+
+This means that the the meaning of the 'law' or the 'U.S. constitution' can vary significantly from colored region to colored region for long periods of time. Until such point at which our Supreme Court (which consists of 9 individuals with life-tenure) can (but only if they want to) weigh in to resolve the dispute. Something to keep in mind about that is very important to remember when you talk about the U.S. legal system is that many of its structures and features are based on what life was like in the late 19th century and therefore makes little to no logical sense to someone viewing the system today.
+
+The primary reason for all this is that the U.S. constitution--which has been mostly unchanged for the last 230 years except for a brief period directly following a civil war--established a federal government with limited powers and reserved a lot of the law-making authority to the states.
+
+As I understand it, and someone please correct me if I am wrong, but Colombia's much more recent constitution is also divided into smaller territories that are somewhat like our "States"-- but they don't have their own separate legislatures or court systems. And most of the power to make laws and enforce those laws is given to the central, federal government.
+
+But that is not how it works in the U.S. (for better or worse). Instead, each state has the authority to run its own little separate and partially independent legal system that can vary greatly from its next door neighbor. This vertical division of power between the federal government and the individual states is commonly referred to as the U.S. system of Federalism.
+:::
+
+## State vs Federal Law
+
+::: r-stack
+![](images/constitution.jpg){.fragment width="550"}
+
+![](images/fedstate.png){.fragment width="400"}
+
+![](images/judge.png){.fragment width="450"}
+
+![](images/bill.jpg){.fragment width="400"}
+:::
+
+::: notes
+One reason why this idea of Federalism is relevant to the types of research conducted in the US is that it results in a unusual division of 'state powers' between the federal government and the states.
+
+For example, in general, the criminal law--that is what conduct the government can punish someone for-- is a matter that is left up to the individual states. There are some exceptions of course--mostly in the realm of the Federal government's ability to set policy related to national security-- but generally speaking, the criminal law is not something that is uniform across the various states.
+
+The reason for this is that our constitution establishes a Federal government with limited powers and then the rest of those powers that a government might need to the states. Including what we call the 'police powers' which refers to the power to enact laws that promote the protection of safety, health, morals, prosperity, comfort, convenience and the general welfare of the public. So this means that most of the 'criminal laws' in the U.S. is actually referring to 50+ different sets of laws that may work the same way in some contexts but differently in others. And the primary role of the federal government in the criminal law context is to protect the individual Constitutional or statutory rights that all people in the United States have within these various systems.
+
+Now, if that sounds incredibly and ridiculously complicated and confusing--you would be correct! It is a very confusing system that most people--including people who spent three years in an American law school to become a lawyer-- don't fully understand either. But the key takeaway for all of you should be that the US system of federalism has had a profound influence on the way that the law functions in the US and therefore also the types of research questions that are asked by law-psychology researchers and the willingness of courts and other legal actors to implement ideas and solutions generated from that research.
+:::
+
+## Fourty Years of Law & Human Behavior
+
+::: columns
+::: {.column width="40%"}
+![](images/lhbold.jpg)
+:::
+
+::: {.column .incremental width="60%"}
+-   Official journal of APLS
+    -   Peer reviewed
+    -   Multidisciplinary forum
+    -   Range of articles:
+        -   original research
+        -   reviews
+        -   theory papers
+:::
+:::
+
+::: notes
+Which brings us back to the main question we want to answer today: which is what types of law-psychology research is conducted and published in the US? Well as I mentioned before, one of the best ways to try to understand the range of research is to take a deep dive into the articles published in Law and Human Behavior. There are many reasons why it makes sense to focus on this journal: it is the official publication of the American Psychology-Law Society which is the division of APA dedicated to law-psychology.
+
+It is also a great journal because of the quality of editors and reviewers it has in relation to the field. Its focus on encouraging multidisciplinary perspectives and its explicit focus on publishing research that involves the intersection of these two disiplines of law and psychology.
+
+The editorial board members for that first issue represented the following fields outside psychology: sociology, criminology, psychiatry, social ethics, political science, law, and anthropology. From psychology, the editorial board members were from a wide variety of areas including clinical, social, and community psychology.
+
+The journal is also known for being open to publishing different kinds of research. It publishes original experimental work as well as subject area reviews and theoretical or concept papers. In other words, it is probably the most versatile and important journals in the field. But it is by no means the only journal that people go to publish law-psychology research.
+:::
+
+## Journal Impact {.smaller}
+
+| Journals                      | 2017     | 2022     |
+|-------------------------------|----------|----------|
+| Behavioral and Brain Sciences | 23.55    | 21.36    |
+| Psychological Bulletin        | 14.46    | 23.03    |
+| American Psychologist         | 9.73     | 16.36    |
+| Harvard Law Review            | 3.94     | 6.03     |
+| **Law and Human Behavior**    | **2.16** | **3.87** |
+| Psych, Public Policy & Law    | 1.93     | 3.32     |
+| Applied Cognitive Psychology  | 1.67     | 2.36     |
+| Behavioral Sciences & the Law | .96      | 2.57     |
+| Law and Society Review        | 1.73     | 2.59     |
+| Legal & Criminological Psych  | 1.65     | 1.76     |
+| Psychology, Crime and Law     | .69      | 1.75     |
+| Law and Social Inquiry        | 1.14     | 1.40     |
+
+::: notes
+Here is a list of many of the other major peer reviewed journals that publish law-psychology research in the U.S. along with their journal impact factor.
+
+The Journal Impact factor is calculated by taking the number of times articles from a particular journal were cited and dividing by the number of scholarly items that could have been cited from all published journals in the previous two years. So the higher the number, the more that journal was circulated and read.
+
+This table can therefore give you an idea of how important Law and human behavior is to the field. The only journals that tend to publish research in law-psychology that have a higher impact factor are journals that not law-psychology focused in the same way. Behavioral and brain science and psychological bulletin publish and American psychologist are forums that mostly publishes articles unrelated to the law. And the Harvard law review is primarily a vehicle for legal scholarship that may or may include an empirical or social sciences component.
+
+Also, as you can see, the impact factor for Law and Human Behavior is currently 3.87. But it was only 2.82 a few years ago when this analysis was conducted. Suggesting that the importance of this journal is only continuing to grow over time.
+
+Can be found at: https://journalimpact.org/
+:::
+
+## Method
+
+::: columns
+::: {.column width="30%"}
+![](images/file.png)
+:::
+
+::: {.column .incremental width="70%"}
+-   Comprehensive review
+-   Four research assistants
+    -       Overlapped on n = 25%
+
+    -       On average, each coded 450 articles (range: 447-455)
+-   N = 1320 articles from 1977-2014 (vol. 38, issue 3)
+    -       Removed non-research items
+:::
+:::
+
+::: notes
+So after selecting Law and Human Behavior as the journal to examine for this project, we conducted a comprehensive review of the articles that have been published in its many volumes. To do this we had four research assistants review and code all of the qualifying articles. Also removed articles that were obituaries, editor's notes or introductions, error corrections
+:::
+
+## Coded Variables
+
+::: columns
+::: {.column width="30%"}
+![](images/process.png)
+:::
+
+::: {.column .incremental width="70%"}
+| General Information |
+|---------------------|
+| Research topic(s)   |
+| Citations (#)       |
+:::
+:::
+
+::: notes
+Each article was coded for several different types of information but I will focus on a subset of the variables in this presentation because of time. Variables coded included the topic or primary research area for each article (based on 30 categories) and number of citations according to Google Scholar. To do this we used the citation numbers provided by Google scholar because that service captures information from many of the different places where articles can be cited in relevant journals and other outlets.
+:::
+
+## Coded Variables
+
+::: columns
+::: {.column width="30%"}
+![](images/process.png)
+:::
+
+::: {.column .incremental width="70%"}
+| Research Method          |
+|--------------------------|
+| Sample                   |
+| Specific research method |
+:::
+:::
+
+::: notes
+We also coded for specific research methods such as whether it was a lab study, field study, meta-analysis, survey, interview, observational (14 categories) -- they could be part of more than one category.
+:::
+
+## Coded Variables
+
+::: columns
+::: {.column width="30%"}
+![](images/process.png)
+:::
+
+::: {.column .incremental width="70%"}
+| Connection to Law                                       |
+|---------------------------------------------------------|
+| Area of law                                             |
+| Reference to case law                                   |
+| Reference to statute(s)                                 |
+| Reference to state or federal constitutional amendments |
+| Reference to specific policy                            |
+:::
+:::
+
+::: notes
+We also coded for the specific area of law AND reference to legal doctrine including: reference to case law, reference to statute(s), reference to state or federal constitutional amendment(s), and reference to specific policy. The later 4 variables were coded for level of analysis -- we had 3 levels -- (1) no mention, (2) but only mentions, such as in the literature review, and (3) deeper legal analysis.
+:::
+
+## Coded Variables
+
+::: columns
+::: {.column width="30%"}
+![](images/process.png)
+:::
+
+::: {.column .incremental width="70%"}
+| Connection to Psychology            |
+|-------------------------------------|
+| Area of psychology                  |
+| Application of psychological theory |
+:::
+:::
+
+::: notes
+Finally, we also coded for connection to psychology -- the specific area of psychology AND reference to psychological theory and the specific theories referenced
+:::
+
+## Primary Research Areas
+
+```{r}
+#| label: Bar chart for primary research area
+
+library(ggplot2)
+library(dplyr)
+
+cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+
+area_bar <- full_bar |>
+  mutate(perc = paste0(sprintf("%4.1f", n / sum(n) * 100), "%"),
+  perc = if_else(row_number() == 1, paste(perc, "of all articles"), perc),
+    color = case_when(
+      row_number() == 1 ~ "#F0E442",
+      row_number() == 2 ~ "#E69F00",
+      row_number() == 3 ~ "#56B4E9",
+      row_number() == 4 ~ "#009E73",
+      row_number() == 5 ~ "#CC79A7",
+      row_number() == 6 ~ "#0072B2",
+      row_number() == 7 ~ "#D55E00",
+      TRUE ~ "gray70"
+    ),
+  perc = paste(" ", perc, " ")
+  )
+
+area_bar |>
+  mutate(
+    place = if_else(row_number() == 1, 1, 0),
+    ## add some spacing to labels since we cant use nudge_x anymore
+    perc = paste(" ", perc, " ")
+  ) %>% 
+  ggplot(aes(x = n, y = gen_area, fill = color)) +
+  geom_col() +
+  geom_text(
+    aes(label = perc, hjust = place), 
+    size = 5, fontface = "bold"
+  ) +
+  scale_x_continuous(expand = c(.01, .01)) +
+  scale_fill_identity(guide = "none") +
+  theme_void() +
+  theme(
+    axis.text.y = element_text(size = 14, hjust = 1),
+    plot.margin = margin(rep(15, 4)),
+    plot.background = element_rect(fill = "transparent",
+                                color = "#aa2233",
+                                size = 3),
+    
+  )
+```
+
+::: notes
+Here are the 6 most popular research areas. Together they account for \~60% of the research articles published in 'Law and Human Behavior' during this time.
+
+The largest coded research areas include.... - Witnesses (18%) - defined as anything with in court testimony provided by people with specialized knowledge for one reason or another. This 18% value includes at least three distinct subcategories of witness related research: eyewitness memory (11%), child witnesses (4%) and expert witnesses (4%) that we will take a closer look at in more detail later on. But for now, it is easier to think about all this research within the same category as this topic involves laws of evidence and how courts determine what types of information is relevant or trustworthy in different legal settings.
+
+-   Jury decision-making (15%) - this includes research on both criminal and civil juries.
+
+-   Public policy (9%) -- defined as anything related to analysis of a law or public policy
+
+-   Risk assessment (6%)
+
+-   Mental health/mental illness (9%) - defined as anything with assessment, mental health and crime, including issues related to malingering and psychopathy but notably does not include research on competency, insanity, or risk assessment. It is also worth noting that 4% of this 9% includes papers specifically focused on the psychopathy...but I have combined the two categories today for our convenience as we attempt to grapple with the wide-variety of research topics covered by the field.
+
+-   The final highlighted area of research is Juvenile law (4%) which I believe Dr. Cox talked about at length.
+
+The other 36% of research focused on one or more of the 27 others categories of research topics I refer to as "all other" on this chart.
+:::
+
+## "all other" research areas
+
+::: r-stack
+![](images/porn.jpg){.fragment width="500"}
+
+![](images/police.png){.fragment width="350"}
+
+![](images/interrogation.jpg){.fragment width="400"}
+:::
+
+::: notes
+This "all other" category I included here consists of many important topics that relate to both the criminal and civil legal systems including topics related to police like false confessions, plea bargaining, corrections, sex offenders, probation/reentry/parole, false confessions, plea bargaining, race/ethnicity within the legal system, etc.)
+
+But it is also important to remember that many law-psychology articles cover multiple research topics. For example, some research on the topic of 'risk assessment' may focus primarily on certain specialized like 'sex offenders'. Yet, other research on the topic 'sex offenders' may not cover any issues related to 'risk assessment' and instead focus on the way that probation/reentry/parole policies or civil commitment statutes are applied to cases involving this population.
+
+In other words, because many legal issues are complex and involve multiple areas of the law or target specific populations--research in law-psychology is also (by necessity) similarly complex and multifaceted. Take for example the most topic of 'witnesses' that accounted for 19% of the research articles.
+:::
+
+## Types of "Witnesses" {.incremental}
+
+::: columns
+::: {.column width="25%"}
+:::
+
+::: {.column width="50%"}
+![](images/eyewitness.png) Eyewitness Memory \~ 12%
+:::
+
+::: {.column width="25%"}
+:::
+:::
+
+## Types of "Witnesses" {.incremental}
+
+::: columns
+::: {.column width="25%"}
+Child Witnesses \~4% ![](images/child.png)
+:::
+
+::: {.column width="50%"}
+![](images/eyewitness.png)
+:::
+
+::: {.column width="25%"}
+Expert Witnesses \~4% ![](images/expert.gif)
+:::
+:::
+
+::: notes
+::: notes
+We can break this broader category down into at least three large subcategories: eyewitness memory, child witnesses, and expert witnesses.
+
+Eyewitness memory research accounts for the largest percentage of this category (11%) and sometimes looks very different from research on child witnesses or experts witnesses. But not always. For example, child witness research sometimes focuses on the ways that children process, encode and store information. But other research focuses more on the psychological experiences of children who are asked to testify about something in court. Although much of this research focuses on cases involving sensitive topics like child abuse that are primarily issues of criminal law; other research focuses on the role of child witnesses in domestic disputes such as in family law cases or in civil litigation.
+
+The same sort of diversity exists in research on eyewitness memory. Some of this research focuses on how factors like the race of someone or the presence of absence of a weapon might impact the accuracy of peoples memory for an event. But in other cases, such as the scientific review paper I mentioned earlier, researchers are focused more on how specific procedures and practices within the court system impact things like the rights of criminal defendants or the decisions made by judges and juries as fact-finders.
+
+Meanwhile "expert" witnesses play an entirely differently role in the U.S legal system. Their primary function is to supply courts and fact-finders like juries and judges with 'specialized' knowledge that regular folks without domain-specific expertise need in a particular case. This area of 'witness' research is one where those distinction between federal and state law and civil versus criminal law creates lots of confusion. The federal court system has an entirely different set of rules and procedures for qualifying an expert or evaluating their testimony than some of the states. Whereas other states just choose to replicate the federal way of doing things. This sort of built-in variation within the law impacts the types of questions that law-psychology researchers ask and explore in their work.
+
+But another factor that has influenced the popularity of certain research topics is time.
+:::
+:::
+
+## Research Areas Over Time
+
+![](images/lhbold.jpg){fig-align="center"}
+
+::: notes
+Given that this data refers to thousands of individual research articles published over several decades of time. It is still worth taking a closer look at how the popularity of certain research areas has shifted over time.
+:::
+
+## Research Areas Over Time
+
+![](images/research-areas-new.gif){fig-align="center"}
+
+::: notes
+This line chart shows how many articles within each major research areas was published overtime. As you can see, the popularity of certain topics has shifted along with other developments in the law and american society. To get a better understanding we can look individually at the trends for each research area.
+:::
+
+## Research Over Time: Witnesses
+
+```{r}
+#| label: Line for Research Area data by time EYEWITNESS, CHILD, and EXPERT
+
+library(ggplot2)
+library(gganimate)
+library(hrbrthemes)
+library(lubridate)
+library(dplyr)
+library(forcats)
+
+colswit <- c("#009E73", "#F0E442", "#0072B2", "gray", "gray", "gray", "gray", "gray")
+
+line <- fulltime %>% 
+  group_by(gen_area, decade) %>% 
+  mutate(count=n()) %>%
+  ungroup() |>
+  mutate(gen_area = stringr::str_to_title(gen_area))
+
+ linecomplete <- line[complete.cases(line), ]
+
+linecomplete %>%
+  ggplot( aes(x=year, y=count, color=gen_area)) +
+    geom_line(linetype = 1,
+              lwd = 1.3) +
+    scale_color_manual(values = colswit) +
+    theme_ipsum() +
+    theme(legend.text = element_text(size=12),
+          legend.title = element_text(size=14),
+          legend.key.height=unit(1, 'cm'),
+          legend.key.width=unit(1, 'cm')) +
+    ylab("Number of Articles") +
+    xlab("Year") +
+    guides(color = guide_legend(title = "Research Area"))
+
+```
+
+::: notes
+FIRST -- We can take a closer look at the data for witnesses broken up into the three main categories. As you can see, whereas eyewitnesses (blue) has seen an increase from the mid-90s to the present time, child witnesses saw a decline from the mid-90s until present time (green), where as expert witnesses (yellow), which was one of the more popular topics in the 70s and 80s, has declined significantly by 2010
+:::
+
+## Research Areas Over Time: Risk Assessment
+
+```{r}
+#| label: Line for Research Area data by time RISK ASSESS
+
+library(ggplot2)
+library(gganimate)
+library(hrbrthemes)
+library(lubridate)
+library(dplyr)
+library(forcats)
+
+cols <- c("gray", "gray", "gray", "gray", "gray", "gray", "gray", "#aa2233")
+
+line <- fulltime %>% 
+  group_by(gen_area, decade) %>% 
+  mutate(count=n()) %>%
+  ungroup() |>
+  mutate(gen_area = stringr::str_to_title(gen_area))
+
+ linecomplete <- line[complete.cases(line), ]
+
+linecomplete %>%
+  ggplot( aes(x=year, y=count, color=gen_area)) +
+    geom_line(linetype = 1,
+              lwd = 1.3) +
+    scale_color_manual(values = cols) +
+    theme_ipsum() +
+    theme(legend.text = element_text(size=12),
+          legend.title = element_text(size=14),
+          legend.key.height=unit(1, 'cm'),
+          legend.key.width=unit(1, 'cm')) +
+    ylab("Number of Articles") +
+    xlab("Year") +
+    guides(color = guide_legend(title = "Research Area"))
+
+```
+
+::: notes
+SECOND -- Here we can see how the popularity of the topic of risk assessment has shifted over time. Keep in mind the last data time point only includes 8 years (whereas the rest include 10 years) FIRST -- risk assessment (orange) has steadily increased
+:::
+
+## Research Areas Over Time: Mental health
+
+```{r}
+#| label: Line for Research Area data by time mental health
+
+library(ggplot2)
+library(gganimate)
+library(hrbrthemes)
+library(lubridate)
+library(dplyr)
+library(forcats)
+
+cols <- c("gray", "gray", "gray", "gray", "gray", "#aa2233", "gray", "gray")
+
+line <- fulltime %>% 
+  group_by(gen_area, decade) %>% 
+  mutate(count=n()) %>%
+  ungroup() |>
+  mutate(gen_area = stringr::str_to_title(gen_area))
+
+ linecomplete <- line[complete.cases(line), ]
+
+linecomplete %>%
+  ggplot( aes(x=year, y=count, color=gen_area)) +
+    geom_line(linetype = 1,
+              lwd = 1.3) +
+    scale_color_manual(values = cols) +
+    theme_ipsum() +
+    theme(legend.text = element_text(size=12),
+          legend.title = element_text(size=14),
+          legend.key.height=unit(1, 'cm'),
+          legend.key.width=unit(1, 'cm')) +
+    ylab("Number of Articles") +
+    xlab("Year") +
+    guides(color = guide_legend(title = "Research Area"))
+
+```
+
+## Research Areas Over Time: Public Policy
+
+```{r}
+#| label: Line for Research Area data by time PUBLIC POLICY
+
+library(ggplot2)
+library(gganimate)
+library(hrbrthemes)
+library(lubridate)
+library(dplyr)
+library(forcats)
+
+cols <- c("gray", "gray", "gray", "gray", "gray", "gray", "#aa2233", "gray")
+
+line <- fulltime %>% 
+  group_by(gen_area, decade) %>% 
+  mutate(count=n()) %>%
+  ungroup() |>
+  mutate(gen_area = stringr::str_to_title(gen_area))
+
+ linecomplete <- line[complete.cases(line), ]
+
+linecomplete %>%
+  ggplot( aes(x=year, y=count, color=gen_area)) +
+    geom_line(linetype = 1,
+              lwd = 1.3) +
+    scale_color_manual(values = cols) +
+    theme_ipsum() +
+    theme(legend.text = element_text(size=12),
+          legend.title = element_text(size=14),
+          legend.key.height=unit(1, 'cm'),
+          legend.key.width=unit(1, 'cm')) +
+    ylab("Number of Articles") +
+    xlab("Year") +
+    guides(color = guide_legend(title = "Research Area"))
+
+```
+
+::: notes
+THIRD -- public policy has had a steady decline (light blue), as well as mental health law (purple), which demonstrated an increase from the early years into the early 90s and has steadily decreased since then
+:::
+
+## Research Areas Over Time: Juvenile Law
+
+```{r}
+#| label: Line for Research Area data by time JUVENILE
+
+library(ggplot2)
+library(gganimate)
+library(hrbrthemes)
+library(lubridate)
+library(dplyr)
+library(forcats)
+
+cols <- c("gray", "gray", "gray", "gray", "#aa2233", "gray", "gray", "gray")
+
+line <- fulltime %>% 
+  group_by(gen_area, decade) %>% 
+  mutate(count=n()) %>%
+  ungroup() |>
+  mutate(gen_area = stringr::str_to_title(gen_area))
+
+ linecomplete <- line[complete.cases(line), ]
+
+linecomplete %>%
+  ggplot( aes(x=year, y=count, color=gen_area)) +
+    geom_line(linetype = 1,
+              lwd = 1.3) +
+    scale_color_manual(values = cols) +
+    theme_ipsum() +
+    theme(legend.text = element_text(size=12),
+          legend.title = element_text(size=14),
+          legend.key.height=unit(1, 'cm'),
+          legend.key.width=unit(1, 'cm')) +
+    ylab("Number of Articles") +
+    xlab("Year") +
+    guides(color = guide_legend(title = "Research Area"))
+
+```
+
+::: notes
+FOURTH -- Juvenile law, which steadily increased, saw a bigger jump from the mid-90s early 2000's until today.
+:::
+
+## Research Areas Over Time: Jury decision-making
+
+```{r}
+#| label: Line for Research Area data by time jury
+
+library(ggplot2)
+library(gganimate)
+library(hrbrthemes)
+library(lubridate)
+library(dplyr)
+library(forcats)
+
+cols <- c("gray", "gray", "gray", "#aa2233", "gray", "gray", "gray", "gray")
+
+line <- fulltime %>% 
+  group_by(gen_area, decade) %>% 
+  mutate(count=n()) %>%
+  ungroup() |>
+  mutate(gen_area = stringr::str_to_title(gen_area))
+
+ linecomplete <- line[complete.cases(line), ]
+
+linecomplete %>%
+  ggplot( aes(x=year, y=count, color=gen_area)) +
+    geom_line(linetype = 1,
+              lwd = 1.3) +
+    scale_color_manual(values = cols) +
+    theme_ipsum() +
+    theme(legend.text = element_text(size=12),
+          legend.title = element_text(size=14),
+          legend.key.height=unit(1, 'cm'),
+          legend.key.width=unit(1, 'cm')) +
+    ylab("Number of Articles") +
+    xlab("Year") +
+    guides(color = guide_legend(title = "Research Area"))
+
+```
+
+::: notes
+FIFTH and probably the most dramatic... jury decision-making, which was a top area in the early years -- increased during the late 80s until mid-2000, and has since declined. (and passed by eyewitnesses).
+:::
+
+## Eyewitness > Juries
+
+```{r}
+#| label: Line for Research Area data by time JURY and eye
+
+library(ggplot2)
+library(gganimate)
+library(hrbrthemes)
+library(lubridate)
+library(dplyr)
+library(forcats)
+
+cols <- c("gray", "gray", "#0072B2", "#aa2233", "gray", "gray", "gray", "gray")
+
+line <- fulltime %>% 
+  group_by(gen_area, decade) %>% 
+  mutate(count=n()) %>%
+  ungroup() |>
+  mutate(gen_area = stringr::str_to_title(gen_area))
+
+ linecomplete <- line[complete.cases(line), ]
+
+linecomplete %>%
+  ggplot( aes(x=year, y=count, color=gen_area)) +
+    geom_line(linetype = 1,
+              lwd = 1.3) +
+    scale_color_manual(values = cols) +
+    theme_ipsum() +
+    theme(legend.text = element_text(size=12),
+          legend.title = element_text(size=14),
+          legend.key.height=unit(1, 'cm'),
+          legend.key.width=unit(1, 'cm')) +
+    ylab("Number of Articles") +
+    xlab("Year") +
+    guides(color = guide_legend(title = "Research Area"))
+
+```
+
+::: notes
+In fact Jury Decision making research has declined so much that eyewitness memory research alone has far surpassed it as the most common topic in the later decades. Go back to first slide
+:::
+
+## Research Areas Over Time
+
+![](images/research-areas-new.gif){fig-align="center"}
+
+## Most Citations
+
+## Most Citations
+
+::: columns
+::: {.column width="50%"}
+Risk Assessment\
+Hanson & Thornton (2000) ![](images/risk_ass.png)
+:::
+
+::: {.column width="50%"}
+Eyewitness memory\
+Wells et al (1998) ![](images/wells_1998.png)
+:::
+:::
+
+::: notes
+Another useful metric of popularity is the number of times articles are cited.
+
+Highest cited at 839 citations at the time we coded -- was a paper published in 2000 that compared 3 actuarial scales in sex offender risk assessment.
+
+The second highest cited paper at the time (with 709 citations) was the Wells et al (1998) article we already talked about earlier. This was the first Official Scientific Review Paper of AP-LS and provides recommendations for lineups and photo spreads.
+
+Together these papers provide us with some evidence that the field has had an impact -- both articles are from the latter half of the four decades examined.
+:::
+
+## 20 Most Cited Papers {.scrollable .smaller}
+
+| Author(s) (year)              | Article title                                                                                                                                                 | Research topic(s)                                        | 2017 | 2022 |
+|---------------|---------------|---------------|---------------|---------------|
+| Hanson and Thornton (2000)    | Improving risk assessments for sex offenders: a comparison of three actuarial scales                                                                          | Risk assessment; sex offenders                           | 994  | 1578 |
+| Wells et al. (1998)           | Eyewitness identiﬁcation procedures: Recommendations for lineups and photospreads                                                                             | Eyewitnesses and memory                                  | 883  | 1346 |
+| Bornstein (1999)              | The ecological validity of jury simulations: Is the jury still out?                                                                                           | Jury or judicial decision making                         | 694  | 1059 |
+| Rice et al. (1992)            | An evaluation of a maximum security therapeutic community for psychopaths and other mentally disordered offenders                                             | Psychopathy; mentally ill offenders and psych. Patients  | 627  | 951  |
+| Steinberg and Cauffman (1996) | Maturity of judgment in adolescence: Psychosocial factors in adolescent decision making                                                                       | Competency and criminal responsibility; juvenile justice | 570  | 1010 |
+| Harris et al. (1991)          | Psychopathy and violent recidivism                                                                                                                            | Psychopathy; criminal offending/recidivism               | 547  | 850  |
+| Loftus et al. (1987)          | Some facts about ''weapon focus''                                                                                                                             | Eyewitnesses and memory                                  | 518  | 885  |
+| Grisso and Appelbaum (1995)   | The MacArthur Treatment Competence Study. III---Abilities of Patients to consent to psychiatric and medical treatments                                        | Competency and criminal responsibility                   | 493  | 643  |
+| Rice and Harris (1997)        | Cross-validation and extension of the Violence Risk Appraisal Guide for child molesters and rapists                                                           | Risk assessment; sex offenders                           | 463  | 662  |
+| Rice and Harris (2005)        | Comparing effect sizes in follow-up studies: ROC area, Cohen's d, and r                                                                                       | General psych and law                                    | 458  | 1672 |
+| Grisso et al. (2003)          | Juveniles' competence to stand trial: A comparison of adolescents' and adults' capacities as trial defendants                                                 | Juvenile justice; competency and criminal responsibility | 443  | 810  |
+| Goodman and Reed (1986)       | Age differences in eyewitness testimony                                                                                                                       | Eyewitnesses and memory                                  | 437  | 635  |
+| Slovic et al. (2000)          | Violence risk assessment and risk communication: The effects of using actual cases, providing instruction, and employing probability versus frequency formats | Risk assessment                                          | 435  | 702  |
+| Kassin et al. (2010)          | Police-induced confessions: Risk factors and recommendations                                                                                                  | Confessions and interrogations                           | 425  | 1017 |
+| Appelbaum and Grisso (1995)   | The MacArthur Treatment Competence Study. I---Mental Illness and competence to consent to treatment                                                           | Competency and criminal responsibility                   | 424  | 618  |
+| Leistico et al. (2008)        | A large-scale meta-analysis relating the hare measures of psychopathy to antisocial conduct                                                                   | Risk assessment; psychopathy                             | 424  | 930  |
+| Seagrave and Grisso (2002)    | Adolescent development and the measurement of juvenile psychopathy                                                                                            | Psychopathy; juvenile justice                            | 419  | 676  |
+| Steblay (1992)                | A meta-analytic review of the weapon focus effect                                                                                                             | Eyewitnesses and memory                                  | 406  | 656  |
+| Deffenbacher et al. (2004)    | A meta-analytic review of the effects of high stress on eyewitness memory                                                                                     | Eyewitnesses and memory                                  | 402  | 749  |
+| Baker and Emery (1993)        | When every relationship is above average--- Perceptions and expectations of divorce at the time of marriage                                                   | Family issues                                            | 390  | 552  |
+
+::: notes
+If we expand beyond those two papers to the top 20 most cited articles, we can get an even better idea of what topics are most often cited. In this chart we all those papers as well as the number of citations they had in 2017 and the number of citations they have now in 2022 -- a mere 5 years later.
+
+Many papers have been cited many, many times more recently.
+:::
+
+## Sample
+
+```{r}
+#| label: Bar Chart for sample type
+
+library(ggplot2)
+library(dplyr)
+
+sample <- data.frame(names = c("Students", "Community members", "Criminal", "Judges",
+                               "Jurors", "Attorneys", "CJ professionals",
+                               "Experts", "Military"),
+                     n = c(288, 203, 118, 15, 16, 15, 17, 16, 1))
+
+cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+
+sample_bar <- sample |>
+  mutate(perc = paste0(sprintf("%4.1f", n / sum(n) * 100), "%"),
+  perc = if_else(row_number() == 1, paste(perc, "of all articles"), perc),
+    color = case_when(
+      row_number() == 1 ~ "#F0E442",
+      row_number() == 2 ~ "#E69F00",
+      row_number() == 3 ~ "#56B4E9",
+      row_number() == 4 ~ "#009E73",
+      row_number() == 5 ~ "#CC79A7",
+      row_number() == 6 ~ "#0072B2",
+      row_number() == 7 ~ "#D55E00",
+      TRUE ~ "gray70"
+    ),
+  perc = paste(" ", perc, " ")
+  )
+
+sample_bar |>
+  mutate(
+    place = if_else(row_number() == 1, 1, 0),
+    ## add some spacing to labels since we cant use nudge_x anymore
+    perc = paste(" ", perc, " ")
+  ) %>% 
+  ggplot(aes(x = n, y = names, fill = color)) +
+  geom_col() +
+  geom_text(
+    aes(label = perc, hjust = place), 
+    size = 5, fontface = "bold"
+  ) +
+  scale_x_continuous(expand = c(.01, .01)) +
+  scale_fill_identity(guide = "none") +
+  theme_void() +
+  theme(
+    axis.text.y = element_text(size = 14, hjust = 1),
+    plot.margin = margin(rep(15, 4)),
+    plot.background = element_rect(fill = "transparent",
+                                color = "#aa2233",
+                                size = 3),
+    
+  )
+```
+
+::: notes
+For those that included a study.... ... we coded for all of these categories. Students are the highest category, followed by community members, then criminal offenders.
+
+Less so.... Are studies that involve decision-makers within the legal system.
+:::
+
+## Specific Type of Study
+
+```{r}
+#| label: Bar Chart for methods
+
+library(ggplot2)
+library(dplyr)
+
+method <- data.frame(names = c("Mixed method", "Self-report or Survey", "Lab study", 
+                               "True experiment","Archival", "Interview", "Content analysis",
+                               "Meta-analysis", "Quasi-experiment", "Field study",
+                               "Observational", "Case study", "Computer simulation"
+                               ),
+                     n = c(175, 128, 127, 101, 75, 58, 38, 18, 13, 12, 9, 4, 2))
+
+cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+
+method_bar <- method |>
+  mutate(perc = paste0(sprintf("%4.1f", n / sum(n) * 100), "%"),
+  perc = if_else(row_number() == 1, paste(perc, "of all articles"), perc),
+    color = case_when(
+      row_number() == 1 ~ "#F0E442",
+      row_number() == 2 ~ "#E69F00",
+      row_number() == 3 ~ "#56B4E9",
+      row_number() == 4 ~ "#009E73",
+      row_number() == 5 ~ "#CC79A7",
+      row_number() == 6 ~ "#0072B2",
+      row_number() == 7 ~ "#D55E00",
+      TRUE ~ "gray70"
+    ),
+  perc = paste(" ", perc, " ")
+  )
+
+method_bar |>
+  mutate(
+    place = if_else(row_number() == 1, 1, 0),
+    ## add some spacing to labels since we cant use nudge_x anymore
+    perc = paste(" ", perc, " ")
+  ) %>% 
+  ggplot(aes(x = n, y = names, fill = color)) +
+  geom_col() +
+  geom_text(
+    aes(label = perc, hjust = place), 
+    size = 5, fontface = "bold"
+  ) +
+  scale_x_continuous(expand = c(.01, .01)) +
+  scale_fill_identity(guide = "none") +
+  theme_void() +
+  theme(
+    axis.text.y = element_text(size = 14, hjust = 1),
+    plot.margin = margin(rep(15, 4)),
+    plot.background = element_rect(fill = "transparent",
+                                color = "#aa2233",
+                                size = 3),
+    
+  )
+```
+
+::: notes
+For those articles that included an experiment or study.... ... we coded for all of these categories. Students are the highest category, followed by community members, then criminal offenders.
+
+Less so.... Are studies that involve decision-makers within the legal system.
+:::
+
+## Area of Law
+
+```{r}
+#| label: Bar Chart for law
+
+library(ggplot2)
+library(dplyr)
+
+law <- data.frame(names = c("Criminal Law", "Mental Health", "Juvenile Law", 
+                               "Constitutional Law", "Family Law", "Employment Law", 
+                               "Torts", "Contracts", "Property", "ADR", "Military Law"
+                               ),
+                     n = c(655, 232, 57, 34, 20, 20, 20, 5, 4, 2, 1))
+
+law_bar <- law |>
+  mutate(perc = paste0(sprintf("%4.1f", n / sum(n) * 100), "%"),
+  perc = if_else(row_number() == 1, paste(perc, "of all articles"), perc),
+    color = case_when(
+      row_number() == 1 ~ "#F0E442",
+      row_number() == 2 ~ "#E69F00",
+      row_number() == 3 ~ "#56B4E9",
+      row_number() == 4 ~ "#009E73",
+      row_number() == 5 ~ "#CC79A7",
+      row_number() == 6 ~ "#0072B2",
+      row_number() == 7 ~ "#D55E00",
+      TRUE ~ "gray70"
+    ),
+  perc = paste(" ", perc, " ")
+  )
+
+law_bar |>
+  mutate(
+    place = if_else(row_number() == 1, 1, 0),
+    ## add some spacing to labels since we cant use nudge_x anymore
+    perc = paste(" ", perc, " ")
+  ) %>% 
+  ggplot(aes(x = n, y = names, fill = color)) +
+  geom_col() +
+  geom_text(
+    aes(label = perc, hjust = place), 
+    size = 5, fontface = "bold"
+  ) +
+  scale_x_continuous(expand = c(.01, .01)) +
+  scale_fill_identity(guide = "none") +
+  theme_void() +
+  theme(
+    axis.text.y = element_text(size = 14, hjust = 1),
+    plot.margin = margin(rep(15, 4)),
+    plot.background = element_rect(fill = "transparent",
+                                color = "#aa2233",
+                                size = 3),
+
+  )
+```
+
+::: notes
+If we look at some of the core areas of law -- the majority of the research is within criminal law, followed by mental health law. But again, because the US legal system is so confusing and complex, there are many research topics that involve the intersection of mental health law and criminal law or other areas.
+
+It is worth noting, however, that many other areas of law are less represented despite being ripe for empirical inquiry.
+:::
+
+## Reference to Legal Doctrine
+
+```{r}
+#| label: Bar Chart for legal doctrine
+
+library(ggplot2)
+library(dplyr)
+library(patchwork)
+
+no_mention <- data.frame(names = c("Case Law", "Statute", "Constitution","Public Policy"),
+                     n = c(765, 1192, 1234, 1208)
+                     )
+
+none_bar <- no_mention |>
+  mutate(perc = paste0(sprintf("%4.1f", n / sum(n) * 100), "%"),
+  perc = if_else(row_number() == 1, paste(perc, "of all articles"), perc),
+    color = case_when(
+      row_number() == 1 ~ "#F0E442",
+      row_number() == 2 ~ "#E69F00",
+      row_number() == 3 ~ "#56B4E9",
+      row_number() == 4 ~ "#009E73",
+      row_number() == 5 ~ "#CC79A7",
+      row_number() == 6 ~ "#0072B2",
+      row_number() == 7 ~ "#D55E00",
+      TRUE ~ "gray70"
+    ),
+  perc = paste(" ", perc, " ")
+  )
+
+law1 <- none_bar |>
+  ggplot(aes(x = n, y = names, fill = color)) +
+  geom_col() +
+  geom_text(
+    aes(label = perc), 
+    hjust = 1, nudge_x = -.5,
+    size = 3.5, fontface = "bold"
+  ) +
+  scale_x_continuous(expand = c(.01, .01)) +
+  scale_fill_identity(guide = "none") +
+  theme_void() +
+  theme(
+    axis.text.y = element_text(size = 12, hjust = 1),
+    plot.margin = margin(rep(15, 4)),
+    plot.background = element_rect(fill = "transparent",
+                                color = "#aa2233",
+                                size = 3),
+    ) +
+  labs(title = "No mention") +
+  theme(plot.title = element_text(size = 14,
+                                  color = "#aa2233",
+                                  face='bold'
+        )
+  )
+
+
+
+only_mention <- data.frame(names = c("Case Law", "Statute", "Constitution","Public Policy"),
+                     n = c(274, 77, 34, 48)
+                     )
+
+only_bar <- only_mention |>
+  mutate(perc = paste0(sprintf("%4.1f", n / sum(n) * 100), "%"),
+  perc = if_else(row_number() == 1, paste(perc, "of all articles"), perc),
+    color = case_when(
+      row_number() == 1 ~ "#F0E442",
+      row_number() == 2 ~ "#E69F00",
+      row_number() == 3 ~ "#56B4E9",
+      row_number() == 4 ~ "#009E73",
+      row_number() == 5 ~ "#CC79A7",
+      row_number() == 6 ~ "#0072B2",
+      row_number() == 7 ~ "#D55E00",
+      TRUE ~ "gray70"
+    ),
+  perc = paste(" ", perc, " ")
+  )
+
+law2 <- only_bar |>
+  ggplot(aes(x = n, y = names, fill = color)) +
+  geom_col() +
+  geom_text(
+    aes(label = perc), 
+    hjust = 1, nudge_x = -.5,
+    size = 3.5, fontface = "bold"
+  ) +
+  scale_x_continuous(expand = c(.01, .01)) +
+  scale_fill_identity(guide = "none") +
+  theme_void() +
+  theme(
+    axis.text.y = element_text(size = 12, hjust = 1),
+    plot.margin = margin(rep(15, 4)),
+    plot.background = element_rect(fill = "transparent",
+                                color = "#aa2233",
+                                size = 3),
+    ) +
+  labs(title = "Only mentions") +
+  theme(plot.title = element_text(size = 14,
+                                  color = "#aa2233",
+                                  hjust=1, vjust=0.5, face='bold', margin=margin(t=40,b=-30)
+        )
+  )
+
+
+
+## deeper
+deeper_analysis <- data.frame(names = c("Case Law", "Statute", "Constitution","Public Policy"),
+                     n = c(97, 47, 47, 59)
+                     )
+
+deep_bar <- deeper_analysis |>
+  mutate(perc = paste0(sprintf("%4.1f", n / sum(n) * 100), "%"),
+  perc = if_else(row_number() == 1, paste(perc, "of all articles"), perc),
+    color = case_when(
+      row_number() == 1 ~ "#F0E442",
+      row_number() == 2 ~ "#E69F00",
+      row_number() == 3 ~ "#56B4E9",
+      row_number() == 4 ~ "#009E73",
+      row_number() == 5 ~ "#CC79A7",
+      row_number() == 6 ~ "#0072B2",
+      row_number() == 7 ~ "#D55E00",
+      TRUE ~ "gray70"
+    ),
+  perc = paste(" ", perc, " ")
+  )
+
+law3 <- deep_bar |>
+  ggplot(aes(x = n, y = names, fill = color)) +
+  geom_col() +
+  geom_text(
+    aes(label = perc), 
+    hjust = 1, nudge_x = -.5,
+    size = 3.5, fontface = "bold"
+  ) +
+  scale_x_continuous(expand = c(.01, .01)) +
+  scale_fill_identity(guide = "none") +
+  theme_void() +
+  theme(
+    axis.text.y = element_text(size = 12, hjust = 1),
+    plot.margin = margin(rep(15, 4)),
+    plot.background = element_rect(fill = "transparent",
+                                color = "#aa2233",
+                                size = 3),
+    ) +
+  labs(title = "Deeper Analysis") +
+  theme(plot.title = element_text(size = 14,
+                                  color = "#aa2233",
+                                  hjust=1, vjust=0.5, face='bold', margin=margin(t=40,b=-30)
+        )
+  )
+
+## print plots
+law1 / law2 / law3
+```
+
+::: notes
+For these -- we coded for reference to case law, statute, federal and state amendments and public policy. The bars to the far left include "no mention" of any of these in the paper.
+
+When we look at papers that "mention briefly" or do a "Deeper analysis" -- we are including reference to case law ... but less so of the others...
+:::
+
+## Area of Psychology
+
+```{r}
+#| label: Bar chart for psychology
+
+psych_area <- data.frame(names = c("Social", "Clinical", "Cognitive", "Developmental"
+                               ),
+                     n = c(626, 240, 121, 44))
+
+
+psych_area_bar <- psych_area |>
+  mutate(perc = paste0(sprintf("%4.1f", n / sum(n) * 100), "%"),
+  perc = if_else(row_number() == 1, paste(perc, "of all articles"), perc),
+    color = case_when(
+      row_number() == 1 ~ "#F0E442",
+      row_number() == 2 ~ "#E69F00",
+      row_number() == 3 ~ "#56B4E9",
+      row_number() == 4 ~ "#009E73",
+      row_number() == 5 ~ "#CC79A7",
+      row_number() == 6 ~ "#0072B2",
+      row_number() == 7 ~ "#D55E00",
+      TRUE ~ "gray70"
+    ),
+  perc = paste(" ", perc, " ")
+  )
+
+psych_area_bar |>
+  mutate(
+    place = if_else(row_number() == 1, 1, 0),
+    ## add some spacing to labels since we cant use nudge_x anymore
+    perc = paste(" ", perc, " ")
+  ) %>% 
+  ggplot(aes(x = n, y = names, fill = color)) +
+  geom_col() +
+  geom_text(
+    aes(label = perc, hjust = place), 
+    size = 5, fontface = "bold"
+  ) +
+  scale_x_continuous(expand = c(.01, .01)) +
+  scale_fill_identity(guide = "none") +
+  theme_void() +
+  theme(
+    axis.text.y = element_text(size = 14, hjust = 1),
+    plot.margin = margin(rep(15, 4)),
+    plot.background = element_rect(fill = "transparent",
+                                color = "#aa2233",
+                                size = 3),
+    
+  )
+  
+  
+```
+
+::: notes
+Mostly social psychology, followed by clinical psychology and then cognitive. What seems to be less represented are developmental and neuro science -- but perhaps over the next 4 decades we will see a rise in brain or neuropsychology.
+:::
+
+## Did article apply psychological theory?
+
+```{r}
+#| label: Waffle chart for psych theory
+  
+library(waffle)
+
+
+yes <- data.frame(psyname = c("yes", "no"
+                               ),
+                     n = c(22, 78))
+
+
+pies <- setNames(yes$n, c('Yes', 'No'
+                    ))
+waffle(pies, rows=10, colors = c("gray", "#aa2233"), legend_pos='bottom')
+
+
+```
+
+## Application of Psychological Theory
+
+```{r}
+#| label: Bar Chart for psych theory
+
+library(ggplot2)
+library(dplyr)
+
+psyc <- data.frame(names = c("Attribution", "Signal Detection", "Punishment", "Item Response", 
+                            "Social Identity", "Equity", "Self-perception"
+                               ),
+                     n = c(38, 27, 19, 11, 11, 11, 7))
+
+cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+
+psyc_bar <- psyc |>
+  mutate(perc = paste0(sprintf("%4.1f", n / sum(n) * 100), "%"),
+  perc = if_else(row_number() == 1, paste(perc, "of all articles"), perc),
+    color = case_when(
+      row_number() == 1 ~ "#F0E442",
+      row_number() == 2 ~ "#E69F00",
+      row_number() == 3 ~ "#56B4E9",
+      row_number() == 4 ~ "#009E73",
+      row_number() == 5 ~ "#CC79A7",
+      row_number() == 6 ~ "#0072B2",
+      row_number() == 7 ~ "#D55E00",
+      TRUE ~ "gray70"
+    ),
+  perc = paste(" ", perc, " ")
+  )
+
+psyc_bar |>
+  mutate(
+    place = if_else(row_number() == 1, 1, 0),
+    ## add some spacing to labels since we cant use nudge_x anymore
+    perc = paste(" ", perc, " ")
+  ) %>% 
+  ggplot(aes(x = n, y = names, fill = color)) +
+  geom_col() +
+  geom_text(
+    aes(label = perc, hjust = place), 
+    size = 6, fontface = "bold"
+  ) +
+  scale_x_continuous(expand = c(.01, .01)) +
+  scale_fill_identity(guide = "none") +
+  theme_void() +
+  theme(
+    axis.text.y = element_text(size = 14, hjust = 1),
+    plot.margin = margin(rep(15, 4)),
+    plot.background = element_rect(fill = "transparent",
+                                color = "#aa2233",
+                                size = 3),
+    
+  )
+
+```
+
+::: notes
+22% of the papers discussed a psychological theory -- roughly coded by searching "theory" in each paper. We then coded for each theory and these are the most represented.
+
+Others that were close with and 5 were:
+
+Social learning theory, learned helplessness, cognitive dissonance theory, terror management theory, strain theory, psychometric theory, probability theory, integration theory.
+:::
+
+:::
+
+## Summary {.incremental}
+
+::: columns
+::: {.column width="40%"}
+![](images/pl40_paper.png) [Download](https://link-springer-com.libproxy.unl.edu/article/10.1007/s11192-018-2685-y)
+:::
+
+::: {.column .incremental width="60%"}
+-   Most articles focused on similar topics
+    -   Few professional samples
+    -   Mostly criminal law
+    -   Limited to social or cognitive psychology
+-   Room for growth!
+:::
+:::
+
+::: notes
+In summary, we found that even though Law and Human Behavior has published articles about a wide-variety of research areas -- the vast majority of published articles have focused on a few narrow topics that are relevant to U.S. law. For instance, almost 30% of all articles published over this 40 year period covered one of two topics: eyewitness memory or jury decision making.
+
+Similarly, we also found that certain areas of the law were vastly over represented: in particular, most articles focused on the criminal law.
+
+We also see there is room for growth in the areas of psychology that we apply to the research -- developmental psychology and neuro psychology are both good examples.
+
+Together this all suggests that there is a need for the field of law-psychology to expand into new and different areas of research. In fact, for decades leaders of AP-LS have been calling for the field to expand--especially in terms of the legal topics it focuses on. Given that any law that attempts to control behavior is appropriate for empirical analysis. There is a need for U.S. law-psychology researchers to expand to other areas of law that have a significant impact on people's daily lives. Including family law, the law of contracts, property law and even more specialized topics that span across different systems like public health law.
+:::
+
+## Questions?
+
+![](images/questions.png)
