@@ -1,0 +1,26 @@
+---
+author: AP-LS
+date: "2013-23-06"
+title: Margaret Bull Kovera on Being Editor of Law and Human Behavior
+subtitle: Introduction to AP-LS Series
+title-block-style: none
+toc: false
+image: featured.png
+date-format: medium
+categories:
+  - careers
+  - apa
+url: https://www.youtube.com/watch?v=wdO_AYq4f6k
+---
+
+<button type="button" class="btn btn-outline-success">
+<a href="https://www.youtube.com/watch?v=wdO_AYq4f6k" target="_blank">{{< fa circle-play >}} video</a></button>
+<br></br>
+
+## Overview 
+
+Add to this? 
+
+
+
+{{< youtube wdO_AYq4f6k >}}
