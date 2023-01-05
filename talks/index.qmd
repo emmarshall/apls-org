@@ -1,0 +1,36 @@
+---
+title: "Talks"
+listing:
+  id: talks
+  fields: [image, date, title, subtitle]
+  contents: 
+    - careers2022
+    - clinician2013
+    - DEIcorrections2022
+    - expert2013
+    - grad2013
+    - impact2013
+    - intro2013
+  type: grid
+  categories: true
+  grid-item-border: false
+  image-align: right
+  sort: "date desc"
+  
+---
+
+Introduction to the field
+https://www.youtube.com/@LawandPsychology
+
+
+Presidential address videos to add: https://www.youtube.com/@ConceptContinuingEd/videos
+
+for 2021 presidential: https://www.youtube.com/watch?v=g4G4gm5uAn4
+
+
+https://www.youtube.com/@americanpsychology-lawsoci4872/videos
+
+https://www.youtube.com/@ap-lsstudentcommittee1044
+
+Careers in psychology and law https://www.youtube.com/watch?v=AF-lOWQoq8I
+
