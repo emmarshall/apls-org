@@ -1,0 +1,52 @@
+[
+  {
+    "listing": "/talks/index.html",
+    "items": [
+      "/talks/careers2022/Index.html",
+      "/talks/DEIcorrections2022/index.html",
+      "/talks/clinician2013/index.html",
+      "/talks/expert2013/index.html",
+      "/talks/grad2013/index.html",
+      "/talks/impact2013/index.html",
+      "/talks/intro2013/index.html"
+    ]
+  },
+  {
+    "listing": "/funding/index.html",
+    "items": [
+      "/funding/grants/APprogram.html",
+      "/funding/grants/undergradpaper.html",
+      "/funding/grants/dissertation.html",
+      "/funding/grants/distinguished.html",
+      "/funding/grants/diversitytravelaward.html",
+      "/funding/grants/diversityresearch.html",
+      "/funding/grants/fellows.html",
+      "/funding/grants/ECgrantinaid.html",
+      "/funding/grants/macarthur.html",
+      "/funding/grants/UNDgrantinaid.html",
+      "/funding/grants/bookaward.html",
+      "/funding/grants/recaward.html",
+      "/funding/grants/teachingaward.html",
+      "/funding/grants/impactgrant.html",
+      "/funding/grants/saleemshah.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/talks/careers2022/Index.html",
+      "/talks/DEIcorrections2022/index.html",
+      "/talks/tele2021/index.html",
+      "/talks/clinician2013/index.html",
+      "/talks/diversity2013/index.html",
+      "/talks/expert2013/index.html",
+      "/talks/grad2013/index.html",
+      "/talks/impact2013/index.html",
+      "/talks/jury2013/index.html",
+      "/talks/intro2013/index.html",
+      "/talks/juvenile2013/index.html",
+      "/talks/risk2013/index.html",
+      "/talks/students2013/index.html"
+    ]
+  }
+]
