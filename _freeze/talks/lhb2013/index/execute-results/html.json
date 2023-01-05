@@ -1,0 +1,14 @@
+{
+  "hash": "ab02d3649bfc93b7a88be31bd05bb889",
+  "result": {
+    "markdown": "---\nauthor: AP-LS\ndate: \"2013-23-06\"\ntitle: Margaret Bull Kovera on Being Editor of Law and Human Behavior\nsubtitle: Introduction to AP-LS Series\ntitle-block-style: none\ntoc: false\nimage: featured.png\ndate-format: medium\ncategories:\n  - careers\n  - apa\nurl: https://www.youtube.com/watch?v=wdO_AYq4f6k\n---\n\n\n<button type=\"button\" class=\"btn btn-outline-success\">\n<a href=\"https://www.youtube.com/watch?v=wdO_AYq4f6k\" target=\"_blank\">{{< fa circle-play >}} video</a></button>\n<br></br>\n\n## Overview \n\nAdd to this? \n\n\n\n<iframe src=\"https://www.youtube.com/watch?v=wdO_AYq4f6k\" width=\"100%\" height=\"455px\"></iframe>",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

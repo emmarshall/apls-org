@@ -1,0 +1,547 @@
+/* css styles */
+
+/* @import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css); */
+
+.navbar-title:hover > .icon-line {
+  animation-duration: 600ms;
+  animation-name: line-expand;
+}
+  
+@keyframes line-expand {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 100%;
+  }
+}
+
+div.sourceCode{
+  background-color: black;
+}
+
+
+
+pre{
+  color: var(--navbar-fg);
+  background-color: #1B3264;
+  padding: 5px 5px 5px 5px;
+  border-radius: 0.25rem;
+}
+
+code{
+  color: var(--navbar-fg);
+}
+
+
+
+.listing-title{
+  color: #2c3e50;
+  font-weight: 400;
+  font-size: 1.5em;;
+}
+
+.listing-title:hover {
+  color:#95a5a6;
+}
+
+
+
+/* inline code */
+.post-body>p>code{
+  background-color: rgba(255,255,255,.1);
+}
+
+a.btn-links:hover{
+  background-color: rgba(255,255,255,.1)!important;
+}
+
+
+h1{
+  font-weight: 200;
+  font-size: 3em;
+}
+
+h2{
+  font-weight: 200;
+  font-size: 2em;
+}
+
+h3{
+  font-weight: 200;
+  font-size: 1.5em;
+}
+
+h4.f4{
+  font-size: 1.25rem;
+}
+
+h1.f3{
+  font-weight: 200;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: visible;
+  background-color:#1B3264;
+*/*  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+
+/* navbar kink */
+@media screen and (min-width: 999px) {
+  .navbar .navbar-nav .nav-link {
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    color: #FBF9F4;
+  }
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #1B3264;
+    width: 0%;
+    content: "";
+    height: 1px;
+    transition: all 0.5s;
+  }
+
+.navbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+  }
+}
+
+
+.navbar-brand>img {
+    max-height: 43px;
+    width: auto;
+    padding-right: 6px;
+}
+
+.nav-footer a{
+  color: #FBF9F4;
+}
+
+.active {
+  border-bottom: 1px solid #1B3264;
+}
+
+.navbar-brand {
+    position: relative;
+    width: 170px;
+    left: 15px;
+    background-size: contain;
+}
+
+/*footer*/
+.nav-footer{
+  border-top: 0px !important;
+  background-color: #1B3264;
+}
+
+footer.footer .nav-footer, #quarto-header nav {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+/*buttons*/
+
+.btn-outline-success{
+  border-color: #1B3264;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 1px;
+  min-width: 80px;
+  height: 30px;
+  font-size: 0.77em;
+}
+
+.btn-outline-success:hover{
+  border-color: #1B3264;
+  background-color: #FBF9F4;
+}
+
+.btn-outline-success a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+
+/* grid cards */
+h5, .h5{
+  font-size: 1.5rem;
+  
+}
+
+
+.card {
+  overflow: hidden;
+  display: grid;
+  flex-direction: column;
+  padding: 5px;
+  margin: 10px;
+  margin-bottom: 10px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    transition: all .2s ease-out;
+}
+
+
+.cards {
+  display: flex;
+  grid-template-columns: repeat(auto-fill, 250px);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  flex-direction: column;
+  margin: 50px;
+}
+
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+ 
+.card-body{
+  background-color: white;
+  padding-top: 0.9em;
+}
+
+
+.card-img-top{
+  background-color: white;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.quarto-grid-item img.thumbnail-image {
+   object-fit: scale-down;
+    padding-top: 0.2em;
+    padding-left: 0.1em;
+    padding-right: 0.1em
+}
+
+.quarto-grid-link:hover {
+  text-decoration: bold;
+}
+
+
+
+
+.thumbnail-image:hover{
+  opacity:35%;
+}
+
+
+.borderless{
+  background-color: #fff;
+}
+
+
+/*misc*/
+.center {
+  position: absolute;
+  text-align: center;
+}
+
+div.column.col-v-center{
+   vertical-align: middle;
+}
+
+div.quarto-post {
+    display: flex;
+    gap: 2em;
+    margin-bottom: 1.5em;
+    border-bottom: 1px solid #dee2e6;
+    align-content: center;
+}
+
+.home-title{
+  font-size: 2em;
+}
+
+/* icons */
+.socials {
+    padding-bottom: 1em;
+    padding-left: 3%;
+    font-size: 1.6em;
+}
+
+.socials a{
+  color: #99978d;
+  margin-left: 0.1em;
+  size: 50%;
+}
+
+
+
+.socials a:hover {
+opacity: 50%;
+}
+
+.vspace {
+     margin-bottom: 1cm;
+  }
+  
+ .vspace2 {
+     margin-bottom: 0.5cm;
+     padding: 1%;
+  }
+
+.hspace {
+     margin-left: 5cm;
+     padding: 1%;
+  }
+
+.main {
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+
+div.quarto-about-jolla .about-image {
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+    margin-top: 2em;
+}
+
+
+.portrait {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 70px;
+    margin-right: 50px;
+    border-radius: 50%;
+    object-fit: none;
+    position: relative;
+    float: left;
+}
+
+
+
+.form-select {
+    background-color: white;
+}
+
+.form-control {
+    background-color: white;
+}
+
+
+.input-group-text {
+    background-color: #ebe9e1;
+}
+
+
+#title-block-header {
+    margin-block-end: 1rem;
+    position: relative;
+    margin-top: 70px; uncomment if fixed navbar
+}
+#profile .network-icon {
+    margin-top: 30px;
+}
+
+/*table*/
+table.quarto-listing-table a {
+    text-decoration: none;
+}
+
+.table a {
+    word-break: break-word;
+}
+
+a {
+    color: #1B3264;
+}
+
+
+/*references side bar adjusted when fixed navbar*/
+#quarto-margin-sidebar .quarto-listing-category {
+    padding-top: 0;
+    font-size: 0.875rem;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/*carousel*/
+
+.card .source-code {
+  margin-top: 3px;
+}
+
+.carousel.card {
+  font-size: 16px;
+  padding-top: 2em;
+}
+
+.carousel.card a {
+  text-decoration: none;
+}
+
+.carousel img {
+  width: 70%;
+  margin-bottom: 110px;
+}
+
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+  margin-bottom: 110px;
+}
+
+/*more info link thing*/
+
+.all-link{
+  font-size: 1em;
+  text-align: right;
+}
+
+.all-link a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.all-link a::after{
+  display: inline-block;
+  content: "→";
+  position: relative;
+  margin-left: 2px;
+}
+
+.about-link{
+  font-size: 1em;
+  float: right;
+}
+
+.about-link a{
+  text-decoration-color: #2c3e50;
+  text-transform: uppercase;
+}
+
+.about-link a::after{
+  display: inline-block;
+  content: "→";
+  position: relative;
+  margin-left: 2px;
+}
+
+/*create background sections*/
+
+.home-section {
+    background-color: #FBF9F4;
+    padding: 10px 0;
+    animation: intro .3s both;
+    animation-delay: .15s;
+}
+
+.alt-background {
+  background-color: #FBF9F4;
+}
+
+.alt-background2 {
+  background-color: #1B3264;
+}
+
+/* icons */
+.socials {
+    padding-bottom: 1em;
+    padding-left: 3%;
+    font-size: 1.6em;
+}
+
+.socials a{
+  color: #293E57;
+  margin-left: 0.1em;
+  size: 50%;
+}
+
+
+
+.socials a:hover {
+opacity: 50%;
+}
+
+.vspace {
+     margin-bottom: 1cm;
+  }
+  
+ .vspace2 {
+     margin-bottom: 0.5cm;
+     padding: 1%;
+  }
+
+.hspace {
+     margin-left: 5cm;
+     padding: 1%;
+  }
+
+.main {
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+
+div.quarto-about-jolla .about-image {
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+    margin-top: 2em;
+}
+
+.form-select {
+    background-color: white; 
+}
+
+.form-control {
+    background-color: white;
+}
+
+
+.input-group-text {
+    background-color: #FBF9F4;
+}
+
+    
+
+
+/*table*/
+table.quarto-listing-table a {
+    text-decoration: none;
+}
+
+.table a {
+    word-break: break-word;
+}
+
+a {
+    color: #1B3264;
+}
+
+
+/*references side bar adjusted when fixed navbar*/
+#quarto-margin-sidebar .quarto-listing-category {
+    padding-top: 0;
+    font-size: 0.875rem;
+}

@@ -1,0 +1,247 @@
+---
+pagetitle: "Home"
+page-layout: custom
+toc: false
+search: true
+execute:
+  echo: false
+subtitle: |
+  We enhance well-being, justice, and human rights through the science and practice of psychology in legal contexts.
+listing: 
+  - id: talks
+    fields: [image, title, date]
+    contents: 
+      - talks/careers2022
+      - talks/clinician2013
+      - talks/DEIcorrections2022
+      - talks/diversity2013
+      - talks/expert2013
+      - talks/grad2013
+      - talks/impact2013
+      - talks/jury2013
+      - talks/intro2013
+      - talks/juvenile2013
+      - talks/lbh2013
+      - talks/risk2013
+      - talks/students2013
+      - talks/tele2021
+    type: default
+    date-format: short
+    image-align: right
+    max-items: 3
+    sort: "date desc"
+---
+
+::: {#hero-banner .column-screen .alt-background}
+::: {.grid .column-page}
+::: {.headline .g-col-lg-6 .g-col-12 .g-col-md-12}
+::: h1
+Latest News
+:::
+
+```{=html}
+<ul class="nav nav-tabs" role="tablist">
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" data-bs-toggle="tab" href="#home" aria-selected="true" role="tab">Home</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" data-bs-toggle="tab" href="#profile" aria-selected="false" tabindex="-1" role="tab">Profile</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link disabled" href="#" aria-selected="false" tabindex="-1" role="tab">Disabled</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+  </li>
+</ul>
+<div id="myTabContent" class="tab-content">
+  <div class="tab-pane fade show active" id="home" role="tabpanel">
+    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+  </div>
+  <div class="tab-pane fade" id="profile" role="tabpanel">
+    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
+  </div>
+  <div class="tab-pane fade" id="dropdown1">
+    <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork.</p>
+  </div>
+  <div class="tab-pane fade" id="dropdown2">
+    <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater.</p>
+  </div>
+</div>
+```
+:::
+
+```{r}
+#| classes: '.g-col-lg-6 .g-col-12 .g-col-md-12'
+source("carousel.R")
+carousel("gallery-carousel", 5000, 
+         yaml.load_file("carousel.yml"))
+```
+:::
+
+```{=html}
+<style>
+#hero-banner {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  
+}
+#quarto-content main { 
+  margin-top: 0;
+  padding-top: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.headline {
+font-size: 1.25em;
+font-weight: 300;
+padding-bottom: 1em;
+}
+.headline p {
+  margin: 25px;
+  padding-bottom: 0.2rem;
+}
+.headline a {
+  text-decoration: none;
+}
+.headline ul li {
+  margin-bottom: 0.3em;
+}
+.carousel.card {
+  padding-top: 2em;
+}
+.carousel img {
+  width: 70%;
+  margin-bottom: 110px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  margin-bottom: 110px;
+}
+.carousel-caption {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.touch {
+  
+}
+</style>
+```
+::::
+:::{.vspace}
+:::
+
+::: {.grid}
+
+
+::: {.g-col-12 .g-col-md-4}
+<div class="card h-100" id="card-first-color">
+<div class="card-body d-flex flex-column">
+<p class="card-text">
+
+The annual conference for the American Psychology-Law Society for 2023 will be held in Philadelphia from March 16-18.
+
+</p>
+
+<div style="margin-top: auto;"><a href="about.qmd" class="primary-card-link heading-font">CONFERENCES</a></div>
+</div>
+</div>
+:::
+
+
+::: {.g-col-12 .g-col-md-4}
+<div class="card h-100" id="card-first-color">
+<div class="card-body d-flex flex-column">
+<p class="card-text">
+
+AP-LS Newsletter connects the psychology-law community with activities, events, and resources.
+
+</p>
+
+<div style="margin-top: auto;"><a href="about.qmd" class="primary-card-link heading-font">NEWS</a></div>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<div class="card h-100" id="card-first-color">
+<div class="card-body d-flex flex-column">
+<p class="card-text">
+
+Interested in psychology and law issues? Become a member. 
+
+</p>
+
+<div style="margin-top: auto;"><a href="about.qmd" class="primary-card-link heading-font">Join AP-LS</a></div>
+</div>
+</div>
+:::
+:::
+
+::: {.vspace}
+:::
+
+
+::: {#hero-banner .column-screen .alt-background}
+
+::: {.column .col-v-center width="15%"}
+:::
+
+
+
+::: {.column .col-v-center width="70%"}
+
+
+::: {.portrait}
+![](about/officers/barry_rosenfeld.jpg)
+
+:::
+
+::: {.vspace}
+:::
+
+## Welcome from Our President
+
+::: {.president-intro}
+<p>Welcome to the American Psychology-Law Society (AP-LS), Division 41 of the American Psychological Association. 
+</p> 
+<p>Our organizational mission is to “enhance well-being, justice, and human rights through the science and practice of psychology in legal contexts.” AP-LS is the premiere organization for students and professionals who are interested in issues at the intersection of psychology and law.</p> 
+
+:::
+::: {.about-link}
+[MORE FROM THE PRESIDENT](president/)
+:::
+:::
+
+::::
+
+::: {.vspace}
+:::
+
+::::{.columns}
+
+::: {.column .col-v-center width="15%"}
+:::
+
+::: {.column .col-v-center width="70%"}
+
+
+
+
+## Latest Talks
+:::{#talks}
+:::
+
+::: {.all-link}
+[more talks](talks/)
+:::
+:::
+
+::::

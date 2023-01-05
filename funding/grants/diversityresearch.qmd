@@ -1,0 +1,112 @@
+---
+title: Diversity in Psychology and Law Research Awards
+date: last-modified
+description: Support student research on issues related to psychology, law, multiculturalism and/or diversity (i.e., research pertaining to psycholegal issues on race, gender, culture, sexual orientation, etc.)
+categories: 
+  - Students
+  - Undergraduate
+  - Graduate
+  - Grants-in-Aid
+  - Research
+---
+
+<a class="btn btn-primary btn-lg" href="https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0" role="button">Apply Here</a>
+
+```{=html}
+
+  <!-- Description info -->
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Description
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+      <div class="accordion-body">
+        <p>The purpose of the Diversity in Psychology and Law Research Awards is to promote diversity within the American Psychology-Law Society by supporting student research on psycholegal issues related to diversity as well as research by students from underrepresented groups. Projects are eligible for consideration for this award if they investigate topics related to psychology, law, diversity, and/or multiculturalism (e.g., research pertaining to psycholegal issues on race, gender, culture, sexual orientation, etc.), or if the principal investigator is a member of an underrepresented group, including racial and ethnic minorities, first-generation college students, LGBT individuals, and students with disabilities. Consistent with the mission of the BRIDGE Committee, these awards are intended to facilitate the research of individuals from groups that are underrepresented in AP-LS, as well as research about issues of potential interest and importance to such groups.  </p>
+<p> This award is not intended to be used to fund conference travel cost. If assistance is needed with funding travel costs to the AP-LS Conference, students should consider applying for the Diversity Travel Awards[insert link]. Please be aware that students can only receive funding from one BRIDGE program/award per year.</p>
+<p><strong>Award amounts</strong></p>
+<p>Up to five mini-grants in the amount of $1,000 each will be awarded, with an option to divide two of the awards into two $500 mini-grants.</p>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Eligibility
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
+      <div class="accordion-body">
+      <p><strong>To receive an award:</strong></p>
+      <ul style="margin-left: 20px;">
+      <li><p>Students who are current student members of AP-LS may apply. </p></li>
+      <li><p>Both graduate and undergraduate students are eligible, and students from underrepresented groups are strongly encouraged to apply. </p></li>
+      
+      <li><p>Underrepresented groups include but are not limited to racial and ethnic minorities, first-generation college students, LGBT individuals, and students with physical disabilities.</p></li> 
+      
+      <li><p>The proposed research must primarily be the original work of the student applicant. </p></li>
+      
+      <li><p>In their proposal, students should describe any relationship between the proposed project and their advisers' research, as well as any other funding for the project (student or adviser).</p></li> 
+      
+     <li><p> Applicants should request funding only for expenses not covered by their own or their advisers' existing funding. </p></li>
+      
+      <li><p>Applicants cannot receive more than one mini-grant from AP-LS for the same project.</p></li>
+ </ul>
+ </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        How to Apply
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
+      <div class="accordion-body">
+        <h4>How to submit an ECP proposal</h4>
+    <p>Applications will be awarded on a competitive basis and selected based on the quality of the proposed research, the impact of the project for promoting diversity and multiculturalism in psychology and law, and the ability for the project to be completed within one year of the project start date. All proposals will be reviewed by members of the BRIDGE Committee.</p>
+    <p> Award applications should contain the following:</p>
+        <ol style="margin-left: 20px;">
+      <li><p> Cover letter on letterhead that provides all contact information and specifies how the project meets the eligibility requirements for this award </li></p> 
+       <li><p> 5-page minimum/10-page maximum (double-spaced; not including references) project description. </p>
+       <p>Project descriptions need to contain the following information:</p> </li></p> 
+      <ul style="margin-left: 5px;">
+         <li><p> Specific aims: a clear, concise statement of the research problem and the relevance of the project to the mission of the award. Applicants should describe the specific objectives to be accomplished during the award period. </li></p> 
+
+         <li><p><strong>Background and significance: </strong>An overview of relevant empirical literature related to the project. Applicants should discuss the project's likely impact on the overall field of psychology and law, as well as with respect to understanding and promoting diversity and/or multiculturalism. They also should address how this award will benefit the research, including its potential to generate ongoing future research.
+ </li></p> 
+
+         <li><p><strong>Project design: </strong>A detailed description of the expected course of the project, including detailed information related to methodology (e.g., participants, procedures, measures) and analytic strategy. </li></p> 
+         
+          <li><p><strong>Budget:</strong> A detailed project budget with expected dollar amounts for expenses and justification of those expenses. </li></p> 
+</ul>
+<li><p> A curriculum vitae for the applicant (does not count toward the page limit); </li></p>
+<li><p>A letter of support from the applicant's research adviser discussing the applicant's ability to complete the project and his or her willingness to supervise the research. If the applicant's proposal is related to the adviser's research, the letter should discuss how the project reflects the student's original work. </li></p>
+<li><p>A completed W-9 (U.S. citizen) or W-8 (non-U.S. citizen) tax form
+ </li></p>
+<li><p> A copy of the IRB approval letter for the project. </li></p>
+         </ol>
+<h4>Applicant responsibilities</h4>
+Award recipients will need to maintain financial receipts for all project expenses. They also are required to submit a project summary to the BRIDGE co-chairs within one month of the project completion date.</p>
+
+<h4>Submission instructions and deadline</h4>
+Award submissions will be accepted starting <strong>September 15, 2022, through January 15, 2023.</strong> Recipients will be announced in February 2023
+ </p>
+ 
+
+<h4> Inquiries </h4>
+For more information about the Diversity Program, please contact the program chair, <a href="mailto:evelyn.maeder@carleton.ca">Evelyn Maeder</a>
+
+<p><center><a class="btn btn-primary btn-lg" href="https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0" role="button">Apply Here</a></p></center>
+
+                    </div>
+      </div>
+    </div>
+  </div>
+```
+
+
+

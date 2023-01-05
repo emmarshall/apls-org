@@ -1,0 +1,14 @@
+{
+  "hash": "c635409c52289de74207587e44fb465e",
+  "result": {
+    "markdown": "---\nauthor: American Psychological Association\ndate: \"2022-02-02\"\ntitle: \"Careers in Applied Psychology: Law and Psychology\"\nsubtitle: Online panel\ntitle-block-style: none\ntoc: false\nimage: featured.png\ndate-format: medium\ncategories:\n  - careers\n  - apa\nurl: https://www.youtube.com/watch?v=AF-lOWQoq8I\n---\n\n\n\n\n<button type=\"button\" class=\"btn btn-outline-success\">\n<a href=\"https://www.youtube.com/watch?v=AF-lOWQoq8I\" target=\"_blank\">{{< fa circle-play >}} video</a></button>\n<br></br>\n\n## Overview \n\nThis engaging panel on Law & Psychology includes an overview of the field and presents six psychologists who conduct research and practice at the intersection of psychology and the law. Panelists use their background in psychology to educate attorneys, judges, and juries on the role of psychology to reduce bias, increase cooperation, ensure procedural fairness, and understand psychological evidence including eyewitness testimony. Clinical forensic psychologists conduct evaluations of harm, risk, and abilities such as competency to stand trial or criminal responsibility in family, civil, sentencing, and criminal cases; they may work with survivors of violence as well as offenders to ensure public safety, reduce recidivism, and prevent offenses. Panelists provide guidance about graduate education and deciding on a career in psychology and law.\n\n## Event details\n\n**Event:** [R Ladies Coventry](https://www.meetup.com/rladies-coventry/events/273429872/) (the inaugural talk)\n\n**Date:** October 29th, 2020 \n\n**Location:** Zoom\n\nI gave a very slightly updated version of the talk again three months later:\n\n**Event**: [bseeR](https://www.ellenwebborn.com/rusergroup/)\n\n**Date:** January 28th, 2021\n\n**Location:** Microsoft Teams\n\n## Key points\n\n- When faced with a question/problem, have a good look for an answer in R itself and/or online\n\n- Don't be shy about asking questions!\n\n- Write reproducible examples, best with the {reprex} package\n\n- Give thought to where you ask/post your question\n\n- Give back by helping others\n\n\n\n<iframe src=\"https://www.youtube.com/watch?v=AF-lOWQoq8I\" width=\"100%\" height=\"455px\"></iframe>\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

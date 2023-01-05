@@ -1,0 +1,14 @@
+{
+  "hash": "cba57d2ee3d345f73ddb0b551c867ed1",
+  "result": {
+    "markdown": "---\nauthor: AP-LS\ndate: \"2013-23-06\"\ntitle: Antoinette Kavanaugh on Working as a Forensic Clinician\nsubtitle: Introduction to AP-LS Series\ntitle-block-style: none\ntoc: false\nimage: featured.png\ndate-format: medium\ncategories:\n  - careers\n  - apa\nurl: https://www.youtube.com/watch?v=E-cV0gch-AA\n---\n\n\n<button type=\"button\" class=\"btn btn-outline-success\">\n<a href=\"https://www.youtube.com/watch?v=E-cV0gch-AA\" target=\"_blank\">{{< fa circle-play >}} video</a></button>\n<br></br>\n\n## Overview \n\nAdd to this? \n\n\n\n<iframe src=\"https://www.youtube.com/watch?v=E-cV0gch-AA\" width=\"100%\" height=\"455px\"></iframe>",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
