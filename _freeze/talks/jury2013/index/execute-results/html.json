@@ -1,0 +1,14 @@
+{
+  "hash": "d966b1ada35f0fa16fe0a465945caac3",
+  "result": {
+    "markdown": "---\nauthor: AP-LS\ndate: \"2013-23-06\"\ntitle: Sam Sommers on his Research about the Impact of Jury Diversity\nsubtitle: Introduction to AP-LS Series\ntitle-block-style: none\ntoc: false\nimage: featured.png\ndate-format: medium\ncategories:\n  - careers\n  - apa\nurl: https://www.youtube.com/watch?v=DW_oyZD7C0Y\n---\n\n\n<button type=\"button\" class=\"btn btn-outline-success\">\n<a href=\"https://www.youtube.com/watch?v=DW_oyZD7C0Y\" target=\"_blank\">{{< fa circle-play >}} video</a></button>\n<br></br>\n\n## Overview \n\nAdd to this? \n\n\n\n<iframe src=\"https://www.youtube.com/watch?v=DW_oyZD7C0Y\" width=\"100%\" height=\"455px\"></iframe>",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "hash": "a42b631d4ff1a773635d7c928f28304e",
+  "result": {
+    "markdown": "---\nauthor: AP-LS BRIDGE Committee\ndate: \"2022-02-02\"\ntitle: \"Careers in Applied Psychology: Law and Psychology\"\nsubtitle: Online\ntitle-block-style: none\ntoc: false\nimage: featured.png\ndate-format: medium\ncategories:\n  - careers\n  - apa\nurl: https://www.youtube.com/watch?v=JvtAU3ewoZk\n---\n\n\n<button type=\"button\" class=\"btn btn-outline-success\">\n<a href=\"https://www.youtube.com/watch?v=JvtAU3ewoZk\" target=\"_blank\">{{< fa circle-play >}} video</a></button>\n<br></br>\n\n## Overview \nLike many subfields in psychology, there is a great need to promote diversity, equity, and inclusion in the correctional psychology workforce. Some barriers faced by people seeking to enter the field are shared with other subfields of psychology whereas others are unique to corrections. The purpose of this interactive workshop was to highlight some of the potential causes of the lack of diversity, particularly racial and ethnic diversity, in the field and to offer some potential solutions to this problem. Panelists provided suggestions on how to improve recruitment and retention of diverse people in academic, research, and clinical settings. In addition, strategies that individuals can use to address discrimination in their academic or work settings were discussed.\n\nSponsored by: \n\nAP-LS Corrections Committee, AP-LS BRIDGE Committee and ICPF\n\n<iframe src=\"https://www.youtube.com/watch?v=JvtAU3ewoZk\" width=\"100%\" height=\"455px\"></iframe>\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

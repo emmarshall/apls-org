@@ -1,0 +1,64 @@
+project:
+  type: website
+  #resources:
+  #  - "*.css"
+
+website:
+  title: "AP-LS"
+  favicon: favicon.ico
+  search: true
+  navbar:
+    title: false
+    logo: images/logo-light.png
+    right:
+      - text: about
+        menu:
+          - text: about
+            href: about/index.qmd
+          - text: leadership
+            href: about/leadership.qmd
+          - text: committees
+            href: about/committees.qmd
+          - text: statements
+            href: about/statements.qmd
+          - text: contact us
+            href: about/contact.qmd
+      - text: publications
+        menu:
+          - text: publications
+            href: publications/index.qmd
+          - text: Law & Human Behavior
+            href: https://www.apa.org/pubs/journals/lhb/
+      - href: funding/index.qmd
+        text: funding
+      - href: conferences/index.qmd
+        text: conference
+      - href: resources/index.qmd
+        text: education & training
+      - href: membership/membership.qmd
+        text: membership
+       
+  page-footer:
+    background: primary
+    left: |
+      <b>© 2022 American Psychology-Law Society</b>  <br>
+      made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)
+    right:
+      - icon: twitter
+        href: https://twitter.com/apls41
+      - icon: github
+        href: https://github.com/emmarshall 
+format:
+  html:
+    theme: 
+      light: [flatly, assets/light-theme.scss]
+      dark: [darkly, assets/dark.scss]
+    css: assets/styles.css
+    toc: true
+
+
+execute: 
+  freeze: auto
+
+
+

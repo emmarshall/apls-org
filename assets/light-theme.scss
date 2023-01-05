@@ -1,0 +1,258 @@
+/* scss:defaults */
+
+// use flatly as the base
+// https://github.com/thomaspark/bootswatch/tree/v5/dist/flatly
+$theme: "flatly" !default;
+
+// gray colors 
+$gray: #95a5a6;
+$gray-dark: #343a40;
+$gray-100: #f8f9fa;
+$gray-200: #ecf0f1;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #b4bcc2;
+$gray-600: #95a5a6;
+$gray-700: #7b8a8b;
+$gray-800: #343a40;
+$gray-900: #212529;
+
+// apls colors 
+$blue: #1B3264;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #e74c3c;
+$orange: #fd7e14;
+$yellow: #FAF61B;
+$green: #18bc9c;
+$teal: #20c997;
+$cyan: #3498db;
+$steel: #4271B3;
+$black: #000;
+$white: #fff;
+$cream: #FBF9F4;
+
+$primary:  $blue !default;
+$secondary: $cream !default;
+$success: $white !default;
+$info: $steel !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light:  $gray-100 !default;
+$dark:   $gray-900 !default;
+
+$second-color:  $steel !default;
+$third-color:   $gray !default;
+
+// nav bar
+$navbar-bg: $primary;
+$navbar-fg: $secondary;
+$navbar-hl: $yellow;
+
+// sidebar navigation
+$sidebar-bg: $primary;
+$sidebar-fg: $secondary;
+$sidebar-hl: $yellow;
+
+// footer
+$footer-bg: $primary;
+$footer-fg: $secondary;
+
+// font sizes;
+$font-size-base:   1rem !default; // Assumes the browser default, typically `16px`
+$h1-font-size:     $font-size-base * 2.5 !default;
+$h2-font-size:     $font-size-base * 2 !default;
+$h3-font-size:     $font-size-base * 1.75 !default;
+$h4-font-size:     $font-size-base * 1.5 !default;
+$h5-font-size:     $font-size-base * 1.25 !default;
+$h6-font-size:     $font-size-base !default;
+
+// color tweaks to theme
+$body-color: $dark;
+$code-bg: $cream;
+$code-color: $primary;
+
+// font sizes;
+$font-size-base:   1rem !default; // Assumes the browser default, typically `16px`
+$h1-font-size:     $font-size-base * 2.5 !default;
+$h2-font-size:     $font-size-base * 2 !default;
+$h3-font-size:     $font-size-base * 1.75 !default;
+$h4-font-size:     $font-size-base * 1.5 !default;
+$h5-font-size:     $font-size-base * 1.25 !default;
+$h6-font-size:     $font-size-base !default;
+
+
+// callouts
+$callout-color-note: $steel;
+$callout-color-tip: $teal;
+$callout-color-caution: $yellow;
+$callout-color-warning: $orange;
+$callout-color-important: $red;
+
+/*-- scss:rules --*/
+
+// color classes
+.primary {
+  color: $primary;
+}
+
+.second-color {
+  color: $second-color;
+}
+
+.third-color {
+  color: $third-color;
+}
+
+// code
+pre.sourceCode {
+  border-radius: 0;
+  border-left-color: $gray-300;
+}
+
+
+// links
+a {
+  color: $primary;
+  text-decoration-color: $steel;
+}
+
+a:hover {
+  color: $steel;
+  text-decoration-color: $primary;
+}
+
+.toc-actions a {
+  text-decoration: none !important;  
+  border-bottom: 0;
+}
+
+.toc-actions a:hover {
+  color: $primary;
+}
+
+div.tippy-content a:hover {
+  text-decoration-color: $primary;
+}
+
+// navbar
+.navbar-title {
+  font-size: $font-size-base * 1.75;
+}
+
+
+// hover on navbar
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: $cream;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+  color: $cream;
+}
+
+
+// then override colors so they match cards
+#navbarCollapse > ul > li:nth-child(2) > a:hover,
+#navbarCollapse > ul > li:nth-child(4) > a:hover {
+  color: $white;
+}
+
+#navbarCollapse > ul > li:nth-child(2) > a.nav-link.active,
+#navbarCollapse > ul > li:nth-child(4) > a.nav-link.active {
+  color: $white;
+}
+
+#navbarCollapse > ul > li:nth-child(3) > a:hover,
+#navbarCollapse > ul > li:nth-child(5) > a:hover {
+  color: $yellow;
+}
+
+#navbarCollapse > ul > li:nth-child(3) > a.nav-link.active,
+#navbarCollapse > ul > li:nth-child(5) > a.nav-link.active {
+  color: $yellow;
+}
+
+
+
+// animated underline on hover, when navbar shows as row
+@media screen and (min-width: 992px) {
+  a.nav-link {
+    position: relative;
+  }
+  
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: $primary;
+    width: 0%;
+    content: "";
+    height: 4px;
+    transition: all 0.3s;
+  }
+  
+  .navbar .navbar-nav .nav-item:nth-child(2)::after, 
+  .navbar .navbar-nav .nav-item:nth-child(4)::after {
+    background-color: $white;
+  }
+  
+  .navbar .navbar-nav .nav-item:nth-child(3)::after, 
+  .navbar .navbar-nav .nav-item:nth-child(5)::after {
+    background-color: $yellow;
+  }
+  
+  .navbar .navbar-nav .nav-item:hover::after {
+    width: 90%;
+  }
+}
+
+
+
+
+// for cards on home page
+#card-first-color {
+  background-color: $body-bg;
+  border: 4px solid $primary;
+  border-radius: 5px; 
+}
+
+#card-secondary-color {
+  background-color: $body-bg;
+  border: 4px solid $secondary;
+  border-radius: 5px; 
+}
+
+.primary-card-link {
+    background-color: $primary;
+    color: $body-bg;
+    border: 4px solid $primary;
+    border-color: $primary;
+    padding: 5px .5rem 5px .5rem !important;
+    margin: 0;
+    border-radius: 5px; 
+    display: inline-block;
+    text-decoration: none;  
+    font-size: $h5-font-size;
+}
+
+.primary-card-link:hover {
+  background-color: $body-bg;
+  color: $primary;
+}
+
+.second-color-link{
+    background-color: $secondary;
+    border-color: $secondary;
+    color: $body-bg;
+}
+
+.second-color-link:hover {
+  color: $secondary;
+  border-color: $secondary;
+}
