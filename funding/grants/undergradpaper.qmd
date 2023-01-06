@@ -1,0 +1,216 @@
+---
+title: Best Undergrduate Paper
+date: last-modified
+description: The AP-LS Award for Best Undergraduate Paper is awarded to an outstanding undergraduate research paper that is focused on the interdisciplinary study of psychology and law. To be eligible for an award, the student must be the major contributor to a project on a topic relevant to psychology and law (i.e., the student had primary responsibility for initiating and conducting the project even though the project will usually be conducted under the supervision of a mentor). Data collection should be complete.
+
+categories: 
+  - Students
+  - Undergraduate
+  - Award
+---
+
+Recognizes an outstanding undergraduate research paper focused on the interdisciplinary study of psychology and law.
+
+
+<a class="btn btn-primary btn-lg" href="https://awards.ap-ls.org/default.asp" role="button">Apply Here</a>
+
+```{=html}
+
+    <!-- Eligibility info -->
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Eligibility
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+      <div class="accordion-body">
+        <p>To be eligible for an award, the student must be the major contributor to a project on a topic relevant to psychology and law (i.e., the student had primary responsibility for initiating and conducting the project even though the project will usually be conducted under the supervision of a mentor). Data collection should be complete. Winners will be encouraged to submit their work for presentation at the AP-LS Conference (as first authors). Students may submit their work during their first post-undergraduate year as long as the work was conducted during their undergraduate career.
+ </p>
+
+      </div>
+    </div>
+  </div>
+  
+    <!-- How to apply info -->
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Eligibility
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
+      <div class="accordion-body">
+      <p>Nominations/applications: Send one copy of each of the following:
+</p>
+      <ul style="margin-left: 20px;">
+      <li><p>The applicant must be an Early Career Professional, defined by APA as those within <strong> ten years </strong> of receiving their last degree.</p></li>
+      <li><p> Submit one copy of APA-style paper (Abstract required). The paper should be a maximum of 25 pages of text (12-point font, one-inch margins), including the abstract and tables/figures. The 25-page maximum does not include the title page and references. Papers that do not meet these requirements will be disqualified. </p></li>
+       <li><p> Each applicant must have their mentor submit a letter of support to the chair that characterizes the nature and extent of the student’s contribution to the project. This letter should be a maximum of two pages of text (12-point font, one-inch margins). Applications that do not meet these requirements for letters of support will be disqualified. </p></li>
+ </ul>
+ 
+ <h4> Award amounts</h4>
+<p> Annually at the AP-LS Annual Meeting. First, second and third place winners will be determined. First place will receive an award of $500, second place $300 and third place $150. Award recipients will be strongly encouraged to attend the conference and to present a poster at the poster session in a “Winner’s Circle.”
+
+</p>
+
+
+  <h4> Proposal Review Criteria</h4>
+<p> Proposals will be reviewed by members of the AP-LS Undergraduate Paper Award Committee based on independence, originality, contribution to field, soundness of design and analyses and quality of writing.</p>
+
+ 
+ <h4> Submission deadline</h4>
+ <p>Submissions must be received via email (in Microsoft Word) by the [committee chair](https://www.apadivisions.org/division-41/leadership/committees) on or before <strong> June 30 (annually)</strong>
+</p>
+ </div>
+    </div>
+  </div>
+  
+    <!-- Past Recipients -->
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Past Recipients
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
+      <div class="accordion-body">
+        <h4>2020</h4>
+       Lexi Bammel (advisor: Narina Nunez)
+        <br>Jennifer Krentz (advisor: Tonia Nichols and Ron Roesch)
+        <br>Justin Cho (advisor: Rebecca Fix)
+<br />
+        <h4>2019</h4>
+        Elizabeth Quinn (advisor: Allison Skinner)
+
+        <br>Elizabeth Purser (advisor: April Thomas)
+
+        <br>Natasha Bailey (advisor: J. Zoe Klemfuss)
+<br />
+        <h4>2018</h4>
+Kajal Sachdev (advisor: Bette Bottoms)
+
+        <br>Georgia M. Lundon (advisor: Michael Lamb)
+
+
+        <br>Laura Stevens (advisor: Michael Lamb)
+
+
+<br />
+        <h4>2017</h4>
+Nicholas Michalski (advisor: Jennifer Hunt)
+
+        <br>Weyam Fahmy (advisor: Brent Snook)
+
+
+        <br>Eleanor Prince (advisor: Michael Lamb)
+
+
+<br />
+        <h4>2016</h4>
+Julian Siebert (advisor: Colin Tredoux)
+
+        <br>Sydney Wood (advisor: Evan Mandery)
+
+
+        <br>Zsofia Szojka (advisor: Michael Lamb)
+
+<br />
+        <h4>2015</h4>
+Hannah Phalen (advisor: Edie Greene)
+
+        <br>Siara D. Johnson (advisor: Naomi Goldstein)
+
+
+        <br>Tyler J. Plogher (advisor: Margaret Stevenson)
+
+
+<br />
+        <h4>2014</h4>
+Alex Lyon (advisors: Gail Goodman/Deborah Goldfarb)
+
+        <br>Alan Buttars (advisor: Matt Huss)
+
+
+        <br>Samantha Andrews (advisor: Michael Lamb)
+
+<br />
+        <h4>2013</h4>
+        Dana Forman (advisor: Dave DeMatteo)
+
+
+        <br>Nikoleta Despodova (advisor: Elizabeth Jeglic)
+
+
+        <br>Alan Buttars (advisor: Matt Huss)
+
+
+<br />
+        <h4>2012</h4>
+Natalie Harrison (advisor: Ron Roesch)
+
+        <br>Evan Marie Lowder (advisor: Aubrey Immelman)
+
+
+        <br>Shelby Arnold (advisor: Naomi Goldstein)
+<br />
+        <h4>2011</h4>
+Devon Porter (advisor: Daniel Reisberg)
+        <br>James Lant (advisor: Kimberley Clow)<br>
+        Christina Stanford (advisor: Jeffrey Anastasi)
+
+
+        
+<br />
+        <h4>2010</h4>
+Adam Blanchard (advisor: Kevin Douglas)
+
+        <br>Darcy Burgers (advisor: Dickon Reppucci)
+
+        <br>Jennifer Newman (advisor: Kim Roberts)
+<br />
+        <h4>2009</h4>
+Kyla Matthews (advisor: Meredith Allison)
+
+        <br>Adana Lagerstrom (advisor Jodi Viljoen)
+
+        <br>Alison Ryan (advisor: Daniel Krauss)
+
+
+        <br />
+        <h4>2008</h4>
+Sarah McFadden<br>
+Marissa Reiter
+        
+<br />
+        <h4>2007</h4>
+Haley Deveau<br>Kaitlin Bountress
+
+
+        <br />
+        <h4>2006</h4>
+Hannah Dietrich
+
+
+
+                    
+                    </div>
+      </div>
+    </div>
+  </div>
+```
+
+```{=html}
+<div class="card text-primary bg-secondary mb-3" style="max-width: 20rem;">
+<div class="card-header">Contact info</div>
+  <div class="card-body">
+    <p class="card-text">AP-LS Early Career Professionals Committee<br>ecp@ap-ls.org</p>
+  </div>
+</div>
+```
+
+

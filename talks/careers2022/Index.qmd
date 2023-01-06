@@ -1,0 +1,26 @@
+---
+author: American Psychological Association
+date: "2022-02-02"
+title: "Careers in Applied Psychology: Law and Psychology"
+subtitle: Online panel
+title-block-style: none
+toc: false
+image: featured.png
+date-format: medium
+categories:
+  - careers
+  - apa
+url: https://www.youtube.com/watch?v=AF-lOWQoq8I
+---
+
+<button type="button" class="btn btn-outline-success">
+<a href="https://www.youtube.com/watch?v=AF-lOWQoq8I" target="_blank">{{< fa circle-play >}} video</a></button>
+<br></br>
+
+## Overview 
+
+This engaging panel on Law & Psychology includes an overview of the field and presents six psychologists who conduct research and practice at the intersection of psychology and the law. Panelists use their background in psychology to educate attorneys, judges, and juries on the role of psychology to reduce bias, increase cooperation, ensure procedural fairness, and understand psychological evidence including eyewitness testimony. Clinical forensic psychologists conduct evaluations of harm, risk, and abilities such as competency to stand trial or criminal responsibility in family, civil, sentencing, and criminal cases; they may work with survivors of violence as well as offenders to ensure public safety, reduce recidivism, and prevent offenses. Panelists provide guidance about graduate education and deciding on a career in psychology and law.
+
+
+
+{{< youtube AF-lOWQoq8I >}}

@@ -1,0 +1,113 @@
+---
+title: Diversity Travel Awards
+date: last-modified
+description: As part of an initiative to increase diversity within AP-LS, the BRIDGE Committee will provide Diversity Travel Awards to students from underrepresented groups who are presenting research at the American Psychology-Law Society Conference.
+categories: 
+  - Students
+  - Undergraduate
+  - Graduate
+  - Diversity
+  - Conference travel
+---
+
+Provides travel awards to students from underrepresented groups who are presenting research at the American Psychology-Law Society Conference.
+
+Deadline: January 15, 2023
+
+<a class="btn btn-primary btn-lg" href="https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0" role="button">Apply Here</a>
+
+```{=html}
+
+  <!-- Description info -->
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Description
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+      <div class="accordion-body">
+        <p>As part of an initiative to increase diversity within AP-LS, the BRIDGE Committee will provide travel awards to students from underrepresented groups (i.e., racial and ethnic minorities, first-generation college students, LGBT individuals, and students with disabilities) who are presenting research at the American Psychology-Law Society Conference. Seven competitive travel awards in the amount of $500 will be given.
+</p>
+      
+      </div>
+    </div>
+  </div>
+  
+  <!-- Eligibility info -->
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Eligibility
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
+      <div class="accordion-body">
+      <p>Current graduate and undergraduate students from underrepresented groups may apply for this award. Applicants must be current student members of AP-LS and be presenting research at the conference. These awards are intended to increase diversity at the conferences, especially among racial and ethnic minorities; in addition, the BRIDGE will consider proposals from first-generation college students, LGBT individuals and physically disabled students.
+</p>
+      
+ </div>
+    </div>
+  </div>
+  
+    <!-- How to apply info -->
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        How to Apply
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
+      <div class="accordion-body">
+    <p> Interested students should submit an application that includes the following:
+</p>
+        <ol style="margin-left: 5px;">
+        <li><p> A cover letter which provides contact information for the applicant and specifies the applicant’s eligibility for the award as a member of an underrepresented group.
+ </li></p>
+<li><p> An approximately two-page (double-spaced) statement that describes the student’s professional goals, the presentation(s) he or she will be making at the conference, how attending the conference will benefit the student, and his or her financial need for the award, including a description of other travel funds available to the student.
+ </li></p>
+ 
+ <li><p> A completed W-9 (U.S. citizen) or W-8 (non-citizen) tax form. </li></p> 
+ <li><p> A faculty mentor should email a letter of support to the BRIDGE Travel Award subcommittee chair no later than January 15th. In their letter, the faculty mentor should address the importance of presenting the project at the AP-LS conference for the student's advancement in their Psychology and Law career.
+</li></p> 
+</ol>
+
+<p> Applications will be judged by members of the BRIDGE Committee. Awards will be made on a competitive basis, with consideration given to applicants’ financial need.
+
+</p>
+ 
+<p><strong>Applicant responsibilities </strong><br>
+Award recipients will need to maintain financial receipts for all project expenses. They also are required to submit a project summary to the BRIDGE co-chairs within one month of the project completion date.</p>
+
+<p><strong> Submission instructions and deadline
+</strong><br>Award submissions will be accepted starting September 15, 2022, through January 15, 2023. 
+ </p>
+ 
+ <p> Applications should be submitted via the [BRIDGE Committee awards portal](https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0).
+
+</p>
+
+<p><strong> Inquiries</strong><br>
+For more information about the Diversity Travel Award program, please contact the program chair, [Amanda NeMoyer](mailto:ann38@drexel.edu).
+
+<p><strong> Award Announcement and Disbursement </p></strong>
+<p> Award recipients will be notified by February prior to the conference. Recipients will be required to attend a BRIDGE reception during the conference during which they will be publicly recognized. The travel award will be disbursed by reimbursing expenses following the conference. Recipients will be required to maintain receipts to document their expenses.
+</p>
+                    </div>
+      </div>
+    </div>
+  </div>
+```
+
+```{=html}
+<div class="card text-primary bg-secondary mb-3" style="max-width: 20rem;">
+<div class="card-header">Contact info</div>
+  <div class="card-body">
+    <p class="card-text">Grants-in-Aid Committee<br>grantsinaid@ap-ls.org</p>
+  </div>
+</div>
+```

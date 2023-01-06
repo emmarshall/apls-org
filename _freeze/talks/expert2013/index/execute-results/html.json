@@ -1,0 +1,14 @@
+{
+  "hash": "8a0735579eac719991d7c84214e7dadc",
+  "result": {
+    "markdown": "---\nauthor: AP-LS\ndate: \"2013-23-06\"\ntitle: Steve Penrod on Testifying as an Expert Witness\nsubtitle: Introduction to AP-LS Series\ntitle-block-style: none\ntoc: false\nimage: featured.png\ndate-format: medium\ncategories:\n  - careers\n  - apa\nurl: https://www.youtube.com/watch?v=lz07zM9fqCc\n---\n\n\n<button type=\"button\" class=\"btn btn-outline-success\">\n<a href=\"https://www.youtube.com/watch?v=lz07zM9fqCc\" target=\"_blank\">{{< fa circle-play >}} video</a></button>\n<br></br>\n\n## Overview \n\nAdd to this? \n\n\n\n<iframe src=\"https://www.youtube.com/watch?v=lz07zM9fqCc\" width=\"100%\" height=\"455px\"></iframe>",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

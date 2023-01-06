@@ -1,0 +1,26 @@
+---
+author: AP-LS
+date: "2013-23-06"
+title: Sam Sommers on his Research about the Impact of Jury Diversity
+subtitle: Introduction to AP-LS Series
+title-block-style: none
+toc: false
+image: featured.png
+date-format: medium
+categories:
+  - careers
+  - apa
+url: https://www.youtube.com/watch?v=DW_oyZD7C0Y
+---
+
+<button type="button" class="btn btn-outline-success">
+<a href="https://www.youtube.com/watch?v=DW_oyZD7C0Y" target="_blank">{{< fa circle-play >}} video</a></button>
+<br></br>
+
+## Overview 
+
+Add to this? 
+
+
+
+{{< youtube DW_oyZD7C0Y >}}
