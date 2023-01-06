@@ -2,146 +2,306 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/resources/index.html</loc>
-    <lastmod>2023-01-06T00:45:28.387Z</lastmod>
+    <lastmod>2023-01-06T00:50:34.931Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/oct2018/oct18.html</loc>
+    <lastmod>2023-01-06T00:50:37.048Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/dec2017/dec2017.html</loc>
+    <lastmod>2023-01-06T00:50:37.708Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/dec2018/dec18.html</loc>
+    <lastmod>2023-01-06T00:50:38.060Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/mar2018/mar18.html</loc>
+    <lastmod>2023-01-06T00:50:38.400Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/feb2019/feb2019.html</loc>
+    <lastmod>2023-01-06T00:50:39.020Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/july2017/july2017.html</loc>
+    <lastmod>2023-01-06T00:50:39.520Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/feb2020/feb2020.html</loc>
+    <lastmod>2023-01-06T00:50:39.928Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/sep2017/sep2017.html</loc>
+    <lastmod>2023-01-06T00:50:40.468Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/mar2017/mar2017.html</loc>
+    <lastmod>2023-01-06T00:50:40.944Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/jan2019/jan2019.html</loc>
+    <lastmod>2023-01-06T00:50:41.524Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/june2018/june18.html</loc>
+    <lastmod>2023-01-06T00:50:41.864Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/aug2017/aug2017.html</loc>
+    <lastmod>2023-01-06T00:50:42.484Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/may2018/may18.html</loc>
+    <lastmod>2023-01-06T00:50:42.844Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/jan2020/jan2020.html</loc>
+    <lastmod>2023-01-06T00:50:43.236Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/feb2017/feb2017.html</loc>
+    <lastmod>2023-01-06T00:50:43.764Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/may2017/may2017.html</loc>
+    <lastmod>2023-01-06T00:50:44.252Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/sep2019/sep2019.html</loc>
+    <lastmod>2023-01-06T00:50:44.840Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/oct2017/oct2017.html</loc>
+    <lastmod>2023-01-06T00:50:45.388Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/oct2019/oct2019.html</loc>
+    <lastmod>2023-01-06T00:50:46.088Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/apr2019/apr19.html</loc>
+    <lastmod>2023-01-06T00:50:46.640Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/may2019/may2019.html</loc>
+    <lastmod>2023-01-06T00:50:47.220Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/apr2017/apr2017.html</loc>
+    <lastmod>2023-01-06T00:50:47.728Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/jan2023/jan2023.html</loc>
+    <lastmod>2023-01-06T00:50:48.840Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/nov2019/nov2019.html</loc>
+    <lastmod>2023-01-06T00:50:51.096Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/june2017/june2017.html</loc>
+    <lastmod>2023-01-06T00:50:51.628Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/jan2018/jan18.html</loc>
+    <lastmod>2023-01-06T00:50:52.648Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/jan2017/jan2017.html</loc>
+    <lastmod>2023-01-06T00:50:53.772Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/nov2018/nov18.html</loc>
+    <lastmod>2023-01-06T00:50:54.120Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/mar2019/mar2019.html</loc>
+    <lastmod>2023-01-06T00:50:54.716Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/feb2018/feb18.html</loc>
+    <lastmod>2023-01-06T00:50:55.748Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/nov2017/nov2017.html</loc>
+    <lastmod>2023-01-06T00:50:57.080Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/index.html</loc>
+    <lastmod>2023-01-06T00:50:58.560Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/july2019/july2019.html</loc>
+    <lastmod>2023-01-06T00:50:59.776Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/apr2018/apr2018.html</loc>
+    <lastmod>2023-01-06T00:51:00.512Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/dec2019/dec2019.html</loc>
+    <lastmod>2023-01-06T00:51:00.884Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/june2019/june2019.html</loc>
+    <lastmod>2023-01-06T00:51:01.412Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/aug2019/aug2019.html</loc>
+    <lastmod>2023-01-06T00:51:01.948Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/sep2018/sep18.html</loc>
+    <lastmod>2023-01-06T00:51:02.312Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/aug2018/aug18.html</loc>
+    <lastmod>2023-01-06T00:51:02.664Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/emmarshall/emmarshall.github.io/newsletter/july2018/july18.html</loc>
+    <lastmod>2023-01-06T00:51:03.724Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/talks/careers2022/Index.html</loc>
-    <lastmod>2023-01-06T00:45:30.767Z</lastmod>
+    <lastmod>2023-01-06T00:51:04.816Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/talks/intro2013/index.html</loc>
-    <lastmod>2023-01-06T00:45:31.199Z</lastmod>
+    <lastmod>2023-01-06T00:51:05.212Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/talks/lhb2013/index.html</loc>
-    <lastmod>2023-01-06T00:45:31.627Z</lastmod>
+    <lastmod>2023-01-06T00:51:05.580Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/talks/risk2013/index.html</loc>
-    <lastmod>2023-01-06T00:45:32.055Z</lastmod>
+    <lastmod>2023-01-06T00:51:05.972Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/talks/juvenile2013/index.html</loc>
-    <lastmod>2023-01-06T00:45:32.459Z</lastmod>
+    <lastmod>2023-01-06T00:51:06.340Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/talks/tele2021/index.html</loc>
-    <lastmod>2023-01-06T00:45:32.863Z</lastmod>
+    <lastmod>2023-01-06T00:51:06.748Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/talks/clinician2013/index.html</loc>
-    <lastmod>2023-01-06T00:45:33.331Z</lastmod>
+    <lastmod>2023-01-06T00:51:07.120Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/talks/expert2013/index.html</loc>
-    <lastmod>2023-01-06T00:45:33.755Z</lastmod>
+    <lastmod>2023-01-06T00:51:07.512Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/talks/impact2013/index.html</loc>
-    <lastmod>2023-01-06T00:45:34.191Z</lastmod>
+    <lastmod>2023-01-06T00:51:07.880Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/talks/index.html</loc>
-    <lastmod>2023-01-06T00:45:35.607Z</lastmod>
+    <lastmod>2023-01-06T00:51:09.056Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/talks/diversity2013/index.html</loc>
-    <lastmod>2023-01-06T00:45:36.847Z</lastmod>
+    <lastmod>2023-01-06T00:51:10.120Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/talks/jury2013/index.html</loc>
-    <lastmod>2023-01-06T00:45:37.323Z</lastmod>
+    <lastmod>2023-01-06T00:51:10.484Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/talks/grad2013/index.html</loc>
-    <lastmod>2023-01-06T00:45:37.743Z</lastmod>
+    <lastmod>2023-01-06T00:51:10.844Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/talks/DEIcorrections2022/index.html</loc>
-    <lastmod>2023-01-06T00:45:38.159Z</lastmod>
+    <lastmod>2023-01-06T00:51:11.232Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/talks/students2013/index.html</loc>
-    <lastmod>2023-01-06T00:45:38.587Z</lastmod>
+    <lastmod>2023-01-06T00:51:11.588Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/publications/index.html</loc>
-    <lastmod>2023-01-06T00:45:40.247Z</lastmod>
+    <lastmod>2023-01-06T00:51:13.028Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/funding/grants/teachingaward.html</loc>
-    <lastmod>2023-01-06T00:45:40.715Z</lastmod>
+    <lastmod>2023-01-06T00:51:13.456Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/funding/grants/distinguished.html</loc>
-    <lastmod>2023-01-06T00:45:41.175Z</lastmod>
+    <lastmod>2023-01-06T00:51:13.828Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/funding/grants/APprogram.html</loc>
-    <lastmod>2023-01-06T00:45:41.595Z</lastmod>
+    <lastmod>2023-01-06T00:51:14.204Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/funding/grants/UNDgrantinaid.html</loc>
-    <lastmod>2023-01-06T00:45:42.007Z</lastmod>
+    <lastmod>2023-01-06T00:51:14.580Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/funding/grants/macarthur.html</loc>
-    <lastmod>2023-01-06T00:45:42.419Z</lastmod>
+    <lastmod>2023-01-06T00:51:14.948Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/funding/grants/ECgrantinaid.html</loc>
-    <lastmod>2023-01-06T00:45:42.851Z</lastmod>
+    <lastmod>2023-01-06T00:51:15.340Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/funding/grants/fellows.html</loc>
-    <lastmod>2023-01-06T00:45:43.323Z</lastmod>
+    <lastmod>2023-01-06T00:51:15.712Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/funding/grants/recaward.html</loc>
-    <lastmod>2023-01-06T00:45:43.827Z</lastmod>
+    <lastmod>2023-01-06T00:51:16.092Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/funding/grants/diversityresearch.html</loc>
-    <lastmod>2023-01-06T00:45:44.255Z</lastmod>
+    <lastmod>2023-01-06T00:51:16.452Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/funding/grants/saleemshah.html</loc>
-    <lastmod>2023-01-06T00:45:44.667Z</lastmod>
+    <lastmod>2023-01-06T00:51:16.820Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/funding/grants/dissertation.html</loc>
-    <lastmod>2023-01-06T00:45:45.167Z</lastmod>
+    <lastmod>2023-01-06T00:51:17.248Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/funding/grants/impactgrant.html</loc>
-    <lastmod>2023-01-06T00:45:45.575Z</lastmod>
+    <lastmod>2023-01-06T00:51:17.624Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/funding/grants/undergradpaper.html</loc>
-    <lastmod>2023-01-06T00:45:45.999Z</lastmod>
+    <lastmod>2023-01-06T00:51:17.992Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/funding/grants/bookaward.html</loc>
-    <lastmod>2023-01-06T00:45:46.471Z</lastmod>
+    <lastmod>2023-01-06T00:51:18.384Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/funding/grants/diversitytravelaward.html</loc>
-    <lastmod>2023-01-06T00:45:46.883Z</lastmod>
+    <lastmod>2023-01-06T00:51:18.756Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/funding/index.html</loc>
-    <lastmod>2023-01-06T00:45:47.531Z</lastmod>
+    <lastmod>2023-01-06T00:51:19.328Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/president/index.html</loc>
-    <lastmod>2023-01-06T00:45:47.979Z</lastmod>
+    <lastmod>2023-01-06T00:51:19.732Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/index.html</loc>
-    <lastmod>2023-01-06T00:45:48.627Z</lastmod>
+    <lastmod>2023-01-06T00:51:20.272Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/emmarshall/emmarshall.github.io/membership/membership.html</loc>
-    <lastmod>2023-01-06T00:45:49.083Z</lastmod>
+    <lastmod>2023-01-06T00:51:20.680Z</lastmod>
   </url>
 </urlset>
