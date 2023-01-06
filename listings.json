@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/about/leadership.html",
+    "items": [
+      "/about/officers/barry_rosenfeld.html"
+    ]
+  },
+  {
     "listing": "/newsletter/index.html",
     "items": [
       "/newsletter/jan2018/jan18.html",
