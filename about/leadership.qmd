@@ -1,0 +1,31 @@
+---
+pagetitle: "Leadership"
+toc: false
+listing:
+  - id: executive-officers
+    contents: "officers/*.qmd"
+    type: grid
+    image-height: 350px
+    grid-columns: 2
+    fields: [image, title, subtitle]
+    grid-item-align: center
+    sort: sortby
+    field-display-names: 
+      affiliation: ""
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">People</li>
+  </ol>
+</nav>
+```
+
+
+## 2022-2023 Executive Officers
+
+:::{#executive-officers}
+:::
+
