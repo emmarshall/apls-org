@@ -4,18 +4,23 @@
 
 ```{=html}
 
-    <!-- Description -->
+    <!-- List of committees -->
 
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Description
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        Book Award Committee
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
       <div class="accordion-body">
         <p>
+        Elizabeth Foster
+
+In 2005, the APLS Book Award Committee was formed. The committee considers, on a biennial basis, edited or authored books published during the preceding two years that have been nominated to receive the APLS Book Award. Nominations may be made by anyone, and self-nominations are encouraged. The award is given to the author(s) or editor(s) of a book that makes an outstanding contribution to the field of law and psychology (broadly defined). The winner of the award receives an award plaque and is invited to deliver an address at the APLS conference. Committee members (five PhDs) review the nominations received and the books nominated, and determine the winner(s) of the award.
+
+Members: Sharon Kelly; Wendy Heath; Emily Pica; Margit Wiesner; Cynthia Willis-Esqueda
 </p>
 
       </div>
@@ -25,7 +30,7 @@
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        How to Apply
+        Broadening Representation, Inclusion, Diversity, and Global Equity for AP-LS (BRIDGE)
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
@@ -38,6 +43,24 @@
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+       Past Recipients
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
+      <div class="accordion-body">
+        <p>
+</p>
+
+      </div>
+    </div>
+  </div>
+  
+  </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingFour">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
        Past Recipients
       </button>
