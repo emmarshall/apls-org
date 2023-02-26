@@ -1,0 +1,87 @@
+<header id="title-block-header"
+<div class="hero-header">
+  <img src="<%= imagePath %>" alt="<%= altText %>">
+  <div class="hero-content">
+    <h1><%= heroTitle %></h1>
+    <p><%= city %>, <%= state %> | <%= startDate %> - <%= endDate %></p>
+    <a href="<%= buttonLink %>" class="button"><%= buttonText %></a>
+  </div>
+</div>
+
+
+</header>
+<!-- Template based on https://www.andrewheiss.com/research/ -->
+
+<header id="title-block-header"
+    class="quarto-title-block research default$if(quarto-template-params.banner-header-class)$ $quarto-template-params.banner-header-class$$endif$">
+    <div class="quarto-title-banner">
+        $if(include-back-link)$
+        <div class="back-nav"><a href="../funding/index.qmd">← Back to awards</a></div>
+        $endif$
+        <div class="quarto-title column-body">
+            <h1 class="title">$title$</h1>
+
+            $if(description)$
+            <div>
+                <div class="description">
+                    $description$
+                </div>
+            </div>
+            $endif$
+            
+
+            $if(categories)$
+            $if(quarto-template-params.title-block-categories)$
+            <div class="quarto-categories">
+                $for(categories)$
+                <div class="quarto-category">$categories$</div>
+                $endfor$
+            </div>
+            $endif$
+            
+            $if(submission-info.sponsor)$
+
+    <div class="quarto-title-meta-heading manual">Sponsor</div>
+    <div class="quarto-title-meta-contents">
+        <p class="submission-sponsor">
+            $submission-info.sponsor$
+        </p>
+    </div>
+    $endif$
+
+    
+     $if(submission-info.deadline)$
+
+    <div class="quarto-title-meta-heading manual">Deadline</div>
+    <div class="quarto-title-meta-contents">
+        <p class="submission-deadline">
+            $submission-info.deadline$
+        </p>
+    </div>
+    $endif$
+            
+            $endif$
+        </div>
+    </div>
+    
+    $if(submission-info)$
+    <div class="callout-note">
+    <div class="award-details">
+        <div class="award-content">
+            <p>$submission-info.type$</p>
+        </div>
+        $if(submission-info.links)$
+        <ul class="award-links">
+            $for(submission-info.links)$
+            <li class="award-link">
+                <a href="$submission-info.links.url$"><i class="$submission-info.links.icon$"></i> $submission-info.links.name$</a>
+            </li>
+            $endfor$
+        </ul>
+        $endif$
+    </div>
+    </div>
+
+    $endif$
+
+</header>

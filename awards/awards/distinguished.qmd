@@ -1,0 +1,112 @@
+---
+title: Distinguished Contributions to Psychology and Law
+date: last-modified
+description: Honors one who has made distinguished theoretical, empirical, and/or applied contributions to the field of psychology and law.
+categories: 
+  - Distinguished Career
+submission-info:  
+  sponsor: AP-LS Executive Committee
+  deadline: January 1
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("../../_site/apls_functions.R")
+```
+
+::: vspace
+:::
+
+::: callout-note
+All nominations should be sent in a single file Word or pdf format to AP-LS Past President Lora Levett at `llevett@ufl.edu` by January 1, 2023. </br> Self-nominations will not be considered.
+
+```{r}
+#| echo: false
+#| output: asis
+
+library(tibble)
+library(dplyr)
+
+# Important links for award
+links <- tibble(
+  icon = c("file-import"),
+  text = c("Submit nomination"),
+  url = c("llevett@ufl.edu")
+)
+
+# Create inline objects for each row of the tibble
+inline_objects <- lapply(seq_len(nrow(links)), function(i) {
+  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
+})
+
+# Combine the inline object strings into a single string
+inline_objects_str <- paste(inline_objects, collapse = "")
+
+# Print the HTML string
+cat(inline_objects_str)
+```
+:::
+
+::: vspace
+:::
+
+::: panel-tabset
+## Description
+
+The AP-LS Award for Distinguished Contributions to Psychology and Law honors one who has made distinguished theoretical, empirical and/or applied contributions to the field of psychology and law. This award will not be presented on a regular basis. Rather, it will be reserved for those individuals whose contributions are so unusual as to merit special commendation.
+
+## Eligibility
+
+This award is not exclusively for AP-LS members, and anyone who meets these criteria may be nominated.
+
+## How to Apply
+
+All nominations should be sent in a single file Word or pdf format to AP-LS Past President Lora Levett (llevett\@ufl.edu) by January 1, 2023.
+
+:::{.callout-tip} 
+## Nominations must include:
+
+-   A copy of the nominee's CV
+
+-   A letter detailing the nominee's distinguished contributions to psychology and law
+
+-   Names and addresses of four individuals who are familiar with the nominee's work and who would be able to address the nominee's contributions to the field of psychology and law (or additional letters from these four individuals).
+
+Self-nominations will not be considered.
+:::
+
+:::
+```{=html}
+
+    <!-- Past recipients -->
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        Past Recipients
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+      <div class="accordion-body">  
+      
+      <strong>2018:</strong> James Ogloff <br>
+      <strong>2017:</strong> Michael Saks <br>
+      <strong>2016:</strong> Kirk Heilbrun and Chris Slobogin <br>
+      <strong>2015:</strong> Gail Goodman <br>
+      <strong>2014:</strong> Saul Kassin <br>
+      <strong>2013:</strong> Michael E. Lamb <br>
+      <strong>2012:</strong> Thomas Grisso <br>
+      <strong>2011:</strong> Norman Poythress <br>
+      <strong>2010:</strong> Ronald Roesch <br>
+      <strong>2008:</strong> Elizabeth Loftus <br>
+      <strong>2006:</strong> Stanley Brodsky <br>
+      <strong>2005:</strong> Janet Reno <br>
+      <strong>2001:</strong> Gary Wells <br>
+      <strong>1998:</strong> Larry Wrightsman <br>
+      <strong>1992:</strong> Bruce Sales <br>
+      <strong>1990:</strong> Supreme Court Justice Harry Blackmun <br>
+      <strong>1988:</strong> John Monahan and Laurens Walker <br>
+      <strong>1986:</strong> Saleem Shah (First time awarded)
+```    
+      

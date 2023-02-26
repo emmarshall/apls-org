@@ -1,0 +1,14 @@
+{
+  "hash": "a398e4ccfa40e7ff342884ea48139e78",
+  "result": {
+    "markdown": "---\ntitle: Caregiving Grants for American Psychology-Law Conference\ndate: last-modified\ndescription: Provides travel awards to APLS members who serve as a caregiver in any capacity (e.g., child, parent) to attend the American Psychology-Law Society Conference.\ncategories: \n  - Students\n  - Undergraduate\n  - Graduate\n  - Diversity, Equity & Inclusion\n  - Conference Travel\n  - Early Career Professionals\n  - Caregiving Grants\nsubmission-info:\n  sponsor: AP-LS Professional Development of Women Committee\n  deadline: January 27, 2023\n---\n\n\n\n\n::: vspace\n:::\n\n::: callout-note\n# 2023 Conference\nThe AP-LS Professional Development of Women Committee is thrilled to offer Caregiving Grants of $500-$750 for 20-30 attendees of APLS 2023 in Philadelphia, with priority to first authors, presenters, students, and early career professionals. This grant is open to any APLS member (student and non-student) who serves as a caregiver in any capacity (e.g., child, parent). Funds can be used for any caregiving needs during the conference, including needs at the conference or at home.\n\n \nWe will notify grantees by February 3, 2023. \n\n<span class=\"inline-object\"><i class=\"fa fa-circle-info\"></i><a href=\"../../about/committees.qmd\">About PDW Committee</a></span><span class=\"inline-object\"><i class=\"fa fa-envelope\"></i><a href=\"mailto:Jennifer.m.cox@ua.edu\">Contact</a></span><span class=\"inline-object\"><i class=\"fa fa-link\"></i><a href=\"https://universityofalabama.az1.qualtrics.com/jfe/form/SV_4Jilv1WU81DVrGm\">Link to Apply</a></span>\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

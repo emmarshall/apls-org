@@ -1,0 +1,149 @@
+---
+title: Access Path to Psychology and Law Experience (AP) Program
+date: last-modified
+description: Provides finanical support to students from groups currently underrepresented in the field of psychology and law. 
+categories: 
+  - Students
+  - Undergraduate
+  - Graduate
+  - Diversity, Equity & Inclusion
+submission-info:
+  sponsor: AP-LS BRIDGE Committee
+  deadline: January 15
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("../../_site/apls_functions.R")
+```
+
+::: vspace
+:::
+
+::: callout-note
+Please be aware that students can only receive funding from one BRIDGE program/award per year.
+
+For more information about the AP Program, please contact the program chair, [Jason Lawrence](mailto:jason.lawrence@dmh.mo.gov).
+```{r}
+#| echo: false
+#| output: asis
+
+library(tibble)
+library(dplyr)
+
+# Important links for award
+links <- tibble(
+  icon = c("circle-info", "link"),
+  text = c("About BRIDGE Committee", "Link to Apply"),
+  url = c("../../about/committees.qmd", "https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0")
+)
+
+# Create inline objects for each row of the tibble
+inline_objects <- lapply(seq_len(nrow(links)), function(i) {
+  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
+})
+
+# Combine the inline object strings into a single string
+inline_objects_str <- paste(inline_objects, collapse = "")
+
+# Print the HTML string
+cat(inline_objects_str)
+```
+:::
+
+::: vspace
+:::
+
+::: panel-tabset
+## Description
+
+Do you know a promising student from an underrepresented group who is interest in psychology and law, but not currently involved in research? Recruit them into AP-LS's AP program.
+
+The purpose of the Access Path to Psychology and Law Experience (AP) Program is to increase diversity within psychology and law by increasing the pipeline of competitive graduate school applicants from groups that currently are underrepresented in the field, including racial and ethnic minorities, first-generation college students, LGBTQIA individuals, and disabled students. 
+
+AP is designed to encourage faculty members to recruit students from underrepresented groups into their research labs. It provides financial support for the students to obtain meaningful research experience and attend the AP-LS conference as well as other opportunities for mentoring and development. 
+
+:::{.callout-note}
+The AP program will award up to $3,000 per student, depending on the length of the research experience. Recipients will be given a stipend of $1,200 per semester or $800 per quarter or summer for up to one year. 
+
+In addition, they will receive $100 for research expenses and up to $500 to attend the AP-LS conference. 
+
+Six awards of $3,000 (i.e., for year-long experiences) or a larger number of smaller awards (i.e., for part-year experiences) will be given.
+:::
+
+## Eligibility
+
+Faculty are encouraged to identify promising undergraduate and terminal master's degree students from underrepresented groups who are interested in psychology and law and have the potential to become competitive graduate applicants. 
+
+Underrepresented groups include, but are not limited to, racial and ethnic minorities, first-generation college students, LGBTQIA individuals, and physically disabled students. 
+
+Because the AP program is intended to expand the pipeline of qualified students from underrepresented groups, students should not be working with the faculty member in the proposed capacity prior to initiating the application process.
+
+Students may already be working in the lab of a professor, but the proposal must consist of a new project.
+
+Students in the AP program should be supervised primarily by faculty members rather than by graduate students.
+
+
+:::{.callout-note}
+It is the intention of the BRIDGE Committee that many of the students in the AP program will apply for graduate training related to psychology and law and ultimately become professionals in the field. The AP program primarily targets undergraduate students, but students from terminal master’s degree programs will also be considered.
+:::
+
+## How to Apply
+
+:::{.callout-tip} 
+## Award applications should include:
+
+1.  A cover letter that provides contact information for both the student and the mentor
+
+2. A one-to-two page personal statement written by the student that addresses the following issues:
+    -   student's interest in the field of psychology and law, either in general or with respect to a particular issue in the field
+    -   student's educational and career goals
+    -   student's current qualifications and experiences for achieving those goals. All students should provide their current overall and psychology-specific GPAs.
+    -   Students also may discuss any personal characteristics or life experiences that are relevant to proposed project
+
+3. A two-to-three-page description of the proposed research experience
+  -   Students should discuss the research activities they will engage in with their mentors
+  -   A description of the topic of the proposed research, providing as much detail about the project as well as the specific research tasks in which the student will engage. It is not necessary for students to complete an independent project, but they need to obtain meaningful experience that will help them be competitive for graduate school.
+
+:::{callout-tip}
+The research proposal should include the following, to the extent possible:
+-   brief introduction/background to the project
+-   brief description of the method, including participants, measures, and procedures
+:::
+
+4. A letter of support from the faculty member discussing the applicant's potential for graduate work, interest in psychology and law, and ability to complete the proposed research experience. In addition, the faculty member should discuss his or her anticipated strategy for mentoring the student (e.g., amount of contact, training methods, plans for monitoring progress)
+
+5. A completed W-9 (U.S. citizen) or W-8 (noncitizen) tax form
+:::
+
+<a class="btn btn-primary" href="https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0" role="button">Link to Apply</a>
+
+## Program Requirements
+
+Students in the AP program are required to:
+
+-   work on research for approximately 10 hours per week for the duration of their research experience;
+
+-   participate in GRE classes and/or other development opportunities;
+
+-   attend an AP-LS conference;
+
+-   submit a proposal to present their research at an AP-LS conference or in the Div. 41 program of an APA conference;
+
+-   submit a summary of their research experience to the BRIDGE chair within one month of its completion;
+
+-   correspond with a secondary mentor from the BRIDGE Committee;
+
+-   participate in the ongoing assessment of the AP program.
+
+Faculty mentors in the AP program are required to:
+
+-   closely supervise their students to ensure that they have a meaningful research experience that will make them more competitive for graduate school;
+
+-   help identify and facilitate opportunities for their students to participate in GRE classes and/or other development programs offered on their campuses (e.g., through the McNair program);
+
+-   assist their students in making a conference presentation about their research;
+
+-   participate in the ongoing assessment of the AP program
+
+:::

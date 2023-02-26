@@ -1,0 +1,48 @@
+---
+title: "AP-LS Awards, Grants and Funding"
+subtitle: The following awards and grants are sponsored by Div. 41
+toc: false
+title-block-banner: "files/awards-banner.svg"
+listing:
+  - id: grants
+    fields: [title, description, categories]
+    contents: 
+    - "grants/*qmd"
+    type: grid
+    grid-columns: 1
+    categories: true
+    sort: sortby
+    sort-ui: [categories]
+    filter-ui: [title, description, categories]
+  - id: awards
+    fields: [title, description, categories]
+    contents: 
+    - "awards/*qmd"
+    type: grid
+    grid-columns: 1
+    categories: true
+    sort: sortby
+    sort-ui: [categories]
+    filter-ui: [title, description, categories]
+  - id: conference
+    fields: [title, description, categories]
+    contents: 
+    - "conference/*qmd"
+    type: grid
+    grid-columns: 1
+    categories: true
+    filter-ui: [title, description, categories]
+---
+
+
+## Grants and Fellowships
+::: {#grants style="max-width: 850px;"}
+:::
+
+## Awards and Recognition
+::: {#awards style="max-width: 850px;"}
+:::
+
+## Conference Travel
+::: {#conference style="max-width: 850px;"}
+:::

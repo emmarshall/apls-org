@@ -1,0 +1,83 @@
+---
+title: Specialty Guidelines for Forensic Psychology
+---
+The final version of the Specialty Guidelines for Forensic Psychologists, prepared by the AP-LS Committee on the Revision of the Specialty Guidelines for Forensic Psychology, was adopted by APA Council of Representatives on Aug. 3, 2011. The guidelines appeared in American Psychologist and are available for download. 
+
+{{< downloadthis files/specialty-guidelines-forensic-psychology.pdf dname:"forensic-specialty-guidelines" label="Download Forensic Guidelines" icon=file-earmark-pdf type=primary >}}
+
+For other professional guidelines from APA, [go here](https://www.apa.org/practice/guidelines)
+
+::: panel-tabset
+## Application
+
+The Specialty Guidelines for Forensic Psychologists applies as follows:
+
+For the purposes of these Guidelines, forensic psychology refers to professional practice by any psychologist working within any sub-discipline of psychology (e.g., clinical, developmental, social, cognitive) when applying the scientific, technical, or specialized knowledge of psychology to the law to assist in addressing legal, contractual, and administrative matters. Application of the Guidelines does not depend on the practitioner’s typical areas of practice or expertise, but rather on the service provided in the case at hand. These Guidelines apply in all matters in which psychologists provide expertise to judicial, administrative, and educational systems including, but not limited to, examining or treating persons in anticipation of or subsequent to legal, contractual, administrative, proceedings; offering expert opinion about psychological issues in the form of amicus briefs or testimony to judicial, legislative or administrative bodies; acting in an adjudicative capacity; serving as a trial consultant or otherwise offering expertise to attorneys, the courts, or others; conducting research in connection with, or in the anticipation of, litigation; or involvement in educational activities of a forensic nature.
+
+## Definitions & Terminology
+
+
+For the purposes of these Guidelines:
+
+```{r}
+#| echo: false
+#| label: Definitions table 
+
+
+library(data.table)
+library(reactable)
+
+definitions <- data.table(term = c("Appropriate", "Agreement", "Assent", "Consent", "Client", "Conflict of Interest", "Decisionmaker", "Examinee", "Forensic Examiner", "Forensic Practice", "Forensic Practitioner", "Forensic Psychology", "Informed Consent", "Legal Representative", "Party", "Reasonable or Reasonably", "Record or Written Record", "Retaining Party", "Tribunal", "Trier of Fact"),
+                   define = c("Appropriate when used in relation to conduct by a forensic practitioner means that, according to the prevailing professional judgment of competent forensic practitioners, the conduct is apt and pertinent and is considered befitting, suitable and proper for a particular person, place, condition, or function. 'Inappropriate' means that, according to the prevailing professional judgment of competent forensic practitioners, the conduct is not suitable, desirable, or properly timed for a particular person, occasion, or purpose; and may also denote improper conduct, improprieties, or conduct that is discrepant for the circumstances.", "Agreement refers to the objective and mutual understanding between the forensic practitioner and the person or persons seeking the professional service and/or agreeing to participate in the service. See also Assent, Consent, and Informed Consent.", "Assent refers to the agreement, approval, or permission, especially regarding verbal or nonverbal conduct, that is reasonably intended and interpreted as expressing willingness, even in the absence of unmistakable consent. Forensic practitioners attempt to secure assent when consent and informed consent can not be obtained or when, because of mental state, the examinee may not be able to consent.", "Consent refers to agreement, approval, or permission as to some act or purpose.", "Client refers to the attorney, law firm, court, agency, entity, party, or other person who has retained, and who has a contractual relationship with, the forensic practitioner to provide services.", "Conflict of Interest refers to a situation or circumstance in which the forensic practitioner's objectivity, impartiality, or judgment may be jeopardized due to a relationship, financial, or any other interest that would reasonably be expected to substantially affect a forensic practitioner's professional judgment, impartiality, or decision-making.", "Decisionmaker refers to the person or entity with the authority to make a judicial decision, agency determination, arbitration award, or other contractual determination after consideration of the facts and the law.", "Examinee refers to a person who is the subject of a forensic examination for the purpose of informing a decision maker or attorney about the psychological functioning of that examinee.", "Forensic Examiner refers to a psychologist who examines the psychological condition of a person whose psychological condition is in controversy or at issue.", "Forensic Practice refers to the application of the scientific, technical, or specialized knowledge of psychology to the law and the use of that knowledge to assist in resolving legal, contractual, and administrative disputes.", "Forensic Practitioner refers to a psychologist when engaged in forensic practice.", "Forensic Psychologyrefers to all forensic practice by any psychologist working within any sub-discipline of psychology (e.g., clinical, developmental, social, cognitive).", "Informed Consent denotes the knowledgeable, voluntary, and competent agreement by a person to a proposed course of conduct after the forensic practitioner has communicated adequate information and explanation about the material risks and benefits of, and reasonably available alternatives to, the proposed course of conduct.", "Legal Representative refers to a person who has the legal authority to act on behalf of another.", "Party refers to a person or entity named in litigation, or who is involved in, or is witness to, an activity or relationship that may be reasonably anticipated to result in litigation.", "Reasonable or Reasonably, when used in relation to conduct by a forensic practitioner, denotes the conduct of a prudent and competent forensic practitioner who is engaged in similar activities in similar circumstances.", "Record or Written Record refers to all notes, records, documents, memorializations, and recordings of considerations and communications, be they in any form or on any media, tangible, electronic, hand-written, or mechanical, that are contained in, or are specifically related to, the forensic matter in question or the forensic service provided.", "Retaining Party refers to the attorney, law firm, court, agency, entity, party, or other person who has retained, and who has a contractual relationship with, the forensic practitioner to provide services.", "Tribunal denotes a court or an arbitrator in an arbitration proceeding, or a legislative body, administrative agency, or other body acting in an adjudicative capacity. A legislative body, administrative agency or other body acts in an adjudicative capacity when a neutral official, after the presentation of legal argument or evidence by a party or parties, renders a judgment directly affecting a party's interests in a particular matter.", "Trier of Fact refers to a court or an arbitrator in an arbitration proceeding, or a legislative body, administrative agency, or other body acting in an adjudicative capacity. A legislative body, administrative agency or other body acts in an adjudicative capacity when a neutral official, after the presentation of legal argument or evidence by a party or parties, renders a judgment directly affecting a party's interests in a particular matter.")
+)
+
+  reactable(definitions,
+            columns = list(
+              term = colDef(name = "Term", maxWidth = 150),
+              define = colDef(name = "Definition")
+            ),
+            searchable = TRUE, 
+            highlight = TRUE
+            )               
+                   
+```
+
+## Background & History
+
+#### History of the Guidelines
+The previous version of the Specialty Guidelines for Forensic Psychologists (Committee on Ethical Guidelines for Forensic Psychologists, 1991) was approved by the American Psychology-Law Society, Division 41 of the American Psychological Association, and the American Academy of Forensic Psychology in 1991.  The current  revision, now called the Specialty Guidelines for Forensic Psychology (referred to as Guidelines throughout this document), replace the 1991 Specialty Guidelines for Forensic Psychologists. 
+
+#### Revision Process 
+This revision of the Guidelines was coordinated by the Committee for the Revision of the Specialty Guidelines for Forensic Psychology, which was established by the American Academy of Forensic Psychology and the American Psychology-Law Society (Division 41 of the American Psychological Association) in 2002 and operated through 2011.  This Committee consisted of two representatives from each organization (Solomon Fulero, PhD, JD, Stephen Golding, PhD, ABPP, Lisa Piechowski, PhD, ABPP, Christina Studebaker, PhD) a Chairperson (Randy Otto, PhD, ABPP), and a liaison from APA Division 42 (Jeffrey Younggren, PhD, ABPP). 
+
+This document was revised in accordance with American Psychological Association Rule 30.08 and the APA policy document Criteria for the development and evaluation of practice guidelines (APA, 2001).  The Committee posted announcements regarding the revision process to relevant electronic discussion lists and professional publications (i.e., Psylaw-L email listserve, American Academy of Forensic Psychology listserve, American Psychology-Law Society Newsletter).  
+
+In addition, an electronic discussion list devoted solely to issues concerning revision of the Guidelines was operated between December 2002 and July 2007, followed by establishment of an e-mail address in February 2008 (sgfp@yahoo.com).  Individuals were invited to provide input and commentary on the existing Guidelines and proposed revisions via these means. In addition, two public meetings were held throughout the revision process at biennial meetings of the American Psychology-Law Society.
+
+Upon development of a draft that the Revisions Committee deemed suitable, the revised Guidelines were submitted for review to the Executive Committee of the American Psychology-Law Society and Division 41 of the American Psychological Association, and to the American Board of Forensic Psychology.  
+
+Once the revised Guidelines were approved by these two organizations, they were submitted to the American Psychological Association for review, commentary, and acceptance, consistent with the American Psychological Association’s Criteria for Practice Guideline Development and Evaluation (Committee on Professional Practice and Standards, 2001) and Rule 30-8.  They were subsequently revised by the Revisions Committee and  were adopted by the American Psychological Association Council of Representatives on [insert date here].
+
+#### Developers and Support
+The Specialty Guidelines for Forensic Psychology were developed by the American Psychology-Law Society (Division 41 of the American Psychological Association) and the American Academy of Forensic Psychology.
+
+#### Current Status
+These Guidelines are scheduled to expire [insert date here].  After this date, users are encouraged to contact the American Psychological Association Practice Directorate to confirm that this document remains in effect.
+
+
+SGFP Guidelines originally adopted in 1991 (PDF, 64KB)
+{{< downloadthis files/1991-draft.pdf dname:"PDF, 64KB" >}}
+
+January 2006 Draft of the Revised SGFP Guidelines (PDF, 87KB)
+{{< downloadthis files/2006-draft.pdf dname:"PDF, 64KB" >}}
+
+February 2008 Draft of the Revised SGFP Guidelines (PDF, 99KB)
+{{< downloadthis files/2008-feb-draft.pdf >}}
+
+September 2008 Draft of the Revised SGFP Guidelines (PDF, 91KB)
+{{< downloadthis files/2008-feb-draft.pdf >}}
+
+August 2010 Draft of the Revised SGFP Guidelines (PDF, 169KB)
+{{< downloadthis files/2010-draft.pdf >}}
+
+:::

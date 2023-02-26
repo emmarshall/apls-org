@@ -1,0 +1,53 @@
+---
+title: Informed consent, notification and assent
+---
+
+> Because substantial rights, liberties, and properties are often at risk in forensic matters, and because the methods and procedures of forensic practitioners are complex and may not be accurately anticipated by the recipients of forensic services, forensic practitioners strive to inform service recipients about the nature and parameters of the services to be provided (EPPCC Standards 3.04, 3.10).
+
+### 6.01 Timing and Substance
+
+Forensic practitioners strive to inform clients, examinees, and others who are the recipients of forensic services as soon as is feasible about the nature and extent of reasonably anticipated forensic services.
+
+In determining what information to impart, forensic practitioners are encouraged to consider a variety of factors including the person's experience or training in psychological and legal matters of the type involved and whether the person is represented by counsel. When questions or uncertainties remain after they have made the effort to explain the necessary information, forensic practitioners may recommend that the person seek legal advice.
+
+### 6.02 Communication with Those Seeking to Retain a Forensic Practitioner
+
+As part of the initial process of being retained, or as soon thereafter as previously unknown information becomes available, forensic practitioners strive to disclose to the retaining party information that would reasonably be anticipated to affect a decision to retain or continue the services of the forensic practitioner.
+
+This disclosure may include, but is not limited to, the fee structure for anticipated services; prior and current personal or professional activities, obligations and relationships that would reasonably lead to the fact or the appearance of a conflict of interest; the forensic practitioner's knowledge, skill, experience, and education relevant to the forensic services being considered, including any significant limitations; and the scientific bases and limitations of the methods and procedures which are expected to be employed.
+
+### 6.03 Communication with Forensic Examinees
+
+Forensic practitioners inform examinees about the nature and purpose of the examination (EPPCC Standard 9.03; American Educational Research Association, American Psychological Association, & National Council on Measurement in Education, 1999). Such information may include the purpose, nature, and anticipated use of the examination; who will have access to the information; associated limitations on privacy, confidentiality, and privilege including who is authorized to release or access the information contained in the forensic practitioner's records; the voluntary or involuntary nature of participation, including potential consequences of participation or non-participation, if known; and, if the cost of the service is the responsibility of the examinee, the anticipated cost.
+
+### 6.03.01 Persons Not Ordered or Mandated to Undergo Examination
+
+If the examinee is not ordered by the court to participate in a forensic examination, the forensic practitioner seeks his or her informed consent (EPPCC Standards 3.10, 9.03). If the examinee declines to proceed after being notified of the nature and purpose of the forensic examination, the forensic practitioner may consider postponing the examination, advising the examinee to contact his or her attorney, and notifying the retaining party about the examinee's unwillingness to proceed.
+
+### 6.03.02 Persons Ordered or Mandated to Undergo Examination or Treatment
+
+If the examinee is ordered by the court to participate, the forensic practitioner can conduct the examination over the objection, and without the consent, of the examinee (EPPCC Standards 3.10, 9.03). If the examinee declines to proceed after being notified of the nature and purpose of the forensic examination, the forensic practitioner may consider a variety of options including postponing the examination, advising the examinee to contact his or her attorney, and notifying the retaining party about the examinee's unwillingness to proceed.
+
+When an individual is ordered to undergo treatment but the goals of treatment are determined by a legal authority rather than the individual receiving services, the forensic practitioner informs the service recipient of the nature and purpose of treatment, and any limitations on confidentiality and privilege (EPPCC Standards 3.10, 10.01).
+
+### 6.03.03 Persons Lacking Capacity to Provide Informed Consent
+
+Forensic practitioners appreciate that the very conditions that precipitate psychological examination of individuals involved in legal proceedings can impair their functioning in a variety of important ways, including their ability to understand and consent to the evaluation process.
+
+For examinees adjudicated or presumed by law to lack the capacity to provide informed consent for the anticipated forensic service, the forensic practitioner nevertheless provides an appropriate explanation, seeks the examinee's assent, and obtain appropriate permission from a legally authorized person, as permitted or required by law (EPPCC Standards 3.10, 9.03).
+
+For examinees whom the forensic practitioner has concluded lack capacity to provide informed consent to a proposed, non-court-ordered service, but who have not been adjudicated as lacking such capacity, the forensic practitioner strives to take reasonable steps to protect their rights and welfare (EPPCC Standard 3.10). In such cases, the forensic practitioner may consider suspending the proposed service or notifying the examinee's attorney or the retaining party.
+
+### 6.03.04 Evaluation of Persons Not Represented by Counsel
+
+Because of the significant rights that may be at issue in a legal proceeding, forensic practitioners carefully consider the appropriateness of conducting a forensic evaluation of an individual who is not represented by counsel. Forensic practitioners may consider conducting such evaluations or delaying the evaluation so as to provide the examinee with the opportunity to consult with counsel.
+
+### 6.04 Communication with Collateral Sources of Information
+
+Forensic practitioners disclose to potential collateral sources information that might reasonably be expected to inform their decisions about participating that may include, but may not be limited to, who has retained the forensic practitioner; the nature, purpose, and intended use of the examination or other procedure; the nature of and any limits on privacy, confidentiality, and privilege; and whether their participation is voluntary (EPPCC Standard 3.10).
+
+### 6.05 Communication in Research Contexts
+
+When engaging in research or scholarly activities conducted as a service to a client in a legal proceeding, forensic practitioners attempt to clarify any anticipated use of the research or scholarly product, disclose their role in the resulting research or scholarly products, and obtain whatever consent or agreement is required.
+
+In advance of any scientific study, forensic practitioners seek to negotiate with the client the circumstances under and manner in which the results may be made known to others. Forensic practitioners strive to balance the potentially competing rights and interests of the retaining party with the inappropriateness of suppressing data, for example, by agreeing to report the data without identifying the jurisdiction in which the study took place. Forensic practitioners represent the results of research in an accurate manner (EPPCC Standard 5.01).

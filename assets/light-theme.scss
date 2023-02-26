@@ -2,11 +2,13 @@
 
 // use flatly as the base
 // https://github.com/thomaspark/bootswatch/tree/v5/dist/flatly
+
 $theme: "flatly" !default;
 
 // gray colors 
-$gray: #95a5a6;
+$gray: #737475;
 $gray-dark: #343a40;
+$gray-50:  #f5f5f5;
 $gray-100: #f8f9fa;
 $gray-200: #ecf0f1;
 $gray-300: #dee2e6;
@@ -17,33 +19,28 @@ $gray-700: #7b8a8b;
 $gray-800: #343a40;
 $gray-900: #212529;
 
-// apls colors 
+
+// AP-LS brand colors 
 $blue: #1B3264;
-$indigo: #6610f2;
-$purple: #6f42c1;
-$pink: #e83e8c;
-$red: #e74c3c;
-$orange: #fd7e14;
-$yellow: #FAF61B;
-$green: #18bc9c;
-$teal: #20c997;
-$cyan: #3498db;
 $steel: #4271B3;
-$black: #000;
-$white: #fff;
 $cream: #FBF9F4;
+$yellow: #FAF61B;
 
 $primary:  $blue !default;
 $secondary: $cream !default;
-$success: $white !default;
 $info: $steel !default;
-$warning: $yellow !default;
-$danger: $red !default;
-$light:  $gray-100 !default;
-$dark:   $gray-900 !default;
 
-$second-color:  $steel !default;
-$third-color:   $gray !default;
+// main content
+$body-bg:  #fdfdfd !default;
+$body-color:  $gray-900 !default;
+$headings-color: $primary !default;
+$card-border-color:  $primary !default;
+$form-select-border-color: $primary !default; 
+
+// text specials
+$link-color: $primary !default; 
+$link-hover-color: lighten($primary, 15%) !default;
+$text-muted: gray !default;
 
 // nav bar
 $navbar-bg: $primary;
@@ -56,110 +53,106 @@ $sidebar-fg: $secondary;
 $sidebar-hl: $yellow;
 
 // footer
-$footer-bg: $primary;
-$footer-fg: $secondary;
+$footer-bg: $secondary;
+$footer-fg: $primary;
 
-// font sizes;
+// fonts
+$headings-font-family: 'Cormorant Garamond', serif !default;
+$headings-font-weight: 600 !default;
+$font-family-sans-serif: 'Proza Libre', sans-serif !default;
+$navbar-font-family: 'Proza Libre', sans-serif !default;
+$sidebar-font-family: 'Proza Libre', sans-serif !default;
+$toc-font-family: 'Proza Libre', sans-serif !default;
+$footer-font-family: 'Proza Libre', sans-serif !default;
+$callout-font-family: 'Proza Libre', sans-serif !default;
+
+// font sizes
 $font-size-base:   1rem !default; // Assumes the browser default, typically `16px`
 $h1-font-size:     $font-size-base * 2.5 !default;
-$h2-font-size:     $font-size-base * 2 !default;
-$h3-font-size:     $font-size-base * 1.75 !default;
-$h4-font-size:     $font-size-base * 1.5 !default;
-$h5-font-size:     $font-size-base * 1.25 !default;
-$h6-font-size:     $font-size-base !default;
-
-// color tweaks to theme
-$body-color: $dark;
-$code-bg: $cream;
-$code-color: $primary;
-
-// font sizes;
-$font-size-base:   1rem !default; // Assumes the browser default, typically `16px`
-$h1-font-size:     $font-size-base * 2.5 !default;
-$h2-font-size:     $font-size-base * 2 !default;
-$h3-font-size:     $font-size-base * 1.75 !default;
-$h4-font-size:     $font-size-base * 1.5 !default;
-$h5-font-size:     $font-size-base * 1.25 !default;
+$h2-font-size:     $font-size-base * 1.9 !default;
+$h3-font-size:     $font-size-base * 1.7 !default;
+$h4-font-size:     $font-size-base * 1.3 !default;
+$h5-font-size:     $font-size-base * 1.2 !default;
 $h6-font-size:     $font-size-base !default;
 
 
-// callouts
-$callout-color-note: $steel;
-$callout-color-tip: $teal;
-$callout-color-caution: $yellow;
-$callout-color-warning: $orange;
-$callout-color-important: $red;
+// theme colors
+$code-bg: $secondary !default; //color for background of inline code
+$code-color: $primary !default; //color for the font of inline code
+$code-block-bg: $secondary !default; //color for background of blocks of code
+$code-block-color: $primary !default; //color for the font of blocks of code
+$code-block-border-color: $primary !default; //color for the border of blocks of code
+$btn-code-copy-color-active: $primary !default;
+
 
 /*-- scss:rules --*/
 
-// color classes
-.primary {
-  color: $primary;
-}
 
-.second-color {
-  color: $second-color;
-}
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
-.third-color {
-  color: $third-color;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-// code
-pre.sourceCode {
-  border-radius: 0;
-  border-left-color: $gray-300;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-// links
-a {
-  color: $primary;
-  text-decoration-color: $steel;
-}
-
-a:hover {
-  color: $steel;
-  text-decoration-color: $primary;
-}
-
-.toc-actions a {
-  text-decoration: none !important;  
-  border-bottom: 0;
-}
-
-.toc-actions a:hover {
-  color: $primary;
-}
-
-div.tippy-content a:hover {
-  text-decoration-color: $primary;
-}
-
-// navbar
+// navbar title
 .navbar-title {
   font-size: $font-size-base * 1.75;
 }
 
 
+// navbar dropdown
+
+div.navbar-nav ul.nav-link 
+div.navbar-collapse ul.navbar-nav li {
+  a {
+    color: $primary;
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 1rem;
+  }
+}
+
+div.navbar-collapse ul.navbar-nav li {
+  a:hover {
+    color: $secondary;
+  }
+}
+
+
 // hover on navbar
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 1.2rem;
+}
+    
+
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-  color: $cream;
+  color: $secondary;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: $secondary;
 }
 .navbar-expand-lg .navbar-nav .nav-link.active {
-  color: $cream;
+  color: $yellow;
 }
 
 
-// then override colors so they match cards
+// then override colors so they are pretty yellow
+
+
+#navbarCollapse > ul > li:nth-child(1) > a:hover,
+#navbarCollapse > ul > li:nth-child(1) > a:hover {
+  color: $yellow;
+}
+  
 #navbarCollapse > ul > li:nth-child(2) > a:hover,
 #navbarCollapse > ul > li:nth-child(4) > a:hover {
-  color: $white;
+  color: $yellow;
 }
 
 #navbarCollapse > ul > li:nth-child(2) > a.nav-link.active,
 #navbarCollapse > ul > li:nth-child(4) > a.nav-link.active {
-  color: $white;
+  color: $yellow;
 }
 
 #navbarCollapse > ul > li:nth-child(3) > a:hover,
@@ -172,6 +165,15 @@ div.tippy-content a:hover {
   color: $yellow;
 }
 
+#navbarCollapse > ul > li:nth-child(4) > a:hover,
+#navbarCollapse > ul > li:nth-child(6) > a:hover {
+  color: $yellow;
+}
+
+#navbarCollapse > ul > li:nth-child(4) > a.nav-link.active,
+#navbarCollapse > ul > li:nth-child(6) > a.nav-link.active {
+  color: $yellow;
+}
 
 
 // animated underline on hover, when navbar shows as row
@@ -190,20 +192,30 @@ div.tippy-content a:hover {
     left: 0;
     right: 0;
     margin: auto;
-    background-color: $primary;
+    background-color: $secondary;
     width: 0%;
     content: "";
     height: 4px;
     transition: all 0.3s;
   }
   
+  .navbar .navbar-nav .nav-item:nth-child(1)::after, 
+  .navbar .navbar-nav .nav-item:nth-child(1)::after {
+    background-color: $yellow;
+  }
+  
   .navbar .navbar-nav .nav-item:nth-child(2)::after, 
   .navbar .navbar-nav .nav-item:nth-child(4)::after {
-    background-color: $white;
+    background-color: $yellow;
   }
   
   .navbar .navbar-nav .nav-item:nth-child(3)::after, 
   .navbar .navbar-nav .nav-item:nth-child(5)::after {
+    background-color: $yellow;
+  }
+  
+  .navbar .navbar-nav .nav-item:nth-child(4)::after, 
+  .navbar .navbar-nav .nav-item:nth-child(6)::after {
     background-color: $yellow;
   }
   
@@ -212,25 +224,181 @@ div.tippy-content a:hover {
   }
 }
 
+// nav footer
+
+.nav-footer {
+    align-items: flex-start;  // Align all flex items to the top
+    flex-wrap: wrap;
+    border: 0 !important;
+    min-height: 3rem;
+    font-family: $footer-font-family;
+
+    a {
+        color: $primary;
+    }
+
+    .faux-block {
+        display: block;
+        padding-bottom: 0.4rem;
+    }
+
+    // In the default Quarto template, .nav-footer-center has position: absolute 
+    // turned on, which makes the div not be a flex item
+    // This changes that so that it *is* a flex item
+    .nav-footer-center {
+        text-align: center;
+        position: inherit;
+        margin-top: 0;
+
+        @media (max-width: map-get($grid-breakpoints, md)) {
+            margin-top: 0.5em;
+            margin-bottom: 1.5em;
+        }
+    }
+
+    // When the screen is medium or smaller, make each footer chunk be 100% width 
+    // and centered; otherwise make them be 33% width and left/right/centerd
+    .nav-footer-left,
+    .nav-footer-right,
+    .nav-footer-center {
+        text-align: center;
+        width: 100%;
+        min-height: 2em;
+    }
+
+    @media (min-width: map-get($grid-breakpoints, md)) {
+        .nav-footer-left {
+            text-align: left;
+        }
+
+        .nav-footer-right {
+            text-align: right;
+        }
+
+        .nav-footer-left,
+        .nav-footer-right,
+        .nav-footer-center {
+            flex: 1 1 33%;
+        }
+    }
+}
 
 
+// title blocks
+#title-block-header {
+    .quarto-title-banner {
+        font-family: $headings-font-family;
+        font-size: 2rem;
+        color: $secondary;
+        
+        .description {
+            font-family: $navbar-font-family;
+            font-size: 1.2rem;
+            margin-top: 1rem !important;
+        }
+    }
+}
 
-// for cards on home page
-#card-first-color {
+
+// Shrink blocks of code
+pre.text, pre.sourceCode, .cell-output pre {
+    font-size: 0.775rem;
+}
+
+.navbar {
+    font-family: $navbar-font-family;
+}
+
+.navbar-nav {
+  font-family: $navbar-font-family;
+}
+
+#TOC {
+    font-family: $toc-font-family;
+    padding-bottom: 0.1rem;
+
+    .active {
+        font-weight: 400;
+    }
+
+    #toc-title {
+        font-weight: 600;
+    }
+}
+
+#quarto-margin-sidebar {
+    .quarto-listing-category-title {
+        margin-left: 0.5rem;
+    }
+
+    .quarto-listing-category {
+        font-family: $toc-font-family;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 1.1;
+        padding-left: 0.6rem;
+        margin-left: 0.5rem;
+        border-left: 1px solid $gray-200;
+
+        .category {
+            padding-bottom: 0.5rem;
+        }
+
+        .active {
+            font-weight: 400;
+            color: $primary;
+        }
+
+        .quarto-category-count {
+            font-weight: 200;
+            font-size: 0.8rem;
+            color: $secondary;
+        }
+    }
+}
+
+
+// set tabset panel styles
+.nav-tabs {
+  font-family: 'Proza Libre', sans-serif;
+  color: $secondary;
+  background-color: $primary;
+}
+
+.nav-link {
+  color: $secondary;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+.nav-link:hover {
+  color: $yellow;
+}
+
+.tab-pane {
+  font-family: 'Proza Libre', sans-serif;
+}
+
+// set callout styles
+
+.top-callout {
+  font-family: 'Proza Libre', sans-serif;
+}
+
+// home page cards
+
+#card-primary-color {
   background-color: $body-bg;
   border: 4px solid $primary;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
-#card-secondary-color {
-  background-color: $body-bg;
-  border: 4px solid $secondary;
-  border-radius: 5px; 
+.home-card {
+  font-family: 'Proza Libre', sans-serif !important;
 }
 
-.primary-card-link {
+.card-link {
     background-color: $primary;
-    color: $body-bg;
+    color: $secondary;
     border: 4px solid $primary;
     border-color: $primary;
     padding: 5px .5rem 5px .5rem !important;
@@ -241,18 +409,772 @@ div.tippy-content a:hover {
     font-size: $h5-font-size;
 }
 
-.primary-card-link:hover {
-  background-color: $body-bg;
+.card-link:hover {
+  background-color: $white;
+  border-color: $primary;
   color: $primary;
 }
 
-.second-color-link{
-    background-color: $secondary;
-    border-color: $secondary;
-    color: $body-bg;
+/* grid cards */
+h5, .h5{
+  font-family: $font-family-sans-serif;
+  font-size: 1.25rem;
+  text-decoration: bold;
+  
 }
 
-.second-color-link:hover {
+.cards {
+  display: flex;
+  grid-template-columns: repeat(auto-fill, 250px);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.card {
+  font-family: $font-family-sans-serif;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  border-color: $primary;
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+// feature grids
+.feature-grid {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  @media only screen and (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+.feature-grid__item {
+    text-align: center;
+    padding: 30px;
+  }
+
+.feature-grid__icon {
+    padding-bottom: 15px;
+  }
+.feature-grid__link {
+    border-bottom: 0px;
+    text-decoration: none;
+  }
+
+.feature-grid__i {
+    font-size: 3rem;
+    color: #000;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+// for people pages
+.officer-grid {
+  display: inline-grid;
+  grid-template-columns: repeat(1, 1fr);
+  column-gap: 15px;
+  row-gap: 10px;
+  margin-bottom: 30px;
+  width: 100%;
+
+  @media only screen and (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &__item {
+    border-top: $primary solid 5px;
+    box-shadow: 2px 2px #00000011;
+    border-radius: 0px 0px 10px 0px;
+    vertical-align: top;
+    max-width: 420px;
+    text-align: left;
+    position: relative;
+
+    &:hover {
+      background-color: $secondary;
+    }
+  }
+
+  &__image-container {
+    position: relative;
+
+    &::after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
+  }
+
+  &__image {
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 90%;
+    height: 90%;
+    align-content: center;
+    object-fit: cover;
+  }
+
+  &__text {
+    padding: 10px;
+    color: $primary;
+  }
+
+  &__name {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $gray;
+    font-size: 1.2rem;
+    color: $primary;
+  }
+  
+  &__link {
+    color: $primary;
+    border-bottom: 0px;
+    text-decoration: none;
+  }
+}
+
+
+// for resources listings
+.grid {
+  display: inline-grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-bottom: 30px;
+
+  &-two {
+    grid-template-columns: repeat(1, 1fr);
+
+    @media only screen and (min-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &-three {
+    grid-template-columns: repeat(2, 1fr);
+
+    @media only screen and (min-width: 768px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+
+  &__item {
+    vertical-align: top;
+    max-width: 460px;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+
+    &:hover {
+      background-color: $secondary;
+    }
+  }
+
+  &__title {
+    margin-top: 0;
+    align-items: center;
+    border-bottom: 1px solid $gray-50;
+    font-size: 1.4rem;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 0.5rem;
+    color: $primary;
+  }
+
+  &__title-icon {
+    color: $black;
+  }
+
+  &__link-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  &__list {
+    margin-top: 10px;
+  }
+
+  &__item li:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  &__title-link {
+    color: $primary;
+    border-bottom: 0px;
+    text-decoration: none;
+  }
+
+  &__item-footer {
+    position: absolute;
+    bottom: 0;
+  }
+
+  &__icon-footer {
+    border-bottom: 0px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 10px;
+
+    &:hover {
+      color: $steel;
+    }
+  }
+
+  &__link-footer {
+    border-bottom: 0px;
+    text-decoration: none;
+  }
+
+  &__text {
+
+    &--footer {
+      margin-bottom: 2em;
+    }
+  }
+
+  &__item-footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+
+// boxed feature grid
+.bg-light {
+  background-color: $secondary !important;
+}
+.bg-breakout {
+  position: relative;
+  width: 100vw !important;
+  left: calc(-1 * (100vw - 100%) / 2);
+}
+
+.inner-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.boxed-wrapper {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+
+.boxed-feature-grid {
+  width: 100%;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.boxed-feature-grid__item {
+  width: 50%;
+  padding: 2rem 1rem;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  min-height: 8.375rem;
+  border-bottom: 0.0625rem solid #dee2e6;
+  border-right: 0.0625rem solid #dee2e6;
+}
+
+.boxed-feature-grid__item {
+  width: calc(100% / 5);
+  /* Adjust the width as necessary to display the desired number of items per row */
+}
+
+@media (max-width: 767px) {
+  .boxed-feature-grid__item {
+    width: calc(100% / 2);
+    /* Adjust the width as necessary for smaller screens */
+  }
+}
+
+
+
+.boxed-feature-grid__icon {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+    i {
+    font-size: 3.125rem;
+    color: $primary;
+  }
+  
+  &:hover {
+    color: $steel;
+  }
+}
+
+.boxed-feature-grid__title {
+      color: $primary;
+      margin-top: 1rem;
+      font-weight: 600;
+      text-align: center;
+      font-size: 1;
+    }
+
+.boxed-feature-grid__link {
+      border-bottom: 0px;
+      text-decoration: none;
+    }
+
+// for custom grid listings
+
+.gallery {
+  display: inline-grid;
+  grid-template-columns: 100px auto;
+
+
+  &__icon-column {
+    text-align: center;
+  }
+
+  &__list-column {
+
+  }
+
+  &__icon {
+    font-size: 3rem;
+  }
+
+  &__link {
+    padding-left: 1rem;
+  }
+}
+
+.rt-th {
+  border-bottom: 1px solid $secondary !important;
+}
+
+.object-table__list {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+
+  &-item {
+    list-style-type: none;
+  }
+}
+
+
+
+// job post listings
+
+.jobs {
+    .job-entry {
+        display: flex;
+        flex-direction: row;
+        line-height: 1.3;
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+        column-gap: 1rem;
+
+        .body {
+            flex: 1 1 80%;
+        }
+        
+        .metadata {
+            flex: 1 0 20%;
+        }
+
+        .title {
+            font-weight: 500;
+            font-size: 1.25em;
+            margin-bottom: 0.2em;
+            
+        }
+        
+        .details {
+            font-weight: 300;
+            font-size: 0.9em;
+            margin-bottom: 0.5rem;
+            color: $gray-700;
+        }
+        
+        .date {
+            font-weight: 300;
+            font-size: 0.85rem;
+            margin-top: 0.3rem;
+            text-align: right;
+        }
+        
+        ul.job-links {
+            display: inline-block;
+            white-space: nowrap;
+            background-color: $secondary;
+            margin: 0 0.2rem 0.4rem 0rem;
+            padding: 0.2rem 0.4rem;
+            font-size: 0.1rem;
+            border-radius: 0.25rem;
+            text-align: center;
+
+            .job-link {
+                display: inline-block;
+                white-space: nowrap;
+                margin: 0;
+                padding: 0.5rem 1rem 0.5rem 0;
+                font-size: 1rem;
+            }
+        }
+    }
+    
+    .job-entry:hover {
+   
+    background-color: $secondary;
+  
+  }
+}
+
+// awards listings
+
+#title-block-header {
+    .quarto-title-banner {
+        font-family: $headings-font-family;
+        
+        .description {
+            font-size: 1.1em;
+            margin-top: 1em !important;
+        }
+    }
+}
+
+.quarto-title-block {
+
+    .quarto-title .quarto-categories {
+        padding-bottom: 0;
+        flex-wrap: wrap;
+        row-gap: 0.4em;
+    }
+
+    .award-details {
+        padding: 0.75em;
+        margin: 1em 0;
+    }
+
+    .quarto-title-meta-heading.manual {
+        margin-top: 2em !important;
+    }
+
+    .award-links {
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .award-link {
+        display: inline-block;
+        white-space: nowrap;
+        padding: 0 1em 0 0;
+        font-weight: bold;
+    }
+    
+    
+
+}
+
+h1.title {
+  color: white;
+}
+
+
+.back-nav {
+    margin-bottom: 1.5em;
+}
+
+.award {
+    .back-nav a {
+        color: shift-color($primary, -75%);
+    }
+    
+    .quarto-title .quarto-categories .quarto-category {
+        background-color: shift-color($primary, -75%);
+        color: $secondary;
+        font-size: 0.65em;
+        opacity: 1;
+    }
+
+    .award-categories {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0.35em 0 0.35em;
+        padding-top: 0.35em;
+        padding-left: 0.5em;
+        padding-bottom: 0;
+        row-gap: 0.4em;
+        column-gap: 0.4em;
+
+        .award-category {
+            padding: 0.25em 0.75em 0.25em 0em;
+            font-size: 0.7em;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.award-list {
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 2em;
+
+        li.award {
+            margin-bottom: 2.5em;
+            border-left: 6px solid shift-color($primary, -90%);
+
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    .award-content {
+        padding-left: 0.5em;
+}
+        .status {
+            font-size: 1rem;
+            font-weight: 250;
+            padding: 0.2em;
+            margin-right: 0.5em;
+        }
+    }
+
+    ul.award-links {
+        margin-bottom: 0;
+    }
+
+    .award-details-listing {
+        margin-top: 0.8em;
+        background-color: shift-color($primary, -90%);
+        font-size: 0.9rem;
+
+        @media (max-width: map-get($grid-breakpoints, md)) {
+            font-size: 0.95rem;
+        }
+
+        .award-link {
+            display: inline-block;
+            white-space: nowrap;
+            padding: 0.5em 0.5em 0.5em 1em;
+        }
+
+        .details {
+            background-color: $primary;
+            padding-right: 1.5em;
+
+            a {
+                color: #FFFFFF;
+            }
+        }
+    }
+
+
+// newsletter archives
+.newsletter {
+    .archive-entry {
+        display: flex;
+        flex-direction: row;
+        font-family: $headings-font-family;
+        line-height: 1.3;
+        margin-bottom: 3em;
+        column-gap: 0.7em;
+
+        .body {
+            flex: 1 1 auto;
+        }
+
+        .image {
+            flex: 0 0 140px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .issue-title {
+            font-weight: 500;
+            font-size: 1.25em;
+            margin-bottom: 0.2em;
+        }
+        
+        .issue-details {
+            font-weight: 300;
+            font-size: 0.9em;
+            margin-bottom: 0.5em;
+            color: $gray-800;
+        }
+
+        ul.course-semesters {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 0;
+
+            li {
+                display: inline-block;
+                white-space: nowrap;
+                background-color: $red;
+                margin: 0 0.2em 0.4em 0;
+                padding: 0.2em 0.4em;
+                font-size: 0.85em;
+                border-radius: 0.25rem;
+
+                &.no-link {
+                    background-color: $white;
+                    border: 1px solid $black;
+                }
+
+                a {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+// Makes List of icons, text to insert into callout blocks with r function
+
+.inline-object {
+  font-family: 'Proza Libre', sans-serif;
+  display: inline-block;
+  padding-right: 20px; /* add padding between icon and text */
+  font-size: 1rem; /* adjust font size as desired */
+}
+
+.inline-object i {
+  display: inline-block;
+  color: $primary; /* adjust color as desired */
+  margin-right: 5px; /* add margin between icon and text */
+}
+
+.inline-object a {
+  text-decoration: none;
+  color: $primary; /* adjust color as desired */
+}
+
+.inline-object:hover {
+  background-color: $secondary;
+}
+
+// info section-click link
+
+.info-section {
+  background-color: $primary;
   color: $secondary;
-  border-color: $secondary;
+
+  a {
+    color: $yellow;
+    font-size: 1rem;
+    text-decoration-color: $primary;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+
+    &::after {
+      display: inline-block;
+      content: "→";
+      position: absolute;
+      margin-right: 2px;
+    }
+  }
+
+  .about-link a {
+    text-decoration: underline;
+    font-weight: normal;
+
+    &:hover {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+.icon-container i {
+  display: flex;
+  margin-left: 8rem; /* Add 10 pixels of space between the icon and text */
+  color: #FBF9F4;
+}
+
+// info bar-button
+
+.info-bar-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.info-bar {
+  background-color: #1B3264;
+  color: #FBF9F4;
+  display: flex;
+  align-items: center;
+  padding: 0 5rem;
+  justify-content: space-between;
+}
+
+.info-bar__icon {
+  border-radius: 50%;
+  width: 4.35rem;
+  height: 4.35rem;
+  margin-right: 5rem;
+  font-size: 2.2rem;
+  background-color: $secondary;
+  color: $primary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  order: 1;
+}
+
+.info-bar__text {
+  flex: 1;
+  text-align: margin-left;
+  order: 2;
+  color: $white;
+}
+
+.info-bar__text h3 {
+  color: $secondary;
+  text-decoration: bold;
+}
+.info-bar__center {
+  flex-shrink: 0;
+  margin-left: 1.5rem;
+  order: 3;
 }

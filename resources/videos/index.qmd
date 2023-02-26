@@ -1,0 +1,31 @@
+---
+title: "Talks"
+listing:
+  id: talks
+  fields: [image, date, title, subtitle]
+  contents: 
+    - careers2022
+    - clinician2013
+    - DEIcorrections2022
+    - diversity2013
+    - expert2013
+    - grad2013
+    - impact2013
+    - jury2013
+    - intro2013
+    - juvenile2013
+    - lbh2013
+    - risk2013
+    - students2013
+    - tele2021
+  type: grid
+  categories: true
+  grid-item-border: false
+  image-align: right
+  sort: "date desc"
+  
+---
+
+Presidential address videos to add: 
+
+

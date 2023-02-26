@@ -1,45 +1,89 @@
 project:
   type: website
-  #resources:
-  #  - "*.css"
+  resources:
+    - "*.css"
+    - "*.pdf"
+
 
 website:
-  title: "AP-LS"
+  title: "The American Psychology-Law Society"
   favicon: favicon.ico
   search: true
+  
   navbar:
     title: false
     logo: images/logo-light.png
     right:
-      - text: about
+      - text: About
         menu:
-          - text: about
-            href: about/index.qmd
-          - text: leadership
+          - text: About
+            href: about/about.qmd
+          - text: Leadership
             href: about/leadership.qmd
-          - text: committees
+          - text: Committees
             href: about/committees.qmd
-          - text: statements
+          - text: Statements
             href: about/statements.qmd
-          - text: contact us
+          - text: AP-LS Bylaws
+            href: about/bylaws.qmd
+          - text: Contact us
             href: about/contact.qmd
-      - text: publications
+      - text: Publications
         menu:
-          - text: publications
+          - text: Publications
             href: publications/index.qmd
           - text: Law & Human Behavior
             href: https://www.apa.org/pubs/journals/lhb/
-      - href: funding/index.qmd
-        text: funding
-      - href: conferences/index.qmd
-        text: conference
-      - href: resources/index.qmd
-        text: education & training
-      - href: membership/membership.qmd
-        text: membership
+      - href: awards/index.qmd
+        text: Awards
+      - href: Conferences/index.qmd
+        text: Conferences
+      - href: Resources/index.qmd
+        text: Resources
+      - href: Membership/membership.qmd
+        text: Membership
+        
+  sidebar: 
+    - id: about us
+      title: "About AP-LS"
+      style: "docked"
+      search: true
+      contents:
+        - section: "Our Mission"
+          contents:
+          - about/about.qmd
+          - about/statements.qmd
+          - about/bylaws.qmd
+        - section: "Our History"
+          contents:
+          - about/history.qmd
+          - about/presidents/presidents.qmd
+        - section: "Who we are"
+          contents: 
+            - about/leadership.qmd
+            - about/committees.qmd
+            - about/contact.qmd
+        
+    - id: guidelines
+      title: "Forensic Guidelines"
+      contents: 
+        - resources/guidelines/index.qmd
+        - resources/guidelines/Introduction.qmd
+        - resources/guidelines/Responsibilities.qmd
+        - resources/guidelines/Competence.qmd
+        - resources/guidelines/Diligence.qmd
+        - resources/guidelines/Relationship.qmd
+        - resources/guidelines/Fees.qmd
+        - resources/guidelines/Consent.qmd
+        - resources/guidelines/Conflicts.qmd
+        - resources/guidelines/Privacy.qmd
+        - resources/guidelines/Methods.qmd
+        - resources/guidelines/Assessment.qmd
+        - resources/guidelines/Communications.qmd
+        - resources/guidelines/References.qmd
+        
        
   page-footer:
-    background: primary
     left: |
       <b>© 2022 American Psychology-Law Society</b>  <br>
       made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)
@@ -48,17 +92,17 @@ website:
         href: https://twitter.com/apls41
       - icon: github
         href: https://github.com/emmarshall 
+
 format:
   html:
     theme: 
       light: [flatly, assets/light-theme.scss]
-      dark: [darkly, assets/dark.scss]
+      dark: [darkly]
     css: assets/styles.css
-    toc: true
 
 
 execute: 
-  freeze: auto
+  freeze: true
 
 
 

@@ -1,0 +1,77 @@
+---
+title: Student Presentation Awards for American Psychology-Law Conference
+date: last-modified
+description: Provides awards to students presenting their work at the American Psychology-Law Society Conference.
+categories: 
+  - Students
+  - Undergraduate
+  - Graduate
+  - Conference Travel
+submission-info:
+  sponsor: AP-LS Student Committee
+  deadline: February 22, 2023
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("../../_site/apls_functions.R")
+```
+
+::: vspace
+:::
+
+::: callout-note
+# 2023 American Psychology-Law Conference
+
+Student members with an accepted first author presentation for the 2023 AP-LS Conference are eligible and highly encouraged to apply for a Student Presentation Award.
+
+The AP-LS Student Committee will be awarding ten (10) student presentation awards at the 2023 AP-LS Conference, totaling \$1,750. These awards include:
+
+-   Two (2) Outstanding Student Paper awards (\$200 each);
+
+-   Two (2) Outstanding Student Abbreviated Paper ("Data Blitz") awards (\$175 each);
+
+-   Two (2) Outstanding Student Poster awards (\$150 each); and
+
+-   Four (4) specialty awards, which can be posters, abbreviated papers, or papers.
+
+These include:
+
+-   One (1) Outstanding Student Presentation in Diversity-Related Research award (\$175), for research directly related to underrepresented or marginalized populations.
+
+-   One (1) Outstanding Student Presentation in Corrections Research award (\$175), for research directly related to correctional settings.
+
+-   One (1) Outstanding Student Presentation in Legal Research award (\$175), for research directly related to the law or legal practice.
+
+-   One (1) Outstanding Student Presentation in Novel-Topic Research award (\$175), for research on a topic not traditionally studied in law and psychology.
+
+    Full information on submission criteria, submission instructions, and the evaluation process is available on the [student committee website](https://www.apls-students.org/student-presentation-awards1.html).
+
+Completed submissions are due Wednesday, February 22, by 11:59 PM EST. Late or incomplete submissions will not be considered.
+
+```{r}
+#| echo: false
+#| output: asis
+
+library(tibble)
+library(dplyr)
+
+# Important links for award
+links <- tibble(
+  icon = c("circle-info", "envelope", "link"),
+  text = c("About Student Committee", "Contact", "Student Website"),
+  url = c("../../about/committees.qmd", "mailto:students@ap-ls.org", "https://www.apls-students.org/student-presentation-awards1.html")
+)
+
+# Create inline objects for each row of the tibble
+inline_objects <- lapply(seq_len(nrow(links)), function(i) {
+  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
+})
+
+# Combine the inline object strings into a single string
+inline_objects_str <- paste(inline_objects, collapse = "")
+
+# Print the HTML string
+cat(inline_objects_str)
+```
+:::

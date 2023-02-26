@@ -1,0 +1,16 @@
+---
+title: Privacy, confidentiality and privilege
+---
+> Forensic practitioners recognize their ethical obligations to maintain the confidentiality of information relating to a client or retaining party, except insofar as disclosure is consented to by the client or retaining party, or required or permitted by law (EPPCC Standard 4.01).
+
+### 8.01 Release of Information
+Forensic practitioners are encouraged to recognize the importance of complying with properly noticed and served subpoenas or court orders directing release of information, or other legally proper consent from duly authorized persons, unless there is a legally valid reason to offer an objection. When in doubt about an appropriate response or course of action, forensic practitioners may seek assistance from the retaining client, retain and seek legal advice from their own attorney, or formally notify the drafter of the subpoena or order of their uncertainty.
+
+### 8.02 Access to Information
+If requested, forensic practitioners seek to provide the retaining party access to, and a meaningful explanation of, all information that is in their records for the matter at hand, consistent with the relevant law, applicable codes of ethics and professional standards, and institutional rules and regulations.  Forensic examinees typically are not provided access to the forensic practitioner’s records without the consent of the retaining party.  Access to records by anyone other than the retaining party is governed by legal process, usually subpoena or court order, or by explicit consent of the retaining party.  Forensic practitioners may charge a reasonable fee for the costs associated with the storage, reproduction, review, and provision of records.
+
+### 8.03 Acquiring Collateral and Third Party Information
+Forensic practitioners strive to access information or records from collateral sources with the consent of the relevant attorney or the relevant party, or when otherwise authorized by law or court order.
+
+### 8.04 Use of Case Materials in Teaching, Continuing Education, and Other Scholarly Activities
+Forensic practitioners using case materials for purposes of teaching, training, or research strive to present such information in a fair, balanced, and respectful manner.  They attempt to protect the privacy of persons by disguising the confidential, personally identifiable information of all persons and entities who would reasonably claim a privacy interest; using only those aspects of the case available in the public domain; or obtaining consent from the relevant clients, parties, participants, and organizations to use the materials for such purposes (EPPCC Standard 4.07; also see Sections 11.06 and 11.07 of these guidelines).

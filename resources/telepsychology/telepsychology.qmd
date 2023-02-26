@@ -1,0 +1,105 @@
+---
+title: "Telepsychology Resources"
+date: last-modified
+categories:
+  - Telepsychology
+---
+
+::: {#hero-banner .column-screen .alt-background}
+:::
+
+The American Psychology-Law Society has convened a task force that seeks, in part, to identify telepsychology resources for students, researchers, and clinicians and have these citations centrally available on our website. The following lists are intended to educate and inform practitioners and scholars in both the implementation and study of forensic telepsychology work.
+
+
+APA Professional Practice Guidelines for the Practice of Telepsychology have been deleveoped by a Joint Task Force comprised of representatives from The American Psychological Association (APA), the Association of State and Provincial Psychology Boards (ASPPB) and the APA Insurance Trust (APAIT). 
+
+::: about-link
+[View guidelines](https://www.apa.org/practice/guidelines/telepsychology)
+:::
+
+:::vspace 
+:::
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+#| label: new table
+#| echo: false
+
+library(googlesheets4)
+library(htmltools)
+library(dplyr)
+library(reactablefmtr)
+
+tele <- read_sheet("https://docs.google.com/spreadsheets/d/1TkZuOhtjY3zBJN8tTpwquXZKIuu1oalDAVNvXVDDDUo/edit?usp=sharing") 
+
+data <- tele |> 
+  mutate(col_colors = case_when(
+    type == 'Forensic' ~ '#4271B3',
+    type == 'Non-forensic' ~ '#1B3264',
+    type == 'General' ~ 'gray',
+             TRUE ~ '#FBF9F4'),
+    img = knitr::image_uri("link.png")
+) |> 
+  select(type, name, img, url, cite, col_colors)
+  
+tbl <- reactable(
+    data,
+    theme = fivethirtyeight(header_font_size = 16),
+    filterable = TRUE,
+    defaultColDef = colDef(
+      vAlign = "center",
+      headerVAlign = "bottom",
+      headerClass = "header"
+    ),
+    columns = list(
+      type = colDef(
+        name = "Type",
+        cell = pill_buttons(
+          data,
+          opacity = 0.8,
+          color_ref = 'col_colors',
+          text_size = 14,
+      ),
+        filterInput = function(values, name) {
+          tags$select(
+          # Set to undefined to clear the filter
+          onchange = sprintf("Reactable.setFilter('cat-select', '%s', event.target.value || undefined)", name),
+          # "All" has an empty value to clear the filter, and is the default option
+          tags$option(value = "", "All"),
+          lapply(unique(values), tags$option),
+          "aria-label" = sprintf("Filter %s", name),
+          style = "width: 100%; height: 28px;"
+        )
+        }
+      ),
+      name = colDef(
+        filterable = FALSE,
+        name = "Resource",
+        minWidth = 250), 
+      img = colDef(
+        name = "Link",
+        align = "center",
+        filterable = FALSE,
+        html = TRUE,
+        cell = function(value, index) {
+        sprintf('<a href="%s" target="_blank"><image src="%s" style="width:30px;height:30px;"/></a>', data$url[index], value)
+      }
+    ),
+    
+    cite = colDef(
+      filterable = FALSE,
+      name = "Citation",
+      minWidth = 300
+      ),
+    url = colDef(show = FALSE),
+    col_colors = colDef(show = FALSE)
+      ),
+    defaultPageSize = 10,
+    elementId = "cat-select"
+    )
+    
+tbl
+```

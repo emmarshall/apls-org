@@ -1,31 +1,119 @@
 ---
 pagetitle: "Leadership"
 toc: false
-listing:
-  - id: executive-officers
-    contents: "officers/*.qmd"
-    type: grid
-    image-height: 350px
-    grid-columns: 2
-    fields: [image, title, subtitle]
-    grid-item-align: center
-    sort: sortby
-    field-display-names: 
-      affiliation: ""
 ---
 
-```{=html}
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-    <li class="breadcrumb-item active" aria-current="page">People</li>
-  </ol>
-</nav>
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("../_site/apls_functions.R")
+```
+
+# Leadership
+
+## Officers of the Executive Committee
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+content = rowwise_table(
+  ~name, ~image, ~url, ~text,
+  "Barry Rosenfeld", "profiles/barry_rosenfeld.jpg", "mailto:rosenfeld@fordham.edu", "President",
+  "Daniel Murrie", "profiles/daniel_murrie.jpg", "mailto:murrie@virginia.edu", "President-elect",
+  "Lora Levett", "profiles/lora_levett.png", "mailto:llevett@ufl.edu", "Past President"
+)
+div(class = "officer-grid",
+  pmap(content, function(name, image, url, text) {
+    div(class = "officer-grid__item",
+      div(class = "officer-grid__image-container",
+        img(class = "officer-grid__image", src = image)
+      ),
+      div(class = "officer-grid__text",
+        h3(class = "officer-grid__name",
+          a(class = "officer-grid__link", href = url, name)
+        ),
+        text
+      )
+    )
+  })
+)
 ```
 
 
-## 2022-2023 Executive Officers
-
-:::{#executive-officers}
+::: vspace
 :::
 
+::: {.column-screen .info-section}
+::: {.column .col-v-center width="15%"}
+:::
+
+::: {.column .col-v-center width="70%"}
+##  {style="color: #FBF9F4"}
+::: vspace
+:::
+
+::: about-link
+[more from the president](presidents/presidents.qmd)
+:::
+:::
+:::
+
+::: vspace
+:::
+
+```{r}
+#| echo: false
+content = rowwise_table(
+  ~name, ~icon, ~url, ~text,
+  "Michael Lamb", "", "mailto:mel37@cam.ac.uk", "Secretary",
+  "Jennifer Perillo", "", "mailto:treasurer@ap-ls.org", "Treasurer",
+  "Virginia Barber-Rioja", "", "mailto:vibarber@hotmail.com", "Member-at-large",
+  "Natalie Anumba", "", "mailto:natalie.anumba@umassmed.edu", "Member-at-large",
+  "Christopher Bishop", "", "mailto:bishopC@trinitydc.edu", "Member-at-large",
+  "Jason Cantone", "", "mailto:cantone@gmail.com", "APA Council Representative",
+  "Margaret Kovera", "", "mailto:mkovera@jjay.cuny.edu", "APA Council Representative",
+  "Bradley McAuliff", "", "mailto:bradley.mcauliff@csun.edu", "Law & Human Behavior editor",
+  "Meg Ternes", "", "mailto:meg.ternes@smu.ca", "Newsletter editor",
+  "Monica Miller", "", "mailto:mkmiller@unr.edu", "Book Series editor",
+  "Lindsey Wylie", "", "mailto:webmaster@ap-ls.org", "Website editor",
+  "Kamar Tazi", "", "mailto:students@ap-ls.org", "Student Committee Chair"
+)
+div(class = "grid grid-three",
+  pmap(content, function(name, icon, url, text, objective) {
+      div(class = "grid__item",
+        h3(class = "grid__title",
+          tags$i(class = sprintf("bi-%s grid__title-icon", icon)),
+          span(class = "grid__title-name", name)
+        ),
+        p(class = "grid__text", text),
+        a(href = url, span(class = "grid__link-box"))
+      )
+  })
+)
+```
+
+## 2023 Conference Co-Chairs
+
+```{r}
+#| echo: false
+content = rowwise_table(
+  ~name, ~icon, ~url, ~text,
+  "Miko M. Wilford", "", "mailto:conference@ap-ls.org", "2023 AP-LS Conference",
+  "Andrea Avila", "", "mailto:conference@ap-ls.org", "2023 AP-LS Conference",
+  "Alicia Nijdam-Jones", "", "mailto:alicia.nijdam-jones@umanitoba.ca", "2023 APA Conference ",
+  "Andre Kehn", "", "mailto:Andre.kehn@und.edu", "2023 APA Conference"
+)
+div(class = "officer-grid grid-two",
+  pmap(content, function(name, icon, url, text, objective) {
+      div(class = "grid__item",
+        h3(class = "grid__title",
+          tags$i(class = sprintf("bi-%s grid__title-icon", icon)),
+          span(class = "grid__title-name", name)
+        ),
+        p(class = "grid__text", text),
+        a(href = url, span(class = "grid__link-box"))
+      )
+  })
+)
+```

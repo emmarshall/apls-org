@@ -1,0 +1,224 @@
+---
+title: AP-LS Award for Best Undergraduate Paper
+date: last-modified
+description: Recognizes an outstanding undergraduate research paper focused on the interdisciplinary study of psychology and law.
+categories: 
+  - Students
+  - Undergraduate
+submission-info:
+  sponsor: AP-LS Undergraduate Paper Award Committee
+  deadline: June 30
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("../../_site/apls_functions.R")
+```
+
+::: vspace
+:::
+
+::: callout-note
+Submissions must be in Microsoft Word format and emailed to the Chair of the Undergraduate Paper Award Committee at `undergrad_paper@ap-ls.org` before the annual June 30 deadline. 
+```{r}
+#| echo: false
+#| output: asis
+
+library(tibble)
+library(dplyr)
+
+# Important links for award
+links <- tibble(
+  icon = c("circle-info", "envelope", "file-import"),
+  text = c("About Undergraduate Paper Committee", "Contact", "Submit"),
+  url = c("../../about/committees.qmd", "mailto:undergrad_paper@ap-ls.org", "mailto:undergrad_paper@ap-ls.org")
+)
+
+# Create inline objects for each row of the tibble
+inline_objects <- lapply(seq_len(nrow(links)), function(i) {
+  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
+})
+
+# Combine the inline object strings into a single string
+inline_objects_str <- paste(inline_objects, collapse = "")
+
+# Print the HTML string
+cat(inline_objects_str)
+```
+:::
+
+::: vspace
+:::
+
+::: panel-tabset
+## Description
+
+The AP-LS Award for Best Undergraduate Paper is awarded to an outstanding undergraduate research paper that is focused on the interdisciplinary study of psychology and law.
+
+First ($500), second ($200) and third place ($150) winners are conferred annually, and winners will be be encouraged to submit their work as a poster presentation at the AP-LS Annual Conference (as first author). 
+
+## Eligibility
+
+To be eligible for an award the student must be the major contributor to a project on a topic relevant to psychology and law (i.e., the student had primary responsibility for initiating and conducting the project even though the project will usually be conducted under the supervision of a mentor).
+
+Data collection should be complete. 
+
+Students may submit their work during their first post-undergraduate year as long as the work was conducted during their undergraduate career.
+
+## How to Apply
+
+<a class="btn btn-primary" href="mailto:undergrad_paper@ap-ls.org" role="button"><i class="fa-regular fa-file-word"></i> Submit Here</a>
+
+Submissions (APA-paper and letter of support) must be emailed to to the Chair of the Undergraduate Paper Award Committee at `undergrad_paper@ap-ls.org` as .doc or .docx (Microsoft Word) files. Deadline for receipt of all materials is June 30.
+
+:::{.callout-tip}
+## Submission must include the following:
+1.    One copy of the APA-style paper being submitted for consideration. 
+  -   The paper should be a maximum of 25 pages of text (12-point font, one-inch margins), including the abstract and tables/figures. 
+  -   The 25-page maximum does not include the title page and references. 
+
+2.   A letter of support from the student's faculty mentor. 
+  -   Each applicant must have their mentor submit a letter of support to the chair that characterizes the nature and extent of the student's contribution to the project. 
+  -   This letter should be a maximum of two pages of text (12-point font, one-inch margins). 
+  
+Applications that do not meet these requirements for the paper and letters of support will be disqualified.
+:::
+
+## Proposal Review Criteria
+Proposals will be reviewed by members of the AP-LS Undergraduate Paper Award Committee based on independence, originality, contribution to field, soundness of design and analyses and quality of writing.
+:::
+
+```{=html}
+
+    <!-- Past recipients -->
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        Past Recipients
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+      <div class="accordion-body">
+       <h4>2020</h4>
+       Lexi Bammel (advisor: Narina Nunez)
+        <br>Jennifer Krentz (advisor: Tonia Nichols and Ron Roesch)
+        <br>Justin Cho (advisor: Rebecca Fix)
+<br />
+        <h4>2019</h4>
+        Elizabeth Quinn (advisor: Allison Skinner)
+
+        <br>Elizabeth Purser (advisor: April Thomas)
+
+        <br>Natasha Bailey (advisor: J. Zoe Klemfuss)
+<br />
+        <h4>2018</h4>
+Kajal Sachdev (advisor: Bette Bottoms)
+
+        <br>Georgia M. Lundon (advisor: Michael Lamb)
+
+
+        <br>Laura Stevens (advisor: Michael Lamb)
+
+
+<br />
+        <h4>2017</h4>
+Nicholas Michalski (advisor: Jennifer Hunt)
+
+        <br>Weyam Fahmy (advisor: Brent Snook)
+
+
+        <br>Eleanor Prince (advisor: Michael Lamb)
+
+
+<br />
+        <h4>2016</h4>
+Julian Siebert (advisor: Colin Tredoux)
+
+        <br>Sydney Wood (advisor: Evan Mandery)
+
+
+        <br>Zsofia Szojka (advisor: Michael Lamb)
+
+<br />
+        <h4>2015</h4>
+Hannah Phalen (advisor: Edie Greene)
+
+        <br>Siara D. Johnson (advisor: Naomi Goldstein)
+
+
+        <br>Tyler J. Plogher (advisor: Margaret Stevenson)
+
+
+<br />
+        <h4>2014</h4>
+Alex Lyon (advisors: Gail Goodman/Deborah Goldfarb)
+
+        <br>Alan Buttars (advisor: Matt Huss)
+
+
+        <br>Samantha Andrews (advisor: Michael Lamb)
+
+<br />
+        <h4>2013</h4>
+        Dana Forman (advisor: Dave DeMatteo)
+
+
+        <br>Nikoleta Despodova (advisor: Elizabeth Jeglic)
+
+
+        <br>Alan Buttars (advisor: Matt Huss)
+
+
+<br />
+        <h4>2012</h4>
+Natalie Harrison (advisor: Ron Roesch)
+
+        <br>Evan Marie Lowder (advisor: Aubrey Immelman)
+
+
+        <br>Shelby Arnold (advisor: Naomi Goldstein)
+<br />
+        <h4>2011</h4>
+Devon Porter (advisor: Daniel Reisberg)
+        <br>James Lant (advisor: Kimberley Clow)<br>
+        Christina Stanford (advisor: Jeffrey Anastasi)
+
+
+        
+<br />
+        <h4>2010</h4>
+Adam Blanchard (advisor: Kevin Douglas)
+
+        <br>Darcy Burgers (advisor: Dickon Reppucci)
+
+        <br>Jennifer Newman (advisor: Kim Roberts)
+<br />
+        <h4>2009</h4>
+Kyla Matthews (advisor: Meredith Allison)
+
+        <br>Adana Lagerstrom (advisor Jodi Viljoen)
+
+        <br>Alison Ryan (advisor: Daniel Krauss)
+
+
+        <br />
+        <h4>2008</h4>
+Sarah McFadden<br>
+Marissa Reiter
+        
+<br />
+        <h4>2007</h4>
+Haley Deveau<br>Kaitlin Bountress
+
+
+        <br />
+        <h4>2006</h4>
+Hannah Dietrich
+
+      </div>
+    </div>
+  </div>
+  
+```

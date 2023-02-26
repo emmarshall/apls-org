@@ -1,76 +1,185 @@
+---
+pagetitle: "Committees"
+output: html_document
+---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
+## Committees
 
+```{r table, echo=FALSE, warning=FALSE, message=FALSE}
+library(reactable)
+library(htmltools)
+library(readxl)
+library(dplyr)
+library(stringr)
 
-```{=html}
+# Read in committee bylaw information
+cmts <- read.csv("committees.csv", stringsAsFactors = FALSE)
+# Get sheet names from current leadership listing
+sheet_names <- excel_sheets("Leadership 2022-23.xlsx")
 
-    <!-- List of committees -->
+excluded_names <- c("EC", "Conf_Chairs")
+# Read in the Excel file and store it as a list of data frames with sheet names as column
+excel_data <- lapply(sheet_names, function(sheet_name) {
+  read_excel("Leadership 2022-23.xlsx", sheet = sheet_name) %>% 
+    mutate(sheet_name = sheet_name)
+})
+# Combine the data frames into a single data frame
+combined_data <- bind_rows(excel_data)
+members <- combined_data |>
+  filter(!sheet_name %in% excluded_names) |> 
+  rename(key = sheet_name) |> 
+  select(`key`, `Position`, `Name`, `Term`,`Additional`)
 
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-        Book Award Committee
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
-      <div class="accordion-body">
-        <p>
-        Elizabeth Foster
-
-In 2005, the APLS Book Award Committee was formed. The committee considers, on a biennial basis, edited or authored books published during the preceding two years that have been nominated to receive the APLS Book Award. Nominations may be made by anyone, and self-nominations are encouraged. The award is given to the author(s) or editor(s) of a book that makes an outstanding contribution to the field of law and psychology (broadly defined). The winner of the award receives an award plaque and is invited to deliver an address at the APLS conference. Committee members (five PhDs) review the nominations received and the books nominated, and determine the winner(s) of the award.
-
-Members: Sharon Kelly; Wendy Heath; Emily Pica; Margit Wiesner; Cynthia Willis-Esqueda
-</p>
-
-      </div>
-    </div>
-  </div>
+row_details <- function(index) {
+  cmt <- cmts[index, ]
+  urls <- unlist(strsplit(gsub(",", " , ", cmt$URL, perl = TRUE), "[ \n]"))
   
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Broadening Representation, Inclusion, Diversity, and Global Equity for AP-LS (BRIDGE)
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample" style="">
-      <div class="accordion-body">
-        <p>
-</p>
-
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-       Past Recipients
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
-      <div class="accordion-body">
-        <p>
-</p>
-
-      </div>
-    </div>
-  </div>
+  cmt_field <- function(name, ...) {
+    if (any(is.na(...))) NULL
+    else tagList(div(class = "detail-label", name), ...)
+  }
   
-  </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingFour">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-       Past Recipients
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample" style="">
-      <div class="accordion-body">
-        <p>
-</p>
+  detail <- div(
+  class = "committee-detail",
+  div(class = "detail-header", cmt$name, span(class = "detail-title", cmt$chair)),
+  div(class = "detail-description", cmt$description),
+  cmt_field("Responsibilities", cmt$responsibilities),
+  cmt_field("Relation to AP-LS Vision, Mission and Values", cmt$values),
+  cmt_field("URL", lapply(urls, function(url) {
+    if (grepl("https?://", url)) tags$a(href = url, url)
+    else if (identical(url, ",")) ", "
+    else url
+  })),
+  cmt_field("Additional", cmt$other),
+  cmt_field("Contact", lapply(cmt$email, function(email) {
+  if (grepl("@", email)) tags$a(href = paste0("mailto:", email), email)
+  else if (identical(email, ",")) ", "
+  else ""
+}))
+)
+  
+if (any(members$key == cmt$key)) {
+  membership <- cmt_field(
+    "Committee Members",
+    reactable(
+      members %>% filter(key == cmt$key),
+      pagination = FALSE,
+      defaultColDef = colDef(headerClass = "header"),
+      columns = list(
+        Position = colDef(name = "Position"),
+        Name = colDef(name = "Name"),
+        Term = colDef(name = "Term"),
+        key = colDef(show = FALSE),
+        Additional = colDef(show = FALSE)
+      ),
+      class = "members-table",
+      theme = reactableTheme(cellPadding = "8px 12px")
+    )
+  )
+  detail <- tagAppendChild(detail, membership)
+}
 
-      </div>
-    </div>
-  </div>
+  
+  detail
+}
+
+
+tbl <- reactable(
+  cmts[, c("name", "chair")],
+  defaultPageSize = 30,
+  onClick = "expand",
+  defaultColDef = colDef(headerClass = "header"),
+  columns = list(
+    name = colDef(name = "", minWidth = 250, class = "committee-title", cell = function(value) {
+      span(title = value, value)
+    }),
+    chair = colDef(show=FALSE)
+  ),
+  details = row_details,
+  wrap = TRUE,
+  class = "committees-table",
+  rowStyle = list(cursor = "pointer"),
+  theme = reactableTheme(highlightColor = '#FBF9F4',
+                         cellPadding = "8px 12px")
+)
+div(class = "committee-list",
+  #h2(class = "title", "AP-LS Committees"),
+  tbl
+)
+```
+
+```{r echo=FALSE}
+tags$link(href = "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap", rel = "stylesheet")
+```
+
+
+```{css echo=FALSE}
+.committee-list {
+  font-family: "Poppins", sans-serif;
+}
+.title {
+  font-size: 1.5rem;
+}
+.committees-table {
+  margin-top: 1rem;
+  font-size: 0.9375rem;
+  border: 1px solid hsl(213, 33%, 93%);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+.header {
+  background-color: #1B3264;
+  border-bottom-color: #1B3264;
+  border-bottom-width: 1px;
+  color: #FBF9F4;
+}
+.header[aria-sort]:hover,
+.header[aria-sort]:focus {
+  color: hsl(213, 55%, 50%);
+}
+
+.committee-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1B3264;
+}
+.committee-detail {
+  padding: 24px;
+  box-shadow: inset 0 1px 3px #95a5a6;
+  background: shift-color(#FBF9F4, -55%);
+  font-family: "Nunito";
+}
+.detail-label {
+  margin: 1.25rem 0 0.25rem;
+  font-size: 0.95rem;
+  color: #7b8a8b;
+  text-transform: uppercase;
+}
+.detail-header {
+  margin-bottom: 1rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+.detail-title {
+  margin-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #7b8a8b;
+}
+.detail-description {
+  font-size: 0.875rem;
+  font-family: "Nunito";
+}
+.members-table {
+  max-width: 75rem;
+  border: 1px solid hsl(213, 33%, 93%);
+  border-radius: 4px;
+  box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.05);
+  font-size: 0.875rem;
+  font-family: "Nunito";
+}
 ```

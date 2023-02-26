@@ -1,0 +1,111 @@
+---
+title: Grants-in-Aid for Undergraduate Students 
+date: last-modified
+description: Small grants (maximum of $1,000) to support empirical undergraduate research that addresses psycholegal issues.
+categories: 
+  - Students
+  - Undergraduate
+  - Research
+  - Grants-in-Aid
+submission-info:
+  sponsor: AP-LS Undergraduate Paper Award Committee
+  deadline: January 15 & September 15
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("../../_site/apls_functions.R")
+```
+
+::: vspace
+:::
+
+::: callout-note
+A complete application must be submitted by email to the Chair of the Undergraduate Grants-in-Aid Committee, Lauren Kois, at `lekois@ua.edu` by 11:59 p.m. PST on the date of the identified submission deadline.   
+```{r}
+#| echo: false
+#| output: asis
+
+library(tibble)
+library(dplyr)
+
+# Important links for award
+links <- tibble(
+  icon = c("circle-info", "file-export"),
+  text = c("About Undergraduate Research Grants-in-Aid Committee", "Submit"),
+  url = c("../../about/committees.qmd", "mailto:lekois@ua.edu")
+)
+
+# Create inline objects for each row of the tibble
+inline_objects <- lapply(seq_len(nrow(links)), function(i) {
+  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
+})
+
+# Combine the inline object strings into a single string
+inline_objects_str <- paste(inline_objects, collapse = "")
+
+# Print the HTML string
+cat(inline_objects_str)
+```
+:::
+
+::: vspace
+:::
+
+::: {.panel-tabset}
+## Eligibility
+
+The AP-LS Undergraduate Research Grants-in-Aid Committee accepts proposals for small grants (maximum of $1,000) to support empirical undergraduate research that addresses psycholegal issues.
+
+-   Awards are limited to current undergraduate students who are active [Student Affiliate]("../../membership/membership.qmd") members of AP-LS.
+-   Applicants must include the name of a faculty or research advisor(s) for your project. The nominated faculty member does not need to be a member of AP-LS.
+-   Applicants may submit only one application per funding cycle.Research projects identified in proposals should request funding needed to complete future or early active research projects. Proposed funding requests for reimbursement of past research expenses of completed projects are not eligible.
+-   Research projects identified in proposals are required to have active ethical approval from the host research institution(s) before the submission deadline. Proof of ethical (IRB) approval must be submitted along with the proposal document for an application to be deemed complete and eligible for review by the Grants in Aid Committee. Any proposed research project without notification of ethical approval before the submission deadline will be considered ineligible for the award.\
+-   The maximum for any individual award is set at \$1,000. Any requests for funding beyond \$1,000 will not be considered. Proposed research projects with an anticipated budget of over \$1000 should identify within the proposal the plan for covering the remaining costs to demonstrate that the research is feasible.Applicants who previously submitted a proposal for this award that was not selected for funding are permitted to revise and resubmit their proposal for consideration during the next funding cycle.
+-   Applicants resubmitting a proposal are asked to include a resubmission statement consisting of a paragraph (250 words or less) included after the abstract that identifies the notable improvements, revisions, updates, or additions made to the resubmitted proposal.
+-   Applicants who previously received funding from the committee are eligible to apply for the award again to fund a new research project provided that the research from the previous award has been completed. Past award winners must include an abstract (200 words or less) in their proposal application that succinctly summarizes the previous research funded by the award.
+
+## How to Apply 
+Interested individuals should submit a complete award application via email to the Undergraduate Grants in Aid Committee chair by 11:59 p.m. PST on the date of the identified submission deadline.
+
+<a class="btn btn-primary" href="mailto:lekois@ua.edu" role="button"> Submit Here</a>
+
+A complete Grant in Aid application includes:
+
+-   a short grant proposal (see proposal guidelines)
+-   documentation of active IRB approval status for the proposed research project from the host research institution(s)
+-   completed appropriate tax form (W-9 for US citizens and W-8BEN for international students)
+
+## Proposal Guidelines
+
+Applicants are to provide a short grant proposal (a maximum of 1,500 words excluding abstract and references) that includes:
+
+-   a cover sheet indicating the title of the project; name, address, phone number, and email address of the student investigator; and name and email of faculty advisor
+-   an abstract of 100 words or less summarizing the projectproject background that reviews purpose, theoretical rationale, and significance of the project
+-   project method that provides a detailed description of the project's participants, design, materials, and/or procedures to be employed
+-   budget and justification that identifies the specific amount requested, including a detailed project budget and justification for expenses as needed
+-   references
+
+Proposal documents should be formatted according to the Publication Manual of the American Psychological Association (7th edition) and submitted in an electronic format (preferably MS Word or PDF).
+
+Applicants resubmitting a proposal are asked to include a resubmission statement that consists of a paragraph (250 words or less) included after the abstract that identifies the notable improvements, revisions, updates, or additions made to the resubmitted proposal.
+
+Applicants who previously received Grants in Aid funding from the committee must include an additional abstract (200 words or less) in their proposal application that succinctly summarizes the previous research funded by the award.
+
+Budget items typically funded include (but are not limited to) payment of subjects, photocopying, purchase of testing materials, software not typically provided via universities, and electronic media. The committee does not typically provide funds for computers (though peripherals may be funded), office supplies and furniture (e.g., file cabinets), mileage, paying research assistants, and software or equipment typically available within universities. Conference and other travel costs are not funded.
+
+Proposed research projects with an anticipated budget of over $1,000 should explain in the budget how these additional project costs intend to be covered. Projects requesting funding for payment of subjects should provide appropriate justification for both the number of participants being requested (e.g., a power analysis) and the amount of compensation being awarded for each participant. Projects requesting funding for payment of subjects from online sources (MTurk, Qualtrics panels, etc.) should provide justification for the amount of compensation being provided to subjects and account for any overhead costs charged by the site for using their services within the budget. To determine the correct amount for total participant cost when using MTurk it is recommended you use this Mechanical Turk Cost Calculator.
+
+### Proposal Review Criteria
+
+The Undergrad Research Grants in Aid Committee will review and evaluate your project proposal based on the following criteria:
+
+-   **relevancy:** The proposed research clearly addresses practice, research, and/or public policy directly relevant to the field of psychology and law.
+-   **innovation:** The proposed research addresses novel research question(s) and/or employs unique or creative research methodology.
+-   **methodology:** The proposed research provides a complete and clear description of the sample, design, and procedure to be employed that demonstrates a sound research strategy appropriate to answer the research question(s).
+-   **feasibility of project:** Research can realistically be completed by student with support of an advisor as outlined in the proposal based on the planned cost, time, sample accessibility, materials, supports, and perception of applicant's research training and abilities.
+-   **budget:** Requested budget items are critical to the completion of the project, clearly detailed and justified, and within the scope of the identified items above traditionally funded by the Grant in Aid.
+
+Strong proposals will clearly articulate and support the relevancy, innovation, methodology, and feasibility of the research within the background and method of the proposal.
+
+:::

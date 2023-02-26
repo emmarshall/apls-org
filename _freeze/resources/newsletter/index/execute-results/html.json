@@ -1,0 +1,16 @@
+{
+  "hash": "49d7204b681a430a8689a963504e0763",
+  "result": {
+    "markdown": "---\ntitle: Newsletter Archive\n---\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n## Newsletter Archive\n\n```{=html}\n<div class=\"gallery\">\n  <div class=\"gallery__icon-column\">\n      <i class=\"fa-solid fa-newspaper fa-3x\" title=\"Newsletter\" aria-hidden=\"true\"></i>\n  </div>\n  <div class=\"gallery__list-column\">\n```\n\n\n::: {#newsletter}\n:::\n\n\n\n```{=html}\n  <span class=\"gallery__link\">\n    <a href=\"newsletter/2022/dec2022\">See feb23 <i class=\"bi-arrow-right-short\"> </i></a>\n  </span>\n  </div>\n</div>\n```\n\n\n::: {.all-link}\n[more newsletters](newsletter/)\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

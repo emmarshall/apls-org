@@ -1,0 +1,31 @@
+```{=html}
+
+<div class="jobs">
+  
+    
+  <% for (const job of items) { console.log(job);%>
+
+    <div class="job-entry">
+      <div class="metadata">
+        <p class="date"><%= job.date %></p>
+      </div>
+      <div class="body">
+        <p class="title"><%= job.title %></p>
+            <p class="details"><%= job.organization %> | <%= job.location %></p>
+          
+    <% if (job.url) { %>
+    <ul class="job-links">
+      <li class="job-link">
+        <a href="<%- job.url %> class="listing-name">
+        <i class="fa-solid fa-circle-info" style="color: $primary;"></i> View post »
+        </a>
+      </li>
+    </ul>
+  </div>  
+    <% } %>
+  </div>
+  
+     <% } %>
+     
+```
+

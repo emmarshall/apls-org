@@ -1,0 +1,57 @@
+---
+title: Caregiving Grants for American Psychology-Law Conference
+date: last-modified
+description: Provides travel awards to APLS members who serve as a caregiver in any capacity (e.g., child, parent) to attend the American Psychology-Law Society Conference.
+categories: 
+  - Students
+  - Undergraduate
+  - Graduate
+  - Diversity, Equity & Inclusion
+  - Conference Travel
+  - Early Career Professionals
+  - Caregiving Grants
+submission-info:
+  sponsor: AP-LS Professional Development of Women Committee
+  deadline: January 27, 2023
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("../../_site/apls_functions.R")
+```
+
+::: vspace
+:::
+
+::: callout-note
+# 2023 Conference
+The AP-LS Professional Development of Women Committee is thrilled to offer Caregiving Grants of $500-$750 for 20-30 attendees of APLS 2023 in Philadelphia, with priority to first authors, presenters, students, and early career professionals. This grant is open to any APLS member (student and non-student) who serves as a caregiver in any capacity (e.g., child, parent). Funds can be used for any caregiving needs during the conference, including needs at the conference or at home.
+
+ 
+We will notify grantees by February 3, 2023. 
+```{r}
+#| echo: false
+#| output: asis
+
+library(tibble)
+library(dplyr)
+
+# Important links for award
+links <- tibble(
+  icon = c("circle-info", "envelope", "link"),
+  text = c("About PDW Committee", "Contact", "Link to Apply"),
+  url = c("../../about/committees.qmd", "mailto:Jennifer.m.cox@ua.edu", "https://universityofalabama.az1.qualtrics.com/jfe/form/SV_4Jilv1WU81DVrGm")
+)
+
+# Create inline objects for each row of the tibble
+inline_objects <- lapply(seq_len(nrow(links)), function(i) {
+  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
+})
+
+# Combine the inline object strings into a single string
+inline_objects_str <- paste(inline_objects, collapse = "")
+
+# Print the HTML string
+cat(inline_objects_str)
+```
+:::

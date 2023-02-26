@@ -1,0 +1,14 @@
+{
+  "hash": "a9df62318c6401ccba97ba2ba901631a",
+  "result": {
+    "markdown": "---\npagetitle: \"Leadership\"\ntoc: false\nlisting:\n  - id: executive-officers\n    contents: \"officers/*.qmd\"\n    type: grid\n    image-height: 350px\n    grid-columns: 2\n    fields: [image, title, subtitle]\n    grid-item-align: center\n    sort: sortby\n    field-display-names: \n      affiliation: \"\"\n---\n\n```{=html}\n<nav aria-label=\"breadcrumb\">\n  <ol class=\"breadcrumb\">\n    <li class=\"breadcrumb-item\"><a href=\"index.html\">Home</a></li>\n    <li class=\"breadcrumb-item active\" aria-current=\"page\">People</li>\n  </ol>\n</nav>\n```\n\n\n\n## 2022-2023 Executive Officers\n\n:::{#executive-officers}\n:::\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n#| echo: false\n#| message: false\n#| warning: false\n#| classes: '.g-col-lg-6 .g-col-12 .g-col-md-12'\n\nsource(\"rowwise_tables.R\")\n```\n\n::: {.cell-output .cell-output-stderr}\n```\n\nAttaching package: 'purrr'\n```\n:::\n\n::: {.cell-output .cell-output-stderr}\n```\nThe following object is masked from 'package:data.table':\n\n    transpose\n```\n:::\n\n```{.r .cell-code}\ncontent = rowwise_table(\n  ~name, ~image, ~url, ~text,\n  \"Barry Rosenfeld\", \"about/officers/barry_rosenfeld.jpg\", \"https://ap-ls.org\", \"President for 2022-2023\",\n  \"Lindsey Wiley\", \"about/officers/placeholder.ong\", \"https://ap-ls.org\", \"Web Lady\"\n)\ndiv(class = \"team-grid\",\n  pmap(content, function(name, image, url, text) {\n    div(class = \"team-grid__item\",\n      div(class = \"team-grid__image-container\",\n        img(class = \"team-grid__image\", src = image)\n      ),\n      div(class = \"team-grid__text\",\n        h3(class = \"team-grid__name\",\n          a(class = \"team-grid__link\", href = url, name)\n        ),\n        text\n      )\n    )\n  })\n)\n```\n\n::: {.cell-output-display}\n```{=html}\n<div class=\"team-grid\">\n<div class=\"team-grid__item\">\n<div class=\"team-grid__image-container\">\n<img class=\"team-grid__image\" src=\"about/officers/barry_rosenfeld.jpg\"/>\n</div>\n<div class=\"team-grid__text\">\n<h3 class=\"team-grid__name\">\n<a class=\"team-grid__link\" href=\"https://ap-ls.org\">Barry Rosenfeld</a>\n</h3>\nPresident for 2022-2023\n</div>\n</div>\n<div class=\"team-grid__item\">\n<div class=\"team-grid__image-container\">\n<img class=\"team-grid__image\" src=\"about/officers/placeholder.ong\"/>\n</div>\n<div class=\"team-grid__text\">\n<h3 class=\"team-grid__name\">\n<a class=\"team-grid__link\" href=\"https://ap-ls.org\">Lindsey Wiley</a>\n</h3>\nWeb Lady\n</div>\n</div>\n</div>\n```\n:::\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

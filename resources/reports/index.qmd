@@ -1,0 +1,18 @@
+---
+title: "Committe Reports"
+description: "List of reports and documents prepared by AP-LS Committees"
+categories:
+  - committees
+---
+
+## AP-LS Conference Climate Survey
+The American-Law Society (AP-LS) Professional Development of Women (PDW) Committee’s #MeToo panel and follow-up discussion at the 2018 AP-LS conference highlighted concerns related to sexual harassment and other types of discrimination that have been raised by women (and others) about their workplaces and other academic settings (e.g., conferences), which can impact their success in the field. The purpose of the Climate Survey was to assess AP-LS members’ and recent AP-LS Conference attendees’ experiences of harassment and exclusion.
+
+<button type="button" class="btn btn-outline-primary">Primary</button>
+
+<button type="button" class="btn btn-outline-primary">
+<a href="https://www.youtube.com/watch?v=wdO_AYq4f6k" target="_blank">{{< fa file-pdf >}} Download</a></button>
+<br></br>
+
+## Early Career Professionals Survey
+The intent of this project and report is to provide new information on ECPs’ perceptions of their education and training opportunities, what ECPs’ needs are, and how AP-LS could best address those needs.

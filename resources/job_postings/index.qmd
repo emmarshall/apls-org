@@ -1,0 +1,27 @@
+---
+title: "Job Postings"
+toc: true
+toc-title: Job Type
+toc-location: left
+listing:
+  - id: academic
+    contents: academic-jobs.yml
+    sort: "date desc"
+    date-format: short
+    template: job-listing.ejs
+  - id: professional
+    contents: professional-jobs.yml
+    sort: "date desc"
+    date-format: short
+    template: job-listing.ejs
+---
+
+## {{< fa graduation-cap >}} Academic Positions
+
+::: {#academic}
+:::
+
+## {{< fa user-tie >}} Professional Positions
+
+::: {#professional}
+:::

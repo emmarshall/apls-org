@@ -1,0 +1,14 @@
+{
+  "hash": "a215351d38b7c6898153324027adca35",
+  "result": {
+    "markdown": "---\ntitle: Student Presentation Awards for American Psychology-Law Conference\ndate: last-modified\ndescription: Provides awards to students presenting their work at the American Psychology-Law Society Conference.\ncategories: \n  - Students\n  - Undergraduate\n  - Graduate\n  - Conference Travel\nsubmission-info:\n  sponsor: AP-LS Student Committee\n  deadline: February 22, 2023\n---\n\n\n\n\n::: vspace\n:::\n\n::: callout-note\n# 2023 American Psychology-Law Conference\n\nStudent members with an accepted first author presentation for the 2023 AP-LS Conference are eligible and highly encouraged to apply for a Student Presentation Award.\n\nThe AP-LS Student Committee will be awarding ten (10) student presentation awards at the 2023 AP-LS Conference, totaling \\$1,750. These awards include:\n\n-   Two (2) Outstanding Student Paper awards (\\$200 each);\n\n-   Two (2) Outstanding Student Abbreviated Paper (\"Data Blitz\") awards (\\$175 each);\n\n-   Two (2) Outstanding Student Poster awards (\\$150 each); and\n\n-   Four (4) specialty awards, which can be posters, abbreviated papers, or papers.\n\nThese include:\n\n-   One (1) Outstanding Student Presentation in Diversity-Related Research award (\\$175), for research directly related to underrepresented or marginalized populations.\n\n-   One (1) Outstanding Student Presentation in Corrections Research award (\\$175), for research directly related to correctional settings.\n\n-   One (1) Outstanding Student Presentation in Legal Research award (\\$175), for research directly related to the law or legal practice.\n\n-   One (1) Outstanding Student Presentation in Novel-Topic Research award (\\$175), for research on a topic not traditionally studied in law and psychology.\n\n    Full information on submission criteria, submission instructions, and the evaluation process is available on the [student committee website](https://www.apls-students.org/student-presentation-awards1.html).\n\nCompleted submissions are due Wednesday, February 22, by 11:59 PM EST. Late or incomplete submissions will not be considered.\n\n\n<span class=\"inline-object\"><i class=\"fa fa-circle-info\"></i><a href=\"../../about/committees.qmd\">About Student Committee</a></span><span class=\"inline-object\"><i class=\"fa fa-envelope\"></i><a href=\"mailto:students@ap-ls.org\">Contact</a></span><span class=\"inline-object\"><i class=\"fa fa-link\"></i><a href=\"https://www.apls-students.org/student-presentation-awards1.html\">Student Website</a></span>\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

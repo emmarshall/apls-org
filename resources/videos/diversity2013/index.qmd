@@ -1,0 +1,23 @@
+---
+date: "2013-23-06"
+title: Diversity in the Field of Psychology and Law
+subtitle: Introduction to AP-LS Series
+title-block-style: none
+toc: false
+image: featured.png
+priority: 3
+categories:
+  - apls
+url: https://www.youtube.com/watch?v=VFTZYEqc0-0
+---
+
+<button type="button" class="btn btn-outline-success">
+<a href="https://www.youtube.com/watch?v=VFTZYEqc0-0" target="_blank">{{< fa circle-play >}} video</a></button>
+<br></br>
+
+## Overview 
+
+This video features a number of professionals discussion diversity in the field of psychology and law. 
+
+
+{{< youtube VFTZYEqc0-0 >}}

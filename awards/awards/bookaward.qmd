@@ -1,0 +1,137 @@
+---
+title: Lawrence S. Wrightsman Book Award
+date: last-modified
+description: The American Psychology-Law Society Lawrence S. Wrightsman Book Award is given for a scholarly book devoted to psychology and law issues. The award is intended to recognize outstanding scholarship in psychology and law.
+categories:
+  - Book
+submission-info:
+  sponsor: AP-LS Book Award Committee
+  deadline: November 1  
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("../../_site/apls_functions.R")
+```
+
+::: vspace
+:::
+
+::: callout-note
+Nomination letters must be emailed to the Chair of the Book Award Committee, Elizabeth Foster at `eefoster@widener.edu` before November 1 annually. 
+```{r}
+#| echo: false
+#| output: asis
+
+library(tibble)
+library(dplyr)
+
+# Important links for award
+links <- tibble(
+  icon = c("circle-info", "envelope", "file-import"),
+  text = c("About Book Award Committee", "Contact", "Submit"),
+  url = c("../../about/committees.qmd", "mailto:eefoster@widener.edu", "mailto:eefoster@widener.edu")
+)
+
+# Create inline objects for each row of the tibble
+inline_objects <- lapply(seq_len(nrow(links)), function(i) {
+  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
+})
+
+# Combine the inline object strings into a single string
+inline_objects_str <- paste(inline_objects, collapse = "")
+
+# Print the HTML string
+cat(inline_objects_str)
+```
+:::
+
+::: vspace
+:::
+
+::: panel-tabset
+## Description
+
+The Lawrence S. Wrightsman Book Award is given separately for authored and edited books on an annual, rotating basis. During the annual meeting on odd-numbered years, the award will be for authored scholarly books, even numbered years for edited books. The winner of the award will be presented with a plaque and invited to give an award address at the annual meeting of Div. 41 (American Psychology-Law Society).
+
+The AP-LS Book Award was renamed the Lawrence S. Wrightsman Book Award by the American Psychology-Law Society Executive Committee in August 2019 based on Wrightsman's contribution to the field, specifically through his books, as his psychology and law textbook is frequently used in the education of students in the field of psychology and law.
+
+## Eligibility
+
+Books are eligible for consideration if published within the 2 previous years based on the year of the conference.
+
+## How to Apply
+Email nomination letters to the [Chair of the Book Award Committee](emailto:eefoster@widener.edu) before November 1 annually.
+
+:::{.callout-tip} 
+## Submissions should include:
+
+1.  A nomination letter including:
+
+    -   title and publisher of the book
+    -   month and year of publication
+    -   names and addresses of all authors or editors
+
+2.  At least one (preferably two) physical copies of the nominated book sent to the chair of the Book Award Committee
+
+Self nominations are encouraged.
+
+:::
+:::
+
+```{=html}
+
+    <!-- Past recipients -->
+
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        Past Recipients
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+      <div class="accordion-body">  
+      
+      <strong>2021:</strong> Eve Brank, "The Psychology of Family Law"
+ <br>
+ 
+      <strong>2020:</strong> Thomas Grisso and Stanley L. Brodsky, "The Modern Roots of Psychology and Law"
+
+ <br>
+      <strong>2019:</strong> Brian H. Bornstein and Edie Greene, "The Jury Under Fire: Myth, Controversy and Reform"
+
+ <br>
+      <strong>2018:</strong> Margaret Bull Kovera, "The Psychology of Juries"
+
+ <br>
+      <strong>2017:</strong> Adam Benforado, "Unfair: The New Science of Criminal Injustice"
+
+ <br>
+      <strong>2016:</strong> Ronald Roesch and Patricia Zapf, "Forensic Assessments in Criminal and Civil Law: A Handbook"
+
+ <br>
+      <strong>2015:</strong> Dan Simon, "In Doubt: The Psychology of the Criminal Justice Process"
+
+ <br>
+      <strong>2009-10:</strong> G. Daniel Lassiter and Christian A. Meissner, "Police Interrogations and False Confessions: Current Research, Practice, and Policy Recommendations"
+
+ <br>
+      <strong>2007-08:</strong> Roger J.R. Levesque, "Adolescents, Media, and the Law"
+
+ <br>
+      <strong>2005-06:</strong> William Foote and Jane Goodman-Delahunty, "Evaluating Sexual Harassment: Psychological, Social and Legal Considerations in Forensic Examinations"
+
+ <br>
+      <strong>2003-04:</strong> Barry Rosenfeld, "Assisted Suicide and the Right to Die"
+
+ <br>
+      <strong>2001-02:</strong> Kirk Heilbrun, "Principles of Forensic Mental Health Assessment" (First time awarded)
+
+ <br>
+
+</div>
+</div>
+</div>
+  
+```

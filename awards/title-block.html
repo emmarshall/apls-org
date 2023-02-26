@@ -1,0 +1,49 @@
+<!-- Template based on https://www.andrewheiss.com/research/ -->
+
+<header id="title-block-header"
+    class="quarto-title-block awards default$if(quarto-template-params.banner-header-class)$ $quarto-template-params.banner-header-class$$endif$">
+    <div class="quarto-title-banner">
+        $if(include-back-link)$
+        <div class="#back-nav"><a href="../awards/index.qmd" style="color:yellow">← Back to awards</a></div>
+        $endif$
+        </p><div class="quarto-title column-body">
+            <h1 class="title">$title$</h1></p>
+
+            $if(description)$
+            <div>
+                <div class="description">
+                    $description$
+                </div>
+            </div>
+            $endif$
+
+            $if(categories)$
+            $if(quarto-template-params.title-block-categories)$
+            <div class="quarto-categories">
+                $for(categories)$
+                <div class="quarto-category">$categories$</div>
+                $endfor$
+            </div>
+            $endif$
+            $endif$
+            
+            $if(submission-info.sponsor)$
+            <div class="quarto-title-meta-heading manual"><i class="fa fa-people-group"></i>  Sponsor</div>
+            <div class="quarto-title-meta-contents">
+                <p class="submission-sponsor">
+                    $submission-info.sponsor$
+                </p>
+            </div>
+            $endif$
+
+            $if(submission-info.deadline)$
+            <div class="quarto-title-meta-heading manual"><i class="fa fa-calendar"></i>  Deadline</div>
+            <div class="quarto-title-meta-contents">
+                <p class="submission-deadline">
+                    $submission-info.deadline$
+                </p>
+            </div>
+            $endif$
+        </div>
+    </div>
+</header>

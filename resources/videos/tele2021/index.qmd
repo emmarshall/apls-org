@@ -1,0 +1,39 @@
+---
+author: ""
+date: "2022-02-02"
+title: "Telepsychology in Psychology-Law Practice"
+subtitle: "Experiences, Recommendataions, and What's to Come" 
+location: APA Virtual Convention 2021
+title-block-style: none
+toc: false
+image: featured.png
+date-format: medium
+categories:
+  - careers
+  - apa
+url: https://www.youtube.com/watch?v=U0V36sGUalo
+---
+
+<button type="button" class="btn btn-outline-success">
+<a href="https://www.youtube.com/watch?v=U0V36sGUalo" target="_blank">{{< fa circle-play >}} video</a></button>
+<br></br>
+
+## Overview 
+The field of psychology has embraced video communication technologies (VCT) in an effort to match existing social norms and reach clients who may otherwise have limited options for local providers, face increased costs and lost wages for travel to clinics, or go without services altogether. Beyond this, remote technologies have become a necessity following the COVID-19 pandemic for sustaining clinical practices and safely engaging clients. VCT is exploding across the globe, with many considering it as a sort of savior in the fight to resolve the mental health crisis. Given the high demand for pre-trial evaluations (Antonacci, et al., 2008; Deslich et al., 2013), rural location of many correctional facilities, and increased risk of infection in total confinement, the use of VCT is increasingly used to assess and treat justice-involved persons. While commentary and research are emerging (see e.g., Batastini et al., 2016; Luxton & Lexcen, 2018), practitioners, scholars, and policymakers remain in need of clear guidance for improving the efficiency and quality of telecare.  
+
+This program includes a multidisciplinary group of panelists who will provide real-world examples, interactive critical thinking exercises, and empirically driven recommendations that will not only interest those working within the legal system, but also those broadly looking to integrate telepsychology into their practice or research program. Panelists will cover topics including establishing a remote jail-based competency restoration program, improving the science of conducting and reporting forensic telepsychology initiatives, overcoming unique barriers to privacy and confidentiality in carceral settings, developing an infrastructure for telehealth networks, and drafting discipline-specific best practice guidelines. Embedded within these talks, panelists will also address considerations for rural and diverse clients. The session will conclude with a general discussion and Q&A with the panelists using pre-selected questions. APA Divisions supporting this program include: 12, 14, 18, 41 (lead division), 42, and 46. 
+
+Presenters: 
+Ashley B. Batastini, Ph.D.- University of Memphis 
+Tomina J. Schwenke, PhD, ABPP- Emory University School of Medicine
+Douglas Edward Lewis, Jr., PsyD- Emory University School of Medicine
+Alexandra Lugo, M.S.- Palo Alto University 
+Julio Cespedes Jr., M.B.A. – University of Mississippi Medical Center
+Ella M. Shields, B.A. – University of Mississippi Medical Center
+Michelle R. Guyton, PhD ABPP- Northwest Forensic Institute
+
+Moderator/Discussant Info:  
+Alexander M. Millkey, PsyD- Northwest Forensic Institute, LLC
+
+
+{{< youtube U0V36sGUalo >}}

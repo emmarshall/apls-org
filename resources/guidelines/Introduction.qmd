@@ -1,0 +1,63 @@
+---
+title: Introduction
+---
+
+In the past 50 years forensic psychological practice had expanded dramatically. The American Psychological Association has a division devoted to matters of law and psychology (APA Division 41, the American Psychology-Law Society), a number of scientific journals devoted to interactions between psychology and the law exist (e.g., Law and Human Behavior, Psychology, Public Policy and Law, Behavioral Sciences and the Law), and a number of key texts have been published and undergone multiple revisions (e.g., Grisso, 1986, 2003; Melton, Petrila, Poythress, & Slobogin, 1987, 1997; Melton, Petrila, Poythress, Slobogin, Lyons, & Otto, 2007; Rogers, 1988, 1997, 2008).
+
+In addition, training in forensic psychology is available in pre-doctoral, internship and post-doctoral settings, and the American Psychological Association recognized forensic psychology as a specialty in 2001, with subsequent re-certification in 2008.
+
+Because the practice of forensic psychology differs in important ways from more traditional practice areas (Monahan, 1980) the Specialty Guidelines for Forensic Psychologists were developed and published in 1991 (Committee on Specialty Guidelines for Forensic Psychologists, 1991). Because of continued developments in the field in the ensuing 20 years, forensic practitioners' ongoing need for guidance, and policy requirements of the American Psychological Association, the 1991 Specialty Guidelines for Forensic Psychologists were revised, with the intent of benefiting forensic practitioners and recipients of their services alike.
+
+**The goals of these Guidelines are to improve the quality of forensic psychological services:**
+
+-   enhance the practice and facilitate the systematic development of forensic psychology
+-   encourage a high level of quality in professional practice
+-   encourage forensic practitioners to acknowledge and respect the rights of those they serve
+
+These Guidelines are intended for use by psychologists when engaged in the practice of forensic psychology as described below, and may also provide guidance on professional conduct to the legal system, and other organizations and professions.
+
+For the purposes of these Guidelines, forensic psychology refers to professional practice by any psychologist working within any sub-discipline of psychology (e.g., clinical, developmental, social, cognitive) when applying the scientific, technical, or specialized knowledge of psychology to the law to assist in addressing legal, contractual, and administrative matters. Application of the Guidelines does not depend on the practitioner's typical areas of practice or expertise, but rather on the service provided in the case at hand.
+
+These Guidelines apply in all matters in which psychologists provide expertise to judicial, administrative, and educational systems including, but not limited to:
+
+-   examining or treating persons in anticipation of or subsequent to legal, contractual, administrative, proceedings
+-   offering expert opinion about psychological issues in the form of *amicus briefs* or testimony to judicial, legislative or administrative bodies
+-   acting in an adjudicative capacity; serving as a trial consultant or otherwise offering expertise to attorneys, the courts, or others
+-   conducting research in connection with, or in the anticipation of, litigation
+-   or involvement in educational activities of a forensic nature
+
+Psychological practice is not considered forensic solely because the conduct takes place in, or the product is presented in, a tribunal or other judicial, legislative, or administrative forum.
+
+> For example, when a party (such as a civilly or criminally detained individual) or another individual (such as a child whose parents are involved in divorce proceedings) is ordered into treatment with a practitioner, that treatment is not necessarily the practice of forensic psychology. In addition, psychological testimony that is solely based on the provision of psychotherapy and does not include psycholegal opinions is not ordinarily considered forensic practice.
+
+For the purposes of these Guidelines, "forensic practitioner" refers to a psychologist when engaged in the practice of forensic psychology as described above. Such professional conduct is considered forensic from the time the practitioner reasonably expects to, agrees to, or is legally mandated to, provide expertise on an explicitly psycholegal issue.
+
+The provision of forensic services may include a wide variety of psycholegal roles and functions.
+
+> For example, as researchers, forensic practitioners may participate in the collection and dissemination of data that are relevant to various legal issues.
+
+> As advisors, forensic practitioners may provide an attorney with an informed understanding of the role that psychology can play in the case at hand.
+
+> As consultants, forensic practitioners may explain the practical implications of relevant research, examination findings, and the opinions of other psycholegal experts.
+
+> As examiners, forensic practitioners may assess an individual's functioning and report findings and opinions to the attorney, a legal tribunal, an employer, an insurer, or others (American Psychological Association, 2010; American Psychological Association, 2011a).
+
+> As treatment providers, forensic practitioners may provide therapeutic services tailored to the issues and context of a legal proceeding.
+
+> As mediators or negotiators, forensic practitioners may serve in a third-party neutral role and assist parties in resolving disputes.
+
+> As arbiters, special masters, or case managers with decision-making authority, forensic practitioners may serve parties, attorneys, and the courts (American Psychological Association, 2011b).
+
+These guidelines are informed by the American Psychological Association's (APA's) Ethical Principles of Psychologists and Code of Conduct (hereinafter referred to as the EPPCC; APA, 2002). The term guidelines refers to statements that suggest or recommend speciﬁc professional behavior, endeavors, or conduct for psychologists. Guidelines differ from standards in that standards are mandatory and may be accompanied by an enforcement mechanism. Guidelines are aspiration in intent. They are intended to facilitate the continued systematic development of the profession and facilitate a high level of practice by psychologists. Guidelines are not intended to be mandatory or exhaustive and may not be applicable to every professional situation. They are not deﬁnitive, and they are not intended to take precedence over the judgment of psychologists.
+
+As such, the Guidelines are advisory in areas in which the forensic practitioner has discretion to exercise professional judgment that is not prohibited or mandated by the EPPCC or applicable law, rules, or regulations. The Guidelines neither add obligations to nor eliminate obligations from the EPPCC, but provide additional guidance for psychologists. The modifiers used in the Guidelines (e.g., reasonably, appropriate, potentially) are included in recognition of the need for professional judgment on the part of forensic practitioners; ensure applicability across the broad range of activities conducted by forensic practitioners; and reduce the likelihood of enacting an inflexible set of guidelines that might be inapplicable as forensic practice evolves. The use of these modifiers, and the recognition of the role of professional discretion and judgment, also reflects that forensic practitioners are likely to encounter facts and circumstances not anticipated by the Guidelines and they may have to act upon uncertain or incomplete evidence. The Guidelines may provide general or conceptual guidance in such circumstances. The Guidelines do not, however, exhaust the legal, professional, moral and ethical considerations that inform forensic practitioners, for no complex activity can be completely defined by legal rules, codes of conduct, and aspirational guidelines.
+
+The Guidelines are not intended to serve as a basis for disciplinary action or civil or criminal liability. The standard of care is established by a competent authority not by the Guidelines. No ethical, licensure, or other administrative action or remedy, nor any other cause of action, should be taken solely on the basis of a forensic practitioner acting in a manner consistent or inconsistent with these Guidelines.
+
+In cases in which a competent authority references the Guidelines when formulating standards, the authority should consider that the Guidelines attempt to identify a high level of quality in forensic practice. Competent practice is defined as the conduct of a reasonably prudent forensic practitioner engaged in similar activities in similar circumstances. Professional conduct evolves and may be viewed along a continuum of adequacy, and "minimally competent" and "best possible" are usually different points along that continuum.
+
+The Guidelines are designed to be national in scope and are intended to be consistent with state and federal law. In cases in which a conflict between legal and professional obligations occur, forensic practitioners make known their commitment to the EPPCC and the Guidelines and take steps to achieve an appropriate resolution consistent with the EPPCC and Guidelines.
+
+The format of the Guidelines is different from most other practice guidelines developed under the auspices of APA. This reflects the history of the Guidelines as well as the fact that the Guidelines are considerably broader in scope than any other APA-developed guidelines. Indeed, these are the only APA-approved guidelines that address a complete specialty practice area. Despite this difference in format, the Guidelines function as all other APA guideline documents.
+
+This {{< downloadthis files/specialty-guidelines-forensic-psychology.pdf label="document" >}} replaces the 1991 Specialty Guidelines for Forensic Psychologists which were approved by the American Psychology-Law Society, Division 41 of the American Psychological Association and the American Board of Forensic Psychology. The current revision has also been approved by the Council of Representatives of the American Psychological Association. Appendix I includes a discussion of the revision process, enactment, and current status of these Guidelines. Appendix II includes definitions and terminology as used for the purposes of these Guidelines.

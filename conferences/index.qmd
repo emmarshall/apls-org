@@ -1,1 +1,22 @@
-# AP-LS 2023
+---
+pagetitle: "2023 American Psychology-Law Society Conference" 
+page-layout: custom
+section-divs: false
+toc: false
+css: index.css
+editor: source
+description: | 
+  The annual conference for the American Psychology-Law Society for 2023 will be held in Philadelphia from March 16-18.
+---
+
+::: {.hero-banner}
+
+::: {.content-block}
+::: {.hero-buttons}
+[Get Started](docs/get-started/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+[Guide](docs/guide/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+::: 
+
+:::
+:::
+

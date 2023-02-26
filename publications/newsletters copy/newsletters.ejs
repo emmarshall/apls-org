@@ -1,0 +1,23 @@
+```{=html}
+<div class="newsletter">
+    <% for (const issue of items) { %>
+    <div class="issue-entry">
+        <div class="image">
+            <% if (issue.url) { %>
+            <a href="<%= issue.url %>" target="_blank"><img src="<%= issue.image %>" alt="<%= issue.title %>" title="<%= issue.title %>" /></a>
+            <% } else { %>
+            <img src="<%= issue.image %>" alt="<%= issue.title %>" title="<%= issue.title %>" />
+            <% } %>
+        </div>
+        <div class="body">
+            <p class="issue-title">
+                <% if (issue.url) { %>
+                <a href="<%= issue.url %>" target="_blank"><%= issue.title %></a> 
+                <% } else { %>
+                <%= issue.title %> 
+                <% } %>
+            </p>
+        </div>
+    <% } %>
+</div>
+```

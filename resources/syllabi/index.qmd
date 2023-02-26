@@ -1,0 +1,179 @@
+---
+title: "Psychology & Law Syllabi Collection"
+description: Collection of syllabi in Psychology & Law.
+date: last-modified
+categories: 
+  - Teaching, Training & Education
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("../../_site/apls_functions.R")
+```
+
+
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+#| label: table
+#| echo: false
+
+library(googlesheets4)
+library(janitor)
+library(htmltools)
+library(dplyr)
+library(reactablefmtr)
+
+syllabi_raw <- read_sheet("https://docs.google.com/spreadsheets/d/1LZ1bz2Cb3OlaHRqOd73gLbX6sAvAs_eQpkU3TLrYfm8/edit#gid=1605255684")
+
+syllabus <- syllabi_raw |> 
+  # fix names and select columns
+  clean_names() |> 
+  # make level variable
+    mutate(date = paste0(semester, " ", year),
+           level = case_when(
+             course_level == "Undergraduate" ~ "Undergrad",
+             course_level == "Graduate" ~ "Graduate",
+             course_level == "Undergraduate, 
+             Graduate" ~ "Mixed",
+             TRUE ~ "Other")
+           ) |> 
+  select(level, author_affiliation,
+             author, course_name, date, year, attachment)
+
+data <- syllabus |> 
+  mutate(lvl_colors = case_when(
+    level == 'Undergrad' ~ '#4271B3',
+    level == 'Graduate' ~ '#1B3264',
+    level == 'Mixed' ~ '#FBF9F4',
+             TRUE ~ 'grey'),
+    img = knitr::image_uri("images/file.png")
+) 
+
+tbl <- reactable(
+    data,
+    searchable = TRUE,
+    defaultColDef = colDef(
+      vAlign = "center",
+      headerVAlign = "bottom",
+      headerClass = "header"
+    ),
+    elementId = "lvl-select",
+    columns = list(
+      level = colDef(
+        name = "type",
+        minWidth = 100,
+        cell = pill_buttons(
+          data,
+          opacity = 0.8,
+          color_ref = 'lvl_colors',
+          text_size = 13,
+      )
+    ),
+      author = colDef(
+        name = "Instructor",
+        minWidth = 150,
+        cell = merge_column(data, 
+                            merged_name = "author_affiliation",
+                            merged_size = 13,
+                            merged_color = "gray",
+                            merged_position = "below")
+      ),
+      author_affiliation = colDef(show = FALSE),
+    
+      course_name = colDef(
+        name = "Course",
+        minWidth = 150,
+        cell = merge_column(data, 
+                            merged_name = "date",
+                            merged_size = 13,
+                            merged_color = "gray",
+                            merged_position = "below")
+    ),
+      date = colDef(show = FALSE),
+    
+    img = colDef(
+      name = "view",
+      align = "center",
+      searchable = FALSE,
+      html = TRUE, 
+      cell = function(value, index) {
+        sprintf('<a href="%s" target="_blank"><image src="%s" style="width:20px;height:30px;"/></a>',
+              syllabus$attachment[index], value)
+    }),
+ 
+    lvl_colors = colDef(show = FALSE),
+    attachment = colDef(show = FALSE),
+    year = colDef(show = FALSE)
+      )
+    )
+    
+```
+
+```{r build div, echo=FALSE, warning=FALSE, message=FALSE}
+
+div(class = "syllabi",
+    div(class = "title-tab",
+        h2("Psychology & Law Syllabi Collection"),
+        "The AP-LS Teaching, Training and Careers Committee has collected syllabi for courses in psychology and law or closely related topics. These syllabi have been posted on the Web for everyone's easy access. You may download any of the collected syllabi for undergraduate or graduate courses."
+        ),
+    tbl,
+    paste0("Source: Syllabi data maintained by AP-LS TTC Committee | Made with {reactable}"))
+
+```
+
+```{r echo=FALSE}
+tags$link(href = "https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,700;1,400&display=swap", rel = "stylesheet")
+```
+
+```{css echo=FALSE, warning=FALSE, message=FALSE}
+@import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css); 
+
+.syllabi {
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 0.9rem;
+}
+
+.title-tab {
+  font-family: 'Proza Libre', sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 1.125rem;
+  font-size: 1rem;
+}
+
+.title-tab h2 {
+  font-family: 'Cormorant Garamond' sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.syllabi-table {
+  margin-bottom: 0.8rem;
+}
+
+.header {
+  border-bottom-color: #FBF9F4;
+  text-align: center;
+  color: #FBF9F4;
+  background: #1B3264;
+  font-weight: 500;
+  font-size: 1.3rem;
+  letter-spacing: -.02rem;
+  font-variant: small-caps;
+}
+
+/* Highlight headers when sorting */
+.header:hover,
+.header:focus,
+.header[aria-sort="ascending"],
+.header[aria-sort="descending"] {
+  background-color: #4271B3;
+  color: #FBF9F4;
+}
+
+
+.course {
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+```
