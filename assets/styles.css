@@ -37,13 +37,13 @@ code{
 
 
 .listing-title{
-  color: #2c3e50;
+  color: #1B3264;
   font-weight: 400;
   font-size: 1.5em;;
 }
 
 .listing-title:hover {
-  color:#95a5a6;
+  color: lighten(#1B3264, 15%);
 }
 
 
@@ -58,82 +58,14 @@ a.btn-links:hover{
 }
 
 
-h1{
-  font-weight: 200;
-  font-size: 3em;
-}
-
-h2{
-  font-weight: 200;
-  font-size: 2em;
-}
-
-h3{
-  font-weight: 200;
-  font-size: 1.5em;
-}
-
-h4.f4{
-  font-size: 1.25rem;
-}
-
-h1.f3{
-  font-weight: 200;
-}
-
-/* The navigation bar */
-.navbar {
-  overflow: visible;
-  background-color:#1B3264;
-*/*  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
-
-
 /* navbar kink */
 @media screen and (min-width: 999px) {
-  .navbar .navbar-nav .nav-link {
-    font-size: 1rem;
-    text-transform: uppercase;
-  }
-  .navbar .navbar-nav .nav-link:hover {
-    color: #FBF9F4;
-  }
-  .navbar .navbar-nav .nav-item {
-    position: relative;
-  }
-  .navbar .navbar-nav .nav-item::after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    background-color: #1B3264;
-    width: 0%;
-    content: "";
-    height: 1px;
-    transition: all 0.5s;
-  }
-
-.navbar .navbar-nav .nav-item:hover::after {
-    width: 100%;
-  }
-}
 
 
 .navbar-brand>img {
     max-height: 43px;
     width: auto;
     padding-right: 6px;
-}
-
-.nav-footer a{
-  color: #FBF9F4;
-}
-
-.active {
-  border-bottom: 1px solid #1B3264;
 }
 
 .navbar-brand {
@@ -146,7 +78,6 @@ h1.f3{
 /*footer*/
 .nav-footer{
   border-top: 0px !important;
-  background-color: #1B3264;
 }
 
 footer.footer .nav-footer, #quarto-header nav {
@@ -154,78 +85,6 @@ footer.footer .nav-footer, #quarto-header nav {
     padding-right: 1em;
     padding-bottom: 1em;
 }
-
-/*buttons*/
-
-.btn-outline-success{
-  border-color: #1B3264;
-  background-color: transparent;
-  border-radius: 10px;
-  padding: 1px;
-  min-width: 80px;
-  height: 30px;
-  font-size: 0.77em;
-}
-
-.btn-outline-success:hover{
-  border-color: #1B3264;
-  background-color: #FBF9F4;
-}
-
-.btn-outline-success a{
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-
-
-/* grid cards */
-h5, .h5{
-  font-size: 1.5rem;
-  
-}
-
-
-.card {
-  overflow: hidden;
-  display: grid;
-  flex-direction: column;
-  padding: 5px;
-  margin: 10px;
-  margin-bottom: 10px;
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
-    transition: all .2s ease-out;
-}
-
-
-.cards {
-  display: flex;
-  grid-template-columns: repeat(auto-fill, 250px);
-  grid-auto-rows: auto;
-  grid-gap: 1rem;
-  flex-direction: column;
-  margin: 50px;
-}
-
-
-.card:hover{
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
-}
- 
-.card-body{
-  background-color: white;
-  padding-top: 0.9em;
-}
-
-
-.card-img-top{
-  background-color: white;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 
 
 .quarto-grid-item img.thumbnail-image {
@@ -248,7 +107,7 @@ h5, .h5{
 
 
 .borderless{
-  background-color: #fff;
+  background-color: #FBF9F4;
 }
 
 
@@ -258,9 +117,12 @@ h5, .h5{
   text-align: center;
 }
 
+
 div.column.col-v-center{
    vertical-align: middle;
 }
+
+
 
 div.quarto-post {
     display: flex;
@@ -282,7 +144,7 @@ div.quarto-post {
 }
 
 .socials a{
-  color: #99978d;
+  color: black;
   margin-left: 0.1em;
   size: 50%;
 }
@@ -298,7 +160,7 @@ opacity: 50%;
   }
   
  .vspace2 {
-     margin-bottom: 0.5cm;
+     margin-bottom: 5cm;
      padding: 1%;
   }
 
@@ -320,70 +182,14 @@ div.quarto-about-jolla .about-image {
     margin-top: 2em;
 }
 
-
 .portrait {
     width: 200px;
     height: 200px;
     margin-bottom: 70px;
     margin-right: 50px;
     border-radius: 50%;
-    object-fit: none;
     position: relative;
     float: left;
-}
-
-
-
-.form-select {
-    background-color: white;
-}
-
-.form-control {
-    background-color: white;
-}
-
-
-.input-group-text {
-    background-color: #ebe9e1;
-}
-
-
-#title-block-header {
-    margin-block-end: 1rem;
-    position: relative;
-    margin-top: 70px; uncomment if fixed navbar
-}
-#profile .network-icon {
-    margin-top: 30px;
-}
-
-/*table*/
-table.quarto-listing-table a {
-    text-decoration: none;
-}
-
-.table a {
-    word-break: break-word;
-}
-
-a {
-    color: #1B3264;
-}
-
-
-/*references side bar adjusted when fixed navbar*/
-#quarto-margin-sidebar .quarto-listing-category {
-    padding-top: 0;
-    font-size: 0.875rem;
-}
-
-
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
 }
 
 /*carousel*/
@@ -436,11 +242,30 @@ a {
 }
 
 .about-link a{
-  text-decoration-color: #2c3e50;
+  text-decoration-color: #1B3264;
   text-transform: uppercase;
 }
 
 .about-link a::after{
+  display: inline-block;
+  content: "→";
+  position: relative;
+  margin-left: 2px;
+}
+
+/*more info link thing for dark background*/
+
+.light-about-link{
+  font-size: 1em;
+  float: right;
+}
+
+.light-about-link{
+  text-decoration-color: #FBF9F4;
+  text-transform: uppercase;
+}
+
+.light-about-link a::after{
   display: inline-block;
   content: "→";
   position: relative;
@@ -456,51 +281,32 @@ a {
     animation-delay: .15s;
 }
 
-.alt-background {
+
+.light-section {
   background-color: #FBF9F4;
+  color: #1B3264;
 }
 
-.alt-background2 {
+.dark-section {
   background-color: #1B3264;
+  color: #FBF9F4;
 }
 
-/* icons */
-.socials {
-    padding-bottom: 1em;
-    padding-left: 3%;
-    font-size: 1.6em;
-}
-
-.socials a{
-  color: #293E57;
-  margin-left: 0.1em;
-  size: 50%;
+.bright-section {
+  background-color: #FAF61B
+  color: #1B3264;
 }
 
 
-
-.socials a:hover {
-opacity: 50%;
+.president-intro{
+  margin-top: -30px;
+  font-family: 'Cormorant Garamond' Sans-Serif;
 }
 
-.vspace {
-     margin-bottom: 1cm;
-  }
-  
- .vspace2 {
-     margin-bottom: 0.5cm;
-     padding: 1%;
-  }
-
-.hspace {
-     margin-left: 5cm;
-     padding: 1%;
-  }
-
-.main {
-    margin-top: 0em;
-    margin-bottom: 1em;
+div.column.col-v-off-center{
+   vertical-align: 55%;
 }
+
 
 div.quarto-about-jolla .about-image {
     object-fit: cover;
@@ -510,38 +316,4 @@ div.quarto-about-jolla .about-image {
     margin-top: 2em;
 }
 
-.form-select {
-    background-color: white; 
-}
-
-.form-control {
-    background-color: white;
-}
-
-
-.input-group-text {
-    background-color: #FBF9F4;
-}
-
     
-
-
-/*table*/
-table.quarto-listing-table a {
-    text-decoration: none;
-}
-
-.table a {
-    word-break: break-word;
-}
-
-a {
-    color: #1B3264;
-}
-
-
-/*references side bar adjusted when fixed navbar*/
-#quarto-margin-sidebar .quarto-listing-category {
-    padding-top: 0;
-    font-size: 0.875rem;
-}

@@ -1,101 +1,55 @@
 [
   {
-    "listing": "/about/leadership.html",
+    "listing": "/resources/job_postings/index.html",
+    "items": []
+  },
+  {
+    "listing": "/resources/videos/index.html",
     "items": [
-      "/about/officers/barry_rosenfeld.html"
+      "/resources/videos/careers2022/Index.html",
+      "/resources/videos/DEIcorrections2022/index.html",
+      "/resources/videos/tele2021/index.html",
+      "/resources/videos/clinician2013/index.html",
+      "/resources/videos/diversity2013/index.html",
+      "/resources/videos/expert2013/index.html",
+      "/resources/videos/grad2013/index.html",
+      "/resources/videos/impact2013/index.html",
+      "/resources/videos/jury2013/index.html",
+      "/resources/videos/intro2013/index.html",
+      "/resources/videos/juvenile2013/index.html",
+      "/resources/videos/risk2013/index.html",
+      "/resources/videos/students2013/index.html"
     ]
   },
   {
-    "listing": "/newsletter/index.html",
+    "listing": "/awards/index.html",
     "items": [
-      "/newsletter/jan2018/jan18.html",
-      "/newsletter/feb2018/feb18.html",
-      "/newsletter/july2018/july18.html",
-      "/newsletter/feb2020/feb2020.html",
-      "/newsletter/jan2020/jan2020.html",
-      "/newsletter/mar2019/mar2019.html",
-      "/newsletter/dec2019/dec2019.html",
-      "/newsletter/aug2019/aug2019.html",
-      "/newsletter/july2019/july2019.html",
-      "/newsletter/june2019/june2019.html",
-      "/newsletter/may2019/may2019.html",
-      "/newsletter/sep2019/sep2019.html",
-      "/newsletter/oct2019/oct2019.html",
-      "/newsletter/nov2019/nov2019.html",
-      "/newsletter/apr2019/apr19.html",
-      "/newsletter/feb2019/feb2019.html",
-      "/newsletter/jan2019/jan2019.html",
-      "/newsletter/nov2018/nov18.html",
-      "/newsletter/oct2018/oct18.html",
-      "/newsletter/sep2018/sep18.html",
-      "/newsletter/june2018/june18.html",
-      "/newsletter/may2018/may18.html",
-      "/newsletter/mar2018/mar18.html",
-      "/newsletter/apr2018/apr2018.html",
-      "/newsletter/aug2018/aug18.html",
-      "/newsletter/dec2018/dec18.html",
-      "/newsletter/dec2017/dec2017.html",
-      "/newsletter/nov2017/nov2017.html",
-      "/newsletter/oct2017/oct2017.html",
-      "/newsletter/sep2017/sep2017.html",
-      "/newsletter/aug2017/aug2017.html",
-      "/newsletter/july2017/july2017.html",
-      "/newsletter/june2017/june2017.html",
-      "/newsletter/may2017/may2017.html",
-      "/newsletter/apr2017/apr2017.html",
-      "/newsletter/mar2017/mar2017.html",
-      "/newsletter/feb2017/feb2017.html",
-      "/newsletter/jan2017/jan2017.html"
+      "/awards/grants/APprogram.html",
+      "/awards/grants/ECgrantinaid.html",
+      "/awards/grants/GRADgrantinaid.html",
+      "/awards/grants/UNDgrantinaid.html",
+      "/awards/grants/diversityresearch.html",
+      "/awards/grants/impactgrant.html",
+      "/awards/grants/macarthur.html",
+      "/awards/awards/bookaward.html",
+      "/awards/awards/dissertation.html",
+      "/awards/awards/distinguished.html",
+      "/awards/awards/diversitytravelaward.html",
+      "/awards/awards/fellows.html",
+      "/awards/awards/recaward.html",
+      "/awards/awards/saleemshah.html",
+      "/awards/awards/teachingaward.html",
+      "/awards/awards/undergradpaper.html",
+      "/awards/conference/caregivers.html",
+      "/awards/conference/studentawards.html"
     ]
   },
   {
-    "listing": "/talks/index.html",
-    "items": [
-      "/talks/careers2022/Index.html",
-      "/talks/DEIcorrections2022/index.html",
-      "/talks/clinician2013/index.html",
-      "/talks/expert2013/index.html",
-      "/talks/grad2013/index.html",
-      "/talks/impact2013/index.html",
-      "/talks/intro2013/index.html"
-    ]
+    "listing": "/publications/newsletters copy/index.html",
+    "items": []
   },
   {
-    "listing": "/funding/index.html",
-    "items": [
-      "/funding/grants/APprogram.html",
-      "/funding/grants/undergradpaper.html",
-      "/funding/grants/dissertation.html",
-      "/funding/grants/distinguished.html",
-      "/funding/grants/diversitytravelaward.html",
-      "/funding/grants/diversityresearch.html",
-      "/funding/grants/fellows.html",
-      "/funding/grants/ECgrantinaid.html",
-      "/funding/grants/macarthur.html",
-      "/funding/grants/UNDgrantinaid.html",
-      "/funding/grants/bookaward.html",
-      "/funding/grants/recaward.html",
-      "/funding/grants/teachingaward.html",
-      "/funding/grants/impactgrant.html",
-      "/funding/grants/saleemshah.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/talks/careers2022/Index.html",
-      "/talks/DEIcorrections2022/index.html",
-      "/talks/tele2021/index.html",
-      "/talks/clinician2013/index.html",
-      "/talks/diversity2013/index.html",
-      "/talks/expert2013/index.html",
-      "/talks/grad2013/index.html",
-      "/talks/impact2013/index.html",
-      "/talks/jury2013/index.html",
-      "/talks/intro2013/index.html",
-      "/talks/juvenile2013/index.html",
-      "/talks/risk2013/index.html",
-      "/talks/students2013/index.html"
-    ]
+    "listing": "/publications/newsletters/index.html",
+    "items": []
   }
 ]
