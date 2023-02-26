@@ -1,5 +1,54 @@
 [
   {
+    "listing": "/about/leadership.html",
+    "items": [
+      "/about/officers/barry_rosenfeld.html"
+    ]
+  },
+  {
+    "listing": "/newsletter/index.html",
+    "items": [
+      "/newsletter/jan2018/jan18.html",
+      "/newsletter/feb2018/feb18.html",
+      "/newsletter/july2018/july18.html",
+      "/newsletter/feb2020/feb2020.html",
+      "/newsletter/jan2020/jan2020.html",
+      "/newsletter/mar2019/mar2019.html",
+      "/newsletter/dec2019/dec2019.html",
+      "/newsletter/aug2019/aug2019.html",
+      "/newsletter/july2019/july2019.html",
+      "/newsletter/june2019/june2019.html",
+      "/newsletter/may2019/may2019.html",
+      "/newsletter/sep2019/sep2019.html",
+      "/newsletter/oct2019/oct2019.html",
+      "/newsletter/nov2019/nov2019.html",
+      "/newsletter/apr2019/apr19.html",
+      "/newsletter/feb2019/feb2019.html",
+      "/newsletter/jan2019/jan2019.html",
+      "/newsletter/nov2018/nov18.html",
+      "/newsletter/oct2018/oct18.html",
+      "/newsletter/sep2018/sep18.html",
+      "/newsletter/june2018/june18.html",
+      "/newsletter/may2018/may18.html",
+      "/newsletter/mar2018/mar18.html",
+      "/newsletter/apr2018/apr2018.html",
+      "/newsletter/aug2018/aug18.html",
+      "/newsletter/dec2018/dec18.html",
+      "/newsletter/dec2017/dec2017.html",
+      "/newsletter/nov2017/nov2017.html",
+      "/newsletter/oct2017/oct2017.html",
+      "/newsletter/sep2017/sep2017.html",
+      "/newsletter/aug2017/aug2017.html",
+      "/newsletter/july2017/july2017.html",
+      "/newsletter/june2017/june2017.html",
+      "/newsletter/may2017/may2017.html",
+      "/newsletter/apr2017/apr2017.html",
+      "/newsletter/mar2017/mar2017.html",
+      "/newsletter/feb2017/feb2017.html",
+      "/newsletter/jan2017/jan2017.html"
+    ]
+  },
+  {
     "listing": "/talks/index.html",
     "items": [
       "/talks/careers2022/Index.html",
