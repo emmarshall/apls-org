@@ -98,7 +98,8 @@
 
 
 .hero-banner #btn-guide {
-  background-color: #FAF61B !important;
+  background-color: #ffcc00 !important;
+  color: #1B3264;
   border: none;
 }
 

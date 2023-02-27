@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Linotype Didot Std';
+    src: url('DidotLTStd-BoldItalic.eot');
+    src: local('Linotype Didot Std Bold Italic'), local('DidotLTStd-BoldItalic'),
+        url('DidotLTStd-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('DidotLTStd-BoldItalic.woff2') format('woff2'),
+        url('DidotLTStd-BoldItalic.woff') format('woff'),
+        url('DidotLTStd-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Linotype Didot Std Roman';
+    src: url('DidotLTStd-Roman.eot');
+    src: local('Linotype Didot Std Roman'), local('DidotLTStd-Roman'),
+        url('DidotLTStd-Roman.eot?#iefix') format('embedded-opentype'),
+        url('DidotLTStd-Roman.woff2') format('woff2'),
+        url('DidotLTStd-Roman.woff') format('woff'),
+        url('DidotLTStd-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linotype Didot Pro';
+    src: url('DidotLTPro-Italic.eot');
+    src: local('Linotype Didot Pro Italic'), local('DidotLTPro-Italic'),
+        url('DidotLTPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DidotLTPro-Italic.woff2') format('woff2'),
+        url('DidotLTPro-Italic.woff') format('woff'),
+        url('DidotLTPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Linotype Didot Std';
+    src: url('DidotLTStd-Bold.eot');
+    src: local('Linotype Didot Std Bold'), local('DidotLTStd-Bold'),
+        url('DidotLTStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DidotLTStd-Bold.woff2') format('woff2'),
+        url('DidotLTStd-Bold.woff') format('woff'),
+        url('DidotLTStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linotype Didot Pro';
+    src: url('DidotLTPro-BoldItalic.eot');
+    src: local('Linotype Didot Pro Bold Italic'), local('DidotLTPro-BoldItalic'),
+        url('DidotLTPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('DidotLTPro-BoldItalic.woff2') format('woff2'),
+        url('DidotLTPro-BoldItalic.woff') format('woff'),
+        url('DidotLTPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Linotype Didot Pro Roman';
+    src: url('DidotLTPro-Roman.eot');
+    src: local('Linotype Didot Pro Roman'), local('DidotLTPro-Roman'),
+        url('DidotLTPro-Roman.eot?#iefix') format('embedded-opentype'),
+        url('DidotLTPro-Roman.woff2') format('woff2'),
+        url('DidotLTPro-Roman.woff') format('woff'),
+        url('DidotLTPro-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linotype Didot Std Headline Roman';
+    src: url('DidotLTStd-Headline.eot');
+    src: local('Linotype Didot Std Headline Roman'), local('DidotLTStd-Headline'),
+        url('DidotLTStd-Headline.eot?#iefix') format('embedded-opentype'),
+        url('DidotLTStd-Headline.woff2') format('woff2'),
+        url('DidotLTStd-Headline.woff') format('woff'),
+        url('DidotLTStd-Headline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linotype Didot Pro Headline Roman';
+    src: url('DidotLTPro-Headline.eot');
+    src: local('Linotype Didot Pro Headline Roman'), local('DidotLTPro-Headline'),
+        url('DidotLTPro-Headline.eot?#iefix') format('embedded-opentype'),
+        url('DidotLTPro-Headline.woff2') format('woff2'),
+        url('DidotLTPro-Headline.woff') format('woff'),
+        url('DidotLTPro-Headline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linotype Didot Pro';
+    src: url('DidotLTPro-Bold.eot');
+    src: local('Linotype Didot Pro Bold'), local('DidotLTPro-Bold'),
+        url('DidotLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DidotLTPro-Bold.woff2') format('woff2'),
+        url('DidotLTPro-Bold.woff') format('woff'),
+        url('DidotLTPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Linotype Didot Std';
+    src: url('DidotLTStd-Italic.eot');
+    src: local('Linotype Didot Std Italic'), local('DidotLTStd-Italic'),
+        url('DidotLTStd-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DidotLTStd-Italic.woff2') format('woff2'),
+        url('DidotLTStd-Italic.woff') format('woff'),
+        url('DidotLTStd-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
