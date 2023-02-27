@@ -1,8 +1,10 @@
 ---
-title: Presidential Archive 
+title: Presidential Archives
+subtitle: List of former AP-LS Presidents and their presidential addresses. 
+title-block-banner: true
 ---
 
-Insert content from Lindsey
+Insert content from Lindsey & presidential address videos
 
 ## Div. 41 Presidents
 ### American Psychology-Law Society
@@ -10,7 +12,7 @@ Insert content from Lindsey
 |         |                                |    
 |---------|--------------------------------|
 | 2021-22 | Lora M. Levett, PhD            |
-| 2021-22 | Allison Redlich, PhD            |
+| 2021-22 | Allison Redlich, PhD           |
 | 2020-21 | Jennifer Groscup, JD, PhD      |
 | 2018-19 | Kevin S. Douglas, LLB, PhD     |
 | 2017-18 | Eve Brank, JD, PhD             |
@@ -55,4 +57,3 @@ Insert content from Lindsey
 | 1981-82            | John Monahan, PhD          |
 
 
-https://www.youtube.com/watch?v=ZzOrE2TVXSg

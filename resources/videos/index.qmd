@@ -1,8 +1,14 @@
 ---
-title: "Talks"
+title: "AP-LS Videos"
+subtitle: | 
+  Archive of videos, webinars and panel discussions related to the American Psychology-Law Society and its members
+title-block-banner: true
 listing:
-  id: talks
+  id: videos
   fields: [image, date, title, subtitle]
+  type: default
+  categories: true
+  image-align: left
   contents: 
     - careers2022
     - clinician2013
@@ -18,14 +24,8 @@ listing:
     - risk2013
     - students2013
     - tele2021
-  type: grid
-  categories: true
-  grid-item-border: false
-  image-align: right
   sort: "date desc"
-  
 ---
 
-Presidential address videos to add: 
-
-
+::: {#videos}
+:::

@@ -83,10 +83,10 @@ padding-bottom: 1em;
 #| message: false
 content = rowwise_table(~name, ~icon, ~link,
   "Committees", "person-fill", "about/comittees.qmd",
-    "Job Postings", "briefcase-fill", "resources/job_postings/",     
-    "Newsletter Archive", "archive", "publications/newsletters/",
-  "Olivia", "bandaid-fill", "www.ap-ls.org",
-  "Peter", "bag-check", "www.ap-ls.org"
+    "Job Postings", "briefcase-fill", "resources/job_postings/index.qmd",     
+    "Newsletter", "newspaper", "publications/newsletters/",
+  "Awards", "award-fill", "awards/index.qmd",
+  "Videos", "youtube", "www.ap-ls.org"
 )
 div(class = "bg-light",
  div(class = "bg-breakout",
@@ -191,6 +191,7 @@ The AP-LS Student Committee has compiled a variety of resources for undergraduat
 :::
 :::
 
+
 ::: {.column-screen .light-section}
 ::: {.column .col-v-center width="15%"}
 :::
@@ -219,7 +220,6 @@ The AP-LS Student Committee has compiled a variety of resources for undergraduat
 :::
 
 :::
-
 
 
 ```{r}
@@ -349,6 +349,15 @@ tags$link(href = "https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght
 }
 ```
 
+
+::: {.column-screen}
+::: {.column .col-v-center width="15%"}
+:::
+
+::: {.column .col-v-center width="70%"}
 # Events 
 
 ## Event test number one. {#event-test}
+
+
+

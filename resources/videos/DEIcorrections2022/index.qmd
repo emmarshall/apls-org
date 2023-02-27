@@ -1,9 +1,9 @@
 ---
-author: AP-LS BRIDGE Committee
+author: AP-LS
 date: "2022-02-02"
-title: "Careers in Applied Psychology: Law and Psychology"
-subtitle: Online
-title-block-style: none
+title: "Diversity Equity and Inclusion in Correctional Psychology"
+subtitle: A panel discussion about the barriers to entry in Correction Psychology. 
+title-block-banner: true
 toc: false
 image: featured.png
 date-format: medium

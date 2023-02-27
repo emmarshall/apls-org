@@ -7,16 +7,367 @@ css: index.css
 editor: source
 description: | 
   The annual conference for the American Psychology-Law Society for 2023 will be held in Philadelphia from March 16-18.
+includesource: true
 ---
 
-::: {.hero-banner}
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("../_site/apls_functions.R")
+```
 
-::: {.content-block}
-::: {.hero-buttons}
-[Get Started](docs/get-started/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
-[Guide](docs/guide/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
-::: 
+::: hero-banner
+::: content-block
+::: hero-buttons
+[Register Today!](docs/get-started/){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [Conference Program](#program){.btn-action .btn .btn-secondary role="button"}
+:::
+:::
+:::
 
+::: grid
+```{r}
+#| label: TOC
+#| echo: false
+#| warning: false
+#| message: false
+
+content = rowwise_table(~name, ~icon, ~link,
+  "Hotel", "building", "#hotel",
+    "Registration", "person-badge", "#register",     
+    "Program", "journal-text", "#program",
+  "Pre-conference", "person-workspace", "#workshops",
+  "Sponsors", "bag-check", "#sponsors"
+)
+div(class = "bg-light",
+ div(class = "bg-breakout",
+    div(class = "inner-container",
+      div(class = "boxed-wrapper",
+            div(class = "boxed-feature-grid",
+          pmap(content, function(name, icon, link) {
+            div(class = "boxed-feature-grid__item",
+              div(class = "boxed-feature-grid__icon",
+                a(href = link, class = "boxed-feature-grid__link",
+                  tags$i(class = sprintf("bi-%s boxed-feature-grid__i", icon))
+                )),
+    div(class = "boxed-feature-grid__title", name)
+)
+          })
+        )
+      )
+    )
+  )
+)
+
+```
+:::
+
+::: {.column .col-v-center width="15%"}
+:::
+
+::: {.column .col-v-center width="70%"}
+## Hotel Information {#hotel}
+
+::: {.panel-tabset}
+## Philadelphia Marriott Downtown
+
+The 2023 AP-LS Conference will be held at the [Philadelphia Marriott Downtown](https://www.marriott.com/en-us/hotels/phldt-philadelphia-marriott-downtown/overview/?scid=8e4624f4-e96a-4d68-b772-59df755b5c65&gclsrc=ds)
+
+> 1201 Market Street </br>
+> Philadelphia, PA, USA, 19107 
+> *guest entrance at 1200 Filbert Street*
+
+## Conference Rates
+
+Book a room through the AP-LS sponsored link for conference discount
+
+\$209 USD per night\*
+
+Rate not inclusive of final taxes/fees
+
+[{{< fa bell-concierge >}} Book a room](%22https://book.passkey.com/gt/218524854?gtid=ebf7480702a2b34d863a79c09cb5f074%22){.btn-action .btn .btn-primary role="button"}
+:::
+
+## Register to Attend {#register}
+
+Registration is now open! Early Bird registration rates available on or before January 31, 2023. Additional pricing information listed below.
+
+[{{< fa user-plus >}} Register Now]("https://apls.memberclicks.net/2023_conf_registration"){.btn-action .btn .btn-primary role="button"} 
+
+```{=html}
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #FBF9F4;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #FBF9F4;
+}
+</style>
+</head>
+<body>
+
+<h3>Registration Rates</h3>
+
+<table>
+  <tr>
+    <th>Status</th>
+    <th>Early Bird <br>(before Jan 31)</th>
+    <th>Regular <br>(on Feb 1)</th>
+  </tr>
+  <tr>
+    <td>Full Member</td>
+    <td>$245</td>
+    <td>$275</td>
+  </tr>
+  <tr>
+    <td>Early Career Professional <br> Member</td>
+    <td>$180</td>
+    <td>$210</td>
+  </tr>
+  <tr>
+    <td>Student Member</td>
+    <td>$65</td>
+    <td>$95</td>
+  </tr>
+  <tr>
+    <td>Student Member <em>First-Author Presenter</em></td>
+    <td>$25</td>
+    <td>$25</td>
+  </tr>
+  <tr>
+    <td>Student Non-member</td>
+    <td>$115</td>
+    <td>$145</td>
+  </tr>
+  <tr>
+    <td>Non-member</td>
+    <td>$330</td>
+    <td>$400</td>
+  </tr>
+</table>
+
+</body>
+</html>
+```
+:::
+
+```{r}
+#| label: info-bar
+#| output: asis
+#| echo: false
+#| warning: false
+#| message: false
+
+info <- tibble(
+  title = "Student Volunteers",
+  text = "Student’s interested in volunteering to help during the conference should complete the application process via the main registration form.",
+  ctr = "Contact office",
+  link = "mailto:office@ap-ls.org",
+  icon = "fas fa-scale-balanced"
+)
+
+students <- generate_info_bar(info)
+
+cat(students)
+
+```
+
+::: {.column .col-v-center width="15%"}
+:::
+
+::: {.column .col-v-center width="70%"}
+
+## Pre-conference Workshops
+
+### Wednesday March 15, 2023
+
+```{=html}
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #FBF9F4;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #FBF9F4;
+}
+</style>
+</head>
+<body>
+
+<h2>Full-Day Workshop Rates</h2>
+
+<table>
+  <tr>
+    <th>Status</th>
+    <th>Early Bird <br>(before Jan 31)</th>
+    <th>Regular <br>(on Feb 1)</th>
+  </tr>
+  <tr>
+    <td>Member</td>
+    <td>$200</td>
+    <td>$230</td>
+  </tr>
+  <tr>
+    <td>Non-Member</td>
+    <td>$250</td>
+    <td>$280</td>
+  </tr>
+  <tr>
+    <td>Student Member</td>
+    <td>$80</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>Student Non-member</td>
+    <td>$100</td>
+    <td>$120</td>
+  </tr>
+</table>
+
+</body>
+</html>
+```
+
+
+```{=html}
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #FBF9F4;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #FBF9F4;
+}
+</style>
+</head>
+<body>
+
+<h2>Half-Day Workshop Rates</h2>
+
+<table>
+  <tr>
+    <th>Status</th>
+    <th>Early Bird <br>(before Jan 31)</th>
+    <th>Regular <br>(on Feb 1)</th>
+  </tr>
+  <tr>
+    <td>Member</td>
+    <td>$100</td>
+    <td>$115</td>
+  </tr>
+  <tr>
+    <td>Non-Member</td>
+    <td>$125</td>
+    <td>$140</td>
+  </tr>
+  <tr>
+    <td>Student Member</td>
+    <td>$40</td>
+    <td>$50</td>
+  </tr>
+  <tr>
+    <td>Student Non-member</td>
+    <td>$50</td>
+    <td>$60</td>
+  </tr>
+</table>
+
+</body>
+</html>
+```
+## Program & Schedule {#program}
+
+{{< downloadthis docs/2023_Conference_Grid-Updated.pdf dname="2023_Conference_Grid-Updated" label="Download Program" icon="file-pdf" type="primary" >}}
+
+## Promotional Opportunities {#sponsors}
+
+{{< downloadthis docs/AP-LS_Prospectus_2023.pdf dname="AP-LS_Prospectus_2023" label="Exhibitor Prospectus" icon="download" type="primary" >}}
+
+::: {.panel-tabset} 
+## Become an AP-LS Sponsor 
+Signing up as a Business Partner of AP-LS has never been easier. Select your sponsorship, upload your logo, register your staff and make a payment all in one place.
+
+[Click here to register!](https://apls.memberclicks.net/2023_sponsor_exhibitor_form)
+
+## Take-One Brochure Table
+
+\$200 (One time fee)
+
+For the benefit of those who do not, or cannot, rent a booth exhibit, a Take-One Brochure Table for the distribution of free brochures and other material is available to offer pamphlets, brochures, leaflets, cards, magazines, etc. This will be for paid Take-One Exhibitors ONLY. Other materials will be removed. Unused materials will not be returned.
+
+## Branding opportunities
+
+All targeted sponsorship opportunities come with acknowledgment at the conference.
+
+\*Cost production not included in sponsorship
+
+-   Tote Bags - \$2,000
+-   Lanyards - \$2,000
+-   Wireless Mobile Device Charger - \$3,500
+-   USB Drive - \$2,500
+-   Key Card - \$9,500
+-   Keycard Holder Multi-page Pocket Schedule - \$10,500
+-   Bag Insert - \$250
+-   Scholarships - \$3,000
+-   Mobile App Push Notifications - \$500
+
+## Sponsorship opportunities
+
+All targeted sponsorship opportunities support the individual items or events selected.
+
+Each opportunity is exclusive, so your organization will be featured prominently at each event.
+
+-   **Conference Wi-Fi Sponsor -** \$8,000
+
+-   **Welcome Reception Sponsor -** \$8,000
+
+-   **Thursday Breaks (AM/PM) -** \$3,500
+
+-   **Lunch Product Theatre (2 available - Fri or Sat) -** \$15,000 (Lunch not included in pricing
+
+-   **Poster Session Reception (2 available - Fri or Sat) -** \$10,000
+
+-   **Friday Breaks (AM/PM) -** \$3,500
+
+-   **Saturday Breaks (AM/PM) -** \$2,000
 :::
 :::
 
+::: {layout-ncol=4} 
+![](images/BOP.jpg){width="81"}
+
+![](images/spa-full-color-logo-2022.png){width="170"}
+
+![](images/centurion_logo.jpg){width="143"}
+
+![](images/OFMHS_Logo.jpg){width="132"} 
+:::

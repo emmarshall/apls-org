@@ -361,17 +361,16 @@ pre.text, pre.sourceCode, .cell-output pre {
 // set tabset panel styles
 .nav-tabs {
   font-family: 'Proza Libre', sans-serif;
-  color: $secondary;
-  background-color: $primary;
 }
 
 .nav-link {
-  color: $secondary;
+  color: $primary;
   font-family: 'Proza Libre', sans-serif;
+  text-decoration: bold;
 }
 
 .nav-link:hover {
-  color: $yellow;
+  color: lighten($primary, 15%);
 }
 
 .tab-pane {
@@ -666,8 +665,8 @@ h5, .h5{
 
 .inner-container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 1rem !important;
@@ -1167,6 +1166,7 @@ h1.title {
   text-align: margin-left;
   order: 2;
   color: $white;
+  text-size: .8rem;
 }
 
 .info-bar__text h3 {

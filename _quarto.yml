@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
   resources:
     - "*.css"
     - "*.pdf"
@@ -7,7 +8,7 @@ project:
 
 website:
   title: "The American Psychology-Law Society"
-  favicon: favicon.ico
+  favicon: "assets/favicon_io/favicon.ico"
   search: true
   
   navbar:
@@ -36,11 +37,11 @@ website:
             href: https://www.apa.org/pubs/journals/lhb/
       - href: awards/index.qmd
         text: Awards
-      - href: Conferences/index.qmd
+      - href: conferences/index.qmd
         text: Conferences
-      - href: Resources/index.qmd
+      - href: resources/index.qmd
         text: Resources
-      - href: Membership/membership.qmd
+      - href: membership/membership.qmd
         text: Membership
         
   sidebar: 

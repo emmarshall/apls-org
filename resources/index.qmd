@@ -35,13 +35,13 @@ resource_grid = function(content) {
 # Text description should be one sentence
 content = rowwise_table(
   ~category, ~name, ~icon, ~url, ~text,
-  "general", "Job postings", "briefcase", "job_postings/index.qmd", "List of job opportunities related to law-psychology",
-  "general", "AP-LS eNewsletter", "newspaper", "newsletter/", "Collection of case studies and demos",
-  "general", "Student Resources", "question-circle", "https://www.apls-students.org/resources.html", "Collection of information for students",
-  "general", "AP-LS Videos", "file-earmark-play", "talks/index.qmd", "Collection of webinars, talks and videos.",
-  "general", "Syllabi Collection", "table", "syllabi/index.qmd", "Collection of syllabi for courses related to psychology and law.",
+  "general", "Job postings", "briefcase", "job_postings/index.html", "List of job opportunities related to law-psychology",
+  "general", "Newsletter", "newspaper", "newsletter/", "Archive of previous issues",
+  "general", "Students", "question-circle", "https://www.apls-students.org/resources.html", "Collection of information for students",
+  "general", "AP-LS Videos", "file-earmark-play", "videos/index.html", "Collection of webinars, talks and videos.",
+  "general", "Syllabi Collection", "table", "syllabi/index.html", "Collection of syllabi for courses related to psychology and law.",
   "general", "Telepsychology", "telephone", "telepsychology/telepsychology.qmd", "Collection of articles and resources about telepsychology",
-  "general", "Reports", "folder", "reports/index.qmd", "Access reports by AP-LS committees and taskforces.", "general", "Books", "book", "", "Find books on psychology and law topics.",
+  "general", "Reports", "folder", "reports/index.html", "Access reports by AP-LS committees and taskforces.", "general", "Books", "book", "", "Find books on psychology and law topics.",
   "general", "Forensic Guidelines", "file-earmark-ruled", "guidelines/index.qmd", "Specialty Guidelines for Forensic Psychologists from APA")
 setkeyv(content, "category")
 ```
@@ -56,22 +56,6 @@ Stay up to date with the activities of AP-LS and its members.
 resource_grid(content[.("general")])
 ```
 
-
-## Job Postings
-```{=html}
-<div class="gallery">
-  <div class="gallery__icon-column">
-      <i class="fa-solid fa-business-time fa-3x" title="Briefcase with clock" aria-hidden="true"></i>
-  </div>
-  <div class="gallery__list-column">
-```
-
-::: {#jobs}
-:::
-
-::: {.all-link}
-[See all posts](jobs/)
-:::
 
 ## Teaching Psychology & Law
 
@@ -91,41 +75,6 @@ View list of other available resources for those teaching courses in psychology 
 ::: {.all-link}
 [see more](teaching/)
 :::
-
-## Reports
-```{=html}
-<div class="gallery">
-  <div class="gallery__icon-column">
-      <i class="fa-solid fa-folder fa-3x" title="File" aria-hidden="true"></i>
-  </div>
-  <div class="gallery__list-column">
-```
-
-::: {#reports}
-:::
-
-::: {.all-link}
-[more reports](reports/)
-:::
-
-## AP-LS Videos
-```{=html}
-<div class="gallery">
-  <div class="gallery__icon-column">
-      <i class="fa-solid fa-file-video fa-4x" title="Video file" aria-hidden="true"></i>
-  </div>
-  <div class="gallery__list-column">
-```
-
-:::{#talks}
-:::
-
-::: {.all-link}
-[more videos](talks/)
-:::
-
-
-
 
 ## Education and Training in Psychology and Law
 ```{=html}

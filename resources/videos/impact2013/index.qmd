@@ -3,7 +3,7 @@ author: AP-LS
 date: "2013-23-06"
 title: Real World Impact of Psychology and Law
 subtitle: Introduction to AP-LS Series
-title-block-style: none
+title-block-banner: true
 toc: false
 image: featured.png
 date-format: medium
@@ -13,14 +13,14 @@ categories:
 url: https://www.youtube.com/watch?v=Lo1ewE_TPDk
 ---
 
-<button type="button" class="btn btn-outline-success">
-<a href="https://www.youtube.com/watch?v=Lo1ewE_TPDk" target="_blank">{{< fa circle-play >}} video</a></button>
-<br></br>
+
 
 ## Overview 
 
-Add to this? 
+This video was a part of the **Introduction to AP-LS Series** hosted by the BRIDGE Committee (formerly MAC). It features professionals' discussing topics related to diversity in the field of psychology and law. 
 
-
+<button type="button" class="btn btn-outline-primary">
+<a href="https://www.youtube.com/watch?v=Lo1ewE_TPDk" target="_blank">{{< fa circle-play >}} Link to video</a></button>
+<br></br>
 
 {{< youtube Lo1ewE_TPDk >}}

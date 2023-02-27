@@ -35,7 +35,7 @@ Other files:
 
 ## Creating and editing content
 
-See the [New Post Workflow](/documents/posts/new-post-workflow) document.
+Add section details. 
 
 ## How to Quarto
 
