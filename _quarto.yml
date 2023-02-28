@@ -67,21 +67,24 @@ website:
         
     - id: guidelines
       title: "Forensic Guidelines"
+      search: true
       contents: 
-        - resources/guidelines/index.qmd
-        - resources/guidelines/Introduction.qmd
-        - resources/guidelines/Responsibilities.qmd
-        - resources/guidelines/Competence.qmd
-        - resources/guidelines/Diligence.qmd
-        - resources/guidelines/Relationship.qmd
-        - resources/guidelines/Fees.qmd
-        - resources/guidelines/Consent.qmd
-        - resources/guidelines/Conflicts.qmd
-        - resources/guidelines/Privacy.qmd
-        - resources/guidelines/Methods.qmd
-        - resources/guidelines/Assessment.qmd
-        - resources/guidelines/Communications.qmd
-        - resources/guidelines/References.qmd
+        - section: "Sections"
+          contents: 
+            - resources/guidelines/index.qmd
+            - resources/guidelines/Introduction.qmd
+            - resources/guidelines/Responsibilities.qmd
+            - resources/guidelines/Competence.qmd
+            - resources/guidelines/Diligence.qmd
+            - resources/guidelines/Relationship.qmd
+            - resources/guidelines/Fees.qmd
+            - resources/guidelines/Consent.qmd
+            - resources/guidelines/Conflicts.qmd
+            - resources/guidelines/Privacy.qmd
+            - resources/guidelines/Methods.qmd
+            - resources/guidelines/Assessment.qmd
+            - resources/guidelines/Communications.qmd
+            - resources/guidelines/References.qmd
         
        
   page-footer:

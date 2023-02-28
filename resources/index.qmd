@@ -39,7 +39,7 @@ content = rowwise_table(
   "general", "Newsletter", "newspaper", "newsletter/", "Archive of previous issues",
   "general", "Students", "question-circle", "https://www.apls-students.org/resources.html", "Collection of information for students",
   "general", "AP-LS Videos", "file-earmark-play", "videos/index.html", "Collection of webinars, talks and videos.",
-  "general", "Syllabi Collection", "table", "syllabi/index.html", "Collection of syllabi for courses related to psychology and law.",
+  "general", "Syllabi", "table", "syllabi/index.html", "Collection of syllabi for courses related to psychology and law.",
   "general", "Telepsychology", "telephone", "telepsychology/telepsychology.qmd", "Collection of articles and resources about telepsychology",
   "general", "Reports", "folder", "reports/index.html", "Access reports by AP-LS committees and taskforces.", "general", "Books", "book", "", "Find books on psychology and law topics.",
   "general", "Forensic Guidelines", "file-earmark-ruled", "guidelines/index.qmd", "Specialty Guidelines for Forensic Psychologists from APA")

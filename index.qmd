@@ -345,8 +345,8 @@ tags$link(href = "https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght
 
 ```
 
-::: column-screen
-::: {.column width="15%"}
+::: {.column-screen}
+::: {.column .col-v-center width="15%"}
 :::
 
 ::: {.column .col-v-center width="70%"}

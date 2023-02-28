@@ -39,7 +39,7 @@ $form-select-border-color: $primary !default;
 
 // text specials
 $link-color: $primary !default; 
-$link-hover-color: lighten($primary, 15%) !default;
+$link-hover-color: $gray-700 !default;
 $text-muted: gray !default;
 
 // nav bar
@@ -48,9 +48,8 @@ $navbar-fg: $secondary;
 $navbar-hl: $yellow;
 
 // sidebar navigation
-$sidebar-bg: $primary;
-$sidebar-fg: $secondary;
-$sidebar-hl: $yellow;
+$sidebar-bg: lighten($secondary, 10%);
+$sidebar-fg: $primary;
 
 // footer
 $footer-bg: $secondary;
