@@ -1,6 +1,6 @@
 ---
 pagetitle: "American Psychology-Law Society"
-page-layout: custom
+page-layout: full
 section-divs: false
 toc: false
 description: |
@@ -73,11 +73,13 @@ padding-bottom: 1em;
 }
 </style>
 ```
+
 ::: vspace
 :::
 
 ::: {.column-screen .light-section}
-::: grid
+
+::: {.grid}
 ```{r}
 #| label: Row of links
 #| echo: false
@@ -114,7 +116,7 @@ div(class = "bg-light",
 :::
 
 ```{r}
-#| label: Membership info-bar 
+#| label: info-bar
 #| output: asis
 #| echo: false
 #| warning: false
@@ -133,10 +135,68 @@ html <- generate_info_bar(info)
 cat(html)
 
 ```
-
-::: vspace
 :::
 
+::: {.vspace}
+:::
+
+::: grid
+::: {.g-col-12 .g-col-md-4}
+::: {#card-primary-color .card .h-100}
+::: {.card-body .d-flex .flex-column}
+<p class="card-text">
+
+### About
+
+For over 50 years AP-LS has been the premiere organization for students and professionals who are interested in issues at the intersection of psychology and law.
+
+</p>
+
+::: {style="margin-top: auto;"}
+<a href="about/about.html" class="card-link heading-font">LEARN MORE</a>
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {#card-primary-color .card .h-100 .home-card}
+::: {.card-body .d-flex .flex-column}
+<p class="card-text">
+
+### Careers in Law-Psychology
+
+Watch a recent panel discussion hosted by APA about careers in applied psychology and law.
+
+</p>
+
+::: {style="margin-top: auto;"}
+<a href="about.qmd" class="card-link heading-font"><i class="fa-regular fa-circle-play"></i> VIDEO</a>
+:::
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {#card-primary-color .card .h-100 .home-card}
+::: {.card-body .d-flex .flex-column}
+<p class="card-text">
+
+### For Students
+
+The AP-LS Student Committee has compiled a variety of resources for undergraduate and graduate level students.
+
+</p>
+
+::: {style="margin-top: auto;"}
+<a href="https://apls-students.org" class="card-link heading-font">VISIT SITE</a>
+:::
+:::
+:::
+:::
+:::
+
+::: {.column-screen .light-section}
 ::: {.column .col-v-center width="15%"}
 :::
 
@@ -161,64 +221,17 @@ cat(html)
 ::: about-link
 [MORE FROM THE PRESIDENT](president/)
 :::
-
 :::
 
-```{r}
-#| label: Row of additional links
-#| echo: false
-#| warning: false
-#| message: false
-content = rowwise_table(~name, ~icon, ~link,
-                        "History", "clock-history", "about/history.html",
-  "Committees", "person-rolodex", "about/comittees.html",
-    "Job Postings", "briefcase-fill", "resources/job_postings/index.qmd",     
-    "Newsletters", "archive-fill", "publications/newsletters/",
-  "Awards", "award-fill", "awards/index.qmd"
-)
-div(class = "bg-light",
- div(class = "bg-breakout",
-    div(class = "inner-container",
-      div(class = "boxed-wrapper",
-            div(class = "boxed-feature-grid",
-          pmap(content, function(name, icon, link) {
-            div(class = "boxed-feature-grid__item",
-              div(class = "boxed-feature-grid__icon",
-                a(href = link, class = "boxed-feature-grid__link",
-                  tags$i(class = sprintf("bi-%s boxed-feature-grid__i", icon))
-                )),
-    div(class = "boxed-feature-grid__title", name)
-)
-          })
-        )
-      )
-    )
-  )
-)
-
-```
-
+::: vspace
 :::
 
-
-
-::: {.simple-info .alt-background}
-::: content-block
-### Get ready for the 2023 American Psychology-Law Society Conference in Philadelphia, PA---March 16-18.
-
-[Learn More](conferences/index.html){.btn-action-primary .btn-action .btn .btn-primary .btn-lg role="button"}
 :::
 :::
 
 ::: vspace
 :::
 
-
-::: {.column-screen}
-::: {.column .col-v-center width="15%"}
-:::
-
-::: {.column .col-v-center width="70%"}
 ```{r}
 #| echo: false
 #| warning: false
@@ -226,7 +239,6 @@ div(class = "bg-light",
 #| label: build calendar
 
 library(dplyr)
-library(tidyr)
 library(readr)
 library(reactable)
 library(tidyverse)
@@ -234,29 +246,24 @@ library(htmltools)
 
 march <- read_csv("events/mar23.csv")
 
-update_cal <- function(csv_file) {
-  # read in CSV file
-  events <- read.csv(csv_file, stringsAsFactors = FALSE)
+my_cal <- march |> 
+  mutate_if(is.numeric, as.character)  |> 
   
-  # loop over events
-  for (i in seq_len(nrow(events))) {
-    # extract current event data
-    day <- events$day[i]
-    date <- events$date[i]
-    link <- events$link[i]
-    
-    # modify calendar tibble to include current event
-    march <- march %>%
-      mutate(!!sym(day) := ifelse(!!sym(day) == date, 
-                                   paste0("<p>", date, "</p><p><a href=\"", link, "\">Event</a></p>"),
-                                   !!sym(day)))
-  }
+  mutate(Wednesday = ifelse(Wednesday == "1",paste0('<p>',Saturday,'</p>', 
+                                                   '<p style="color:black;font-size:12px"><a href="#event-test">Event</a></p>'),Wednesday))  |> 
   
-  # return updated calendar
-  return(march)
-}
-
-my_cal <- update_cal("events/march_events.csv") 
+  #End of 2020
+  mutate(Thursday = ifelse(Thursday == "9",paste0('<p>',Saturday,'</p>', 
+                                                   '<p style="color:red;font-size:12px"><a href="#event-test">Event</a></p>'),
+                           Thursday))  |> 
+  
+  #Volunteering
+  mutate(Saturday = ifelse(Saturday == "4", paste0('<p>',Saturday,'</p>', 
+                                                   '<p style="color:red;font-size:12px"><a href="#event-test">Event</a></p>'), Saturday)) |> 
+  
+  #Meetings
+  mutate(Friday = ifelse(Friday %in% c("10","24") ,paste0('<p>',Friday,'</p>',
+                                                         '<p><img src="events/images/logo_y.png" height="22"></img></p>'),Friday))  
 
 
 tbl <- reactable(my_cal,
@@ -278,7 +285,7 @@ tbl <- reactable(my_cal,
           borderBottom = '1px solid #FBF9F4', 
           borderLeft = '1px solid #FBF9F4', 
           borderTop = '1px solid #FBF9F4', 
-          height = 100
+          height = 75
         )
       } else {
         list(borderRight = '1px solid #1B3264', height = 75)
@@ -295,7 +302,7 @@ tbl <- reactable(my_cal,
 div(class = "cal-container",
 div(class = "calendar",
     div(class = "title-tab",
-        h2("March 2023"),
+        h2("March 2023 Event Calendar"),
         "Upcoming events for the American Psychology-Law Society."
         ),
     tbl,
@@ -312,16 +319,10 @@ tags$link(href = "https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght
 @import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css); 
 
 .cal-container {
-  width: 100%;
-  height: 800px;
-  overflow-x: auto;
-  overflow-y: auto;
-}
-
-@media only screen and (max-width: 768px) {
-  .cal-container {
-    max-width: 800px;
-  }
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
 }
 
 .calendar {
@@ -350,9 +351,6 @@ tags$link(href = "https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght
 
 
 ```
-:::
-
-:::
 
 ::: column-screen
 ::: {.column .col-v-center width="15%"}

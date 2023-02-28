@@ -15,7 +15,7 @@ The Society operates through a number of standing committees that work to carry 
 ::: callout-note
 ## Executive Committee
 
-Occasionally, the President, in consultation with the Executive Committee, will also establish ad hoc committees and task forces. [Learn more about President and Executive Committee →](leadership.html)
+Occasionally, the President, in consultation with the Executive Committee, will also establish ad hoc committees and task forces. [Learn more about President and Executive Committee](leadership.html)
 :::
 
 ```{r table, echo=FALSE, warning=FALSE, message=FALSE}

@@ -306,7 +306,7 @@ div.quarto-about-jolla .about-image {
 .president-intro{
   margin-top: -30px;
   font-family: 'Cormorant Garamond' Sans-Serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 div.column.col-v-off-center{
@@ -314,12 +314,5 @@ div.column.col-v-off-center{
 }
 
 
-div.quarto-about-jolla .about-image {
-    object-fit: cover;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1.5em;
-    margin-top: 2em;
-}
 
     
