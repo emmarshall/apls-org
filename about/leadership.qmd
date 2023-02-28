@@ -19,9 +19,9 @@ source("../_site/apls_functions.R")
 
 content = rowwise_table(
   ~name, ~image, ~url, ~text,
-  "Barry Rosenfeld", "profiles/barry_rosenfeld.jpg", "mailto:rosenfeld@fordham.edu", "President",
-  "Daniel Murrie", "profiles/daniel_murrie.jpg", "mailto:murrie@virginia.edu", "President-elect",
-  "Lora Levett", "profiles/lora_levett.png", "mailto:llevett@ufl.edu", "Past President"
+  "Barry Rosenfeld", "presidents/barry_rosenfeld.jpg", "mailto:rosenfeld@fordham.edu", "President",
+  "Daniel Murrie", "presidents/daniel_murrie.jpg", "mailto:murrie@virginia.edu", "President-elect",
+  "Lora Levett", "presidents/lora_levett.png", "mailto:llevett@ufl.edu", "Past President"
 )
 div(class = "officer-grid",
   pmap(content, function(name, image, url, text) {
@@ -44,22 +44,30 @@ div(class = "officer-grid",
 ::: vspace
 :::
 
-::: {.column-screen .info-section}
-::: {.column .col-v-center width="15%"}
+::: {.column-screen .dark-section}
+```{r}
+#| label: President info-bar
+#| output: asis
+#| echo: false
+#| warning: false
+#| message: false
+
+info <- tibble(
+  title = "Looking for information about the past?",
+  text = "View our list of past presidents and presidential addresses.",
+  ctr = "Learn more",
+  link = "presidents/presidents.html",
+  icon = "fas fa-scale-balanced"
+)
+
+html <- generate_info_bar(info)
+
+cat(html)
+
+```
 :::
 
-::: {.column .col-v-center width="70%"}
-##  {style="color: #FBF9F4"}
-::: vspace
-:::
-
-::: about-link
-[more from the president](presidents/presidents.qmd)
-:::
-:::
-:::
-
-::: vspace
+::: vspace2
 :::
 
 ```{r}

@@ -31,7 +31,7 @@ library(dplyr)
 links <- tibble(
   icon = c("circle-info", "envelope", "file-import"),
   text = c("About Undergraduate Paper Committee", "Contact", "Submit"),
-  url = c("../../about/committees.qmd", "mailto:undergrad_paper@ap-ls.org", "mailto:undergrad_paper@ap-ls.org")
+  url = c("../../about/committees.html", "mailto:undergrad_paper@ap-ls.org", "mailto:undergrad_paper@ap-ls.org")
 )
 
 # Create inline objects for each row of the tibble

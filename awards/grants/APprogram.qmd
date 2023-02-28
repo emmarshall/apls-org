@@ -6,7 +6,8 @@ categories:
   - Students
   - Undergraduate
   - Graduate
-  - Diversity, Equity & Inclusion
+  - Diversity
+  - BRIDGE Committee
 submission-info:
   sponsor: AP-LS BRIDGE Committee
   deadline: January 15
@@ -35,7 +36,7 @@ library(dplyr)
 links <- tibble(
   icon = c("circle-info", "link"),
   text = c("About BRIDGE Committee", "Link to Apply"),
-  url = c("../../about/committees.qmd", "https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0")
+  url = c("../../about/committees.html", "https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0")
 )
 
 # Create inline objects for each row of the tibble

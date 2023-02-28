@@ -6,8 +6,6 @@ toc: false
 description: |
   The American Psychology-Law Society (AP-LS), Division 41 of the American Psychological Association is an organization dedicated to enhancing the well-being, justice, and human rights through the science and practice of psychology in legal contexts.  
 search: true
-execute:
-  echo: false
 ---
 
 ```{r setup, include=FALSE}
@@ -75,80 +73,20 @@ padding-bottom: 1em;
 }
 </style>
 ```
-::: grid
-```{r}
-#| label: Row of links
-#| echo: false
-#| warning: false
-#| message: false
-content = rowwise_table(~name, ~icon, ~link,
-  "Committees", "person-fill", "about/comittees.qmd",
-    "Job Postings", "briefcase-fill", "resources/job_postings/index.qmd",     
-    "Newsletter", "newspaper", "publications/newsletters/",
-  "Awards", "award-fill", "awards/index.qmd",
-  "Videos", "youtube", "www.ap-ls.org"
-)
-div(class = "bg-light",
- div(class = "bg-breakout",
-    div(class = "inner-container",
-      div(class = "boxed-wrapper",
-            div(class = "boxed-feature-grid",
-          pmap(content, function(name, icon, link) {
-            div(class = "boxed-feature-grid__item",
-              div(class = "boxed-feature-grid__icon",
-                a(href = link, class = "boxed-feature-grid__link",
-                  tags$i(class = sprintf("bi-%s boxed-feature-grid__i", icon))
-                )),
-    div(class = "boxed-feature-grid__title", name)
-)
-          })
-        )
-      )
-    )
-  )
-)
-
-```
-:::
-
-```{r}
-#| label: info-bar
-#| output: asis
-#| echo: false
-#| warning: false
-#| message: false
-
-info <- tibble(
-  title = "Interested in learning more about AP-LS?",
-  text = "Become a member.",
-  ctr = "Learn more",
-  link = "membership/membership.qmd",
-  icon = "fas fa-scale-balanced"
-)
-
-html <- generate_info_bar(info)
-
-cat(html)
-
-```
-
-::: vspace
-:::
-
-::: {.grid}
+::: grid 
 ::: {.g-col-12 .g-col-md-4}
 ::: {#card-primary-color .card .h-100 .home-card}
 ::: {.card-body .d-flex .flex-column}
 <p class="card-text">
 
-### History
+### About
 
 For over 50 years AP-LS has been the premiere organization for students and professionals who are interested in issues at the intersection of psychology and law.
 
 </p>
 
 ::: {style="margin-top: auto;"}
-<a href="about.qmd" class="card-link heading-font">ABOUT</a>
+<a href="about/about.html" class="card-link heading-font">LEARN MORE</a>
 :::
 :::
 :::
@@ -201,26 +139,91 @@ The AP-LS Student Committee has compiled a variety of resources for undergraduat
 ![](about/presidents/barry_rosenfeld.jpg)
 :::
 
+## Welcome from Our President
 
-## Welcome from Our President 
-:::vspace
+::: vspace
 :::
 
-::: {.president-intro}
+::: president-intro
 <p>Welcome to the American Psychology-Law Society (AP-LS), Division 41 of the American Psychological Association.</p>
 
 <p>Our organizational mission is to "enhance well-being, justice, and human rights through the science and practice of psychology in legal contexts". AP-LS is the premiere organization for students and professionals who are interested in issues at the intersection of psychology and law.</p>
 
 <p>As an organization, we strive to support our members in their work using psychological science and practice to advance justice in our legal system.</p>
-
 :::
+
 ::: about-link
 [MORE FROM THE PRESIDENT](president/)
 :::
 :::
 
+::: {.vspace}
 :::
 
+```{r}
+#| label: info-bar
+#| output: asis
+#| echo: false
+#| warning: false
+#| message: false
+
+info <- tibble(
+  title = "Interested in learning more about AP-LS?",
+  text = "Become a member.",
+  ctr = "Join now",
+  link = "membership/membership.qmd",
+  icon = "fas fa-scale-balanced"
+)
+
+html <- generate_info_bar(info)
+
+cat(html)
+
+```
+
+::: {.vspace}
+:::
+
+::: grid
+```{r}
+#| label: Row of links
+#| echo: false
+#| warning: false
+#| message: false
+content = rowwise_table(~name, ~icon, ~link,
+                        "History", "clock-history", "about/history.html",
+  "Committees", "person-rolodex", "about/comittees.html",
+    "Job Postings", "briefcase-fill", "resources/job_postings/index.qmd",     
+    "Newsletters", "archive-fill", "publications/newsletters/",
+  "Awards", "award-fill", "awards/index.qmd"
+)
+div(class = "bg-light",
+ div(class = "bg-breakout",
+    div(class = "inner-container",
+      div(class = "boxed-wrapper",
+            div(class = "boxed-feature-grid",
+          pmap(content, function(name, icon, link) {
+            div(class = "boxed-feature-grid__item",
+              div(class = "boxed-feature-grid__icon",
+                a(href = link, class = "boxed-feature-grid__link",
+                  tags$i(class = sprintf("bi-%s boxed-feature-grid__i", icon))
+                )),
+    div(class = "boxed-feature-grid__title", name)
+)
+          })
+        )
+      )
+    )
+  )
+)
+
+```
+:::
+
+:::
+
+::: {.vspace}
+:::
 
 ```{r}
 #| echo: false
@@ -240,20 +243,20 @@ my_cal <- march |>
   mutate_if(is.numeric, as.character)  |> 
   
   mutate(Wednesday = ifelse(Wednesday == "1",paste0('<p>',Saturday,'</p>', 
-                                                   '<p style="color:yellow;font-size:12px"><a href="#event-test">Event</a></p>'),Wednesday))  |> 
+                                                   '<p style="color:black;font-size:12px"><a href="#event-test">Event</a></p>'),Wednesday))  |> 
   
   #End of 2020
   mutate(Thursday = ifelse(Thursday == "9",paste0('<p>',Saturday,'</p>', 
-                                                   '<p style="color:yellow;font-size:12px"><a href="#event-test">Event</a></p>'),
+                                                   '<p style="color:red;font-size:12px"><a href="#event-test">Event</a></p>'),
                            Thursday))  |> 
   
   #Volunteering
   mutate(Saturday = ifelse(Saturday == "4", paste0('<p>',Saturday,'</p>', 
-                                                   '<p style="color:yellow;font-size:12px"><a href="#event-test">Event</a></p>'), Saturday)) |> 
+                                                   '<p style="color:red;font-size:12px"><a href="#event-test">Event</a></p>'), Saturday)) |> 
   
   #Meetings
   mutate(Friday = ifelse(Friday %in% c("10","24") ,paste0('<p>',Friday,'</p>',
-                                                         '<p><img src="logo_y.png" height="22"></img></p>'),Friday))  
+                                                         '<p><img src="events/images/logo_y.png" height="22"></img></p>'),Friday))  
 
 
 tbl <- reactable(my_cal,
@@ -264,7 +267,7 @@ tbl <- reactable(my_cal,
   ),
   defaultColDef = colDef(
     align = "center",
-    width = 111,
+    width = 121,
     html = TRUE,
     headerStyle = list(borderColor = "#FBF9F4"),
     footerStyle = list(html = TRUE, fontSize = 11, borderColor = "#FBF9F4"),
@@ -278,7 +281,7 @@ tbl <- reactable(my_cal,
           height = 75
         )
       } else {
-        list(borderRight = '1px solid #FBF9F4', height = 75)
+        list(borderRight = '1px solid #1B3264', height = 75)
       }
     }
   )
@@ -296,7 +299,7 @@ div(class = "calendar",
         "Upcoming events for the American Psychology-Law Society."
         ),
     tbl,
-    paste0("Last updated: March 1, 2023")
+    paste0("Last updated: February 27, 2023")
     )
 )
 ```
@@ -317,14 +320,20 @@ tags$link(href = "https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght
 
 .calendar {
   font-family: 'Proza Libre', sans-serif;
-  font-size: .9rem;
+  font-size: 1rem;
 }
+
+.calendar a {
+  color: yellow;
+}
+
 
 .title-tab {
   font-family: 'Proza Libre', sans-serif;
   margin-top: 2rem;
   margin-bottom: 1.125rem;
   font-size: 1rem;
+  text-align: center;
 }
 
 .title-tab h2 {
@@ -333,31 +342,16 @@ tags$link(href = "https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght
   font-weight: 600;
 }
 
-.syllabi-table {
-  margin-bottom: 0.8rem;
-}
 
-.header {
-  border-bottom-color: #FBF9F4;
-  text-align: center;
-  color: #FBF9F4;
-  background: #1B3264;
-  font-weight: 500;
-  font-size: 1.3rem;
-  letter-spacing: -.02rem;
-  font-variant: small-caps;
-}
 ```
 
-
-::: {.column-screen}
-::: {.column .col-v-center width="15%"}
+::: column-screen
+::: {.column width="15%"}
 :::
 
 ::: {.column .col-v-center width="70%"}
-# Events 
+# Events
 
 ## Event test number one. {#event-test}
-
-
-
+:::
+:::

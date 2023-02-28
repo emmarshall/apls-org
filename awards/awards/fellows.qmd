@@ -12,14 +12,14 @@ submission-info:
 
 As further explained on the [APA's website](https://www.apa.org/members/your-membership/fellows/index), [fellow status](https://www.apadivisions.org/division-41/membership/fellows/index) is an honor bestowed upon APA members who have shown evidence of unusual and outstanding contributions or performance in the field of psychology. AP-LS/Div. 41 is seeking nominations (including self-nominations) for fellow status.
 
-Become a Fellow
+### Become a Fellow
 For members interested in advancement of psychology as a science and as a profession
 Fellowship is a special distinction for members who have received a doctoral degree in psychology or a related field from a regionally accredited institution and can show evidence of unusual and outstanding contributions in the field of psychology.
 
 Application for fellow status is open to any APA member who meets the criteria of both the sponsoring division and APA. Each division establishes its own criteria for nominations — sometimes the same as APA criteria, but usually involving additional requisites relevant to that division. Each division is responsible for providing the Fellows Committee with updated division criteria.
 Becoming a fellow recognizes outstanding contributions to psychology and is an honor valued by many members. Fellow nominations are made by a division to which the member belongs.
 
-The minimum standards for fellow status are:
+#### The minimum standards for fellow status are:
 
 -   Doctoral degree based in part upon a psychological dissertation, or from a program primarily psychological in nature and conferred by a regionally accredited graduate or professional school.
 
@@ -35,4 +35,4 @@ The deadline for receipt of all application materials (nominee's materials and e
 
 For application materials and information about how to apply, please go to [APA Fellows](http://www.apa.org/members/your-membership/fellows/index.aspx).
 
-For further information about the application process, please contact the [Fellows Committee chair](https://www.apadivisions.org/division-41/leadership/committees/index).
+For further information about the application process, please contact the [Fellows Committee chair](../../about/committees.html).

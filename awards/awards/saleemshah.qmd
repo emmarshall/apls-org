@@ -1,7 +1,7 @@
 ---
 title: Saleem Shah Early Career Award
 date: last-modified
-description: Recognizes early career excellence and contributions to the field of psychology and law with a focus on forensic practice, research, or public policy. 
+description: Recognizes early career excellence and contributions to the field of psychology and law with a focus on forensic practice, research, or public policy.
 categories: 
   - Early Career Professionals
   - American Academy of Forensic Psychology
@@ -18,12 +18,10 @@ source("../../_site/apls_functions.R")
 ::: vspace
 :::
 
- 
 ::: callout-note
-The Saleem Shah Award is co-sponsored by the American Psychology-Law Society and the [American Academy of Forensic Psychology (AAFP)](https://aafpforensic.org/awards/saleem-shah-award-for-early-career-excellence-in-psychology-and-law/). 
+The Saleem Shah Award is co-sponsored by the American Psychology-Law Society and the [American Academy of Forensic Psychology (AAFP)](https://aafpforensic.org/awards/saleem-shah-award-for-early-career-excellence-in-psychology-and-law/).
 
 Nominations should be sent in PDF or Word format to the [President-Elect of the AAFP](https://aafpforensic.org/who-we-are/)
-
 
 ```{r}
 #| echo: false
@@ -56,14 +54,15 @@ cat(inline_objects_str)
 :::
 
 ::: panel-tabset
-
 ## History
 
-:::{.callout-note}
-At the 2012 AP-LS Conference there was a session titled "Saleem’s Rules: Lessons in Mentoring, Knowing What’s Right, and Changing the World - Why AP-LS Created a Saleem Shah Award" with speakers Thomas Grisso, Henry J. Steadman, Edward Mulvey and John Monahan. Dr. Grisso wrote an article about that panel's discussions for the Summer 2012 AP-LS News newsletter.
-:::
+::: callout-note
+At the 2012 AP-LS Conference there was a session titled:**"Saleem's Rules: Lessons in Mentoring, Knowing What's Right, and Changing the World - Why AP-LS Created a Saleem Shah Award"** with speakers Thomas Grisso, Henry J. Steadman, Edward Mulvey and John Monahan. Dr. Grisso wrote an article about that panel's discussions for the Summer 2012 AP-LS News newsletter.
 
-{{< downloadthis funding/award/saleems-rules.pdf dname=File label="Saleem's Rules" icon=file-earmark-pdf type=success >}}
+You can download a summary of that discussion below. 
+
+{{< downloadthis saleems-rules.pdf dname=File label="Saleems Rules" icon=file-earmark-pdf type=info >}}
+:::
 
 
 Saleem A. Shah, who was internationally known for his leadership in the field of law and mental health, died on Nov. 25, 1992, from injuries suffered when his automobile was struck by a drunken driver. Saleem was born on December 2, 1931, in Allahabad, India. After receiving a BA from Allahabad University, he came to the United States on a fellowship and earned his PhD in clinical psychology at Pennsylvania State University in 1957. He served as a graduate psychology intern at Spring Grove State Hospital, outside Baltimore, where he met his wife, Terry, with whom he had six daughters, all of whom survive him. After leaving Penn State, Saleem joined the Legal Psychiatric Services Division of the Department of Public Health in Washington, DC. He rose quickly to the post of chief psychologist and held this position until he joined the staff of the National Institute of Mental Health (NIMH) in 1966.
@@ -78,31 +77,34 @@ Saleem received many honors. He was the first recipient of the American Psycholo
 
 ## Description
 
-The Saleem Shah Award recognizes early career excellence and contributions to the field of psychology and law. The focus on the nominee’s contributions may be in any area of forensic practice, research or public policy. 
+The Saleem Shah Award recognizes early career excellence and contributions to the field of psychology and law. The focus on the nominee's contributions may be in any area of forensic practice, research or public policy.
 
-The award is conferred annually at the AP-LS Annual Conference. Recipient receives a plaque and $2,000 ($1,000 from AP-LS and $1,000 from AAFP). The recipient also delivers the annual Saleem Shah Address at the AP-LS conference. 
+The award is conferred annually at the AP-LS Annual Conference. Recipient receives a plaque and \$2,000 (\$1,000 from AP-LS and \$1,000 from AAFP). The recipient also delivers the annual Saleem Shah Address at the AP-LS conference.
 
-The award is co-sponsored by the [American Academy of Forensic Psychology](http://aafpforensic.org/) and decisions are made by a Committee (organized by AAFP) that includes joint representation from both AAFP and APLS. 
+The award is co-sponsored by the [American Academy of Forensic Psychology](http://aafpforensic.org/) and decisions are made by a Committee (organized by AAFP) that includes joint representation from both AAFP and APLS.
 
 ## Eligibility
 
 Eligible individuals must have received a doctoral degree (Ph.D., Psy.D., M.D., or Ed.D.) or Juris Doctorate within the last six years.
 
-:::{callout-note}
+::: {callout-note}
 If candidate has earned more than one eligible degrees, the latest degree is considered for this award.
 :::
 
 ## How to Apply
-Email nominations in PDF or Word format to the [President-Elect of AAFP](https://aafpforensic.org/who-we-are/) before midnight EST on November 30. 
 
-:::{.callout-tip} 
+Email nominations in PDF or Word format to the [President-Elect of AAFP](https://aafpforensic.org/who-we-are/) before midnight EST on November 30.
+
+::: callout-tip
 ## Anyone wishing to nominate a candidate should send:
 
 1.  A nomination letter detatiling the nominee's contributions to psychology and law
 2.  A copy of the nominee's vita
 :::
+
 Self-nominations will not be considered.
 :::
+
 ```{=html}
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
@@ -146,5 +148,3 @@ Self-nominations will not be considered.
     </div>
   </div>
 ```
-
-

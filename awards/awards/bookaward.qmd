@@ -30,7 +30,7 @@ library(dplyr)
 links <- tibble(
   icon = c("circle-info", "envelope", "file-import"),
   text = c("About Book Award Committee", "Contact", "Submit"),
-  url = c("../../about/committees.qmd", "mailto:eefoster@widener.edu", "mailto:eefoster@widener.edu")
+  url = c("../../about/committees.html", "mailto:eefoster@widener.edu", "mailto:eefoster@widener.edu")
 )
 
 # Create inline objects for each row of the tibble

@@ -160,7 +160,7 @@ opacity: 50%;
   }
   
  .vspace2 {
-     margin-bottom: 5cm;
+     margin-bottom: 2.5cm;
      padding: 1%;
   }
 
@@ -265,6 +265,11 @@ div.quarto-about-jolla .about-image {
   text-transform: uppercase;
 }
 
+.light-about-link a {
+  color: #FFFF00; /* sets the text color to yellow */
+  background-color: #1B3264; /* sets the background color to black */
+}
+
 .light-about-link a::after{
   display: inline-block;
   content: "→";
@@ -301,6 +306,7 @@ div.quarto-about-jolla .about-image {
 .president-intro{
   margin-top: -30px;
   font-family: 'Cormorant Garamond' Sans-Serif;
+  font-size: 0.9rem;
 }
 
 div.column.col-v-off-center{
