@@ -25,6 +25,7 @@ $blue: #1B3264;
 $steel: #4271B3;
 $cream: #FBF9F4;
 $yellow: #FAF61B;
+$gold: #ffcc00;
 
 $primary:  $blue !default;
 $secondary: $cream !default;
@@ -1222,4 +1223,11 @@ h1.title {
   flex-shrink: 0;
   margin-left: 1.5rem;
   order: 3;
+}
+
+// pets
+
+#about-pet-text {
+  align-items: end;
+  display: grid;
 }

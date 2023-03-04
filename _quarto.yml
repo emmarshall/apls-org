@@ -47,18 +47,21 @@ website:
   sidebar: 
     - id: about us
       title: "About AP-LS"
-      style: "docked"
-      search: true
+      style: "floating"
+      collapse-level: 2
+      align: left
       contents:
         - section: "Our Mission"
-          contents:
-          - about/about.qmd
-          - about/statements.qmd
-          - about/bylaws.qmd
+          href: about/about.qmd
+          contents: 
+            - text: "Policy Statements"
+              href: about/statements.qmd
+            - about/bylaws.qmd
         - section: "Our History"
           contents:
-          - about/history.qmd
-          - about/presidents/presidents.qmd
+            - about/history.qmd
+            - text: "Presidential archive"
+              href: about/presidents/presidents.qmd
         - section: "Who we are"
           contents: 
             - about/leadership.qmd
@@ -67,11 +70,12 @@ website:
         
     - id: guidelines
       title: "Forensic Guidelines"
-      search: true
+      collapse-level: 1
       contents: 
-        - section: "Sections"
+        - text: "Basics"
+          href: resources/guidelines/index.qmd
+        - section: "Guidelines"
           contents: 
-            - resources/guidelines/index.qmd
             - resources/guidelines/Introduction.qmd
             - resources/guidelines/Responsibilities.qmd
             - resources/guidelines/Competence.qmd
@@ -101,8 +105,11 @@ format:
   html:
     theme: 
       light: [flatly, assets/light-theme.scss]
-      dark: [darkly]
     css: assets/styles.css
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
 
 
 execute: 

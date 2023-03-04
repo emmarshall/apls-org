@@ -1,0 +1,16 @@
+{
+  "hash": "a81daa84a28bbcd676d7b2244ebf091e",
+  "result": {
+    "markdown": "---\ntitle: Fitz \nhuman: Emma Marshall, J.D., M.A. | University of Nebraska-Lincoln \ndescription: |\n  (Leopold) Fitz was born on September 28, 2020. Despite being born into one of the worst years in recent memory; he remains the best of pups. You can follow his early adventures in the bustling town of Lincoln, Nebraska on his [instagram](https://www.instagram.com/Fitz_the_pit/)\nquote: FEED ME - Audrey II\nimage: featured.png\ncategories: Pitbull Mix\nage: 2\ntalent: Capable of making incredibly high pitched noises for unfathomable lengths of time. \nhabit: Constantly trying to eat Airpods\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.png){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Age: {{< meta age >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -35,6 +35,7 @@ resource_grid = function(content) {
 # Text description should be one sentence
 content = rowwise_table(
   ~category, ~name, ~icon, ~url, ~text,
+  "general", "Pets", "table", "pets/index.html", "Pets.Pics.Fun",
   "general", "Job postings", "briefcase", "job_postings/index.html", "List of job opportunities related to law-psychology",
   "general", "Newsletter", "newspaper", "newsletter/", "Archive of previous issues",
   "general", "Students", "question-circle", "https://www.apls-students.org/resources.html", "Collection of information for students",

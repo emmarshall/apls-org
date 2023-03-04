@@ -1,6 +1,5 @@
 ---
 pagetitle: "2023 American Psychology-Law Society Conference" 
-page-layout: custom
 section-divs: false
 toc: false
 css: index.css
@@ -15,15 +14,53 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../_site/apls_functions.R")
 ```
 
-::: hero-banner
-::: content-block
-::: hero-buttons
-[Register Today!](docs/get-started/){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [Conference Program](#program){.btn-action .btn .btn-secondary role="button"}
+
+```{=html}
+    <body id="page-top" data-spy="scroll" data-target="side-menu">
+      <nav class="side-menu">
+        <ul>
+          <li class="hidden active">
+            <a class="page-scroll" href="#page-top"></a>
+          </li>
+          <li>
+            <a href="#hotel" class="page-scroll">
+              <span class="menu-title">Home</span>
+              <span class="dot"></span>
+            </a>
+          </li>
+          <li>
+            <a href="#register" class="page-scroll">
+              <span class="menu-title">Register</span>
+              <span class="dot"></span>
+            </a>
+          </li>
+          <li>
+            <a href="#hotel" class="page-scroll">
+              <span class="menu-title">Hotel</span>
+              <span class="dot"></span>
+            </a>
+          </li>
+          <li>
+            <a href="#program" class="page-scroll">
+              <span class="menu-title">Schedule</span>
+              <span class="dot"></span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+```
+
+::: {.column-screen}
+::: {#home .row .hero-header}
+::: {.col-md-12}
+
+[Register now](#register){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} 
+[Conference Program](#program){.btn-action .btn .btn-secondary role="button"}
 :::
 :::
 :::
 
-::: grid
+::: column-screen
 ```{r}
 #| label: TOC
 #| echo: false
@@ -59,21 +96,18 @@ div(class = "bg-light",
 
 ```
 :::
-
-::: {.column .col-v-center width="15%"}
 :::
 
-::: {.column .col-v-center width="70%"}
+::: column-page
+::: {simple-info}
 ## Hotel Information {#hotel}
 
-::: {.panel-tabset}
+::: panel-tabset
 ## Philadelphia Marriott Downtown
 
 The 2023 AP-LS Conference will be held at the [Philadelphia Marriott Downtown](https://www.marriott.com/en-us/hotels/phldt-philadelphia-marriott-downtown/overview/?scid=8e4624f4-e96a-4d68-b772-59df755b5c65&gclsrc=ds)
 
-> 1201 Market Street </br>
-> Philadelphia, PA, USA, 19107 
-> *guest entrance at 1200 Filbert Street*
+> 1201 Market Street </br> Philadelphia, PA, USA, 19107 *guest entrance at 1200 Filbert Street*
 
 ## Conference Rates
 
@@ -85,12 +119,14 @@ Rate not inclusive of final taxes/fees
 
 [{{< fa bell-concierge >}} Book a room](%22https://book.passkey.com/gt/218524854?gtid=ebf7480702a2b34d863a79c09cb5f074%22){.btn-action .btn .btn-primary role="button"}
 :::
+:::
+:::
 
 ## Register to Attend {#register}
 
 Registration is now open! Early Bird registration rates available on or before January 31, 2023. Additional pricing information listed below.
 
-[{{< fa user-plus >}} Register Now]("https://apls.memberclicks.net/2023_conf_registration"){.btn-action .btn .btn-primary role="button"} 
+[{{< fa user-plus >}} Register Now](%22https://apls.memberclicks.net/2023_conf_registration%22){.btn-action .btn .btn-primary role="button"}
 
 ```{=html}
 
@@ -170,11 +206,11 @@ tr:nth-child(even) {
 #| message: false
 
 info <- tibble(
-  title = "Student Volunteers",
-  text = "Student’s interested in volunteering to help during the conference should complete the application process via the main registration form.",
+  title = "Need help with registration costs?",
+  text = "Become a Student Volunteer.",
   ctr = "Contact office",
   link = "mailto:office@ap-ls.org",
-  icon = "fas fa-scale-balanced"
+  icon = "fas fa-hand-holding-dollar"
 )
 
 students <- generate_info_bar(info)
@@ -246,8 +282,6 @@ tr:nth-child(even) {
 </body>
 </html>
 ```
-
-
 ```{=html}
 <html>
 <head>
@@ -307,67 +341,3 @@ tr:nth-child(even) {
 ## Program & Schedule {#program}
 
 {{< downloadthis docs/2023_Conference_Grid-Updated.pdf dname="2023_Conference_Grid-Updated" label="Download Program" icon="file-pdf" type="primary" >}}
-
-## Promotional Opportunities {#sponsors}
-
-{{< downloadthis docs/AP-LS_Prospectus_2023.pdf dname="AP-LS_Prospectus_2023" label="Exhibitor Prospectus" icon="download" type="primary" >}}
-
-::: {.panel-tabset} 
-## Become an AP-LS Sponsor 
-Signing up as a Business Partner of AP-LS has never been easier. Select your sponsorship, upload your logo, register your staff and make a payment all in one place.
-
-[Click here to register!](https://apls.memberclicks.net/2023_sponsor_exhibitor_form)
-
-## Take-One Brochure Table
-
-\$200 (One time fee)
-
-For the benefit of those who do not, or cannot, rent a booth exhibit, a Take-One Brochure Table for the distribution of free brochures and other material is available to offer pamphlets, brochures, leaflets, cards, magazines, etc. This will be for paid Take-One Exhibitors ONLY. Other materials will be removed. Unused materials will not be returned.
-
-## Branding opportunities
-
-All targeted sponsorship opportunities come with acknowledgment at the conference.
-
-\*Cost production not included in sponsorship
-
--   Tote Bags - \$2,000
--   Lanyards - \$2,000
--   Wireless Mobile Device Charger - \$3,500
--   USB Drive - \$2,500
--   Key Card - \$9,500
--   Keycard Holder Multi-page Pocket Schedule - \$10,500
--   Bag Insert - \$250
--   Scholarships - \$3,000
--   Mobile App Push Notifications - \$500
-
-## Sponsorship opportunities
-
-All targeted sponsorship opportunities support the individual items or events selected.
-
-Each opportunity is exclusive, so your organization will be featured prominently at each event.
-
--   **Conference Wi-Fi Sponsor -** \$8,000
-
--   **Welcome Reception Sponsor -** \$8,000
-
--   **Thursday Breaks (AM/PM) -** \$3,500
-
--   **Lunch Product Theatre (2 available - Fri or Sat) -** \$15,000 (Lunch not included in pricing
-
--   **Poster Session Reception (2 available - Fri or Sat) -** \$10,000
-
--   **Friday Breaks (AM/PM) -** \$3,500
-
--   **Saturday Breaks (AM/PM) -** \$2,000
-:::
-:::
-
-::: {layout-ncol=4} 
-![](images/BOP.jpg){width="81"}
-
-![](images/spa-full-color-logo-2022.png){width="170"}
-
-![](images/centurion_logo.jpg){width="143"}
-
-![](images/OFMHS_Logo.jpg){width="132"} 
-:::

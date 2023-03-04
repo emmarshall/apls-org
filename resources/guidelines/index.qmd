@@ -2,7 +2,15 @@
 title: Specialty Guidelines for Forensic Psychology
 title-block-banner: "../../images/default-banner.svg"
 ---
-The final version of the Specialty Guidelines for Forensic Psychologists, prepared by the AP-LS Committee on the Revision of the Specialty Guidelines for Forensic Psychology, was adopted by APA Council of Representatives on Aug. 3, 2011. The guidelines appeared in American Psychologist and are available for {{< downloadthis files/specialty-guidelines-forensic-psychology.pdf dname:"forensic-specialty-guidelines" label="Download Forensic Guidelines" icon=download type=secondary >}}.
+The final version of the Specialty Guidelines for Forensic Psychologists, prepared by the AP-LS Committee on the Revision of the Specialty Guidelines for Forensic Psychology, was adopted by APA Council of Representatives on Aug. 3, 2011. 
+
+The guidelines originally appeared in American Psychologist and are available to download.
+
+{{< downloadthis files/specialty-guidelines-forensic-psychology.pdf dname:"forensic-specialty-guidelines" label="Download Forensic Guidelines" icon=download type=primary >}} 
+
+::: {.callout-note}
+APA has approved an extension of the current APA specialty Guidelines in Forensic Psychology through December 31, 2026.
+:::
 
 For other professional guidelines from APA, [go here](https://www.apa.org/practice/guidelines)
 

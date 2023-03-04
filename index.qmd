@@ -121,7 +121,7 @@ div(class = "bg-light",
 #| message: false
 
 info <- tibble(
-  title = "Interested in learning more about AP-LS?",
+  title = "Interested in AP-LS?",
   text = "Become a member.",
   ctr = "Join now",
   link = "membership/membership.qmd",
@@ -141,8 +141,25 @@ cat(html)
 :::
 
 ::: {.column .col-v-center width="70%"}
-::: portrait
-![](about/presidents/barry_rosenfeld.jpg)
+
+```{r}
+#| echo: false
+profile_circle_preview <- '
+<div class="p-3 text-center rounded-circle m-3 shadow-lg" style="background-size: cover; background-image: url({image}); width: 225px; height: 225px">
+<div class="visually-hidden">{alt}</div>
+</div>'
+profiles_cropped <- list(
+  image = "about/presidents/barry_rosenfeld.jpg",
+  alt = c(
+    "Picture of Barry Rosenfeld"
+  )
+)
+profiles_cropped_html <- glue::glue_data(profiles_cropped, profile_circle_preview)
+profiles_cropped_html <- htmltools::HTML(profiles_cropped_html)
+```
+
+::: {.portrait}
+`r profiles_cropped_html`
 :::
 
 ## Welcome from Our President
