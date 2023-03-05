@@ -1,0 +1,28 @@
+---
+title: "Pets!"
+description: |
+  Look at all the pets of the American Psychology-Law Society because they are great. 
+listing:
+  contents: 
+    - "posts/**/*.qmd"
+  type: grid
+  categories: false
+  sort-ui: true
+  filter-ui: true
+  fields: [title, human, image]
+  field-display-names: 
+    human: "Submitted by"
+  grid-columns: 2
+  image-height: 33vmin
+page-layout: full
+title-block-banner: false
+---
+
+::: {.callout-note collapse=true}
+## Submit Your Pet
+
+Have a pet you want to share? Send us them pics! 
+
+<a class="btn btn-primary" href="https://forms.gle/sV3nPAzKe5kWi27f7" role="button">Submit a pet</a>
+
+:::
