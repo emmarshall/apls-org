@@ -418,22 +418,27 @@ pre.text, pre.sourceCode, .cell-output pre {
 }
 
 .nav-tabs .nav-link {
-  color: $primary;
   text-align: center;
   margin-right: 10px;
   margin-top: 10px;
+  margin-bottom: 10px;
   font-family: 'Proza Libre', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  min-width: 102px;
+  border-radius: inherit;
+  border: inherit;
 }
 
 .nav-tabs .nav-link:hover {
-  border-color: lighten($primary, 20%);
-  border-width: 1px;
+  border-bottom: 2px solid $primary;
+  padding-bottom: 2px;
 }
 
 .nav-tabs .nav-link.active {
-  border-color: $primary;
-  border-width: 2px;
+color: $primary;
+  background-color: transparent;
 }
 
 
