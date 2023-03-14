@@ -288,7 +288,7 @@ div.quarto-about-jolla .about-image {
 
 .light-section {
   background-color: #FBF9F4;
-  color: #1B3264;
+  color: #252525;
 }
 
 .dark-section {
@@ -304,7 +304,7 @@ div.quarto-about-jolla .about-image {
 
 .president-intro{
   margin-top: -30px;
-  font-family: 'Cormorant Garamond' Sans-Serif;
+  font-family: 'Proza Libre', sans-serif;
   font-size: 1rem;
 }
 

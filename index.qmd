@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 source("_site/apls_functions.R")
 ```
 
-::: column-screen
+::: {#gallery .column-page}
 :::
 
 ```{r}
@@ -181,43 +181,7 @@ profiles_cropped_html <- htmltools::HTML(profiles_cropped_html)
 
 :::
 
-```{r}
-#| label: Row of additional links
-#| echo: false
-#| warning: false
-#| message: false
-content = rowwise_table(~name, ~icon, ~link,
-                        "History", "clock-history", "about/history.html",
-  "Committees", "person-rolodex", "about/comittees.html",
-    "Job Postings", "briefcase-fill", "resources/job_postings/index.qmd",     
-    "Newsletters", "archive-fill", "publications/newsletters/",
-  "Awards", "award-fill", "awards/index.qmd"
-)
-div(class = "bg-light",
- div(class = "bg-breakout",
-    div(class = "inner-container",
-      div(class = "boxed-wrapper",
-            div(class = "boxed-feature-grid",
-          pmap(content, function(name, icon, link) {
-            div(class = "boxed-feature-grid__item",
-              div(class = "boxed-feature-grid__icon",
-                a(href = link, class = "boxed-feature-grid__link",
-                  tags$i(class = sprintf("bi-%s boxed-feature-grid__i", icon))
-                )),
-    div(class = "boxed-feature-grid__title", name)
-)
-          })
-        )
-      )
-    )
-  )
-)
-
-```
-
 :::
-
-
 
 ::: {.simple-info .alt-background}
 ::: content-block
@@ -230,154 +194,5 @@ div(class = "bg-light",
 ::: vspace
 :::
 
-
-::: {.column-screen}
-::: {.column .col-v-center width="15%"}
-:::
-
-::: {.column .col-v-center width="70%"}
-```{r}
-#| echo: false
-#| warning: false
-#| message: false
-#| label: build calendar
-
-library(dplyr)
-library(tidyr)
-library(readr)
-library(reactable)
-library(tidyverse)
-library(htmltools)
-
-march <- read_csv("events/mar23.csv")
-
-update_cal <- function(csv_file) {
-  # read in CSV file
-  events <- read.csv(csv_file, stringsAsFactors = FALSE)
-  
-  # loop over events
-  for (i in seq_len(nrow(events))) {
-    # extract current event data
-    day <- events$day[i]
-    date <- events$date[i]
-    link <- events$link[i]
-    
-    # modify calendar tibble to include current event
-    march <- march %>%
-      mutate(!!sym(day) := ifelse(!!sym(day) == date, 
-                                   paste0("<p>", date, "</p><p><a href=\"", link, "\">Event</a></p>"),
-                                   !!sym(day)))
-  }
-  
-  # return updated calendar
-  return(march)
-}
-
-my_cal <- update_cal("events/march_events.csv") 
-
-
-tbl <- reactable(my_cal,
-  theme = reactableTheme(
-    backgroundColor = "#1B3264",
-    stripedColor = "#1B3264",
-    style = list(color = "#FBF9F4")
-  ),
-  defaultColDef = colDef(
-    align = "center",
-    width = 121,
-    html = TRUE,
-    headerStyle = list(borderColor = "#FBF9F4"),
-    footerStyle = list(html = TRUE, fontSize = 11, borderColor = "#FBF9F4"),
-    style = function(value) {
-      if(!is.na(value)) {
-        list(
-          borderRight = '1px solid #FBF9F4', 
-          borderBottom = '1px solid #FBF9F4', 
-          borderLeft = '1px solid #FBF9F4', 
-          borderTop = '1px solid #FBF9F4', 
-          height = 100
-        )
-      } else {
-        list(borderRight = '1px solid #1B3264', height = 75)
-      }
-    }
-  )
-)
-
-
-```
-
-```{r build div, echo=FALSE, warning=FALSE, message=FALSE}
-
-div(class = "cal-container",
-div(class = "calendar",
-    div(class = "title-tab",
-        h2("March 2023"),
-        "Upcoming events for the American Psychology-Law Society."
-        ),
-    tbl,
-    paste0("Last updated: February 27, 2023")
-    )
-)
-```
-
-```{r echo=FALSE}
-tags$link(href = "https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,700;1,400&display=swap", rel = "stylesheet")
-```
-
-```{css echo=FALSE, warning=FALSE, message=FALSE}
-@import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css); 
-
-.cal-container {
-  width: 100%;
-  height: 800px;
-  overflow-x: auto;
-  overflow-y: auto;
-}
-
-@media only screen and (max-width: 768px) {
-  .cal-container {
-    max-width: 800px;
-  }
-}
-
-.calendar {
-  font-family: 'Proza Libre', sans-serif;
-  font-size: 1rem;
-}
-
-.calendar a {
-  color: yellow;
-}
-
-
-.title-tab {
-  font-family: 'Proza Libre', sans-serif;
-  margin-top: 2rem;
-  margin-bottom: 1.125rem;
-  font-size: 1rem;
-  text-align: center;
-}
-
-.title-tab h2 {
-  font-family: 'Cormorant Garamond' sans-serif;
-  font-size: 2rem;
-  font-weight: 600;
-}
-
-
-```
-:::
-
-:::
-
 ::: column-screen
-::: {.column .col-v-center width="15%"}
-:::
-
-::: {.column .col-v-center width="70%"}
-# Events
-
-## Event test number one. {#event-test}
-:::
 :::

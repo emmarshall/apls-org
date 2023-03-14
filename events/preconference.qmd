@@ -1,0 +1,191 @@
+---
+title: Pre-conference Workshops
+---
+
+
+
+## Pre-conference
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(readxl)
+library(dplyr)
+library(tidyr)
+library(reactable)
+library(reactablefmtr)
+library(htmltools)
+library(glue)
+library(stringr)
+
+data <- read_excel("AP-LS_2023_Program.xlsx", sheet = "preconference")
+
+preconf <- data |> 
+  mutate(across(c(start, end), ~ as.POSIXct(., format = "%I:%M:%S %p")))  |>  
+  mutate(time = paste(format(start, "%I:%M %p"), " - ", format(end, "%I:%M %p"))
+    ) |> 
+  mutate(event = paste0(event, " (", type, ")")) |> 
+  select(time, title, people, location, event, CE, level, description, contains("objective_"))
+
+
+row_details <- function(index) {
+  evnt <- preconf[index, ]
+
+  objectives <- lapply(paste0("objective_", 1:5), function(obj_col) {
+    if (is.na(evnt[[obj_col]])) {
+      NULL
+    } else {
+      div(evnt[[obj_col]])
+    }
+  })
+  
+  evnt_field <- function(name, ...) {
+    if (any(is.na(...))) NULL
+    else tagList(div(class = "detail-label", name), ...)
+  }
+  
+  detail <- div(
+    class = "schedule-detail",
+    div(class = "detail-header", evnt$title, span(class = "detail-title", evnt$event)),
+    evnt_field("CE Credits", evnt$CE),
+    evnt_field("Level", evnt$level),
+    evnt_field("Presenters", evnt$people),
+    evnt_field("Description", evnt$description),
+    evnt_field("Learning Objectives", div(class = "objectives", objectives))
+
+  )
+  
+  detail
+}
+
+tbl <- reactable(
+  preconf[, c("event", "title", "time", "location")],
+  defaultSorted = "event",
+  sortable = FALSE,
+  defaultPageSize = 40,
+  onClick = "expand",
+  defaultColDef = colDef(headerClass = "header"),
+  columns = list(
+    event = colDef(
+      name = "Session", 
+      minWidth = 500,
+      class = "committee-title", 
+      cell = merge_column(preconf, 
+                            merged_name = "title",
+                            merged_size = 16,
+                            merged_color = "#252525",
+                            merged_position = "below")
+      ),
+    title = colDef(show = FALSE),
+    time = colDef(
+        name = "Details",
+        format = colFormat(separators = TRUE),
+        minWidth = 200, 
+        class = "number",
+        cell = merge_column(preconf, 
+                            merged_name = "location",
+                            merged_size = 16,
+                            merged_color = "gray",
+                            merged_position = "below")
+        ),
+    location = colDef(show = FALSE)
+  ),
+  details = row_details,
+  wrap = TRUE,
+  class = "schedule-table",
+  rowStyle = list(cursor = "pointer"),
+  theme = reactableTheme(cellPadding = "8px 12px")
+)
+
+```
+
+```{r echo=FALSE}
+tags$link(href = "https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,700;1,400&display=swap", rel = "stylesheet")
+```
+
+```{css echo=FALSE, warning=FALSE, message=FALSE}
+
+@import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css); 
+
+.events {
+  font-family: 'Proza Libre', sans-serif;
+}
+
+.schedule-table {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  border: 1px solid hsl(213, 33%, 93%);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  border-bottom-color: #FBF9F4;
+  color: #FBF9F4;
+  background: #1B3264;
+  font-weight: 500;
+  font-size: 1.6rem;
+  letter-spacing: -.02rem;
+  font-variant: small-caps;
+  padding: 5px;
+  border: 0;
+}
+
+
+.title {
+  font-size: 1.5rem;
+}
+
+.schedule-detail {
+  padding: 24px;
+  box-shadow: inset 0 1px 3px #95a5a6;
+  background: shift-color(#FBF9F4, -55%);
+  'Proza Libre', sans-serif;
+}
+.detail-label {
+  margin: 1.25rem 0 0.25rem;
+  font-size: 1.2rem;
+  color: #95a5a6;
+  text-transform: uppercase;
+}
+.detail-header {
+  margin-bottom: 1rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+.detail-title {
+  margin-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #252525;
+}
+
+.objectives {
+  font-size: .0875;
+  color: #252525;
+  line-height: 1.5;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.number {
+    color = #252525,
+    font-size: .08rem;
+    font-weight: 600;
+}
+
+```
+
+```{r}
+#| echo: false
+#| include: true
+#| output: true
+#| column: screen-inset-shaded
+
+div(class = "events",
+    tbl
+)
+
+```

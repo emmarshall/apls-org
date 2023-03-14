@@ -70,8 +70,8 @@ source("../_site/apls_functions.R")
 content = rowwise_table(~name, ~icon, ~link,
   "Hotel", "building", "#hotel",
     "Registration", "person-badge", "#register",     
-    "Program", "journal-text", "#program",
-  "Pre-conference", "person-workspace", "#workshops",
+    "Schedule", "calendar-event", "#program",
+  "Preconference", "person-workspace", "#workshops",
   "Sponsors", "bag-check", "#sponsors"
 )
 div(class = "bg-light",
@@ -97,6 +97,16 @@ div(class = "bg-light",
 ```
 :::
 :::
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+![](profile2.jpg)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+# Hi, I'm Albert Rapp.
+I'm a mathematics PhD students with a passion for R, data visualization, Shiny and statistics/machine learning. On this blog, I share and teach what I learn.
 
 ::: column-page
 ::: {simple-info}

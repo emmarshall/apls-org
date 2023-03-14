@@ -1,0 +1,160 @@
+---
+title: Event Calendar
+draft: true
+---
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| label: build calendar
+
+
+library(dplyr)
+library(tidyr)
+library(readr)
+library(reactable)
+library(tidyverse)
+library(htmltools)
+library(htmlwidgets)
+
+march <- read_csv("mar23.csv")
+
+update_cal <- function(csv_file) {
+  # read in CSV file
+  events <- read.csv(csv_file, stringsAsFactors = FALSE)
+  
+  # loop over events
+  for (i in seq_len(nrow(events))) {
+    # extract current event data
+    day <- events$day[i]
+    date <- events$date[i]
+    link <- events$link[i]
+    
+    # modify calendar tibble to include current event
+    march <- march %>%
+      mutate(!!sym(day) := ifelse(!!sym(day) == date, 
+                                   paste0("<p>", date, "</p><p><a href=\"", link, "\">Event</a></p>"),
+                                   !!sym(day)))
+  }
+  
+  # return updated calendar
+  return(march)
+}
+
+my_cal <- update_cal("march_events.csv") 
+
+
+cal <- reactable(my_cal,
+  theme = reactableTheme(
+    backgroundColor = "#1B3264",
+    stripedColor = "#1B3264",
+    style = list(color = "#FBF9F4")
+  ),
+  defaultColDef = colDef(
+    align = "center",
+    width = 128,
+    html = TRUE,
+    headerStyle = list(borderColor = "#FBF9F4"),
+    footerStyle = list(html = TRUE, fontSize = 11, borderColor = "#FBF9F4"),
+    style = function(value) {
+      if(!is.na(value)) {
+        list(
+          borderRight = '1px solid #FBF9F4', 
+          borderBottom = '1px solid #FBF9F4', 
+          borderLeft = '1px solid #FBF9F4', 
+          borderTop = '1px solid #FBF9F4',
+          height = 100
+        )
+      } else {
+        list(borderRight = '1px solid #1B3264', height = 75)
+      }
+    }
+  )
+)
+
+
+#add title, subtitle, footnote and source
+tbl <- cal |> 
+  #title & subtitle
+  htmlwidgets::prependContent(
+    tagList(
+      tags$img(src = "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/logo-blue.png", style = "width:50px;height:50px;display:inline-block;vertical-align:middle;"),
+      tags$div("2023 AP-LS Program Grid", style="font-size:32px;font-weight:bold;margin-left:5px;margin-bottom:0;display:inline-block;vertical-align:middle;"), 
+      tags$h3("Schedule at a glance", style="font-family:Chivo;margin-bottom:0;margin-top:0;font-weight:400;color:#8C8C8C;padding-left:10px;")
+  )
+  ) |> 
+  #footnote and source
+  htmlwidgets::appendContent(
+    tags$div(style="text-align:center;color:black;font-size:14pt;border-bottom-style:solid;border-top-style:solid;width:910px;padding-bottom:20px;padding-top:20px;border-color:#DADADA;",
+  tags$a(href = "conferences/index.html", class = "btn-action-primary btn-action btn btn-primary", role="button", "View Events")
+),
+    tags$div(
+      tags$div("Last Updated: March 15, 2023", style="display:inline-block;vertical-align:middle;")
+  )
+)
+
+tbl
+
+```
+
+```{r}
+#| echo: false
+#| include: true
+#| output: true
+#| column: screen-inset-shaded
+
+div(class = "events",
+    tbl
+)
+```
+
+```{r echo=FALSE}
+tags$link(href = "https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,700;1,400&display=swap", rel = "stylesheet")
+```
+
+```{css echo=FALSE, warning=FALSE, message=FALSE}
+@import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css); 
+
+.calendar {
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 1rem;
+}
+
+.calendar a {
+  color: yellow;
+}
+
+
+.title-tab {
+  font-family: 'Proza Libre', sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 1.125rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.title-tab h2 {
+  font-family: 'Cormorant Garamond' sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+
+
+
+```
+:::
+
+:::
+
+::: column-screen
+::: {.column .col-v-center width="15%"}
+:::
+
+::: {.column .col-v-center width="70%"}
+# Events
+
+## Event test number one. {#event-test}
+:::
+:::

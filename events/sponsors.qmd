@@ -1,0 +1,104 @@
+---
+title: Sponsors, Exhibitors & Satellite Events
+---
+
+## Promotional Opportunities {#sponsors}
+
+{{< downloadthis files/AP-LS_Prospectus_2023.pdf dname="AP-LS_Prospectus_2023" label="Exhibitor Prospectus" icon="download" type="primary" >}} 
+
+::: {.callout-note collapse="true"} ## Exhibitor Pospectus
+
+```{=html}
+<iframe width="780" height="500" src="files/AP-LS_Prospectus_2023.pdf" title="2023 AP-LS Exhibitor Prospectus"></iframe>
+```
+:::
+
+### Become an AP-LS Sponsor
+
+Signing up as a Business Partner of AP-LS has never been easier. Select your sponsorship, upload your logo, register your staff and make a payment all in one place.
+
+[Click here to register!](https://apls.memberclicks.net/2023_sponsor_exhibitor_form)
+
+### Take-One Brochure Table
+
+\$200 (One time fee)
+
+For the benefit of those who do not, or cannot, rent a booth exhibit, a Take-One Brochure Table for the distribution of free brochures and other material is available to offer pamphlets, brochures, leaflets, cards, magazines, etc. This will be for paid Take-One Exhibitors ONLY. Other materials will be removed. Unused materials will not be returned.
+
+### Branding opportunities
+
+All targeted sponsorship opportunities come with acknowledgment at the conference.
+
+\*Cost production not included in sponsorship
+
+-   Tote Bags - \$2,000
+-   Lanyards - \$2,000
+-   Wireless Mobile Device Charger - \$3,500
+-   USB Drive - \$2,500
+-   Key Card - \$9,500
+-   Keycard Holder Multi-page Pocket Schedule - \$10,500
+-   Bag Insert - \$250
+-   Scholarships - \$3,000
+-   Mobile App Push Notifications - \$500
+
+### Sponsorship opportunities
+
+All targeted sponsorship opportunities support the individual items or events selected.
+
+Each opportunity is exclusive, so your organization will be featured prominently at each event.
+
+-   **Conference Wi-Fi Sponsor -** \$8,000
+
+-   **Welcome Reception Sponsor -** \$8,000
+
+-   **Thursday Breaks (AM/PM) -** \$3,500
+
+-   **Lunch Product Theatre (2 available - Fri or Sat) -** \$15,000 (Lunch not included in pricing
+
+-   **Poster Session Reception (2 available - Fri or Sat) -** \$10,000
+
+-   **Friday Breaks (AM/PM) -** \$3,500
+
+-   **Saturday Breaks (AM/PM) -** \$2,000 :::
+
+::: boxed-wrapper
+```{r}
+#| echo: false
+#| label: sponsors
+#| warning: false
+#| message: false
+
+library(tidyverse)
+library(magick)
+library(cropcircles)
+
+# Breaking Bad images
+x <- c("BOP", "centurion", "OFMHS", "spa")
+images <- glue::glue("sponsors/{x}.jpg")
+
+
+# Load example images
+img <- image_read(images)
+
+# Crop the images in a circle
+img_circle <- lapply(img, function(x) circle_crop(x))
+
+# Display the original and cropped images side by side
+img_circle
+
+
+
+```
+:::
+
+::: {.grid}
+::: {.g-col-3}
+![](sponsors/OFMHS_Logo.jpg)
+:::
+::: {.g-col-3}
+![](sponsors/OFMHS_Logo.jpg)
+::: {.g-col-3}
+![](sponsors/OFMHS_Logo.jpg)
+::: {.g-col-3}
+![](sponsors/OFMHS_Logo.jpg)
+:::
