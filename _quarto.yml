@@ -17,7 +17,7 @@ website:
       - text: About
         menu:
           - text: About
-            href: about/about.qmd
+            href: about/index.qmd
           - text: Leadership
             href: about/leadership.qmd
           - text: Committees
@@ -40,6 +40,8 @@ website:
         menu:
           - text: 2023 AP-LS Conference
             href: conferences/index.qmd
+          - text: Preconference Workshops
+            href: conferences/preconference.qmd
           - text: Program & Schedule
             href: conferences/schedule.qmd
       - href: resources/index.qmd
@@ -50,12 +52,12 @@ website:
   sidebar: 
     - id: about us
       title: "About AP-LS"
-      style: "floating"
+      style: "docked"
       collapse-level: 2
       align: left
       contents:
         - section: "Our Mission"
-          href: about/about.qmd
+          href: about/index.qmd
           contents: 
             - text: "Policy Statements"
               href: about/statements.qmd
@@ -100,11 +102,17 @@ website:
       made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)
     right:
       - icon: twitter
+        aria-label: Link to Twitter
         href: https://twitter.com/apls41
       - icon: facebook
+        aria-label: Link to Facebook
         href: https://www.facebook.com/APLS41 
       - icon: instagram
+        aria-label: Link to Instagram
         href: https://www.instagram.com/apls41/
+      - icon: envelope
+        aria-label: Link to email
+        href: mailto:office@ap-ls.org
 
 format:
   html:

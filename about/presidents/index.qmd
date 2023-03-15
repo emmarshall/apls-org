@@ -2,95 +2,51 @@
 pagetitle: "Welcome From Our President"
 about: 
   id: hero-heading
-  template: jolla
+  template: trestles
   image: barry_rosenfeld.jpg
   image-shape: round
   image-width: 14em
   links:
     - icon: people-fill
       text: 2022-2023 Leadership
-      href: ../leadership.qmd
+      href: ../leadership.html
       aria-label: Link to leadership page
+    - icon: info-circle
+      text: About AP-LS
+      href: ../index.html
+      aria-label: Link to about page
     - icon: clock-history
       text: Past Presidents
-      href: ../presidents.qmd
+      href: ../presidents.html
       aria-label: Links to past presidents page
 ---
 
-## Welcome From Our President {#sec-welcome-from-our-president}
+# Welcome From Our President
 
 ::: {#hero-heading}
+#### Welcome to the American Psychology-Law Society (AP-LS), Division 41 of the American Psychological Association!
 
-Welcome to the American Psychology-Law Society (AP-LS), Division 41 of the American Psychological Association.
-
-Our organizational mission is to
+#### Our organizational mission is to
 
 > enhance well-being, justice, and human rights through the science and practice of psychology in legal contexts.
 
-:::
-
 AP-LS is the premiere organization for students and professionals who are interested in issues at the intersection of psychology and law.
+:::
 
 As an organization, we strive to support our members in their work using psychological science and practice to advance justice in our legal system.
 
-Among the many ways we promote scholarship and exemplary practice is through direct support of our members, both facilitating their research and recognizing their contributions to the field. For example, we provide multiple grants opportunities and recognize members through a range of awards for teaching, research and mentorship.[^1] We also hold an Annual Conference,[^2] participate in the APA Annual Convention,[^3] have an active book series,[^4] and are the home for our flagship journal, Law and Human Behavior.[^5]
+Among the many ways we promote scholarship and exemplary practice is through direct support of our members, both facilitating their research and recognizing their contributions to the field. For example, we provide multiple [grants opportunities](../../awards/index.html) and recognize members through a range of [awards](../../awards/index.html) for teaching, research and mentorship. We also hold an [Annual Conference](../conference/index.html), participate in the [APA Annual Convention](https://convention.apa.org/future-conventions), have an active [book series](../../publications/index.html), and are the home for our flagship journal, [Law and Human Behavior](https://www.apa.org/pubs/journals/lhb/).
 
-[^1]: Link to Awards page
+One of our most important resources is our incredibly active [Student Committee](https://www.apls-students.org/). The Student Committee oversees a range of resources and funding opportunities for undergraduate and graduate students and Early Career Professionals. For those of you who may be new to the organization, [we have a series of short videos](../../resources/videos/index.html) that were developed by our Broadening Representative Inclusion, Diversity, and Global Equity, or BRIDGE Committee (formerly our Minority Affairs Committee). Our [BRIDGE Committee](../committees.html) is also the steward of several awards and grants that align with our organizational commitment to goals centered around diversity, equity, and inclusion.
 
-[^2]: Link to annual conference
+As you navigate our webpages, I hope you'll find the many [resources](../../resources/index.html) available for research, education and teaching, and [careers](../../resources/videos/careers2022/index.html) in psychology and law. In addition, to keep abreast of the latest news in psychology and law, check out our monthly [newsletter](../../resources/newsletter/index.html).
 
-[^3]: Link to apa conference
+AP-LS is a dynamic, diverse and multifaceted organization, and we are committed to our vision and mission through our values: the pursuit of excellence, knowledge and application based on methods of science, outstanding service to our members and to society, values of social justice, diversity, and inclusion, and ethical action in all we do. More information about our goals, mission, and strategic plan can be found on our [About](../index.html) page.
 
-[^4]: Link to book award
+Thank you for visiting our website, and please feel free to reach out to our any members of the [Executive Committee](../leadership.html) with questions or more information about psychology and law. And, please connect with us on social media. We're on {{< var sm.facebook >}}, {{< var sm.twitter >}}, and {{< var sm.instagram >}}.
 
-[^5]: Link to LHB
+Interested in joining? Please find details about [membership](../membership/index.html) on our site, and we look forward to welcoming you into our organization!
 
-::: column-margin
-[Learn more about AP-LS Grants & Awards](../../awards/)
-:::
+**Barry Rosenfeld**
 
-::: column-margin
-[Learn more about Annual Conference](../../awards/)
-:::
-
-::: column-margin
-[Learn more about AP-LS at APA Annual Conference](../../awards/)
-:::
-
-::: column-margin
-[Learn more about the AP-LS Book Award](../../awards/)
-:::
-
-::: column-margin
-[Visit LHB page](../../awards/)
-:::
-
-One of our most important resources is our incredibly active Student Committee[^6]. The Student Committee which oversees a range of resources and funding opportunities for undergraduate and graduate students and Early Career Professionals. For those of you who may be new to the organization, we have a series of short videos[^7] that were developed by our Broadening Representative Inclusion, Diversity, and Global Equity, or BRIDGE Committee (formerly our Minority Affairs Committee). Our BRIDGE Committee[^8] is also the steward of several awards and grants that align with our organizational commitment to goals centered around diversity, equity, and inclusion.
-
-[^6]: Link to students
-
-[^7]: Link to videos
-
-[^8]: Link to BRIDGE page
-
-As you navigate our webpages, I hope you'll find the many resources available for research, education and teaching[^9], and careers[^10] in psychology and law. In addition, to keep abreast of the latest news in psychology and law, check out our monthly newsletter.[^11]
-
-[^9]: Link to education
-
-[^10]: Link to careers
-
-[^11]: Link to newsletter
-
-AP-LS is a dynamic, diverse and multifaceted organization, and we are committed to our vision and mission through our values: the pursuit of excellence, knowledge and application based on methods of science, outstanding service to our members and to society, values of social justice, diversity, and inclusion, and ethical action in all we do. More information about our goals, mission, and strategic plan can be found on our "about"[^12] page.
-
-[^12]: Link to about
-
-Thank you for visiting our website, and please feel free to reach out to our any members of the Executive Committee[^13] with questions or more information about psychology and law. And, please connect with us on social media. We're on Facebook, Twitter, and Instagram. Interested in joining? Please find details about membership[^14] on our site, and we look forward to welcoming you into our organization!
-
-[^13]: Link to EC
-
-[^14]: Link to membership
-
-Barry Rosenfeld
-
-President, American Psychology-Law Society
+*President, American Psychology-Law Society*

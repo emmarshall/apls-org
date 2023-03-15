@@ -12,6 +12,11 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../../_site/apls_functions.R")
 ```
 
+::: {.callout-tip collapse="true"}
+## How to Submit a Syllabus
+
+If you have a syllabus to submit, please fill out the online form. Contact the [Chair of the TTC Committee](../../about/committees.html) with questions or concerns.
+:::
 
 :::{.column-body-outset}
 ```{r echo=FALSE, warning=FALSE, message=FALSE}

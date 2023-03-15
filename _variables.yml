@@ -1,8 +1,13 @@
 version: 1.2
 
-email:
-  info: info@example.com
-  support: support@example.com
+email: 
+  office: office@ap-ls.org
+  web: webmaster@ap-ls.org
+
+sm: 
+  twitter: "[twitter](https://twitter.com/apls41)"
+  facebook: "[facebook](https://www.facebook.com/APLS41)"
+  instagram: "[instagram](https://www.instagram.com/apls41/)"
 
 engine:
   jupyter: "[Jupyter](https://jupyter.org)"

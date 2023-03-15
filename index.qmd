@@ -179,7 +179,7 @@ profiles_cropped_html <- htmltools::HTML(profiles_cropped_html)
 :::
 
 ::: about-link
-[MORE FROM THE PRESIDENT](president/)
+[MORE FROM THE PRESIDENT](president/index.html)
 :::
 
 :::

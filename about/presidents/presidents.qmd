@@ -11,8 +11,8 @@ title-block-banner: "../../images/default-banner.svg"
 |         |                                |    
 |---------|--------------------------------|
 | 2021-22 | Lora M. Levett, PhD            |
-| 2021-22 | Allison Redlich, PhD           |
-| 2020-21 | Jennifer Groscup, JD, PhD      |
+| 2020-21 | Allison Redlich, PhD           |
+| 2019-20 | Jennifer Groscup, JD, PhD      |
 | 2018-19 | Kevin S. Douglas, LLB, PhD     |
 | 2017-18 | Eve Brank, JD, PhD             |
 | 2016-17 | David DeMatteo, JD, PhD        |

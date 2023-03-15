@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-The Society operates through a number of standing committees that work to carry out its mission and to accomplish particular tasks.
+### The Society operates through a number of standing committees that work to carry out its mission and to accomplish particular tasks.
 
 ::: {.callout-note collapse="true"}
 ## Executive Committee
