@@ -39,7 +39,7 @@ content = rowwise_table(
   ~category, ~name, ~icon, ~url, ~text,
   "general", "Email list", "envelope-plus", "emails/index.html", "Request use of AP-LS Email list.",
   "general", "Job postings", "briefcase", "job_postings/index.html", "List of job opportunities related to law-psychology",
-  "general", "Newsletter", "newspaper", "newsletter/", "Archive of previous issues",
+  "general", "Newsletter", "newspaper", "newsletter/index.html", "Archive of previous issues",
   "general", "Students", "question-circle", "https://www.apls-students.org/resources.html", "Collection of information for students",
   "general", "AP-LS Videos", "file-earmark-play", "videos/index.html", "Collection of webinars, talks and videos.",
   "general", "Syllabi", "table", "syllabi/index.html", "Collection of syllabi for courses related to psychology and law.",

@@ -66,6 +66,34 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-newsletter .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-newsletter'] = new List('listing-newsletter', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-archive .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -237,6 +265,87 @@ background-size: cover;
       <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
   </div>
   <div class="gallery__list-column">
+<div id="listing-newsletter" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1678913940039" data-listing-reading-time-sort="39.755">
+<a href="../../resources/newsletter/2023/feb2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../resources/newsletter/2023/feb2023/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+February 2023
+</h5>
+<div class="card-text listing-description">
+<strong>AP-LS Monthly E-News</strong>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1678913968627" data-listing-reading-time-sort="63.845">
+<a href="../../resources/newsletter/2023/jan2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../resources/newsletter/2023/jan2023/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+January 2023
+</h5>
+<div class="card-text listing-description">
+<strong>AP-LS Monthly E-News</strong>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1678913213633" data-listing-reading-time-sort="49.64">
+<a href="../../resources/newsletter/2023/march2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../resources/newsletter/2023/march2023/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+March 2023
+</h5>
+<div class="card-text listing-description">
+<strong>AP-LS Monthly E-News</strong>
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div></div></section>
+<section id="newsletter-archive-1" class="level2">
+<h2 class="anchored" data-anchor-id="newsletter-archive-1">Newsletter Archive</h2>
+<div class="gallery">
+  <div class="gallery__icon-column">
+      <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
+  </div>
+  <div class="gallery__list-column">
 <div id="listing-archive" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
@@ -320,18 +429,10 @@ background-size: cover;
 No matching items
 </div>
 </div>
-  <span class="gallery__link">
-    <a href="newsletter/2022/dec2022">See feb23 <i class="bi-arrow-right-short"> </i></a>
-  </span>
-  </div>
-</div>
-<div class="all-link">
-<p><a href="resources/newsletter/index.html">more newsletters</a></p>
-</div>
 
 
 
-</section>
+</div></div></section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

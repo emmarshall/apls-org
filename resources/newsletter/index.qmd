@@ -3,6 +3,12 @@ title: AP-LS Newsletter
 title-block-banner: "../../images/default-banner.svg"
 page-layout: full
 listing: 
+  - id: newsletter
+    contents:
+    - "2023/march2023"
+    - "2023/feb2023"
+    - "2023/jan2023"
+    type: grid
   - id: archive
     contents: 
     - "fall1996/*.pdf"
@@ -27,18 +33,17 @@ source("../../_site/apls_functions.R")
   <div class="gallery__list-column">
 ```
 
-::: {#archive}
+::: {#newsletter}
 :::
 
-
+## Newsletter Archive
 ```{=html}
-  <span class="gallery__link">
-    <a href="newsletter/2022/dec2022">See feb23 <i class="bi-arrow-right-short"> </i></a>
-  </span>
+<div class="gallery">
+  <div class="gallery__icon-column">
+      <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
   </div>
-</div>
+  <div class="gallery__list-column">
 ```
 
-::: {.all-link}
-[more newsletters](resources/newsletter/index.html)
+::: {#archive}
 :::

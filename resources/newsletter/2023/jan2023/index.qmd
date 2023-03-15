@@ -1,6 +1,6 @@
 ---
 title: January 2023
-image: featured.jpg 
+image: featured.jpeg 
 ---
 
 ```{=html}

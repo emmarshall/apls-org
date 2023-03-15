@@ -29,6 +29,14 @@
     "items": []
   },
   {
+    "listing": "/resources/newsletter/index.html",
+    "items": [
+      "/resources/newsletter/2023/feb2023/index.html",
+      "/resources/newsletter/2023/jan2023/index.html",
+      "/resources/newsletter/2023/march2023/index.html"
+    ]
+  },
+  {
     "listing": "/awards/index.html",
     "items": [
       "/awards/grants/APprogram.html",
@@ -50,9 +58,5 @@
       "/awards/conference/caregivers.html",
       "/awards/conference/studentawards.html"
     ]
-  },
-  {
-    "listing": "/resources/newsletter/index.html",
-    "items": []
   }
 ]
