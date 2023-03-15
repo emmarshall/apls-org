@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: docs
   resources:
     - "*.css"
     - "*.pdf"
@@ -117,9 +116,6 @@ format:
       body-width: 900px
       margin-width: 300px
 
-
-execute: 
-  freeze: true
-
+freeze: true
 
 
