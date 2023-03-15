@@ -8,16 +8,26 @@ Society](images/APLS_general_logo.png)
 
 # AP-LS Website <img src="images/APLS_general_logo.png" align="right" width = "120" />
 
-[![build-website](https://github.com/...badge.svg)](https://github.com/emmarshall/actions/workflows/build-website.yml)
+## Website Basics
 
-# Site Structure
+This ap-ls.org website is built in [RStudio](https://www.rstudio.com/) using [Quarto](https://quarto.org). The content for the site is stored on the AP-LS Google Drive and on [GitHub](https://github.com). The site is published using [Netlify](https://www.netlify.com/). When the site is updated in the Github respository, the new published content will appear in the `_site` directory.
 
+
+## Site file structure
+
+The main content for the site is stored in the following files and directories:
+
+- `_quarto.yml` controls site-wide parameters and defines navbar/sidebar/footer content
+- `_variables.yml` controls site-wide variables that can be inserted using shortcodes
+- `apls_functions.R` in `_site` runs the `r` functions that are used to build aspects of the site including the image carousel. Do not change this. 
+- `index.qmd` is the home page
+- `about`, `contact`, `documents`, `events`, and `news` contain those respective pages for the site
+  - `documents`, `events`, and `news` are listing pages
+      - The `index.qmd` file in each directory controls parameters for the post listings
+  - `contact` has a listing section for displaying member profiles
+- `404.qmd` is the 404 page for the site
+- `styles.css` and `theme.scss` in the `assets` directory are used for additional CSS and SASS styling for the site's appearance, such as fonts and colors
   - `docs` - The root directory contains the published site.
-  - `apls-org/` - Quarto project.
-  - `apls-org/posts` - Blog posts.
-  - `apls-org/gallery` - Gallery posts.
-  - `.github/workflows` Contains workflows to build the website and
-    render gallery posts
 
 ## Setup
 
@@ -43,84 +53,9 @@ virtual environment.
 
 **Freeze**
 
-The blog and gallery posts are frozen i.e. the documents are not
-re-rendered during a global project render. Calling `quarto preview
-mlr-org/` or `quarto render mlr-org/` will not render the blog and
-gallery posts again. Calling `quarto render` on a single file or
-subdirectory will re-render the single file or all files in the
-subdirectory.
+The pages are frozen so that the documents are not
+individually re-rendered during a global project render. 
 
-**RSS**
+## Quarto
 
-The rss feed of the gallery is published on
-[R-bloggers](https://www.r-bloggers.com/).
-
-**CSS**
-
-The global css rules are stored in `mlr-og/custom.scss`. When editing
-the file, try to stick to the BEM naming pattern and use SASS. We use
-the Bootswatch [Yeti](https://bootswatch.com/yeti/) theme. A few style
-options are specified in `mlr-org/_quarto.yml` in the `Theme` section.
-
-## How to Add a Blog Post
-
-Blog posts are stored in `mlr-org/posts`.
-
-1.  Create a subdirectory in `mlr-org/posts`.
-2.  Start with a new `index.qmd` file and write your post.
-3.  Download a suitable cover photo on [Unsplash](https://unsplash.com)
-    in medium resolution. Square or landscape format photos look best in
-    the overview.
-4.  Open a pull request on GitHub.
-5.  Commit your post once with the option `freeze: false` in YAML
-    header. This will render the post on the CI once.
-6.  Remove the freeze option and ask for a review.
-
-If your post needs a new package or package version:
-
-1.  Install the package with `renv::install()` in the virtual
-    environment.
-2.  Call `renv::snapshot()` to record the package in `renv.lock`.
-3.  Commit `renv.lock` with the new post.
-
-## How to Add a Gallery Post
-
-The gallery is divided into four broad categories `basic`,
-`optimization`, `pipelines` and `technical`. The posts are stored in the
-corresponding subdirectories in `mlr-org/gallery`. If you write a
-series, add it to the `series` directory.
-
-1.  Create a subdirectory in `mlr-org/gallery/{category}`.
-2.  Start with a new `index.qmd` file and write your post.
-3.  Use only one sentence for the description and start with a verb. Do
-    not repeat the title. See the previously published articles for
-    examples.
-4.  Commit your post once with the option `freeze: false` in YAML
-    header. This will render the post on the CI once.
-5.  Remove the freeze option and ask for a review.
-
-If your post needs a new package or package version:
-
-1.  Install the package with `renv::install()` in the virtual
-    environment.
-2.  Call `renv::snapshot()` to record the package in `renv.lock`.
-3.  Commit `renv.lock` with the new post.
-
-## How to Change the Website
-
-Pages are `.qmd` files located in the `mlr-org/` directory
-(e.g. `packages.Rmd`). See [quarto.org](https://quarto.org) to learn
-more about Quarto.
-
-## Workflows
-
-**build-website.yml**
-
-Builds website. On `main`, the website is pushed to `gh-pages` branch.
-On pull request, the website is previewed with Netlify. Blog and gallery
-posts are frozen.
-
-**gallery-weekly.yml**
-
-The workflow restores the renv virtual environment and updates all
-packages. Then all gallery posts are re-rerendered. Runs once a week.
+The site is built using [Quarto](https://quarto.org/docs/get-started/) which provides an extensive [guide](https://quarto.org/docs/guide/) and [reference](https://quarto.org/docs/reference/) materials.

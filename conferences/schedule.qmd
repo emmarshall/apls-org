@@ -1,16 +1,12 @@
 ---
-pagetitle: "Schedule at a Glance"
+title: "Program & Schedule"
+title-block-banner: "../images/default-banner.svg"
 ---
 
-::: simple-info
-::: {.content-block .col-v-center}
-## 2023 AP-LS Conference has gone mobile!
-:::
-:::
 
 ::: grid
 ::: {.g-col-12 .g-col-md-6 .col-v-center}
-![](images/ap-ls-cover-2023){fig-align="center" width="160"}
+![](images/ap-ls-cover-2023){fig-align="center" width="250"}
 :::
 
 ::: {.g-col-12 .g-col-md-6 .col-v-center}
@@ -18,11 +14,11 @@ pagetitle: "Schedule at a Glance"
 >
 > tap "Download the app" to access the guide on your iOS or Android device.
 
-> Prefer the web version? Some content and networking tool may be available to you online.
+> Prefer the web version? Some content and networking tools may be available to you online.
 
 <div class="d-flex flex-wrap justify-content-start align-items-center">
-  [Download guidebook](https://guidebook.com/g/#/guides/apls2023/details){.btn .btn-outline-primary role="button"}
-  {{< downloadthis files/2023_APLS_program_grid_final.pdf dname:"program-grid" label="Download pdf" icon=file-pdf type=primary >}}
+  [{{< fa mobile-screen >}} guidebook](https://guidebook.com/g/#/guides/apls2023/details){.btn .btn-outline-primary role="button"}
+  {{< downloadthis files/2023_APLS_program_grid_final.pdf dname:"program-grid" label="Program Grid" icon=file-pdf type=primary >}}
 </div>
 
 :::
@@ -121,7 +117,7 @@ sd <- SharedData$new(grid |>
                        select(day, month, number, img, title, start, end, time, location, type, CE, details, contains("people_")))
 
 tbl_grid <- reactable(sd, 
-              defaultSorted = "day",
+              defaultSorted = c("number", "start"),
               searchable = TRUE,
               onClick = "expand",
               defaultPageSize = 30,
@@ -265,11 +261,15 @@ tbl <- tbl_grid |>
   margin-left: 20px;
   margin-right: 20px;
 }
+/* On hover, the text appears yellow */
+.header:hover[aria-sort] {
+  color: yellow;
+}
 
-.header:hover[aria-sort],
+/* When selected, the text is white */
 .header[aria-sort='ascending'],
 .header[aria-sort='descending'] {
-  color: hsl(0, 0%, 5%);
+  color: white;
 }
 
 .title {

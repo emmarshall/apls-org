@@ -1,10 +1,43 @@
 ---
 title: Pre-conference Workshops
+title-block-banner: "../images/default-banner.svg"
 ---
 
+## Pricing Information 
 
+::: panel-tabset
+## Full-Day Workshop Rates
 
-## Pre-conference
++--------------------+-----------------+----------------+
+| Status             | Early Bird\     | Regular\       |
+|                    | (before Jan 31) | (on Feb 1)     |
++:===================+:================+:===============+
+| Member             | \$200           | \$230          |
++--------------------+-----------------+----------------+
+| Non-Member         | \$250           | \$280          |
++--------------------+-----------------+----------------+
+| Student Member     | \$80            | \$100          |
++--------------------+-----------------+----------------+
+| Student Non-member | \$100           | \$120          |
++--------------------+-----------------+----------------+
+|                    |                 |                |
++--------------------+-----------------+----------------+
+
+## Half-Day Workshop Rates
+
++--------------------+-----------------+----------------+
+| Status             | Early Bird\     | Regular\       |
+|                    | (before Jan 31) | (on Feb 1)     |
++:===================+:================+:===============+
+| Member             | \$100           | \$115          |
++--------------------+-----------------+----------------+
+| Non-Member         | \$125           | \$140          |
++--------------------+-----------------+----------------+
+| Student Member     | \$40            | \$50           |
++--------------------+-----------------+----------------+
+| Student Non-member | \$50            | \$60           |
++--------------------+-----------------+----------------+
+:::
 
 ```{r}
 #| echo: false
@@ -60,7 +93,7 @@ row_details <- function(index) {
   detail
 }
 
-tbl <- reactable(
+tbl_wks <- reactable(
   preconf[, c("event", "title", "time", "location")],
   defaultSorted = "event",
   sortable = FALSE,
@@ -97,6 +130,23 @@ tbl <- reactable(
   class = "schedule-table",
   rowStyle = list(cursor = "pointer"),
   theme = reactableTheme(cellPadding = "8px 12px")
+)
+
+#add title, subtitle, footnote and source
+tbl <- tbl_wks |> 
+  #title & subtitle
+  htmlwidgets::prependContent(
+    tagList(
+      tags$img(src = "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/logo-blue.png", style = "width:50px;height:50px;display:inline-block;vertical-align:middle;"),
+      tags$div("Details & Descriptions",  style="font-size:32px;font-weight:bold;margin-left:5px;margin-bottom:0;display:inline-block;vertical-align:middle;"), 
+      tags$h3("Wednesday March 15, 2023", style="font-family:Chivo;margin-bottom:20px;margin-top:0;font-weight:400;color:#8C8C8C;padding-left:40px;")
+  )
+  ) |> 
+  #footnote and source
+  htmlwidgets::appendContent(
+    tags$div(style="text-align:center;color:black;font-size:14pt;border-bottom-style:solid;border-top-style:solid;width:910px;padding-bottom:20px;padding-top:20px;border-color:#DADADA;",
+  tags$a(href = "https://github.com/emmarshall/emmarshall.github.io/raw/main/conferences/files/2023_APLS_preconference_workshop_descriptions.pdf", download = "2023_APLS_preconference.pdf", class = "btn-action-primary btn-action btn btn-primary", role="button", "Download Descriptions")
+)
 )
 
 ```
@@ -189,3 +239,4 @@ div(class = "events",
 )
 
 ```
+

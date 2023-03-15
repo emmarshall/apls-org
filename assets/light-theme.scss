@@ -313,7 +313,7 @@ div.navbar-collapse ul.navbar-nav li {
 }
 .simple-info h3 {
    margin-top: 1rem;
-   color: $dark;
+   color: $primary;
    margin-bottom: 2rem;
 }
 
@@ -447,6 +447,7 @@ pre.text, pre.sourceCode, .cell-output pre {
 .tab-pane {
   font-family: 'Proza Libre', sans-serif;
   padding: 5px;
+  margin: 20px;
 }
 
 .box-shadow {

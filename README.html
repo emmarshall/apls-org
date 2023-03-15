@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -45,121 +108,61 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="emmarshall.github.io" class="level1">
-<h1>emmarshall.github.io</h1>
-<p>Potential new site.</p>
-<p>https://emmarshall.github.io/</p>
-<!-- PROJECT LOGO -->
-<p><br></p>
-<p align="center">
-</p><h3 align="center" class="anchored">
-<p>NHS Quarto Theme</p>
-</h3>
-<p align="center">
-</p><p>Developed by <a href="https://github.com/craig-shenton">Craig Shenton</a> @ NHS England <br> <!--<a href="/"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />--> <a href="https://github.com/craig-shenton/quarto-nhs-theme/issues">Report Bug</a> · <a href="https://github.com/craig-shenton/quarto-nhs-theme/issues">Request Feature</a></p>
-<p></p>
-<p></p>
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-<summary>
-<h2 style="display: inline-block" class="anchored" data-anchor-id="emmarshall.github.io">
-<p>Table of Contents</p>
-</h2>
-</summary>
-<ol>
-<li>
-<p><a href="#about-the-project">About The Project</a></p>
+<p>New ap-ls.org site currently at: https://emmarshall.github.io/</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/APLS_general_logo.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Logo for American Psychology-Law Society</figcaption><p></p>
+</figure>
+</div>
+<section id="ap-ls-website" class="level1">
+<h1>AP-LS Website <img src="images/APLS_general_logo.png" align="right" width="120"></h1>
+<section id="website-basics" class="level2">
+<h2 class="anchored" data-anchor-id="website-basics">Website Basics</h2>
+<p>This ap-ls.org website is built in <a href="https://www.rstudio.com/">RStudio</a> using <a href="https://quarto.org">Quarto</a>. The content for the site is stored on the AP-LS Google Drive and on <a href="https://github.com">GitHub</a>. The site is published using <a href="https://www.netlify.com/">Netlify</a>. When the site is updated in the Github respository, the new published content will appear in the <code>_site</code> directory.</p>
+</section>
+<section id="site-file-structure" class="level2">
+<h2 class="anchored" data-anchor-id="site-file-structure">Site file structure</h2>
+<p>The main content for the site is stored in the following files and directories:</p>
 <ul>
-<li>
-<a href="#folder-stucture">Folder Stucture</a>
-</li>
-<li>
-<a href="#built-with">Built With</a>
-</li>
+<li><code>_quarto.yml</code> controls site-wide parameters and defines navbar/sidebar/footer content</li>
+<li><code>_variables.yml</code> controls site-wide variables that can be inserted using shortcodes</li>
+<li><code>apls_functions.R</code> in <code>_site</code> runs the <code>r</code> functions that are used to build aspects of the site including the image carousel. Do not change this.</li>
+<li><code>index.qmd</code> is the home page</li>
+<li><code>about</code>, <code>contact</code>, <code>documents</code>, <code>events</code>, and <code>news</code> contain those respective pages for the site
+<ul>
+<li><code>documents</code>, <code>events</code>, and <code>news</code> are listing pages
+<ul>
+<li>The <code>index.qmd</code> file in each directory controls parameters for the post listings</li>
+</ul></li>
+<li><code>contact</code> has a listing section for displaying member profiles</li>
+</ul></li>
+<li><code>404.qmd</code> is the 404 page for the site</li>
+<li><code>styles.css</code> and <code>theme.scss</code> in the <code>assets</code> directory are used for additional CSS and SASS styling for the site’s appearance, such as fonts and colors
+<ul>
+<li><code>docs</code> - The root directory contains the published site.</li>
+</ul></li>
 </ul>
-</li>
-<li>
-<p><a href="#getting-started">Getting Started</a></p>
-</li><li>
-<a href="#roadmap">Roadmap</a>
-</li>
-<li>
-<a href="#contributing">Contributing</a>
-</li>
-<li>
-<a href="#license">License</a>
-</li>
-<!-- <li><a href="#acknowledgements">Acknowledgements</a></li> -->
+</section>
+<section id="setup" class="level2">
+<h2 class="anchored" data-anchor-id="setup">Setup</h2>
+<p>Before you can edit the website, you need to install a virtual environment with renv. This ensures that we all edit the website with the same package versions. The website is rendered in the CI in the same virtual environment.</p>
+<ol type="1">
+<li><p>Clone the <code>apls-org/aplswebsite</code> repository.</p></li>
+<li><p>Start a new R session in the <code>apls-org/</code> directory.</p></li>
+<li><p>Call <code>renv::activate()</code> and then <code>renv::restore()</code> to download and install all required packages.</p></li>
+<li><p>Run the following command from your terminal to preview the website:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview apls-org/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
 </ol>
-</details>
-<!-- ABOUT THE PROJECT -->
-<section id="about-the-project" class="level2">
-<h2 class="anchored" data-anchor-id="about-the-project">About The Project</h2>
-<p>An NHS Theme for deploying Quarto websites to GitHub.io pages with automated GitHub action.</p>
-<p><em><strong>Note:</strong> No data, public or private are shared in this repository.</em></p>
-<section id="folder-stucture" class="level3">
-<h3 class="anchored" data-anchor-id="folder-stucture">Folder Stucture</h3>
-<table class="table">
-<thead>
-<tr class="header">
-<th>Name</th>
-<th>Link</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>.github/workflows</td>
-<td>[<a href="/.github/workflows">Link</a>]</td>
-<td>Github Action workflow files that automate the publishing process</td>
-</tr>
-<tr class="even">
-<td>docs/</td>
-<td>[<a href="docs/">Link</a>]</td>
-<td>All files for rendering the Quarto website</td>
-</tr>
-<tr class="odd">
-<td>docs/_assets/</td>
-<td>[<a href="docs/assets">Link</a>]</td>
-<td>Art and style assets that build the page theme</td>
-</tr>
-<tr class="even">
-<td>docs/documentation</td>
-<td>[<a href="docs/">Link</a>]</td>
-<td>All markdown files here will be added to the documentation sidebar</td>
-</tr>
-<tr class="odd">
-<td>docs/posts</td>
-<td>[<a href="docs/">Link</a>]</td>
-<td>Blog posts. Each post should be in its own folder as a <code>index.qmd</code> file</td>
-</tr>
-<tr class="even">
-<td>talks</td>
-<td>[<a href="docs/">Link</a>]</td>
-<td>All markdown files here will be added to the tutorial sidebar</td>
-</tr>
-<tr class="odd">
-<td>resources</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
 </section>
-<section id="built-with" class="level3">
-<h3 class="anchored" data-anchor-id="built-with">Built With</h3>
-<ul>
-<li><a href="https://quarto.org/">Quarto</a></li>
-<li><a href="https://www.r-project.org/">R</a></li>
-</ul>
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
+<p><strong>Freeze</strong></p>
+<p>The pages are frozen so that the documents are not individually re-rendered during a global project render.</p>
 </section>
-</section>
-<section id="about" class="level2">
-<h2 class="anchored" data-anchor-id="about">About</h2>
-<p>Contact email: webmaster@ap-ls.org</p>
+<section id="quarto" class="level2">
+<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
+<p>The site is built using <a href="https://quarto.org/docs/get-started/">Quarto</a> which provides an extensive <a href="https://quarto.org/docs/guide/">guide</a> and <a href="https://quarto.org/docs/reference/">reference</a> materials.</p>
 </section>
 </section>
 
