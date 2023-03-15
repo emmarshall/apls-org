@@ -7,7 +7,7 @@ Society](images/APLS_general_logo.png)
 
 ## Website Basics
 
-This new ap-ls.org website is built in [RStudio](https://www.rstudio.com/) using [Quarto](https://quarto.org). The content for the site is stored on the AP-LS Google Drive and on [GitHub](https://github.com). The site is published using [Netlify](https://www.netlify.com/). When the site is updated in the Github respository, the new published content will appear in the `_site` directory.
+This new ap-ls.org website is built in [RStudio](https://www.rstudio.com/) using [Quarto](https://quarto.org). The content for the site is stored on the AP-LS Google Drive and on [GitHub](https://github.com). The site is published using [Netlify](https://www.netlify.com/). The root directory that contains the published site is `docs`.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/60c754e7-3b21-48ae-b752-84935991712f/deploy-status)](https://app.netlify.com/sites/ap-ls/deploys)
 
@@ -25,8 +25,6 @@ The main content for the site is stored in the following files and directories:
   - `contact` has a listing section for displaying member profiles
 - `404.qmd` is the 404 page for the site
 - `styles.css` and `theme.scss` in the `assets` directory are used for additional CSS and SASS styling for the site's appearance, such as fonts and colors
-  - `docs` - The root directory contains the published site.
-    ```
 
 ## Notes
 
