@@ -45,8 +45,7 @@ members <- combined_data |>
 
 row_details <- function(index) {
   cmt <- cmts[index, ]
-  urls <- unlist(strsplit(gsub(",", " , ", cmt$URL, perl = TRUE), "[ \n]"))
-  
+
   cmt_field <- function(name, ...) {
     if (any(is.na(...))) NULL
     else tagList(div(class = "detail-label", name), ...)
@@ -58,11 +57,6 @@ row_details <- function(index) {
   div(class = "detail-description", cmt$description),
   cmt_field("Responsibilities", cmt$responsibilities),
   cmt_field("Relation to AP-LS Vision, Mission and Values", cmt$values),
-  cmt_field("URL", lapply(urls, function(url) {
-    if (grepl("https?://", url)) tags$a(href = url, url)
-    else if (identical(url, ",")) ", "
-    else url
-  })),
   cmt_field("Additional", cmt$other),
   cmt_field("Contact", lapply(cmt$email, function(email) {
   if (grepl("@", email)) tags$a(href = paste0("mailto:", email), email)
@@ -70,12 +64,43 @@ row_details <- function(index) {
   else ""
 }))
 )
+
   
+cmt$other <- Filter(Negate(is.null), cmt$other)
+
+if (length(cmt$other) == 0) {
+  detail <- div(
+    class = "committee-detail",
+  div(class = "detail-header", cmt$name, span(class = "detail-title", cmt$chair)),
+  div(class = "detail-description", cmt$description),
+  cmt_field("Responsibilities", cmt$responsibilities),
+  cmt_field("Relation to AP-LS Vision, Mission and Values", cmt$values),
+  cmt_field("Additional", cmt$other),
+  cmt_field("Contact", lapply(cmt$email, function(email) {
+  if (grepl("@", email)) tags$a(href = paste0("mailto:", email), email)
+  else if (identical(email, ",")) ", "
+  else ""
+}))
+)
+} else {
+  detail <- div(class = "committee-detail",
+  div(class = "detail-header", cmt$name, span(class = "detail-title", cmt$chair)),
+  div(class = "detail-description", cmt$description),
+  cmt_field("Responsibilities", cmt$responsibilities),
+  cmt_field("Relation to AP-LS Vision, Mission and Values", cmt$values),
+  cmt_field("Contact", lapply(cmt$email, function(email) {
+  if (grepl("@", email)) tags$a(href = paste0("mailto:", email), email)
+  else if (identical(email, ",")) ", "
+  else ""
+}))
+)
+}
+
 if (any(members$key == cmt$key)) {
   membership <- cmt_field(
     "Committee Members",
     reactable(
-      members %>% filter(key == cmt$key),
+      members |> filter(key == cmt$key),
       pagination = FALSE,
       defaultColDef = colDef(headerClass = "header"),
       columns = list(

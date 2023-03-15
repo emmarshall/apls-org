@@ -136,6 +136,7 @@ tbl_grid <- reactable(sd,
               columns = list(
                 number = colDef(
                   name = "Date",
+                  minWidth = 100, 
                   cell = merge_column(grid, 
                             merged_name = "month",
                             merged_size = 20,
@@ -224,7 +225,7 @@ tbl <- tbl_grid |>
     tagList(
       tags$img(src = "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/logo-blue.png", style = "width:50px;height:50px;display:inline-block;vertical-align:middle;"),
       tags$div("2023 AP-LS Program Grid", style="font-size:32px;font-weight:bold;margin-left:5px;margin-bottom:0;display:inline-block;vertical-align:middle;"), 
-      tags$h3("Schedule at a glance", style="font-family:Chivo;margin-bottom:20px;margin-top:0;font-weight:400;color:#8C8C8C;padding-left:40px;")
+      tags$h3("Schedule at a glance", style="margin-bottom:20px;margin-top:0;font-weight:400;color:#8C8C8C;padding-left:40px;")
   )
   ) |> 
   #footnote and source
@@ -236,6 +237,7 @@ tbl <- tbl_grid |>
       tags$div("Last Updated: March 15, 2023", style="display:inline-block;vertical-align:middle;")
   )
 )
+
 
 ```
 
@@ -258,7 +260,7 @@ tbl <- tbl_grid |>
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
   font-variant: small-caps;
-  padding: 10px;
+  padding: 5px;
   border: 0;
 }
 
@@ -333,37 +335,53 @@ tbl <- tbl_grid |>
   margin-bottom: 10px;
 }
 
-.filters {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 1rem;
-  margin-left: -32px;
+
+@media only screen and (max-width: 600px) {
+  .screen-inset .my-reactable-table {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .screen-inset .crosstalk-filtered-select {
+    width: 100%;
+  }
+  
+  .screen-inset .crosstalk-filtered-checkbox {
+    display: block;
+    margin-bottom: 10px;
+  }
 }
+
+
 
 
 ```
 
 ```{r}
 #| echo: false
-#| include: true
-#| output: true
+#| warning: false
+#| message: false
 #| column: screen-inset
 
 bscols(
   # bootstrap is built off a 12 wide grid system,
   # so we have 1/6 and 5/6 width below
-  widths = c(2, 10),
+  widths = c(12, 12),
   list(
     tags$div(
       filter_checkbox("day", "DAY", sd, ~factor(day)),
-      filter_select("type", "EVENT TYPE", sd, ~type),
-      filter_select("CE", "CE CREDITS", sd, ~CE),
-      style = "font-size:20px;margin-top: 130px;margin-left: 20px;"
-    )
-  ),
-  # add our table next to the filters
-  tbl
+      filter_checkbox("CE", "CE CREDITS", sd, ~CE),
+      style = "font-size:20px;"
+    ),
+    filter_select("type", "EVENT TYPE", sd, ~type),
+    tags$div(
+      class = "table-responsive",
+      tags$table(
+        class = "my-reactable-table",
+        tbl
+      )
+    ),
+    style = "display: flex; flex-wrap: wrap;"
+  )
 )
-
-
 ```

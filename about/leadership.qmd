@@ -48,7 +48,7 @@ div(class = "officer-grid",
 #| message: false
 
 info <- tibble(
-  title = "Looking for more records?",
+  title = "",
   text = "View our list of past presidents and presidential addresses",
   ctr = "Learn more",
   link = "presidents/presidents.html",
@@ -120,4 +120,4 @@ div(class = "officer-grid grid-two",
   })
 )
 ```
-:::
+
