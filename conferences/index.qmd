@@ -246,7 +246,7 @@ Pre-conference Workshops will take place on Wednesday March 15.
 ::: content-block-blue
 ### The 2023 AP-LS Program Grid and Schedule is available to download and view online!
 
-[Conference Program {{< fa arrow-right >}}](schedule.html){.btn-action .btn .btn-outline-primary .btn-lg role="button"}
+[Conference Program {{< fa arrow-right >}}](schedule.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
 :::
 :::
 :::
