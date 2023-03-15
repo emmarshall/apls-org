@@ -43,8 +43,6 @@ website:
             href: conferences/index.qmd
           - text: Program & Schedule
             href: conferences/schedule.qmd
-          - text: Sponsors & Exhibitors
-            href: conferences/sponsors.qmd
       - href: resources/index.qmd
         text: Resources
       - href: membership/membership.qmd
