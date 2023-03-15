@@ -1,18 +1,18 @@
 ---
-pagetitle: "Committees"
-subtitle: | 
-  List of current committees and task forces for the American Psychology-Law Society. 
+title: "Committees & Task Forces"
+description: | 
+  List of current committees and task forces for the American Psychology-Law Society.
+title-block-banner: "../images/default-banner.svg"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Committees and Task Forces
 
 The Society operates through a number of standing committees that work to carry out its mission and to accomplish particular tasks.
 
-::: callout-note
+::: {.callout-note collapse="true"}
 ## Executive Committee
 
 Occasionally, the President, in consultation with the Executive Committee, will also establish ad hoc committees and task forces. [Learn more about President and Executive Committee](leadership.html)

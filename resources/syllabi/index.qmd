@@ -4,6 +4,7 @@ description: Collection of syllabi in Psychology & Law.
 date: last-modified
 categories: 
   - Teaching, Training & Education
+title-block-banner: "../../images/default-banner.svg"
 ---
 
 ```{r setup, include=FALSE}
@@ -12,6 +13,7 @@ source("../../_site/apls_functions.R")
 ```
 
 
+:::{.column-body-outset}
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
 #| label: table
 #| echo: false
@@ -177,3 +179,5 @@ tags$link(href = "https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght
 }
 
 ```
+
+:::

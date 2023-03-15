@@ -1,8 +1,7 @@
 ---
 title: AP-LS By-laws
 date: last-modified
-title-block-banner: true
-title-block-banner-color: "#FBF9F4"
+title-block-banner: "../../images/default-banner.svg"
 toc: true
 ---
 ### Article I: Name and Purpose

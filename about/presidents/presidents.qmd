@@ -1,10 +1,9 @@
 ---
 title: Presidential Archives
 subtitle: List of former AP-LS Presidents and their presidential addresses. 
-title-block-banner: true
+title-block-banner: "../../images/default-banner.svg"
 ---
 
-Insert content from Lindsey & presidential address videos
 
 ## Div. 41 Presidents
 ### American Psychology-Law Society

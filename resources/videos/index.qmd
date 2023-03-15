@@ -2,7 +2,7 @@
 title: "AP-LS Videos"
 subtitle: | 
   Archive of videos, webinars and panel discussions related to the American Psychology-Law Society and its members
-title-block-banner: true
+title-block-banner: "../../images/default-banner.svg"
 listing:
   id: videos
   fields: [image, date, title, subtitle]

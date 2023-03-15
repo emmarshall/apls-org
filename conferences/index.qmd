@@ -130,7 +130,7 @@ div(class = "bg-light",
 ```
 :::
 
-## Welcome to Philadelphia!
+## Welcome to Philadelphia! {#welcome}
 
 <figure class="text-end">
 
@@ -141,25 +141,29 @@ div(class = "bg-light",
 We hope that you find the 2023 conference enriching, invigorating and collaborative. We are so excited to be in Philadelphia with all of you. Enjoy!
 
 </p>
-
 </blockquote>
-
 <figcaption class="blockquote-footer">
-
 2023 AP-LS Conference Co-Chairs <cite title="Andrea Avila & Miko M. Wilford">Andrea Avila & Miko M. Wilford</cite>
-
 </figcaption>
-
 </figure>
 
 ::: {.panel-tabset .box-shadow}
 ## {{< fa recycle >}} Mini Programs
 
-Printed mini programs in lieu of full programs: As a step toward being greener and cutting down on costs as an organization, we decided to forego the printing of the full programs again this year. Instead, conference goers will receive printed mini programs. Conference goers can refer to the full program PDF or the conference program mobile app via their digital devices.
+### Printed mini programs in lieu of full programs
+
+As a step toward being greener and cutting down on costs as an organization, we decided to forego the printing of the full programs again this year. Instead, conference goers will receive printed mini programs. 
+
+Conference goers can refer to the [schedule page](schedule.html) or full program PDF or the conference program mobile app via their digital devices.
 
 ## {{< fa wifi >}} Internet
 
-Note about wireless internet limitations in conference rooms: While those staying at the conference hotels will have complimentary internet access in their individual rooms, the actual conference rooms will not include wireless Internet access. Thus, we recommend downloading the full program PDF and the conference mobile app prior to arriving in Philadelphia.
+### Wireless internet limitations in conference rooms
+::: {.callout-caution}
+While those staying at the conference hotels will have complimentary internet access in their individual rooms, the actual conference rooms will not include wireless Internet access. 
+
+Thus, we recommend downloading the full program PDF and the conference mobile app prior to arriving in Philadelphia.
+:::
 
 ## {{< fa head-side-cough >}} COVID Precautions
 
@@ -177,7 +181,7 @@ If you are experiencing any COVID symptoms, do not visit any conference spaces.
 
 ### Explore Philadelphia with colleagues on a 5k Fun Run, sponsored by the AP-LS Student Committee!
 
-::: callout-important
+::: callout-note
 #### **MEET IN LOBBY OF THE CONFERENCE HOTEL AT 7:00 AM**
 
 REFRESHMENTS WILL BE PROVIDED AFTER THE RACE

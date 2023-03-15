@@ -1,6 +1,8 @@
 ---
+title: "Resources" 
 sidebar: true
 toc: false
+title-block-banner: "../images/default-banner.svg"
 page-layout: article
 ---
 
@@ -49,9 +51,7 @@ setkeyv(content, "category")
 
 
 
-## Resources 
-
-Stay up to date with the activities of AP-LS and its members.
+### Stay up to date with the activities of AP-LS and its members.
 
 ```{r, echo = FALSE}
 resource_grid(content[.("general")])

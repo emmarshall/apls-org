@@ -1,6 +1,7 @@
 ---
 title: "Telepsychology Resources"
 date: last-modified
+title-block-banner: "../../images/default-banner.svg"
 categories:
   - Telepsychology
 ---

@@ -12,7 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../_site/apls_functions.R")
 ```
 
-::: panel-tabset
+::: {.column-body-outset}
+::: {.panel-tabset .box-shadow}
 ## Join
 
 ##### Interested in becoming a member of AP-LS?
@@ -241,7 +242,7 @@ Seattle, WA 98133 </br>
 {{< fa envelope >}} office\@apls.org
 
 
-::: callout-tip
+::: {.callout-tip collapse="true}
 ## Forensic Psychology Diplomat 
 
 If you are interested in obtaining Forensic Psychology Diplomat status in the American Board of Forensic Psychology and American Board of Professional Psychology, please contact: 
@@ -254,6 +255,7 @@ Chapel Hill, NC 27516 </br>
 {{< fa fax >}} (919) 537-8034
 
 More information can be found on websites: [American Board of Forensic Psychology](http://www.abfp.com/) and [American Board of Professional Psychology](http://www.abpp.org/).
+:::
 :::
 
 :::

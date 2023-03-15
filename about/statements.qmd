@@ -1,5 +1,6 @@
 ---
 title: Policy Statements
+title-block-banner: "../images/default-banner.svg"
 ---
 
 ## Statement on Racism, Prejudice and Hate

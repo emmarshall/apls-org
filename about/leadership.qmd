@@ -1,5 +1,6 @@
 ---
-pagetitle: "Leadership"
+title: "Leadership"
+title-block-banner: "../images/default-banner.svg"
 toc: false
 ---
 
@@ -8,10 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../_site/apls_functions.R")
 ```
 
-# Leadership
-
-## Officers of the Executive Committee
-
+# Officers of the Executive Committee
 ```{r}
 #| echo: false
 #| message: false
@@ -41,9 +39,6 @@ div(class = "officer-grid",
 ```
 
 
-::: vspace
-:::
-
 ::: {.column-screen .dark-section}
 ```{r}
 #| label: President info-bar
@@ -53,8 +48,8 @@ div(class = "officer-grid",
 #| message: false
 
 info <- tibble(
-  title = "Looking for information about the past?",
-  text = "View our list of past presidents and presidential addresses.",
+  title = "Looking for more records?",
+  text = "View our list of past presidents and presidential addresses",
   ctr = "Learn more",
   link = "presidents/presidents.html",
   icon = "fas fa-scale-balanced"
@@ -67,7 +62,7 @@ cat(html)
 ```
 :::
 
-::: vspace2
+::: vspace
 :::
 
 ```{r}
@@ -125,3 +120,4 @@ div(class = "officer-grid grid-two",
   })
 )
 ```
+:::

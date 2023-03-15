@@ -1,5 +1,6 @@
 ---
 title: Newsletter Archive
+title-block-banner: "../../images/default-banner.svg"
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
