@@ -19,12 +19,12 @@ The main content for the site is stored in the following files and directories:
 - `_variables.yml` controls site-wide variables that can be inserted using shortcodes
 - `apls_functions.R` in `_site` runs the `r` functions that are used to build aspects of the site including the image carousel. Do not change this. 
 - `index.qmd` is the home page
-- `about`, `contact`, `documents`, `events`, and `news` contain those respective pages for the site
-  - `documents`, `events`, and `news` are listing pages
-      - The `index.qmd` file in each directory controls parameters for the post listings
-  - `contact` has a listing section for displaying member profiles
+- `about`, `conferences`, `publications`, `resources`, and `membership` are folders that contain those respective pages for the site and other listing pages
+  - The main page for each section is saved as `index.qmd`
+  - For the pages that include listings, the `index.qmd` file in each folder specifies what is included
 - `404.qmd` is the 404 page for the site
 - `styles.css` and `theme.scss` in the `assets` directory are used for additional CSS and SASS styling for the site's appearance, such as fonts and colors
+  - `index.css` in `conferences/` has additional styling for the conference page
 
 ## Notes
 
