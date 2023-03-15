@@ -6,7 +6,6 @@ project:
     - "*.pdf"
 
 website:
-  title: "American Psychology-Law Society"
   site-url: https://ap-ls.netlify.app/
   repo-url: https://github.com/emmarshall/emmarshall.github.io
   repo-actions: [edit, issue]
