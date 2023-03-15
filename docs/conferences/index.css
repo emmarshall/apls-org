@@ -273,9 +273,6 @@ a:hover, a:focus, a:active, a:visited {
         text-align: center;
         max-height: 550px;
     }
-    .speaker .feature {
-        width: 100%
-    }
     .footer-credit {
         text-align: center;
         padding: 40px 20px;
@@ -294,24 +291,11 @@ a:hover, a:focus, a:active, a:visited {
         padding: 3em 1em 1em 1em;
         text-align: center;
     }
-    .speaker .feature {
-        width: 49%;
-        margin-right: 7px;
-    }
     ul.footer-menu {
         margin-top: 0;
     }
 }
 
-
-/* iPad Landscape */
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .speaker .feature {
-        width: 49%;
-        margin-right: 9px;
-    }
-}
 
 
 
