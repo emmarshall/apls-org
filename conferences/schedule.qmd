@@ -136,7 +136,7 @@ tbl_grid <- reactable(sd,
               columns = list(
                 number = colDef(
                   name = "Date",
-                  minWidth = 100, 
+                  minWidth = 125, 
                   cell = merge_column(grid, 
                             merged_name = "month",
                             merged_size = 20,
