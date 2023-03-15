@@ -28,25 +28,6 @@ The main content for the site is stored in the following files and directories:
 - `404.qmd` is the 404 page for the site
 - `styles.css` and `theme.scss` in the `assets` directory are used for additional CSS and SASS styling for the site's appearance, such as fonts and colors
   - `docs` - The root directory contains the published site.
-
-## Setup
-
-Before you can edit the website, you need to install a virtual
-environment with renv. This ensures that we all edit the website with
-the same package versions. The website is rendered in the CI in the same
-virtual environment.
-
-1.  Clone the `apls-org/aplswebsite` repository.
-
-2.  Start a new R session in the `apls-org/` directory.
-
-3.  Call `renv::activate()` and then `renv::restore()` to download and
-    install all required packages.
-
-4.  Run the following command from your terminal to preview the website:
-    
-    ``` bash
-    quarto preview apls-org/
     ```
 
 ## Notes
