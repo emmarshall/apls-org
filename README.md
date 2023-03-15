@@ -1,7 +1,4 @@
 
-
-New ap-ls.org site currently at: https://emmarshall.github.io/
-
 ![Logo for American Psychology-Law
 Society](images/APLS_general_logo.png)
 
@@ -10,7 +7,7 @@ Society](images/APLS_general_logo.png)
 
 ## Website Basics
 
-This ap-ls.org website is built in [RStudio](https://www.rstudio.com/) using [Quarto](https://quarto.org). The content for the site is stored on the AP-LS Google Drive and on [GitHub](https://github.com). The site is published using [Netlify](https://www.netlify.com/). When the site is updated in the Github respository, the new published content will appear in the `_site` directory.
+This new ap-ls.org website is built in [RStudio](https://www.rstudio.com/) using [Quarto](https://quarto.org). The content for the site is stored on the AP-LS Google Drive and on [GitHub](https://github.com). The site is published using [Netlify](https://www.netlify.com/). When the site is updated in the Github respository, the new published content will appear in the `_site` directory.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/60c754e7-3b21-48ae-b752-84935991712f/deploy-status)](https://app.netlify.com/sites/ap-ls/deploys)
 
