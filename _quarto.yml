@@ -6,11 +6,6 @@ project:
     - "*.pdf"
 
 website:
-  site-url: https://ap-ls.netlify.app/
-  repo-url: https://github.com/emmarshall/emmarshall.github.io
-  repo-actions: [edit, issue]
-
-website:
   title: "The American Psychology-Law Society"
   favicon: "assets/favicon_io/favicon.ico"
   search: true
