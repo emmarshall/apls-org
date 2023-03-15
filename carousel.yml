@@ -1,11 +1,12 @@
-- caption: "Register for the 2023 AP-LS Conference"
+- caption: "Get ready for the 2023 AP-LS Conference"
   image: "images/example_3.png"
-  link: "https://ap-ls.org/2023-apls-conference"
+  link: "conference/index.html"
   
-- caption: "Stay up to date with the newsletter"
-  image: "images/example_2.png"
-  link: "https://ap-ls.org/newsletter"
+- caption: "Follow Law & Human Behavior"
+  image: "images/lhb_sm.png"
+  link: "https://twitter.com/lhb_apls"
 
-- caption: "Upcoming deadlines example"
-  image: "images/example_1.png"
-  link: ""
+- caption: "Want to learn more about AP-LS grants & awards?"
+  image: "images/undergrad_award.jpeg"
+  link: "awards/index.html"
+  

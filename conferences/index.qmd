@@ -1,6 +1,5 @@
 ---
 pagetitle: "2023 American Psychology-Law Society Conference" 
-section-divs: false
 toc: false
 css: index.css
 editor: source
@@ -14,7 +13,6 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../_site/apls_functions.R")
 ```
 
-
 ```{=html}
     <body id="page-top" data-spy="scroll" data-target="side-menu">
       <nav class="side-menu">
@@ -24,39 +22,74 @@ source("../_site/apls_functions.R")
           </li>
           <li>
             <a href="#hotel" class="page-scroll">
-              <span class="menu-title">Home</span>
-              <span class="dot"></span>
-            </a>
-          </li>
-          <li>
-            <a href="#register" class="page-scroll">
-              <span class="menu-title">Register</span>
-              <span class="dot"></span>
-            </a>
-          </li>
-          <li>
-            <a href="#hotel" class="page-scroll">
               <span class="menu-title">Hotel</span>
               <span class="dot"></span>
             </a>
           </li>
           <li>
+            <a href="#preconference" class="page-scroll">
+              <span class="menu-title">Preconference</span>
+              <span class="dot"></span>
+            </a>
+          </li>
+          <li>
+            <a href="#events" class="page-scroll">
+              <span class="menu-title">Events</span>
+              <span class="dot"></span>
+            </a>
+          </li>
+          <li>
             <a href="#program" class="page-scroll">
-              <span class="menu-title">Schedule</span>
+              <span class="menu-title">Program</span>
               <span class="dot"></span>
             </a>
           </li>
         </ul>
       </nav>
 ```
-
-::: {.column-screen}
-::: {#home .row .hero-header}
-::: {.col-md-12}
-
-[Register now](#register){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} 
-[Conference Program](#program){.btn-action .btn .btn-secondary role="button"}
+::: column-screen
+::: hero-banner
+::: {.hero-image .hero-image-left}
+![](images/left-hero.svg){fig-alt="Series of images connected to Philadelphia including an eagle, the liberty bell and a philly-cheesesteak."}
 :::
+
+::: content-block
+# 2023 AP-LS Annual Conference
+
+### Philadelphia, PA \| March 16-18, 2023
+
+::: hero-buttons
+[Register now](#register){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [Conference Program](#program){.btn-action .btn .btn-secondary role="button"}
+:::
+:::
+
+::: {.hero-image .hero-image-right}
+![](images/right-hero.svg){fig-alt="Series of images connected to Philadelphia including an eagle, the liberty bell and a philly-cheesesteak."}
+:::
+:::
+:::
+
+::: simple-info
+::: {.content-block .col-v-center}
+## 2023 AP-LS Conference has gone mobile!
+:::
+:::
+
+::: grid
+::: {.g-col-12 .g-col-md-6 .col-v-center}
+> #### Get the Guide on your mobile device.
+>
+> tap "Download the app" to access the guide on your iOS or Android device.
+
+![](images/qrc.png){fig-align="center" width="160"}
+
+> Prefer the web version? Some content and networking tool may be available to you online.
+
+[Download guidebook](https://guidebook.com/g/#/guides/apls2023/details){.btn-action-primary .btn-action .btn .btn-primary role="button"}
+:::
+
+::: {.g-col-12 .g-col-md-6 .col-v-center}
+![](images/guidebook_phone.png){width="300"}
 :::
 :::
 
@@ -69,9 +102,9 @@ source("../_site/apls_functions.R")
 
 content = rowwise_table(~name, ~icon, ~link,
   "Hotel", "building", "#hotel",
-    "Registration", "person-badge", "#register",     
-    "Schedule", "calendar-event", "#program",
-  "Preconference", "person-workspace", "#workshops",
+  "Registration", "person-badge", "#register",   
+  "Workshops", "person-workspace", "#workshops",
+  "Schedule", "calendar-event", "#program",
   "Sponsors", "bag-check", "#sponsors"
 )
 div(class = "bg-light",
@@ -96,28 +129,18 @@ div(class = "bg-light",
 
 ```
 :::
-:::
 
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-6}
-![](profile2.jpg)
-:::
-
-::: {.g-col-12 .g-col-md-6}
-# Hi, I'm Albert Rapp.
-I'm a mathematics PhD students with a passion for R, data visualization, Shiny and statistics/machine learning. On this blog, I share and teach what I learn.
-
-::: column-page
 ::: {simple-info}
-## Hotel Information {#hotel}
+# Hotel Information {#hotel}
 
-::: panel-tabset
+::: {.panel-tabset .box-shadow}
 ## Philadelphia Marriott Downtown
 
-The 2023 AP-LS Conference will be held at the [Philadelphia Marriott Downtown](https://www.marriott.com/en-us/hotels/phldt-philadelphia-marriott-downtown/overview/?scid=8e4624f4-e96a-4d68-b772-59df755b5c65&gclsrc=ds)
+![](images/hotel.jpeg){fig-align="center"}
 
-> 1201 Market Street </br> Philadelphia, PA, USA, 19107 *guest entrance at 1200 Filbert Street*
+> #### The 2023 AP-LS Conference will be held at the [Philadelphia Marriott Downtown](https://www.marriott.com/en-us/hotels/phldt-philadelphia-marriott-downtown/overview/?scid=8e4624f4-e96a-4d68-b772-59df755b5c65&gclsrc=ds)
+>
+> 1201 Market Street </br> Philadelphia, PA, USA, 19107 <br> Guest entrance at 1200 Filbert Street</span> [{{< fa map-location-dot >}} Get Directions](https://www.google.com/maps?daddr=39.9526295,-75.16031){.btn-action .btn .btn-info .ml-auto role="button"}
 
 ## Conference Rates
 
@@ -130,224 +153,301 @@ Rate not inclusive of final taxes/fees
 [{{< fa bell-concierge >}} Book a room](%22https://book.passkey.com/gt/218524854?gtid=ebf7480702a2b34d863a79c09cb5f074%22){.btn-action .btn .btn-primary role="button"}
 :::
 :::
+
+------------------------------------------------------------------------
+
+# Registration {#register}
+
+::: {.simple-info-blue .alt-background-blue}
+::: content-block-blue
+### Online registration is now closed. You may still register in person at the conference.
+
+[{{< fa user-plus >}} Register Now](%22https://apls.memberclicks.net/2023_conf_registration%22){.btn-action .btn-action .btn .btn-success role="button"}
+:::
 :::
 
-## Register to Attend {#register}
+::: {.callout-note collapse="true"}
+## REGISTRATION RATES & INCLUSIONS
 
-Registration is now open! Early Bird registration rates available on or before January 31, 2023. Additional pricing information listed below.
++-----------------------------------------+-----------------+---------------+
+| Status                                  | Early Bird\     | Regular\      |
+|                                         | (before Jan 31) | (on Feb 1)    |
++:========================================+:================+:==============+
+| Full Member                             | \$245           | \$275         |
++-----------------------------------------+-----------------+---------------+
+| Early Career Professional\              | \$180           | \$210         |
+| Member                                  |                 |               |
++-----------------------------------------+-----------------+---------------+
+| Student Member                          | \$65            | \$95          |
++-----------------------------------------+-----------------+---------------+
+| Student Member *First-Author Presenter* | \$25            | \$25          |
++-----------------------------------------+-----------------+---------------+
+| Student Non-member                      | \$115           | \$145         |
++-----------------------------------------+-----------------+---------------+
+| Non-member                              | \$330           | \$400         |
++-----------------------------------------+-----------------+---------------+
+:::
 
-[{{< fa user-plus >}} Register Now](%22https://apls.memberclicks.net/2023_conf_registration%22){.btn-action .btn .btn-primary role="button"}
+------------------------------------------------------------------------
 
-```{=html}
+# Pre-conference Workshops {#preconference}
 
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
+[Wednesday March 15, 2023]{.badge .bg-warning}
 
-td, th {
-  border: 1px solid #FBF9F4;
-  text-align: left;
-  padding: 8px;
-}
+::: panel-tabset
+## Full-Day Workshop Rates
 
-tr:nth-child(even) {
-  background-color: #FBF9F4;
-}
-</style>
-</head>
-<body>
++--------------------+-----------------+----------------+
+| Status             | Early Bird\     | Regular\       |
+|                    | (before Jan 31) | (on Feb 1)     |
++:===================+:================+:===============+
+| Member             | \$200           | \$230          |
++--------------------+-----------------+----------------+
+| Non-Member         | \$250           | \$280          |
++--------------------+-----------------+----------------+
+| Student Member     | \$80            | \$100          |
++--------------------+-----------------+----------------+
+| Student Non-member | \$100           | \$120          |
++--------------------+-----------------+----------------+
+|                    |                 |                |
++--------------------+-----------------+----------------+
 
-<h3>Registration Rates</h3>
+## Half-Day Workshop Rates
 
-<table>
-  <tr>
-    <th>Status</th>
-    <th>Early Bird <br>(before Jan 31)</th>
-    <th>Regular <br>(on Feb 1)</th>
-  </tr>
-  <tr>
-    <td>Full Member</td>
-    <td>$245</td>
-    <td>$275</td>
-  </tr>
-  <tr>
-    <td>Early Career Professional <br> Member</td>
-    <td>$180</td>
-    <td>$210</td>
-  </tr>
-  <tr>
-    <td>Student Member</td>
-    <td>$65</td>
-    <td>$95</td>
-  </tr>
-  <tr>
-    <td>Student Member <em>First-Author Presenter</em></td>
-    <td>$25</td>
-    <td>$25</td>
-  </tr>
-  <tr>
-    <td>Student Non-member</td>
-    <td>$115</td>
-    <td>$145</td>
-  </tr>
-  <tr>
-    <td>Non-member</td>
-    <td>$330</td>
-    <td>$400</td>
-  </tr>
-</table>
-
-</body>
-</html>
-```
++--------------------+-----------------+----------------+
+| Status             | Early Bird\     | Regular\       |
+|                    | (before Jan 31) | (on Feb 1)     |
++:===================+:================+:===============+
+| Member             | \$100           | \$115          |
++--------------------+-----------------+----------------+
+| Non-Member         | \$125           | \$140          |
++--------------------+-----------------+----------------+
+| Student Member     | \$40            | \$50           |
++--------------------+-----------------+----------------+
+| Student Non-member | \$50            | \$60           |
++--------------------+-----------------+----------------+
 :::
 
 ```{r}
-#| label: info-bar
-#| output: asis
 #| echo: false
 #| warning: false
 #| message: false
 
-info <- tibble(
-  title = "Need help with registration costs?",
-  text = "Become a Student Volunteer.",
-  ctr = "Contact office",
-  link = "mailto:office@ap-ls.org",
-  icon = "fas fa-hand-holding-dollar"
+library(readxl)
+library(dplyr)
+library(tidyr)
+library(reactable)
+library(reactablefmtr)
+library(htmltools)
+library(glue)
+library(stringr)
+
+data <- read_excel("AP-LS_2023_Program.xlsx", sheet = "preconference")
+
+preconf <- data |> 
+  mutate(across(c(start, end), ~ as.POSIXct(., format = "%I:%M:%S %p")))  |>  
+  mutate(time = paste(format(start, "%I:%M %p"), " - ", format(end, "%I:%M %p"))
+    ) |> 
+  mutate(event = paste0(event, " (", type, ")")) |> 
+  select(time, title, people, location, event, CE, level, description, contains("objective_"))
+
+
+row_details <- function(index) {
+  evnt <- preconf[index, ]
+
+  objectives <- lapply(paste0("objective_", 1:5), function(obj_col) {
+    if (is.na(evnt[[obj_col]])) {
+      NULL
+    } else {
+      div(evnt[[obj_col]])
+    }
+  })
+  
+  evnt_field <- function(name, ...) {
+    if (any(is.na(...))) NULL
+    else tagList(div(class = "detail-label", name), ...)
+  }
+  
+  detail <- div(
+    class = "schedule-detail",
+    div(class = "detail-header", evnt$title, span(class = "detail-title", evnt$event)),
+    evnt_field("CE Credits", evnt$CE),
+    evnt_field("Level", evnt$level),
+    evnt_field("Presenters", evnt$people),
+    evnt_field("Description", evnt$description),
+    evnt_field("Learning Objectives", div(class = "objectives", objectives))
+
+  )
+  
+  detail
+}
+
+tbl_wks <- reactable(
+  preconf[, c("event", "title", "time", "location")],
+  defaultSorted = "event",
+  sortable = FALSE,
+  defaultPageSize = 40,
+  onClick = "expand",
+  defaultColDef = colDef(headerClass = "header"),
+  columns = list(
+    event = colDef(
+      name = "Session", 
+      minWidth = 500,
+      class = "committee-title", 
+      cell = merge_column(preconf, 
+                            merged_name = "title",
+                            merged_size = 16,
+                            merged_color = "#252525",
+                            merged_position = "below")
+      ),
+    title = colDef(show = FALSE),
+    time = colDef(
+        name = "Details",
+        format = colFormat(separators = TRUE),
+        minWidth = 200, 
+        class = "number",
+        cell = merge_column(preconf, 
+                            merged_name = "location",
+                            merged_size = 16,
+                            merged_color = "gray",
+                            merged_position = "below")
+        ),
+    location = colDef(show = FALSE)
+  ),
+  details = row_details,
+  wrap = TRUE,
+  class = "schedule-table",
+  rowStyle = list(cursor = "pointer"),
+  theme = reactableTheme(cellPadding = "8px 12px")
 )
 
-students <- generate_info_bar(info)
-
-cat(students)
+#add title, subtitle, footnote and source
+tbl <- tbl_wks |> 
+  #title & subtitle
+  htmlwidgets::prependContent(
+    tagList(
+      tags$img(src = "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/logo-blue.png", style = "width:50px;height:50px;display:inline-block;vertical-align:middle;"),
+      tags$div("Details & Descriptions", style="font-size:26px;font-weight:bold;margin-left:5px;margin-bottom:0;display:inline-block;vertical-align:middle;")
+  )
+  ) |> 
+  #footnote and source
+  htmlwidgets::appendContent(
+    tags$div(style="text-align:center;color:black;font-size:14pt;border-bottom-style:solid;border-top-style:solid;width:910px;padding-bottom:20px;padding-top:20px;border-color:#DADADA;",
+  tags$a(href = "https://github.com/emmarshall/emmarshall.github.io/raw/main/conferences/files/2023_APLS_preconference_workshop_descriptions.pdf", download = "2023_APLS_preconference.pdf", class = "btn-action-primary btn-action btn btn-primary", role="button", "Download Descriptions")
+)
+)
 
 ```
 
-::: {.column .col-v-center width="15%"}
-:::
-
-::: {.column .col-v-center width="70%"}
-
-## Pre-conference Workshops
-
-### Wednesday March 15, 2023
-
-```{=html}
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #FBF9F4;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #FBF9F4;
-}
-</style>
-</head>
-<body>
-
-<h2>Full-Day Workshop Rates</h2>
-
-<table>
-  <tr>
-    <th>Status</th>
-    <th>Early Bird <br>(before Jan 31)</th>
-    <th>Regular <br>(on Feb 1)</th>
-  </tr>
-  <tr>
-    <td>Member</td>
-    <td>$200</td>
-    <td>$230</td>
-  </tr>
-  <tr>
-    <td>Non-Member</td>
-    <td>$250</td>
-    <td>$280</td>
-  </tr>
-  <tr>
-    <td>Student Member</td>
-    <td>$80</td>
-    <td>$100</td>
-  </tr>
-  <tr>
-    <td>Student Non-member</td>
-    <td>$100</td>
-    <td>$120</td>
-  </tr>
-</table>
-
-</body>
-</html>
+```{r echo=FALSE}
+tags$link(href = "https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,700;1,400&display=swap", rel = "stylesheet")
 ```
-```{=html}
-<html>
-<head>
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+
+```{css echo=FALSE, warning=FALSE, message=FALSE}
+
+@import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css); 
+
+.events {
+  font-family: 'Proza Libre', sans-serif;
 }
 
-td, th {
-  border: 1px solid #FBF9F4;
-  text-align: left;
-  padding: 8px;
+.schedule-table {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  border: 1px solid hsl(213, 33%, 93%);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
-tr:nth-child(even) {
-  background-color: #FBF9F4;
+.header {
+  border-bottom-color: #FBF9F4;
+  color: #FBF9F4;
+  background: #1B3264;
+  font-weight: 500;
+  font-size: 1.6rem;
+  letter-spacing: -.02rem;
+  font-variant: small-caps;
+  padding: 5px;
+  border: 0;
 }
-</style>
-</head>
-<body>
 
-<h2>Half-Day Workshop Rates</h2>
 
-<table>
-  <tr>
-    <th>Status</th>
-    <th>Early Bird <br>(before Jan 31)</th>
-    <th>Regular <br>(on Feb 1)</th>
-  </tr>
-  <tr>
-    <td>Member</td>
-    <td>$100</td>
-    <td>$115</td>
-  </tr>
-  <tr>
-    <td>Non-Member</td>
-    <td>$125</td>
-    <td>$140</td>
-  </tr>
-  <tr>
-    <td>Student Member</td>
-    <td>$40</td>
-    <td>$50</td>
-  </tr>
-  <tr>
-    <td>Student Non-member</td>
-    <td>$50</td>
-    <td>$60</td>
-  </tr>
-</table>
+.title {
+  font-size: 1.5rem;
+}
 
-</body>
-</html>
+.schedule-detail {
+  padding: 24px;
+  box-shadow: inset 0 1px 3px #95a5a6;
+  background: shift-color(#FBF9F4, -55%);
+  'Proza Libre', sans-serif;
+}
+.detail-label {
+  margin: 1.25rem 0 0.25rem;
+  font-size: 1.2rem;
+  color: #95a5a6;
+  text-transform: uppercase;
+}
+.detail-header {
+  margin-bottom: 1rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+.detail-title {
+  margin-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #252525;
+}
+
+.objectives {
+  font-size: .0875;
+  color: #252525;
+  line-height: 1.5;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.number {
+    color = #252525,
+    font-size: .08rem;
+    font-weight: 600;
+}
+
 ```
+
+```{r}
+#| echo: false
+#| include: true
+#| output: true
+#| column: screen-inset-shaded
+
+div(class = "events",
+    tbl
+)
+
+```
+
+------------------------------------------------------------------------
+
 ## Program & Schedule {#program}
 
+::: panel-tabset
+
+## Student Fun Run
+
+![](images/fun-run.png){fig-align="center"}
+
+[COST: $25.00]{.badge .bg-warning}
+
+### Explore Philadelphia with colleagues on a 5k Fun Run, sponsored by the AP-LS Student Committee!
+
+MEET IN LOBBY OF THE CONFERENCE HOTEL AT 7:00 AM ***REFRESHMENTS WILL BE PROVIDED AFTER THE RACE*** Funds raised are used to support student committee conference awards
+
+{{< downloadthis files/2023_AP-LS_Fun_Run_Waiver.pdf dname="2023_AP-LS_Fun_Run_Waiver.pdf" label="Download Waiver" icon="download" type="primary" >}}
+
+## Program Grid
+
 {{< downloadthis docs/2023_Conference_Grid-Updated.pdf dname="2023_Conference_Grid-Updated" label="Download Program" icon="file-pdf" type="primary" >}}
+
+:::

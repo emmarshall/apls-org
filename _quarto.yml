@@ -37,8 +37,14 @@ website:
             href: https://www.apa.org/pubs/journals/lhb/
       - href: awards/index.qmd
         text: Awards
-      - href: conferences/index.qmd
-        text: Conferences
+      - text: Conferences
+        menu:
+          - text: 2023 AP-LS Conference
+            href: conferences/index.qmd
+          - text: Program & Schedule
+            href: conferences/schedule.qmd
+          - text: Sponsors & Exhibitors
+            href: conferences/sponsors.qmd
       - href: resources/index.qmd
         text: Resources
       - href: membership/membership.qmd
@@ -93,13 +99,13 @@ website:
        
   page-footer:
     left: |
-      <b>© 2022 American Psychology-Law Society</b>  <br>
+      <b>© 2023 American Psychology-Law Society</b>  <br>
       made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)
     right:
       - icon: twitter
         href: https://twitter.com/apls41
-      - icon: github
-        href: https://github.com/emmarshall 
+      - icon: facebook
+        href: https://www.facebook.com/APLS41 
 
 format:
   html:

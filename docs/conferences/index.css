@@ -1,40 +1,12 @@
 /* css for conference page */
 
-/* Image background hero banner */
-
-.hero-banner {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("images/hero-header.svg");
-  height: 80vh;
-  min-height: 50vh;
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-@media (max-width: 600px) {
-  .hero-banner {
-    height: 50vh;
-  }
-}
-
-@media(min-width: 900px) and (max-width: 1199px) {
-  .hero-banner {
-    height: 60vh;
-  }
-}
-
 .content-block {
-  padding-top: 80px;
-  padding-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   margin-left: 30px;
   margin-right: 30px;
 }
+
 
 @media(min-width: 900px) {
 .content-block {
@@ -51,9 +23,22 @@
 }
 }
 
+.hero-banner {
+  position: relative;
+  color: #FBF9F4;
+  background-color: #1B3264;
+  display: flex;
+  justify-content: center;
+}
+
 .hero-banner h1 {
-  color: #39729E;
+  color: #ffcc00;
   font-size: 2.5rem;
+}
+
+.hero-banner h3 {
+  color: white;
+  font-size: 2rem;
 }
 
 
@@ -61,6 +46,39 @@
   position: absolute;
   display: none;
   height: auto;
+}
+
+@media (min-width: 1000px) {
+.hero-banner .hero-image {
+  display: initial;
+  width: 270px;
+}
+}
+
+@media (min-width: 1200px) {
+.hero-banner .hero-image {
+  width: 340px;
+}
+}
+
+@media (min-width: 1400px) {
+.hero-banner .hero-image {
+  width: 440px;
+}
+}
+
+.hero-banner .hero-image p {
+  margin-bottom: 0;
+}
+
+.hero-banner .hero-image-left {
+  left: 0;
+  bottom: 0;
+}
+
+.hero-banner .hero-image-right {
+  right: 0;
+  bottom: 10px;
 }
 
 
@@ -87,6 +105,7 @@
   margin-top: 0.6rem;
   margin-bottom: 1.6rem;
 }
+
 
 
 .hero-banner #btn-guide {
@@ -146,12 +165,12 @@ a:hover, a:focus, a:active, a:visited {
 	display: inline-block;
 }
 .side-menu ul li a span.menu-title {
-	color: #1B3264;
+	color: #ffcc00;
     position: relative;
     margin-right: 10px;
     text-transform: uppercase;
     font-size: 12px;
-    background-color: #ffcc00;
+    background-color: #1B3264;
     padding: 3px 10px;
     font-weight: 600;
     border-radius: 5px;
@@ -170,7 +189,7 @@ a:hover, a:focus, a:active, a:visited {
 }
 .side-menu ul li a span.dot {
     position: relative;
-    background-color: #ffcc00;
+    background-color: #1B3264;
     border-radius: 2em;
     height: 10px;
     width: 10px;
@@ -292,33 +311,6 @@ a span.ti-twitter-alt {
 }
 
 
-.footer {
-    background-color: #2a2a2a;
-    margin-top: 30px;
-    color: #fff;
-}
-.footer p {
-    margin-bottom: 0;
-}
-.footer-credit {
-    padding: 40px;
-}
-ul.footer-menu {
-    text-align: right;
-}
-ul.footer-menu li {
-    display: inline-block;
-}
-ul.footer-menu li a {
-    font-size: 12px;
-    color: #fcd93b;
-    padding-right: 20px;
-}
-ul.footer-menu li a:hover {
-    color: #dd5138;
-}
-
-
 .contact {
     background-color: #3a3a3a;
     color: #fff;
@@ -420,3 +412,4 @@ ul.footer-menu li a:hover {
         margin-right: 9px;
     }
 }
+
