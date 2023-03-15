@@ -1,9 +1,12 @@
 ---
-title: "Program & Schedule"
-title-block-banner: "../images/default-banner.svg"
+pagetitle: "Program & Schedule"
 ---
 
-
+::: simple-info
+::: {.content-block .col-v-center}
+## Conference Program & Schedule 
+:::
+:::
 ::: grid
 ::: {.g-col-12 .g-col-md-6 .col-v-center}
 ![](images/ap-ls-cover-2023){fig-align="center" width="250"}
@@ -18,12 +21,14 @@ title-block-banner: "../images/default-banner.svg"
 
 <div class="d-flex flex-wrap justify-content-start align-items-center">
   [{{< fa mobile-screen >}} guidebook](https://guidebook.com/g/#/guides/apls2023/details){.btn .btn-outline-primary role="button"}
-  {{< downloadthis files/2023_APLS_program_grid_final.pdf dname:"program-grid" label="Program Grid" icon=file-pdf type=primary >}}
+  {{< downloadthis files/2023_APLS_program_grid_final.pdf dname:"program-grid" label="Program Grid" icon=file-pdf type=outline-primary >}}
 </div>
 
 :::
 :::
 
+:::vspace
+:::
 ```{r}
 #| echo: false
 #| warning: false
@@ -61,6 +66,8 @@ grid <- grid |>
       type == "Committee" ~
         "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/tbl/Committee.png",
       type == "Plenary" ~
+        "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/tbl/Plenary.png",
+      type == "Featured" ~
         "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/tbl/Plenary.png",
       type == "Award" ~
         "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/tbl/Award.png"
@@ -138,9 +145,9 @@ tbl_grid <- reactable(sd,
                             color = "#1B3264")
                   ),
                 img = colDef(
-                  minWidth = 110,
+                  minWidth = 90,
                   name = "",
-                  cell = embed_img(grid, height = 100, width = 100)
+                  cell = embed_img(grid, height = 70, width = 70)
                              ),
                 title = colDef(
                   header = with_tooltip("Session", "Event title & details"),
@@ -340,7 +347,7 @@ tbl <- tbl_grid |>
 #| echo: false
 #| include: true
 #| output: true
-#| column: screen-inset-shaded
+#| column: screen-inset
 
 bscols(
   # bootstrap is built off a 12 wide grid system,

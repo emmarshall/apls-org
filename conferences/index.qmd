@@ -59,7 +59,7 @@ source("../_site/apls_functions.R")
 ### Philadelphia, PA \| March 16-18, 2023
 
 ::: hero-buttons
-[Register now](#register){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [Conference Program](#program){.btn-action .btn .btn-secondary role="button"}
+[Register now](#register){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [Conference Program](schedule.html){.btn-action .btn .btn-secondary role="button"}
 :::
 :::
 
@@ -83,7 +83,7 @@ source("../_site/apls_functions.R")
 
 ![](images/qrc.png){fig-align="center" width="160"}
 
-> Prefer the web version? Some content and networking tool may be available to you online.
+> Prefer the web version? Some content and networking tools may be available to you online.
 
 [Download guidebook](https://guidebook.com/g/#/guides/apls2023/details){.btn-action-primary .btn-action .btn .btn-primary role="button"}
 :::
@@ -283,14 +283,15 @@ Rate not inclusive of final taxes/fees
 ::: vspace2
 :::
 
+::: {.column-screen .alt-background}
+::: {.content-block}
+
 # Registration {#register}
 
-::: {.simple-info .alt-background}
-::: content-block
+::: {.simple-info}
 ### Online registration is now closed. 
 #### You may still register in person at the conference.
-:::
-:::
+
 
 ::: {.callout-note collapse="true"}
 ## REGISTRATION RATES & INCLUSIONS
@@ -316,13 +317,22 @@ Rate not inclusive of final taxes/fees
 
 ::: vspace
 :::
-------------------------------------------------------------------------
+
+:::
+:::
+:::
 
 ::: vspace
 :::
 
 
-# Schedule Overview
+
+::: {.column-screen}
+::: {.content-block}
+
+# Schedule Overview {#program}
+
+::: {.simple-info}
 
 ::: {.panel-tabset .box-shadow}
 
@@ -330,10 +340,6 @@ Rate not inclusive of final taxes/fees
 
 ### Wednesday, March 15, 2023
 [Preconference sessions](preconference.html) throughout the day
-
-::: callout-warning
-## Pre-registration required
-:::
 
 ## Day 1 (Thurs)
 
@@ -437,23 +443,27 @@ Rate not inclusive of final taxes/fees
 +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 :::
 
-
-::: simple-info
-::: {.content-block .col-v-center}
 [Conference Program {{< fa arrow-right >}}](schedule.html){.btn-action .btn .btn-primary .btn-lg role="button"}
 :::
 :::
 
-::: vspace2
 :::
 
 
+
+::: vspace
+:::
+
+
+::: {.column-screen .alt-background}
+::: {.content-block}
+
 # Exhibitors & Sponsors {#sponsors}
 
+::: {.simple-info}
 ::: {.callout-note collapse="true"}
 ## Exhibitor Pospectus
 {{< downloadthis files/AP-LS_Prospectus_2023.pdf dname="AP-LS_Prospectus_2023" label="Download" icon="download" type="primary" >}}
-
 :::
 
 ::: {.panel-tabset .box-shadow}
@@ -532,4 +542,9 @@ Each opportunity is exclusive, so your organization will be featured prominently
 -   **Friday Breaks (AM/PM) -** \$3,500
 
 -   **Saturday Breaks (AM/PM) -** \$2,000
+:::
+
+:::
+:::
+
 :::

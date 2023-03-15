@@ -114,9 +114,6 @@
   border: none;
 }
 
-
-
-
 .hero-banner ul {
   padding-inline-start: 21px;
   font-size: 1.1rem;
@@ -234,103 +231,6 @@ a:hover, a:focus, a:active, a:visited {
 }
 .row-title {
 	font-weight: 400;
-}
-.feature {
-	padding: 20px;
-	margin-top: 30px;
-}
-.feature span {
-	font-size: 5em;
-    color: #1B3264;
-}
-
-.speaker .feature {
-	width: 31.333333%;
-  	transition: all 0.3s;
-  	margin-right: 20px;
-  	border: 3px solid #FBF9F4;
-    border-radius: 5px;
-}
-.speaker .feature:hover {
-    box-shadow: 3px 3px 10px #ccc;
-    transform: translateY(-10px);
-}
-.speaker-img {
-	max-width: 40%;
-    border: 4px solid #efefef;
-    border-radius: 50%;
-}
-ul.speaker-social li {
-	list-style: none;
-	display: inline-block;
-	margin: 10px 5px;
-}
-ul.speaker-social li a {
-	font-size: 0.2em;
-	padding: 0 10px;
-}
-ul.speaker-social li a:hover {
-	text-decoration: none;
-}
-a span.ti-facebook {
-	color: #3b5998;
-}
-a span.ti-twitter-alt {
-	color: #4099ff;
-}
-
-.tickets {
-	background-color: #fcd93b;
-}
-.tickets .price {
-	font-size: 4em;
-	color: #dd5138;
-    font-weight: 100;
-}
-.tickets .price sup {
-	font-size: 0.4em;
-}
-
-.nav-tabs {
-    margin-top: 20px;
-}
-.schedule .media {
-	margin-top: 4em;
-}
-.schedule .media-object {
-	max-width: 100px;
-}
-.schedule .media-heading {
-	font-weight: 600;
-    border-bottom: 2px solid #efefef;
-    padding-bottom: 10px;
-}
-.schedule .media-body h5 {
-	text-transform: uppercase;
-	font-weight: 600;
-}
-
-
-.contact {
-    background-color: #3a3a3a;
-    color: #fff;
-    padding: 1em;
-}
-.contact h3 {
-    margin-bottom: 30px;
-}
-.form-control {
-    padding: 20px 15px;
-    border: 3px solid #eee;
-    background-color: #f9f9f9;
-    box-shadow: none;
-}
-.help-block {
-    font-size: 12px;
-}
-.form-control-feedback {
-    top: 15px;
-    right: 15px;
 }
 
 .animated { 

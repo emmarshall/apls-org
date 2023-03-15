@@ -1,16 +1,42 @@
 ---
 title: "History of Psychology and Law"
 title-block-banner: "../images/default-banner.svg"
+bibliography: "history-references.bib"
+csl: "../_site/apa.csl"
+nocite: |
+  @fuleroHistoryDivision411999, @grissoRootsModernPsychology2018, @grissoDevelopmentalHistoryAmerican1991, @munsterbergWitnessStandEssays2009, @wylieFourDecadesJournal2018
 ---
 
-Psychology and law as a scholarly and professional field did not appear spontaneously and fully formed. The leaves and branches are visible, but the roots are the elements from which everything grew. Knowing and understanding the roots and how our own tree of knowledge grew tells a lot about who we are and where we came from. 
-The emergence of psychology and law as a modern field of scholarship was marked by the founding of the American Psychology-Law Society. 
+<figure>
 
->The Roots of Modern Psychology and Law: A Narrative History
->Editor’s Prologue, p. xiii 
->Thomas Grisso & Stanley L. Brodsky
+<blockquote class="blockquote">
 
+<p class="mb-0">
 
-While Munsterberg’s (1908) On the Witness Stand: Essays on Psychology and Crime is often credited as the seed to the law-psychology discipline, the field did not truly take root until the 1970s. 
+Psychology and law as a scholarly and professional field did not appear spontaneously and fully formed. The leaves and branches are visible, but the roots are the elements from which everything grew. Knowing and understanding the roots and how our own tree of knowledge grew tells a lot about who we are and where we came from. The emergence of psychology and law as a modern field of scholarship was marked by the founding of the American Psychology-Law Society.
 
-Late in the 1960s at the American Psychological Association (APA) annual convention, fifteen people met and discussed the intersection of psychology and law, with visions of a society to support this interdisciplinary work (Grisso, 1991).
+</p>
+
+</blockquote>
+
+<figcaption class="blockquote-footer">
+
+Thomas Grisso & Stanley L. Brodsky in <cite title="https://academic.oup.com/book/1059">The Roots of Modern Psychology and Law: A Narrative History, p. xiii</cite>
+
+</figcaption>
+
+</figure>
+
+While Munsterberg's (1908) **On the Witness Stand: Essays on Psychology and Crime** is often credited as the seed to the law-psychology discipline, the field did not truly take root until the 1970s. Following a dormant period (1930s to 1960s), law-psychology was reawakened for several reasons including: the development of clinical and social psychology as disciplines working within legal contexts; consciousness in human rights, civil liberties, and social justice; and federal case law supporting clinical psychologists providing testimony (Jenkins v. U.S., 1962) and agencies developed to support scientific research (Center for Crime and Delinquency, first directed by Saleem Shah).
+
+In 1968, at the American Psychological Association (APA) convention in San Francisco, thirteen psychologists, initiated by a psychologist and lawyer Jay Ziskin (and first president), met and discussed the intersection of psychology and law and conceptualized a society to support law-psychology interdisciplinary work. The next year, there was a mimeographed newsletter and 101 charter members, with \$202 in funds that were generated from the \$2 dues of each member.
+
+The first conference was held in San Francisco in June 1974, with approximately 20 to 30 presenter/attendees. In 1977, Bruce Sales established both the law-psychology book series and Law and Human Behavior (LHB). A few years later, LHB was designated the official journal of AP-LS. Then in 1981, AP-LS became Division 41 of the American Psychological Association.
+
+::: {.callout-note collapse="true"}
+## References
+
+::: {#refs}
+:::
+
+:::

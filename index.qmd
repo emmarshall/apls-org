@@ -204,7 +204,7 @@ Philadelphia, PA---March 16-18
 #| message: false
 content = rowwise_table(~name, ~icon, ~link,
                         "Contact", "chat-dots", "about/contact.html",
-  "Newsletter", "newspaper", "resources/newsletter/2023/feb2023.html",
+  "Newsletter", "newspaper", "resources/newsletter/index.html",
     "Job Postings", "briefcase-fill", "resources/job_postings/index.html", 
     "APA", "award-fill", "https://convention.apa.org/future-conventions",
     "Videos", "mortarboard-fill", "resources/videos/index.html"
