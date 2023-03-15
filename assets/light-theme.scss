@@ -1284,3 +1284,25 @@ h1.title {
   display: grid;
 }
 
+// blockquotes
+
+blockquote {
+  margin: 0 0 1em;
+  font-size: 1.25rem;
+}
+blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+figcaption.blockquote-footer {
+  font-size: 0.9rem;
+  font-weight: bold;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+
+figcaption.blockquote-footer > cite {
+  flex: 1 1 100%;
+}

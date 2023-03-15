@@ -50,5 +50,9 @@
       "/awards/conference/caregivers.html",
       "/awards/conference/studentawards.html"
     ]
+  },
+  {
+    "listing": "/resources/newsletter/index.html",
+    "items": []
   }
 ]

@@ -1,6 +1,16 @@
 ---
-title: Newsletter Archive
+title: AP-LS Newsletter
 title-block-banner: "../../images/default-banner.svg"
+page-layout: full
+listing: 
+  - id: archive
+    contents: 
+    - "fall1996/*.pdf"
+    - "fall1997/*.pdf"
+    - "fall1998/*.pdf"
+    - "fall1999/*.pdf"
+    - "fall2000/*.pdf"
+    type: table
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -17,7 +27,7 @@ source("../../_site/apls_functions.R")
   <div class="gallery__list-column">
 ```
 
-::: {#newsletter}
+::: {#archive}
 :::
 
 
@@ -30,5 +40,5 @@ source("../../_site/apls_functions.R")
 ```
 
 ::: {.all-link}
-[more newsletters](newsletter/)
+[more newsletters](resources/newsletter/index.html)
 :::

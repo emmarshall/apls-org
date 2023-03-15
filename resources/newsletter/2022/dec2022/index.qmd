@@ -1,8 +1,0 @@
----
-title: December 2022
----
-
-## Links to Resources
-
-
-{{< include dec2022.html >}}

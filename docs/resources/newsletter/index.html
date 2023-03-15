@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The American Psychology-Law Society - Newsletter Archive</title>
+<title>The American Psychology-Law Society - AP-LS Newsletter</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../assets/favicon_io/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,6 +63,35 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-archive .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-filename','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-filename-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-filename","listing-file-modified"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-archive'] = new List('listing-archive', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>
     .quarto-title-block .quarto-title-banner {
       background-image: url(../../images/default-banner.svg);
@@ -68,11 +99,12 @@ background-size: cover;
     }
     </style>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../assets/styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -174,8 +206,8 @@ background-size: cover;
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Newsletter Archive</h1>
+    <div class="quarto-title column-page">
+      <h1 class="title">AP-LS Newsletter</h1>
                       </div>
   </div>
     
@@ -188,12 +220,12 @@ background-size: cover;
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
@@ -205,8 +237,88 @@ background-size: cover;
       <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
   </div>
   <div class="gallery__list-column">
-<div id="newsletter">
+<div id="listing-archive" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-archive-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-archive'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-filename-sort" data-direction="asc">
+          File Name
+        </option>
+         <option value="listing-file-modified-sort" data-direction="asc">
+          Modified - Oldest
+        </option>
+         <option value="listing-file-modified-sort" data-direction="desc">
+          Modified - Newest
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-filename-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">File Name</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-file-modified-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Modified</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-file-modified-sort="1313585960000" data-listing-filename-sort="fall1996.pdf">
+<td class="listing-filename">
+<a href="../../resources/newsletter/fall1996/fall1996.pdf" class="filename">fall1996.pdf</a>
+</td>
+<td class="listing-file-modified">
+8/17/11, 7:59:20 AM
+</td>
+</tr>
+<tr data-index="1" data-listing-file-modified-sort="1313585980000" data-listing-filename-sort="fall1997.pdf">
+<td class="listing-filename">
+<a href="../../resources/newsletter/fall1997/fall1997.pdf" class="filename">fall1997.pdf</a>
+</td>
+<td class="listing-file-modified">
+8/17/11, 7:59:40 AM
+</td>
+</tr>
+<tr data-index="2" data-listing-file-modified-sort="1313586028000" data-listing-filename-sort="fall1998.pdf">
+<td class="listing-filename">
+<a href="../../resources/newsletter/fall1998/fall1998.pdf" class="filename">fall1998.pdf</a>
+</td>
+<td class="listing-file-modified">
+8/17/11, 8:00:28 AM
+</td>
+</tr>
+<tr data-index="3" data-listing-file-modified-sort="1313586076000" data-listing-filename-sort="fall1999.pdf">
+<td class="listing-filename">
+<a href="../../resources/newsletter/fall1999/fall1999.pdf" class="filename">fall1999.pdf</a>
+</td>
+<td class="listing-file-modified">
+8/17/11, 8:01:16 AM
+</td>
+</tr>
+<tr data-index="4" data-listing-file-modified-sort="1313586106000" data-listing-filename-sort="fall2000.pdf">
+<td class="listing-filename">
+<a href="../../resources/newsletter/fall2000/fall2000.pdf" class="filename">fall2000.pdf</a>
+</td>
+<td class="listing-file-modified">
+8/17/11, 8:01:46 AM
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
 </div>
   <span class="gallery__link">
     <a href="newsletter/2022/dec2022">See feb23 <i class="bi-arrow-right-short"> </i></a>
@@ -214,8 +326,9 @@ background-size: cover;
   </div>
 </div>
 <div class="all-link">
-<p><a href="newsletter/">more newsletters</a></p>
+<p><a href="resources/newsletter/index.html">more newsletters</a></p>
 </div>
+
 
 
 </section>
