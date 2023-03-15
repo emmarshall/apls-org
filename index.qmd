@@ -86,7 +86,7 @@ padding-bottom: 1em;
 content = rowwise_table(~name, ~icon, ~link,
                         "About", "info-circle-fill", "about/about.html",
   "Committees", "person-rolodex", "about/committees.html",
-    "Conference", "easel2-fill", "conference/index.html", 
+    "Conference", "easel2-fill", "conferences/index.html", 
     "Funding", "award-fill", "awards/index.html",
     "Students", "mortarboard-fill", "https://www.apls-students.org/resources.html"
   
