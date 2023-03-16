@@ -1,0 +1,79 @@
+---
+title: Sam
+human: Dr. Colleen M. Berryessa, Assistant Professor, School of Criminal Justice, Rutgers University
+description: |
+  Sam is a sweet, fun-loving girl who was found on the streets of Philly as a kitten when I was in grad school! I adopted her when she was eight weeks old and she has come with me on my moves and adventures over the last six years. She is so sociable and people friendly that I think she sometimes forgets she is a cat ;-)
+quote: |
+  Said about Ebony: "She's always at an 11, isn't she?" (Yes, she is.); Said about Andy: "The force is strong with this one."
+image: featured.jpeg
+categories: Domestic Shorthair
+talent: |
+  Fetching rubber bands (covert dog?)
+habit: |
+  Scratching
+title-block-categories: false
+title-block-banner: false
+title-block-style: none
+---
+
+::: grid
+::: {#about-pet-text .g-col-12 .g-col-md-6}
+![](featured.jpeg){.lightbox}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {simple-info}
+# Meet {{< meta title >}}
+
+### Quote: 
+
+> {{< meta quote >}}
+
+### Breed:
+
+{{< meta categories >}}
+
+### Bad Habit:
+
+{{< meta habit >}}
+
+### Special Talent:
+
+{{< meta talent >}}
+:::
+:::
+:::
+
+##### Submitted by: {{< meta human >}}
+
+## Bio
+
+{{< meta description >}}
+
+## Gallery
+
+```{r}
+#| echo: false
+#| label: pet gallery
+#| warning: false
+#| message: false
+
+library(magick)
+library(purrr)
+
+# Read in all the images
+pics <-
+  fs::dir_ls("pics") |>
+  map(image_read)
+
+all_pics <-
+  pics |>
+  map(image_border, geometry = "40x40", color = "transparent") |>
+  reduce(c) |>
+  image_montage(
+    tile = "4x1",
+    geometry = geometry_area(width = 600),
+    bg = "transparent"
+  )
+all_pics
+```

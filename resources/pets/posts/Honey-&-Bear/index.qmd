@@ -1,0 +1,80 @@
+---
+title: Honey & Bear
+human: Pia Pennekamp, PhD student (Queen Margaret University)
+description: |
+  Honey and Bear are related, but polar opposites. Honey is the bees knees (it is no surprise her nickname is sweet cheeks). Bear is a teddy but can be a bit grizzly. Nevertheless, we could not bear to be without him. He is our self-appointed guard dog and somehow managed to get the nickname “big boobs”. Honey & Bear are best buds. They love to wrestle outside and bite each other’s wrinkles off. Fighting one bulldog stereotype at a time, Honey & Bear love to hike and have recently picked up agility training. When this choir is asleep, the harmonious snores fill our household like a beautiful symphony.
+quote: |
+  Drool is cool!
+image: featured.jpg
+categories: Olde English Bulldog
+age: "Andy = 16, Ebony = 7ish?"
+talent: |
+  Stinkiest toots in the world
+habit: |
+  Snore like a freight train
+title-block-categories: false
+title-block-banner: false
+title-block-style: none
+---
+
+::: grid
+::: {#about-pet-text .g-col-12 .g-col-md-6}
+![](featured.jpg){.lightbox}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {simple-info}
+# Meet {{< meta title >}}
+
+### Quote: 
+
+> {{< meta quote >}}
+
+### Breed:
+
+{{< meta categories >}}
+
+### Bad Habit:
+
+{{< meta habit >}}
+
+### Special Talent:
+
+{{< meta talent >}}
+:::
+:::
+:::
+
+##### Submitted by: {{< meta human >}}
+
+## Bio
+
+{{< meta description >}}
+
+## Gallery
+
+```{r}
+#| echo: false
+#| label: pet gallery
+#| warning: false
+#| message: false
+
+library(magick)
+library(purrr)
+
+# Read in all the images
+pics <-
+  fs::dir_ls("pics") |>
+  map(image_read)
+
+all_pics <-
+  pics |>
+  map(image_border, geometry = "40x40", color = "transparent") |>
+  reduce(c) |>
+  image_montage(
+    tile = "4x1",
+    geometry = geometry_area(width = 600),
+    bg = "transparent"
+  )
+all_pics
+```

@@ -1,0 +1,16 @@
+{
+  "hash": "1fc098fa4f1f8d2be84041144d67f7ed",
+  "result": {
+    "markdown": "---\ntitle: Smokey and Queenie\nhuman: Brianna Itson, BA\ndescription: |\n  Smokey (grey and black) is two years old and reminds me so much of a human and “listens” to commands. \n  Queenie (tan and brown) was found when she just walked in the house with her babies behind her. Her babies are with two other families but she never left!\nquote: |\n  You know they are awake at 4am fighting down the hallway.\nimage: featured.jpg\ncategories: \"Andy (dachshund); Ebony (rat terrier mix???)\"\nage: \"Andy = 16, Ebony = 7ish?\"\ntalent: |\n  They love to cuddle and take up space on my side of the bed!\nhabit: |\n  The vet recently asked if Ebony is an \"indiscriminate eater.\" Yes, yes she is. Acorns? Yum! Roadkill? Sure! Is that garbage? I'll taste it!  Andy is older than time and must be respected as such. He resents any suggestion that he could possibly have a bad habit.\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

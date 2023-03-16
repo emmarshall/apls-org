@@ -1,0 +1,16 @@
+{
+  "hash": "2c76d95679e0e2e9208ea18d5139ada6",
+  "result": {
+    "markdown": "---\ntitle: Honey & Bear\nhuman: Pia Pennekamp, PhD student (Queen Margaret University)\ndescription: |\n  Honey and Bear are related, but polar opposites. Honey is the bees knees (it is no surprise her nickname is sweet cheeks). Bear is a teddy but can be a bit grizzly. Nevertheless, we could not bear to be without him. He is our self-appointed guard dog and somehow managed to get the nickname “big boobs”. Honey & Bear are best buds. They love to wrestle outside and bite each other’s wrinkles off. Fighting one bulldog stereotype at a time, Honey & Bear love to hike and have recently picked up agility training. When this choir is asleep, the harmonious snores fill our household like a beautiful symphony.\nquote: |\n  Drool is cool!\nimage: featured.jpg\ncategories: Olde English Bulldog\nage: \"Andy = 16, Ebony = 7ish?\"\ntalent: |\n  Stinkiest toots in the world\nhabit: |\n  Snore like a freight train\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "hash": "46efc4936716acecfd10fa58ab2d915e",
+  "result": {
+    "markdown": "---\ntitle: Smokey\nhuman: Victoria Carlson\ndescription: |\n  Smokey had been abandoned in the woods when I found her on a camping trip. I carried her two miles back to our campsite and she’s been with us ever since. She now enjoys a charmed life. Smokey goes on hops through our garden and feasts on cilantro and kale. She also enjoys an occasional hop through the snow when it gets chilly. Her favorite treat is tortilla chips.\nquote: |\n  Having a bunny means that you will always have a friend to share your banana and eat your homework if necessary.\nimage: featured.jpg\ncategories: Mini rex\ntalent: |\n  Thumping her back feet to communicate\nhabit: |\n  Commonly found hopping into house plants for extra snacks\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

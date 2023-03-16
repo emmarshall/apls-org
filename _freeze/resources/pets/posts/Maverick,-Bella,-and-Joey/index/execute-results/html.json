@@ -1,0 +1,16 @@
+{
+  "hash": "338aaaa8077074817d34ac8d2ce08fe3",
+  "result": {
+    "markdown": "---\ntitle: Maverick, Bella, and Joey\nhuman: Dr. Emily Pica\ndescription: |\n  Maverick was my first dog ever, I rescued him from an overbreeder, he was covered in fleas and ticks when I got him. I rescued Bella from a pit bull fighter as a puppy, she’s the only living dog from that litter. Joey escaped our rat lab and when he was found I couldn’t let them “take him to the farm” so he became part of the family!\nquote: |\n  They’re the three best friends anyone could have and are currently mad mom doesn’t work from home anymore.\nimage: featured.jpeg\ncategories: Maverick is a min pin mix, Bella is a pit bull, Joey is a lab rat\ntalent: |\n All three of them can sleep through anything!\nhabit: |\n  Maverick growls at his sister when eating, Bella chews up toilet paper when unattended, and Joey chews his cage making this god awful sound if you don’t feed him quick enough!\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpeg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

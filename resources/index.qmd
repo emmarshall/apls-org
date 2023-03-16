@@ -45,7 +45,8 @@ content = rowwise_table(
   "general", "Syllabi", "table", "syllabi/index.html", "Collection of syllabi for courses related to psychology and law.",
   "general", "Telepsychology", "telephone", "telepsychology/telepsychology.html", "Collection of articles and resources about telepsychology",
   "general", "Reports", "folder", "reports/index.html", "Access reports by AP-LS committees and taskforces.", 
-  "general", "Forensic Guidelines", "file-earmark-ruled", "guidelines/index.html", "Specialty Guidelines for Forensic Psychologists from APA")
+  "general", "Forensic Guidelines", "file-earmark-ruled", "guidelines/index.html", "Specialty Guidelines for Forensic Psychologists from APA",
+  "general", "Pets of AP-LS", "paw", "pets/index.html", "Gallery of pets")
 setkeyv(content, "category")
 ```
 

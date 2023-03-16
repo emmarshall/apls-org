@@ -1,0 +1,16 @@
+{
+  "hash": "d679b0af520638e85ba54f8aae2dd128",
+  "result": {
+    "markdown": "---\ntitle: Rocky\nhuman: Jeff Kukucka (Towson University)\ndescription: |\n  We rescued Rocky in June 2020. To our surprise, he's a purebred pembroke corgi! He loves to hike, kayak, chase balls, and visit breweries, and he definitely has a Napoleon complex! IG: @thebrindlepembroke\nquote: |\n  Fun fact: His birthday is on my half-birthday.\nimage: featured.jpg\ncategories: Corgi\nage: \"Andy = 16, Ebony = 7ish?\"\ntalent: |\n  Being the best guard dog (despite no formal training)\nhabit: |\n  Chasing cars (especially the Amazon driver)\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

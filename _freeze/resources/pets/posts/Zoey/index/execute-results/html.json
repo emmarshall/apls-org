@@ -1,0 +1,16 @@
+{
+  "hash": "3bb652f8b56c00f6c707b9d3fcf838d8",
+  "result": {
+    "markdown": "---\ntitle: Zoey\nhuman: Cortney Simmons, postdoctoral researcher at Yale University\ndescription: |\n  Andy was born in rural Nebraska, the runt of the litter and the last to get adopted. Nonetheless, he found a home and he's brought me comfort and snoozles every day since. Andy rules the house and I'm grateful he lets me stay.\n  Ebony had an unstable childhood. She doesn't talk much about it. She joined my home when she was around 4, after multiple stints at the local humane society. Now, she brings me high energy, early morning silliness, tons of love, a touch of anxiety, and the occasional outburst of bad manners.\nquote: |\n  Said about Ebony: \"She's always at an 11, isn't she?\" (Yes, she is.); Said about Andy: \"The force is strong with this one.\"\nimage: featured.jpeg\ncategories: Australian Shepherd\ntalent: |\n  Makes friends with everyone at the dog park\nhabit: |\n  Insists on being fed and/or played with at 6:30 am every day\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpeg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

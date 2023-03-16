@@ -12,6 +12,7 @@ habit: Constantly trying to eat Airpods.
 title-block-categories: false
 title-block-banner: false
 title-block-style: none
+priority: 1
 ---
 
 ::: grid

@@ -1,0 +1,16 @@
+{
+  "hash": "2ad094526f984d0ba81a6153389af484",
+  "result": {
+    "markdown": "---\ntitle: Shoshanna\nhuman: Rebekah Adair, M.A. - Legal Psych Doctoral Student at The University of Texas at El Paso\ndescription: |\n  I got Shoshanna after finishing my master’s degree and was trying to figure out my next steps in life. She was my first cat (I’ve always had a dog) so I was a bit nervous and did so much research about cat behavior before getting her. She’s been a great companion to come home to and gives the best snuggles. She loves to meow loudly at the ceiling during very emotion filled scenes on TV, which keeps me from getting too invested in my shows haha. She’s a sweet but sassy little thing and I couldn’t have picked a better fit if I tried.\nquote: |\n  Part-time bird scarer, full-time princess\nimage: featured.jpg\ncategories: Tabby Cat\ntalent: |\n  She likes to scare me in the morning by hiding around the corner and jumping out unexpectedly.\nhabit: |\n  She’s very co-dependent and gets sad now that I’m going back to work in person. This means she naps ALL day and is wide awake ALL night.\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

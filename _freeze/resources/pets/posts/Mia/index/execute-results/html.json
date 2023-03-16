@@ -1,0 +1,16 @@
+{
+  "hash": "4cee286b3640ad6069fecedc88a2732b",
+  "result": {
+    "markdown": "---\ntitle: Mia\nhuman: Sarah Moody\ndescription: |\n  We adopted Mia during spring break 2020, so she's our pandemic pup! She's the best cuddler, but not a very helpful coworker.\nquote: |\n  My favorite word is 'outside' because I love chasing lizards!\nimage: featured.jpg\ncategories: \n  - Pitbull mix\ntalent: |\n  Hurdling the coffee table onto the couch while zooming\nhabit: |\n  Trying to be a 65-pound lap dog\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

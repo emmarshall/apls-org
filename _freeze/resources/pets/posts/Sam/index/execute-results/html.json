@@ -1,0 +1,16 @@
+{
+  "hash": "f0cf2f483d2e593093f1ab49567fabe7",
+  "result": {
+    "markdown": "---\ntitle: Sam\nhuman: Dr. Colleen M. Berryessa, Assistant Professor, School of Criminal Justice, Rutgers University\ndescription: |\n  Sam is a sweet, fun-loving girl who was found on the streets of Philly as a kitten when I was in grad school! I adopted her when she was eight weeks old and she has come with me on my moves and adventures over the last six years. She is so sociable and people friendly that I think she sometimes forgets she is a cat ;-)\nquote: |\n  Said about Ebony: \"She's always at an 11, isn't she?\" (Yes, she is.); Said about Andy: \"The force is strong with this one.\"\nimage: featured.jpeg\ncategories: Domestic Shorthair\ntalent: |\n  Fetching rubber bands (covert dog?)\nhabit: |\n  Scratching\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpeg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

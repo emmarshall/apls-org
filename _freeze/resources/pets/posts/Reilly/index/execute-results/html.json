@@ -1,0 +1,16 @@
+{
+  "hash": "f825659be7869ceb6a81ee23c2a0edb4",
+  "result": {
+    "markdown": "---\ntitle: Reilly\nhuman: Kelly McWilliams, PhD/ John Jay College of Criminal Justice, CUNY\ndescription: |\n  Reilly is a rescue dog from Northern California. She loves the beach, tennis balls, and any/all types of treats. She spends her time in bed, lounging in the sun, and distracting her humans from work. Quarantine/2020 has been the best year of her life :).\nquote: |\n  Said about Ebony: \"She's always at an 11, isn't she?\" (Yes, she is.); Said about Andy: \"The force is strong with this one.\"\nimage: featured.jpg\ncategories: Golden Retriver/Cocker Spaniel Mix\nage: \"Andy = 16, Ebony = 7ish?\"\ntalent: |\n  She may be the sweetest, most gentle animal that has ever lived.\nhabit: |\n  She is lazy (like REALLY lazy).\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

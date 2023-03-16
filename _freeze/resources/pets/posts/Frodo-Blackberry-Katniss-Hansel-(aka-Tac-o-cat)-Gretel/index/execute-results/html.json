@@ -1,0 +1,16 @@
+{
+  "hash": "0440be79af26b9c90222f484bfa856d7",
+  "result": {
+    "markdown": "---\ntitle: Frodo; Blackberry; Katniss; Hansel (aka Tac-o-cat); Gretel\nhuman: Allison Redlich; George Mason University\ndescription: |\n  \nquote: |\nimage: featured.jpg\ncategories: \n  - Longhair dachshund \n  - Collie\n  - Pretty kitties\ntalent: |\n  Sleeping all day; Getting hair everywhere\nhabit: |\n  Barking at people walking by; Getting hair everywhere\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

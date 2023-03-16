@@ -1,0 +1,16 @@
+{
+  "hash": "a201a663aff9a60e35c8854e9345a6eb",
+  "result": {
+    "markdown": "---\ntitle: Boba\nhuman: Brittany Cangialosi\ndescription: |\n  Boba is a sweet mini Aussie who loves to smile for photos and is never in a bad mood! We have known him since he was one day old and he has been on many adventures with us.\nquote: “I love my parents so much I use them as chairs!”\nimage: featured.jpg\ncategories: Mini Australian Shepherd\nage: 1 year old\ntalent: He can jump five feet straight up into the air! And smile for photos.\nhabit: Stealing his parent’s socks!\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Age: {{< meta age >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

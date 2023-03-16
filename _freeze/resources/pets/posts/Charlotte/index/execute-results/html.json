@@ -1,0 +1,16 @@
+{
+  "hash": "a094fa3fd809eadb02b1d8aec556fca3",
+  "result": {
+    "markdown": "---\ntitle: Charlotte\nhuman: Laura Pazos, B.S.\ndescription: |\n  Charlotte is a southern Belle, and she is not lacking in the sass department. Everyone is always surprised by how small she is--she is only 5 lbs!\nquote: |\n  \"Oh, this was your seat? Well, it's mine now!\"\nimage: featured.jpg\ncategories: Yorkshire Terrier\nage: \"Andy = 16, Ebony = 7ish?\"\ntalent: |\n  She always manages to throw up off the side of things: beds, sofas, chairs, tables...\nhabit: |\n  When she visits with my sister's Goldendoodle, Charlotte likes to hang from her tail and take a ride.\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

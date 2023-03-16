@@ -1,0 +1,16 @@
+{
+  "hash": "f344f18f76b813f5ac7d6143f4f6b191",
+  "result": {
+    "markdown": "---\ntitle: Lily and Liam\nhuman: Cait Cavanagh, Assistant Professor, Michigan State University\ndescription: |\n  Lily (blue eyes) and Liam (green eyes) are brother/sister littermates-- even though they don't look very similar! They are pair bonded, which means they love to cuddle and hate being separated. I adopted them as a grad student, so from the beginning they have ben excellent helpers when I analyze data or write.\nquote: |\n  Any time is Food Time.\nimage: featured.jpeg\ncategories: Domestic shorthair cats\nage: \"Andy = 16, Ebony = 7ish?\"\ntalent: |\n  Lily: boops my nose with her paw when she wants to have her face pet. Liam: feels moved by music and will sit on me if I'm listening to a sad song to make sure I'm OK\nhabit: |\n  Lily: eating so fast she vomits. Liam: eating Lily's vomit\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpeg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

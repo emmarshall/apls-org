@@ -1,0 +1,16 @@
+{
+  "hash": "5ddff7c9db515a5e0cf5790ac170f169",
+  "result": {
+    "markdown": "---\ntitle: Ginger\nhuman: Alexandra Zidenberg, M.A., PhD (Cand.), University of Saskatchewan\ndescription: |\n  Ginger originally hails from British Colombia and moved to Ontario when she was one year old. She lived happily in Ontario until her human got accepted into a PhD program halfway across the country in Saskatoon, Saskatchewan. Now, Ginger lives happily with her human in Saskatoon. Ginger does not love that the winters in Saskatoon routinely involve temperatures of -40 but she refuses to wear a sweater. Instead, she settles for snuggling up in blankets and sitting on radiators..\nquote: |\n  \"Don't judge me, you would look mean too if you were always naked in this cold climate!\"\nimage: featured.jpg\ncategories: \n  - Sphynx/Hairless Cat\ntalent: |\n  Knowing when it is exactly 5am and waking me up to be fed\nhabit: |\n  Scratching my couch rather than the 4 scratching posts available\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

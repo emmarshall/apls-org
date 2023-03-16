@@ -1,0 +1,16 @@
+{
+  "hash": "3b0b908ad01eb2a7e93b3bd1f64f3566",
+  "result": {
+    "markdown": "---\ntitle: Doug\nhuman: Haley Potts, M.A., psych/law graduate student at the University of Alabama\ndescription: |\n  Doug was abandoned at a sheep farm because he was bad at herding sheep. This makes a lot of sense to us, because his personality is not very assertive. He is very sweet, mild-mannered, food motivated, and spoiled rotten.\nquote: |\n  \"Excuse me, everyone, but I am very hungry, please help\" - my fiance's impersonation of what Doug's best man speech will be\nimage: featured.jpg\ncategories: He's a mixture of Australian cattle dog, Anatolian shepherd, great Pyrenees, and a few others (thanks doggy DNA test!)\nage: \"Andy = 16, Ebony = 7ish?\"\ntalent: |\n  being hungry 24/7, getting the zoomies, being enormous\nhabit: |\n  begging for food, barking at elderly people on their morning walks, doing a terrible job at herding sheep\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

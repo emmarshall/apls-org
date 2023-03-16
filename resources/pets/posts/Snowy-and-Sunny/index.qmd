@@ -1,0 +1,53 @@
+---
+title: Snowy and Sunny
+human: Eve Brank, University of Nebraska-Lincoln
+description: |
+  Both cats are from the Humane Society and a very spoiled. We work hard to make sure our cats have good lives.
+quote: |
+  We love it when we get to dress up for holidays! Here's a picture of us for Easter.
+image: featured.jpg
+categories: 
+  - Cat
+age: "Andy = 16, Ebony = 7ish?"
+talent: |
+  Sunny likes to go swimming and enjoys riding in a kayak or on a paddle board. Snowy mostly just sleeps.
+habit: |
+  The vet recently asked if Ebony is an "indiscriminate eater." Yes, yes she is. Acorns? Yum! Roadkill? Sure! Is that garbage? I'll taste it!  Andy is older than time and must be respected as such. He resents any suggestion that he could possibly have a bad habit.
+title-block-categories: false
+title-block-banner: false
+title-block-style: none
+---
+
+::: grid
+::: {#about-pet-text .g-col-12 .g-col-md-6}
+![](featured.jpg){.lightbox}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {simple-info}
+# Meet {{< meta title >}}
+
+### Quote: 
+
+> {{< meta quote >}}
+
+### Breed:
+
+{{< meta categories >}}
+
+### Bad Habit:
+
+{{< meta habit >}}
+
+### Special Talent:
+
+{{< meta talent >}}
+:::
+:::
+:::
+
+##### Submitted by: {{< meta human >}}
+
+## Bio
+
+{{< meta description >}}

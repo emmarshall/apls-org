@@ -1,0 +1,16 @@
+{
+  "hash": "bfb2d1c645922e52bca323705eb64270",
+  "result": {
+    "markdown": "---\ntitle: Charlie Cashew Butter\nhuman: Kara Moore, Ph.D. Oklahoma State University\ndescription: |\n  Charlie has a strong love for everyone and everything which is a refreshing attitude in these bleak times. Absolutely loves his canine sister Maddie.\nquote: \"I love you. I love you. ILOVEYOU. ILOVEYOU.\" \nimage: featured.jpeg\ncategories: dacshund\nage: 1 year old\ntalent: sits to say please\nhabit: Waking up with the first alarm in the morning\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpeg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Age: {{< meta age >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

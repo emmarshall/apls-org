@@ -1,13 +1,13 @@
 ---
-title: "Pets!"
+pagetitle: "Pets! Pets! Pets!"
 description: |
-  Look at all the pets of the American Psychology-Law Society because they are great. 
+  Lets all look at the pets of the American Psychology-Law Society.
 listing:
   contents: 
     - "posts/**/*.qmd"
   type: grid
   categories: false
-  sort-ui: true
+  sort: "priority"
   filter-ui: true
   fields: [title, human, image]
   field-display-names: 
@@ -15,14 +15,18 @@ listing:
   grid-columns: 2
   image-height: 33vmin
 page-layout: full
-title-block-banner: false
 ---
 
-::: {.callout-note collapse=true}
-## Submit Your Pet
+![](/images/pets-banner.png){fig-align="center"}
 
-Have a pet you want to share? Send us them pics! 
+### The [AP-LS Student Committee](https://www.apls-students.org/), on behalf of pet-lovers everywhere, have compiled this glorious gallery of pets for your edification and personal enjoyment.
+
+| The pets listed here below are *unofficially* the **Official Pets of the American Psychology-Law Society** and they are *ALL* great pets.
+
+::: {.callout-note collapse="true"}
+## Want to submit YOUR Pet?
+
+Have a pet you want to share? Send us them pics!
 
 <a class="btn btn-primary" href="https://forms.gle/sV3nPAzKe5kWi27f7" role="button">Submit a pet</a>
-
 :::

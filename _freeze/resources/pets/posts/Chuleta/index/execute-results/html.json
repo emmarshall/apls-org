@@ -1,0 +1,16 @@
+{
+  "hash": "2ca5c926d6bfc6ebd1be3d2308a33908",
+  "result": {
+    "markdown": "---\ntitle: Chuleta\nhuman: Emily Gottfried, PhD; Medical University of South Carolina\ndescription: |\n  Chuleta was adopted from a \"kill shelter\" in Chipley, Florida when I was a grad student at Florida State in 2009. She was a tiny puppy and we had no idea what breed she was or how big she would get. Since her time in Tallahassee, she has moved across the country with me: FL to CA to GA to SC and has been a great travel companion, hiking partner, and all around best friend!!\nquote: |\n  At home, Chuleta is the \"alpha\" and I think she believes I'm her pet. She's really nervous in public and a vet once told me that I must be \"her person\" and that she can \"be her [alpha] self\" around me!\nimage: featured.jpg\ncategories: \"Florida Brown Dog [breeds unknown]\"\nage: \"Andy = 16, Ebony = 7ish?\"\ntalent: |\n  The ability to become more energetic as she ages!\nhabit: |\n  Barking when not given [enough] attention (e.g., when I'm on the phone or in a Zoom)\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

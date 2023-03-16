@@ -12,6 +12,7 @@ habit: Wonton turns into a dictator when he wants dinner. He resorts to stealing
 title-block-categories: false
 title-block-banner: false
 title-block-style: none
+priority: 2
 ---
 
 ::: grid

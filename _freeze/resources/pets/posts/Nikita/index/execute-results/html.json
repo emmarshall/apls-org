@@ -1,0 +1,16 @@
+{
+  "hash": "db854952ceac4b3fbe8b8edff4d7ad8c",
+  "result": {
+    "markdown": "---\ntitle: Nikita\nhuman: Katie Hardin, MA, UCI Psychological Science Doctoral Student\ndescription: |\n  Nikita is a five year old tuxedo cat that has quite the personality! She loves to “talk” and practically narrates everything she does. She loves to be around people, and is the most affectionate cat I have ever met. If she’s not in the window looking for birds, you will find her cuddling with her sister, Nani, or helping out with my research (see pictures).\nquote: |\n  I’m more like a dog than a cat!!\nimage: featured.jpeg\ncategories: Tuxedo cat\ntalent: |\n  She likes to jump up on my shoulder from the ground, and then hang out there like a parrot\nhabit: |\n  She likes to attend (and be the center of) all zoom meetings\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpeg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "hash": "acd5ae7e1c9fc8e3d70737e0efe63f99",
+  "result": {
+    "markdown": "---\ntitle: Jax\nhuman: Apryl Alexander, PsyD/Associate Professor, University of Denver\ndescription: |\n  Jax was born in Iowa and met Dr. Apryl while she was completing her postdoc in Minnesota. He has now lived in four different states but loves Colorado the most for all of its many dog parks and the frequent snow. Jax has a vibrant personality and loves nearly every animal and human he comes into contact with. He recently celebrated his 8th birthday--He typically celebrates his birthdays by coming to class at DU's master's in forensic psychology program and guest lectures on psychopathy.\nquote: |\n  Eating treats, playing, and barking are the best forms of self-care.\nimage: featured.png\ncategories: Schnorkie (Schnauzer-Yorkie)\ntalent: |\n  Ability to tolerate cold weather.\nhabit: |\n  Expert escape artist.\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6 .col-v-center}\n![](featured.png){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
