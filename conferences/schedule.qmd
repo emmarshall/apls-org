@@ -56,21 +56,21 @@ grid <- grid |>
   mutate(
     img = case_when(
       type == "Networking" ~
-        "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/tbl/Networking.png",
+        "https://github.com/emmarshall/apls-org/raw/main/images/tbl/Networking.png",
       type == "Session" ~
-        "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/tbl/Session.png",
+        "https://github.com/emmarshall/apls-org/raw/main/images/tbl/Session.png",
       type == "Poster" ~
-        "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/tbl/Poster.png",
+        "https://github.com/emmarshall/apls-org/raw/main/images/tbl/Poster.png",
       type == "Coffee" ~
-        "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/tbl/Coffee.png",
+        "https://github.com/emmarshall/apls-org/raw/main/images/tbl/Coffee.png",
       type == "Committee" ~
-        "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/tbl/Committee.png",
+        "https://github.com/emmarshall/apls-org/raw/main/images/tbl/Committee.png",
       type == "Plenary" ~
-        "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/tbl/Plenary.png",
+        "https://github.com/emmarshall/apls-org/raw/main/images/tbl/Plenary.png",
       type == "Featured" ~
-        "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/tbl/Plenary.png",
+        "https://github.com/emmarshall/apls-org/raw/main/images/tbl/Plenary.png",
       type == "Award" ~
-        "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/tbl/Award.png"
+        "https://github.com/emmarshall/apls-org/raw/main/images/tbl/Award.png"
     )
   ) 
 
@@ -223,7 +223,7 @@ tbl <- tbl_grid |>
   #title & subtitle
   htmlwidgets::prependContent(
     tagList(
-      tags$img(src = "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/logo-blue.png", style = "width:50px;height:50px;display:inline-block;vertical-align:middle;"),
+      tags$img(src = "https://github.com/emmarshall/apls-org/raw/main/images/logo-blue.png", style = "width:50px;height:50px;display:inline-block;vertical-align:middle;"),
       tags$div("2023 AP-LS Program Grid", style="font-size:32px;font-weight:bold;margin-left:5px;margin-bottom:0;display:inline-block;vertical-align:middle;"), 
       tags$h3("Schedule at a glance", style="margin-bottom:20px;margin-top:0;font-weight:400;color:#8C8C8C;padding-left:40px;")
   )
@@ -231,7 +231,7 @@ tbl <- tbl_grid |>
   #footnote and source
   htmlwidgets::appendContent(
     tags$div(style="text-align:center;color:black;font-size:14pt;border-bottom-style:solid;border-top-style:solid;width:910px;padding-bottom:20px;padding-top:20px;border-color:#DADADA;",
-  tags$a(href = "https://github.com/emmarshall/emmarshall.github.io/raw/main/events/2023_APLS_program_grid_final.pdf", download = "2023_APLS_program_grid_final.pdf", class = "btn-action-primary btn-action btn btn-primary", role="button", "Download Schedule")
+  tags$a(href = "https://github.com/emmarshall/apls-org/raw/main/events/2023_APLS_program_grid_final.pdf", download = "2023_APLS_program_grid_final.pdf", class = "btn-action-primary btn-action btn btn-primary", role="button", "Download Schedule")
 ),
     tags$div(
       tags$div("Last Updated: March 15, 2023", style="display:inline-block;vertical-align:middle;")

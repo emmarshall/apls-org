@@ -137,7 +137,7 @@ tbl <- tbl_wks |>
   #title & subtitle
   htmlwidgets::prependContent(
     tagList(
-      tags$img(src = "https://github.com/emmarshall/emmarshall.github.io/raw/main/images/logo-blue.png", style = "width:50px;height:50px;display:inline-block;vertical-align:middle;"),
+      tags$img(src = "https://github.com/emmarshall/apls-org/raw/main/images/logo-blue.png", style = "width:50px;height:50px;display:inline-block;vertical-align:middle;"),
       tags$div("Details & Descriptions",  style="font-size:32px;font-weight:bold;margin-left:5px;margin-bottom:0;display:inline-block;vertical-align:middle;"), 
       tags$h3("Wednesday March 15, 2023", style="font-family:Chivo;margin-bottom:20px;margin-top:0;font-weight:400;color:#8C8C8C;padding-left:40px;")
   )
