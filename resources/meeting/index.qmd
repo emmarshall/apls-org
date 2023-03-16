@@ -3,7 +3,7 @@ title: One Website to Rule them All
 author: Emma Marshall
 date: last-modified
 description: |
-  A brief explaination of why we made a new website and how it can help AP-LS provide more dynamic content to its membership. 
+  A brief explanation of why we made a new website and how it can help AP-LS provide more dynamic content to its membership. 
 title-block-banner: ../../images/default-banner.svg
 ---
 
@@ -21,6 +21,7 @@ title-block-banner: ../../images/default-banner.svg
 
 ::: vspace
 :::
+
 
 ::: grid
 ::: {.g-col-12 .g-col-md-6}
