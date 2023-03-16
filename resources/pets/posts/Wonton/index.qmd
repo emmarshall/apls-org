@@ -16,18 +16,16 @@ title-block-style: none
 
 ::: grid
 ::: {#about-pet-text .g-col-12 .g-col-md-6}
-![](featured.png){.lightbox}
+![](featured.jpg){.lightbox}
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {simple-info}
 # Meet {{< meta title >}}
 
-### Age: {{< meta age >}}
+### Quote: 
 
-### Breed:
-
-{{< meta categories >}}
+> {{< meta quote >}}
 
 ### Bad Habit:
 

@@ -1,0 +1,51 @@
+---
+title: Buddy
+human: Margaret Bull Kovera, PhD, Professor, John Jay College of Criminal Justice/CUNY
+description: |
+  Buddy was originally my parents' dog. My daughter, Hope, suggested they name him Buddy because that was my father's nickname until he was 17 (yes, Buddy Bull). When my parents moved into a senior living community, they asked us to adopt him and he has been with us ever since (9 years). Hope is his favorite person.
+quote: "Did you say something? I am sleeping. And you are not Hope. So no, I don't think you did."
+image: featured.jpg
+categories: Miniature Schnauzer
+age: 13
+talent: |
+  When he was younger and we said "circus dog", he would get up on his hind legs and turn around three times to claim a treat. Now that he has arthritis in his hips, his talent is sleeping.
+habit: |
+  He does not eat food directly from his bowl. Instead, he takes food from his bowl to a carpet (usually the carpet that is the lightest in color and most expensive)and eats it there.
+title-block-categories: false
+title-block-banner: false
+title-block-style: none
+---
+
+::: grid
+::: {#about-pet-text .g-col-12 .g-col-md-6}
+![](featured.jpg){.lightbox}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {simple-info}
+# Meet {{< meta title >}}
+
+### Quote: 
+
+> {{< meta quote >}}
+
+### Breed:
+
+{{< meta categories >}}
+
+### Bad Habit:
+
+{{< meta habit >}}
+
+### Special Talent:
+
+{{< meta talent >}}
+:::
+:::
+:::
+
+##### Submitted by: {{< meta human >}}
+
+## Bio
+
+{{< meta description >}}

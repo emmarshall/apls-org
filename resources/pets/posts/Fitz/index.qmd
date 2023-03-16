@@ -23,7 +23,9 @@ title-block-style: none
 ::: {simple-info}
 # Meet {{< meta title >}}
 
-### Age: {{< meta age >}}
+### Quote: 
+
+> {{< meta quote >}}
 
 ### Breed:
 
