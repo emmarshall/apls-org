@@ -96,7 +96,7 @@ The content for the site is stored in the shared AP-LS Google Drive and the page
 
 ### Making things easier
 
--   With git and version control we can spend less time maintaining a better record of what charges are made and when (and by whom).
+-   With git and version control we can spend less time maintaining a better record of what changes are made and when (and by whom).
 
 -   By storing the content for our site in the shared `googledrive` we can streamline the process of making annual updates and also present more dynamic content on our pages.
 
