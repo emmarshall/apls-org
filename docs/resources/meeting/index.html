@@ -350,12 +350,30 @@ What is Quarto®?
 <li><p>By storing the content for our site in the shared <code>googledrive</code> we can streamline the process of making annual updates and also present more dynamic content on our pages.</p></li>
 </ul>
 <div class="panel-tabset box-shadow page-columns page-full">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Example 1: Pets!</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Example 2: Executive Committee</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Example 1: Executive Committee</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Example 2: Pets!</a></li></ul>
 <div class="tab-content box-shadow page-columns page-full">
-<div id="tabset-1-1" class="tab-pane active page-columns page-full" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>We can also use a similar process to collect and share content we solicit from our members.</p>
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/leadership.png" class="img-fluid figure-img" alt="Image of a spreadsheet will contact information" width="472"></p>
+<p></p><figcaption class="figure-caption">Contact information for the 2022-2023 Executive Officers and Committee pages is now stored in a spreadsheet</figcaption><p></p>
+</figure>
+</div>
+<p>To update the new directory page for next year, you just have to create a duplicate spreadsheet and provide the updated url to the code block within the <code>leadership.qmd</code> or <code>committees.qmd</code> file.</p>
+<p>The information will be read into <code>r</code> and formatted for publication on the site:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/listing.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<section id="for-additional-information-about-how-this-workflow-can-be-used-to-make-interactive-tables-see-committees-or-conference-schedule" class="level4">
+<h4 class="anchored" data-anchor-id="for-additional-information-about-how-this-workflow-can-be-used-to-make-interactive-tables-see-committees-or-conference-schedule">For additional information about how this workflow can be used to make interactive tables: see <a href="../../about/committees.html">Committees</a> or <a href="../../conferences/schedule.html">Conference schedule</a></h4>
+</section>
+</div>
+<div id="tabset-1-2" class="tab-pane page-columns page-full" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>We can also use a similar process to collect and share content solicited from our membership.</p>
 <p>Take a look at the newly renovated <a href="../pets/index.html">Pets of AP-LS</a> blog post page. This is a project of the Student Committee and is now set up to generate a new post whenever someone submits a new pet via the associated google form.</p>
-<p>When we receive a new pet, the data will be read into <code>r</code> and used to generate a new <code>index.qmd</code> template file.</p>
+<p>When we receive a new pet, the data will be read into <code>r</code> and generate a new <code>index.qmd</code> template file with those details.</p>
 <div class="cell column-page quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="cell-output-display quarto-layout-cell" style="flex-basis: 36.4%;justify-content: center;">
@@ -376,7 +394,7 @@ What is Quarto®?
 </div>
 </div>
 </div>
-<p>Once we confirm and approve that the submission is legitimate, we can render the document and add it to our site.</p>
+<p>Once we confirm and approve that the submission is legitimate, we can render the doc and add it to our site.</p>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
 <div class="quarto-figure quarto-figure-center">
@@ -389,24 +407,6 @@ What is Quarto®?
 </div>
 <section id="for-a-less-adorable-example-of-a-listing-page-see-grants-awards" class="level4">
 <h4 class="anchored" data-anchor-id="for-a-less-adorable-example-of-a-listing-page-see-grants-awards">For a less adorable example of a listing page: see <a href="../../awards/index.html">Grants &amp; Awards</a></h4>
-</section>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/leadership.png" class="img-fluid figure-img" alt="Image of a spreadsheet will contact information" width="472"></p>
-<p></p><figcaption class="figure-caption">Contact information for the Executive Officers and Committee pages is now stored in a spreadsheet within the shared AP-LS Google Drive</figcaption><p></p>
-</figure>
-</div>
-<p>To update the new directory page, you just have to re-render the associated <code>leadership.qmd</code> or <code>committees.qmd</code> file with the updated data in the drive.</p>
-<p>The information will be read into <code>r</code> and formatted like this:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/listing.png" class="img-fluid figure-img"></p>
-</figure>
-</div>
-<section id="for-additional-information-about-how-this-workflow-can-be-used-to-make-interactive-tables-see-committees-or-conference-schedule" class="level4">
-<h4 class="anchored" data-anchor-id="for-additional-information-about-how-this-workflow-can-be-used-to-make-interactive-tables-see-committees-or-conference-schedule">For additional information about how this workflow can be used to make interactive tables: see <a href="../../about/committees.html">Committees</a> or <a href="../../conferences/schedule.html">Conference schedule</a></h4>
 </section>
 </div>
 </div>

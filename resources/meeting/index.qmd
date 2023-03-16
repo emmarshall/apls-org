@@ -102,13 +102,26 @@ The content for the site is stored in the shared AP-LS Google Drive and the page
 
 ::: {.panel-tabset .box-shadow}
 
-## Example 1: Pets!
+## Example 1: Executive Committee
 
-We can also use a similar process to collect and share content we solicit from our members.
+![Contact information for the 2022-2023 Executive Officers and Committee pages is now stored in a spreadsheet](images/leadership.png){fig-alt="Image of a spreadsheet will contact information" fig-align="center" width="472"}
+
+To update the new directory page for next year, you just have to create a duplicate spreadsheet and provide the updated url to the code block within the `leadership.qmd` or `committees.qmd` file.
+
+The information will be read into `r` and formatted for publication on the site:
+
+![](images/listing.png){fig-align="center"}
+
+#### For additional information about how this workflow can be used to make interactive tables: see [Committees](../../about/committees.html) or [Conference schedule](../../conferences/schedule.html)
+
+
+## Example 2: Pets!
+
+We can also use a similar process to collect and share content solicited from our membership.
 
 Take a look at the newly renovated [Pets of AP-LS](../pets/index.html) blog post page. This is a project of the Student Committee and is now set up to generate a new post whenever someone submits a new pet via the associated google form.
 
-When we receive a new pet, the data will be read into `r` and used to generate a new `index.qmd` template file.
+When we receive a new pet, the data will be read into `r` and generate a new `index.qmd` template file with those details.
 
 ```{r}
 #| eval: true
@@ -123,7 +136,7 @@ knitr::include_graphics("images/form.png")
 knitr::include_graphics("images/yml.png")
 ```
 
-Once we confirm and approve that the submission is legitimate, we can render the document and add it to our site.
+Once we confirm and approve that the submission is legitimate, we can render the doc and add it to our site.
 
 ```{r}
 #| eval: true
@@ -134,17 +147,5 @@ knitr::include_graphics("images/fitz.png")
 ```
 
 #### For a less adorable example of a listing page: see [Grants & Awards](../../awards/index.html)
-
-## Example 2: Executive Committee
-
-![Contact information for the Executive Officers and Committee pages is now stored in a spreadsheet within the shared AP-LS Google Drive](images/leadership.png){fig-alt="Image of a spreadsheet will contact information" fig-align="center" width="472"}
-
-To update the new directory page, you just have to re-render the associated `leadership.qmd` or `committees.qmd` file with the updated data in the drive.
-
-The information will be read into `r` and formatted like this:
-
-![](images/listing.png){fig-align="center"}
-
-#### For additional information about how this workflow can be used to make interactive tables: see [Committees](../../about/committees.html) or [Conference schedule](../../conferences/schedule.html)
 
 :::

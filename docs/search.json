@@ -931,11 +931,32 @@
     "text": "This video was a part of the Introduction to AP-LS Series hosted by the BRIDGE Committee (formerly MAC). It features professionals’ discussing topics related to diversity in the field of psychology and law.\n\n Link to video"
   },
   {
+    "objectID": "resources/meeting/index.html",
+    "href": "resources/meeting/index.html",
+    "title": "One Website to Rule them All",
+    "section": "",
+    "text": "Click to reveal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBUT…\n\n\n\n\n\n\nWe paid for many advanced tools & features we never used/needed\nThe new features they developed and introduce were largely irrelevant to us – i.e., did not target an academic or scientific audience\nAllowed for embedding/hosting docs/resources, but provided few options for indexing dynamic content without python or advance js knowledge\nNo option for version control\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBUT…\n\n\n\n\n\n\nWe still lacked control over look/feel of the site\nSlow response time made it difficult to add/remove dynamic content\nContent sometimes lost in translation between web editor and APA web professionals\nNo option for version control"
+  },
+  {
+    "objectID": "resources/meeting/index.html#welcome-to-the-new-ap-ls.org",
+    "href": "resources/meeting/index.html#welcome-to-the-new-ap-ls.org",
+    "title": "One Website to Rule them All",
+    "section": "Welcome to the new ap-ls.org!",
+    "text": "Welcome to the new ap-ls.org!\nThis new ap-ls.org website is built entirely in RStudio using Quarto.\n\n\n\n\n\n\nWhat is Quarto®?\n\n\n\n\n\nQuarto® is an open-source scientific and technical publishing system built on Pandoc.\n\nDesigned with a scientific publishing audience in mind by Posit® (formerly RStudio)\nMakes it easy to incorporate reproducible content\nAllows documents to be rendered in multiple formats including reports, presentations, websites or books in html, pdf, word, etc.\nIncludes features tailored to academic and scientific writing or resources\n\nMakes it easy to do things like execute code in r or python or include citations, footnotes, scientific markdown, equations, citations, crossrefs, etc with minimal programming knowledge."
+  },
+  {
+    "objectID": "resources/meeting/index.html#how-this-website-works",
+    "href": "resources/meeting/index.html#how-this-website-works",
+    "title": "One Website to Rule them All",
+    "section": "How this website works",
+    "text": "How this website works\nThe site is published using Netlify.\nWe are currently using the free version of Netlify but can upgrade to the paid alternative if we want more advanced features like password protected pages.\n\n\nWe also do not currently have google analytics or other tracking set up on the site. That can change if you want it to.\nThe content for the site is stored in the shared AP-LS Google Drive and the pages for the site are all stored on GitHub.\n\nMaking things easier\n\nWith git and version control we can spend less time maintaining a better record of what charges are made and when (and by whom).\nBy storing the content for our site in the shared googledrive we can streamline the process of making annual updates and also present more dynamic content on our pages.\n\n\nExample 1: Executive CommitteeExample 2: Pets!\n\n\n\n\n\nContact information for the 2022-2023 Executive Officers and Committee pages is now stored in a spreadsheet\n\n\nTo update the new directory page for next year, you just have to create a duplicate spreadsheet and provide the updated url to the code block within the leadership.qmd or committees.qmd file.\nThe information will be read into r and formatted for publication on the site:\n\n\n\n\n\n\nFor additional information about how this workflow can be used to make interactive tables: see Committees or Conference schedule\n\n\n\nWe can also use a similar process to collect and share content solicited from our membership.\nTake a look at the newly renovated Pets of AP-LS blog post page. This is a project of the Student Committee and is now set up to generate a new post whenever someone submits a new pet via the associated google form.\nWhen we receive a new pet, the data will be read into r and generate a new index.qmd template file with those details.\n\n\n\n\n\n\nHere is the form\n\n\n\n\n\n\n\n… here is the yaml header that is automatically generated\n\n\n\n\n\nOnce we confirm and approve that the submission is legitimate, we can render the doc and add it to our site.\n\n\n\n\n\n… and here is a very cute pup\n\n\n\n\n\nFor a less adorable example of a listing page: see Grants & Awards"
+  },
+  {
     "objectID": "resources/job_postings/index.html",
     "href": "resources/job_postings/index.html",
     "title": "Job Postings",
     "section": "",
-    "text": "2/8/23\n      \n      \n        Director and Professor in the School of Interdisciplinary Forensics\n            Arizona State University | Gendale, AZ\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/7/23\n      \n      \n        Two Term Instructor or Term Assistant Professor Positions – Criminology, Law and Society\n            George Mason University | Fairfax, VA\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/6/23\n      \n      \n        Assistant Professor\n            Westminster College | Fulton, Missouri\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/6/23\n      \n      \n        Assistant Professor of Forensic Psychology\n            Western Kentucky University | Bowling Green, KY\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/6/23\n      \n      \n        PhD Scholarship in Child and Adolescent Clinical/Forensic Psychology\n            Swinburne University of Technology | Melbourne, Australia\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/6/23\n      \n      \n        Health Sciences Assistant/Associate Clinical Professor - Forensic Psychologist\n            University of Davis Health System | Sacramento, CA\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/6/23\n      \n      \n        C.T. Vivian Diversity Teaching Scholar\n            Western Illinois University | Macomb, IL\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/6/23\n      \n      \n        Tenure Track Lecturer - Psychology\n            University of New Haven | West Haven, CT\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n\nNo matching items\n\n\n\n\n    \n      \n        2/9/23\n      \n      \n        Outpatient Sex Offender Treatment Provider\n            Good Life Counseling | Various locations in Virginia\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/7/23\n      \n      \n        Forensic Evaluator - Psychologist\n            New Hampshire Correctional System | Concord, New Hampshire\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/6/23\n      \n      \n        Forensic Psychologist\n            Transformative Justice Mental Health Clinic- HLP | Louisville, KY\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/6/23\n      \n      \n        Psychologist - Forensic Evaluator\n            Washington State Department of Social and Health Services | Eastern Washington State\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/6/23\n      \n      \n        Psychologist - Forensic Evaluator\n            Washington State Department of Social and Health Services | Western Washington State\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n\nNo matching items"
+    "text": "2/16/23\n      \n      \n        Tenure-track, Assistant or Associate Professor in Forensic Psychology\n            University of Denver | Denver, CO\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/8/23\n      \n      \n        Tenure-Track Position in Clinical-Forensic Psychology\n            Simon Fraser University | Metro Vancouver, British Columbia, Canada\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/7/23\n      \n      \n        Two Term Instructor or Term Assistant Professor Positions – Criminology, Law and Society\n            George Mason University | Fairfax, VA\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/6/23\n      \n      \n        Assistant Professor\n            Westminster College | Fulton, Missouri\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n\nNo matching items\n\n\n\n\n    \n      \n        2/9/23\n      \n      \n        Outpatient Sex Offender Treatment Provider\n            Good Life Counseling | Various locations in Virginia\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/7/23\n      \n      \n        Forensic Evaluator - Psychologist\n            New Hampshire Correctional System | Concord, New Hampshire\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/6/23\n      \n      \n        Forensic Psychologist\n            Transformative Justice Mental Health Clinic- HLP | Louisville, KY\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/6/23\n      \n      \n        Psychologist - Forensic Evaluator\n            Washington State Department of Social and Health Services | Eastern Washington State\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n    \n      \n        2/6/23\n      \n      \n        Psychologist - Forensic Evaluator\n            Washington State Department of Social and Health Services | Western Washington State\n    \n      \n        \n         View post »\n        \n      \n    \n    \n  \n\nNo matching items"
   },
   {
     "objectID": "resources/job_postings/index.html#fa-user-tie-professional-positions",
@@ -1356,229 +1377,5 @@
     "title": "Membership",
     "section": "",
     "text": "JoinRenewQuestions?\n\n\nInterested in becoming a member of AP-LS?\nPlease identify your membership category below and follow the instructions on our membership management page to join today!\n\n\n\n\n\n\n  \n    \n    \n    \n    \n    \n  \n  \n    \n      \n    \n    \n  \n  \n    \n      Full or Associate\n      \n      Early Career\n      \n      Student\n    \n  \n  \n    $50/year\n\n\n$15/year\n\n\n$15/year\n\n    Individuals with degree in psych or related field including:\n\n\nIndividuals within 10 years of receieving:\n\n\nIndividuals currently enrolled as either:\n\n    \n  \n  \n    \n    \n  \n  \n    \n\nDoctoral Degree (Ph.D., Psy.D., M.D., or Ed.D.)\n    \n\nJuris Doctorate\n    \n\nMasters Degree\n    \n\nTerminal Bachelors Degree\n  \n\n\n\n\n\n  \n  \n    \n    \n  \n  \n    \n\nDoctoral Degree (Ph.D., Psy.D., M.D., or Ed.D.)\n    \n\nJuris Doctorate\n    \n\nMasters Degree\n    \n\nTerminal Bachelors Degree\n  \n\n\n\n\n\n  \n  \n    \n    \n  \n  \n    \n\nUndergraduate Student\n    \n\nGraduate Student\n  \n\n\n\n    Join now\n\n\nJoin now\n\n\nJoin now\n\n  \n  \n  \n\n\n\n\n\n\nDid you receive a renewal notice from the AP-LS Office?\nPlease complete this renewal form and continue receiving member benefits with AP-LS.\nRenew Membership\n\n\nIf you have any questions about membership, please contact the American Psychology-Law Society:\n2150 N 107th Street Suite 205  Seattle, WA 98133   (704) 456-7276   office@apls.org\n\n\n\n\n\n\nForensic Psychology Diplomat\n\n\n\n\n\nIf you are interested in obtaining Forensic Psychology Diplomat status in the American Board of Forensic Psychology and American Board of Professional Psychology, please contact:\nABPP  600 Market Street, Suite 300  Chapel Hill, NC 27516   (919) 537-8031   (919) 537-8034\nMore information can be found on websites: American Board of Forensic Psychology and American Board of Professional Psychology.\n\n\n\n\n\n\n\nWhy join AP-LS?\nThe American Psychology-Law Society (AP-LS) is an interdisciplinary organization devoted to scholarship, practice, and public service in psychology and law.\nAP-LS is both a free-standing organization as well as a division (Division 41) of the American Psychological Association (APA). Membership in AP-LS is therefore separate and independent from membership in Division 41 of APA, although many members belong to both organizations (AP-LS and APA).\nMembers of AP-LS enjoy a variety of benefits including:\n\n\n\n\n\n\n\n\n\nOnline access to the official journal of AP-LS, Law and Human Behavior.\n\n\n\n\n\n\n\nOnline subscription to the AP-LS monthly newsletter.\n\n\n\n\n\n\n\nEligibility to apply for grants, fellowships, and awards.\n\n\n\n\n\n\n\nDiscounts on AP-LS conference registration.\n\n\n\n\n\n\n\nAbility to vote in annual AP-LS elections.\n\n\n\n\n\n\n\nAccess to additional resources and networking opportunties.\n\n\n\n\nWho can join?\nMembership is open to interested professionals and students in other disciplines beyond psychology. AP-LS encourages APA members, graduate and undergraduate students, and persons in related fields to consider joining.\nMembership Types\nThere are six categories of membership in AP-LS including:\n\n\n\n\n\n\nFull\n\nIndividuals with a doctoral degree (Ph.D., Psy.D., M.D., or Ed.D.) in psych or related field or a Juris Doctorate.\n\n\n\n\n\n\n\nAssociate\n\nInviduals with a master's degree in psych or related field or a terminal bachelors degree.\n\n\n\n\n\n\n\nEarly Career\n\nIndividuals within 10 years of receiving latest degree.\n\n\n\n\n\n\n\nFellows\n\nIndividuals granted Fellow Status (Full Members) or Distinguished Member status (Full Afilliates) by the society.\n\n\n\n\n\n\n\nInternational\n\nIndividuals who reside outside the United States with a relevant doctoral degree. All join as International Affiliates.\n\n\n\n\n\n\n\nStudent\n\nIndividuals currently enrolled in undergraduate or graduate program. All join as Student Affiliates.\n\n\n\n\n\n\n\nFor a more detailed description of each category of membership, see the AP-LS Bylaws."
-  },
-  {
-    "objectID": "resources/benefits/index.html",
-    "href": "resources/benefits/index.html",
-    "title": "A new website for efficient and",
-    "section": "",
-    "text": "SQUARESPACE makes it easy to integrate sophisticated widgets and design components into their website without programming knowledge…\nThis new site is built with Quarto"
-  },
-  {
-    "objectID": "resources/benefits/index.html#why-quarto",
-    "href": "resources/benefits/index.html#why-quarto",
-    "title": "A new website for efficient and",
-    "section": "Why Quarto?",
-    "text": "Why Quarto?"
-  },
-  {
-    "objectID": "resources/benefits/index.html#website-basics",
-    "href": "resources/benefits/index.html#website-basics",
-    "title": "A new website for efficient and",
-    "section": "Website Basics",
-    "text": "Website Basics\nThis new ap-ls.org website is built in RStudio using Quarto.\nThe content for the site is stored on the AP-LS Google Drive and on GitHub. The site is published using Netlify. The root directory that contains the published site is docs.\n\n\n\nNetlify Status"
-  },
-  {
-    "objectID": "resources/benefits/index.html#site-file-structure",
-    "href": "resources/benefits/index.html#site-file-structure",
-    "title": "A new website for efficient and",
-    "section": "Site file structure",
-    "text": "Site file structure\nThe main content for the site is stored in the following files and directories:\n\n_quarto.yml controls site-wide parameters and defines navbar/sidebar/footer content\n_variables.yml controls site-wide variables that can be inserted using shortcodes\napls_functions.R in _site runs the r functions that are used to build aspects of the site including the image carousel. Do not change this.\nindex.qmd is the home page\nabout, conferences, publications, resources, and membership are folders that contain those respective pages for the site and other listing pages\n\nThe main page for each section is saved as index.qmd\nFor the pages that include listings, the index.qmd file in each folder specifies what is included\n\n404.qmd is the 404 page for the site\nstyles.css and theme.scss in the assets directory are used for additional CSS and SASS styling for the site’s appearance, such as fonts and colors\n\nindex.css in conferences/ has additional styling for the conference page"
-  },
-  {
-    "objectID": "resources/benefits/index.html#what-is-quarto",
-    "href": "resources/benefits/index.html#what-is-quarto",
-    "title": "A new website for efficient and",
-    "section": "What is Quarto®?",
-    "text": "What is Quarto®?\n\nQuarto® is an\n\nopen-source\n\n\nscientific and technical\n\n\npublishing system\n\n\nbuilt on Pandoc.\n\n\n\nQuarto is an open-source scientific and technical publishing system built on Pandoc. Let’s break this down: Open-source: RStudio believes that it’s better for everyone if the tools used for research and science are free and open. Free software means more reproducibility, widespread sharing of knowledge and techniques, and elimination of cost barriers. You can also see the source code and contribute, too. Scientific and technical: Scientific and technical means that Quarto has specific things for journal articles or scientific papers, like support for code execution, citations, footnotes, scientific markdown, equations, citations, crossrefs, so many things. We’ll be showing some of these later on, but Quarto definitely has the scientific publishing audience in mind. Publishing system: Quarto is a tool for writing dynamic documents that combine code, output, and text. It can embed output from Python, R, Julia, and Observable. Quarto can be rendered to create high-quality articles, reports, presentations, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more formats. Pandoc is the tool working behind the scenes to change Quarto documents to their finalized format.Quarto documents are authored with markdown, which is a plain text format. But Pandoc markdown is very rich and lets you control your document in very specific ways while being easy to read and write. We’ll cover this as well."
-  },
-  {
-    "objectID": "resources/benefits/index.html#quarto-origins",
-    "href": "resources/benefits/index.html#quarto-origins",
-    "title": "A new website for efficient and",
-    "section": "Quarto Origins",
-    "text": "Quarto Origins\n\n\nOpen source project sponsored by RStudio, PBC\nWe’ve had 10 years of experience with R Markdown\nBut there are a lot of other programming languages…"
-  },
-  {
-    "objectID": "resources/benefits/index.html#quarto-goals",
-    "href": "resources/benefits/index.html#quarto-goals",
-    "title": "A new website for efficient and",
-    "section": "Quarto Goals",
-    "text": "Quarto Goals\n\n\nCreate computational documents that hold source code for automation and reproducibility\nReduce how difficult it is to make a scientific document\nEnable “single-source publishing” — create Word, PDFs, HTML, etc. from one source\n\n\n\n\nCheck out JJ Allaire’s R Medicine Keynote!\n\nSo the goals are to create these dynamic documents that can be reproducible and automated. [story about building documents]. For single-source publishing, you often need to create all sorts of output, like things that are printed, on the web, on the mobile. The idea is to being able to make publications from one source."
-  },
-  {
-    "objectID": "resources/benefits/index.html#knitr",
-    "href": "resources/benefits/index.html#knitr",
-    "title": "A new website for efficient and",
-    "section": "knitr",
-    "text": "knitr\n\n\n---\ntitle: \"ggplot2 demo\"\nformat: \n  html:\n    code-fold: true\n---\n\n## Meet Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.\n\n```{r}\n#| label: plot-penguins\n#| echo: false\n#| message: false\n#| warning: false\nlibrary(tidyverse)\nlibrary(palmerpenguins)\nggplot(penguins, \n       aes(x = flipper_length_mm, y = bill_length_mm)) +\n  geom_point(aes(color = species, shape = species)) +\n  scale_color_manual(values = c(\"darkorange\",\"purple\",\"cyan4\")) +\n  labs(\n    title = \"Flipper and bill length\",\n    subtitle = \"Dimensions for penguins at Palmer Station LTER\",\n    x = \"Flipper length (mm)\", y = \"Bill length (mm)\",\n    color = \"Penguin species\", shape = \"Penguin species\"\n  ) +\n  theme_minimal()\n```\n\n\n\n\n\nThis is a Quarto document with the extension .qmd (on the left) along with its rendered version as HTML (on the right). You could also choose to render it into other formats like PDF, MS Word, etc. This is the basic model for Quarto publishing—take a source document and render it to a variety of output formats."
-  },
-  {
-    "objectID": "resources/benefits/index.html#quarto-engines",
-    "href": "resources/benefits/index.html#quarto-engines",
-    "title": "A new website for efficient and",
-    "section": "Quarto Engines",
-    "text": "Quarto Engines\n\nJupyter\n\n\nThe structure is similar for Jupyter, we just are running documents natively through the Jupyter engine. Like R Marukdown, you can render Jupyter notebooks with Quarto, too. Jupyter will support any other language that has a Jupyter kernal, and right now, there’s a lot of Quarto functionality for Python and Julia through Jupyter. But, this is part of the multilingualism that we discussed earlier, where you can keep adding languages if you swap out different engines. This also means you can have a shared syntax and format across languages, since the backend is the same."
-  },
-  {
-    "objectID": "resources/benefits/index.html#working-with-the-rstudio-visual-editor",
-    "href": "resources/benefits/index.html#working-with-the-rstudio-visual-editor",
-    "title": "A new website for efficient and",
-    "section": "Working with the RStudio Visual Editor",
-    "text": "Working with the RStudio Visual Editor\n\n\n\nLet’s try it!\n\n\nRStudio has two options for editing documents: visual (on the left) and source (on the right). RStudio’s visual editor offers an WYSIWYM authoring experience for markdown. So formatting (e.g. bolding text) you can use the toolbar, a keyboard shortcut (⌘B), or the markdown construct (bold). The plain text source code underlying the document is written for you and you can view/edit it at any point by switching to source mode for editing. You can toggle back and forth these two modes by clicking on Source and Visual in the editor toolbar (or using the keyboard shortcut ⌘⇧ F4)."
-  },
-  {
-    "objectID": "resources/meeting/index.html",
-    "href": "resources/meeting/index.html",
-    "title": "One Website to Rule them All",
-    "section": "",
-    "text": "Click to reveal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBUT…\n\n\n\n\n\n\nWe paid for many advanced tools & features we never used/needed\nThe new features they developed and introduce were largely irrelevant to us – i.e., did not target an academic or scientific audience\nAllowed for embedding/hosting docs/resources, but provided few options for indexing dynamic content without python or advance js knowledge\nNo option for version control\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBUT…\n\n\n\n\n\n\nWe still lacked control over look/feel of the site\nSlow response time made it difficult to add/remove dynamic content\nContent sometimes lost in translation between web editor and APA web professionals\nNo option for version control"
-  },
-  {
-    "objectID": "resources/meeting/index.html#what-about-apa",
-    "href": "resources/meeting/index.html#what-about-apa",
-    "title": "One Website to Rule them All",
-    "section": "What about APA…",
-    "text": "What about APA…\nAPA’s site is built to serve organizations like AP-LS…\n\n\n\n\n\n\nBUT\n\n\n\n\nWe lacked control over look/feel of the site\nSlow response time made it difficult to add/remove content\nNo option for version control\nContent can be difficult to reproduce–or lost in translation between web editor and APA web professional\n\n\n\n\n\n\n\n\n\nInstead of updating content via track-changes and non-dynamic documents…\n\n\n\n\n\n\n\n… we can use git and version control to keep track of what is changed\n\n\n\n\n\nA Quarto Blog is a type of Quarto Website – according to the Quarto documentation, you can create websites that consist of just a single blog (like the above right-hand example), websites that have multiple blogs, or you can add a blog to a website that contains other content (which is what we’ll be doing today).\nListings:\nAs an example, the Pets of AP-LS listing page, a project of the Student Committee, is generated via google forms, drive and a few simple functions in r\nWe collect people’s responses with a google form and use it to populate the yaml field of the index.qmd file…\n\n\n\n\n\n\nHere is the form\n\n\n\n\n\n\n\n… here is the yaml header that is automatically generated\n\n\n\n\n\n\n\n… and here is a very cute pup\n\n\n\n\n\nWe can also use googledrive to organize and update the content we put up about AP-LS Committees and the Executive Officers each year.\n\n\n\n\n\n\nAPA’s system for updating our leadership was slow and prone to error\n\n\n\n\n\n\n\n… now, it will be easier to keep our directory up to date\n\n\n\n\n\nThe result, will help to\n\n\n\n\n\nGoogle sheet storing EC information\n\n\n\n\n\n\n\n… and on the site"
-  },
-  {
-    "objectID": "resources/meeting/index.html#our-solution",
-    "href": "resources/meeting/index.html#our-solution",
-    "title": "One Website to Rule them All",
-    "section": "Our Solution",
-    "text": "Our Solution\nThis new site is built with Quarto\n\n\n\nLogo for American Psychology-Law Society"
-  },
-  {
-    "objectID": "resources/meeting/index.html#why-quarto",
-    "href": "resources/meeting/index.html#why-quarto",
-    "title": "One Website to Rule them All",
-    "section": "Why Quarto?",
-    "text": "Why Quarto?"
-  },
-  {
-    "objectID": "resources/meeting/index.html#what-is-quarto",
-    "href": "resources/meeting/index.html#what-is-quarto",
-    "title": "One Website to Rule them All",
-    "section": "What is Quarto®?",
-    "text": "What is Quarto®?\nQuarto® is an open-source scientific and technical publishing system built on Pandoc. Benefits include:\n\nBuilt with a scientific publishing audience in mind by Posit® (formerly RStudio)\nMakes it easy to incorporate reproducible content\nIncludes features that are tailored to academic and scientific writing and publishing\nMakes it easy to do things like execute code in r or python or include citations, footnotes, scientific markdown, equations, citations, crossrefs, etc with minimal programming knowledge.\nAllows documents to be rendered in multiple formats including reports, presentations, websites or books in html, pdf, word, etc.\n\n:::"
-  },
-  {
-    "objectID": "resources/meeting/index.html#knitr",
-    "href": "resources/meeting/index.html#knitr",
-    "title": "One Website to Rule them All",
-    "section": "knitr",
-    "text": "knitr\n::: columns ::: {.column width=“50%”} — title: “ggplot2 demo” format: html: code-fold: true —"
-  },
-  {
-    "objectID": "resources/meeting/index.html#website-basics",
-    "href": "resources/meeting/index.html#website-basics",
-    "title": "One Website to Rule them All",
-    "section": "Website Basics",
-    "text": "Website Basics\nThis new ap-ls.org website is built in RStudio using Quarto.\nThe content for the site is stored on the AP-LS Google Drive and on GitHub. The site is published using Netlify. The root directory that contains the published site is docs.\n\n\n\nNetlify Status"
-  },
-  {
-    "objectID": "resources/meeting/index.html#working-with-the-rstudio-visual-editor",
-    "href": "resources/meeting/index.html#working-with-the-rstudio-visual-editor",
-    "title": "One Website to Rule them All",
-    "section": "Working with the RStudio Visual Editor",
-    "text": "Working with the RStudio Visual Editor\n\n\n\nLet’s try it!\n\n\nRStudio has two options for editing documents: visual (on the left) and source (on the right). RStudio’s visual editor offers an WYSIWYM authoring experience for markdown. So formatting (e.g. bolding text) you can use the toolbar, a keyboard shortcut (⌘B), or the markdown construct (bold). The plain text source code underlying the document is written for you and you can view/edit it at any point by switching to source mode for editing. You can toggle back and forth these two modes by clicking on Source and Visual in the editor toolbar (or using the keyboard shortcut ⌘⇧ F4)."
-  },
-  {
-    "objectID": "resources/meeting/index.html#site-file-structure",
-    "href": "resources/meeting/index.html#site-file-structure",
-    "title": "One Website to Rule them All",
-    "section": "Site file structure",
-    "text": "Site file structure\nThe main content for the site is stored in the following files and directories:\n\n_quarto.yml controls site-wide parameters and defines navbar/sidebar/footer content\n_variables.yml controls site-wide variables that can be inserted using shortcodes\napls_functions.R in _site runs the r functions that are used to build aspects of the site including the image carousel. Do not change this.\nindex.qmd is the home page\nabout, conferences, publications, resources, and membership are folders that contain those respective pages for the site and other listing pages\n\nThe main page for each section is saved as index.qmd\nFor the pages that include listings, the index.qmd file in each folder specifies what is included\n\n404.qmd is the 404 page for the site\nstyles.css and theme.scss in the assets directory are used for additional CSS and SASS styling for the site’s appearance, such as fonts and colors\n\nindex.css in conferences/ has additional styling for the conference page\n\nCreate computational documents that hold source code for automation and reproducibility\nReduce how difficult it is to make a scientific document\nEnable “single-source publishing” — create Word, PDFs, HTML, etc. from one source\n\n\n\n\n\n\n\nInstead of updating content via track-changes and non-dynamic documents…\n\n\n\n\n\n\n\n… we can use git and version control to keep track of what is changed\n\n\n\n\n\nListings:\nAs an example, the Pets of AP-LS listing page, a project of the Student Committee, is generated via google forms, drive and a few simple functions in r\nWe collect people’s responses with a google form and use it to populate the yaml field of the index.qmd file…\n\n\n\n\n\n\nHere is the form\n\n\n\n\n\n\n\n… here is the yaml header that is automatically generated\n\n\n\n\n\n\n\n… and here is a very cute pup\n\n\n\n\n\nWe can also use googledrive to organize and update the content we put up about AP-LS Committees and the Executive Officers each year.\n\n\n\n\n\n\nAPA’s system for updating our leadership was slow and prone to error\n\n\n\n\n\n\n\n… now, it will be easier to keep our directory up to date\n\n\n\n\n\nThe result, will help to\n\n\n\n\n\nGoogle sheet storing EC information\n\n\n\n\n\n\n\n… and on the site"
-  },
-  {
-    "objectID": "resources/meeting/index.html#the-trouble-with-squarespace",
-    "href": "resources/meeting/index.html#the-trouble-with-squarespace",
-    "title": "One Website to Rule them All",
-    "section": "The trouble with SQUARESPACE®…",
-    "text": "The trouble with SQUARESPACE®…\nSQUARESPACE made it easy to integrate sophisticated widgets and design components into the old ap-ls.org site…\n\n\n\n\n\n\nBUT\n\n\n\n\nWe paid for many advanced tools & features we never used/needed\nThe new features they developed and introduce were largely irrelevant to us – i.e., did not target to an academic or scientific audience\nAllowed for embedding/hosting docs/resources, but limited options for indexing or presenting dynamic content without python or advance js knowledge\nNo option for version control"
-  },
-  {
-    "objectID": "resources/meeting/index.html#whereas-apas-site-was-built-to-serve-organizations-like-ap-ls",
-    "href": "resources/meeting/index.html#whereas-apas-site-was-built-to-serve-organizations-like-ap-ls",
-    "title": "One Website to Rule them All",
-    "section": "Whereas APA’s site was built to serve organizations like AP-LS…",
-    "text": "Whereas APA’s site was built to serve organizations like AP-LS…\n\n\n\n\n\n\nBUT\n\n\n\n\nWe still lacked control over look/feel of the site\nSlow response time made it difficult to add/remove dynamic content\nNo option for version control\nContent often lost in translation between web editor and APA web professionals"
-  },
-  {
-    "objectID": "resources/meeting/index.html#both-sites-made-it-particularly-difficult",
-    "href": "resources/meeting/index.html#both-sites-made-it-particularly-difficult",
-    "title": "One Website to Rule them All",
-    "section": "Both sites made it particularly difficult",
-    "text": "Both sites made it particularly difficult\n\nCreate computational documents that hold source code for automation and reproducibility\nReduce how difficult it is to make a scientific document\nEnable “single-source publishing” — create Word, PDFs, HTML, etc. from one source\n\n\n\n\n\n\n\nInstead of updating content via track-changes and non-dynamic documents…\n\n\n\n\n\n\n\n… we can use git and version control to keep track of what is changed\n\n\n\n\n\nA Quarto Blog is a type of Quarto Website – according to the Quarto documentation, you can create websites that consist of just a single blog (like the above right-hand example), websites that have multiple blogs, or you can add a blog to a website that contains other content (which is what we’ll be doing today).\nListings:\nAs an example, the Pets of AP-LS listing page, a project of the Student Committee, is generated via google forms, drive and a few simple functions in r\nWe collect people’s responses with a google form and use it to populate the yaml field of the index.qmd file…\n\n\n\n\n\n\nHere is the form\n\n\n\n\n\n\n\n… here is the yaml header that is automatically generated\n\n\n\n\n\n\n\n… and here is a very cute pup\n\n\n\n\n\nWe can also use googledrive to organize and update the content we put up about AP-LS Committees and the Executive Officers each year.\n\n\n\n\n\n\nAPA’s system for updating our leadership was slow and prone to error\n\n\n\n\n\n\n\n… now, it will be easier to keep our directory up to date\n\n\n\n\n\nThe result, will help to\n\n\n\n\n\nGoogle sheet storing EC information\n\n\n\n\n\n\n\n… and on the site"
-  },
-  {
-    "objectID": "resources/meeting/index.html#welcome-to-the-new-ap-ls.org",
-    "href": "resources/meeting/index.html#welcome-to-the-new-ap-ls.org",
-    "title": "One Website to Rule them All",
-    "section": "Welcome to the new ap-ls.org!",
-    "text": "Welcome to the new ap-ls.org!\nThis new ap-ls.org website is built entirely in RStudio using Quarto.\n\n\n\n\n\n\nWhat is Quarto®?\n\n\n\n\n\nQuarto® is an open-source scientific and technical publishing system built on Pandoc.\n\nDesigned with a scientific publishing audience in mind by Posit® (formerly RStudio)\nMakes it easy to incorporate reproducible content\nAllows documents to be rendered in multiple formats including reports, presentations, websites or books in html, pdf, word, etc.\nIncludes features tailored to academic and scientific writing or resources\n\nMakes it easy to do things like execute code in r or python or include citations, footnotes, scientific markdown, equations, citations, crossrefs, etc with minimal programming knowledge."
-  },
-  {
-    "objectID": "resources/meeting/index.html#how-the-site-works",
-    "href": "resources/meeting/index.html#how-the-site-works",
-    "title": "One Website to Rule them All",
-    "section": "How the site works",
-    "text": "How the site works\nThe site is published using Netlify.\n\n\n\n\n\n\nNote\n\n\n\n\n\nWe are currently using the free version of Netlify but can upgrade to the paid alternative if we want more advanced features like password protected pages.\nWe also do not currently have google analytics or other tracking set up on the site. That can change if you want it to.\n\n\n\nThe content for the site is stored in the shared AP-LS Google Drive and the pages for the site are all stored on GitHub.\n\nMaking things easier\n\nBy using git and version control it will help to maintain a better record of what charges are made and when. No more saving multiple versions of the same page as word documents. Github will keep a record for us.\nBy storing the content for our site in the shared AP-LS Google Drive we will streamline the process of making annual updates to pages like Executive Officers and Committees Directory.\n\n\nExample 1: Executive CommitteeExample 2: Pets!\n\n\nContact information for the Executive Officers and Committee pages is now stored in a spreadsheet within the shared googledrive.\n\n\n\n\n\n\nAPA’s system for updating our leadership was slow and prone to error\n\n\n\n\n\n\n\n… now, it will be easier to keep our directory up to date\n\n\n\n\n\nTo update the page on the live site, you just have to re-render the leadership.qmd or committees.qmd file. The data will be read into r and automatically formatted like this:\n\n\n\n\n\nGoogle sheet storing EC information\n\n\n\n\n\n\n\n… and on the site\n\n\n\n\nThe result is a page layout that can be reproduced each year with limited effort and no additional code.\n\n\nWe can also use a similar process to collect and share content we solicit from our members.\nTake a look at the newly renovated Pets of AP-LS blog post page. This is a project of the Student Committee and is now set up to generate a new post whenever someone submits a new pet via the associated google form.\nWhen we receive a new pet, the data will be read into r and used to generate a new index.qmd template file.\n\n\n\n\n\n\nHere is the form\n\n\n\n\n\n\n\n… here is the yaml header that is automatically generated\n\n\n\n\n\nOnce we confirm and approve that the submission is legitimate, we can render the document and add it to our site.\n\n\n\n\n\n… and here is a very cute pup\n\n\n\n\n\n\n\nTo get a better idea of what else these new tools and workflows can do, take a look at the following pages:\n\nCommittee listing\nConference schedule\nGrants & Awards"
-  },
-  {
-    "objectID": "resources/meeting/index.html#content-on-the-site",
-    "href": "resources/meeting/index.html#content-on-the-site",
-    "title": "One Website to Rule them All",
-    "section": "Content on the site",
-    "text": "Content on the site\nThe content for the site is stored in the shared AP-LS Google Drive and the pages that you see are all stored on GitHub.\nBy using git and version control we can maintain a better record of what charges are made and when.\nIt will also allow us to more easily reproduce content that we essentially re-make each year including the conference site\n\n\n\n\n\n\nInstead of updating content via track-changes and non-dynamic documents…\n\n\n\n\n\n\n\n… we can use git and version control to keep track of what is changed\n\n\n\n\n\nListings:\nAs an example, the Pets of AP-LS listing page, a project of the Student Committee, is generated via google forms, drive and a few simple functions in r\nWe collect people’s responses with a google form and use it to populate the yaml field of the index.qmd file…\n\n\n\n\n\n\nHere is the form\n\n\n\n\n\n\n\n… here is the yaml header that is automatically generated\n\n\n\n\n\n\n\n… and here is a very cute pup\n\n\n\n\n\nWe can also use googledrive to organize and update the content we put up about AP-LS Committees and the Executive Officers each year.\n\n\n\n\n\n\nAPA’s system for updating our leadership was slow and prone to error\n\n\n\n\n\n\n\n… now, it will be easier to keep our directory up to date\n\n\n\n\n\nThe result, will help to\n\n\n\n\n\nGoogle sheet storing EC information\n\n\n\n\n\n\n\n… and on the site"
-  },
-  {
-    "objectID": "resources/meeting/index.html#example-b",
-    "href": "resources/meeting/index.html#example-b",
-    "title": "One Website to Rule them All",
-    "section": "Example B:",
-    "text": "Example B:\nAnother example of what we can do with this setup is the newly renovated Pets of AP-LS blog post page. This is a project of the Student Committee and is set up to generate a new post whenever we receive a new submission via a google form.\nWhen we receive a new form submission, the data will be read into r and it will generate a new index.qmd file with the information needed to render a new post.\n\n\n\n\n\n\nHere is the form\n\n\n\n\n\n\n\n… here is the yaml header that is automatically generated\n\n\n\n\n\nThen, after admin approval, the new post will be published to the site.\n\n\n\n\n\n… and here is a very cute pup\n\n\n\n\nFor less adorable examples of what these new tools and workflows can do, please take a look at the following:\n\nCommittee listing\nConference schedule\nGrants & Awards"
-  },
-  {
-    "objectID": "resources/meeting/index.html#a-more-complex-example",
-    "href": "resources/meeting/index.html#a-more-complex-example",
-    "title": "One Website to Rule them All",
-    "section": "A more complex example",
-    "text": "A more complex example\nWe can also use a similar workflow to collect and share content we receive from our membership.\nTake a look at the newly renovated Pets of AP-LS blog post page. This is a project of the Student Committee and is now set up to generate a new post whenever someone submits a new pet via our google form.\nWhen we receive a new pet, the data will be read into r and will generate a new index.qmd file with the information needed to render a new post.\n\n\n\n\n\n\nHere is the form\n\n\n\n\n\n\n\n… here is the yaml header that is automatically generated\n\n\n\n\n\nThen, after we confirm and approve the submission, the new post will be published to the site in the predetermined layout like this.\n\n\n\n\n\n… and here is a very cute pup\n\n\n\n\nFor less adorable examples of what these new tools and workflows can do, please take a look at the following:\n\nCommittee listing\nConference schedule\nGrants & Awards"
-  },
-  {
-    "objectID": "resources/meeting/index.html#for-example",
-    "href": "resources/meeting/index.html#for-example",
-    "title": "One Website to Rule them All",
-    "section": "For example",
-    "text": "For example\nContact information for the Executive Officers and Committee pages is now stored in a spreadsheet within the shared googledrive.\n\n\n\n\n\n\nAPA’s system for updating our leadership was slow and prone to error\n\n\n\n\n\n\n\n… now, it will be easier to keep our directory up to date\n\n\n\n\n\nTo update the page on the live site, you just have to re-render the leadership.qmd or committees.qmd file. The data will be read into r and automatically formatted like this:\n\n\n\n\n\nGoogle sheet storing EC information\n\n\n\n\n\n\n\n… and on the site\n\n\n\n\nThe result is a page layout that can be reproduced each year with limited effort and no additional code."
-  },
-  {
-    "objectID": "resources/meeting/index.html#how-this-website-works",
-    "href": "resources/meeting/index.html#how-this-website-works",
-    "title": "One Website to Rule them All",
-    "section": "How this website works",
-    "text": "How this website works\nThe site is published using Netlify.\nWe are currently using the free version of Netlify but can upgrade to the paid alternative if we want more advanced features like password protected pages.\n\n\nWe also do not currently have google analytics or other tracking set up on the site. That can change if you want it to.\nThe content for the site is stored in the shared AP-LS Google Drive and the pages for the site are all stored on GitHub.\n\nMaking things easier\n\nWith git and version control we can spend less time maintaining a better record of what charges are made and when (and by whom).\nBy storing the content for our site in the shared googledrive we can streamline the process of making annual updates and also present more dynamic content on our pages.\n\n\nExample 1: Pets!Example 2: Executive Committee\n\n\nWe can also use a similar process to collect and share content we solicit from our members.\nTake a look at the newly renovated Pets of AP-LS blog post page. This is a project of the Student Committee and is now set up to generate a new post whenever someone submits a new pet via the associated google form.\nWhen we receive a new pet, the data will be read into r and used to generate a new index.qmd template file.\n\n\n\n\n\n\nHere is the form\n\n\n\n\n\n\n\n… here is the yaml header that is automatically generated\n\n\n\n\n\nOnce we confirm and approve that the submission is legitimate, we can render the document and add it to our site.\n\n\n\n\n\n… and here is a very cute pup\n\n\n\n\n\nFor a less adorable example of a listing page: see Grants & Awards\n\n\n\n\n\n\nContact information for the Executive Officers and Committee pages is now stored in a spreadsheet within the shared AP-LS Google Drive\n\n\nTo update the new directory page, you just have to re-render the associated leadership.qmd or committees.qmd file with the updated data in the drive.\nThe information will be read into r and formatted like this:\n\n\n\n\n\n\nFor additional information about how this workflow can be used to make interactive tables: see Committees or Conference schedule"
-  },
-  {
-    "objectID": "resources/meeting/index.html#example-1-executive-committee",
-    "href": "resources/meeting/index.html#example-1-executive-committee",
-    "title": "One Website to Rule them All",
-    "section": "Example 1: Executive Committee",
-    "text": "Example 1: Executive Committee\n\n\n\n\n\nContact information for the Executive Officers and Committee pages is now stored in a spreadsheet within the shared AP-LS Google Drive.\n\n\n\n\nTo update the new directory page, you just have to re-render the associated leadership.qmd or committees.qmd file. The data will be read into r and formatted like this:\n\n\n\n\n\n\nGoogle sheet storing EC information\n\n\n\n\n\n\n\n… and on the site\n\n\n\n\n\nThe result is a page layout that can be reproduced each year with limited effort and no additional code."
-  },
-  {
-    "objectID": "resources/meeting/index.html#example-2-pets",
-    "href": "resources/meeting/index.html#example-2-pets",
-    "title": "One Website to Rule them All",
-    "section": "Example 2: Pets!",
-    "text": "Example 2: Pets!\nWe can also use a similar process to collect and share content we solicit from our members.\nTake a look at the newly renovated Pets of AP-LS blog post page. This is a project of the Student Committee and is now set up to generate a new post whenever someone submits a new pet via the associated google form.\nWhen we receive a new pet, the data will be read into r and used to generate a new index.qmd template file.\n\n\n\n\n\n\nHere is the form\n\n\n\n\n\n\n\n… here is the yaml header that is automatically generated\n\n\n\n\n\nOnce we confirm and approve that the submission is legitimate, we can render the document and add it to our site.\n\n\n\n\n\n… and here is a very cute pup\n\n\n\n\n:::\nFor more information about these new tools and workflows can do, I would encourge you to take a look at the following pages:\n\nCommittees\nConference schedule\nGrants & Awards"
-  },
-  {
-    "objectID": "resources/meeting/index.html#example-2-executive-committee",
-    "href": "resources/meeting/index.html#example-2-executive-committee",
-    "title": "One Website to Rule them All",
-    "section": "Example 2: Executive Committee",
-    "text": "Example 2: Executive Committee\n\n\n\nContact information for the Executive Officers and Committee pages is now stored in a spreadsheet within the shared AP-LS Google Drive\n\n\nTo update the new directory page, you just have to re-render the associated leadership.qmd or committees.qmd file with the updated data in the drive.\nThe information will be read into r and formatted like this:\n\n\n\n\n\n\nFor additional information about how this workflow can be used to make interactive tables: see Committees or Conference schedule"
   }
 ]
