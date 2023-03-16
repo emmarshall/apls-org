@@ -36,3 +36,13 @@ individually re-rendered during a global project render.
 ## Quarto
 
 The site is built using [Quarto](https://quarto.org/docs/get-started/) which provides an extensive [guide](https://quarto.org/docs/guide/) and [reference](https://quarto.org/docs/reference/) materials.
+
+## To do: 
+
+- Proofread content pages
+- Set up renv()
+- Create r package to store functions
+- Newsletter archives - index and format listings
+- TTC Education and Teaching materials
+- How to add a new post/page write up 
+- Transfer domain
