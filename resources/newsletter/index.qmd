@@ -9,6 +9,8 @@ listing:
     - "2023/feb2023"
     - "2023/jan2023"
     type: grid
+    sort: "date desc"
+    sort-ui: false
   - id: archive
     type: table
     contents: 
