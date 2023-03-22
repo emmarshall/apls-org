@@ -17,6 +17,13 @@ listing:
     template: job-listing.ejs
 ---
 
+
+[Request a Job Be Posted](https://apls.memberclicks.net/job-posting-request#!/){#btn-guide .btn-action .btn-action .btn .btn-primary role="button"}
+
+[Clinical-forensic Postdoctoral Form](https://docs.google.com/forms/d/e/1FAIpQLSeyn6YEW7-mne6RsT-yzTMN8HNSXQjuHYPP1DtW7gQq11H9eA/viewform){#btn-guide .btn-action .btn-action .btn .btn-info role="button"} 
+
+[Research Postdoctoral Form](https://docs.google.com/forms/d/e/1FAIpQLSflLwIb_8pTwj_UF7zUDYlBV-4ZF5RhOTB8CJ4etbIPlncwoA/viewform){.btn-action .btn .btn-info role="button"}
+
 ## {{< fa graduation-cap >}} Academic Positions
 
 ::: {#academic}
