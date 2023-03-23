@@ -2,7 +2,7 @@
 title: "History of AP-LS"
 title-block-banner: "../images/default-banner.svg"
 bibliography: "history-references.bib"
-csl: "../_site/apa.csl"
+csl: "../assets/apa.csl"
 nocite: |
   @fuleroHistoryDivision411999, @grissoRootsModernPsychology2018, @grissoDevelopmentalHistoryAmerican1991, @munsterbergWitnessStandEssays2009, @wylieFourDecadesJournal2018
 ---

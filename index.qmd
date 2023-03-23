@@ -10,7 +10,7 @@ search: true
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-source("_site/apls_functions.R")
+source("assets/apls_functions.R")
 ```
 
 ::: {#gallery .column-page}
@@ -179,7 +179,7 @@ profiles_cropped_html <- htmltools::HTML(profiles_cropped_html)
 :::
 
 ::: about-link
-[MORE FROM THE PRESIDENT](about/president/index.html)
+[MORE FROM THE PRESIDENT](about/presidents/index.html)
 :::
 
 :::
@@ -205,7 +205,7 @@ Philadelphia, PA---March 16-18
 content = rowwise_table(~name, ~icon, ~link,
                         "Contact", "chat-dots", "about/contact.html",
   "Newsletter", "newspaper", "resources/newsletter/index.html",
-    "Job Postings", "briefcase-fill", "resources/job_postings/index.html", 
+    "Job Posts", "briefcase-fill", "resources/job_postings/index.html", 
     "APA", "award-fill", "https://convention.apa.org/future-conventions",
     "Videos", "mortarboard-fill", "resources/videos/index.html"
 )
