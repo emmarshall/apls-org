@@ -12,6 +12,12 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../../_site/apls_functions.R")
 ```
 
+
+
+## Syllabus Collection
+
+The AP-LS Teaching, Training and Careers Committee is continuing its efforts to collect syllabi for courses in psychology and law or closely related topics. These syllabi have been posted on the Web for everyone's easy access. You may download any of the collected syllabi and [submit a copy of yours](https://forms.gle/LordvWNha32yNe2Q8).
+
 ::: {.callout-tip collapse="true"}
 ## How to Submit a Syllabus
 
@@ -119,11 +125,10 @@ tbl <- reactable(
 
 div(class = "syllabi",
     div(class = "title-tab",
-        h2("Psychology & Law Syllabi Collection"),
-        "The AP-LS Teaching, Training and Careers Committee has collected syllabi for courses in psychology and law or closely related topics. These syllabi have been posted on the Web for everyone's easy access. You may download any of the collected syllabi for undergraduate or graduate courses."
+        h2("Psychology & Law Syllabi Collection")
         ),
     tbl,
-    paste0("Source: Syllabi data maintained by AP-LS TTC Committee | Made with {reactable}"))
+    paste0("Source: Syllabi data maintained by AP-LS TTC Committee"))
 
 ```
 
