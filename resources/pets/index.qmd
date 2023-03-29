@@ -17,7 +17,7 @@ listing:
 page-layout: full
 ---
 
-![](/images/pets-banner.png){fig-align="center"}
+![](../../images/pets-banner.png){fig-align="center"}
 
 ### The [AP-LS Student Committee](https://www.apls-students.org/), on behalf of pet-lovers everywhere, have compiled this glorious gallery of pets for your edification and personal enjoyment.
 

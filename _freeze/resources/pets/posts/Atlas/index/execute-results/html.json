@@ -1,0 +1,16 @@
+{
+  "hash": "9f27019666542f07b03861eb856c9a8b",
+  "result": {
+    "markdown": "---\ntitle: Atlas \nhuman: Holly Clark. PhD Student at Queen Margaret University, Edinburgh \ndescription: |\n  Atlas was a puppy in a litter from a friend. I had followed pictures of him on Facebook since he was born. The breed is my dream dog and I never thought I would get one! Christmas of 2022 I was surprised with him and he has been the best dog a dog mum could possibly want! \nquote: “Small but mighty”\nimage: featured.jpeg\ncategories: French Bulldog\nage: 6 months\ntalent: Can sleep for the majority of the day and night\nhabit: Loves to dig! \ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpeg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

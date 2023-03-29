@@ -8,7 +8,7 @@ page-layout: article
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-source("../_site/apls_functions.R")
+source("../assets/apls_functions.R")
 ```
 
 
@@ -37,7 +37,7 @@ resource_grid = function(content) {
 # Text description should be one sentence
 content = rowwise_table(
   ~category, ~name, ~icon, ~url, ~text,
-  "general", "New website", "chat-dots-fill", "meeting/index.html", "About the new ap-ls.org",
+  "general", "New website", "chat-dots-fill", "https://emmarshall.github.io/emmamarshall.com/posts/apls-website/", "About the new ap-ls.org",
   "general", "Email list", "envelope-plus", "emails/index.html", "Request use of AP-LS Email list.",
   "general", "Job postings", "briefcase", "job_postings/index.html", "List of job opportunities related to law-psychology",
   "general", "Newsletter", "newspaper", "newsletter/index.html", "Archive of previous issues",

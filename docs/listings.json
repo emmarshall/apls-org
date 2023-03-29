@@ -2,8 +2,11 @@
   {
     "listing": "/resources/pets/index.html",
     "items": [
+      "/resources/pets/posts/Atlas/index.html",
+      "/resources/pets/posts/Metzi/index.html",
+      "/resources/pets/posts/Toulouse/index.html",
+      "/resources/pets/posts/Ravioli/index.html",
       "/resources/pets/posts/Fitz/index.html",
-      "/resources/pets/posts/Wonton/index.html",
       "/resources/pets/posts/Andy-Ebony/index.html",
       "/resources/pets/posts/Billy/index.html",
       "/resources/pets/posts/Boba/index.html",
@@ -38,6 +41,7 @@
       "/resources/pets/posts/Smokey/index.html",
       "/resources/pets/posts/Snowy-and-Sunny/index.html",
       "/resources/pets/posts/Stanley-Yelnats/index.html",
+      "/resources/pets/posts/Wonton/index.html",
       "/resources/pets/posts/Zoey/index.html"
     ]
   },
