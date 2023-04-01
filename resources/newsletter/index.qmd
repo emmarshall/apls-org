@@ -5,6 +5,7 @@ page-layout: full
 listing: 
   - id: newsletter
     contents:
+    - "2023/apr2023"
     - "2023/march2023"
     - "2023/feb2023"
     - "2023/jan2023"
@@ -71,11 +72,11 @@ listing:
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-source("../../_site/apls_functions.R")
+source("../../assets/apls_functions.R")
 ```
 
 
-## Newsletter Archive
+## Recent News
 ```{=html}
 <div class="gallery">
   <div class="gallery__icon-column">

@@ -1,0 +1,16 @@
+{
+  "hash": "203f33627a88174e84fd120fe5fb2f73",
+  "result": {
+    "markdown": "---\ntitle: Wonton \nhuman: Nick Druhn PsyD\ndescription: |\n  Wonton was adopted as a surrender as his former owner was experiencing severe cognitive decline. He moved from Texas to Vancouver BC in February 2020 and hit the jackpot with his new owners!\nquote: \"As an adventure pug I love to climb mountains, go along cross country skiing, and especially run in the ocean surf!\"\nimage: featured.jpg\ncategories: Pug\nage: 5\ntalent: Despite his small package, Wonton climbs mountains. \nhabit: Wonton turns into a dictator when he wants dinner. He resorts to stealing and chewing on shoes.\ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpg){.lightbox}\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote: \n\n> {{< meta quote >}}\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/pet gallery-1.png){width=1200}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
