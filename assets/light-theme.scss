@@ -1306,3 +1306,26 @@ figcaption.blockquote-footer {
 figcaption.blockquote-footer > cite {
   flex: 1 1 100%;
 }
+
+// button-row
+
+.button-row {
+  display: flex; /* Set the container to use flexbox layout */
+  flex-direction: row; /* Set the direction to row */
+  justify-content: space-between; /* Align the items along the row and distribute the space between them */
+  gap: 10px;
+}
+
+.button-row button {
+  padding: 10px 20px; /* Add padding to the buttons */
+  background-color: #4CAF50; /* Set a background color */
+  color: white; /* Set a text color */
+  border: none; /* Remove the border */
+  border-radius: 5px; /* Add a border radius */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+.button-row button:hover {
+  background-color: #3e8e41; /* Change the background color on hover */
+}
+
