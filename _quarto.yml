@@ -44,8 +44,12 @@ website:
             href: conferences/preconference.qmd
           - text: Program & Schedule
             href: conferences/schedule.qmd
-      - href: resources/index.qmd
-        text: Resources
+      - text: Resources
+        menu: 
+          - text: Resources
+            href: resources/index.qmd
+          - text: Newsletter
+            href: newsletter.qmd
       - href: membership/membership.qmd
         text: Membership
         

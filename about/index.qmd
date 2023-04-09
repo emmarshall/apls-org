@@ -7,7 +7,7 @@ title-block-banner: "../images/default-banner.svg"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-source("../_site/apls_functions.R")
+source("../assets/apls_functions.R")
 ```
 
 ## Welcome to the American Psychology-Law Society (AP-LS)

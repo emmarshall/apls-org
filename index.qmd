@@ -113,7 +113,6 @@ div(class = "bg-light",
 
 ```
 :::
-
 :::
 
 ```{r}
@@ -144,7 +143,6 @@ cat(html)
 :::
 
 ::: {.column .col-v-center width="70%"}
-
 ```{r}
 #| echo: false
 profile_circle_preview <- '
@@ -161,7 +159,7 @@ profiles_cropped_html <- glue::glue_data(profiles_cropped, profile_circle_previe
 profiles_cropped_html <- htmltools::HTML(profiles_cropped_html)
 ```
 
-::: {.portrait}
+::: portrait
 `r profiles_cropped_html`
 :::
 
@@ -181,12 +179,10 @@ profiles_cropped_html <- htmltools::HTML(profiles_cropped_html)
 ::: about-link
 [MORE FROM THE PRESIDENT](about/presidents/index.html)
 :::
-
 :::
 
-
 ::: {.simple-info-blue .alt-background-blue}
-::: {.content-block-blue}
+::: content-block-blue
 ### Get ready for the 2023 American Psychology-Law Society Conference
 
 Philadelphia, PA---March 16-18
@@ -231,5 +227,4 @@ div(class = "bg-light",
 
 ```
 :::
-
 :::

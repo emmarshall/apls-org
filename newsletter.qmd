@@ -1,0 +1,25 @@
+---
+title: AP-LS Newsletter
+description: Our monthly newsletter provides information about activities, upcoming events, and resources to connect the psychology-law community.
+title-block-banner: true
+listing: 
+  - id: newsletter
+    contents:
+    - "resources/newsletter/2023/**/*.qmd"
+    type: grid
+    sort: "date desc"
+    sort-ui: false
+---
+
+
+## 2023 Newsletters
+```{=html}
+<div class="gallery">
+  <div class="gallery__icon-column">
+      <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
+  </div>
+  <div class="gallery__list-column">
+```
+
+::: {#newsletter}
+:::

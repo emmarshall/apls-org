@@ -1,17 +1,8 @@
 ---
-title: AP-LS Newsletter
+title: AP-LS Newsletter Archives
 title-block-banner: "../../images/default-banner.svg"
 page-layout: full
 listing: 
-  - id: newsletter
-    contents:
-    - "2023/apr2023"
-    - "2023/march2023"
-    - "2023/feb2023"
-    - "2023/jan2023"
-    type: grid
-    sort: "date desc"
-    sort-ui: false
   - id: archive
     type: table
     contents: 
@@ -75,18 +66,6 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
 
-
-## Recent News
-```{=html}
-<div class="gallery">
-  <div class="gallery__icon-column">
-      <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
-  </div>
-  <div class="gallery__list-column">
-```
-
-::: {#newsletter}
-:::
 
 ## Newsletter Archive
 ```{=html}

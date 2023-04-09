@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The American Psychology-Law Society - AP-LS Newsletter</title>
+<title>The American Psychology-Law Society - AP-LS Newsletter Archives</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,34 +64,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-newsletter .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-newsletter'] = new List('listing-newsletter', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-archive .list');
@@ -218,10 +190,21 @@ background-size: cover;
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="../../resources/index.html">
- <span class="menu-text">Resources</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="../../resources/index.html">
+ <span class="dropdown-text">Resources</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../newsletter.html">
+ <span class="dropdown-text">Newsletter</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../membership/membership.html">
  <span class="menu-text">Membership</span></a>
@@ -236,7 +219,7 @@ background-size: cover;
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page">
-      <h1 class="title">AP-LS Newsletter</h1>
+      <h1 class="title">AP-LS Newsletter Archives</h1>
                       </div>
   </div>
     
@@ -259,109 +242,6 @@ background-size: cover;
 
 
 
-<section id="recent-news" class="level2">
-<h2 class="anchored" data-anchor-id="recent-news">Recent News</h2>
-<div class="gallery">
-  <div class="gallery__icon-column">
-      <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
-  </div>
-  <div class="gallery__list-column">
-<div id="listing-newsletter" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1680386996929" data-listing-reading-time-sort="27.315">
-<a href="../../resources/newsletter/2023/apr2023/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../../resources/newsletter/2023/apr2023/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-April 2023
-</h5>
-<div class="card-text listing-description">
-<span style="font-size: 16px; line-height: 22.4px;"><strong>Welcome to the April 2023</strong></span>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1679523234576" data-listing-reading-time-sort="49.64">
-<a href="../../resources/newsletter/2023/march2023/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../../resources/newsletter/2023/march2023/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-March 2023
-</h5>
-<div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1679523234562" data-listing-reading-time-sort="39.755">
-<a href="../../resources/newsletter/2023/feb2023/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../../resources/newsletter/2023/feb2023/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-February 2023
-</h5>
-<div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1680386647935" data-listing-reading-time-sort="63.845">
-<a href="../../resources/newsletter/2023/jan2023/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../../resources/newsletter/2023/jan2023/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-January 2023
-</h5>
-<div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</div></div></section>
 <section id="newsletter-archive" class="level2">
 <h2 class="anchored" data-anchor-id="newsletter-archive">Newsletter Archive</h2>
 <div class="gallery">

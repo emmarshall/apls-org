@@ -1,5 +1,6 @@
 ---
 title: January 2023
+date: 1/1/2023
 image: featured.jpg 
 ---
 

@@ -69,6 +69,10 @@
   },
   {
     "listing": "/resources/newsletter/index.html",
+    "items": []
+  },
+  {
+    "listing": "/newsletter.html",
     "items": [
       "/resources/newsletter/2023/apr2023/index.html",
       "/resources/newsletter/2023/march2023/index.html",
