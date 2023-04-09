@@ -54,8 +54,8 @@ $sidebar-bg: lighten($secondary, 10%);
 $sidebar-fg: $primary;
 
 // footer
-$footer-bg: $secondary;
-$footer-fg: $primary;
+$footer-bg: $primary;
+$footer-fg: $secondary;
 
 // fonts
 $headings-font-family: 'Cormorant Garamond', serif !default;
@@ -235,7 +235,7 @@ div.navbar-collapse ul.navbar-nav li {
     font-family: $footer-font-family;
 
     a {
-        color: $primary;
+        color: $white;
     }
 
     .faux-block {

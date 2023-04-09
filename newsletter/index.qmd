@@ -5,7 +5,7 @@ title-block-banner: true
 listing: 
   - id: newsletter
     contents:
-    - "resources/newsletter/2023/**/*.qmd"
+    - "../resources/newsletter/2023/**/*.qmd"
     type: grid
     sort: "date desc"
     sort-ui: false
