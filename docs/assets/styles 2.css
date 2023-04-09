@@ -1,0 +1,317 @@
+/* css styles */
+
+/* @import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css); */
+
+.navbar-title:hover > .icon-line {
+  animation-duration: 600ms;
+  animation-name: line-expand;
+}
+  
+@keyframes line-expand {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: 100%;
+  }
+}
+
+div.sourceCode{
+  background-color: black;
+}
+
+
+
+pre{
+  color: var(--navbar-fg);
+  background-color: #FBF9F4;
+  padding: 5px 5px 5px 5px;
+  border-radius: 0.25rem;
+}
+
+code{
+  color: var(--navbar-fg);
+}
+
+
+
+.listing-title{
+  color: #1B3264;
+  font-weight: 400;
+  font-size: 1.5em;;
+}
+
+.listing-title:hover {
+  color: lighten(#1B3264, 15%);
+}
+
+
+
+/* inline code */
+.post-body>p>code{
+  background-color: rgba(255,255,255,.1);
+}
+
+a.btn-links:hover{
+  background-color: rgba(255,255,255,.1)!important;
+}
+
+
+/* navbar kink */
+@media screen and (min-width: 999px) {
+
+
+.navbar-brand>img {
+    max-height: 43px;
+    width: auto;
+    padding-right: 6px;
+}
+
+.navbar-brand {
+    position: relative;
+    width: 170px;
+    left: 15px;
+    background-size: contain;
+}
+
+/*footer*/
+.nav-footer{
+  border-top: 0px !important;
+}
+
+footer.footer .nav-footer, #quarto-header nav {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+
+.quarto-grid-item img.thumbnail-image {
+   object-fit: scale-down;
+    padding-top: 0.2em;
+    padding-left: 0.1em;
+    padding-right: 0.1em
+}
+
+.quarto-grid-link:hover {
+  text-decoration: bold;
+}
+
+
+
+
+.thumbnail-image:hover{
+  opacity:35%;
+}
+
+
+.borderless{
+  background-color: #FBF9F4;
+}
+
+
+/*misc*/
+.center {
+  position: absolute;
+  text-align: center;
+}
+
+
+div.column.col-v-center{
+   vertical-align: middle;
+}
+
+
+
+div.quarto-post {
+    display: flex;
+    gap: 2em;
+    margin-bottom: 1.5em;
+    border-bottom: 1px solid #dee2e6;
+    align-content: center;
+}
+
+.home-title{
+  font-size: 2em;
+}
+
+/* icons */
+.socials {
+    padding-bottom: 1em;
+    padding-left: 3%;
+    font-size: 1.6em;
+}
+
+.socials a{
+  color: black;
+  margin-left: 0.1em;
+  size: 50%;
+}
+
+
+
+.socials a:hover {
+opacity: 50%;
+}
+
+.vspace {
+     margin-bottom: 1cm;
+  }
+  
+ .vspace2 {
+     margin-bottom: 2.5cm;
+     padding: 1%;
+  }
+
+.hspace {
+     margin-left: 5cm;
+     padding: 1%;
+  }
+
+.main {
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+
+div.quarto-about-jolla .about-image {
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+    margin-top: 2em;
+}
+
+.portrait {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 70px;
+    margin-right: 50px;
+    position: relative;
+    float: left;
+}
+
+/*carousel*/
+
+.card .source-code {
+  margin-top: 3px;
+}
+
+.carousel.card {
+  font-size: 16px;
+  padding-top: 2em;
+}
+
+.carousel.card a {
+  text-decoration: none;
+}
+
+.carousel img {
+  width: 70%;
+  margin-bottom: 110px;
+}
+
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+  margin-bottom: 110px;
+}
+
+/*more info link thing*/
+
+.all-link{
+  font-size: 1em;
+  text-align: right;
+}
+
+.all-link a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.all-link a::after{
+  display: inline-block;
+  content: "→";
+  position: relative;
+  margin-left: 2px;
+}
+
+.about-link{
+  font-size: 1em;
+  float: right;
+}
+
+.about-link a{
+  text-decoration-color: #1B3264;
+  text-transform: uppercase;
+}
+
+.about-link a::after{
+  display: inline-block;
+  content: "→";
+  position: relative;
+  margin-left: 2px;
+}
+
+/*more info link thing for dark background*/
+
+.light-about-link{
+  font-size: 1em;
+  float: right;
+}
+
+.light-about-link{
+  text-decoration-color: #FBF9F4;
+  text-transform: uppercase;
+}
+
+.light-about-link a {
+  color: #FFFF00; /* sets the text color to yellow */
+  background-color: #1B3264; /* sets the background color to black */
+}
+
+.light-about-link a::after{
+  display: inline-block;
+  content: "→";
+  position: relative;
+  margin-left: 2px;
+}
+
+/*create background sections*/
+
+.home-section {
+    background-color: #FBF9F4;
+    padding: 10px 0;
+    animation: intro .3s both;
+    animation-delay: .15s;
+}
+
+
+.light-section {
+  background-color: #FBF9F4;
+  color: #252525;
+}
+
+.dark-section {
+  background-color: #1B3264;
+  color: #FBF9F4;
+}
+
+.bright-section {
+  background-color: #FAF61B
+  color: #1B3264;
+}
+
+
+.president-intro{
+  margin-top: -30px;
+  font-family: 'Proza Libre', sans-serif;
+  font-size: 1rem;
+}
+
+div.column.col-v-off-center{
+   vertical-align: 55%;
+}
+
+
+
+    
