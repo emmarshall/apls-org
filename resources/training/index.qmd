@@ -1,0 +1,40 @@
+---
+title: Education and Training in Psychology and Law 
+draft: true
+---
+
+One goal of AP-LS is promoting the education of psychologists in matters of law and the education of legal personnel in matters of psychology. Information about pursuing a [career in psychology and law](career.qmd) can be found here. You can also learn more about the field through our [interviews with professionals' series](interviews.qmd). This page summarizes our ongoing educational activities.
+
+## Graduate Programs
+
+There are over 50 doctoral and master's programs that teach a combination of psychology and law. Information about, and links to, these programs can be found on the page about [graduate programs](graduate.qmd).
+
+-   Members of the Teaching, Training, and Careers Committee (TTC) developed a [guide to assist students interested in psychology and law graduate programs](https://www.apls-students.org/graduate-program-guide.html).
+
+-   The [Resource Directory of Forensic Psychology Predoctoral Internships Training Programs](https://www.apls-students.org/clinical-internship-database.html) includes a listing of predoctoral internships offering training opportunities in forensic psychology.
+
+-   The [Education and Training Guidelines](https://3de0bcf9-0846-41d0-af8e-e2968fb7707d.filesusr.com/ugd/146c2d_52c33e4d7f2a4bff9a2a1a8452c5f73d.pdf), developed by the [Forensic Specialty Council](https://www.cospp.org/forensic-psychology) of the Council of Specialties in Professional Psychology, outline the required elements of an organized, sequential training program in forensic psychology, including postdoctoral residency training.
+
+## Awards and Recognition
+
+-   [Best Undergraduate Paper](../../awards/undergradpaper.qmd): The AP-LS Award for Best Undergraduate Paper is awarded to an outstanding undergraduate research paper that is focused on the interdisciplinary study of psychology and law.
+
+-   [Dissertation Award](../../awards/dissertation.qmd): The American Psychology-Law Society confers Dissertation Awards for scientific research and scholarship that is relevant to the promotion of the interdisciplinary study of psychology and law. Students who complete dissertations involving basic or applied research in psychology and law, including its application to public policy, are encouraged to apply for these awards.
+
+-   [Saleem Shah Award](../../awards/saleemshah.qmd): The Saleem Shah Award is co-sponsored by the American Psychology-Law Society (APA Division 41) and the American Academy of Forensic Psychology. The award is for early career excellence and contributions to the field of psychology and law. The focus on the nominee\'s contributions may be in any area of forensic practice, research, or public policy.
+
+## Teaching Resources
+
+-   [Syllabus Collection](../syllabi/): The AP-LS Teaching, Training, and Careers Committee is continuing its efforts to collect syllabi for courses in Psychology and Law or closely related topics. You may download any of the collected syllabi for undergraduate or graduate courses.
+
+-   ["Activities for Teaching Psychology and Law: A Guide for Instructors"](https://www.apa.org/pubs/books/4311034) by Zelechoski, Wolbransky, and Riggs Romaine, offers a wide variety of such activities for courses in psychology and law. The activities incorporate individual and group work, videos, reading materials, classroom discussions, homework assignments, and lots of interactive exercises.
+
+-   Teaching Materials for Undergraduate Legal Psychology Courses: Dr. Edie Greene and Erica Drew have collected information intended for instructors of undergraduate courses in psychology and law. {{< downloadthis files/undergraduate-resources.pdf dname:"undergraduate-resources" label="Resources for Teaching Undergraduate Psychology and Law Courses" icon=download type=primary >}} 
+
+View list of other [available resources](teaching/) for those teaching courses in psychology and law.
+
+## Grants and Funding
+
+-   [AP-LS Grants in Aid](https://www.apadivisions.org/division-41/awards/student-grants "Grants in Aid for Students"): The Division 41 Grants-in-Aid Committee considers proposals for small grants (maximum of \$750) to support empirical graduate research that addresses psycholegal issues. The award is limited to graduate students who are student affiliate members of AP-LS.
+
+-   The [Diversity in Psychology and Law Research Awards](https://www.apadivisions.org/division-41/awards/diversity "Diversity in Psychology and Law Research Award") support undergraduate and graduate research on issues related to psychology, law, multiculturalism and/or diversity (i.e., research pertaining to psycholegal issues on race, gender, culture, sexual orientation, etc.).

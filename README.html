@@ -20,69 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -108,7 +45,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 
-<p>New ap-ls.org site currently at: https://emmarshall.github.io/</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/APLS_general_logo.png" class="img-fluid figure-img"></p>
@@ -119,7 +55,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1>AP-LS Website <img src="images/APLS_general_logo.png" align="right" width="120"></h1>
 <section id="website-basics" class="level2">
 <h2 class="anchored" data-anchor-id="website-basics">Website Basics</h2>
-<p>This ap-ls.org website is built in <a href="https://www.rstudio.com/">RStudio</a> using <a href="https://quarto.org">Quarto</a>. The content for the site is stored on the AP-LS Google Drive and on <a href="https://github.com">GitHub</a>. The site is published using <a href="https://www.netlify.com/">Netlify</a>. When the site is updated in the Github respository, the new published content will appear in the <code>_site</code> directory.</p>
+<p>This new ap-ls.org website is built in <a href="https://www.rstudio.com/">RStudio</a> using <a href="https://quarto.org">Quarto</a>. The content for the site is stored on the AP-LS Google Drive and on <a href="https://github.com">GitHub</a>. The site is published using <a href="https://www.netlify.com/">Netlify</a>. The root directory that contains the published site is <code>docs</code>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://app.netlify.com/sites/ap-ls/deploys"><img src="https://api.netlify.com/api/v1/badges/60c754e7-3b21-48ae-b752-84935991712f/deploy-status.png" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">Netlify Status</figcaption><p></p>
+</figure>
+</div>
 </section>
 <section id="site-file-structure" class="level2">
 <h2 class="anchored" data-anchor-id="site-file-structure">Site file structure</h2>
@@ -129,31 +71,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><code>_variables.yml</code> controls site-wide variables that can be inserted using shortcodes</li>
 <li><code>apls_functions.R</code> in <code>_site</code> runs the <code>r</code> functions that are used to build aspects of the site including the image carousel. Do not change this.</li>
 <li><code>index.qmd</code> is the home page</li>
-<li><code>about</code>, <code>contact</code>, <code>documents</code>, <code>events</code>, and <code>news</code> contain those respective pages for the site
+<li><code>about</code>, <code>conferences</code>, <code>publications</code>, <code>resources</code>, and <code>membership</code> are folders that contain those respective pages for the site and other listing pages
 <ul>
-<li><code>documents</code>, <code>events</code>, and <code>news</code> are listing pages
-<ul>
-<li>The <code>index.qmd</code> file in each directory controls parameters for the post listings</li>
-</ul></li>
-<li><code>contact</code> has a listing section for displaying member profiles</li>
+<li>The main page for each section is saved as <code>index.qmd</code></li>
+<li>For the pages that include listings, the <code>index.qmd</code> file in each folder specifies what is included</li>
 </ul></li>
 <li><code>404.qmd</code> is the 404 page for the site</li>
 <li><code>styles.css</code> and <code>theme.scss</code> in the <code>assets</code> directory are used for additional CSS and SASS styling for the site’s appearance, such as fonts and colors
 <ul>
-<li><code>docs</code> - The root directory contains the published site.</li>
+<li><code>index.css</code> in <code>conferences/</code> has additional styling for the conference page</li>
 </ul></li>
 </ul>
-</section>
-<section id="setup" class="level2">
-<h2 class="anchored" data-anchor-id="setup">Setup</h2>
-<p>Before you can edit the website, you need to install a virtual environment with renv. This ensures that we all edit the website with the same package versions. The website is rendered in the CI in the same virtual environment.</p>
-<ol type="1">
-<li><p>Clone the <code>apls-org/aplswebsite</code> repository.</p></li>
-<li><p>Start a new R session in the <code>apls-org/</code> directory.</p></li>
-<li><p>Call <code>renv::activate()</code> and then <code>renv::restore()</code> to download and install all required packages.</p></li>
-<li><p>Run the following command from your terminal to preview the website:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview apls-org/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-</ol>
 </section>
 <section id="notes" class="level2">
 <h2 class="anchored" data-anchor-id="notes">Notes</h2>
@@ -163,6 +91,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="quarto" class="level2">
 <h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
 <p>The site is built using <a href="https://quarto.org/docs/get-started/">Quarto</a> which provides an extensive <a href="https://quarto.org/docs/guide/">guide</a> and <a href="https://quarto.org/docs/reference/">reference</a> materials.</p>
+</section>
+<section id="to-do" class="level2">
+<h2 class="anchored" data-anchor-id="to-do">To do:</h2>
+<ul>
+<li>Proofread content pages</li>
+<li>Create r package to store functions</li>
+<li>Newsletter archives - index and format listings</li>
+<li>TTC Education and Teaching materials</li>
+<li>How to add a new post/page write up</li>
+</ul>
 </section>
 </section>
 

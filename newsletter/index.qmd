@@ -12,7 +12,7 @@ listing:
 ---
 
 
-## 2023 Newsletters
+## Recent News
 ```{=html}
 <div class="gallery">
   <div class="gallery__icon-column">
