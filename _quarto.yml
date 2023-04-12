@@ -30,6 +30,8 @@ website:
             href: about/contact.qmd
       - text: Publications
         menu:
+          - text: AP-LS Newsletter
+            href: newsletter/index.qmd
           - text: Publications
             href: publications/index.qmd
           - text: Law & Human Behavior
@@ -44,12 +46,8 @@ website:
             href: conferences/preconference.qmd
           - text: Program & Schedule
             href: conferences/schedule.qmd
-      - text: Resources
-        menu: 
-          - text: Resources
-            href: resources/index.qmd
-          - text: Newsletter
-            href: newsletter/index.qmd
+      - href: resources/index.qmd
+        text: Resources
       - href: membership/membership.qmd
         text: Membership
         

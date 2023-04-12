@@ -1,5 +1,6 @@
 ---
-title: Education and Training in Psychology and Law 
+title: Education and Training in Psychology and Law
+title-block-banner: "../../images/default-banner.svg"
 draft: true
 ---
 

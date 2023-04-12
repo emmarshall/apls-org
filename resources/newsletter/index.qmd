@@ -3,6 +3,18 @@ title: AP-LS Newsletter Archives
 title-block-banner: "../../images/default-banner.svg"
 page-layout: full
 listing: 
+  - id: twenty-two
+    contents:
+    - "2022/**/*.qmd"
+    type: grid
+    sort: "date desc"
+    sort-ui: false
+  - id: twenty-one
+    contents:
+    - "2021/**/*.qmd"
+    type: grid
+    sort: "date desc"
+    sort-ui: false
   - id: archive
     type: table
     contents: 
@@ -67,7 +79,31 @@ source("../../assets/apls_functions.R")
 ```
 
 
-## Newsletter Archive
+## 2022 Newsletters
+```{=html}
+<div class="gallery">
+  <div class="gallery__icon-column">
+      <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
+  </div>
+  <div class="gallery__list-column">
+```
+
+::: {#twenty-two}
+:::
+
+## 2021 Newsletters
+```{=html}
+<div class="gallery">
+  <div class="gallery__icon-column">
+      <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
+  </div>
+  <div class="gallery__list-column">
+```
+
+::: {#twenty-one}
+:::
+
+## Archives
 ```{=html}
 <div class="gallery">
   <div class="gallery__icon-column">
