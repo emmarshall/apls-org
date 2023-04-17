@@ -1,0 +1,31 @@
+```{=html}
+
+<div class="jobs">
+  
+    
+  <% for (const news of items) { console.log(news);%>
+
+    <div class="job-entry">
+      <div class="metadata">
+        <p class="date"><%= news.date %></p>
+      </div>
+      <div class="body">
+        <p class="title"><%= news.title %></p>
+            <p class="details"><%= news.description %> </p>
+          
+    <% if (news.url) { %>
+    <ul class="job-links">
+      <li class="job-link">
+        <a href="<%- news.url %>" class="listing-name">
+        <i class="fa-solid fa-file-pdf" style="color: $primary;"></i> Download PDF »
+        </a>
+      </li>
+    </ul>
+  </div>  
+    <% } %>
+  </div>
+  
+     <% } %>
+     
+```
+

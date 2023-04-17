@@ -2,7 +2,7 @@
 title: AP-LS Newsletter Archives
 title-block-banner: "../../images/default-banner.svg"
 page-layout: full
-listing: 
+listing:
   - id: twenty-two
     contents:
     - "2022/**/*.qmd"

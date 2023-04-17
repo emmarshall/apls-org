@@ -403,7 +403,7 @@ table, td { color: #000000; } #u_body a { color: #1c3366; text-decoration: under
   <div style="line-height: 140%; text-align: left; word-wrap: break-word;">
     <p style="line-height: 140%;">On behalf of the European Association of Psychology and Law (EAPL), it is our pleasure to invite you to the <strong>Annual Conference of the European Association of Psychology and Law (EAPL 2023)</strong>, with the topic <em>Legal Psychology: From Research to Effective Practices</em>. Besides the traditional format comprising a series of exceptional keynotes, workshops, open papers/symposia, and poster sessions, we aim to boost the interactivity and networking opportunities offered by the EAPL, while introducing new presentation types (blitz talks, expert focus sessions, and keynote outstanding questions).</p>
 <p style="line-height: 140%;"><br /><span style="text-decoration: underline; line-height: 19.6px;"><strong>Important dates</strong></span></p>
-<p style="line-height: 140%;"> </p>
+<p style="line-height: 140%;"></p>
 <p style="line-height: 140%;"><strong>Submission deadline:</strong> <strong>April 24, 2023</strong></p>
 <p style="line-height: 140%;">Notifications of acceptance will be offered on a rolling basis until <strong>May 15, 2023</strong>, at the latest.</p>
 <p style="line-height: 140%;"><br /><span style="text-decoration: underline; line-height: 19.6px;"><strong>Main Themes</strong></span></p>
@@ -427,7 +427,7 @@ table, td { color: #000000; } #u_body a { color: #1c3366; text-decoration: under
 <p style="line-height: 140%;"> </p>
 <p style="line-height: 140%;"><strong>Blitz-Talk</strong></p>
 <p style="line-height: 140%;">Blitz-Talks are concise individual contributions. Each presenter will have five minutes to present and two minutes for questions. Blitz-Talks can report all types of research, but this submission type is especially suitable for presenting single studies on novel topics, new data for discussion, replication studies, null findings, and multi-study papers using a well-known methodology.</p>
-<p style="line-height: 140%;"> </p>
+<p style="line-height: 140%;"></p>
 <p style="line-height: 140%;"><strong>Symposium</strong></p>
 <p style="line-height: 140%;">To encourage interaction between EAPL members on specific common topics of interest, we are welcoming oral symposia. A symposium chair (or two co-chairs) invites three to five colleagues, ideally belonging to different research groups to participate.</p>
 <p style="line-height: 140%;"><br />For more details regarding submissions, <strong><a rel="noopener" href="https://eaplconference.ro/index.php/call-for-papers" target="_blank">visit the website.</a> </strong>You can follow us for more updates on Facebook, Twitter and Instagram.</p>
@@ -506,7 +506,7 @@ table, td { color: #000000; } #u_body a { color: #1c3366; text-decoration: under
 <p style="line-height: 140%;">PIs: Elizabeth Cauffman, Colleen Sbeglia</p>
 <p style="line-height: 140%;"><br /><strong>Title: Assessing Stereotypes of Asian Women (SAW) and Responses to Anti-Asian Hate Crime</strong></p>
 <p style="line-height: 140%;">PIs: Luzi Shi, Jason Silver</p>
-<p style="line-height: 140%;"> </p>
+<p style="line-height: 140%;"></p>
   </div>
 
       </td>
