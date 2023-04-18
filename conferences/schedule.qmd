@@ -231,7 +231,7 @@ tbl <- tbl_grid |>
   #footnote and source
   htmlwidgets::appendContent(
     tags$div(style="text-align:center;color:black;font-size:14pt;border-bottom-style:solid;border-top-style:solid;width:910px;padding-bottom:20px;padding-top:20px;border-color:#DADADA;",
-  tags$a(href = "https://github.com/emmarshall/apls-org/raw/main/events/2023_APLS_program_grid_final.pdf", download = "2023_APLS_program_grid_final.pdf", class = "btn-action-primary btn-action btn btn-primary", role="button", "Download Schedule")
+  tags$a(href = "https://github.com/emmarshall/apls-org/raw/main/conferences/files/2023_APLS_program_grid_final.pdf", download = "2023_APLS_program_grid_final.pdf", class = "btn-action-primary btn-action btn btn-primary", role="button", "Download Schedule")
 ),
     tags$div(
       tags$div("Last Updated: March 15, 2023", style="display:inline-block;vertical-align:middle;")
@@ -380,8 +380,7 @@ bscols(
         class = "my-reactable-table",
         tbl
       )
-    ),
-    style = "display: flex; flex-wrap: wrap;"
+    )
   )
 )
 ```
