@@ -13,181 +13,294 @@ source("../../assets/apls_functions.R")
 ```
 
 
+## Psychology & Law Syllabi Collection
 
-## Syllabus Collection
-
-The AP-LS Teaching, Training and Careers Committee is continuing its efforts to collect syllabi for courses in psychology and law or closely related topics. These syllabi have been posted on the Web for everyone's easy access. You may download any of the collected syllabi and [submit a copy of yours](https://forms.gle/LordvWNha32yNe2Q8).
-
-::: {.callout-tip collapse="true"}
+::: {.callout-note collapse="true"}
 ## How to Submit a Syllabus
 
-If you have a syllabus to submit, please fill out the online form. Contact the [Chair of the TTC Committee](../../about/committees.html) with questions or concerns.
+
+If you have a syllabus to submit, please fill out the [online form](https://forms.gle/LordvWNha32yNe2Q8). New submissions will be reviewed for completion by the web editor team and added to the existing collection. 
+
+Please contact the [Chair of the TTC Committee](../../about/committees.html) with any other questions or concerns.
 :::
 
-:::{.column-body-outset}
-```{r echo=FALSE, warning=FALSE, message=FALSE}
-#| label: table
+The AP-LS Teaching, Training and Careers Committee is continuing its efforts to collect syllabi for courses in psychology and law or closely related topics. You may download or view any of the collected syllabi. 
+
+The collection can also be filtered by selecting the course level, semester or institution you are interested in.
+
+```{r}
 #| echo: false
+#| warning: false
+#| message: false
+#| label: Prepare data for table
 
-library(googlesheets4)
+library(readr)
 library(janitor)
+library(stringr)
 library(htmltools)
+library(crosstalk)
 library(dplyr)
+library(tidyr)
 library(reactablefmtr)
+library(tippy)
+library(htmlwidgets)
+library(forcats)
 
-syllabi_raw <- read_sheet("https://docs.google.com/spreadsheets/d/1LZ1bz2Cb3OlaHRqOd73gLbX6sAvAs_eQpkU3TLrYfm8/edit#gid=1605255684")
+syllabi_raw <- readr::read_csv("data/syllabi.csv") 
 
-syllabus <- syllabi_raw |> 
-  # fix names and select columns
+syllabi <- syllabi_raw |> 
   clean_names() |> 
   # make level variable
-    mutate(date = paste0(semester, " ", year),
-           level = case_when(
-             course_level == "Undergraduate" ~ "Undergrad",
-             course_level == "Graduate" ~ "Graduate",
-             course_level == "Undergraduate, 
-             Graduate" ~ "Mixed",
-             TRUE ~ "Other")
-           ) |> 
+  mutate(date = paste0(semester, " ", year),
+         level = case_when(
+           course_level == "Undergraduate" ~ "Undergrad",
+           course_level == "Graduate" ~ "Graduate",
+           course_level == "Undergraduate, Graduate" ~ "Mixed",
+           TRUE ~ "Other")
+  ) |> 
   select(level, author_affiliation,
-             author, course_name, date, year, attachment)
+         author, course_name, date, semester, year, attachment)
 
-data <- syllabus |> 
+
+grid <- syllabi |> 
   mutate(lvl_colors = case_when(
     level == 'Undergrad' ~ '#4271B3',
     level == 'Graduate' ~ '#1B3264',
     level == 'Mixed' ~ '#FBF9F4',
-             TRUE ~ 'grey'),
+    TRUE ~ 'grey'),
     img = knitr::image_uri("images/file.png")
 ) 
 
-tbl <- reactable(
-    data,
-    searchable = TRUE,
-    defaultColDef = colDef(
-      vAlign = "center",
-      headerVAlign = "bottom",
-      headerClass = "header"
-    ),
-    elementId = "lvl-select",
-    columns = list(
-      level = colDef(
-        name = "type",
-        minWidth = 100,
+
+## Make ordered factors for filters 
+grid$level <- factor(grid$level, levels = c("Undergrad", "Graduate", "Mixed", "Other"))
+
+grid$semester <- factor(grid$semester, levels = c("Fall", "Spring", "Summer", "Other"))
+
+grid$author_affiliation <- fct_infreq(grid$author_affiliation)
+
+# See the ?tippy documentation to learn how to customize tooltips
+with_tooltip <- function(value, tooltip, ...) {
+  div(style = "cursor: help",
+      tippy(value, tooltip, ...))
+}
+
+# Create shared dataset to use with crosstalk
+sd <- SharedData$new(grid |>
+                       select(level, lvl_colors, author_affiliation,
+         author, course_name, date, semester, year, attachment, img))
+
+# Make reactable table
+tbl_grid <- reactable(sd,
+                      searchable = FALSE,
+                      defaultPageSize = 35,
+                      defaultSorted = "year",
+                      defaultSortOrder = "desc",
+                      defaultColDef = colDef(
+                        vAlign = "center",
+                        headerVAlign = "bottom",
+                        headerClass = "header"
+                      ),
+                      columns = list(
+                      level = colDef(
+        header = with_tooltip("Level", "Level of students enrolled in course"),
+        minWidth = 150,
+        align = "left",
         cell = pill_buttons(
-          data,
+          grid,
           opacity = 0.8,
           color_ref = 'lvl_colors',
           text_size = 13,
       )
     ),
-      author = colDef(
-        name = "Instructor",
-        minWidth = 150,
-        cell = merge_column(data, 
+                        
+                  author = colDef(
+                  header = with_tooltip("Instructor", "Course instructor name & institutional affiliation"),
+                  minWidth = 250,
+                  cell = merge_column(grid, 
                             merged_name = "author_affiliation",
                             merged_size = 13,
-                            merged_color = "gray",
-                            merged_position = "below")
-      ),
-      author_affiliation = colDef(show = FALSE),
-    
-      course_name = colDef(
-        name = "Course",
-        minWidth = 150,
-        cell = merge_column(data, 
+                            merged_color = "#343a40",
+                            merged_position = "below",
+                            size = 16,
+                            color = "#1B3264")
+                  ),
+                  course_name = colDef(
+                  header = with_tooltip("Course", "Course title & semester"),
+                  minWidth = 250,
+                  cell = merge_column(grid, 
                             merged_name = "date",
                             merged_size = 13,
-                            merged_color = "gray",
-                            merged_position = "below")
-    ),
-      date = colDef(show = FALSE),
-    
-    img = colDef(
-      name = "view",
-      align = "center",
-      searchable = FALSE,
-      html = TRUE, 
-      cell = function(value, index) {
-        sprintf('<a href="%s" target="_blank"><image src="%s" style="width:20px;height:30px;"/></a>',
-              syllabus$attachment[index], value)
-    }),
- 
-    lvl_colors = colDef(show = FALSE),
-    attachment = colDef(show = FALSE),
-    year = colDef(show = FALSE)
-      )
+                            merged_color = "#343a40",
+                            merged_position = "below",
+                            size = 16,
+                            color = "#1B3264")
+                  ),
+                        date = colDef(show = FALSE),
+                        img = colDef(
+                          header = with_tooltip("Link", "Link to view or download syllabi"),
+                          align = "center",
+                          searchable = FALSE,
+                          html = TRUE, 
+                          cell = function(value, index) {
+                            sprintf('<a href="%s" target="_blank"><image src="%s" style="width:20px;height:30px;"/></a>',
+                                    grid$attachment[index], value)
+                          }
+                        ),
+                        author_affiliation = colDef(show = FALSE),
+                        lvl_colors = colDef(show = FALSE),
+                        attachment = colDef(show = FALSE),
+                        year = colDef(show = FALSE),
+    semester = colDef(show = FALSE)),
+    highlight = TRUE,
+    theme = reactableTheme(
+    highlightColor = "#FBF9F4",
+    borderColor = "#FBF9F4",
+    headerStyle = list(borderColor = "#FBF9F4")),
+                        class = "syllabi-tbl"
+                        )
+
+# add title, subtitle, footnote, and source
+tbl <- tbl_grid |> 
+  # footnote and source
+  appendContent(
+    tags$div(
+      tags$div("Source: Syllabi data maintained by AP-LS TTC Committee", style = "display:inline-block;vertical-align:middle;")
     )
-    
-```
-
-```{r build div, echo=FALSE, warning=FALSE, message=FALSE}
-
-div(class = "syllabi",
-    div(class = "title-tab",
-        h2("Psychology & Law Syllabi Collection")
-        ),
-    tbl,
-    paste0("Source: Syllabi data maintained by AP-LS TTC Committee"))
+  )
 
 ```
 
-```{r echo=FALSE}
-tags$link(href = "https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,700;1,400&display=swap", rel = "stylesheet")
-```
 
 ```{css echo=FALSE, warning=FALSE, message=FALSE}
-@import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css); 
+
 
 .syllabi {
   font-family: 'Proza Libre', sans-serif;
-  font-size: 0.9rem;
 }
 
-.title-tab {
-  font-family: 'Proza Libre', sans-serif;
-  margin-top: 2rem;
-  margin-bottom: 1.125rem;
-  font-size: 1rem;
-}
-
-.title-tab h2 {
-  font-family: 'Cormorant Garamond' sans-serif;
-  font-size: 2rem;
+.syllabi h2 {
   font-weight: 600;
 }
 
-.syllabi-table {
-  margin-bottom: 0.8rem;
+.syllabi a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.syllabi a:hover,
+.syllabi a:focus {
+  text-decoration: underline;
+  text-decoration-thickness: max(1px, 0.0625rem);
+}
+
+.syllabi-tbl {
+  margin-top: 1rem;
+  font-size: 1rem;
 }
 
 .header {
-  border-bottom-color: #FBF9F4;
-  text-align: center;
+  border-bottom-color: #7b8a8b;
   color: #FBF9F4;
   background: #1B3264;
   font-weight: 500;
+  text-align: left;
   font-size: 1.3rem;
-  letter-spacing: -.02rem;
+  letter-spacing: 0.1rem;
   font-variant: small-caps;
+  padding: 5px;
+  border: 0;
 }
 
-/* Highlight headers when sorting */
-.header:hover,
-.header:focus,
-.header[aria-sort="ascending"],
-.header[aria-sort="descending"] {
-  background-color: #4271B3;
-  color: #FBF9F4;
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-left: -32px;
+}
+
+.filter-input {
+  margin-top: 0.5rem;
+  margin-left: 32px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.filter-input label {
+  color: #343a40;
+  font-weight: 600;
+  font-size: 0.80rem;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
 }
 
 
-.course {
-  margin-left: 0.5rem;
-  font-size: 0.85rem;
-  font-weight: 500;
+.filter-input select,
+.filter-input input[type="search"] {
+  padding: 0 0.375rem;
+  height: 2rem;
+}
+
+
+/* When selected, the text is yellow */
+.header[aria-sort='ascending'],
+.header[aria-sort='descending'] {
+  color: yellow;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .screen-inset .my-reactable-table {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+ .screen-inset .crosstalk-filtered-select {
+    width: 100%;
+  }
+  
+  .screen-inset .crosstalk-filtered-checkbox {
+    display: block;
+    margin-bottom: 10px;
+  }
 }
 
 ```
 
-:::
+
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| output: screen-inset
+
+div(
+  class = "syllabi",
+  div(
+    class = "filters",
+    div(class = "filter-input",
+      tags$label(`for` = "level", "Course Level"),
+      filter_select("level", "", sd, ~factor(level))
+    ),
+    div(class = "filter-input",
+      tags$label(`for` = "author_affiliation", "Institution"),
+      filter_select("author_affiliation", "", sd, ~factor(author_affiliation))
+    ),
+    div(class = "filter-input",
+      tags$label(`for` = "semester", "Semester"),
+      filter_select("semester", "", sd, ~factor(semester))
+    ),
+    div(class = "filter-input",
+      tags$label(`for` = "year", "Year"),
+      filter_select("year", "", sd, ~factor(year))
+    )
+  ),
+  tags$hr(),
+  div(
+    class = "my-reactable-table",
+  tbl
+  )
+)
+
+```

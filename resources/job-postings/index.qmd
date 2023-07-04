@@ -16,6 +16,7 @@ listing:
     template: job-listing.ejs
 ---
 
+
 ::: {.row .align-items-center .justify-content-center}
 ::: {.col-md-6}
 
