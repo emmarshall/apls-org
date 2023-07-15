@@ -37,6 +37,7 @@ Members can provide feedback to the authors in one of two ways.
 -   Comments on the paper may also be emailed to the authors of the review paper at [apls.srp2\@gmail.com](mailto:apls.srp2@gmail.com).
 
 ::: callout-warning
+## Important Deadlines
 Comments received by August 21, 2023 will be considered for incorporation into the draft that will be presented at the AP-LS conference in March 2024.
 
 Members will have another opportunity to attend a session on the Scientific Review Paper at AP-LS and/or send comments to the authors via email in March 2024.
