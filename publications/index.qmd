@@ -14,6 +14,11 @@ Links to available calls for papers or submissions can be found on our social me
 
 ## Scientific Review Papers
 
+::: callout-warning
+## New draft available for comments!
+[Click to learn more about the latest SRP draft](SPR_2.0.html) “Police-Induced Confessions, 2.0: Risk Factors and Recommendations”
+:::
+
 The AP-LS Scientific Review Paper committee works to approve official Scientific Review Papers that are meant to objectively summarize the research literature in areas where there is a high degree of scientific clarity and consensus.
 
 In its history, the Executive Committee has only approved three official Scientific Review Papers of the American Psychology-Law Society. Links to view each paper online and to download it as a pdf are included here below. 
@@ -70,23 +75,22 @@ If there is a publication you think should be added to this list, please contact
 #| warning: false
 #| message: false
 #| label: Other journals table
+library(gt)
+library(tidyverse)
 
-library(reactable)
-library(dplyr)
-
-name <- c("Aggression and Violent Behavior", "Behavioral Sciences and the Law", 
-          "Behavioral Sciences of Terrorism and Political Aggression", "Child Abuse and Neglect", 
-          "Criminal Justice and Behavior", "Criminology", "Criminology and Public Policy", 
-          "International Journal of Law and Psychiatry", "International Journal of Forensic Mental Health", 
-          "International Journal of Police Science and Management", "Journal of the American Academy of Psychiatry and Law", 
-          "Journal of Credibility Assessment and Witness Psychology", "Journal of Criminal Psychology", 
-          "Journal of Empirical Legal Studies", "Journal of Forensic Psychiatry and Psychology", 
-          "Journal of Forensic Psychology and Practice", "Journal of Forensic Sciences", "Journal of Legal Studies", 
-          "Law and Psychology Review", "Legal and Criminological Psychology", "Open Access Journal of Forensic Psychology", 
-          "Psychiatry, Psychology and Law", "Psychological Injury and Law", "Psychology, Crime and Law", 
-          "Psychology Public Policy and Law")
-
-url <- c("https://www.journals.elsevier.com/aggression-and-violent-behavior",
+data <- tibble (
+  Name = c("Aggression and Violent Behavior", "Behavioral Sciences and the Law", 
+           "Behavioral Sciences of Terrorism and Political Aggression", "Child Abuse and Neglect", 
+           "Criminal Justice and Behavior", "Criminology", "Criminology and Public Policy", 
+           "International Journal of Law and Psychiatry", "International Journal of Forensic Mental Health", 
+           "International Journal of Police Science and Management", "Journal of the American Academy of Psychiatry and Law", 
+           "Journal of Credibility Assessment and Witness Psychology", "Journal of Criminal Psychology", 
+           "Journal of Empirical Legal Studies", "Journal of Forensic Psychiatry and Psychology", 
+           "Journal of Forensic Psychology and Practice", "Journal of Forensic Sciences", "Journal of Legal Studies", 
+           "Law and Psychology Review", "Legal and Criminological Psychology", "Open Access Journal of Forensic Psychology", 
+           "Psychiatry, Psychology and Law", "Psychological Injury and Law", "Psychology, Crime and Law", 
+           "Psychology Public Policy and Law"),
+  link = c("https://www.journals.elsevier.com/aggression-and-violent-behavior",
          "https://onlinelibrary.wiley.com/journal/10990942",
          "https://www.tandfonline.com/toc/rirt20/current",
          "https://www.journals.elsevier.com/child-abuse-and-neglect",
@@ -111,31 +115,13 @@ url <- c("https://www.journals.elsevier.com/aggression-and-violent-behavior",
          "https://www.springer.com/journal/12207",
          "https://www.tandfonline.com/toc/gpcl20/current",
          "https://www.apa.org/pubs/journals/law/")
+)
 
-journals <- data.frame(name, url)
+journal_table <- data |> 
+  mutate(link = sprintf('<p>Link to <a href = "%s">%s</a> website', link, Name), 
+         link = map(link, gt::html)) |> 
+  gt() 
 
-data <- journals |> 
-  mutate(img = knitr::image_uri("files/link.svg")
-) 
+journal_table
 
-reactable(data,
-          defaultPageSize = 10,
-          columns = list(
-            name = colDef(
-              name = "Journal Name",
-              searchable = TRUE
-            ),
-            img = colDef(
-      name = "Link",
-      align = "center",
-      maxWidth = 60,
-      searchable = FALSE,
-      html = TRUE, 
-      cell = function(value, index) {
-        sprintf('<a href="%s" target="_blank"><image src="%s" style="width:20px;height:30px;"/></a>',
-              journals$url[index], value)
-    }),
-    url = colDef(show = FALSE)
-            )
-          )
 ```
