@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.280">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -60,7 +60,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -150,12 +151,14 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 <style>
-    .quarto-title-block .quarto-title-banner {
-      background-image: url(../../images/default-banner.svg);
-background-size: cover;
-    }
-    </style>
 
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(../../images/default-banner.svg);
+background-size: cover;
+      }
+</style>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../assets/styles.css">
@@ -172,94 +175,96 @@ background-size: cover;
     <img src="../../images/logo-light.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../about/index.html">
+    <a class="dropdown-item" href="../../about/index.html" rel="" target="">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/leadership.html">
+    <a class="dropdown-item" href="../../about/leadership.html" rel="" target="">
  <span class="dropdown-text">Leadership</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/committees.html">
+    <a class="dropdown-item" href="../../about/committees.html" rel="" target="">
  <span class="dropdown-text">Committees</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/statements.html">
+    <a class="dropdown-item" href="../../about/statements.html" rel="" target="">
  <span class="dropdown-text">Statements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/bylaws.html">
+    <a class="dropdown-item" href="../../about/bylaws.html" rel="" target="">
  <span class="dropdown-text">AP-LS Bylaws</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/contact.html">
+    <a class="dropdown-item" href="../../about/contact.html" rel="" target="">
  <span class="dropdown-text">Contact us</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-publications" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-publications" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Publications</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-publications">    
         <li>
-    <a class="dropdown-item" href="../../newsletter/index.html">
+    <a class="dropdown-item" href="../../newsletter/index.html" rel="" target="">
  <span class="dropdown-text">AP-LS Newsletter</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../publications/index.html">
+    <a class="dropdown-item" href="../../publications/index.html" rel="" target="">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://www.apa.org/pubs/journals/lhb/">
+    <a class="dropdown-item" href="https://www.apa.org/pubs/journals/lhb/" rel="" target="">
  <span class="dropdown-text">Law &amp; Human Behavior</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../awards/index.html">
+    <a class="nav-link" href="../../awards/index.html" rel="" target="">
  <span class="menu-text">Awards</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-conferences" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-conferences" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Conferences</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-conferences">    
         <li>
-    <a class="dropdown-item" href="../../conferences/index.html">
+    <a class="dropdown-item" href="../../conferences/index.html" rel="" target="">
  <span class="dropdown-text">2023 AP-LS Conference</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../conferences/preconference.html">
+    <a class="dropdown-item" href="../../conferences/preconference.html" rel="" target="">
  <span class="dropdown-text">Preconference Workshops</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../conferences/schedule.html">
+    <a class="dropdown-item" href="../../conferences/schedule.html" rel="" target="">
  <span class="dropdown-text">Program &amp; Schedule</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../resources/index.html">
+    <a class="nav-link" href="../../resources/index.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../membership/membership.html">
+    <a class="nav-link" href="../../membership/membership.html" rel="" target="">
  <span class="menu-text">Membership</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -300,7 +305,7 @@ background-size: cover;
   <div class="gallery__list-column">
 <div id="listing-twenty-two" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1669874400000" data-listing-file-modified-sort="1681255479593" data-listing-reading-time-sort="76.205">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1669874400000" data-listing-file-modified-sort="1681255479593" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="77">
 <a href="../../resources/newsletter/2022/dec2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -311,7 +316,7 @@ background-size: cover;
 December 2022
 </h5>
 <div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2022/dec2022/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -325,7 +330,7 @@ Dec 1, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1667278800000" data-listing-file-modified-sort="1681425637762" data-listing-reading-time-sort="67.245">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1667278800000" data-listing-file-modified-sort="1681425637762" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="68">
 <a href="../../resources/newsletter/2022/nov2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -336,7 +341,7 @@ Dec 1, 2022
 November 2022
 </h5>
 <div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2022/nov2022/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -350,7 +355,7 @@ Nov 1, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1664600400000" data-listing-file-modified-sort="1681256059684" data-listing-reading-time-sort="56.07">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1664600400000" data-listing-file-modified-sort="1681256059684" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="57">
 <a href="../../resources/newsletter/2022/oct2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -361,7 +366,7 @@ Nov 1, 2022
 October 2022
 </h5>
 <div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2022/oct2022/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -375,7 +380,7 @@ Oct 1, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1662008400000" data-listing-file-modified-sort="1681255965235" data-listing-reading-time-sort="55.185">
+<div class="g-col-1" data-index="3" data-listing-date-sort="1662008400000" data-listing-file-modified-sort="1681255965235" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="56">
 <a href="../../resources/newsletter/2022/sep2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -386,7 +391,7 @@ Oct 1, 2022
 September 2022
 </h5>
 <div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2022/sep2022/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -400,7 +405,7 @@ Sep 1, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1659330000000" data-listing-file-modified-sort="1681256130229" data-listing-reading-time-sort="44.25">
+<div class="g-col-1" data-index="4" data-listing-date-sort="1659330000000" data-listing-file-modified-sort="1681256130229" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="45">
 <a href="../../resources/newsletter/2022/aug2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -411,7 +416,7 @@ Sep 1, 2022
 August 2022
 </h5>
 <div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2022/aug2022/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -425,7 +430,7 @@ Aug 1, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1656651600000" data-listing-file-modified-sort="1681256183462" data-listing-reading-time-sort="49.695">
+<div class="g-col-1" data-index="5" data-listing-date-sort="1656651600000" data-listing-file-modified-sort="1681256183462" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="50">
 <a href="../../resources/newsletter/2022/july2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -436,7 +441,7 @@ Aug 1, 2022
 July 2022
 </h5>
 <div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2022/july2022/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -450,7 +455,7 @@ Jul 1, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-date-sort="1654059600000" data-listing-file-modified-sort="1681256230627" data-listing-reading-time-sort="59.13">
+<div class="g-col-1" data-index="6" data-listing-date-sort="1654059600000" data-listing-file-modified-sort="1681256230627" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="60">
 <a href="../../resources/newsletter/2022/june2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -461,7 +466,7 @@ Jul 1, 2022
 June 2022
 </h5>
 <div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2022/june2022/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -475,7 +480,7 @@ Jun 1, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1651381200000" data-listing-file-modified-sort="1681255743818" data-listing-reading-time-sort="47.935">
+<div class="g-col-1" data-index="7" data-listing-date-sort="1651381200000" data-listing-file-modified-sort="1681255743818" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="48">
 <a href="../../resources/newsletter/2022/may2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -486,7 +491,7 @@ Jun 1, 2022
 May 2022
 </h5>
 <div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2022/may2022/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -500,7 +505,7 @@ May 1, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-listing-date-sort="1646114400000" data-listing-file-modified-sort="1681257193699" data-listing-reading-time-sort="12.005">
+<div class="g-col-1" data-index="8" data-listing-date-sort="1646114400000" data-listing-file-modified-sort="1681257193699" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13">
 <a href="../../resources/newsletter/2022/mar2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -511,7 +516,7 @@ May 1, 2022
 March 2022
 </h5>
 <div class="card-text listing-description">
-<strong>BRIDGE Awardees</strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2022/mar2022/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -525,7 +530,7 @@ Mar 1, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-listing-date-sort="1643695200000" data-listing-file-modified-sort="1681257126952" data-listing-reading-time-sort="17.53">
+<div class="g-col-1" data-index="9" data-listing-date-sort="1643695200000" data-listing-file-modified-sort="1681257126952" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18">
 <a href="../../resources/newsletter/2022/feb2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -536,7 +541,7 @@ Mar 1, 2022
 February 2022
 </h5>
 <div class="card-text listing-description">
-<strong>Reigniting Our Why: Recognizing Member Contributions to the Field</strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2022/feb2022/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -550,7 +555,7 @@ Feb 1, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-listing-date-sort="1641016800000" data-listing-file-modified-sort="1681321147949" data-listing-reading-time-sort="0.005">
+<div class="g-col-1" data-index="10" data-listing-date-sort="1641016800000" data-listing-file-modified-sort="1681321147949" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2022/jan2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -561,7 +566,7 @@ Feb 1, 2022
 January 2022
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2022/jan2022/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -575,7 +580,7 @@ Jan 1, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-listing-date-sort="1617253200000" data-listing-file-modified-sort="1681338518073" data-listing-reading-time-sort="14.36">
+<div class="g-col-1" data-index="11" data-listing-date-sort="1617253200000" data-listing-file-modified-sort="1681338518073" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15">
 <a href="../../resources/newsletter/2022/apr2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -586,7 +591,7 @@ Jan 1, 2022
 April 2021
 </h5>
 <div class="card-text listing-description">
-<strong><strong><strong>IN MEMORIAM</strong></strong></strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2022/apr2022/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -615,7 +620,7 @@ No matching items
   <div class="gallery__list-column">
 <div id="listing-twenty-one" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1638338400000" data-listing-file-modified-sort="1681338628907" data-listing-reading-time-sort="12.575">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1638338400000" data-listing-file-modified-sort="1681338628907" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13">
 <a href="../../resources/newsletter/2021/dec2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -626,7 +631,7 @@ No matching items
 December 2021
 </h5>
 <div class="card-text listing-description">
-<strong style="text-align: left;">AP-LS 2020 Pre-Conference Workshop Descriptions and Grants</strong><br>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2021/dec2021/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -640,7 +645,7 @@ Dec 1, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1635742800000" data-listing-file-modified-sort="1681339011817" data-listing-reading-time-sort="9.715">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1635742800000" data-listing-file-modified-sort="1681339011817" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10">
 <a href="../../resources/newsletter/2021/nov2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -651,7 +656,7 @@ Dec 1, 2021
 November 2021
 </h5>
 <div class="card-text listing-description">
-<strong>AP-LS Practice Committee Award</strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2021/nov2021/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -665,7 +670,7 @@ Nov 1, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1633064400000" data-listing-file-modified-sort="1681339054016" data-listing-reading-time-sort="11.765">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1633064400000" data-listing-file-modified-sort="1681339054016" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12">
 <a href="../../resources/newsletter/2021/oct2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -676,7 +681,7 @@ Nov 1, 2021
 October 2021
 </h5>
 <div class="card-text listing-description">
-<strong>RESEARCH REFLECTIONS DURING COVID-19: AN AP-LS RESEARCH COMMITTEE OPEN FORUM</strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2021/oct2021/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -690,7 +695,7 @@ Oct 1, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1630472400000" data-listing-file-modified-sort="1681339091786" data-listing-reading-time-sort="14.79">
+<div class="g-col-1" data-index="3" data-listing-date-sort="1630472400000" data-listing-file-modified-sort="1681339091786" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15">
 <a href="../../resources/newsletter/2021/sep2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -701,7 +706,7 @@ Oct 1, 2021
 September 2021
 </h5>
 <div class="card-text listing-description">
-<strong><strong><strong><strong>AP-LS CO-CHAIR CALL FOR APA CONFERENCE</strong></strong></strong></strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2021/sep2021/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -715,7 +720,7 @@ Sep 1, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1627794000000" data-listing-file-modified-sort="1681338582935" data-listing-reading-time-sort="10.735">
+<div class="g-col-1" data-index="4" data-listing-date-sort="1627794000000" data-listing-file-modified-sort="1681338582935" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11">
 <a href="../../resources/newsletter/2021/aug2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -726,7 +731,7 @@ Sep 1, 2021
 August 2021
 </h5>
 <div class="card-text listing-description">
-<strong><strong><strong><br></strong></strong></strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2021/aug2021/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -740,7 +745,7 @@ Aug 1, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1625115600000" data-listing-file-modified-sort="1681338800374" data-listing-reading-time-sort="6.78">
+<div class="g-col-1" data-index="5" data-listing-date-sort="1625115600000" data-listing-file-modified-sort="1681338800374" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <a href="../../resources/newsletter/2021/july2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -751,7 +756,7 @@ Aug 1, 2021
 July 2021
 </h5>
 <div class="card-text listing-description">
-<strong style="text-align: left;"><strong><strong><br></strong></strong></strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2021/july2021/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -765,7 +770,7 @@ Jul 1, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-date-sort="1622523600000" data-listing-file-modified-sort="1681338849495" data-listing-reading-time-sort="8.925">
+<div class="g-col-1" data-index="6" data-listing-date-sort="1622523600000" data-listing-file-modified-sort="1681338849495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
 <a href="../../resources/newsletter/2021/june2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -776,7 +781,7 @@ Jul 1, 2021
 June 2021
 </h5>
 <div class="card-text listing-description">
-<strong style="text-align: left;"><strong><strong>AAFP DISSERTATION GRANT WINNERS</strong></strong></strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2021/june2021/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -790,7 +795,7 @@ Jun 1, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1619845200000" data-listing-file-modified-sort="1681338970665" data-listing-reading-time-sort="12.96">
+<div class="g-col-1" data-index="7" data-listing-date-sort="1619845200000" data-listing-file-modified-sort="1681338970665" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13">
 <a href="../../resources/newsletter/2021/may2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -801,7 +806,7 @@ Jun 1, 2021
 May 2021
 </h5>
 <div class="card-text listing-description">
-<strong style="text-align: left;"><strong>CLINICAL AND FORENSIC PRACTICE</strong></strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2021/may2021/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -815,7 +820,7 @@ May 1, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-listing-date-sort="1617253200000" data-listing-file-modified-sort="1681328699263" data-listing-reading-time-sort="0.005">
+<div class="g-col-1" data-index="8" data-listing-date-sort="1617253200000" data-listing-file-modified-sort="1681328699263" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2021/apr2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -826,7 +831,7 @@ May 1, 2021
 April 2022
 </h5>
 <div class="card-text listing-description">
-
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2021/apr2021/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -840,7 +845,7 @@ Apr 1, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-listing-date-sort="1614578400000" data-listing-file-modified-sort="1681338922909" data-listing-reading-time-sort="15.58">
+<div class="g-col-1" data-index="9" data-listing-date-sort="1614578400000" data-listing-file-modified-sort="1681338922909" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16">
 <a href="../../resources/newsletter/2021/mar2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -851,7 +856,7 @@ Apr 1, 2021
 March 2021
 </h5>
 <div class="card-text listing-description">
-<strong><strong>SAVE THE DATE!</strong></strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2021/mar2021/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -865,7 +870,7 @@ Mar 1, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-listing-date-sort="1612159200000" data-listing-file-modified-sort="1681340170442" data-listing-reading-time-sort="14.235">
+<div class="g-col-1" data-index="10" data-listing-date-sort="1612159200000" data-listing-file-modified-sort="1681340170442" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15">
 <a href="../../resources/newsletter/2021/feb2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -876,7 +881,7 @@ Mar 1, 2021
 February 2021
 </h5>
 <div class="card-text listing-description">
-<strong align="left"><strong><strong><strong><strong>NEW SPA PARTNERSHIP</strong></strong></strong></strong></strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2021/feb2021/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -890,7 +895,7 @@ Feb 1, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1681340234468" data-listing-reading-time-sort="13.67">
+<div class="g-col-1" data-index="11" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1681340234468" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14">
 <a href="../../resources/newsletter/2021/jan2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -901,7 +906,7 @@ Feb 1, 2021
 January 2021
 </h5>
 <div class="card-text listing-description">
-<strong><strong><strong>EARLY CAREER GRANT IN AID AWARD WINNERS</strong></strong></strong>
+<!-- desc(5A0113B34292)[max=175]:resources/newsletter/2021/jan2021/index.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -965,435 +970,435 @@ No matching items
 </thead>
 <tbody class="list">
 <tr data-index="0" data-listing-file-modified-sort="1679523234577" data-listing-filename-sort="fall1996.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall1996/fall1996.pdf" class="filename">fall1996.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall1996/fall1996.pdf" class="filename listing-filename">fall1996.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="1" data-listing-file-modified-sort="1679523234580" data-listing-filename-sort="fall1997.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall1997/fall1997.pdf" class="filename">fall1997.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall1997/fall1997.pdf" class="filename listing-filename">fall1997.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="2" data-listing-file-modified-sort="1679523234579" data-listing-filename-sort="fall1998.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall1998/fall1998.pdf" class="filename">fall1998.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall1998/fall1998.pdf" class="filename listing-filename">fall1998.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="3" data-listing-file-modified-sort="1679523234581" data-listing-filename-sort="fall1999.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall1999/fall1999.pdf" class="filename">fall1999.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall1999/fall1999.pdf" class="filename listing-filename">fall1999.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="4" data-listing-file-modified-sort="1679523234581" data-listing-filename-sort="fall2000.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall2000/fall2000.pdf" class="filename">fall2000.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall2000/fall2000.pdf" class="filename listing-filename">fall2000.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="5" data-listing-file-modified-sort="1679523234581" data-listing-filename-sort="fall2001.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall2001/fall2001.pdf" class="filename">fall2001.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall2001/fall2001.pdf" class="filename listing-filename">fall2001.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="6" data-listing-file-modified-sort="1679523234582" data-listing-filename-sort="fall2002.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall2002/fall2002.pdf" class="filename">fall2002.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall2002/fall2002.pdf" class="filename listing-filename">fall2002.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="7" data-listing-file-modified-sort="1679523234584" data-listing-filename-sort="fall2003.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall2003/fall2003.pdf" class="filename">fall2003.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall2003/fall2003.pdf" class="filename listing-filename">fall2003.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="8" data-listing-file-modified-sort="1679523234589" data-listing-filename-sort="fall2004.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall2004/fall2004.pdf" class="filename">fall2004.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall2004/fall2004.pdf" class="filename listing-filename">fall2004.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="9" data-listing-file-modified-sort="1679523234589" data-listing-filename-sort="fall2005.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall2005/fall2005.pdf" class="filename">fall2005.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall2005/fall2005.pdf" class="filename listing-filename">fall2005.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="10" data-listing-file-modified-sort="1679523234600" data-listing-filename-sort="fall2006.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall2006/fall2006.pdf" class="filename">fall2006.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall2006/fall2006.pdf" class="filename listing-filename">fall2006.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="11" data-listing-file-modified-sort="1679523234600" data-listing-filename-sort="fall2007.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall2007/fall2007.pdf" class="filename">fall2007.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall2007/fall2007.pdf" class="filename listing-filename">fall2007.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="12" data-listing-file-modified-sort="1679523234600" data-listing-filename-sort="fall2008.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall2008/fall2008.pdf" class="filename">fall2008.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall2008/fall2008.pdf" class="filename listing-filename">fall2008.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="13" data-listing-file-modified-sort="1679523234611" data-listing-filename-sort="fall2009.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall2009/fall2009.pdf" class="filename">fall2009.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall2009/fall2009.pdf" class="filename listing-filename">fall2009.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="14" data-listing-file-modified-sort="1679523234611" data-listing-filename-sort="fall2010.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall2010/fall2010.pdf" class="filename">fall2010.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall2010/fall2010.pdf" class="filename listing-filename">fall2010.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="15" data-listing-file-modified-sort="1679523234611" data-listing-filename-sort="fall2014.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall2014/fall2014.pdf" class="filename">fall2014.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall2014/fall2014.pdf" class="filename listing-filename">fall2014.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="16" data-listing-file-modified-sort="1679523234615" data-listing-filename-sort="fall2015.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall2015/fall2015.pdf" class="filename">fall2015.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall2015/fall2015.pdf" class="filename listing-filename">fall2015.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="17" data-listing-file-modified-sort="1679523234622" data-listing-filename-sort="fall2016.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/fall2016/fall2016.pdf" class="filename">fall2016.pdf</a>
+<td>
+<a href="../../resources/newsletter/fall2016/fall2016.pdf" class="filename listing-filename">fall2016.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="18" data-listing-file-modified-sort="1679523234772" data-listing-filename-sort="spring1996.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/spring1996/spring1996.pdf" class="filename">spring1996.pdf</a>
+<td>
+<a href="../../resources/newsletter/spring1996/spring1996.pdf" class="filename listing-filename">spring1996.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="19" data-listing-file-modified-sort="1679523234772" data-listing-filename-sort="spring1997.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/spring1997/spring1997.pdf" class="filename">spring1997.pdf</a>
+<td>
+<a href="../../resources/newsletter/spring1997/spring1997.pdf" class="filename listing-filename">spring1997.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="20" data-listing-file-modified-sort="1679523234772" data-listing-filename-sort="spring1998.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/spring1998/spring1998.pdf" class="filename">spring1998.pdf</a>
+<td>
+<a href="../../resources/newsletter/spring1998/spring1998.pdf" class="filename listing-filename">spring1998.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="21" data-listing-file-modified-sort="1679523234772" data-listing-filename-sort="spring1999.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/spring1999/spring1999.pdf" class="filename">spring1999.pdf</a>
+<td>
+<a href="../../resources/newsletter/spring1999/spring1999.pdf" class="filename listing-filename">spring1999.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="22" data-listing-file-modified-sort="1679523234772" data-listing-filename-sort="spring2000.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/spring2000/spring2000.pdf" class="filename">spring2000.pdf</a>
+<td>
+<a href="../../resources/newsletter/spring2000/spring2000.pdf" class="filename listing-filename">spring2000.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="23" data-listing-file-modified-sort="1679523234772" data-listing-filename-sort="spring2001.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/spring2001/spring2001.pdf" class="filename">spring2001.pdf</a>
+<td>
+<a href="../../resources/newsletter/spring2001/spring2001.pdf" class="filename listing-filename">spring2001.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="24" data-listing-file-modified-sort="1679523234773" data-listing-filename-sort="spring2002.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/spring2002/spring2002.pdf" class="filename">spring2002.pdf</a>
+<td>
+<a href="../../resources/newsletter/spring2002/spring2002.pdf" class="filename listing-filename">spring2002.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="25" data-listing-file-modified-sort="1679523234782" data-listing-filename-sort="summer2003.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/summer2003/summer2003.pdf" class="filename">summer2003.pdf</a>
+<td>
+<a href="../../resources/newsletter/summer2003/summer2003.pdf" class="filename listing-filename">summer2003.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="26" data-listing-file-modified-sort="1679523234783" data-listing-filename-sort="summer2004.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/summer2004/summer2004.pdf" class="filename">summer2004.pdf</a>
+<td>
+<a href="../../resources/newsletter/summer2004/summer2004.pdf" class="filename listing-filename">summer2004.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="27" data-listing-file-modified-sort="1679523234784" data-listing-filename-sort="summer2005.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/summer2005/summer2005.pdf" class="filename">summer2005.pdf</a>
+<td>
+<a href="../../resources/newsletter/summer2005/summer2005.pdf" class="filename listing-filename">summer2005.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="28" data-listing-file-modified-sort="1679523234785" data-listing-filename-sort="summer2006.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/summer2006/summer2006.pdf" class="filename">summer2006.pdf</a>
+<td>
+<a href="../../resources/newsletter/summer2006/summer2006.pdf" class="filename listing-filename">summer2006.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="29" data-listing-file-modified-sort="1679523234785" data-listing-filename-sort="summer2007.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/summer2007/summer2007.pdf" class="filename">summer2007.pdf</a>
+<td>
+<a href="../../resources/newsletter/summer2007/summer2007.pdf" class="filename listing-filename">summer2007.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="30" data-listing-file-modified-sort="1679523234785" data-listing-filename-sort="summer2008.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/summer2008/summer2008.pdf" class="filename">summer2008.pdf</a>
+<td>
+<a href="../../resources/newsletter/summer2008/summer2008.pdf" class="filename listing-filename">summer2008.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="31" data-listing-file-modified-sort="1679523234788" data-listing-filename-sort="summer2009.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/summer2009/summer2009.pdf" class="filename">summer2009.pdf</a>
+<td>
+<a href="../../resources/newsletter/summer2009/summer2009.pdf" class="filename listing-filename">summer2009.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="32" data-listing-file-modified-sort="1679523234799" data-listing-filename-sort="summer2010.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/summer2010/summer2010.pdf" class="filename">summer2010.pdf</a>
+<td>
+<a href="../../resources/newsletter/summer2010/summer2010.pdf" class="filename listing-filename">summer2010.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="33" data-listing-file-modified-sort="1679523234808" data-listing-filename-sort="summer2011.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/summer2011/summer2011.pdf" class="filename">summer2011.pdf</a>
+<td>
+<a href="../../resources/newsletter/summer2011/summer2011.pdf" class="filename listing-filename">summer2011.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="34" data-listing-file-modified-sort="1679523234809" data-listing-filename-sort="summer2014.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/summer2014/summer2014.pdf" class="filename">summer2014.pdf</a>
+<td>
+<a href="../../resources/newsletter/summer2014/summer2014.pdf" class="filename listing-filename">summer2014.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="35" data-listing-file-modified-sort="1679523234809" data-listing-filename-sort="summer2015.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/summer2015/summer2015.pdf" class="filename">summer2015.pdf</a>
+<td>
+<a href="../../resources/newsletter/summer2015/summer2015.pdf" class="filename listing-filename">summer2015.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="36" data-listing-file-modified-sort="1679523234810" data-listing-filename-sort="summer2016.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/summer2016/summer2016.pdf" class="filename">summer2016.pdf</a>
+<td>
+<a href="../../resources/newsletter/summer2016/summer2016.pdf" class="filename listing-filename">summer2016.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="37" data-listing-file-modified-sort="1679523234813" data-listing-filename-sort="summer2017.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/summer2017/summer2017.pdf" class="filename">summer2017.pdf</a>
+<td>
+<a href="../../resources/newsletter/summer2017/summer2017.pdf" class="filename listing-filename">summer2017.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="38" data-listing-file-modified-sort="1679523234811" data-listing-filename-sort="winter1998.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/winter1998/winter1998.pdf" class="filename">winter1998.pdf</a>
+<td>
+<a href="../../resources/newsletter/winter1998/winter1998.pdf" class="filename listing-filename">winter1998.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="39" data-listing-file-modified-sort="1679523234810" data-listing-filename-sort="winter2000.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/winter2000/winter2000.pdf" class="filename">winter2000.pdf</a>
+<td>
+<a href="../../resources/newsletter/winter2000/winter2000.pdf" class="filename listing-filename">winter2000.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="40" data-listing-file-modified-sort="1679523234812" data-listing-filename-sort="winter2001.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/winter2001/winter2001.pdf" class="filename">winter2001.pdf</a>
+<td>
+<a href="../../resources/newsletter/winter2001/winter2001.pdf" class="filename listing-filename">winter2001.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="41" data-listing-file-modified-sort="1679523234812" data-listing-filename-sort="winter2002.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/winter2002/winter2002.pdf" class="filename">winter2002.pdf</a>
+<td>
+<a href="../../resources/newsletter/winter2002/winter2002.pdf" class="filename listing-filename">winter2002.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="42" data-listing-file-modified-sort="1679523234813" data-listing-filename-sort="winter2003.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/winter2003/winter2003.pdf" class="filename">winter2003.pdf</a>
+<td>
+<a href="../../resources/newsletter/winter2003/winter2003.pdf" class="filename listing-filename">winter2003.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="43" data-listing-file-modified-sort="1679523234820" data-listing-filename-sort="winter2004.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/winter2004/winter2004.pdf" class="filename">winter2004.pdf</a>
+<td>
+<a href="../../resources/newsletter/winter2004/winter2004.pdf" class="filename listing-filename">winter2004.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="44" data-listing-file-modified-sort="1679523234820" data-listing-filename-sort="winter2005.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/winter2005/winter2005.pdf" class="filename">winter2005.pdf</a>
+<td>
+<a href="../../resources/newsletter/winter2005/winter2005.pdf" class="filename listing-filename">winter2005.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="45" data-listing-file-modified-sort="1679523234827" data-listing-filename-sort="winter2006.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/winter2006/winter2006.pdf" class="filename">winter2006.pdf</a>
+<td>
+<a href="../../resources/newsletter/winter2006/winter2006.pdf" class="filename listing-filename">winter2006.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="46" data-listing-file-modified-sort="1679523234827" data-listing-filename-sort="winter2007.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/winter2007/winter2007.pdf" class="filename">winter2007.pdf</a>
+<td>
+<a href="../../resources/newsletter/winter2007/winter2007.pdf" class="filename listing-filename">winter2007.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="47" data-listing-file-modified-sort="1679523234827" data-listing-filename-sort="winter2008.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/winter2008/winter2008.pdf" class="filename">winter2008.pdf</a>
+<td>
+<a href="../../resources/newsletter/winter2008/winter2008.pdf" class="filename listing-filename">winter2008.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="48" data-listing-file-modified-sort="1679523234827" data-listing-filename-sort="winter2009.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/winter2009/winter2009.pdf" class="filename">winter2009.pdf</a>
+<td>
+<a href="../../resources/newsletter/winter2009/winter2009.pdf" class="filename listing-filename">winter2009.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="49" data-listing-file-modified-sort="1679523234839" data-listing-filename-sort="winter2010.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/winter2010/winter2010.pdf" class="filename">winter2010.pdf</a>
+<td>
+<a href="../../resources/newsletter/winter2010/winter2010.pdf" class="filename listing-filename">winter2010.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="50" data-listing-file-modified-sort="1679523234839" data-listing-filename-sort="winter2011.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/winter2011/winter2011.pdf" class="filename">winter2011.pdf</a>
+<td>
+<a href="../../resources/newsletter/winter2011/winter2011.pdf" class="filename listing-filename">winter2011.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="51" data-listing-file-modified-sort="1679523234839" data-listing-filename-sort="winter2014.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/winter2014/winter2014.pdf" class="filename">winter2014.pdf</a>
+<td>
+<a href="../../resources/newsletter/winter2014/winter2014.pdf" class="filename listing-filename">winter2014.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="52" data-listing-file-modified-sort="1679523234840" data-listing-filename-sort="winter2015.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/winter2015/winter2015.pdf" class="filename">winter2015.pdf</a>
+<td>
+<a href="../../resources/newsletter/winter2015/winter2015.pdf" class="filename listing-filename">winter2015.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 <tr data-index="53" data-listing-file-modified-sort="1679523234862" data-listing-filename-sort="winter2017.pdf">
-<td class="listing-filename">
-<a href="../../resources/newsletter/winter2017/winter2017.pdf" class="filename">winter2017.pdf</a>
+<td>
+<a href="../../resources/newsletter/winter2017/winter2017.pdf" class="filename listing-filename">winter2017.pdf</a>
 </td>
-<td class="listing-file-modified">
-3/22/23, 5:13:54 PM
+<td>
+<span class="listing-file-modified">3/22/23, 5:13:54 PM</span>
 </td>
 </tr>
 </tbody>
@@ -1439,9 +1444,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1506,6 +1525,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1549,6 +1654,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left"><b>© 2023 American Psychology-Law Society</b> <br> made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

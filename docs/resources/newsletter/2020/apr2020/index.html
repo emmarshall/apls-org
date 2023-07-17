@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.280">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -18,7 +18,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -59,7 +59,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -78,94 +79,96 @@ ul.task-list li input[type="checkbox"] {
     <img src="../../../../images/logo-light.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../../../about/index.html">
+    <a class="dropdown-item" href="../../../../about/index.html" rel="" target="">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../about/leadership.html">
+    <a class="dropdown-item" href="../../../../about/leadership.html" rel="" target="">
  <span class="dropdown-text">Leadership</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../about/committees.html">
+    <a class="dropdown-item" href="../../../../about/committees.html" rel="" target="">
  <span class="dropdown-text">Committees</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../about/statements.html">
+    <a class="dropdown-item" href="../../../../about/statements.html" rel="" target="">
  <span class="dropdown-text">Statements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../about/bylaws.html">
+    <a class="dropdown-item" href="../../../../about/bylaws.html" rel="" target="">
  <span class="dropdown-text">AP-LS Bylaws</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../about/contact.html">
+    <a class="dropdown-item" href="../../../../about/contact.html" rel="" target="">
  <span class="dropdown-text">Contact us</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-publications" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-publications" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Publications</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-publications">    
         <li>
-    <a class="dropdown-item" href="../../../../newsletter/index.html">
+    <a class="dropdown-item" href="../../../../newsletter/index.html" rel="" target="">
  <span class="dropdown-text">AP-LS Newsletter</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../publications/index.html">
+    <a class="dropdown-item" href="../../../../publications/index.html" rel="" target="">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://www.apa.org/pubs/journals/lhb/">
+    <a class="dropdown-item" href="https://www.apa.org/pubs/journals/lhb/" rel="" target="">
  <span class="dropdown-text">Law &amp; Human Behavior</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../../awards/index.html">
+    <a class="nav-link" href="../../../../awards/index.html" rel="" target="">
  <span class="menu-text">Awards</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-conferences" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-conferences" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Conferences</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-conferences">    
         <li>
-    <a class="dropdown-item" href="../../../../conferences/index.html">
+    <a class="dropdown-item" href="../../../../conferences/index.html" rel="" target="">
  <span class="dropdown-text">2023 AP-LS Conference</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../conferences/preconference.html">
+    <a class="dropdown-item" href="../../../../conferences/preconference.html" rel="" target="">
  <span class="dropdown-text">Preconference Workshops</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../conferences/schedule.html">
+    <a class="dropdown-item" href="../../../../conferences/schedule.html" rel="" target="">
  <span class="dropdown-text">Program &amp; Schedule</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../../resources/index.html">
+    <a class="nav-link" href="../../../../resources/index.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../membership/membership.html">
+    <a class="nav-link" href="../../../../membership/membership.html" rel="" target="">
  <span class="menu-text">Membership</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -205,174 +208,191 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-
 <div style="margin:0px auto;max-width:600px;">
-<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+
+<table data-quarto-postprocess="true" data-align="center" data-border="0" data-cellpadding="0" data-cellspacing="0" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
 <tbody>
-<tr>
-<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+<tr class="odd">
+<td style="text-align: center; direction: ltr; font-size: 0px; padding: 0px;"><div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="background-color: rgb(247, 247, 247); vertical-align: top; padding: 0px; padding-top: 14px; padding-right: 5px; padding-left: 5px"><table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; font-size: 0px; padding: 0px; word-break: break-word;"><div style="font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
+<h1 id="section" data-align="center" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-weight:bold; font-size:36px; margin-top:0; margin-bottom:14px; padding:0; -wa-inliner:true;"><a href="" style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -wa-inliner:true;" rel="nofollow"><img src="https://apls.memberclicks.net/assets/site/AP-LS_full_logo.png" style="-ms-interpolation-mode:bicubic; height:auto; line-height:100%; outline:none; max-width:100%; text-decoration:none; -wa-inliner:true;" data-border="0" width="595" height="120"></a></h1>
+</div></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+</tbody>
+</table>
+<div style="margin:0px auto;max-width:600px;">
+<table data-quarto-postprocess="true" data-align="center" data-border="0" data-cellpadding="0" data-cellspacing="0" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: center; direction: ltr; font-size: 0px; padding: 0px;"><div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="background-color: rgb(247, 247, 247); vertical-align: top; padding: 0px; padding-top: 14px; padding-right: 20px; padding-left: 20px"><table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; font-size: 0px; padding: 0px; word-break: break-word;"><div style="font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
+<div data-align="center" style="line-height: 20px;">
+Welcome to the April 202
+</div>
+<div data-align="center" style="line-height: 20px;">
+American Psychology-Law Society (AP-LS) Newsletter.
+</div>
+<div data-align="center" style="line-height: 20px;">
+<br>
+
+</div>
+<div data-align="center" style="line-height: 20px;">
+Our monthly Newsletter provides information about activities, upcoming events, and resources to connect the psychology-law community.<br>
+
+</div>
+<div data-align="center" style="line-height: 20px;">
+
+</div>
+<div data-align="center" style="line-height: 20px;">
+AP-LS aspires to excel as a valuable, effective, and influential organization advancing the science of psychology-law and the translation of psychology-law knowledge into practice and policy.
+</div>
+<div data-align="center" style="line-height: 20px;">
+<br>
+
+</div>
+<div data-align="center" style="line-height: 20px;">
+
+</div>
+<div data-align="center" style="line-height: 20px;">
+<table data-quarto-postprocess="true" width="100%" data-cellspacing="0" data-cellpadding="0" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td data-valign="top" style="text-align: left; font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 1px; -wa-inliner: true;"><table data-quarto-postprocess="true" width="100%" data-cellspacing="0" data-cellpadding="0" class="table">
+<tbody>
+<tr class="odd">
+<td height="1" data-valign="top" style="text-align: center; font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 1px; background-color: rgb(219, 220, 221); -wa-inliner: true;"><img src="" style="-ms-interpolation-mode:bicubic; height:auto; line-height:100%; outline:none; max-width:100%; text-decoration:none; -wa-inliner:true;" data-border="0" width="5" height="1"></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div data-align="left">
+<br>
+
+</div>
+</div></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin:0px auto;max-width:600px;">
 <div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" class="table">
 <tbody>
-<tr>
-<td style="background-color:rgb(247, 247, 247);vertical-align:top;padding:0px;padding-top:14px;padding-right:5px;padding-left:5px;">
-<table border="0" cellpadding="0" cellspacing="0" style="" width="100%">
-<tbody>
-<tr>
-<td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
-<div style="font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
-<h1 align="center" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-weight:bold; font-size:36px; margin-top:0; margin-bottom:14px; padding:0; -wa-inliner:true;"><a style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -wa-inliner:true;" href="" rel="nofollow"><img width="595" height="120" title="" style="-ms-interpolation-mode:bicubic; height:auto; line-height:100%; outline:none; max-width:100%; text-decoration:none; -wa-inliner:true;" alt="" src="https://apls.memberclicks.net/assets/site/AP-LS_full_logo.png" border="0"></a></h1>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
+<tr class="odd">
+<td style="width: 560px"><img src="featured.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:16px;" width="560"></td>
 </tr>
 </tbody>
 </table>
 </div>
-</td>
-</tr>
-</tbody>
-</table>
 </div>
 
-<div style="margin:0px auto;max-width:600px;">
-<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
-<tbody>
-<tr>
-<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
-<div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td style="background-color:rgb(247, 247, 247);vertical-align:top;padding:0px;padding-top:14px;padding-right:20px;padding-left:20px;">
-<table border="0" cellpadding="0" cellspacing="0" style="" width="100%">
-<tbody>
-<tr>
-<td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
-<div style="font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
-<div align="center" style="line-height: 20px;">Welcome to the April 202</div>
-<div align="center" style="line-height: 20px;">American Psychology-Law Society (AP-LS) Newsletter.</div>
-<div align="center" style="line-height: 20px;"><br></div>
-<div align="center" style="line-height: 20px;">Our monthly Newsletter provides information about activities, upcoming events, and resources to connect the psychology-law community.<br></div>
-<div align="center" style="line-height: 20px;"></div>
-<div align="center" style="line-height: 20px;">AP-LS aspires to excel as a valuable, effective, and influential organization advancing the science of psychology-law and the translation of psychology-law knowledge into practice and policy. </div>
-<div align="center" style="line-height: 20px;"><br></div>
-<div align="center" style="line-height: 20px;"></div>
-<div align="center" style="line-height: 20px;">
-<table width="100%" style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important; table-layout:fixed; -wa-inliner:true;" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td align="left" valign="top" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; line-height: 1px; -wa-inliner:true;">
-<table width="100%" style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important; table-layout:fixed; -wa-inliner:true;" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td height="1" align="center" valign="top" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; line-height: 1px; background-color: rgb(219, 220, 221); -wa-inliner:true;"><img width="5" height="1" style="-ms-interpolation-mode:bicubic; height:auto; line-height:100%; outline:none; max-width:100%; text-decoration:none; -wa-inliner:true;" src="" border="0"></td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div align="left"><br></div>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
 
-<div style="margin:0px auto;max-width:600px;">
-<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
-<tbody>
-<tr>
-<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
-<div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td style="background-color:transparent;border-bottom:0px none #000000;border-left:0px none #000000;border-right:0px none #000000;border-top:0px none #000000;vertical-align:top;padding:0px;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;">
-<p>APA COUNCIL OF REPRESENTATIVES MEETING</p><p>APA’s Council of Representatives met February 28 – March 1, 2020, with Jason Cantone (year 3) and Margaret Bull Kovera (year 1) representing AP-LS/Division 41. Much of the meeting was focused on organizational change, inclusivity, and enhancing Council’s effectiveness as a policy-making body.</p><p>To read more about this meeting, please click here.</p><p>APA CONVENTION</p><p>We are excited about Division 41’s APA programming lineup, but safety comes first. In this time of uncertainty, we are following recent COVID-19 developments and associated public health concerns closely. As of newsletter “press time” 3/24/2020, the APA Convention is still scheduled for August 6-9 in Washington, DC. You can monitor convention news here, although we will be sure to update Division 41 membership if convention plans should change.</p><p>NEWSLETTER EDITOR POSITION</p><p>AP-LS is seeking applications for the position of Newsletter Editor, who has responsibility for publishing the AP-LS Newsletter on or about the first day of each month. The 3-year term begins in August, 2020. This is a non-voting appointment on the AP-LS Executive Committee. Each month, the Editor solicits news submissions from the AP-LS leadership. The Editor will work closely with the Associate Editor, Leah Georges, who coordinates regular column submissions from content editors (i.e., Research Briefs, Legal Update, Expert Opinion, Teaching in Psych &amp; Law, Advances in Psych &amp; Law). A modest annual budget provides for a paid Student Assistant Editor support position. Interested individuals are encouraged to contact the outgoing Editor Marc Patry to discuss the position.</p><p>To apply, please send a cover letter and Curriculum Vita to Chair of the Publications and Communications Committee, Brad McAuliff: bradley.mcauliff@csun.edu. The application deadline is May 15.</p><p>LEGAL UPDATE: PSYCHOLOGICAL ASSESSMENTS IN LEGAL CONTEXTS: ARE COURTS KEEPING “JUNK SCIENCE” OUT OF THE COURTROOM?</p><p>Psychological tests, tools, and instruments play an increasingly significant role in determining the outcome of legal cases. Yet major investigations have revealed that courts routinely admit evidence with poor or unknown scientific foundations (e.g., National Research Council, 2009; Saks &amp; Koehler, 2005).This project evaluates both the scientific basis of psychological assessment tools and the courts’ evaluation of them.</p><p>This article is abridged by Christopher Slobogin, JD, LLM from the original recently published in Psychological Science in the Public Interest.</p><p>To read this column, please click here.</p><p>2019 DISSERTATION AWARD WINNERS</p><p>Congratulations to our 2019 Dissertation Award Winners!!</p><p>First Place:</p><p>Christine Shahan Brugh from North Carolina State University, advised by Joseph Simons-Rudolph &amp; Sarah L. Desmarais</p><p>Title of Dissertation:</p><p>Heterogeneity across terrorism contexts and actors: Improving the evidence base supporting counterterrorism strategy</p><p>Abstract: Research on terrorism has grown vastly since the September 11th attacks, yet the field still grapples with who is likely to perpetrate terrorist acts and how to prevent terrorist violence (Desmarais, Simons-Rudolph, Brugh, Schilling, &amp; Hoggan, 2017). As the field has developed, consensus among researchers has moved from a “one-size-fits all” approach to an understanding that terrorism involvement must be studied within individual differences, community contexts, and sociopolitical circumstances (LaFree &amp; Freilich, 2017). Thus, this dissertation examined heterogeneity across actors and contexts by summarizing the extant literature on terrorism, studying terrorism-involved women, and comparing U.S. and European lone actor terrorists.</p><p>Second Place:</p><p>Dylan T. Gatner from Simon Fraser University, advised by Kevin Douglas</p><p>Title of Dissertation: How much does that cost? Examining the economic costs of crime in North America attributable to people with psychopathic personality disorder</p><p>Abstract: Few works have quantified the social burden of psychopathic personality disorder (PPD). As such, the economic costs of crime attributable to PPD were examined. First, a top-down societal study considered PPD prevalence, offending rates, and national crime costs to produce estimates for the US, UK, and Canada. PPD resulted in staggeringly high crime costs in the US (simulated $678–$1,276 billion) and Canada (simulated $33–$42 billion). The UK produced modest costs (£4.77 billion). Second, among Canadian federal offenders (n=188), higher PPD traits were predictive of prospective crime costs. Clinical and policy implications for PPD treatment and research were discussed.</p><p>Third Place:</p><p>Alicia Nijdam-Jones from Fordham University, advised by Barry Rosenfeld</p><p>Title of dissertation: Cross-cultural violence risk assessment: Adapting risk assessment for institutional violence among criminal offenders in Mexico</p><p>Abstract: This prospective study investigated the utility of a culturally adapted violence risk assessment measure (HCR-20V3) and its predictive validity among a sample of 114 male offenders in a Mexico City prison. The study findings showed that the culturally adapted HCR-20V3 was able to predict institutional violence with a high degree of accuracy (AUC = .77). Additionally, several culturally relevant risk factors (e.g., machismo attitudes, indirect and direct violence exposure, and familismo) significantly predicted institutional violence. The results suggest that culture may play an important role in understanding and estimating violence risk. Future research and clinical implications are discussed.</p><section id="upcoming-funding-alert-ap-ls-early-career-professional-grant-in-aid-call-for-proposals" class="level3">
+
+
+<p>APA COUNCIL OF REPRESENTATIVES MEETING</p>
+<p>APA’s Council of Representatives met February 28 – March 1, 2020, with Jason Cantone (year 3) and Margaret Bull Kovera (year 1) representing AP-LS/Division 41. Much of the meeting was focused on organizational change, inclusivity, and enhancing Council’s effectiveness as a policy-making body.</p>
+<p>To read more about this meeting, please click here.</p>
+<p>APA CONVENTION</p>
+<p>We are excited about Division 41’s APA programming lineup, but safety comes first. In this time of uncertainty, we are following recent COVID-19 developments and associated public health concerns closely. As of newsletter “press time” 3/24/2020, the APA Convention is still scheduled for August 6-9 in Washington, DC. You can monitor convention news here, although we will be sure to update Division 41 membership if convention plans should change.</p>
+<p>NEWSLETTER EDITOR POSITION</p>
+<p>AP-LS is seeking applications for the position of Newsletter Editor, who has responsibility for publishing the AP-LS Newsletter on or about the first day of each month. The 3-year term begins in August, 2020. This is a non-voting appointment on the AP-LS Executive Committee. Each month, the Editor solicits news submissions from the AP-LS leadership. The Editor will work closely with the Associate Editor, Leah Georges, who coordinates regular column submissions from content editors (i.e., Research Briefs, Legal Update, Expert Opinion, Teaching in Psych &amp; Law, Advances in Psych &amp; Law). A modest annual budget provides for a paid Student Assistant Editor support position. Interested individuals are encouraged to contact the outgoing Editor Marc Patry to discuss the position.</p>
+<p>To apply, please send a cover letter and Curriculum Vita to Chair of the Publications and Communications Committee, Brad McAuliff: bradley.mcauliff@csun.edu. The application deadline is May 15.</p>
+<p>LEGAL UPDATE: PSYCHOLOGICAL ASSESSMENTS IN LEGAL CONTEXTS: ARE COURTS KEEPING “JUNK SCIENCE” OUT OF THE COURTROOM?</p>
+<p>Psychological tests, tools, and instruments play an increasingly significant role in determining the outcome of legal cases. Yet major investigations have revealed that courts routinely admit evidence with poor or unknown scientific foundations (e.g., National Research Council, 2009; Saks &amp; Koehler, 2005).This project evaluates both the scientific basis of psychological assessment tools and the courts’ evaluation of them.</p>
+<p>This article is abridged by Christopher Slobogin, JD, LLM from the original recently published in Psychological Science in the Public Interest.</p>
+<p>To read this column, please click here.</p>
+<p>2019 DISSERTATION AWARD WINNERS</p>
+<p>Congratulations to our 2019 Dissertation Award Winners!!</p>
+<p>First Place:</p>
+<p>Christine Shahan Brugh from North Carolina State University, advised by Joseph Simons-Rudolph &amp; Sarah L. Desmarais</p>
+<p>Title of Dissertation:</p>
+<p>Heterogeneity across terrorism contexts and actors: Improving the evidence base supporting counterterrorism strategy</p>
+<p>Abstract: Research on terrorism has grown vastly since the September 11th attacks, yet the field still grapples with who is likely to perpetrate terrorist acts and how to prevent terrorist violence (Desmarais, Simons-Rudolph, Brugh, Schilling, &amp; Hoggan, 2017). As the field has developed, consensus among researchers has moved from a “one-size-fits all” approach to an understanding that terrorism involvement must be studied within individual differences, community contexts, and sociopolitical circumstances (LaFree &amp; Freilich, 2017). Thus, this dissertation examined heterogeneity across actors and contexts by summarizing the extant literature on terrorism, studying terrorism-involved women, and comparing U.S. and European lone actor terrorists.</p>
+<p>Second Place:</p>
+<p>Dylan T. Gatner from Simon Fraser University, advised by Kevin Douglas</p>
+<p>Title of Dissertation: How much does that cost? Examining the economic costs of crime in North America attributable to people with psychopathic personality disorder</p>
+<p>Abstract: Few works have quantified the social burden of psychopathic personality disorder (PPD). As such, the economic costs of crime attributable to PPD were examined. First, a top-down societal study considered PPD prevalence, offending rates, and national crime costs to produce estimates for the US, UK, and Canada. PPD resulted in staggeringly high crime costs in the US (simulated $678–$1,276 billion) and Canada (simulated $33–$42 billion). The UK produced modest costs (£4.77 billion). Second, among Canadian federal offenders (n=188), higher PPD traits were predictive of prospective crime costs. Clinical and policy implications for PPD treatment and research were discussed.</p>
+<p>Third Place:</p>
+<p>Alicia Nijdam-Jones from Fordham University, advised by Barry Rosenfeld</p>
+<p>Title of dissertation: Cross-cultural violence risk assessment: Adapting risk assessment for institutional violence among criminal offenders in Mexico</p>
+<p>Abstract: This prospective study investigated the utility of a culturally adapted violence risk assessment measure (HCR-20V3) and its predictive validity among a sample of 114 male offenders in a Mexico City prison. The study findings showed that the culturally adapted HCR-20V3 was able to predict institutional violence with a high degree of accuracy (AUC = .77). Additionally, several culturally relevant risk factors (e.g., machismo attitudes, indirect and direct violence exposure, and familismo) significantly predicted institutional violence. The results suggest that culture may play an important role in understanding and estimating violence risk. Future research and clinical implications are discussed.</p>
+<section id="upcoming-funding-alert-ap-ls-early-career-professional-grant-in-aid-call-for-proposals" class="level3">
 <h3 class="anchored" data-anchor-id="upcoming-funding-alert-ap-ls-early-career-professional-grant-in-aid-call-for-proposals">UPCOMING FUNDING ALERT: AP-LS EARLY CAREER PROFESSIONAL GRANT-IN-AID CALL FOR PROPOSALS</h3>
 <p>The American Psychology-Law Society Committee on Early Career Professionals funds annually several grants of up to $5,000. The purpose of the award is to support AP-LS members who are within 7 years of receiving their last degree to conduct research related to psychology and law.</p>
 <p>Details about the purpose of the award, eligibility, and application instructions are available on the AP-LS website, or you can click here.</p>
 <p>The deadline is October 15, 2020. Applications should be submitted to aplsecpgrant@gmail.com.</p>
 <p>Please contact the ECP Committee Chair, Jennifer Perillo, Ph.D., at aplsecpgrant@gmail.com with any questions.</p>
-</section><section id="ap-ls-award-for-best-undergraduate-paper" class="level3">
+</section>
+<section id="ap-ls-award-for-best-undergraduate-paper" class="level3">
 <h3 class="anchored" data-anchor-id="ap-ls-award-for-best-undergraduate-paper">AP-LS AWARD FOR BEST UNDERGRADUATE PAPER</h3>
 <p>Recognizes an outstanding undergraduate research paper focused on the interdisciplinary study of psychology and law.</p>
 <p>Deadline: June 30, 2020.</p>
 <p>To be eligible for an award, the student must be the major contributor to a project on a topic relevant to psychology and law (i.e., the student had primary responsibility for initiating and conducting the project even though the project will usually be conducted under the supervision of a mentor). Data collection should be complete. Winners will be encouraged to submit their work for presentation at the AP-LS Conference (as first authors). Students may submit their work during their first post-undergraduate year as long as the work was conducted during their undergraduate career.</p>
 <p>For more information, please click here.</p>
-</section><section id="on-the-job-or-postdoc-market-ap-ls-job-postings" class="level3">
+</section>
+<section id="on-the-job-or-postdoc-market-ap-ls-job-postings" class="level3">
 <h3 class="anchored" data-anchor-id="on-the-job-or-postdoc-market-ap-ls-job-postings">ON THE JOB OR POSTDOC MARKET? AP-LS JOB POSTINGS</h3>
 <p>Check out AP-LS’s Job Postings Page for up-to-date information on available psychology-law positions here.</p>
 <p>Note that new positions are available.</p>
-</section><section id="newsletter-archives" class="level3">
+</section>
+<section id="newsletter-archives" class="level3">
 <h3 class="anchored" data-anchor-id="newsletter-archives">NEWSLETTER ARCHIVES</h3>
 <p>Archives of the newsletter are available at http://ap-ls.wildapricot.org/Newsletter.</p>
-</section><section id="ap-ls-contacts" class="level3">
+</section>
+<section id="ap-ls-contacts" class="level3">
 <h3 class="anchored" data-anchor-id="ap-ls-contacts">AP-LS CONTACTS</h3>
 <p>Email addresses for all current EC members and Committee Chairs can be found here.</p>
-</section><table border="0" cellpadding="0" cellspacing="0" style="" width="100%">
-<tbody>
-<tr>
-<td align="center" style="background:transparent;font-size:0px;padding:0px;word-break:break-word;">
-<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border-spacing:0px;">
-<tbody>
-<tr>
-<td style="width:560px;"><img height="auto" src="featured.jpeg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:16px;" width="560"></td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-<tr>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</tr></tbody></table><table class="table">
+<table class="table">
 <caption>Membership Services AP-LS seeks to advance the science of psychology - law and the translation of psychology-law knowledge into practice and policy. Our mission is to enhance well-being, justice, and human rights through science and practice of psychology in legal contexts. Copyright © American Psychology-Law Society Division 41 of the American Psychological Association All rights reserved.</caption>
 <tbody>
 <tr class="odd">
@@ -426,9 +446,9 @@ ul.task-list li input[type="checkbox"] {
 </table>
 
 
+</section>
 
-
- <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -456,9 +476,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -523,6 +557,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -562,10 +682,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
- <!-- /content -->
+</div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left"><b>© 2023 American Psychology-Law Society</b> <br> made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
@@ -599,4 +722,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</td></tr></tbody></table></div></td></tr></tbody></table></div></main></div></body></html>
+</body></html>

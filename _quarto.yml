@@ -5,6 +5,9 @@ project:
     - "*.css"
     - "*.pdf"
 
+execute:
+    freeze: auto
+    
 website:
   title: "The American Psychology-Law Society"
   favicon: "assets/favicon_io/favicon.ico"
@@ -126,6 +129,5 @@ format:
       body-width: 900px
       margin-width: 300px
 
-freeze: true
 
 

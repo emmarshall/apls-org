@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.280">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -18,7 +18,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -59,7 +59,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -78,94 +79,96 @@ ul.task-list li input[type="checkbox"] {
     <img src="../../../../images/logo-light.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../../../about/index.html">
+    <a class="dropdown-item" href="../../../../about/index.html" rel="" target="">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../about/leadership.html">
+    <a class="dropdown-item" href="../../../../about/leadership.html" rel="" target="">
  <span class="dropdown-text">Leadership</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../about/committees.html">
+    <a class="dropdown-item" href="../../../../about/committees.html" rel="" target="">
  <span class="dropdown-text">Committees</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../about/statements.html">
+    <a class="dropdown-item" href="../../../../about/statements.html" rel="" target="">
  <span class="dropdown-text">Statements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../about/bylaws.html">
+    <a class="dropdown-item" href="../../../../about/bylaws.html" rel="" target="">
  <span class="dropdown-text">AP-LS Bylaws</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../about/contact.html">
+    <a class="dropdown-item" href="../../../../about/contact.html" rel="" target="">
  <span class="dropdown-text">Contact us</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-publications" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-publications" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Publications</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-publications">    
         <li>
-    <a class="dropdown-item" href="../../../../newsletter/index.html">
+    <a class="dropdown-item" href="../../../../newsletter/index.html" rel="" target="">
  <span class="dropdown-text">AP-LS Newsletter</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../publications/index.html">
+    <a class="dropdown-item" href="../../../../publications/index.html" rel="" target="">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://www.apa.org/pubs/journals/lhb/">
+    <a class="dropdown-item" href="https://www.apa.org/pubs/journals/lhb/" rel="" target="">
  <span class="dropdown-text">Law &amp; Human Behavior</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../../awards/index.html">
+    <a class="nav-link" href="../../../../awards/index.html" rel="" target="">
  <span class="menu-text">Awards</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-conferences" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-conferences" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Conferences</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-conferences">    
         <li>
-    <a class="dropdown-item" href="../../../../conferences/index.html">
+    <a class="dropdown-item" href="../../../../conferences/index.html" rel="" target="">
  <span class="dropdown-text">2023 AP-LS Conference</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../conferences/preconference.html">
+    <a class="dropdown-item" href="../../../../conferences/preconference.html" rel="" target="">
  <span class="dropdown-text">Preconference Workshops</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../conferences/schedule.html">
+    <a class="dropdown-item" href="../../../../conferences/schedule.html" rel="" target="">
  <span class="dropdown-text">Program &amp; Schedule</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../../resources/index.html">
+    <a class="nav-link" href="../../../../resources/index.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../membership/membership.html">
+    <a class="nav-link" href="../../../../membership/membership.html" rel="" target="">
  <span class="menu-text">Membership</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -206,223 +209,256 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-
 <div style="margin:0px auto;max-width:600px;">
-<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
-<tbody>
-<tr>
-<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
-<div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td style="background-color:rgb(247, 247, 247);vertical-align:top;padding:0px;padding-top:14px;padding-right:5px;padding-left:5px;">
-<table border="0" cellpadding="0" cellspacing="0" style="" width="100%">
-<tbody>
-<tr>
-<td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
-<div style="font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
-<h1 align="center" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-weight:bold; font-size:36px; margin-top:0; margin-bottom:14px; padding:0; -wa-inliner:true;"><a style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -wa-inliner:true;" href="" rel="nofollow"><img width="595" height="120" title="" style="-ms-interpolation-mode:bicubic; height:auto; line-height:100%; outline:none; max-width:100%; text-decoration:none; -wa-inliner:true;" alt="" src="https://ap-ls.wildapricot.org/resources/Pictures/APLS_general_logo.png" border="0"></a></h1>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
 
+<table data-quarto-postprocess="true" data-align="center" data-border="0" data-cellpadding="0" data-cellspacing="0" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: center; direction: ltr; font-size: 0px; padding: 0px;"><div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="background-color: rgb(247, 247, 247); vertical-align: top; padding: 0px; padding-top: 14px; padding-right: 5px; padding-left: 5px"><table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; font-size: 0px; padding: 0px; word-break: break-word;"><div style="font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
+<h1 id="section" data-align="center" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-weight:bold; font-size:36px; margin-top:0; margin-bottom:14px; padding:0; -wa-inliner:true;"><a href="" style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -wa-inliner:true;" rel="nofollow"><img src="https://ap-ls.wildapricot.org/resources/Pictures/APLS_general_logo.png" style="-ms-interpolation-mode:bicubic; height:auto; line-height:100%; outline:none; max-width:100%; text-decoration:none; -wa-inliner:true;" data-border="0" width="595" height="120"></a></h1>
+</div></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+</tbody>
+</table>
 <div style="margin:0px auto;max-width:600px;">
-<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+<table data-quarto-postprocess="true" data-align="center" data-border="0" data-cellpadding="0" data-cellspacing="0" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
 <tbody>
-<tr>
-<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
-<div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr class="odd">
+<td style="text-align: center; direction: ltr; font-size: 0px; padding: 0px;"><div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
 <tbody>
-<tr>
-<td style="background-color:rgb(247, 247, 247);vertical-align:top;padding:0px;padding-top:14px;padding-right:20px;padding-left:20px;">
-<table border="0" cellpadding="0" cellspacing="0" style="" width="100%">
+<tr class="odd">
+<td style="background-color: rgb(247, 247, 247); vertical-align: top; padding: 0px; padding-top: 14px; padding-right: 20px; padding-left: 20px"><table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
 <tbody>
-<tr>
-<td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
-<div style="font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
-<div align="center" style="line-height: 20px;">Welcome to the May 2021</div>
-<div align="center" style="line-height: 20px;">American Psychology-Law Society (AP-LS) Newsletter.</div>
-<div align="center" style="line-height: 20px;"><br></div>
-<div align="center" style="line-height: 20px;">Our monthly Newsletter provides information about activities, upcoming events, and resources to connect the psychology-law community.<br></div>
-<div align="center" style="line-height: 20px;"></div>
-<div align="center" style="line-height: 20px;">AP-LS aspires to excel as a valuable, effective, and influential organization advancing the science of psychology-law and the translation of psychology-law knowledge into practice and policy. </div>
-<div align="center" style="line-height: 20px;"><br></div>
-<div align="center" style="line-height: 20px;"></div>
-<div align="center" style="line-height: 20px;">
-<table width="100%" style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important; table-layout:fixed; -wa-inliner:true;" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td align="left" valign="top" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; line-height: 1px; -wa-inliner:true;">
-<table width="100%" style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important; table-layout:fixed; -wa-inliner:true;" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td height="1" align="center" valign="top" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; line-height: 1px; background-color: rgb(219, 220, 221); -wa-inliner:true;"><img width="5" height="1" style="-ms-interpolation-mode:bicubic; height:auto; line-height:100%; outline:none; max-width:100%; text-decoration:none; -wa-inliner:true;" src="" border="0"></td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
+<tr class="odd">
+<td style="text-align: left; font-size: 0px; padding: 0px; word-break: break-word;"><div style="font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
+<div data-align="center" style="line-height: 20px;">
+Welcome to the May 2021
 </div>
-<div align="left"><br></div>
+<div data-align="center" style="line-height: 20px;">
+American Psychology-Law Society (AP-LS) Newsletter.
 </div>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
+<div data-align="center" style="line-height: 20px;">
+<br>
 
-<div style="margin:0px auto;max-width:600px;">
-<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+</div>
+<div data-align="center" style="line-height: 20px;">
+Our monthly Newsletter provides information about activities, upcoming events, and resources to connect the psychology-law community.<br>
+
+</div>
+<div data-align="center" style="line-height: 20px;">
+
+</div>
+<div data-align="center" style="line-height: 20px;">
+AP-LS aspires to excel as a valuable, effective, and influential organization advancing the science of psychology-law and the translation of psychology-law knowledge into practice and policy.
+</div>
+<div data-align="center" style="line-height: 20px;">
+<br>
+
+</div>
+<div data-align="center" style="line-height: 20px;">
+
+</div>
+<div data-align="center" style="line-height: 20px;">
+<table data-quarto-postprocess="true" width="100%" data-cellspacing="0" data-cellpadding="0" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
 <tbody>
-<tr>
-<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
-<div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr class="odd">
+<td data-valign="top" style="text-align: left; font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 1px; -wa-inliner: true;"><table data-quarto-postprocess="true" width="100%" data-cellspacing="0" data-cellpadding="0" class="table">
 <tbody>
-<tr>
-<td style="background-color:transparent;border-bottom:0px none #000000;border-left:0px none #000000;border-right:0px none #000000;border-top:0px none #000000;vertical-align:top;padding:0px;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;">
-<table border="0" cellpadding="0" cellspacing="0" style="" width="100%">
-<tbody>
-<tr>
-<td align="center" style="background:transparent;font-size:0px;padding:0px;word-break:break-word;">
-<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border-spacing:0px;">
-<tbody>
-<tr>
-<td style="width:560px;"><img height="auto" src="https://ap-ls.wildapricot.org/resources/Pictures/shutterstock_1060957841.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:16px;" width="560"></td>
+<tr class="odd">
+<td height="1" data-valign="top" style="text-align: center; font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 1px; background-color: rgb(219, 220, 221); -wa-inliner: true;"><img src="" style="-ms-interpolation-mode:bicubic; height:auto; line-height:100%; outline:none; max-width:100%; text-decoration:none; -wa-inliner:true;" data-border="0" width="5" height="1"></td>
+</tr>
+</tbody>
+</table></td>
 </tr>
 </tbody>
 </table>
-</td>
+</div>
+<div data-align="left">
+<br>
+
+</div>
+</div></td>
 </tr>
-<tr>
-<td align="left" style="background:transparent;font-size:0px;padding:0px;word-break:break-word;">
-<div style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
-<p align="center"><strong style="text-align: left;"><strong>CLINICAL AND FORENSIC PRACTICE</strong></strong></p>
-<p align="center"><strong style="font-size: 24px; text-align: left;">Race in Forensic Evaluations: The AP-LS Practice Committee Offers Practical Considerations</strong></p>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin:0px auto;max-width:600px;">
+<table data-quarto-postprocess="true" data-align="center" data-border="0" data-cellpadding="0" data-cellspacing="0" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: center; direction: ltr; font-size: 0px; padding: 0px;"><div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="background-color: transparent; border-bottom: 0px none #000000; border-left: 0px none #000000; border-right: 0px none #000000; border-top: 0px none #000000; vertical-align: top; padding: 0px; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px"><table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: center; background: transparent; font-size: 0px; padding: 0px; word-break: break-word;"><table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" class="table">
+<tbody>
+<tr class="odd">
+<td style="width: 560px"><img src="https://ap-ls.wildapricot.org/resources/Pictures/shutterstock_1060957841.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:16px;" width="560"></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+<tr class="even">
+<td style="text-align: left; background: transparent; font-size: 0px; padding: 0px; word-break: break-word;"><div style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
+<p><strong><strong>CLINICAL AND FORENSIC PRACTICE</strong></strong></p>
+<p><strong>Race in Forensic Evaluations: The AP-LS Practice Committee Offers Practical Considerations</strong></p>
 <p>Riggs-Romaine and Kavanaugh (2019) introduced the important work of considering when and how to incorporate the racial identity and experiences of evaluees in forensic assessments. Since then, many of us continue to struggle with how best to acknowledge the importance of race in our evaluees’ lives. In the spirit of anti-racist work, we offer some suggestions and ideas to think about when considering race (and other identities) in our evaluations.</p>
 <p>To read this column, please click <a href="" rel="nofollow">here</a>.</p>
-<p><br></p>
-<p align="center"><strong>CALL FOR PAPERS</strong></p>
-<p align="center"><strong style="text-align: left;">Psychological Services to Extend Public Health and Disease Management Approaches in Criminal Justice Settings</strong></p>
+<p><br>
+</p>
+<p><strong>CALL FOR PAPERS</strong></p>
+<p><strong>Psychological Services to Extend Public Health and Disease Management Approaches in Criminal Justice Settings</strong></p>
 <p>The editorial staff of Division 18’s APA journal Psychological Services would like to invite you to submit articles for a special section on Psychological Services to Extend Public Health and Disease Management Approaches in Criminal Justice Settings. The section will be co-edited by Associate Editors, Philip R Magaletta, Ph.D. and Femina P. Varghese, Ph.D.</p>
 <p>Criminal justice populations, including those in courts, detention, jails, prison, parole, and probation are often over-represented among those with various diseases. Most recently the COVID-19 virus has given a national spotlight to disease spread among the justice-involved population, particularly those in prison. Along with COVID-19, criminal justice populations have to cope with and receive screening, assessment and treatments for other chronic and acute diseases including cancer, dementia, hepatitis C virus (HCV), human immunodeficiency virus (HIV), mental illness, substance use disorders (SUDS), and active tuberculosis (TB).</p>
 <p>To read more about this call for papers, please click <a href="" rel="nofollow">here</a>.</p>
 <p><strong>The deadline for submissions is July 11th, 2021.</strong></p>
-<p align="center"><br></p>
-<p align="center"><strong>SAVE THE DATE!</strong></p>
-<p align="center">AP-LS Presidential Plenary/Webinar</p>
-<p align="center"><em>Recommended Police Reform to Racial Injustice: From Ferguson to Floyd and Beyond</em></p>
-<p align="center">May 14, 2021: 12 – 1:15pm EST</p>
-<p align="center"><strong>Registration Now Open!</strong></p>
-<p align="center">Advanced registration is required. To register for this event, please click <a href="" rel="nofollow">here</a>.</p>
+<p><br>
+</p>
+<p><strong>SAVE THE DATE!</strong></p>
+<p>AP-LS Presidential Plenary/Webinar</p>
+<p><em>Recommended Police Reform to Racial Injustice: From Ferguson to Floyd and Beyond</em></p>
+<p>May 14, 2021: 12 – 1:15pm EST</p>
+<p><strong>Registration Now Open!</strong></p>
+<p>Advanced registration is required. To register for this event, please click <a href="" rel="nofollow">here</a>.</p>
 <p>Panel Speakers: Laurie Robinson; Charles Ramsey; DeRay Mckesson</p>
 <p>Panel Moderator: Cynthia Lum</p>
 <p>For panelist bios, please see: <a href="" rel="nofollow">https://ap-ls.org/presplenary2021</a></p>
 <p>In keeping with Allison Redlich’s presidential initiative on addressing race and social justice, this webinar brings together four renowned experts on police reform to discuss incidents of racial injustice and recommendations to prevent future occurrences and improve community-police relations. Panel experts <a href="" rel="nofollow">Robinson</a> and <a href="" rel="nofollow">Ramsey</a> served as the Co-Chairs of the President’s Obama’s Task Force on 21<sup>st</sup> Century Policing, which resulted in an important set of recommendations. Robinson is a former Assistant Attorney General and head of the Office of Justice Programs. Ramsey is the former Police Commissioner of Philadelphia and Police Chief of Washington, DC. Panel experts <a href="" rel="nofollow">Lum</a> and <a href="" rel="nofollow">Mckesson</a> are members of the Council on Criminal Justice’s Task Force on Policing, which is currently evaluating more than two dozen proposed police reforms, such as those on preventing excessive force, reducing racial biases, increasing accountability, and improving relations between law enforcement and communities. Lum directs the Center for Evidence-Based Crime Policy and is a member of the National Academy of Sciences’ Committee on Law &amp; Justice. McKesson is the co-founder of Campaign Zero, a community-based movement to end police violence and the author of <em>On the Other Side of Freedom: The Case for Hope</em>.</p>
-<p><br></p>
-<p align="center"><strong>LHB ON SOCIAL MEDIA</strong></p>
+<p><br>
+</p>
+<p><strong>LHB ON SOCIAL MEDIA</strong></p>
 <p><em>Law and Human Behavior</em> has partnered with the AP-LS Social Media and Student Committees to share and discuss recent publications in the journal. Find us on Twitter (@lhb_apls), Instagram (@lawandhumanbehavior), and Facebook (<a href="" rel="nofollow">https://www.facebook.com/lawandhumanbehavior</a>).</p>
 <p>We'll highlight new <em>LHB</em> articles every Tuesday and regularly post content including author spotlights, practice insights, open access articles, open science developments, APA style updates, tips and tricks for publishing, and a peek 'behind the scenes' at <em>LHB.</em></p>
-<p><em><br></em></p>
-<p align="center"><strong>NOMINATIONS SOUGHT FOR BOOK SERIES EDITOR</strong></p>
-<p style="line-height: 19px;">The American Psychology-Law Society is seeking nominations for the position of AP-LS Book Series Editor. The goal of the Book Series is to disseminate results of research and scholarly writing in the area of psychology and law.</p>
-<p style="line-height: 19px;">The Book Series Editor is a non-voting, ex-officio member of the AP-LS Executive Committee and serves within the Publications Committee. As further detailed in our bylaws, “the Editor shall be appointed for a five-year term and shall serve as a non-voting, ex-officio member of the Executive Committee. By mutual consent of the Book Series Editor and the Executive Committee, the appointment may be extended for an additional five-year term, for a maximum of ten years.”</p>
-<p style="line-height: 19px;">Our outgoing Book Series Editor, Brian Cutler, accomplished many goals during his term that will assist the new Book Series Editor including:</p>
+<p><em><br>
+</em></p>
+<p><strong>NOMINATIONS SOUGHT FOR BOOK SERIES EDITOR</strong></p>
+<p>The American Psychology-Law Society is seeking nominations for the position of AP-LS Book Series Editor. The goal of the Book Series is to disseminate results of research and scholarly writing in the area of psychology and law.</p>
+<p>The Book Series Editor is a non-voting, ex-officio member of the AP-LS Executive Committee and serves within the Publications Committee. As further detailed in our bylaws, “the Editor shall be appointed for a five-year term and shall serve as a non-voting, ex-officio member of the Executive Committee. By mutual consent of the Book Series Editor and the Executive Committee, the appointment may be extended for an additional five-year term, for a maximum of ten years.”</p>
+<p>Our outgoing Book Series Editor, Brian Cutler, accomplished many goals during his term that will assist the new Book Series Editor including:</p>
 <ul>
-<li>
-<p style="line-height: 17px;">Signing a new publication contract with APA Publishing</p>
-</li>
-<li>
-<p style="line-height: 17px;">Appointing three Associate Editors: Monique S. Bowen, Ph.D., Antioch University of New England; Heather, D. Flowe, Ph.D., University of Birmingham, Birmingham, England; and Jemour A. Maddux, Psy.D., ABPP, Psychologist in Private Practice, Lamb &amp; Maddux, LLC</p>
-</li>
-<li>
-<p style="line-height: 17px;">Drafting a mission statement for the Book Series</p>
-</li>
-<li>
-<p style="line-height: 17px;">Obtaining a $6500 budget for the Book Series Editor</p>
-</li>
+<li><p>Signing a new publication contract with APA Publishing</p></li>
+<li><p>Appointing three Associate Editors: Monique S. Bowen, Ph.D., Antioch University of New England; Heather, D. Flowe, Ph.D., University of Birmingham, Birmingham, England; and Jemour A. Maddux, Psy.D., ABPP, Psychologist in Private Practice, Lamb &amp; Maddux, LLC</p></li>
+<li><p>Drafting a mission statement for the Book Series</p></li>
+<li><p>Obtaining a $6500 budget for the Book Series Editor</p></li>
 </ul>
-<p style="line-height: 19px;">The official term for the new Book Series Editor will begin in August, 2021. We have the goal of naming the appointment in late June or early July in order to give sufficient transition time with the new and current Editor. You must be a current AP-LS member to be appointed to this position.</p>
-<p style="line-height: 19px;">If you are interested in being considered for this position, please send the following materials to Jennifer Groscup (<a href="mailto:jgroscup@scrippscollege.edu" rel="nofollow">jgroscup@scrippscollege.edu</a>), Chair of the AP-LS Nominations and Awards Committee, by <strong>Tuesday June 15, 2021</strong>:</p>
+<p>The official term for the new Book Series Editor will begin in August, 2021. We have the goal of naming the appointment in late June or early July in order to give sufficient transition time with the new and current Editor. You must be a current AP-LS member to be appointed to this position.</p>
+<p>If you are interested in being considered for this position, please send the following materials to Jennifer Groscup (<a href="mailto:jgroscup@scrippscollege.edu" rel="nofollow">jgroscup@scrippscollege.edu</a>), Chair of the AP-LS Nominations and Awards Committee, by <strong>Tuesday June 15, 2021</strong>:</p>
 <ul>
-<li>
-<p style="line-height: 17px;">CV</p>
-</li>
-<li>
-<p style="line-height: 17px;">Statement of Interest</p>
-</li>
+<li><p>CV</p></li>
+<li><p>Statement of Interest</p></li>
 </ul>
-<p><br></p>
-<p align="center"><strong>APA AWARDS</strong></p>
+<p><br>
+</p>
+<p><strong>APA AWARDS</strong></p>
 <p>The APA Committee on Sexual Orientation and Gender Diversity (CSOGD) seeks nominees for one or two Outstanding Achievement Awards to recognize psychologists for significant contributions to their mission. <strong>The deadline isMay 31, 2021</strong>. More information is available here:<a href="" rel="nofollow">https://www.apa.org/about/awards/lgbt-achievement</a>.</p>
-<p>The APA Board of Educational Affairs will award up to $5,000 in funds to support the development or implementation of innovative approaches in preparing and training psychology graduate students, interns and postdoctoral fellows in acquiring and developing career and professional skills that allow them to transition successfully into the workforce. <strong>Applications are due</strong><strong>July 12, 2021.</strong>More information is available here:<br>
+<p>The APA Board of Educational Affairs will award up to $5,000 in funds to support the development or implementation of innovative approaches in preparing and training psychology graduate students, interns and postdoctoral fellows in acquiring and developing career and professional skills that allow them to transition successfully into the workforce. <strong>Applications are dueJuly 12, 2021.</strong>More information is available here:<br>
 <a href="" rel="nofollow">https://www.apa.org/about/awards/innovation-career-development?tab=1</a>.</p>
 <p>APA provides a year of free APA membership for 2021 psychology doctorate graduates. New members can join at:<a href="" rel="nofollow">https://pages.apa.org/newdoctorates/</a>.</p>
-<p><br></p>
-<p align="center"><strong>BRIDGE SPONSORED TALK</strong></p>
+<p><br>
+</p>
+<p><strong>BRIDGE SPONSORED TALK</strong></p>
 <p>The BRIDGE (Broadening Representation, Inclusiveness, Diversity, &amp; Global Equity) Committee is sponsoring a talk on June 28 at 5:00 CST.</p>
-<p><br></p>
-<p style="line-height: 14px;" align="center">Jasmine B. Gonzales Rose [she/her]</p>
-<p style="line-height: 14px;" align="center">Professor of Law, Boston University School of Law</p>
-<p style="line-height: 14px;" align="center">Associate Director of Policy,<strong></strong>Boston University Center for Antiracist Research</p>
-<p style="line-height: 14px;" align="center">765 Commonwealth Ave</p>
-<p style="line-height: 14px;" align="center">Boston, MA 02215</p>
-<p style="line-height: 14px;"><br></p>
-<p style="line-height: 14px;" align="center"><img src="https://ap-ls.wildapricot.org/resources/Pictures/299a1c226aae43c6b4e1e66d25c01b32.png" alt=""><br></p>
-<p style="line-height: 14px;"><br></p>
+<p><br>
+</p>
+<p>Jasmine B. Gonzales Rose [she/her]</p>
+<p>Professor of Law, Boston University School of Law</p>
+<p>Associate Director of Policy,<strong></strong>Boston University Center for Antiracist Research</p>
+<p>765 Commonwealth Ave</p>
+<p>Boston, MA 02215</p>
+<p><br>
+</p>
+<p><img src="https://ap-ls.wildapricot.org/resources/Pictures/299a1c226aae43c6b4e1e66d25c01b32.png" class="img-fluid"><br>
+</p>
+<p><br>
+</p>
 <p>Every week brings a new story about racialized linguistic discrimination. It happens in restaurants, on public transportation, and in the street. It also happens behind closed courtroom doors during jury selection. While it is universally recognized that dismissing prospective jurors because they look like racial minorities is prohibited, it is too often deemed acceptable to exclude jurors because they sound like racial minorities. The fact that accent discrimination is commonly racial, ethnic, and national origin discrimination is overlooked. This lecture will critically examine sociolinguistic scholarship to explain the relationship between accent, race, and racism. We will look to jury selection as a case study for this problem, but will also reflect on language discrimination in employment, education, and public accommodations and how such discrimination violates constitutional and civil rights law. We will situate linguistic discrimination within the broader problems of juror language disenfranchisement and broader racial subordination in the U.S.</p>
 <p>The link for this talk will be available soon.</p>
-<p><br></p>
-<p align="center"><strong>SAVE THE DATE</strong></p>
-<p align="center"><em>Promoting Diversity, Equity, and Inclusion in the Profession of Correctional Psychology</em></p>
-<p align="center">A Workshop for Students, Faculty, Clinicians, and Administrators</p>
-<p align="center"><em>Sponsored by the AP-LS Corrections Committee and BRIDGE</em></p>
+<p><br>
+</p>
+<p><strong>SAVE THE DATE</strong></p>
+<p><em>Promoting Diversity, Equity, and Inclusion in the Profession of Correctional Psychology</em></p>
+<p>A Workshop for Students, Faculty, Clinicians, and Administrators</p>
+<p><em>Sponsored by the AP-LS Corrections Committee and BRIDGE</em></p>
 <p>Presenters: Dr. Nneka Jones Tapia, Dr. Steven Kniffley, Dr. Valene Whittaker</p>
 <p>Friday, July 30, 2021 12:00pm-1:30pm (ET)</p>
 <p><span style="background-color: white;">Like many subfields in psychology, there is a great need to promote diversity, equity, and inclusion in the correctional psychology workforce. Some barriers</span> faced by people seeking to enter the field <span style="background-color: white;">are shared with other subfields of psychology whereas others are unique to corrections. The purpose of this interactive workshop is to highlight some of the potential causes of the lack of diversity,</span> particularly racial and ethnic diversity,<span style="background-color: white;">in the field and to offer some potential solutions to this problem. Panelists will provide suggestions on how to improve</span> recruitment and retention of <span style="background-color: white;">diverse people in academic, research, and clinical settings. In addition, strategies that individuals can use to address discrimination in their academic or work settings will be discussed.</span></p>
 <p>Registration is required, please <a href="" rel="nofollow">register here</a>!</p>
 <p><strong>The deadline to register is July 26</strong>. The day before the presentation, you will receive an email with the link to join the webinar.</p>
-<p>We look forward to you joining us! For questions or to request accommodation of closed captioning on Zoom please email Dr. Jennifer Eno Louden <a href="mailto:jlenolouden@utep.edu" rel="nofollow">jlenolouden@utep.edu</a> </p>
-<p><br></p>
-<p align="center"><strong>RESEARCH BRIEFS</strong></p>
+<p>We look forward to you joining us! For questions or to request accommodation of closed captioning on Zoom please email Dr. Jennifer Eno Louden <a href="mailto:jlenolouden@utep.edu" rel="nofollow">jlenolouden@utep.edu</a></p>
+<p><br>
+</p>
+<p><strong>RESEARCH BRIEFS</strong></p>
 <p>Take a look at the latest research briefs for short summaries of the latest articles relevant to psychology-law.</p>
 <p>To read the research briefs, please click <a href="" rel="nofollow">here</a>.</p>
 <br>
-<p align="center"><strong>AP-LS ANNUAL VOLUNTEER DRIVE - DEADLINE EXTENDED TO MAY 15th!</strong></p>
+
+<p><strong>AP-LS ANNUAL VOLUNTEER DRIVE - DEADLINE EXTENDED TO MAY 15th!</strong></p>
 <p>The Executive Committee of AP-LS invites self-nominations for service opportunities in committee membership, conference planning, and leadership. We welcome participation among all members and wish to represent in our governance the full diversity of our membership. <strong>WE HAVE EXTENDED THE DEADLINE TO APPLY TO MAY 15, 2021.</strong></p>
 <p>Committee terms are normally three years and all terms begin in August at the time of the APA Convention. Full committee terms of reference can be viewed<a href="" rel="nofollow">here</a>.</p>
 <p>You will be asked to fill out a form, upload your CV, and provide a short statement explaining why you are interested in serving on an AP-LS committee. From that information, the Governance Committee will work with the current Committee Chairs and the President to make committee appointments. Those appointments will occur by July so that members will have several weeks to prepare before their official terms begin in August. Orientations (online and through email) will occur during this time.</p>
 <p>Please go to the following site and click on the "Volunteer Drive" tab and follow the steps to log in and complete your application:<a href="" rel="nofollow">https://conferences.ap-ls.org/</a></p>
-<p><br></p>
-<p align="center"><strong>AP-LS LEGAL SCHOLARSHIP COMMITTEE WORKS IN PROGRESS GATHERING</strong></p>
+<p><br>
+</p>
+<p><strong>AP-LS LEGAL SCHOLARSHIP COMMITTEE WORKS IN PROGRESS GATHERING</strong></p>
 <p>The Legal Scholarship committee is organizing a works in progress event at which faculty can present and get feedback on works in progress at 11 am EST on May 20. The sessions can involve rough drafts but they can also include early stage ideas and brief descriptions of planned research and writing. We hope that scholars will present works-in-progress or ideas-in-progress on a diverse range of topics, including work focused on legal questions that also implicate psychology. We will have a commentator for each paper, as well. To RSVP please email Brandon Garrett at Duke Law at<a href="mailto:bgarrett@law.duke.edu" rel="nofollow">bgarrett@law.duke.edu</a>as well as Wilson Center for Science and Justice administrator Marlyn Dail, at<a href="mailto:marlyn.dail@law.duke.edu" rel="nofollow">marlyn.dail@law.duke.edu</a>. Please also note if you are interested in presenting work or commenting on others’ work.</p>
-<p><br></p>
-<p align="center"><strong>APA ANNUAL CONVENTION UPDATE</strong></p>
+<p><br>
+</p>
+<p><strong>APA ANNUAL CONVENTION UPDATE</strong></p>
 <p>Updates regarding the 129<sup>th</sup> Annual Convention of the American Psychological Association to be held Virtually Aug 9-13:</p>
 <p>In response to our call for Div. 41 proposals, we received approximately 100 APA submissions, including posters, discussions, skill-building sessions, data-blitzes, and symposia! Thank you to our reviewers who were generous with their time and patient with the new review system. In terms of submission trends, we observed that the vast majority of symposia, skillbuilding, and discussion sessions were focused on clinical topics (10) with the rest (5) falling in an “other” category (e.g., hybrid clinical and policy projects). Although no regular sessions were focused on social or cognitive aspects of psychology-law, these experimental topics had strong showing among poster submissions.</p>
 <p>APA is still in the process of releasing convention details, including the convention platform, the deadline for uploading presentations to the platform, and registration fees. We hope to have more information soon. If you have any questions, please do not hesitate to reach out to your programming co-chairs:</p>
@@ -432,13 +468,15 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="mailto:sshepherd@swin.edu.au" rel="nofollow">sshepherd@swin.edu.au</a></p>
 <p>Alicia Nidjam-Jones, Ph.D.</p>
 <p><a href="mailto:alicia@nijdam-jones.com" rel="nofollow">alicia@nijdam-jones.com</a></p>
-<p align="center"><br></p>
-<p align="center"><strong align="left"><strong>AP-LS AWARD FOR BEST UNDERGRADUATE PAPER</strong></strong></p>
+<p><br>
+</p>
+<p><strong><strong>AP-LS AWARD FOR BEST UNDERGRADUATE PAPER</strong></strong></p>
 <p>Recognizes an outstanding undergraduate research paper focused on the interdisciplinary study of psychology and law.</p>
 <p>To be eligible for an award, the student must be the major contributor to a project on a topic relevant to psychology and law (i.e., the student had primary responsibility for initiating and conducting the project even though the project will usually be conducted under the supervision of a mentor). Data collection should be complete. Winners will be encouraged to submit their work for presentation at the AP-LS Conference (as first authors). Students may submit their work during their first post-undergraduate year as long as the work was conducted during their undergraduate career. For more information, please click <a href="" rel="nofollow">here</a>.</p>
 <p><strong>Deadline:</strong> <strong>June 30, 2021</strong></p>
-<p align="center"><br></p>
-<p align="center"><strong align="left"><strong><strong><strong>CALL FOR BOOK PROPOSALS</strong></strong></strong></strong></p>
+<p><br>
+</p>
+<p><strong><strong><strong><strong>CALL FOR BOOK PROPOSALS</strong></strong></strong></strong></p>
 <p>The American Psychology-Law Society invites proposals for new authored and edited volumes on psychology-law topics for its book series (APA Publishers). If you are considering authoring or editing a new volume, please reach out to a member of the editorial team. We would be glad to discuss your ideas with you and provide you with the guidelines for proposals.</p>
 <ul>
 <li>Brian Cutler, Editor (<a href="" rel="nofollow">brian.cutler@ontariotechu.ca</a>)</li>
@@ -446,41 +484,44 @@ ul.task-list li input[type="checkbox"] {
 <li>Heather Flowe, Associate Editor (<a href="" rel="nofollow">H.Flowe@bham.ac.uk</a>)</li>
 <li>Jemour Maddux, Associate Editor (<a href="" rel="nofollow">jmaddux@lambmadduxgroup.com</a>)</li>
 </ul>
-<div align="center"><br></div>
-<p align="center"><strong>ON THE JOB OR POSTDOC MARKET?AP-LS JOB POSTINGS</strong></p>
-<p align="center">Check out AP-LS's Job Postings Page for up-to-date information on available psychology-law positions<a href="" rel="nofollow">here</a>.</p>
-<p align="center"><br></p>
-<p align="center"><strong>AP-LS CONTACTS</strong></p>
-<p align="center">Email addresses for all current EC members and Committee Chairs can be found <a href="" rel="nofollow">here</a>.</p>
-<p align="center"><br></p>
-<p align="center"><strong>NEWSLETTER ARCHIVES</strong></p>
-<p align="center">Archives of the newsletter are available at<a href="" rel="nofollow">https://ap-ls.org/newsletter</a>.</p>
-<p align="center"><br></p>
+<div data-align="center">
+<br>
+
 </div>
-</td>
+<p><strong>ON THE JOB OR POSTDOC MARKET?AP-LS JOB POSTINGS</strong></p>
+<p>Check out AP-LS's Job Postings Page for up-to-date information on available psychology-law positions<a href="" rel="nofollow">here</a>.</p>
+<p><br>
+</p>
+<p><strong>AP-LS CONTACTS</strong></p>
+<p>Email addresses for all current EC members and Committee Chairs can be found <a href="" rel="nofollow">here</a>.</p>
+<p><br>
+</p>
+<p><strong>NEWSLETTER ARCHIVES</strong></p>
+<p>Archives of the newsletter are available at<a href="" rel="nofollow">https://ap-ls.org/newsletter</a>.</p>
+<p><br>
+</p>
+</div></td>
 </tr>
-<tr>
-<td align="center" style="background:transparent;font-size:0px;padding:0px;word-break:break-word;">
-<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border-spacing:0px;">
+<tr class="odd">
+<td style="text-align: center; background: transparent; font-size: 0px; padding: 0px; word-break: break-word;"><table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" class="table">
 <tbody>
-<tr>
-<td style="width:506px;"><img height="auto" src="https://ap-ls.wildapricot.org/resources/Pictures/AP-LS.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:16px;" width="506"></td>
+<tr class="odd">
+<td style="width: 506px"><img src="https://ap-ls.wildapricot.org/resources/Pictures/AP-LS.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:16px;" width="506"></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></td>
 </tr>
 </tbody>
 </table>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
+</div></td>
 </tr>
 </tbody>
 </table>
 </div>
-</td>
-</tr>
-</tbody>
-</table>
+
 </div>
 
 
@@ -514,9 +555,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -581,6 +636,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -624,6 +765,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left"><b>© 2023 American Psychology-Law Society</b> <br> made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

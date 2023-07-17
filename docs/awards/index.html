@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.280">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -60,7 +60,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -149,12 +150,14 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 <style>
-    .quarto-title-block .quarto-title-banner {
-      background-image: url(files/awards-banner.svg);
-background-size: cover;
-    }
-    </style>
 
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(files/awards-banner.svg);
+background-size: cover;
+      }
+</style>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../assets/styles.css">
@@ -171,94 +174,96 @@ background-size: cover;
     <img src="../images/logo-light.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../about/index.html">
+    <a class="dropdown-item" href="../about/index.html" rel="" target="">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../about/leadership.html">
+    <a class="dropdown-item" href="../about/leadership.html" rel="" target="">
  <span class="dropdown-text">Leadership</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../about/committees.html">
+    <a class="dropdown-item" href="../about/committees.html" rel="" target="">
  <span class="dropdown-text">Committees</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../about/statements.html">
+    <a class="dropdown-item" href="../about/statements.html" rel="" target="">
  <span class="dropdown-text">Statements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../about/bylaws.html">
+    <a class="dropdown-item" href="../about/bylaws.html" rel="" target="">
  <span class="dropdown-text">AP-LS Bylaws</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../about/contact.html">
+    <a class="dropdown-item" href="../about/contact.html" rel="" target="">
  <span class="dropdown-text">Contact us</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-publications" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-publications" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Publications</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-publications">    
         <li>
-    <a class="dropdown-item" href="../newsletter/index.html">
+    <a class="dropdown-item" href="../newsletter/index.html" rel="" target="">
  <span class="dropdown-text">AP-LS Newsletter</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../publications/index.html">
+    <a class="dropdown-item" href="../publications/index.html" rel="" target="">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://www.apa.org/pubs/journals/lhb/">
+    <a class="dropdown-item" href="https://www.apa.org/pubs/journals/lhb/" rel="" target="">
  <span class="dropdown-text">Law &amp; Human Behavior</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="../awards/index.html" aria-current="page">
+    <a class="nav-link active" href="../awards/index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Awards</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-conferences" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-conferences" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Conferences</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-conferences">    
         <li>
-    <a class="dropdown-item" href="../conferences/index.html">
+    <a class="dropdown-item" href="../conferences/index.html" rel="" target="">
  <span class="dropdown-text">2023 AP-LS Conference</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../conferences/preconference.html">
+    <a class="dropdown-item" href="../conferences/preconference.html" rel="" target="">
  <span class="dropdown-text">Preconference Workshops</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../conferences/schedule.html">
+    <a class="dropdown-item" href="../conferences/schedule.html" rel="" target="">
  <span class="dropdown-text">Program &amp; Schedule</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../resources/index.html">
+    <a class="nav-link" href="../resources/index.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../membership/membership.html">
+    <a class="nav-link" href="../membership/membership.html" rel="" target="">
  <span class="menu-text">Membership</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -312,7 +317,7 @@ background-size: cover;
     </div>
 </div>
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="Students,Undergraduate,Graduate,Diversity,BRIDGE Committee" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231554" data-listing-reading-time-sort="4.87">
+<div class="g-col-1" data-index="0" data-categories="Students,Undergraduate,Graduate,Diversity,BRIDGE Committee" data-listing-date-sort="1689612841000" data-listing-file-modified-sort="1689612841533" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
 <a href="../awards/grants/APprogram.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -343,7 +348,7 @@ Provides finanical support to students from groups currently underrepresented in
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Early Career Professionals,Grants-in-Aid" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231554" data-listing-reading-time-sort="5.88">
+<div class="g-col-1" data-index="1" data-categories="Early Career Professionals,Grants-in-Aid" data-listing-date-sort="1689612666000" data-listing-file-modified-sort="1689612666433" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
 <a href="../awards/grants/ECgrantinaid.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -365,7 +370,7 @@ Support (up to $5,000) for early career professionals in conducting research rel
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Students,Graduate,Research,Grants-in-Aid" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231555" data-listing-reading-time-sort="5.72">
+<div class="g-col-1" data-index="2" data-categories="Students,Graduate,Research,Grants-in-Aid" data-listing-date-sort="1689612700000" data-listing-file-modified-sort="1689612700066" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
 <a href="../awards/grants/GRADgrantinaid.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -393,7 +398,7 @@ Small grants (up to $2,000) to support empirical graduate student research that 
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="Students,Undergraduate,Research,Grants-in-Aid" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231555" data-listing-reading-time-sort="5.75">
+<div class="g-col-1" data-index="3" data-categories="Students,Undergraduate,Research,Grants-in-Aid" data-listing-date-sort="1689612723000" data-listing-file-modified-sort="1689612723701" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
 <a href="../awards/grants/UNDgrantinaid.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -421,7 +426,7 @@ Small grants (maximum of $1,000) to support empirical undergraduate research tha
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Students,Undergraduate,Graduate,Grants-in-Aid,Diversity,BRIDGE Committee" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231554" data-listing-reading-time-sort="3.885">
+<div class="g-col-1" data-index="4" data-categories="Students,Undergraduate,Graduate,Grants-in-Aid,Diversity,BRIDGE Committee" data-listing-date-sort="1689612692000" data-listing-file-modified-sort="1689612692185" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <a href="../awards/grants/diversityresearch.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -455,7 +460,7 @@ Supports student research on psycholegal issues related to diversity or conducte
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Research" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231555" data-listing-reading-time-sort="7.065">
+<div class="g-col-1" data-index="5" data-categories="Research" data-listing-date-sort="1689612705000" data-listing-file-modified-sort="1689612705897" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8">
 <a href="../awards/grants/impactgrant.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -474,7 +479,7 @@ Small/seed grants ($1,000-$5,000) and large grants ($15,000-$50,000) for interdi
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="Students,Graduate,Research,Grants-in-Aid" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231556" data-listing-reading-time-sort="2.15">
+<div class="g-col-1" data-index="6" data-categories="Students,Graduate,Research,Grants-in-Aid" data-listing-date-sort="1689612714000" data-listing-file-modified-sort="1689612714409" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <a href="../awards/grants/macarthur.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -528,7 +533,7 @@ No matching items
     </div>
 </div>
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="Book" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231495" data-listing-reading-time-sort="3.11">
+<div class="g-col-1" data-index="0" data-categories="Book" data-listing-date-sort="1689612731000" data-listing-file-modified-sort="1689612731830" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
 <a href="../awards/awards/bookaward.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -547,7 +552,7 @@ The American Psychology-Law Society Lawrence S. Wrightsman Book Award is given f
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Students,Graduate,Dissertation" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231495" data-listing-reading-time-sort="15.49">
+<div class="g-col-1" data-index="1" data-categories="Students,Graduate,Dissertation" data-listing-date-sort="1689612739000" data-listing-file-modified-sort="1689612739520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16">
 <a href="../awards/awards/dissertation.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -572,7 +577,7 @@ These awards supports students who complete dissertations involving basic or app
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Distinguished Career" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231495" data-listing-reading-time-sort="2.615">
+<div class="g-col-1" data-index="2" data-categories="Distinguished Career" data-listing-date-sort="1689612745000" data-listing-file-modified-sort="1689612745880" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <a href="../awards/awards/distinguished.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -591,7 +596,7 @@ Honors one who has made distinguished theoretical, empirical, and/or applied con
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="APA,Fellowship" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231495" data-listing-reading-time-sort="1.71">
+<div class="g-col-1" data-index="3" data-categories="APA,Fellowship" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <a href="../awards/awards/fellows.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -613,7 +618,7 @@ Recognizes unusual and outstanding contributions to psychology and law and to AP
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="Early Career Professionals,Diversity, Equity &amp; Inclusion,Practice,Mentoring" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231496" data-listing-reading-time-sort="5.02">
+<div class="g-col-1" data-index="4" data-categories="Early Career Professionals,Diversity, Equity &amp; Inclusion,Practice,Mentoring" data-listing-date-sort="1689612756000" data-listing-file-modified-sort="1689612756190" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
 <a href="../awards/awards/recaward.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -641,7 +646,7 @@ Recognizes the substantive contributions of clinical mentors who educate and sup
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="Early Career Professionals,American Academy of Forensic Psychology" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231495" data-listing-reading-time-sort="6.54">
+<div class="g-col-1" data-index="5" data-categories="Early Career Professionals,American Academy of Forensic Psychology" data-listing-date-sort="1689612762000" data-listing-file-modified-sort="1689612762668" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
 <a href="../awards/awards/saleemshah.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -663,7 +668,7 @@ Recognizes early career excellence and contributions to the field of psychology 
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="Teaching,Early Career Professionals" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231496" data-listing-reading-time-sort="8.67">
+<div class="g-col-1" data-index="6" data-categories="Teaching,Early Career Professionals" data-listing-date-sort="1689612768000" data-listing-file-modified-sort="1689612768749" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
 <a href="../awards/awards/teachingaward.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -685,7 +690,7 @@ Recognizes teaching and mentoring excellence in the field of psychology and law.
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Students,Undergraduate" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231496" data-listing-reading-time-sort="5.375">
+<div class="g-col-1" data-index="7" data-categories="Students,Undergraduate" data-listing-date-sort="1689612776000" data-listing-file-modified-sort="1689612776181" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6">
 <a href="../awards/awards/undergradpaper.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -723,7 +728,7 @@ No matching items
     </div>
 </div>
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="Students,Undergraduate,Graduate,Diversity, Equity &amp; Inclusion,Conference Travel,Early Career Professionals,Caregiving Grants" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231523" data-listing-reading-time-sort="0.8">
+<div class="g-col-1" data-index="0" data-categories="Students,Undergraduate,Graduate,Diversity, Equity &amp; Inclusion,Conference Travel,Early Career Professionals,Caregiving Grants" data-listing-date-sort="1689612819000" data-listing-file-modified-sort="1689612819149" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../awards/conference/caregivers.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -760,7 +765,7 @@ Provides travel awards to APLS members who serve as a caregiver in any capacity 
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Students,Undergraduate,Graduate,Conference Travel,Diversity,BRIDGE Committee" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231524" data-listing-reading-time-sort="2.405">
+<div class="g-col-1" data-index="1" data-categories="Students,Undergraduate,Graduate,Conference Travel,Diversity,BRIDGE Committee" data-listing-date-sort="1689612810000" data-listing-file-modified-sort="1689612810902" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <a href="../awards/conference/diversitytravelaward.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -794,7 +799,7 @@ Provides travel awards to students from underrepresented groups who are presenti
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Students,Undergraduate,Graduate,Conference Travel" data-listing-date-sort="1679523231000" data-listing-file-modified-sort="1679523231524" data-listing-reading-time-sort="1.475">
+<div class="g-col-1" data-index="2" data-categories="Students,Undergraduate,Graduate,Conference Travel" data-listing-date-sort="1689612812000" data-listing-file-modified-sort="1689612812593" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <a href="../awards/conference/studentawards.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -860,9 +865,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -927,6 +946,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -970,6 +1075,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left"><b>© 2023 American Psychology-Law Society</b> <br> made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

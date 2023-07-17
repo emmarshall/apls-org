@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.280">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -18,7 +18,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -59,7 +59,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -78,94 +79,96 @@ ul.task-list li input[type="checkbox"] {
     <img src="../../../../images/logo-light.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../../../about/index.html">
+    <a class="dropdown-item" href="../../../../about/index.html" rel="" target="">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../about/leadership.html">
+    <a class="dropdown-item" href="../../../../about/leadership.html" rel="" target="">
  <span class="dropdown-text">Leadership</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../about/committees.html">
+    <a class="dropdown-item" href="../../../../about/committees.html" rel="" target="">
  <span class="dropdown-text">Committees</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../about/statements.html">
+    <a class="dropdown-item" href="../../../../about/statements.html" rel="" target="">
  <span class="dropdown-text">Statements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../about/bylaws.html">
+    <a class="dropdown-item" href="../../../../about/bylaws.html" rel="" target="">
  <span class="dropdown-text">AP-LS Bylaws</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../about/contact.html">
+    <a class="dropdown-item" href="../../../../about/contact.html" rel="" target="">
  <span class="dropdown-text">Contact us</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-publications" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-publications" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Publications</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-publications">    
         <li>
-    <a class="dropdown-item" href="../../../../newsletter/index.html">
+    <a class="dropdown-item" href="../../../../newsletter/index.html" rel="" target="">
  <span class="dropdown-text">AP-LS Newsletter</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../publications/index.html">
+    <a class="dropdown-item" href="../../../../publications/index.html" rel="" target="">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://www.apa.org/pubs/journals/lhb/">
+    <a class="dropdown-item" href="https://www.apa.org/pubs/journals/lhb/" rel="" target="">
  <span class="dropdown-text">Law &amp; Human Behavior</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../../awards/index.html">
+    <a class="nav-link" href="../../../../awards/index.html" rel="" target="">
  <span class="menu-text">Awards</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-conferences" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-conferences" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Conferences</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-conferences">    
         <li>
-    <a class="dropdown-item" href="../../../../conferences/index.html">
+    <a class="dropdown-item" href="../../../../conferences/index.html" rel="" target="">
  <span class="dropdown-text">2023 AP-LS Conference</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../conferences/preconference.html">
+    <a class="dropdown-item" href="../../../../conferences/preconference.html" rel="" target="">
  <span class="dropdown-text">Preconference Workshops</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../../conferences/schedule.html">
+    <a class="dropdown-item" href="../../../../conferences/schedule.html" rel="" target="">
  <span class="dropdown-text">Program &amp; Schedule</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../../resources/index.html">
+    <a class="nav-link" href="../../../../resources/index.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../../membership/membership.html">
+    <a class="nav-link" href="../../../../membership/membership.html" rel="" target="">
  <span class="menu-text">Membership</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -206,131 +209,162 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-
 <div style="margin:0px auto;max-width:600px;">
-<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
-<tbody>
-<tr>
-<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
-<div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td style="background-color:rgb(247, 247, 247);vertical-align:top;padding:0px;padding-top:14px;padding-right:5px;padding-left:5px;">
-<table border="0" cellpadding="0" cellspacing="0" style="" width="100%">
-<tbody>
-<tr>
-<td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
-<div style="font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
-<h1 align="center" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-weight:bold; font-size:36px; margin-top:0; margin-bottom:14px; padding:0; -wa-inliner:true;"><a style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -wa-inliner:true;" href="" rel="nofollow"><img width="595" height="120" title="" style="-ms-interpolation-mode:bicubic; height:auto; line-height:100%; outline:none; max-width:100%; text-decoration:none; -wa-inliner:true;" alt="" src="https://ap-ls.wildapricot.org/resources/Pictures/APLS_general_logo.png" border="0"></a></h1>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
 
+<table data-quarto-postprocess="true" data-align="center" data-border="0" data-cellpadding="0" data-cellspacing="0" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: center; direction: ltr; font-size: 0px; padding: 0px;"><div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="background-color: rgb(247, 247, 247); vertical-align: top; padding: 0px; padding-top: 14px; padding-right: 5px; padding-left: 5px"><table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; font-size: 0px; padding: 0px; word-break: break-word;"><div style="font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
+<h1 id="section" data-align="center" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-weight:bold; font-size:36px; margin-top:0; margin-bottom:14px; padding:0; -wa-inliner:true;"><a href="" style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -wa-inliner:true;" rel="nofollow"><img src="https://ap-ls.wildapricot.org/resources/Pictures/APLS_general_logo.png" style="-ms-interpolation-mode:bicubic; height:auto; line-height:100%; outline:none; max-width:100%; text-decoration:none; -wa-inliner:true;" data-border="0" width="595" height="120"></a></h1>
+</div></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+</tbody>
+</table>
 <div style="margin:0px auto;max-width:600px;">
-<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+<table data-quarto-postprocess="true" data-align="center" data-border="0" data-cellpadding="0" data-cellspacing="0" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
 <tbody>
-<tr>
-<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
-<div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr class="odd">
+<td style="text-align: center; direction: ltr; font-size: 0px; padding: 0px;"><div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
 <tbody>
-<tr>
-<td style="background-color:rgb(247, 247, 247);vertical-align:top;padding:0px;padding-top:14px;padding-right:20px;padding-left:20px;">
-<table border="0" cellpadding="0" cellspacing="0" style="" width="100%">
+<tr class="odd">
+<td style="background-color: rgb(247, 247, 247); vertical-align: top; padding: 0px; padding-top: 14px; padding-right: 20px; padding-left: 20px"><table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
 <tbody>
-<tr>
-<td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
-<div style="font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
-<div align="center" style="line-height: 20px;">Welcome to the March 2021</div>
-<div align="center" style="line-height: 20px;">American Psychology-Law Society (AP-LS) Newsletter.</div>
-<div align="center" style="line-height: 20px;"><br></div>
-<div align="center" style="line-height: 20px;">Our monthly Newsletter provides information about activities, upcoming events, and resources to connect the psychology-law community.<br></div>
-<div align="center" style="line-height: 20px;"></div>
-<div align="center" style="line-height: 20px;">AP-LS aspires to excel as a valuable, effective, and influential organization advancing the science of psychology-law and the translation of psychology-law knowledge into practice and policy. </div>
-<div align="center" style="line-height: 20px;"><br></div>
-<div align="center" style="line-height: 20px;"></div>
-<div align="center" style="line-height: 20px;">
-<table width="100%" style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important; table-layout:fixed; -wa-inliner:true;" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td align="left" valign="top" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; line-height: 1px; -wa-inliner:true;">
-<table width="100%" style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; border-collapse:collapse !important; table-layout:fixed; -wa-inliner:true;" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td height="1" align="center" valign="top" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; mso-table-lspace:0pt; mso-table-rspace:0pt; line-height: 1px; background-color: rgb(219, 220, 221); -wa-inliner:true;"><img width="5" height="1" style="-ms-interpolation-mode:bicubic; height:auto; line-height:100%; outline:none; max-width:100%; text-decoration:none; -wa-inliner:true;" src="h" border="0"></td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
+<tr class="odd">
+<td style="text-align: left; font-size: 0px; padding: 0px; word-break: break-word;"><div style="font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
+<div data-align="center" style="line-height: 20px;">
+Welcome to the March 2021
 </div>
-<div align="left"><br></div>
+<div data-align="center" style="line-height: 20px;">
+American Psychology-Law Society (AP-LS) Newsletter.
 </div>
-</td>
-</tr>
-<tr>
-<td align="center" style="background:transparent;font-size:0px;padding:0px;word-break:break-word;">
-<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse;border-spacing:0px;">
-<tbody>
-<tr>
-<td style="width:560px;"><img height="auto" src="https://ap-ls.wildapricot.org/resources/Pictures/shutterstock_1527608867.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:16px;" width="560"></td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
+<div data-align="center" style="line-height: 20px;">
+<br>
 
+</div>
+<div data-align="center" style="line-height: 20px;">
+Our monthly Newsletter provides information about activities, upcoming events, and resources to connect the psychology-law community.<br>
+
+</div>
+<div data-align="center" style="line-height: 20px;">
+
+</div>
+<div data-align="center" style="line-height: 20px;">
+AP-LS aspires to excel as a valuable, effective, and influential organization advancing the science of psychology-law and the translation of psychology-law knowledge into practice and policy.
+</div>
+<div data-align="center" style="line-height: 20px;">
+<br>
+
+</div>
+<div data-align="center" style="line-height: 20px;">
+
+</div>
+<div data-align="center" style="line-height: 20px;">
+<table data-quarto-postprocess="true" width="100%" data-cellspacing="0" data-cellpadding="0" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td data-valign="top" style="text-align: left; font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 1px; -wa-inliner: true;"><table data-quarto-postprocess="true" width="100%" data-cellspacing="0" data-cellpadding="0" class="table">
+<tbody>
+<tr class="odd">
+<td height="1" data-valign="top" style="text-align: center; font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 1px; background-color: rgb(219, 220, 221); -wa-inliner: true;"><img src="h" style="-ms-interpolation-mode:bicubic; height:auto; line-height:100%; outline:none; max-width:100%; text-decoration:none; -wa-inliner:true;" data-border="0" width="5" height="1"></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div data-align="left">
+<br>
+
+</div>
+</div></td>
+</tr>
+<tr class="even">
+<td style="text-align: center; background: transparent; font-size: 0px; padding: 0px; word-break: break-word;"><table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" class="table">
+<tbody>
+<tr class="odd">
+<td style="width: 560px"><img src="https://ap-ls.wildapricot.org/resources/Pictures/shutterstock_1527608867.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:16px;" width="560"></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+</tbody>
+</table>
+</div>
 <div style="margin:0px auto;max-width:600px;">
-<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+<table data-quarto-postprocess="true" data-align="center" data-border="0" data-cellpadding="0" data-cellspacing="0" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
 <tbody>
-<tr>
-<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
-<div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr class="odd">
+<td style="text-align: center; direction: ltr; font-size: 0px; padding: 0px;"><div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
 <tbody>
-<tr>
-<td style="background-color:transparent;border-bottom:0px none #000000;border-left:0px none #000000;border-right:0px none #000000;border-top:0px none #000000;vertical-align:top;padding:0px;padding-top:20px;padding-right:20px;padding-bottom:20px;padding-left:20px;">
-<table border="0" cellpadding="0" cellspacing="0" style="" width="100%">
+<tr class="odd">
+<td style="background-color: transparent; border-bottom: 0px none #000000; border-left: 0px none #000000; border-right: 0px none #000000; border-top: 0px none #000000; vertical-align: top; padding: 0px; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px"><table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
 <tbody>
-<tr>
-<td align="left" style="background:transparent;font-size:0px;padding:0px;word-break:break-word;">
-<div style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
-<p align="center"><strong><strong>SAVE THE DATE!</strong></strong></p>
-<p align="center">AP-LS Presidential Plenary/Webinar:</p>
-<p align="center"><em>Recommended Police Reform to Racial Injustice: From Ferguson to Floyd and Beyond</em></p>
-<p align="center">May 14, 2021: 12 – 1:15pm EST</p>
+<tr class="odd">
+<td style="text-align: left; background: transparent; font-size: 0px; padding: 0px; word-break: break-word;"><div style="font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
+<p><strong><strong>SAVE THE DATE!</strong></strong></p>
+<p>AP-LS Presidential Plenary/Webinar:</p>
+<p><em>Recommended Police Reform to Racial Injustice: From Ferguson to Floyd and Beyond</em></p>
+<p>May 14, 2021: 12 – 1:15pm EST</p>
 <p>Panel Speakers: Laurie Robinson; Charles Ramsey; DeRay Mckesson</p>
 <p>Panel Moderator: Cynthia Lum</p>
 <p>In keeping with Allison Redlich’s presidential initiative on addressing race and social justice, this webinar brings together four renowned experts on police reform to discuss incidents of racial injustice and recommendations to prevent future occurrences and improve community-police relations. Panel experts <a href="" rel="nofollow">Robinson</a> and <a href="" rel="nofollow">Ramsey</a> served as the Co-Chairs of the President’s Obama’s Task Force on 21<sup>st</sup> Century Policing, which resulted in an important set of recommendations. Robinson is a former Assistant Attorney General and head of the Office of Justice Programs. Ramsey is the former Police Commissioner of Philadelphia and Police Chief of Washington, DC. Panel experts <a href="" rel="nofollow">Lum</a> and <a href="" rel="nofollow">Mckesson</a> are members of the Council on Criminal Justice’s Task Force on Policing, which is currently evaluating more than two dozen proposed police reforms, such as those on preventing excessive force, reducing racial biases, increasing accountability, and improving relations between law enforcement and communities. Lum directs the Center for Evidence-Based Crime Policy and is a member of the National Academy of Sciences’ Committee on Law &amp; Justice. McKesson is the co-founder of Campaign Zero, a community-based movement to end police violence and the author of <em>On the Other Side of Freedom: The Case for Hope</em>.</p>
-<p align="center"><strong><br></strong></p>
-<p align="center"><strong>AMERICAN ACADEMY OF FORENSIC PSYCHOLOGY DISSERTATION GRANTS IN APPLIED LAW/PSYCHOLOGY</strong></p>
+<p><strong><br>
+</strong></p>
+<p><strong>AMERICAN ACADEMY OF FORENSIC PSYCHOLOGY DISSERTATION GRANTS IN APPLIED LAW/PSYCHOLOGY</strong></p>
 <p>A committee of AAFP fellows reviews applications and grants of up to $2000 will be awarded based on the following criteria:</p>
 <ul>
 <li>Potential contribution of the dissertation to applied law-psychology</li>
@@ -350,31 +384,39 @@ ul.task-list li input[type="checkbox"] {
 <p>- A letter (no longer than one page) from the applicant's dissertation chair/supervisor offering his/her support of the applicant, confirming that the dissertation proposal has been or is expected to be approved and will be conducted as detailed in the applicant's letter.</p>
 <p>Submissions should be e-mailed no later than <strong>March 31<sup>st</sup></strong>to the President-Elect of AAFP. Applicants will receive a confirmation of receipt within five business days from the deadline. Questions or inquiries regarding the award competition or receipt of application should be directed to the President-Elect of AAFP. Contact information appears below.</p>
 <p>*Please note that this is a grant for original research, rather than an award for research that has been completed.</p>
-<p><br></p>
-<p style="line-height: 14px;">Shannon Bader, Ph.D., ABPP</p>
-<p style="line-height: 14px;">Board Certified in Forensic Psychology</p>
+<p><br>
+</p>
+<p>Shannon Bader, Ph.D., ABPP</p>
+<p>Board Certified in Forensic Psychology</p>
 <p>President-Elect, AAFP</p>
 <p><a href="mailto:Shannonmariebader@outlook.com" rel="nofollow">Shannonmariebader@outlook.com</a></p>
-<p align="center"><br></p>
-<p align="center"><strong align="left"><strong><strong><span style="background-color: white;">NEW LSA WEBSITE</span></strong></strong></strong></p>
-<p><span align="left"><span style="background-color: white;">The Law and Society Association are excited to share the launch of their new website! The newly designed site (<a href="" rel="nofollow">https://www.lawandsociety.org/</a>)</span><span style="background-color: white;">features a modern and sleek appearance that offers an intuitive navigational structure. The site will effectively allow us to deliver the latest LSA news and announcements, showcase our members' accomplishments and better tell our story.</span></span></p>
-<p><span align="left"><span style="background-color: white;"><br></span></span></p>
-<p align="center"><strong>VOLUNTEER DRIVE</strong></p>
+<p><br>
+</p>
+<p><strong><strong><strong><span style="background-color: white;">NEW LSA WEBSITE</span></strong></strong></strong></p>
+<p><span data-align="left"><span style="background-color: white;">The Law and Society Association are excited to share the launch of their new website! The newly designed site (<a href="" rel="nofollow">https://www.lawandsociety.org/</a>)</span><span style="background-color: white;">features a modern and sleek appearance that offers an intuitive navigational structure. The site will effectively allow us to deliver the latest LSA news and announcements, showcase our members' accomplishments and better tell our story.</span></span></p>
+<p><span data-align="left"><span style="background-color: white;"><br>
+</span></span></p>
+<p><strong>VOLUNTEER DRIVE</strong></p>
 <p><span style="background-color: white;">Interested in serving on AP-LS Committees? The AP-LS volunteer drive will kick off around March 20</span><sup>th.</sup><span style="background-color: rgb(255, 255, 255);">So be sure to watch your email for the official announcement and instructions on how to apply.</span></p>
-<p><span style="background-color: rgb(255, 255, 255);"><br></span></p>
-<p align="center"><strong align="left"><strong><span style="background-color: white;">AP-LS AWARD FOR BEST UNDERGRADUATE PAPER</span></strong></strong></p>
+<p><span style="background-color: rgb(255, 255, 255);"><br>
+</span></p>
+<p><strong><strong><span style="background-color: white;">AP-LS AWARD FOR BEST UNDERGRADUATE PAPER</span></strong></strong></p>
 <p>Recognizes an outstanding undergraduate research paper focused on the interdisciplinary study of psychology and law.</p>
 <p>To be eligible for an award, the student must be the major contributor to a project on a topic relevant to psychology and law (i.e., the student had primary responsibility for initiating and conducting the project even though the project will usually be conducted under the supervision of a mentor). Data collection should be complete. Winners will be encouraged to submit their work for presentation at the AP-LS Conference (as first authors). Students may submit their work during their first post-undergraduate year as long as the work was conducted during their undergraduate career. For more information, please click <a href="" rel="nofollow">here</a>.</p>
 <p>Deadline: <strong>June 30, 2021</strong></p>
-<p><strong><br></strong></p>
-<p align="center"><strong>CAREER CORNER</strong></p>
+<p><strong><br>
+</strong></p>
+<p><strong>CAREER CORNER</strong></p>
 <p>TheCareerCorneris intended to highlight the individuals who work at the intersection of law and psychology, where they come from, how they got there and how their experiences influence their research, teaching, and/or practice. This edition ofCareerCornerprofilesMichael Lamb, Ph.D., Professor in the Department of Psychology at the University of Cambridge.</p>
 <p>To read this column, please click <a href="" rel="nofollow">here</a>.</p>
-<strong><br></strong>
-<p align="center"><strong>SAVE THE DATE!</strong></p>
-<p align="center">Sponsored by the AP-LS Corrections Committee<br></p>
-<p align="center"><em>How to Reach the Restricted: Treating Incarcerated Persons and Forensic Mental Health Patients in Seclusion from an Ethical and Empirical Standpoint</em></p>
-<p align="center">Thursday, April 22, 2021 11:00am-2:00pm (ET)<br></p>
+<strong><br>
+</strong>
+<p><strong>SAVE THE DATE!</strong></p>
+<p>Sponsored by the AP-LS Corrections Committee<br>
+</p>
+<p><em>How to Reach the Restricted: Treating Incarcerated Persons and Forensic Mental Health Patients in Seclusion from an Ethical and Empirical Standpoint</em></p>
+<p>Thursday, April 22, 2021 11:00am-2:00pm (ET)<br>
+</p>
 <p>Presenters: Ashley B. Batastini, Ph.D.&amp; Robert Morgan, Ph.D.</p>
 <p>CE Credits: 3</p>
 <p><span style="background-color: white;">Skill level: Intermediate</span></p>
@@ -382,8 +424,9 @@ ul.task-list li input[type="checkbox"] {
 <p>Registration is required, please register <a href="" rel="nofollow">here</a>!</p>
 <p>The deadline to register is <strong>April 17</strong>. The day before the presentation, you will receive an email with the link to join the webinar.</p>
 <p>We look forward to you joining us! For questions or to request accommodation of closed captioning on Zoom, please email <a href="mailto:Ashley.Batastini@memphis.edu" rel="nofollow">Ashley.Batastini@memphis.edu</a>.</p>
-<p><br></p>
-<p align="center"><strong>CAREGIVING GRANTS FOR AP-LS 2021</strong></p>
+<p><br>
+</p>
+<p><strong>CAREGIVING GRANTS FOR AP-LS 2021</strong></p>
 <p><span style="background-color: white;">The AP-LS Professional Development of Women committee (PDW) is pleased to offer Caregiving Grants for virtual conference preparation/attendance for the 2021 Virtual Conference and webinars. The committee plans to award grants of $100-$500, with priority to first authors and presenters.</span></p>
 <p><span style="background-color: white;">Eligibility: Open to AP-LS student and non-student members, of all gender identities.</span></p>
 <p><span style="background-color: white;">DEADLINE:Rolling, but on a first come, first served basis.</span></p>
@@ -391,35 +434,40 @@ ul.task-list li input[type="checkbox"] {
 <p><span style="background-color: white;">To apply, please click <a href="" rel="nofollow">here</a>.</span></p>
 <p><span style="background-color: white;">Questions can be directed to <a href="mailto:gottfrem@musc.edu" rel="nofollow">gottfrem@musc.edu</a>.</span></p>
 <br>
-<p align="center"><strong><span style="background-color: white;">APA COUNCIL MEETING UPDATE</span></strong></p>
+
+<p><strong><span style="background-color: white;">APA COUNCIL MEETING UPDATE</span></strong></p>
 <p>Please click <a href="" rel="nofollow">here</a> for a brief summary of the APA Council of Representatives meeting, held February 25-27, 2021.</p>
-<p><br></p>
-<p align="center" style="line-height: 24px;"><strong>REGISTER TODAY FOR THE 2021 AP-LS VIRTUAL POSTER SESSION!</strong></p>
+<p><br>
+</p>
+<p><strong>REGISTER TODAY FOR THE 2021 AP-LS VIRTUAL POSTER SESSION!</strong></p>
 <p>The AP-LS Student Committee is pleased to invite you to attend a virtual poster conference of the American Psychology-Law Society on March 20th, 2021 from 5:00 - 8:00 PM CST hosted by <a href="" rel="nofollow">Virtual Chair in Gather.Town</a>.</p>
 <p>Registration is FREE but REQUIRED for all attendees.</p>
 <p>Please click <a href="" rel="nofollow">here</a> to register now!</p>
 <p>Join us from 5-6 pm CST for a plenary panel event “<a href="" rel="nofollow">Bridging the Gap: Protest in the American Legal System</a>'' featuring a discussion by experts from different perspectives on this highly relevant psychology-law topic.</p>
 <p>Stay online from 6-8 pm CST to explore the live poster sessions and interact with the 200 peer-reviewed research posters and presentations by students and early career professionals in the field. For more information, <a href="" rel="nofollow">click here</a>.</p>
 <p>If you have any questions or concerns, please contact the AP-LS Student Committee at <span style="background-color: white;"><a href="mailto:aplsstudents@gmail.com" rel="nofollow">aplsstudents@gmail.com</a>.</span></p>
-<p><br></p>
-<p align="center"><strong align="left"><strong><strong>129<sup style="">th</sup> ANNUAL APA CONVENTION UPDATE</strong></strong></strong></p>
-<p><span align="left">The 129<sup style="">th</sup> Annual Convention of the American Psychological Association to be held virtually August 9-13.</span></p>
-<p><span align="left">In response to our call for Div. 41 proposals, we received approximately 100 APA submissions, including posters, discussions, skill-building sessions, data-blitzes, and symposia! Thank you to our reviewers who have been generous with their time and patient with the new review system. As a reminder, reviews are due <strong>Friday, 3/12/2021</strong>. We will send acceptance notifications to those who submitted by Monday, 3/29/2021.</span></p>
+<p><br>
+</p>
+<p><strong><strong><strong>129<sup>th</sup> ANNUAL APA CONVENTION UPDATE</strong></strong></strong></p>
+<p><span data-align="left">The 129<sup>th</sup> Annual Convention of the American Psychological Association to be held virtually August 9-13.</span></p>
+<p><span data-align="left">In response to our call for Div. 41 proposals, we received approximately 100 APA submissions, including posters, discussions, skill-building sessions, data-blitzes, and symposia! Thank you to our reviewers who have been generous with their time and patient with the new review system. As a reminder, reviews are due <strong>Friday, 3/12/2021</strong>. We will send acceptance notifications to those who submitted by Monday, 3/29/2021.</span></p>
 <p>We are also excited to announce that APA accepted two Div. 41-sponsored collaborative proposals through a highly competitive process:</p>
 <p><em>Telepsychology in Psychology-Law Practice: Experiences, Recommendations, and What's to Come</em>, presented by Tomina J Schwenke, PhD; Alexandra Lugo, MS; Ashley B Batastini, PhD; Courtney Helfrich, BS; and Michelle R Guyton, PhD; with Discussant Alexander Millkey, PsyD.</p>
 <p><em>Giving Psychology Away: COVID-19 Edition</em>, presented by Amanda D. Zelechoski, PhD, JD; Lindsay C. Malloy, PhD; Jeremy Sharp, PhD; and Apryl Alexander, PsyD; with Discussant Linda R. Tropp, PhD.</p>
 <p>If you have any questions, please do not hesitate to reach out to your programming co-chairs: Lauren Kois, Ph.D. (<a href="mailto:lekois@ua.edu" rel="nofollow">lekois@ua.edu</a>), Stephane M. Shepherd, Ph.D. (<a href="mailto:sshepherd@swin.edu.au" rel="nofollow">sshepherd@swin.edu.au</a>), or Alicia Nidjam-Jones, Ph.D. (<a href="mailto:alicia@nijdam-jones.com" rel="nofollow">alicia@nijdam-jones.com</a>).</p>
-<p><br></p>
-<p align="center"><strong align="left"><strong>A.D.D.R.E.S.S.I.N.G. CULTURAL COMPETENCE IN FORENSIC ASSESSMENTS</strong></strong></p>
-<p align="center">Presenters: Sheila Santiago Schmitt, PsyD; Monique Mendez-Timmons, PsyD; Yenys Castillo, PhD</p>
-<p align="center">Friday, March 26, 2021 01:00 to 04:30 PM (ET)</p>
-<p align="center">CE Credits: 3.5</p>
+<p><br>
+</p>
+<p><strong><strong>A.D.D.R.E.S.S.I.N.G. CULTURAL COMPETENCE IN FORENSIC ASSESSMENTS</strong></strong></p>
+<p>Presenters: Sheila Santiago Schmitt, PsyD; Monique Mendez-Timmons, PsyD; Yenys Castillo, PhD</p>
+<p>Friday, March 26, 2021 01:00 to 04:30 PM (ET)</p>
+<p>CE Credits: 3.5</p>
 <p>Intermediate skill level: Ethnic minorities have historically been overrepresented in the criminal justice system: yet, consideration of cultural and individual differences is seldom incorporated in forensic assessments. This lack of attention to cultural differences creates an unnecessary burden on the criminal and mental health system, as ethnic and individual differences are often pathologized as mental illness, and people of color are unnecessarily institutionalized. The purpose of this workshop is to provide an overview of how to incorporate cultural and individual differences in forensic assessments in order to enhance the efficacy of these evaluations, in accordance with forensic and diversity guidelines provided by the American Psychological Association. The workshop involves how to incorporate intersectionality using the “ADDRESSING” model by Pamela Hays (1996, 2008, 2016) to facilitate the understanding of individuals’ complexities. Examples from various types of forensic assessments (e.g., competency, risk, and death penalty assessments) will be reviewed to demonstrate how the ADDRESSING model can be used to consider cultural factors in informing the process of forensic evaluation, from the onset of the data collection process to providing the final psycholegal opinion.</p>
 <p>Registration is required, register <a href="" rel="nofollow">here</a>.</p>
 <p>The deadline to register is <strong>March 21, 2021</strong>. You will receive an email with a link to join the webinar one day before.</p>
 <p>We look forward to you joining us! For questions, please email <a href="" rel="nofollow">bethcaillouet@gmail.com</a>.</p>
-<p align="center"><br></p>
-<p align="center"><strong align="left"><strong><strong><strong>CALL FOR BOOK PROPOSALS</strong></strong></strong></strong></p>
+<p><br>
+</p>
+<p><strong><strong><strong><strong>CALL FOR BOOK PROPOSALS</strong></strong></strong></strong></p>
 <p>The American Psychology-Law Society invites proposals for new authored and edited volumes on psychology-law topics for its book series (APA Publishers). If you are considering authoring or editing a new volume, please reach out to a member of the editorial team. We would be glad to discuss your ideas with you and provide you with the guidelines for proposals.</p>
 <ul>
 <li>Brian Cutler, Editor (<a href="" rel="nofollow">brian.cutler@ontariotechu.ca</a>)</li>
@@ -427,120 +475,141 @@ ul.task-list li input[type="checkbox"] {
 <li>Heather Flowe, Associate Editor (<a href="" rel="nofollow">H.Flowe@bham.ac.uk</a>)</li>
 <li>Jemour Maddux, Associate Editor (<a href="" rel="nofollow">jmaddux@lambmadduxgroup.com</a>)</li>
 </ul>
-<div align="center"><br></div>
-<p align="center"><strong>ON THE JOB OR POSTDOC MARKET?AP-LS JOB POSTINGS</strong></p>
-<p align="center">Check out AP-LS's Job Postings Page for up-to-date information on available psychology-law positions<a href="" rel="nofollow">here</a>.</p>
-<p align="center"><br></p>
-<p align="center"><strong>AP-LS CONTACTS</strong></p>
-<p align="center">Email addresses for all current EC members and Committee Chairs can be found <a href="" rel="nofollow">here</a>.</p>
-<p align="center"><br></p>
-<p align="center"><strong>NEWSLETTER ARCHIVES</strong></p>
-<p align="center">Archives of the newsletter are available at<a href="" rel="nofollow">https://ap-ls.org/newsletter</a>.</p>
-<p align="center"><br></p>
+<div data-align="center">
+<br>
+
 </div>
-</td>
+<p><strong>ON THE JOB OR POSTDOC MARKET?AP-LS JOB POSTINGS</strong></p>
+<p>Check out AP-LS's Job Postings Page for up-to-date information on available psychology-law positions<a href="" rel="nofollow">here</a>.</p>
+<p><br>
+</p>
+<p><strong>AP-LS CONTACTS</strong></p>
+<p>Email addresses for all current EC members and Committee Chairs can be found <a href="" rel="nofollow">here</a>.</p>
+<p><br>
+</p>
+<p><strong>NEWSLETTER ARCHIVES</strong></p>
+<p>Archives of the newsletter are available at<a href="" rel="nofollow">https://ap-ls.org/newsletter</a>.</p>
+<p><br>
+</p>
+</div></td>
+</tr>
+</tbody>
+</table></td>
 </tr>
 </tbody>
 </table>
-</td>
+</div></td>
 </tr>
 </tbody>
 </table>
 </div>
+<div style="margin:0px auto;max-width:600px;">
+<table data-quarto-postprocess="true" data-align="center" data-border="0" data-cellpadding="0" data-cellspacing="0" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: center; direction: ltr; font-size: 0px; padding: 0px;"><div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+<table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="background-color: rgb(0, 52, 113); vertical-align: top; padding: 0px"><table data-quarto-postprocess="true" data-border="0" data-cellpadding="0" data-cellspacing="0" width="100%" class="table">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: left; font-size: 0px; padding: 0px; word-break: break-word;"><div style="font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
+<p><a href="" style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -wa-inliner:true;" rel="nofollow"></a></p>
+<p><a href="" style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -wa-inliner:true;" rel="nofollow">Newsletter Editorial Board</a></p>
+<table data-quarto-postprocess="true" width="99%" data-cellspacing="0" data-cellpadding="0" class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td width="33%" data-valign="top" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true">Editor</td>
+<td width="33%" data-valign="top" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true">Meg Ternes</td>
+<td width="50%" data-valign="top" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true"><a href="mailto:meg.ternes@smu.ca" rel="nofollow">meg.ternes@smu.ca</a></td>
+</tr>
+<tr class="even">
+<td width="33%" data-valign="top" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true">Associate Editor<br>
 </td>
+<td width="33%" data-valign="top" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true">Leah Georges<br>
+</td>
+<td width="50%" data-valign="top" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true"><a href="mailto:leahgeorges@creighton.edu" rel="nofollow">leahgeorges@creighton.edu</a></td>
+</tr>
+<tr class="odd">
+<td width="33%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true">Student Assistant Editor<br>
+</td>
+<td width="33%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true">Sarah Shaw<br>
+</td>
+<td width="50%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true"><a href="mailto:sarah.shaw@smu.ca" rel="nofollow">sarah.shaw@smu.ca</a></td>
+</tr>
+<tr class="even">
+<td width="33%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true">Content Editors -<br>
+Research Briefs<br>
+</td>
+<td width="33%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true">Kelly McWilliams &amp; Veronica Johnson</td>
+<td width="50%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true"><p><a href="mailto:kmcwilliams@jjay.cuny.edu" rel="nofollow">kmcwilliams@jjay.cuny.edu</a> <a href="mailto:vjohnson@jjay.cuny.edu" rel="nofollow">vjohnson@jjay.cuny.edu</a><br>
+</p></td>
+</tr>
+<tr class="odd">
+<td width="33%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true">Content Editor -<br>
+Legal Update<br>
+</td>
+<td width="33%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true">Christopher King</td>
+<td width="50%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true"><a href="mailto:kingch@mail.montclair.edu" rel="nofollow">kingch@mail.montclair.edu</a></td>
+</tr>
+<tr class="even">
+<td width="33%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true">Content Editor -<br>
+Expert Opinion<br>
+</td>
+<td width="33%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true">Melinda Wolbransky</td>
+<td width="50%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true"><a href="mailto:melinda.wolbransky@gmail.com" rel="nofollow">melinda.wolbransky@gmail.com</a><br>
+</td>
+</tr>
+<tr class="odd">
+<td width="33%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true">Content Editor -<br>
+Teaching in Psych &amp;<br>
+Law<br>
+</td>
+<td width="33%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true">Christina Riggs Romaine</td>
+<td width="50%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true"><div>
+<a href="mailto:riggsromaine_christina@wheatoncollege.edu" rel="nofollow">riggsromaine_christina@wheatoncollege.edu</a>
+</div></td>
+</tr>
+<tr class="even">
+<td width="33%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true">Content Editor -<br>
+Career Corner</td>
+<td width="33%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true">Emma Marshall</td>
+<td width="50%" height="" style="font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size: 16px; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; border: 1px solid rgb(153, 153, 153); -wa-inliner: true"><a href="mailto:aplsstudents@gmail.com" rel="nofollow">aplsstudents@gmail.com</a></td>
+</tr>
+</tbody>
+</table>
+<p><a href="" rel="nofollow"><br>
+</a></p>
+<p><a href="" rel="nofollow">MembershipServices</a></p>
+<p>AP-LSseeks to advance the science of psychology - law and the translation of psychology-law knowledge into practice and policy. Our mission is to enhance well-being, justice, and human rights through science and practice of psychology in legal contexts.</p>
+</div></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+</div></td>
 </tr>
 </tbody>
 </table>
 </div>
 
-<div style="margin:0px auto;max-width:600px;">
-<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;">
-<tbody>
-<tr>
-<td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
-<div style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td style="background-color:rgb(0, 52, 113);vertical-align:top;padding:0px;">
-<table border="0" cellpadding="0" cellspacing="0" style="" width="100%">
-<tbody>
-<tr>
-<td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
-<div style="font-family:Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;font-size:16px;line-height:1;text-align:left;color:#000000;">
-<p align="center" style="font-family: &quot;Trebuchet MS&quot;, &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, &quot;Lucida Sans&quot;, Tahoma, sans-serif; font-size: 16px; margin-top: 0px; margin-bottom: 0px; padding: 0px; text-size-adjust: 100%;"><a style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -wa-inliner:true;" href="" rel="nofollow"></a></p>
-<p align="center" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; margin-top:0; margin-bottom:14px; padding:0; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -wa-inliner:true;"><a style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -wa-inliner:true;" href="" rel="nofollow">Newsletter Editorial Board</a></p>
-<table width="99%" style="-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border-collapse:collapse !important; table-layout:fixed; border: 1px solid rgb(153, 153, 153); border-collapse: collapse; -wa-inliner:true;" cellspacing="0" cellpadding="0">
-<tbody>
-<tr>
-<td width="33%" valign="top" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">Editor</td>
-<td width="33%" valign="top" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">Meg Ternes</td>
-<td width="50%" valign="top" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;"><a href="mailto:meg.ternes@smu.ca" rel="nofollow">meg.ternes@smu.ca</a></td>
-</tr>
-<tr>
-<td width="33%" valign="top" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">Associate Editor<br></td>
-<td width="33%" valign="top" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">Leah Georges<br></td>
-<td width="50%" valign="top" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;"><a href="mailto:leahgeorges@creighton.edu" rel="nofollow">leahgeorges@creighton.edu</a></td>
-</tr>
-<tr>
-<td width="33%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">Student Assistant Editor<br></td>
-<td width="33%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">Sarah Shaw<br></td>
-<td width="50%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;"><a href="mailto:sarah.shaw@smu.ca" rel="nofollow">sarah.shaw@smu.ca</a></td>
-</tr>
-<tr>
-<td width="33%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">Content Editors -<br>
-Research Briefs<br></td>
-<td width="33%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">Kelly McWilliams &amp; Veronica Johnson</td>
-<td width="50%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">
-<p><a href="mailto:kmcwilliams@jjay.cuny.edu" rel="nofollow">kmcwilliams@jjay.cuny.edu</a>       <a href="mailto:vjohnson@jjay.cuny.edu" rel="nofollow">vjohnson@jjay.cuny.edu</a>    <br></p>
-</td>
-</tr>
-<tr>
-<td width="33%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">Content Editor -<br>
-Legal Update<br></td>
-<td width="33%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">Christopher King</td>
-<td width="50%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;"> <a href="mailto:kingch@mail.montclair.edu" rel="nofollow">kingch@mail.montclair.edu</a></td>
-</tr>
-<tr>
-<td width="33%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">Content Editor -<br>
-Expert Opinion<br></td>
-<td width="33%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">Melinda Wolbransky</td>
-<td width="50%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;"><a href="mailto:melinda.wolbransky@gmail.com" rel="nofollow">melinda.wolbransky@gmail.com</a><br></td>
-</tr>
-<tr>
-<td width="33%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">Content Editor -<br>
-Teaching in Psych &amp;<br>
-Law<br></td>
-<td width="33%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">Christina Riggs Romaine</td>
-<td width="50%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">
-<div><a href="mailto:riggsromaine_christina@wheatoncollege.edu" rel="nofollow">riggsromaine_christina@wheatoncollege.edu</a></div>
-</td>
-</tr>
-<tr>
-<td width="33%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">Content Editor -<br>
-Career Corner</td>
-<td width="33%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;">Emma Marshall</td>
-<td width="50%" height="" align="" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; border: 1px solid rgb(153, 153, 153); -wa-inliner:true;"><a href="mailto:aplsstudents@gmail.com" rel="nofollow">aplsstudents@gmail.com</a></td>
-</tr>
-</tbody>
-</table>
-<p align="center" style="font-family: &quot;Trebuchet MS&quot;, &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, &quot;Lucida Sans&quot;, Tahoma, sans-serif; font-size: 16px; margin-top: 0px; margin-bottom: 0px; padding: 0px; text-size-adjust: 100%;"><a href="" rel="nofollow"><br></a></p>
-<p align="center" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; margin-top:0; margin-bottom:14px; padding:0; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -wa-inliner:true;"><a href="" rel="nofollow">MembershipServices</a></p>
-<p align="center" style="font-family:'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif; font-size:16px; margin-top:0; margin-bottom:14px; padding:0; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -wa-inliner:true;">    AP-LSseeks to advance the science of psychology - law and the translation of psychology-law knowledge into practice and policy. Our mission is to enhance well-being, justice, and human rights through science and practice of psychology in legal contexts.</p>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
 </div>
 
 
@@ -573,9 +642,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -640,6 +723,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -683,6 +852,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left"><b>© 2023 American Psychology-Law Society</b> <br> made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">

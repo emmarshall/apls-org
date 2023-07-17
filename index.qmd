@@ -13,8 +13,13 @@ knitr::opts_chunk$set(echo = TRUE)
 source("assets/apls_functions.R")
 ```
 
-::: {#gallery .column-page}
+
+
+::: {#hero-banner .column-screen}
+::: {.grid .column-page}
+
 :::
+
 
 ```{r}
 #| classes: '.g-col-lg-6 .g-col-12 .g-col-md-12'
@@ -24,6 +29,12 @@ source("assets/apls_functions.R")
 carousel("gallery-carousel", 5000, 
          yaml.load_file("carousel.yml"))
 ```
+
+:::
+:::
+
+::: {#gallery .column-page}
+:::
 
 ```{=html}
 <style>

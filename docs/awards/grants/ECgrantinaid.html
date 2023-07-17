@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.280">
+<meta name="generator" content="quarto-1.3.433">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -18,7 +18,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -59,7 +59,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -78,94 +79,96 @@ ul.task-list li input[type="checkbox"] {
     <img src="../../images/logo-light.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../about/index.html">
+    <a class="dropdown-item" href="../../about/index.html" rel="" target="">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/leadership.html">
+    <a class="dropdown-item" href="../../about/leadership.html" rel="" target="">
  <span class="dropdown-text">Leadership</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/committees.html">
+    <a class="dropdown-item" href="../../about/committees.html" rel="" target="">
  <span class="dropdown-text">Committees</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/statements.html">
+    <a class="dropdown-item" href="../../about/statements.html" rel="" target="">
  <span class="dropdown-text">Statements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/bylaws.html">
+    <a class="dropdown-item" href="../../about/bylaws.html" rel="" target="">
  <span class="dropdown-text">AP-LS Bylaws</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/contact.html">
+    <a class="dropdown-item" href="../../about/contact.html" rel="" target="">
  <span class="dropdown-text">Contact us</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-publications" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-publications" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Publications</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-publications">    
         <li>
-    <a class="dropdown-item" href="../../newsletter/index.html">
+    <a class="dropdown-item" href="../../newsletter/index.html" rel="" target="">
  <span class="dropdown-text">AP-LS Newsletter</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../publications/index.html">
+    <a class="dropdown-item" href="../../publications/index.html" rel="" target="">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://www.apa.org/pubs/journals/lhb/">
+    <a class="dropdown-item" href="https://www.apa.org/pubs/journals/lhb/" rel="" target="">
  <span class="dropdown-text">Law &amp; Human Behavior</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../awards/index.html">
+    <a class="nav-link" href="../../awards/index.html" rel="" target="">
  <span class="menu-text">Awards</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-conferences" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-conferences" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Conferences</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-conferences">    
         <li>
-    <a class="dropdown-item" href="../../conferences/index.html">
+    <a class="dropdown-item" href="../../conferences/index.html" rel="" target="">
  <span class="dropdown-text">2023 AP-LS Conference</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../conferences/preconference.html">
+    <a class="dropdown-item" href="../../conferences/preconference.html" rel="" target="">
  <span class="dropdown-text">Preconference Workshops</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../conferences/schedule.html">
+    <a class="dropdown-item" href="../../conferences/schedule.html" rel="" target="">
  <span class="dropdown-text">Program &amp; Schedule</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../resources/index.html">
+    <a class="nav-link" href="../../resources/index.html" rel="" target="">
  <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../membership/membership.html">
+    <a class="nav-link" href="../../membership/membership.html" rel="" target="">
  <span class="menu-text">Membership</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -193,7 +196,7 @@ ul.task-list li input[type="checkbox"] {
             </div>
             
                                     <div class="quarto-categories">
-                                <div class="quarto-category">Early Career</div>
+                                <div class="quarto-category">Early Career Professionals</div>
                                 <div class="quarto-category">Grants-in-Aid</div>
                             </div>
                                     
@@ -218,12 +221,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="vspace">
 
 </div>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Note
 </div>
 </div>
@@ -235,16 +238,14 @@ Note
 <div class="vspace">
 
 </div>
-<div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Description</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Eligibility</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">How to Apply</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Proposal Instructions and Guidelines</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false">Proposal Review Criteria</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false">Award Recipients</a></li></ul>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Description</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Eligibility</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">How to Apply</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Proposal guidelines</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false">Proposal Review Criteria</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-6" role="tab" aria-controls="tabset-1-6" aria-selected="false">Award Recipients</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>The AP-LS Committee on Early Career Professionals (ECPs) was formed in 2007 to initiate programs geared toward issues commonly faced by ECPs. ECPs face a number of unique challenges and issues when making the transition from graduate study to professional life. More than ever, today’s ECPs are likely to struggle with juggling multiple roles. Challenges faced by ECPs include financial concerns or strains, meeting licensure requirements, developing a professional identify, obtaining tenure, and enhancement of health and wellness, among other issues (Green &amp; Hawley, 2009).</p>
 <p>The purpose of this award is to support AP-LS members who are ECPs in conducting research related to psychology and law. It is the committee’s desire that these awards are not limited only to members who are psychologists, but instead open to AP-LS members from all backgrounds.</p>
 <p><strong>Award amounts</strong></p>
-<p>Funding up to $5,000 per award is available.</p>
-<p>Funding should primarily support research activities and data collection efforts (e.g., equipment, participant payments, software data transcription, hourly payment for research assistants, and expenses incurred at sites away from the home institution while collecting data). Travel to conferences and salary expenses are not eligible costs.</p>
-<p>Funds for successful proposals will be awarded to the PI’s academic institution (via the institution’s Office of Sponsored Research or Foundation). No institutional indirect cost recovery will be permitted.</p>
+<p>Funding up to $5,000 per award is available. Funding should primarily support research activities and data collection efforts (e.g., equipment, participant payments, software data transcription, hourly payment for research assistants, and expenses incurred at sites away from the home institution while collecting data). Travel to conferences and salary expenses are not eligible costs. Funds for successful proposals will be awarded to the PI’s academic institution (via the institution’s Office of Sponsored Research or Foundation). No institutional indirect cost recovery will be permitted.</p>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p><strong>To receive an award:</strong></p>
@@ -254,61 +255,47 @@ Note
 <li><p>Applicants may submit only one award proposal per funding cycle. In addition, to maximize the impact of the program, a strong preference will be given to those applicants who never have received an AP-LS ECP Grants-in-Aid.</p></li>
 <li><p>Under exceptional circumstances, the committee may consider a second award. The possibility of a second award will be a rare occurrence, and the previous award must be completed prior to submitting a second proposal.</p></li>
 <li><p>Proposals that represent “seed money” for larger projects and proposals that are for “standalone” projects will be accepted.</p></li>
-<li><p>Applicants are encouraged but not required to secure matched funding from employers to support the proposed research.</p></li>
+<li><p>Applicants are encouraged but not required to secure matched funding from employers to support the proposed research.</p>
+<p></p>
+</li>
 <li><p>All applicants and any co-applicants must be active members of AP-LS.</p></li>
-<li><p>Students are not eligible to receive an award.</p></li>
 </ul>
+<div class="{callout-note}">
+<p>These awards are not limited only to AP-LS members who are psychologists; they are open to members from all backgrounds.</p>
+<p>But students are not eligible to receive an award.</p>
+</div>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <p>Submit a complete proposal to the online portal by October 15 at 11:59 PST.</p>
 <p><a class="btn btn-primary" href="https://awards.ap-ls.org/default.asp" role="button">Click to Apply</a></p>
-<p>A complete application includes:</p>
-<ul>
-<li>A short grant proposal (see proposal instructions and guidelines for details)</li>
-<li>A project timeline and a proposed budget (see proposal instructions and guidelines for details)</li>
-<li>A CV for each PI and co-PI contributing to the project, including a list of “significant collaborators” that includes dissertation and master’s thesis advisors, current and past students, co-authors within the last 5 years, editors who have edited a book in which you have a chapter published, and authors who have published in a book you have edited</li>
-<li>Suggestions for at least five suggested reviewers for the project with expertise in the content area of the proposal: Suggested reviewers should not include anyone who might have a significant conflict of interest in reviewing the proposal (defined as “significant collaborators” in CV section). Please include the full name and email address of each suggested reviewer.</li>
-</ul>
-<div class="callout-caution callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Danger
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>All project-related materials (i.e., abstract, description, timeline, budget) should be blinded. Failure to blind materials will disqualify the applicants from the program.**</p>
-</div>
-</div>
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
 <p>Proposal should include:</p>
 <ol type="1">
 <li><p>PI and co-PI personal information and affiliations;</p></li>
-<li><p>Status of the human subjects review for the project (approval must be obtained prior to disbursement of the award);</p></li>
+<li><p>status of the human subjects review for the project (approval must be obtained prior to disbursement of the award);</p></li>
 <li><p>explanation regarding attempts to secure matched funding from employer (Contact the ECP committee with any questions);</p></li>
 <li><p>A 150-word abstract describing the proposed research;</p></li>
-<li><p>A five-page single-spaced project description with 1-inch margins and 12-pt Times New Roman font or similar. The description should include:</p>
-<ul>
-<li><p><strong>Statement of the problem:</strong> A clear statement of the research problem and its significance to psychology and law</p></li>
-<li><p><strong>Overview of the relation of the problem to the state of the field:</strong> a concise overview of the relevant empirical literature, theoretical background, and/or law related to the research problem</p></li>
-<li><p><strong>Project method:</strong> a detailed description of the methodology and analytical strategies to be used</p></li>
-<li><p><strong>Anticipated contribution:</strong> a brief description of the significance of the project within the field of psychology and law</p></li>
-<li><p>A <strong>reference</strong> list (does not count toward the page limit)</p></li>
-</ul></li>
-<li><p>A project timeline and a proposed budget that details anticipated expenditures and a budget justification that links the requested funds to the proposed activities</p>
-<p><em>If the applicant has secured additional funding for the proposed research from another funding source, please provide an explanation of how the external funds will be used—additional funding is not required and is not considered among the evaluation criteria</em></p></li>
-<li><p>Suggestions for at least five suggested reviewers for the project with expertise in the content area of the proposal</p>
-<p>Suggested reviewers should not include anyone who might have a significant conflict of interest in reviewing the proposal (defined as “significant collaborators” in CV section). Please include the full name and email address of each suggested reviewer.</p></li>
+<li><p>A five-page single-spaced project description with 1-inch margins and 12-pt Times New Roman font or similar. The description should include:</p></li>
 </ol>
-<div class="callout-caution callout callout-style-default callout-captioned">
+<ul>
+<li><p>Statement of the problem. A clear statement of the research problem and its significance to psychology and law;</p></li>
+<li><p>Overview of the relation of the problem to the state of the field: a concise overview of the relevant empirical literature, theoretical background, and/or law related to the research problem;</p></li>
+<li><p>Project method: a detailed description of the methodology and analytical strategies to be used;</p></li>
+<li><p>Anticipated contribution: a brief description of the significance of the project within the field of psychology and law.</p></li>
+</ul>
+<ol start="6" type="1">
+<li><p>A reference list (does not count toward the page limit);</p></li>
+<li><p>A CV for each PI and co-PI contributing to the project, including a list of “significant collaborators” that includes dissertation and master’s thesis advisors, current and past students, co-authors within the last 5 years, editors who have edited a book in which you have a chapter published, and authors who have published in a book you have edited;</p></li>
+<li><p>A project timeline and a proposed budget that details anticipated expenditures and a budget justification that links the requested funds to the proposed activities (If the applicant has secured additional funding for the proposed research from another funding source, please provide an explanation of how the external funds will be used—additional funding is not required and is not considered among the evaluation criteria);</p></li>
+<li><p>Suggestions for at least five suggested reviewers for the project with expertise in the content area of the proposal: Suggested reviewers should not include anyone who might have a significant conflict of interest in reviewing the proposal (defined as “significant collaborators” in CV section). Please include the full name and email address of each suggested reviewer.</p></li>
+</ol>
+<div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Keep in mind
 </div>
 </div>
@@ -329,7 +316,7 @@ Keep in mind
 </ol>
 </div>
 <div id="tabset-1-6" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-6-tab">
-<p>Awardees must submit yearly progress reports on <strong>November 15</strong> of each year until the project is complete.</p>
+<p>Awardees must submit yearly progress reports on <strong>Nov.&nbsp;15</strong> of each year until the project is complete.</p>
 <p>Upon completion of the project, awardees must submit an end-of-project report (to be displayed on our website) and must present the results of their research at either a subsequent AP-LS conference or in the division’s APA program (applicant’s choice).</p>
 </div>
 </div>
@@ -365,9 +352,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -432,6 +433,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -475,6 +562,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left"><b>© 2023 American Psychology-Law Society</b> <br> made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
