@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/resources/job-postings/index.html",
+    "items": []
+  },
+  {
     "listing": "/resources/pets/index.html",
     "items": [
       "/resources/pets/posts/Atlas/index.html",
@@ -44,10 +48,6 @@
       "/resources/pets/posts/Wonton/index.html",
       "/resources/pets/posts/Zoey/index.html"
     ]
-  },
-  {
-    "listing": "/resources/job-postings/index.html",
-    "items": []
   },
   {
     "listing": "/resources/videos/index.html",
