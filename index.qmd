@@ -31,7 +31,6 @@ carousel("gallery-carousel", 5000,
 ```
 
 :::
-:::
 
 ::: {#gallery .column-page}
 :::
