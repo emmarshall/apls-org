@@ -1,0 +1,1545 @@
+---
+title: August 2023
+date: 8/1/2023
+image: featured.jpg 
+---
+
+```{=html}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<!--[if gte mso 9]>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="x-apple-disable-message-reformatting">
+  <!--[if !mso]><!--><meta http-equiv="X-UA-Compatible" content="IE=edge"><!--<![endif]-->
+  <title></title>
+  
+    <style type="text/css">
+      @media only screen and (min-width: 620px) {
+  .u-row {
+    width: 600px !important;
+  }
+  .u-row .u-col {
+    vertical-align: top;
+  }
+
+  .u-row .u-col-11p09 {
+    width: 66.54px !important;
+  }
+
+  .u-row .u-col-11p25 {
+    width: 67.5px !important;
+  }
+
+  .u-row .u-col-33p33 {
+    width: 199.98px !important;
+  }
+
+  .u-row .u-col-50 {
+    width: 300px !important;
+  }
+
+  .u-row .u-col-66p67 {
+    width: 400.02px !important;
+  }
+
+  .u-row .u-col-77p66 {
+    width: 465.96px !important;
+  }
+
+  .u-row .u-col-100 {
+    width: 600px !important;
+  }
+
+}
+
+@media (max-width: 620px) {
+  .u-row-container {
+    max-width: 100% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .u-row .u-col {
+    min-width: 320px !important;
+    max-width: 100% !important;
+    display: block !important;
+  }
+  .u-row {
+    width: 100% !important;
+  }
+  .u-col {
+    width: 100% !important;
+  }
+  .u-col > div {
+    margin: 0 auto;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+table,
+tr,
+td {
+  vertical-align: top;
+  border-collapse: collapse;
+}
+
+p {
+  margin: 0;
+}
+
+.ie-container table,
+.mso-container table {
+  table-layout: fixed;
+}
+
+* {
+  line-height: inherit;
+}
+
+a[x-apple-data-detectors='true'] {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+table, td { color: #000000; } #u_body a { color: #1c3366; text-decoration: underline; } #u_content_text_2 a { color: #ffffff; } #u_content_text_23 a { color: #ffffff; } #u_content_text_24 a { color: #ffffff; } #u_content_text_29 a { color: #ffffff; } #u_content_text_30 a { color: #ffffff; } @media (max-width: 480px) { #u_content_image_1 .v-src-width { width: 100% !important; } #u_content_image_1 .v-src-max-width { max-width: 100% !important; } #u_column_32 .v-col-padding { padding: 15px 15px 0px !important; } }
+    </style>
+  
+  
+
+</head>
+
+<body class="clean-body u_body" style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;background-color: #e7e7e7;color: #000000">
+  <!--[if IE]><div class="ie-container"><![endif]-->
+  <!--[if mso]><div class="mso-container"><![endif]-->
+  <table id="u_body" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;min-width: 320px;Margin: 0 auto;background-color: #e7e7e7;width:100%" cellpadding="0" cellspacing="0">
+  <tbody>
+  <tr>
+    <td style="display:none !important;visibility:hidden;mso-hide:all;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">
+      Catch up on the latest.
+    </td>
+  </tr>
+  
+  <tr style="vertical-align: top">
+    <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top">
+    <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" style="background-color: #e7e7e7;"><![endif]-->
+    
+  
+  
+<div class="u-row-container" style="padding: 0px;background-color: transparent">
+  <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #1c3366;">
+    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: #1c3366;"><![endif]-->
+      
+<!--[if (mso)|(IE)]><td align="center" width="300" class="v-col-padding" style="width: 300px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+<div class="u-col u-col-50" style="max-width: 320px;min-width: 300px;display: table-cell;vertical-align: top;">
+  <div style="height: 100%;width: 100% !important;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"><!--<![endif]-->
+  
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:15px 15px 15px 25px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="font-size: 14px; line-height: 140%;"><strong>AP-LS Monthly E-News</strong></p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+<!--[if (mso)|(IE)]><td align="center" width="300" class="v-col-padding" style="width: 300px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+<div class="u-col u-col-50" style="max-width: 320px;min-width: 300px;display: table-cell;vertical-align: top;">
+  <div style="height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
+  
+<table id="u_content_text_2" style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="font-size: 14px; line-height: 140%; text-align: center;"><strong><a rel="noopener" href="https://www.facebook.com/APLS41" target="_blank">Facebook</a> | <a rel="noopener" href="https://twitter.com/APLS41" target="_blank">Twitter</a> | <a rel="noopener" href="https://www.linkedin.com/groups/8246980/" target="_blank">LinkedIn</a></strong></p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+  
+
+
+  
+  
+<div class="u-row-container" style="padding: 0px;background-color: transparent">
+  <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;">
+    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: #ffffff;"><![endif]-->
+      
+<!--[if (mso)|(IE)]><td align="center" width="600" class="v-col-padding" style="width: 600px;padding: 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+<div class="u-col u-col-100" style="max-width: 320px;min-width: 600px;display: table-cell;vertical-align: top;">
+  <div style="height: 100%;width: 100% !important;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"><!--<![endif]-->
+  
+<table id="u_content_image_1" style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:0px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td style="padding-right: 0px;padding-left: 0px;" align="center">
+      
+      <img align="center" border="0" src="https://apls.memberclicks.net/assets/site/AP-LS_full_logo.png" alt="Image" title="Image" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 76%;max-width: 433.2px;" width="433.2" class="v-src-width v-src-max-width"/>
+      
+    </td>
+  </tr>
+</table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+  
+
+
+  
+  
+<div class="u-row-container" style="padding: 0px;background-color: transparent">
+  <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;">
+    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: #ffffff;"><![endif]-->
+      
+<!--[if (mso)|(IE)]><td align="center" width="67" class="v-col-padding" style="background-color: #ffffff;width: 67px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+<div class="u-col u-col-11p25" style="max-width: 320px;min-width: 67.5px;display: table-cell;vertical-align: top;">
+  <div style="background-color: #ffffff;height: 100%;width: 100% !important;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"><!--<![endif]-->
+  
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+<!--[if (mso)|(IE)]><td align="center" width="465" class="v-col-padding" style="background-color: #f8f8f8;width: 465px;padding: 10px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+<div class="u-col u-col-77p66" style="max-width: 320px;min-width: 465.96px;display: table-cell;vertical-align: top;">
+  <div style="background-color: #f8f8f8;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 10px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
+  
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="font-size: 14px; line-height: 140%; text-align: center;"><strong>Welcome to the August 2023</strong></p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"><strong>American Psychology-Law Society (AP-LS) Newsletter</strong></p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"> </p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;">Our monthly Newsletter provides information about activities, upcoming events, and resources to connect the psychology-law community.</p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"> </p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;">AP-LS aspires to excel as a valuable, effective, and influential organization advancing the science of psychology-law and the translation of psychology-law knowledge into practice and policy. </p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+<!--[if (mso)|(IE)]><td align="center" width="66" class="v-col-padding" style="background-color: #ffffff;width: 66px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+<div class="u-col u-col-11p09" style="max-width: 320px;min-width: 66.54px;display: table-cell;vertical-align: top;">
+  <div style="background-color: #ffffff;height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
+  
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+  
+
+
+  
+  
+<div class="u-row-container" style="padding: 0px;background-color: transparent">
+  <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
+    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: transparent;"><![endif]-->
+      
+<!--[if (mso)|(IE)]><td align="center" width="600" class="v-col-padding" style="width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+<div class="u-col u-col-100" style="max-width: 320px;min-width: 600px;display: table-cell;vertical-align: top;">
+  <div style="height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
+  
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td style="padding-right: 0px;padding-left: 0px;" align="center">
+      
+      <img align="center" border="0" src="https://s3.amazonaws.com/oasis-prod01-unlayer/1689956701177-shutterstock_1014834241+%281%29.jpg" alt="" title="" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 580px;" width="580" class="v-src-width v-src-max-width"/>
+      
+    </td>
+  </tr>
+</table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+  
+
+
+  
+  
+<div class="u-row-container" style="padding: 0px;background-color: transparent">
+  <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;">
+    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: #ffffff;"><![endif]-->
+      
+<!--[if (mso)|(IE)]><td align="center" width="600" class="v-col-padding" style="width: 600px;padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+<div class="u-col u-col-100" style="max-width: 320px;min-width: 600px;display: table-cell;vertical-align: top;">
+  <div style="height: 100%;width: 100% !important;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"><!--<![endif]-->
+  
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <h2 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-family: arial,helvetica,sans-serif; font-size: 19px; font-weight: 400;"><p><strong>APA President-Elect Candidates Respond to AP-LS Questions</strong></p></h2>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">The AP-LS Executive Committee asked each candidate running for APA President-Elect to respond to three questions (developed in 2022) so that AP-LS members could learn about the candidates' views on issues relevant to AP-LS. Three of the four candidates provided responses, available below. Although AP-LS does not endorse candidates, we encourage you to read the responses so you can make an informed decision based on their qualifications and thoughts on the AP-LS mission. APA members should receive an APA President-Elect ballot via email on <strong>August 1</strong>.</p>
+<p style="font-size: 14px; line-height: 140%;"><span style="font-family: 'trebuchet ms', geneva; line-height: 19.6px;"><span style="font-size: 11pt; color: #000000; white-space-collapse: preserve; line-height: 19.6px;"> </span></span></p>
+<p style="line-height: 140%;"><a rel="noopener" href="https://drive.google.com/file/d/1OWcDR7YKicU3N7TF-iGwdHByyQdVwgI7/view?usp=drive_link" target="_blank"><strong>Read Dr. Debra Kawahara's Responses</strong></a></p>
+<p style="line-height: 140%;"> </p>
+<p style="line-height: 140%;"><a rel="noopener" href="https://drive.google.com/file/d/1_Ei-tQhpgiwd0EHtwax__pHlFvLSZwQ2/view?usp=sharing" target="_blank"><strong>Read Dr. Margaret Bull Kovera's Responses</strong></a></p>
+<p style="line-height: 140%;"> </p>
+<p style="line-height: 140%;"><a rel="noopener" href="https://drive.google.com/file/d/13y_z-hiMrb5jQEhqQ7oPk502a7XuxWfC/view?usp=sharing" target="_blank"><strong>Read Dr. Grant Rich's Responses</strong></a></p>
+<p style="font-size: 14px; line-height: 140%;"><span style="font-family: 'trebuchet ms', geneva; line-height: 19.6px;"><span style="font-size: 11pt; color: #000000; white-space-collapse: preserve; line-height: 19.6px;"><br /></span><span style="font-size: 11pt; color: #000000; white-space-collapse: preserve; line-height: 19.6px;"> </span></span></p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;border-top: 1px solid #BBBBBB;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+    <tbody>
+      <tr style="vertical-align: top">
+        <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;font-size: 0px;line-height: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+          <span>&#160;</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <h1 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;"><p><strong>New Voices in Dispute Resolution Mentorship Program</strong></p></h1>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">The Association of American Law School's Section on Alternative Dispute Resolution is pleased to announce the creation of a new mentorship program entitled “<em>New Voices in Dispute Resolution</em>.”  </p>
+<p style="line-height: 140%;"> </p>
+<p style="line-height: 140%;"><em>New Voices in Dispute Resolution</em> is a year-long mentorship program in which junior scholars will be paired with a senior mentor in the field for the purposes of obtaining feedback on their current academic scholarship. During the fall semester, the mentor will be available to discuss one academic project related to dispute resolution that the junior scholar is developing and provide feedback on a draft of the associated article. In the spring, the mentor will host the junior scholar at their institution to present the article, inviting both in person and online attendees. </p>
+<p style="font-size: 14px; line-height: 140%;"> </p>
+<p style="line-height: 140%;">Click <a rel="noopener" href="https://drive.google.com/file/d/1vNiFz9uW9zhdc8tG73TK3pOTcjed22mH/view?usp=sharing" target="_blank"><strong>here</strong></a> for further details on the new program and application requirements. Applications are due<strong> August 3</strong><strong>rd</strong>. </p>
+<p style="line-height: 140%;"> </p>
+<p style="font-size: 14px; line-height: 140%;">Please address any questions to Donna Shestowsky, Chair of the AALS Section on Alternative Dispute Resolution, at <a rel="noopener" href="mailto:dshest@ucdavis.edu?subject=New%20Voices%20in%20Dispute%20Resolution" target="_blank">dshest@ucdavis.edu</a>.</p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;border-top: 1px solid #BBBBBB;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+    <tbody>
+      <tr style="vertical-align: top">
+        <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;font-size: 0px;line-height: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+          <span>&#160;</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <h1 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;"><p><strong>Call for Nominations: Advocacy Coordinating Committee</strong></p></h1>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">Nominations are sought for the Advocacy Coordinating Committee (ACC). It consists of no less than 12 members serving 3-year terms. Four new ACC member appointments will begin on January 1, 2024 and end December 31, 2026. Nominations may originate from individuals (including self-nominations), APA boards and committees, APA divisions, and state, provincial and territorial psychological associations (SPTAs). Additional information about the committee can be found <strong><a rel="noopener" href="https://drive.google.com/file/d/1b4LbsYJ5JJiSHlQcRJNjAz4sKa_xPkpo/view?usp=sharing" target="_blank">here. </a></strong></p>
+<p style="line-height: 140%;"> </p>
+<p style="line-height: 140%;"><strong>Deadline: September 8, 2023</strong></p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;border-top: 1px solid #BBBBBB;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+    <tbody>
+      <tr style="vertical-align: top">
+        <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;font-size: 0px;line-height: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+          <span>&#160;</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <h1 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;"><p><strong>APA Campus Ambassador Program -- Apply Today</strong></p></h1>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">The recently relaunched APA Campus Ambassador Program is a unique volunteer opportunity for student members to spread APA’s mission and connect with their campus peers—at school and across the country. Please share with your member groups. The deadline to apply is <strong>August 11. </strong><a href="https://urldefense.com/v3/__https:/click.info.apa.org/?qs=528323b7b4c0b6dea84fdc5c6d11cd1c2c2bb9487e4e3b99c47a6b8aac79bfaeb2aaf21ecda561e76beee5c6dde968ca000627b6d6eae7f5__;!!Ky_hqJ5n-ILn0fk!BGYGuCVnirFE2uVy9KqrpyLntFJFgn73Q9qafI3-kmc51LGblsst9WMI2aj-jYxNNT47op7KRH4h4qFvyXuFsk7R$">Read More</a>.</p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;border-top: 1px solid #BBBBBB;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+    <tbody>
+      <tr style="vertical-align: top">
+        <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;font-size: 0px;line-height: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+          <span>&#160;</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <h2 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-family: arial,helvetica,sans-serif; font-size: 20px; font-weight: 400;"><p><strong>Apply for a position on the APAGS Full Committee or one of our Subcommittees!</strong></p></h2>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">Full Committee openings:</p>
+<ul>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Chair-elect</p>
+</li>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Members-at-Large</p>
+</li>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Chair, Advocacy Coordinating Team (ACT)</p>
+</li>
+</ul>
+<p style="font-size: 14px; line-height: 140%;"> </p>
+<p style="line-height: 140%;">Subcommittee openings:</p>
+<ul>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Vice chair, Science Committee</p>
+</li>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Vice chair, Convention Committee</p>
+</li>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Advocacy Coordinating Team (ACT)</p>
+</li>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Committee for the Advancement of Racial and Ethnic Diversity (CARED)</p>
+</li>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Committee on Sexual Orientation and Gender Diversity (CSOGD)</p>
+</li>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Convention Committee</p>
+</li>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Science Committee</p>
+</li>
+</ul>
+<p style="font-size: 14px; line-height: 140%;">The deadline for all applications is <strong>September 1, 2023 at 5pm EST</strong>. <a href="https://urldefense.com/v3/__https:/click.info.apa.org/?qs=528323b7b4c0b6de01f90b6806d54c75e359b27a8c3798b376debaf8393574b97c4e39c6591a4539f8c37a696aee54147809065186b97d56__;!!Ky_hqJ5n-ILn0fk!BGYGuCVnirFE2uVy9KqrpyLntFJFgn73Q9qafI3-kmc51LGblsst9WMI2aj-jYxNNT47op7KRH4h4qFvyZA5C5Cg$">Read More</a>. </p>
+<p style="font-size: 14px; line-height: 140%;"> </p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;border-top: 1px solid #BBBBBB;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+    <tbody>
+      <tr style="vertical-align: top">
+        <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;font-size: 0px;line-height: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+          <span>&#160;</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <h1 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;"><p><strong>APA Updates</strong></p></h1>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">APA Council will be meeting in Washington, DC on August 1-3, 2023. Proposals being considered are resolutions to oppose the use of mental health screening questions on bar exams and to support inclusive college admissions in light of the recent Supreme Court decisions in Students for Fair Admissions, Inc. v. Harvard College (2023) and Students for Fair Admissions, Inc. v. University of North Carolina (2023). Council will also be asked to approve the continuing recognition of Forensic Psychology as a specialty and guidelines for both operational psychology and the undergraduate psychology major, among other things.  Your Council Representatives, Jason Cantone and Margaret Bull Kovera, will report on the outcomes stemming from the August Council meeting in the September newsletter.</p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+  
+
+
+  
+  
+<div class="u-row-container" style="padding: 0px;background-color: transparent">
+  <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;">
+    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: #ffffff;"><![endif]-->
+      
+<!--[if (mso)|(IE)]><td align="center" width="600" class="v-col-padding" style="width: 600px;padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+<div class="u-col u-col-100" style="max-width: 320px;min-width: 600px;display: table-cell;vertical-align: top;">
+  <div style="height: 100%;width: 100% !important;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"><!--<![endif]-->
+  
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;border-top: 1px solid #BBBBBB;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+    <tbody>
+      <tr style="vertical-align: top">
+        <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;font-size: 0px;line-height: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+          <span>&#160;</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <h1 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;"><p><strong>Join Division 41 at APA 2023 this Week!</strong></p></h1>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">This year, Division 41 will feature 11 sessions and 61 posters.</p>
+<p style="line-height: 140%;"><br />Join us for an incredible conference with an impressive lineup of speakers and sessions that will enlighten and empower you. You won't want to miss our invited session on the Competency Crisis, where experts will address the national public health crisis surrounding competence-to-stand-trial evaluation and restoration services. We also have a social justice advocacy session that explores psychologists' critical role in de-criminalizing mental illness, and we'll hear from a panel of distinguished experts present a scientific review paper (2.0) on police-induced confessions, examining risk factors and recommendations. Our sessions are chaired by top professionals in the field, including Daniel Murrie, PhD, Tomina Schwenke, PhD, and Saul Kassin, PhD, and feature thought-provoking discussions led by esteemed psychologists. Don't miss your chance to join us for this unforgettable event and gain valuable insights into the most pressing issues in psychology and law today. </p>
+<p style="line-height: 140%;"> </p>
+<p style="line-height: 140%;">We will also have our business meeting, our social hour, and several co-listed sessions with other divisions. Join us this week for an exciting and informative experience! Find additional details at <a href="https://docs.google.com/forms/d/e/1FAIpQLSfGDTrV8wMQUhe6SSE249HNcCdwb5iJxAiFsvV5OdIqNnwZ9w/viewform">convention.apa.org</a> or check out Division 41 programming <a rel="noopener" href="https://drive.google.com/file/d/1QTi8kvJsM0OaPyQAtMDK07Ds6_3PTjvM/view?usp=sharing" target="_blank"><strong>here</strong>.</a></p>
+<p style="line-height: 140%;"><br /><br /></p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;border-top: 1px solid #BBBBBB;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+    <tbody>
+      <tr style="vertical-align: top">
+        <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;font-size: 0px;line-height: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+          <span>&#160;</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <h1 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-size: 22px; font-weight: 400;"><p><strong>Request for Feedback</strong></p></h1>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">The latest AP-LS Scientific Review Paper, “Police-Induced Confessions, 2.0: Risk Factors and Recommendations” draft is available <a href="https://ap-ls.org/publications/spr_2.0#dnldts63839">here</a>. AP-LS Members are encouraged to read the current draft of this scientific review paper.</p>
+<p style="line-height: 140%;"> </p>
+<p style="line-height: 140%;">Members can provide feedback to the authors in one of two ways:</p>
+<ul>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Some of the authors of the review paper will be hosting a session at the APA conference on Saturday, August 5th from 12pm - 12:50pm Walter E. Washington Convention Center, Level 1, <a href="https://s3.amazonaws.com/amz.xcdsystem.com/roommapping/v4jvv78wzk82pjreimea6.jpg?room=989">Room 154A</a> where they will present an overview of the review paper and will receive feedback from attendees.</p>
+</li>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Comments on the paper may also be emailed to the authors of the review paper at apls.srp2@gmail.com.</p>
+</li>
+</ul>
+<p style="line-height: 140%;"> </p>
+<p style="line-height: 140%;">Important Deadlines:</p>
+<ul>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Comments received by <strong>August 21, 2023</strong> will be considered for incorporation into the draft that will be presented at the AP-LS conference in March 2024.</p>
+</li>
+</ul>
+<ul>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Members will have another opportunity to attend a session on the Scientific Review Paper at AP-LS and/or send comments to the authors via email in March 2024.</p>
+</li>
+</ul>
+<p style="line-height: 140%;"> </p>
+<p style="line-height: 140%;">Check out the <a href="https://ap-ls.org/publications/spr_2.0#request-for-feedback">Request for Feedback</a> page on the AP-LS website for more details</p>
+<p style="line-height: 140%;"> </p>
+<p style="line-height: 140%;">Questions or comments on the process of developing an AP-LS Scientific Review Paper may addressed to the Chair of the Scientific Review Paper Committee, Lindsay Malloy (<a rel="noopener" href="mailto:Lindsay.malloy@ontariotechu.ca?subject=AP-LS%20Scientific%20Review%20Paper" target="_blank">Lindsay.malloy@ontariotechu.ca</a>)</p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+  
+
+
+  
+  
+<div class="u-row-container" style="padding: 0px;background-color: transparent">
+  <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;">
+    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: #ffffff;"><![endif]-->
+      
+<!--[if (mso)|(IE)]><td align="center" width="600" class="v-col-padding" style="width: 600px;padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+<div class="u-col u-col-100" style="max-width: 320px;min-width: 600px;display: table-cell;vertical-align: top;">
+  <div style="height: 100%;width: 100% !important;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"><!--<![endif]-->
+  
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;border-top: 1px solid #BBBBBB;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+    <tbody>
+      <tr style="vertical-align: top">
+        <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;font-size: 0px;line-height: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+          <span>&#160;</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <h2 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-family: arial,helvetica,sans-serif; font-size: 20px; font-weight: 400;"><p><strong>Early Career Professionals Speaker Series</strong></p></h2>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">The ECP is continuing our speaker series and is looking for 1-2 volunteers to conduct an interview on working with sexual and gender minority youth populations. The interview will last approximately ten minutes and will be posted on the AP-LS youtube page. Volunteers will receive a $100 honorarium. Please email <a rel="noopener" href="mailto:ecp@ap-ls.org?subject=ECP%20Speaker%20Series" target="_blank">ecp@ap-ls.org</a> if you are interested in participating.</p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;border-top: 1px solid #BBBBBB;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+    <tbody>
+      <tr style="vertical-align: top">
+        <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;font-size: 0px;line-height: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+          <span>&#160;</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <h2 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-family: arial,helvetica,sans-serif; font-size: 20px; font-weight: 400;"><p><strong>Early Career Professionals Practitioner Grant </strong></p></h2>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">Are you an Early Career Professional who practices primarily as a practitioner within the field of psychology and law? Then you may qualify for an ECP Practitioner Grant. Grants can be used to fund a myriad of activities that are novel to the early career stage such as applying for licensure, funds to support preparing for the licensure examination, continuing education activities, developing a private practice, consultation activities, and activities that enhance treatment and evaluation skill sets to name a few. If you are interested in applying, please send an email to <a rel="noopener" href="mailto:ecp@ap-ls.org?subject=ECP%20Practitioner%20Grant" target="_blank">ecp@ap-ls.org</a> with the following information:</p>
+<p style="line-height: 140%;"><strong><br /></strong><strong>Cover letter</strong></p>
+<ul>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">First and last name</p>
+</li>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Year last degree was obtained</p>
+</li>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Email address, telephone number, and mailing address</p>
+</li>
+</ul>
+<p style="line-height: 140%;"> </p>
+<p style="line-height: 140%;"><strong>Letter of intent</strong> (1,500 word maximum) that describes</p>
+<ul>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">your current professional roles and connection to the field of psychology and law</p>
+</li>
+</ul>
+<ul>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">how you intend to use the grant</p>
+</li>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">how receiving the grant will enhance your practice and career growth</p>
+</li>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">how receiving the grant will further the practice of psychology and law</p>
+</li>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">how receiving the grant will contribute to broader impacts to society and the broader mission of AP-LS to increase efforts in diversity, equity, and inclusion</p>
+</li>
+</ul>
+<p style="line-height: 140%;"><strong>Proposed budget</strong> with justification and timeline</p>
+<p style="line-height: 140%;"> </p>
+<p style="line-height: 140%;"><strong>CV</strong><strong><br /><br /></strong></p>
+<p style="line-height: 140%;">Application Deadline:<strong> August 15th, 2023</strong> </p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+  
+
+
+  
+  
+<div class="u-row-container" style="padding: 0px;background-color: transparent">
+  <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;">
+    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: #ffffff;"><![endif]-->
+      
+<!--[if (mso)|(IE)]><td align="center" width="600" class="v-col-padding" style="width: 600px;padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+<div class="u-col u-col-100" style="max-width: 320px;min-width: 600px;display: table-cell;vertical-align: top;">
+  <div style="height: 100%;width: 100% !important;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"><!--<![endif]-->
+  
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;border-top: 1px solid #BBBBBB;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+    <tbody>
+      <tr style="vertical-align: top">
+        <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;font-size: 0px;line-height: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+          <span>&#160;</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <h2 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-family: arial,helvetica,sans-serif; font-size: 20px; font-weight: 400;"><strong>Call for Book Proposals</strong></h2>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">The American Psychology-Law Society invites proposals for new titles in its book series, which is now published by <a href="https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Furldefense.com%2Fv3%2F__https%3A%2Fnam04.safelinks.protection.outlook.com%2F%3Furl%3Dhttps*3A*2F*2Fwww.apa.org*2Fpubs*2Fbooks%26data%3D05*7C01*7Cmkmiller*40unr.edu*7C48cccf52b0234fb97fdf08dac73f441d*7C523b4bfc0ebd4c03b2b96f6a17fd31d8*7C0*7C0*7C638041371838568125*7CUnknown*7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0*3D*7C3000*7C*7C*7C%26sdata%3Dv9QLMb4QTTvrWbAZQOMKNHgUJyOr1JD0FDB5SyTZj*2FU*3D%26reserved%3D0__%3BJSUlJSUlJSUlJSUlJSUlJSUlJSUlJQ!!HgxT5Xd5qx1T!VXMvL9uDMAAs1FF0h9f76yfKr2d_Q39D8DI_lIWVfsU2OAljSLaZhRJe_rUjdrl5HhwDD3uRzD_clxA%24&data=05%7C01%7CMeg.Ternes%40smu.ca%7C8fd4adf7cd3146b195e408daf321898c%7C060b02ae57754360abbae2e29cca6627%7C1%7C0%7C638089622647431830%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=uT2rsAWakdC1t21YQSlVJqdcxPkPJqjwtgMP60A6C0s%3D&reserved=0">APA Books</a>. We publish authored and edited volumes on current issues at the intersection of psychology and law. Books are typically a state of the science synthesis of a body of existing research with implications for practice and/or policy. Authors and editors should have a substantial and recent track record of publication and/or practice in psychology or law, and at least one should hold a doctorate in psychology or closely related behavioral science. If you have a proposal for a new book in the series or you would simply like more information, reach out to a member of the editorial team. We would be happy to tell you more.    </p>
+<p style="line-height: 140%;"> </p>
+<p style="line-height: 140%;">The editorial board members are:</p>
+<div align="left">
+<ul>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Monica Miller, Division 41 Book Series Editor (<a href="https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Furldefense.com%2Fv3%2F__https%3A%2Fnam04.safelinks.protection.outlook.com%2F%3Furl%3Dhttps*3A*2F*2Furldefense.com*2Fv3*2F__https*3A*2Fnam04.safelinks.protection.outlook.com*2F*3Furl*3Dhttp*3A*2F*2Fclicks.memberclicks-mail.net*2Fls*2Fclick*3Fupn*3DHsUOUNFg3nR1hva6MyWKll-2F90Wl-2BVFETani4DdX9uL26ro7DS2uqF8Rp8Sl12RgHfcVgIOFuEwS1bn77jb5UiZQeehnVDR4PgIUGeh463zUL2AEHJJDfuIQHUXN-2F8xervwdH_r8qy3VOnpXrBOnZVHjvLPCVZAdQgPWqqP65dc7nxdMOep0-2FVn2xqUNUUhFsi08zwZhxBiVAA6NSIUDVniXMuDT2kJgOT4q3h3m9plZqVNvxM3zplttL4LSaRsHLPeldAW6b4FOCe4OkXOT3TU-2FAT1e70olBqBPXV97pQZ03hLU8qw0ghiLwW-2FlUyGqvkYiH6-2F-2BLDwkyXPe0sNrcItBSg0SZQa1sxffdTX9cfNTv495AiB91UGOTk6DA9vFJt4s37iMV4DcbWhtE8t8G9Eqvv6BcCZMy-2FgGzzQaThst5BUiRAu1YDOdd0qX7XQ8l8hw10QJROfOj3JJ12uanfF20eGQ-3D-3D*26data*3D05*7C01*7Cmkmiller*40unr.edu*7C8233e19c7dcd450208a708dabc4759dd*7C523b4bfc0ebd4c03b2b96f6a17fd31d8*7C0*7C0*7C638029311902916567*7CUnknown*7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0*3D*7C3000*7C*7C*7C*26sdata*3DHZTiuRtg8i7utHJxPBvpcUPROwZw*2B32bBAj8ydeKtR0*3D*26reserved*3D0__*3BJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUl!!HgxT5Xd5qx1T!WNZCjd72eSRProtQTJSpUAbxeZwU6rmGEUyuVK05zVXK2MJrh7vtmNh-A3wACzDFNNp6XqBwTqUiGxU*24%26data%3D05*7C01*7Cmkmiller*40unr.edu*7C48cccf52b0234fb97fdf08dac73f441d*7C523b4bfc0ebd4c03b2b96f6a17fd31d8*7C0*7C0*7C638041371838568125*7CUnknown*7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0*3D*7C3000*7C*7C*7C%26sdata%3D*2BJnI4UhYsmBlGbpNnUmhTDaKcKmoi1ru4ZpEs007Gf8*3D%26reserved%3D0__%3BJSUlJSUlJSUlJSoqKioqKiolJSoqKioqKioqKioqKioqKiUlKiolJSUlJSUlJSUlJSUlJSUlJSUlJSU!!HgxT5Xd5qx1T!VXMvL9uDMAAs1FF0h9f76yfKr2d_Q39D8DI_lIWVfsU2OAljSLaZhRJe_rUjdrl5HhwDD3uRrXj95GQ%24&amp;data=05%7C01%7CMeg.Ternes%40smu.ca%7C8fd4adf7cd3146b195e408daf321898c%7C060b02ae57754360abbae2e29cca6627%7C1%7C0%7C638089622647431830%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=tZZ4KiV8k9kv7V5qH3b%2BDJ8beGnoHtTqe4l7WmjwGq0%3D&amp;reserved=0">mkmiller@unr.edu</a>)</p>
+</li>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Monique Bowen, Division 41 Book Series Associate Editor (<a href="https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Furldefense.com%2Fv3%2F__https%3A%2Fnam04.safelinks.protection.outlook.com%2F%3Furl%3Dhttps*3A*2F*2Furldefense.com*2Fv3*2F__https*3A*2Fnam04.safelinks.protection.outlook.com*2F*3Furl*3Dhttp*3A*2F*2Fclicks.memberclicks-mail.net*2Fls*2Fclick*3Fupn*3DHsUOUNFg3nR1hva6MyWKll-2F90Wl-2BVFETani4DdX9uL26ro7DS2uqF8Rp8Sl12RgHfcVgIOFuEwS1bn77jb5UiZQeehnVDR4PgIUGeh463zVClyVQyQcIUSoY6opBFGIDw62x_r8qy3VOnpXrBOnZVHjvLPCVZAdQgPWqqP65dc7nxdMOep0-2FVn2xqUNUUhFsi08zwZhxBiVAA6NSIUDVniXMuDT2kJgOT4q3h3m9plZqVNvxM3zplttL4LSaRsHLPeldAW6b4FOCe4OkXOT3TU-2FAT1e70olBqBPXV97pQZ03hLU8qw0ghiLwW-2FlUyGqvkYiH6yaR0tWbOp0IXrujsyTOoBKgsOndyPAttQHMnBH68G4Uq04xvzwGnvpxJnc-2FHICIXRisjSzXx0-2BjL-2B89SIU9J1R7xl3gyshMp0dkBdNvFU2LwG14KRFoqnVQ51iNSHYMrQ8K2efFaNtEdOY0bQnX9Bw-3D-3D*26data*3D05*7C01*7Cmkmiller*40unr.edu*7C8233e19c7dcd450208a708dabc4759dd*7C523b4bfc0ebd4c03b2b96f6a17fd31d8*7C0*7C0*7C638029311902916567*7CUnknown*7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0*3D*7C3000*7C*7C*7C*26sdata*3DVKxDw5F0k7Ki9kIqPTW1Y73O3rIUJPZznBGZu*2F6siZo*3D*26reserved*3D0__*3BJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUl!!HgxT5Xd5qx1T!WNZCjd72eSRProtQTJSpUAbxeZwU6rmGEUyuVK05zVXK2MJrh7vtmNh-A3wACzDFNNp6XqBwE8Qzxok*24%26data%3D05*7C01*7Cmkmiller*40unr.edu*7C48cccf52b0234fb97fdf08dac73f441d*7C523b4bfc0ebd4c03b2b96f6a17fd31d8*7C0*7C0*7C638041371838568125*7CUnknown*7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0*3D*7C3000*7C*7C*7C%26sdata%3DqPW6z4nW1CBZZb0dupPY4jqE7lTNutVxa1gsNuKlya4*3D%26reserved%3D0__%3BJSUlJSUlJSUlJSoqKioqKiolJSoqKioqKioqKioqKioqKiUlKiolJSUlJSUlJSUlJSUlJSUlJSUlJQ!!HgxT5Xd5qx1T!VXMvL9uDMAAs1FF0h9f76yfKr2d_Q39D8DI_lIWVfsU2OAljSLaZhRJe_rUjdrl5HhwDD3uRdxTHx5Q%24&amp;data=05%7C01%7CMeg.Ternes%40smu.ca%7C8fd4adf7cd3146b195e408daf321898c%7C060b02ae57754360abbae2e29cca6627%7C1%7C0%7C638089622647431830%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=AMQW8A%2FK%2FkcyI2qxOMcl9Y6j%2BfKo6wf9wF5738yVchQ%3D&amp;reserved=0">mbowen2@antioch.edu</a>)</p>
+</li>
+<li style="line-height: 19.6px;">
+<p style="line-height: 140%;">Jemour Maddux, Division 41 Book Series Associate Editor (<a href="https://can01.safelinks.protection.outlook.com/?url=https%3A%2F%2Furldefense.com%2Fv3%2F__https%3A%2Fnam04.safelinks.protection.outlook.com%2F%3Furl%3Dhttps*3A*2F*2Furldefense.com*2Fv3*2F__https*3A*2Fnam04.safelinks.protection.outlook.com*2F*3Furl*3Dhttp*3A*2F*2Fclicks.memberclicks-mail.net*2Fls*2Fclick*3Fupn*3DHsUOUNFg3nR1hva6MyWKll-2F90Wl-2BVFETani4DdX9uL26ro7DS2uqF8Rp8Sl12RgHfcVgIOFuEwS1bn77jb5UiZQeehnVDR4PgIUGeh463zWfO-2Fne2t99dram9sLOLYrD_RRJ_r8qy3VOnpXrBOnZVHjvLPCVZAdQgPWqqP65dc7nxdMOep0-2FVn2xqUNUUhFsi08zwZhxBiVAA6NSIUDVniXMuDT2kJgOT4q3h3m9plZqVNvxM3zplttL4LSaRsHLPeldAW6b4FOCe4OkXOT3TU-2FAT1e70olBqBPXV97pQZ03hLU8qw0ghiLwW-2FlUyGqvkYiH6zlBHNnmCUvikB28rMHLbn1jlfUVph0iGEOjBrLGpB1UgmAbeU-2BxWwTAgSSKZkT9VPsGaD1UrCj-2FMR3sD2l0c5fE7WO4dZzTDf-2BkbUB6GlJGIVfcU3tvxKkPjlD4vJeXsDLZ1dGyWNnpHnnFJg-2FRFjg-3D-3D*26data*3D05*7C01*7Cmkmiller*40unr.edu*7C8233e19c7dcd450208a708dabc4759dd*7C523b4bfc0ebd4c03b2b96f6a17fd31d8*7C0*7C0*7C638029311902916567*7CUnknown*7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0*3D*7C3000*7C*7C*7C*26sdata*3DuumroyeF0L4MlYlCIt1166YHbIyWbfk9eCbH*2FxNGjc4*3D*26reserved*3D0__*3BJSUlJSUlJSUlJSUlJSUlJSUlJSUlJSUl!!HgxT5Xd5qx1T!WNZCjd72eSRProtQTJSpUAbxeZwU6rmGEUyuVK05zVXK2MJrh7vtmNh-A3wACzDFNNp6XqBwznYJZbA*24%26data%3D05*7C01*7Cmkmiller*40unr.edu*7C48cccf52b0234fb97fdf08dac73f441d*7C523b4bfc0ebd4c03b2b96f6a17fd31d8*7C0*7C0*7C638041371838724351*7CUnknown*7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0*3D*7C3000*7C*7C*7C%26sdata%3D5c6X4dRcIru27bU1moh4nIy8*2FtiJmU2Pu1g3YLco5sQ*3D%26reserved%3D0__%3BJSUlJSUlJSUlJSoqKioqKiolJSoqKioqKioqKioqKioqKiUlKiolJSUlJSUlJSUlJSUlJSUlJSUlJSU!!HgxT5Xd5qx1T!VXMvL9uDMAAs1FF0h9f76yfKr2d_Q39D8DI_lIWVfsU2OAljSLaZhRJe_rUjdrl5HhwDD3uR_BNyczI%24&amp;data=05%7C01%7CMeg.Ternes%40smu.ca%7C8fd4adf7cd3146b195e408daf321898c%7C060b02ae57754360abbae2e29cca6627%7C1%7C0%7C638089622647431830%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=JhjmCBapDUoSu6Sv%2FpndrFdYJQO%2B6oUocv3r3oKxHwg%3D&amp;reserved=0">jm@rule702.com</a>) </p>
+</li>
+</ul>
+</div>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;border-top: 1px solid #BBBBBB;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+    <tbody>
+      <tr style="vertical-align: top">
+        <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;font-size: 0px;line-height: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+          <span>&#160;</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <h2 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-family: arial,helvetica,sans-serif; font-size: 20px; font-weight: 400;"><p><strong>Executive Committee</strong></p></h2>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%;">For more information or if you wish to contact a member of the AP-LS Executive Committee, details can be found <a rel="noopener" href="https://ap-ls.org/about/leadership.html" target="_blank">here</a>.</p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+  
+
+
+  
+  
+<div class="u-row-container" style="padding: 0px;background-color: transparent">
+  <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
+    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: transparent;"><![endif]-->
+      
+<!--[if (mso)|(IE)]><td align="center" width="600" class="v-col-padding" style="background-color: #1c3366;width: 600px;padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+<div class="u-col u-col-100" style="max-width: 320px;min-width: 600px;display: table-cell;vertical-align: top;">
+  <div style="background-color: #1c3366;height: 100%;width: 100% !important;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"><!--<![endif]-->
+  
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <h2 style="margin: 0px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word; font-family: arial,helvetica,sans-serif; font-size: 20px; font-weight: 400;"><strong>On The Job or Postdoc Market? AP-LS Job Postings</strong></h2>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+  
+
+
+  
+  
+<div class="u-row-container" style="padding: 0px;background-color: transparent">
+  <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;">
+    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: #ffffff;"><![endif]-->
+      
+<!--[if (mso)|(IE)]><td align="center" width="200" class="v-col-padding" style="width: 200px;padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+<div class="u-col u-col-33p33" style="max-width: 320px;min-width: 200px;display: table-cell;vertical-align: top;">
+  <div style="height: 100%;width: 100% !important;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"><!--<![endif]-->
+  
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr>
+    <td style="padding-right: 0px;padding-left: 0px;" align="center">
+      <a href="https://ap-ls.org/resources/job-postings/" target="_blank">
+      <img align="center" border="0" src="https://apls.memberclicks.net/assets/Email_Files/Emails_Newsletter/image-asset.jpg" alt="" title="" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 180px;" width="180" class="v-src-width v-src-max-width"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+<!--[if (mso)|(IE)]><td align="center" width="400" class="v-col-padding" style="width: 400px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+<div class="u-col u-col-66p67" style="max-width: 320px;min-width: 400px;display: table-cell;vertical-align: top;">
+  <div style="height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
+  
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:20px 15px 5px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%; font-size: 14px; text-align: center;"><span style="font-size: 14px; line-height: 19.6px;">Check out <strong><a rel="noopener" href="https://ap-ls.org/resources/job-postings/" target="_blank">AP-LS's Job Postings Page</a></strong> for up-to-date information on available psychology-law positions.</span></p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <!--[if mso]><style>.v-button {background: transparent !important;}</style><![endif]-->
+<div align="center">
+  <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://ap-ls.org/resources/job-postings/" style="height:37px; v-text-anchor:middle; width:236px;" arcsize="11%"  stroke="f" fillcolor="#1c3366"><w:anchorlock/><center style="color:#FFFFFF;"><![endif]-->
+    <a href="https://ap-ls.org/resources/job-postings/" target="_blank" class="v-button" style="box-sizing: border-box;display: inline-block;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #1c3366; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:62%; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 14px;">
+      <span style="display:block;padding:10px 20px;line-height:120%;"><span style="font-size: 14px; line-height: 16.8px;">View Job Postings</span></span>
+    </a>
+    <!--[if mso]></center></v:roundrect><![endif]-->
+</div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+  
+
+
+  
+  
+<div class="u-row-container" style="padding: 0px;background-color: transparent">
+  <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
+    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: transparent;"><![endif]-->
+      
+<!--[if (mso)|(IE)]><td align="center" width="600" class="v-col-padding" style="background-color: #1c3366;width: 600px;padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+<div class="u-col u-col-100" style="max-width: 320px;min-width: 600px;display: table-cell;vertical-align: top;">
+  <div style="background-color: #1c3366;height: 100%;width: 100% !important;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"><!--<![endif]-->
+  
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <h2 style="margin: 0px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word; font-family: arial,helvetica,sans-serif; font-size: 20px; font-weight: 400;"><strong>Newsletter Editorial Board</strong></h2>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+  
+
+
+  
+  
+<div class="u-row-container" style="padding: 0px;background-color: transparent">
+  <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #1c3366;">
+    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: #1c3366;"><![endif]-->
+      
+<!--[if (mso)|(IE)]><td align="center" width="300" class="v-col-padding" style="width: 300px;padding: 5px 10px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+<div class="u-col u-col-50" style="max-width: 320px;min-width: 300px;display: table-cell;vertical-align: top;">
+  <div style="height: 100%;width: 100% !important;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 5px 10px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"><!--<![endif]-->
+  
+<table id="u_content_text_23" style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:0px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; color: #ffffff; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="font-size: 14px; line-height: 140%; text-align: center;">EDITOR</p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="font-size: 14px; line-height: 19.6px;">Meg Ternes<br /><a rel="noopener" href="mailto:meg.ternes@smu.ca" target="_blank">meg.ternes@smu.ca</a></span></p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"> </p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;">ASSOCIATE EDITOR</p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="font-size: 14px; line-height: 19.6px;">Taylor Petty</span></p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="font-size: 14px; line-height: 19.6px;"><a rel="noopener" href="mailto:tepetty@usi.edu" target="_blank">tepetty@usi.edu</a> </span></p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"> </p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;">STUDENT ASSISTANT EDITOR</p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="font-size: 14px; line-height: 19.6px;">Jennifer McArthur<br /></span></p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="font-size: 14px; line-height: 19.6px;"><a rel="noopener" href="mailto:jennifer.mcarthur@dal.ca" target="_blank">jennifer.mcarthur@dal.ca</a> </span></p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"> </p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;">CONTENT EDITORS–RESEARCH BRIEFS</p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="font-size: 14px; line-height: 19.6px;">Kelly McWilliams<br /></span><span style="font-size: 14px; line-height: 19.6px;"><a rel="noopener" href="mailto:kmcwilliams@jjay.cuny.edu" target="_blank">kmcwilliams@jjay.cuny.edu</a><br /><br /></span></p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="font-size: 14px; line-height: 19.6px;">Veronica Johnson<br /><a rel="noopener" href="mailto:vjohnson@jjay.cuny.edu" target="_blank">vjohnson@jjay.cuny.edu</a></span></p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"> </p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"> </p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"> </p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+<!--[if (mso)|(IE)]><td align="center" width="300" class="v-col-padding" style="width: 300px;padding: 10px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;" valign="top"><![endif]-->
+<div class="u-col u-col-50" style="max-width: 320px;min-width: 300px;display: table-cell;vertical-align: top;">
+  <div style="height: 100%;width: 100% !important;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 10px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;border-radius: 0px;-webkit-border-radius: 0px; -moz-border-radius: 0px;"><!--<![endif]-->
+  
+<table id="u_content_text_24" style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:0px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; color: #ffffff; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="font-size: 14px; line-height: 140%; text-align: center;">CONTENT EDITOR–LEGAL UPDATE</p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;">Lori Hoetger<br /><a rel="noopener" href="mailto:lhoetger@gmail.com" target="_blank">lhoetger@gmail.com</a></p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"> </p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;">CONTENT EDITOR–TEACHING IN PSYCH &amp; LAW</p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="font-size: 14px; line-height: 19.6px;">Casey LaDuke</span></p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"><a rel="noopener" href="mailto:ttc@ap-ls.org" target="_blank"><span style="font-size: 14px; line-height: 19.6px;">ttc@ap-ls.org </span></a></p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"> </p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;">CONTENT EDITOR–CAREER CORNER</p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="font-size: 14px; line-height: 19.6px;">Kamar Tazi<br /><a rel="noopener" href="mailto:aplsstudent@gmail.com" target="_blank">aplsstudent@gmail.com</a> </span></p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"> </p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;">CONTENT EDITOR–CLINICAL &amp; FORENSIC PRACTICE</p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="font-size: 14px; line-height: 19.6px;">Danielle Rynczak<br /><a rel="noopener" href="mailto:danielle.rynczak@umaddmed" target="_blank">danielle.rynczak@umaddmed</a> </span></p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+  
+
+
+  
+  
+<div class="u-row-container" style="padding: 0px;background-color: transparent">
+  <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
+    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: transparent;"><![endif]-->
+      
+<!--[if (mso)|(IE)]><td align="center" width="600" class="v-col-padding" style="background-color: #1c3366;width: 600px;padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+<div class="u-col u-col-100" style="max-width: 320px;min-width: 600px;display: table-cell;vertical-align: top;">
+  <div style="background-color: #1c3366;height: 100%;width: 100% !important;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"><!--<![endif]-->
+  
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;border-top: 1px solid #BBBBBB;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+    <tbody>
+      <tr style="vertical-align: top">
+        <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;font-size: 0px;line-height: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+          <span>&#160;</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <h2 style="margin: 0px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word; font-family: arial,helvetica,sans-serif; font-size: 20px; font-weight: 400;"><strong>Membership Services</strong></h2>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 10px 10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; color: #ffffff; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%; text-align: center; font-size: 14px;"><span style="font-size: 14px; line-height: 19.6px;">AP-LS seeks to advance the science of psychology - law and the translation of psychology - law knowledge into practice. Our mission is to enhance the well-being, justice, and human rights though science and practice of psychology in legal contexts.</span></p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+  
+
+
+  
+  
+<div class="u-row-container" style="padding: 0px;background-color: transparent">
+  <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;">
+    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: #ffffff;"><![endif]-->
+      
+<!--[if (mso)|(IE)]><td align="center" width="600" class="v-col-padding" style="width: 600px;padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+<div class="u-col u-col-100" style="max-width: 320px;min-width: 600px;display: table-cell;vertical-align: top;">
+  <div style="height: 100%;width: 100% !important;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 5px 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"><!--<![endif]-->
+  
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <h2 style="margin: 0px; line-height: 140%; text-align: center; word-wrap: break-word; font-family: arial,helvetica,sans-serif; font-size: 20px; font-weight: 400;"><strong>Newsletter Archives</strong></h2>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; line-height: 140%; text-align: left; word-wrap: break-word;">
+    <p style="line-height: 140%; font-size: 14px; text-align: center;"><span style="font-size: 14px; line-height: 19.6px;"><strong>Archives of the newsletter are available at <a rel="noopener" href="https://ap-ls.org/newsletter" target="_blank">https://ap-ls.org/newsletter</a>.</strong></span></p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+  
+
+
+  
+  
+<div class="u-row-container" style="padding: 0px;background-color: transparent">
+  <div class="u-row" style="margin: 0 auto;min-width: 320px;max-width: 600px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #1c3366;">
+    <div style="border-collapse: collapse;display: table;width: 100%;height: 100%;background-color: transparent;">
+      <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: #1c3366;"><![endif]-->
+      
+<!--[if (mso)|(IE)]><td align="center" width="600" class="v-col-padding" style="width: 600px;padding: 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
+<div id="u_column_32" class="u-col u-col-100" style="max-width: 320px;min-width: 600px;display: table-cell;vertical-align: top;">
+  <div style="height: 100%;width: 100% !important;">
+  <!--[if (!mso)&(!IE)]><!--><div class="v-col-padding" style="box-sizing: border-box; height: 100%; padding: 15px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"><!--<![endif]-->
+  
+<table id="u_content_text_29" style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="font-size: 14px; line-height: 19.6px;"><strong><span style="line-height: 19.6px; font-size: 14px;"><span style="line-height: 19.6px; font-size: 14px;">American <span style="line-height: 19.6px; font-size: 14px;">Psychology-Law</span> Society</span></span></strong></span></p>
+<p style="font-size: 14px; line-height: 140%; text-align: center;">&nbsp;</p>
+<p style="font-size: 14px; line-height: 140%;"><span style="font-size: 14px; line-height: 19.6px;"><a rel="noopener" href="http://www.ap-ls.org" target="_blank">www.ap-ls.org</a> | (704) 456-7276 | <a rel="noopener" href="mailto:office@ap-ls.org?subject=AP-LS%20Inquiry&amp;body=" target="_blank">office@ap-ls.org</a></span></p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:10px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;table-layout: fixed;border-spacing: 0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;border-top: 1px solid #BBBBBB;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+    <tbody>
+      <tr style="vertical-align: top">
+        <td style="word-break: break-word;border-collapse: collapse !important;vertical-align: top;font-size: 0px;line-height: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%">
+          <span>&#160;</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table id="u_content_text_30" style="font-family:trebuchet ms,geneva;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
+  <tbody>
+    <tr>
+      <td style="overflow-wrap:break-word;word-break:break-word;padding:5px 15px;font-family:trebuchet ms,geneva;" align="left">
+        
+  <div style="font-size: 14px; color: #ffffff; line-height: 140%; text-align: center; word-wrap: break-word;">
+    <p style="font-size: 14px; line-height: 140%; text-align: center;"><span style="font-size: 12px; line-height: 16.8px;"><em><span style="line-height: 16.8px; font-size: 12px;">Copyright &copy; <a rel="noopener" href="https://www.apadivisions.org/division-41/index" target="_blank">American Psychology-Law Society</a></span></em></span><br /><span style="font-size: 12px; line-height: 16.8px;"><em><span style="line-height: 16.8px; font-size: 12px;">&nbsp;Division 41 of the American Psychological Association All rights reserved.</span></em></span></p>
+  </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
+  </div>
+</div>
+<!--[if (mso)|(IE)]></td><![endif]-->
+      <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+    </div>
+  </div>
+  </div>
+  
+
+
+    <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+    </td>
+  </tr>
+  </tbody>
+  </table>
+  <!--[if mso]></div><![endif]-->
+  <!--[if IE]></div><![endif]-->
+</body>
+
+</html>
+```
