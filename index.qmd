@@ -193,7 +193,7 @@ profiles_cropped_html <- htmltools::HTML(profiles_cropped_html)
 
 ::: {.simple-info-blue .alt-background-blue}
 ::: content-block-blue
-### Get ready for the 2023 American Psychology-Law Society Conference
+### Learn about the 2023 American Psychology-Law Society Conference
 
 Philadelphia, PA---March 16-18
 
@@ -213,7 +213,7 @@ content = rowwise_table(~name, ~icon, ~link,
   "Newsletter", "newspaper", "resources/newsletter/index.html",
     "Job Posts", "briefcase-fill", "resources/job_postings/index.html", 
     "APA", "award-fill", "https://convention.apa.org/future-conventions",
-    "Videos", "mortarboard-fill", "resources/videos/index.html"
+    "Videos", "play-circle", "resources/videos/index.html"
 )
 div(class = "bg-light",
  div(class = "bg-breakout",

@@ -115,6 +115,9 @@ website:
       - icon: instagram
         aria-label: Link to Instagram
         href: https://www.instagram.com/apls41/
+      - icon: youtube
+        aria-label: youtube
+        href: https://www.youtube.com/channel/UCHCZlqNOXNDDUPnMzBqTmQA
       - icon: envelope
         aria-label: Link to email
         href: mailto:office@ap-ls.org
