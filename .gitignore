@@ -1,3 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
 /.quarto/
 /_site/
-.Rproj.user
+
+/_*.local
+*_cache/
+
+images/
+compiled/
+/.luarc.json
