@@ -1,59 +1,21 @@
 [
   {
-    "listing": "/awards/index.html",
+    "listing": "/resources/videos/index.html",
     "items": [
-      "/awards/grants/APprogram.html",
-      "/awards/grants/ECgrantinaid.html",
-      "/awards/grants/GRADgrantinaid.html",
-      "/awards/grants/UNDgrantinaid.html",
-      "/awards/grants/diversityresearch.html",
-      "/awards/grants/impactgrant.html",
-      "/awards/grants/macarthur.html",
-      "/awards/awards/bookaward.html",
-      "/awards/awards/dissertation.html",
-      "/awards/awards/distinguished.html",
-      "/awards/awards/fellows.html",
-      "/awards/awards/recaward.html",
-      "/awards/awards/saleemshah.html",
-      "/awards/awards/teachingaward.html",
-      "/awards/awards/undergradpaper.html",
-      "/awards/conference/caregivers.html",
-      "/awards/conference/diversitytravelaward.html",
-      "/awards/conference/studentawards.html"
+      "/resources/videos/careers2022/Index.html",
+      "/resources/videos/DEIcorrections2022/index.html",
+      "/resources/videos/tele2021/index.html",
+      "/resources/videos/clinician2013/index.html",
+      "/resources/videos/diversity2013/index.html",
+      "/resources/videos/expert2013/index.html",
+      "/resources/videos/grad2013/index.html",
+      "/resources/videos/impact2013/index.html",
+      "/resources/videos/jury2013/index.html",
+      "/resources/videos/intro2013/index.html",
+      "/resources/videos/juvenile2013/index.html",
+      "/resources/videos/risk2013/index.html",
+      "/resources/videos/students2013/index.html"
     ]
-  },
-  {
-    "listing": "/resources/newsletter/index.html",
-    "items": [
-      "/resources/newsletter/2022/dec2022/index.html",
-      "/resources/newsletter/2022/nov2022/index.html",
-      "/resources/newsletter/2022/oct2022/index.html",
-      "/resources/newsletter/2022/sep2022/index.html",
-      "/resources/newsletter/2022/aug2022/index.html",
-      "/resources/newsletter/2022/july2022/index.html",
-      "/resources/newsletter/2022/june2022/index.html",
-      "/resources/newsletter/2022/may2022/index.html",
-      "/resources/newsletter/2022/mar2022/index.html",
-      "/resources/newsletter/2022/feb2022/index.html",
-      "/resources/newsletter/2022/jan2022/index.html",
-      "/resources/newsletter/2022/apr2022/index.html",
-      "/resources/newsletter/2021/dec2021/index.html",
-      "/resources/newsletter/2021/nov2021/index.html",
-      "/resources/newsletter/2021/oct2021/index.html",
-      "/resources/newsletter/2021/sep2021/index.html",
-      "/resources/newsletter/2021/aug2021/index.html",
-      "/resources/newsletter/2021/july2021/index.html",
-      "/resources/newsletter/2021/june2021/index.html",
-      "/resources/newsletter/2021/may2021/index.html",
-      "/resources/newsletter/2021/apr2021/index.html",
-      "/resources/newsletter/2021/mar2021/index.html",
-      "/resources/newsletter/2021/feb2021/index.html",
-      "/resources/newsletter/2021/jan2021/index.html"
-    ]
-  },
-  {
-    "listing": "/resources/job-postings/index.html",
-    "items": []
   },
   {
     "listing": "/resources/pets/index.html",
@@ -102,21 +64,65 @@
     ]
   },
   {
-    "listing": "/resources/videos/index.html",
+    "listing": "/resources/job-postings/index.html",
+    "items": []
+  },
+  {
+    "listing": "/resources/newsletter/index.html",
     "items": [
-      "/resources/videos/careers2022/Index.html",
-      "/resources/videos/DEIcorrections2022/index.html",
-      "/resources/videos/tele2021/index.html",
-      "/resources/videos/clinician2013/index.html",
-      "/resources/videos/diversity2013/index.html",
-      "/resources/videos/expert2013/index.html",
-      "/resources/videos/grad2013/index.html",
-      "/resources/videos/impact2013/index.html",
-      "/resources/videos/jury2013/index.html",
-      "/resources/videos/intro2013/index.html",
-      "/resources/videos/juvenile2013/index.html",
-      "/resources/videos/risk2013/index.html",
-      "/resources/videos/students2013/index.html"
+      "/resources/newsletter/2022/dec2022/index.html",
+      "/resources/newsletter/2022/nov2022/index.html",
+      "/resources/newsletter/2022/oct2022/index.html",
+      "/resources/newsletter/2022/sep2022/index.html",
+      "/resources/newsletter/2022/aug2022/index.html",
+      "/resources/newsletter/2022/july2022/index.html",
+      "/resources/newsletter/2022/june2022/index.html",
+      "/resources/newsletter/2022/may2022/index.html",
+      "/resources/newsletter/2022/mar2022/index.html",
+      "/resources/newsletter/2022/feb2022/index.html",
+      "/resources/newsletter/2022/jan2022/index.html",
+      "/resources/newsletter/2022/apr2022/index.html",
+      "/resources/newsletter/2021/dec2021/index.html",
+      "/resources/newsletter/2021/nov2021/index.html",
+      "/resources/newsletter/2021/oct2021/index.html",
+      "/resources/newsletter/2021/sep2021/index.html",
+      "/resources/newsletter/2021/aug2021/index.html",
+      "/resources/newsletter/2021/july2021/index.html",
+      "/resources/newsletter/2021/june2021/index.html",
+      "/resources/newsletter/2021/may2021/index.html",
+      "/resources/newsletter/2021/apr2021/index.html",
+      "/resources/newsletter/2021/mar2021/index.html",
+      "/resources/newsletter/2021/feb2021/index.html",
+      "/resources/newsletter/2021/jan2021/index.html"
+    ]
+  },
+  {
+    "listing": "/awards/index.html",
+    "items": [
+      "/awards/grants/APprogram.html",
+      "/awards/grants/ECgrantinaid.html",
+      "/awards/grants/GRADgrantinaid.html",
+      "/awards/grants/UNDgrantinaid.html",
+      "/awards/grants/diversityresearch.html",
+      "/awards/grants/impactgrant.html",
+      "/awards/grants/macarthur.html",
+      "/awards/awards/bookaward.html",
+      "/awards/awards/dissertation.html",
+      "/awards/awards/distinguished.html",
+      "/awards/awards/fellows.html",
+      "/awards/awards/recaward.html",
+      "/awards/awards/saleemshah.html",
+      "/awards/awards/teachingaward.html",
+      "/awards/awards/undergradpaper.html",
+      "/awards/conference/caregivers.html",
+      "/awards/conference/diversitytravelaward.html",
+      "/awards/conference/studentawards.html"
+    ]
+  },
+  {
+    "listing": "/conferences/archive/index.html",
+    "items": [
+      "/conferences/archive/2023/index.html"
     ]
   },
   {

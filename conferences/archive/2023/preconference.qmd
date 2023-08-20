@@ -1,0 +1,242 @@
+---
+title: Pre-conference Workshops
+title-block-banner: "../../../images/default-banner.svg"
+---
+
+## Pricing Information 
+
+::: panel-tabset
+## Full-Day Workshop Rates
+
++--------------------+-----------------+----------------+
+| Status             | Early Bird\     | Regular\       |
+|                    | (before Jan 31) | (on Feb 1)     |
++:===================+:================+:===============+
+| Member             | \$200           | \$230          |
++--------------------+-----------------+----------------+
+| Non-Member         | \$250           | \$280          |
++--------------------+-----------------+----------------+
+| Student Member     | \$80            | \$100          |
++--------------------+-----------------+----------------+
+| Student Non-member | \$100           | \$120          |
++--------------------+-----------------+----------------+
+|                    |                 |                |
++--------------------+-----------------+----------------+
+
+## Half-Day Workshop Rates
+
++--------------------+-----------------+----------------+
+| Status             | Early Bird\     | Regular\       |
+|                    | (before Jan 31) | (on Feb 1)     |
++:===================+:================+:===============+
+| Member             | \$100           | \$115          |
++--------------------+-----------------+----------------+
+| Non-Member         | \$125           | \$140          |
++--------------------+-----------------+----------------+
+| Student Member     | \$40            | \$50           |
++--------------------+-----------------+----------------+
+| Student Non-member | \$50            | \$60           |
++--------------------+-----------------+----------------+
+:::
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(readxl)
+library(dplyr)
+library(tidyr)
+library(reactable)
+library(reactablefmtr)
+library(htmltools)
+library(glue)
+library(stringr)
+
+data <- read_excel("AP-LS_2023_Program.xlsx", sheet = "preconference")
+
+preconf <- data |> 
+  mutate(across(c(start, end), ~ as.POSIXct(., format = "%I:%M:%S %p")))  |>  
+  mutate(time = paste(format(start, "%I:%M %p"), " - ", format(end, "%I:%M %p"))
+    ) |> 
+  mutate(event = paste0(event, " (", type, ")")) |> 
+  select(time, title, people, location, event, CE, level, description, contains("objective_"))
+
+
+row_details <- function(index) {
+  evnt <- preconf[index, ]
+
+  objectives <- lapply(paste0("objective_", 1:5), function(obj_col) {
+    if (is.na(evnt[[obj_col]])) {
+      NULL
+    } else {
+      div(evnt[[obj_col]])
+    }
+  })
+  
+  evnt_field <- function(name, ...) {
+    if (any(is.na(...))) NULL
+    else tagList(div(class = "detail-label", name), ...)
+  }
+  
+  detail <- div(
+    class = "schedule-detail",
+    div(class = "detail-header", evnt$title, span(class = "detail-title", evnt$event)),
+    evnt_field("CE Credits", evnt$CE),
+    evnt_field("Level", evnt$level),
+    evnt_field("Presenters", evnt$people),
+    evnt_field("Description", evnt$description),
+    evnt_field("Learning Objectives", div(class = "objectives", objectives))
+
+  )
+  
+  detail
+}
+
+tbl_wks <- reactable(
+  preconf[, c("event", "title", "time", "location")],
+  defaultSorted = "event",
+  sortable = FALSE,
+  defaultPageSize = 40,
+  onClick = "expand",
+  defaultColDef = colDef(headerClass = "header"),
+  columns = list(
+    event = colDef(
+      name = "Session", 
+      minWidth = 500,
+      class = "committee-title", 
+      cell = merge_column(preconf, 
+                            merged_name = "title",
+                            merged_size = 16,
+                            merged_color = "#252525",
+                            merged_position = "below")
+      ),
+    title = colDef(show = FALSE),
+    time = colDef(
+        name = "Details",
+        format = colFormat(separators = TRUE),
+        minWidth = 200, 
+        class = "number",
+        cell = merge_column(preconf, 
+                            merged_name = "location",
+                            merged_size = 16,
+                            merged_color = "gray",
+                            merged_position = "below")
+        ),
+    location = colDef(show = FALSE)
+  ),
+  details = row_details,
+  wrap = TRUE,
+  class = "schedule-table",
+  rowStyle = list(cursor = "pointer"),
+  theme = reactableTheme(cellPadding = "8px 12px")
+)
+
+#add title, subtitle, footnote and source
+tbl <- tbl_wks |> 
+  #title & subtitle
+  htmlwidgets::prependContent(
+    tagList(
+      tags$img(src = "https://github.com/emmarshall/apls-org/raw/main/images/logo-blue.png", style = "width:50px;height:50px;display:inline-block;vertical-align:middle;"),
+      tags$div("Details & Descriptions",  style="font-size:32px;font-weight:bold;margin-left:5px;margin-bottom:0;display:inline-block;vertical-align:middle;"), 
+      tags$h3("Wednesday March 15, 2023", style="font-family:Chivo;margin-bottom:20px;margin-top:0;font-weight:400;color:#8C8C8C;padding-left:40px;")
+  )
+  ) |> 
+  #footnote and source
+  htmlwidgets::appendContent(
+    tags$div(style="text-align:center;color:black;font-size:14pt;border-bottom-style:solid;border-top-style:solid;width:910px;padding-bottom:20px;padding-top:20px;border-color:#DADADA;",
+  tags$a(href = "https://github.com/emmarshall/emmarshall.github.io/raw/main/conferences/files/2023_APLS_preconference_workshop_descriptions.pdf", download = "2023_APLS_preconference.pdf", class = "btn-action-primary btn-action btn btn-primary", role="button", "Download Descriptions")
+)
+)
+
+```
+
+```{r echo=FALSE}
+tags$link(href = "https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,700;1,400&display=swap", rel = "stylesheet")
+```
+
+```{css echo=FALSE, warning=FALSE, message=FALSE}
+
+@import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css); 
+
+.events {
+  font-family: 'Proza Libre', sans-serif;
+}
+
+.schedule-table {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  border: 1px solid hsl(213, 33%, 93%);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  border-bottom-color: #FBF9F4;
+  color: #FBF9F4;
+  background: #1B3264;
+  font-weight: 500;
+  font-size: 1.6rem;
+  letter-spacing: -.02rem;
+  font-variant: small-caps;
+  padding: 5px;
+  border: 0;
+}
+
+
+.title {
+  font-size: 1.5rem;
+}
+
+.schedule-detail {
+  padding: 24px;
+  box-shadow: inset 0 1px 3px #95a5a6;
+  background: shift-color(#FBF9F4, -55%);
+  'Proza Libre', sans-serif;
+}
+.detail-label {
+  margin: 1.25rem 0 0.25rem;
+  font-size: 1.2rem;
+  color: #95a5a6;
+  text-transform: uppercase;
+}
+.detail-header {
+  margin-bottom: 1rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+.detail-title {
+  margin-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #252525;
+}
+
+.objectives {
+  font-size: .0875;
+  color: #252525;
+  line-height: 1.5;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.number {
+    color = #252525,
+    font-size: .08rem;
+    font-weight: 600;
+}
+
+```
+
+```{r}
+#| echo: false
+#| include: true
+#| output: true
+#| column: screen-inset-shaded
+
+div(class = "events",
+    tbl
+)
+
+```
+

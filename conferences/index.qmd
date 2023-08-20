@@ -39,17 +39,18 @@ source("../assets/apls_functions.R")
             </a>
           </li>
           <li>
-            <a href="#schedule" class="page-scroll">
-              <span class="menu-title">Schedule</span>
-              <span class="dot"></span>
-            </a>
-          </li>
-          <li>
             <a href="#preconference" class="page-scroll">
               <span class="menu-title">Preconference</span>
               <span class="dot"></span>
             </a>
           </li>
+          <li>
+          <a href="#schedule" class="page-scroll">
+              <span class="menu-title">Schedule</span>
+              <span class="dot"></span>
+            </a>
+          </li>
+          <li>
         </ul>
       </nav>
 ```
@@ -186,12 +187,9 @@ REFRESHMENTS WILL BE PROVIDED AFTER THE RACE
 :::
 :::
 
-::: vspace2
-:::
-
 <hr>
 
-::: vspace2
+::: vspace
 :::
 
 # Call for Proposals {#cfp}
@@ -293,7 +291,7 @@ Thank you for helping us make it a great conference.
 
 :::
 
-::: vspace2
+::: vspace
 :::
 ::: column-screen
 ::: {.simple-info-blue .alt-background-blue}
@@ -302,13 +300,13 @@ Thank you for helping us make it a great conference.
 
 The 2023 APLS Annual Conference schedule and program is available to download and view online
 
-[Learn more{{< fa arrow-right >}}](schedule.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
+[Learn more{{< fa arrow-right >}}](archive/2023/schedule.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
 :::
 :::
 :::
 
 
-::: vspace2
+::: vspace
 :::
 
 ::: {simple-info}
@@ -332,56 +330,16 @@ Book a room through the AP-LS sponsored link for conference discount
 *More information available soon.*
 :::
 :::
-::: vspace2
-:::
+
 <hr>
-::: vspace2
-:::
-::: simple-info
-# Schedule Overview {#schedule}
-
-::: {.panel-tabset .box-shadow}
-## Preconference 
-
-### Wednesday, March 20, 2024
-
-Pre-conference sessions throughout the day
-
-[Learn More{{< fa arrow-right >}}](#preconference){.btn-action .btn .btn-primary .btn-lg role="button"}
-
-## Day 1 (Thurs)
-
-### Thursday, March 21, 2024
-
-*More information available soon.*
-
-## Day 2 (Fri)
-
-### Friday, March 22, 2024
-
-*More information available soon.*
-
-## Day 3 (Sat)
-
-### Saturday, March 23, 2024
-
-*More information available soon.*
-
-:::
-
-\*Program is subject to change
-:::
-::: vspace2
-:::
-<hr>
-::: vspace2
+::: vspace
 :::
 ::: {simple-info}
 # Registration {#register}
 
 *More information available soon.*
 
-::: {.callout-note collapse="true" appearance="simple"}
+::: {.callout-note appearance="simple"}
 ## REGISTRATION RATES & INCLUSIONS
 
 \*Rates may be subject to change
@@ -405,10 +363,9 @@ Pre-conference sessions throughout the day
 +-----------------------------------------+-----------------+---------------+
 :::
 :::
-::: vspace2
-:::
+
 <hr>
-::: vspace2
+::: vspace
 :::
 ::: {simple-info}
 # Preconference Workshops {#preconference}
@@ -472,4 +429,42 @@ Chair, AP-LS CE Committee <cite title="Lisa Kan, PhD Pronouns: she/her">Lisa Kan
 +--------------------+-----------------+----------------+
 :::
 :::
+:::
+
+<hr>
+::: vspace
+:::
+::: simple-info
+# Schedule Overview {#schedule}
+
+::: {.panel-tabset .box-shadow}
+## Preconference 
+
+### Wednesday, March 20, 2024
+
+Pre-conference sessions throughout the day
+
+[Learn More{{< fa arrow-right >}}](#preconference){.btn-action .btn .btn-primary .btn-lg role="button"}
+
+## Day 1 (Thurs)
+
+### Thursday, March 21, 2024
+
+*More information available soon.*
+
+## Day 2 (Fri)
+
+### Friday, March 22, 2024
+
+*More information available soon.*
+
+## Day 3 (Sat)
+
+### Saturday, March 23, 2024
+
+*More information available soon.*
+
+:::
+
+\*Program is subject to change
 :::

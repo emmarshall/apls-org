@@ -45,13 +45,8 @@ website:
         menu:
           - text: 2024 AP-LS Conference
             href: conferences/index.qmd
-          - text: 2023 AP-LS Conference
-            href: conferences/2023/index.qmd
-            menu:
-              - text: Preconference Workshops
-                href: conferences/2023/preconference.qmd
-              - text: Program & Schedule
-                href: conferences/2023/schedule.qmd
+          - text: Past Conferences
+            href: conferences/archive/index.qmd
       - href: resources/index.qmd
         text: Resources
       - href: membership/membership.qmd

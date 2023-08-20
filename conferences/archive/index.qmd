@@ -1,0 +1,23 @@
+---
+title: Past Conferences
+description: Previous annual meetings of the American Psychology-Law Society.  
+title-block-banner: "../../images/default-banner.svg"
+listing: 
+  - id: conferences
+    fields: [image, title]
+    contents: 
+    - "2023/index.qmd"
+    type: grid
+    sort: "date desc"
+    sort-ui: false
+---
+
+::: {#conferences}
+:::
+
+
+
+::: {.callout-caution}
+## Under Construction
+More resources will be added to this page soon.
+:::
