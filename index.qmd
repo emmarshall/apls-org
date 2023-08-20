@@ -193,11 +193,11 @@ profiles_cropped_html <- htmltools::HTML(profiles_cropped_html)
 
 ::: {.simple-info-blue .alt-background-blue}
 ::: content-block-blue
-### Learn about the 2023 American Psychology-Law Society Conference
+### Get ready for the 2024 American Psychology-Law Society Conference!
 
-Philadelphia, PA---March 16-18
+Los Angeles, CA---March 21-23
 
-[Learn More](conferences/index.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
+[Learn more{{< fa arrow-right >}}](conferences/index.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
 :::
 :::
 

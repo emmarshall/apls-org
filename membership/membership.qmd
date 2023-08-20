@@ -9,7 +9,7 @@ title-block-banner: "files/default-banner.svg"
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-source("../_site/apls_functions.R")
+source("../assets/apls_functions.R")
 ```
 
 ::: {.column-body-outset}

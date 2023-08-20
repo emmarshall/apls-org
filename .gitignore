@@ -6,9 +6,6 @@
 /.quarto/
 /_site/
 
-/_*.local
 *_cache/
 
-images/
 compiled/
-/.luarc.json
