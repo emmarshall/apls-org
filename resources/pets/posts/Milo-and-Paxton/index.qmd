@@ -1,10 +1,9 @@
 ---
-title: Milo and Paxton
+title: Milo/Paxton
 human: Katherine Hazen, JD, PhD
 description: |
   Milo moved from LA to Nebraska while I was in graduate school to stay with his Auntie and Uncle who had more space to play and run than his mom (my sister). He just loved it so much he had to stay (for 7 more years). Milo is an exceptionally well-traveled dog - having driven from coast to coast at least twice and spent two weeks living with a truck driver. He loves a good road trip. We adopted Paxton in November 2020 and he is living easy.
-quote: |
-  Milo: "Just throw, don't take"
+quote: "(Milo) Just throw, don't take"
 image: featured.jpg
 categories: 
   - Pit-Boxer mix

@@ -2,13 +2,12 @@
 title: Frodo; Blackberry; Katniss; Hansel (aka Tac-o-cat); Gretel
 human: Allison Redlich; George Mason University
 description: |
-  
-quote: |
+  Cats! Also Dog. 
+quote: "Cats! Also Dog?"
 image: featured.jpg
 categories: 
-  - Longhair dachshund 
-  - Collie
-  - Pretty kitties
+  - Dog
+  - Cat
 talent: |
   Sleeping all day; Getting hair everywhere
 habit: |
@@ -17,23 +16,19 @@ title-block-categories: false
 title-block-banner: false
 title-block-style: none
 ---
+# Meet {{< meta title >}}
 
 ::: grid
 ::: {#about-pet-text .g-col-12 .g-col-md-6}
 ![](featured.jpg){.lightbox}
 :::
-
 ::: {.g-col-12 .g-col-md-6}
 ::: {simple-info}
-# Meet {{< meta title >}}
 
-### Quote: 
-
-> {{< meta quote >}}
 
 ### Breed:
 
-{{< meta categories >}}
+Cats, Long-haired Dachshund & Collie
 
 ### Bad Habit:
 

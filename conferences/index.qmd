@@ -317,7 +317,7 @@ The 2023 APLS Annual Conference schedule and program is available to download an
 
 ![](https://upload.wikimedia.org/wikipedia/commons/3/3a/Westin_Bonaventure_Hotel.jpg){fig-align="center" height="300"}
 
-> The 2023 AP-LS Conference will be held at the [The Westin Bonaventure Hotel and Suites](https://www.marriott.com/en-us/hotels/laxbw-the-westin-bonaventure-hotel-and-suites-los-angeles/overview/)
+> The 2024 AP-LS Conference will be held at the [The Westin Bonaventure Hotel and Suites](https://www.marriott.com/en-us/hotels/laxbw-the-westin-bonaventure-hotel-and-suites-los-angeles/overview/)
 
 ::: hero-buttons
 [{{< fa map-location-dot >}} Get Directions](https://goo.gl/maps/p6PCdg1nZ46NASuw9){.btn-action .btn .btn-info .ml-auto role="button"} [{{< fa hotel >}} Website](https://goo.gl/maps/p6PCdg1nZ46NASuw9){.btn-action .btn .btn-dark .ml-auto role="button"}
