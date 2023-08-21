@@ -525,10 +525,16 @@ color: $primary;
   color: $primary;
 }
 
+.card-footer-text {
+  color: $primary;
+  font-size: $h6-font-size;
+  font-variant: small-caps;
+}
+
 /* grid cards */
 h5, .h5{
   font-family: $font-family-sans-serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-decoration: bold;
   
 }

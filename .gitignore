@@ -1,11 +1,17 @@
+# R 
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 
+# Quarto 
 /.quarto/
-/_site/
+_site/
+**/*_cache/*
 
-*_cache/
+# other 
+design-assets/*
+static/etc/*
+.DS_Store
 
-compiled/
+/.luarc.json

@@ -1,0 +1,66 @@
+``` {=html}
+<%
+// Number of columns
+const cols = 3;
+
+// Card alignment
+const align = "left";
+
+// Borders
+const hideBorders = false;
+
+// Image height as a percentage of the card height
+const imgHeightPercentage = 40; // Adjust this value as needed
+
+%>
+
+<div class="list grid quarto-listing-cols-<%=cols%>">
+<% for (const item of items) { %>
+  <div class="g-col-1" <%= metadataAttrs(item) %>>
+    <div class="quarto-grid-item card h-75 <%-`card-${align}`%><%= hideBorders ? ' borderless' : '' %>">
+      <div class="card-img-top quarto-card-img" style="height: <%= imgHeightPercentage %>%;"> <!-- Adjust the img height percentage -->
+        <% if (item.image) { %>
+          <img src="<%= item.image %>" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="<%= item['image-alt'] %>">
+        <% } else { %>
+          <div class="card-img-bg">&nbsp;</div>
+        <% } %>
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <% if (item.title) { %><h5 class="no-anchor card-title listing-title"><%= item.title %></h5><% } %>
+        
+        <% if (item.when) { %>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;"><%= item.when %></div>
+        <% } %>
+        
+        <% if (item.location) { %>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> <%= item.location %></div>
+        <% } %>
+        
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        
+        <div class="listing-categories" style="padding-top: 1em;">
+          <% if (item.program) { %>
+            <div class="listing-category">
+              <% if (item.program.url) { %>
+                <a class="listing-href" href="<%= item.program.url %>" target="_blank" rel="noopener">
+                  <%= item.program.name || '<i class="fa-solid fa-download" style="color: $primary;"></i> Conference Program »' %>
+                </a>
+              <% } else if (item.program.text) { %>
+                <%= item.program.text %>
+              <% } %>
+            </div>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  </div>
+<% } %>
+</div>
+
+```

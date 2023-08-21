@@ -75,9 +75,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-when','listing-image','listing-location','listing-program',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-when","listing-image","listing-location","listing-program"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -241,38 +241,251 @@ background-size: cover;
 
 
 
-<div id="listing-conferences" class="quarto-listing quarto-listing-container-grid">
+<div id="listing-conferences" class="quarto-listing quarto-listing-container-custom">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1692503286612" data-listing-reading-time-sort="31">
-<a href="../../conferences/archive/2023/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../../conferences/archive/2023/images/independence_hall.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2023 Annual Conference of the American Psychology-Law Society
-</h5>
-</div>
-</div>
-</a>
-</div>
+  <div class="g-col-1" data-index="0">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/apls2023.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2023 Annual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 16-18</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Philadelphia, Pennslyvania</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+            <div class="listing-category">
+                <a class="listing-href" href="https://drive.google.com/file/d/1SM7ZsrZg-yqpobmfniACJdp55cdfN74x/view?usp=sharing" target="_blank" rel="noopener">
+                  <i class="fa-solid fa-download" style="color: $primary;"></i> Conference Program »
+                </a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="1">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/apls2021.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2021 Virtual Poster Session</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 20</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Online (virtual only)</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+            <div class="listing-category">
+                <a class="listing-href" href="https://drive.google.com/file/d/1l_gTm4WuFRFY3YEeB5jKslYh8gqNbpFy/view?usp=sharing" target="_blank" rel="noopener">
+                  <i class="fa-solid fa-download" style="color: $primary;"></i> Conference Program »
+                </a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="2">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/apls2020.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2020 Annual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 5-7</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> New Orleans, Louisiana</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+            <div class="listing-category">
+                <a class="listing-href" href="https://drive.google.com/file/d/11LQ7-88jyhhKjNWXZx01SxyKo1HoQtJW/view?usp=sharing" target="_blank" rel="noopener">
+                  <i class="fa-solid fa-download" style="color: $primary;"></i> Conference Program »
+                </a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="3">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/apls2019.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2019 Annual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 14-16</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Portland, Oregon</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+            <div class="listing-category">
+                <a class="listing-href" href="https://drive.google.com/file/d/1V3EJTGn68LOWzda2pmvxCPLoDodHmkP-/view?usp=sharing" target="_blank" rel="noopener">
+                  <i class="fa-solid fa-download" style="color: $primary;"></i> Conference Program »
+                </a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="4">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/apls2018.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2018 Annual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 8-10</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Memphis, Tennesee</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+            <div class="listing-category">
+                <a class="listing-href" href="https://drive.google.com/file/d/1qoCnIj-UHbCypAiHHLjhfOFpERxyCYVt/view?usp=sharing" target="_blank" rel="noopener">
+                  <i class="fa-solid fa-download" style="color: $primary;"></i> Conference Program »
+                </a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="5">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/apls2017.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2017 Annual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 16-18</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Seattle, Washington</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+            <div class="listing-category">
+                <a class="listing-href" href="https://drive.google.com/file/d/1nSkoCFPS5_aG8mjQyb0BAf2j_cJbI0VL/view?usp=sharing" target="_blank" rel="noopener">
+                  <i class="fa-solid fa-download" style="color: $primary;"></i> Conference Program »
+                </a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="6">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/apls2016.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2016 Annual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 10-12</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Atlanta, Georgia</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+            <div class="listing-category">
+                <a class="listing-href" href="https://drive.google.com/file/d/1Tm8eQqcttEVVvV5mtKdmwwo37GE_QOSO/view?usp=sharing" target="_blank" rel="noopener">
+                  <i class="fa-solid fa-download" style="color: $primary;"></i> Conference Program »
+                </a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="7">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/apls2015.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2015 Annual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 19-21</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> San Diego, California</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+            <div class="listing-category">
+                <a class="listing-href" href="https://drive.google.com/file/d/1p5NdZNLfTcNmSLS_CX9VCDZVaJlR_5D6/view?usp=sharing" target="_blank" rel="noopener">
+                  <i class="fa-solid fa-download" style="color: $primary;"></i> Conference Program »
+                </a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="8">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/apls2014.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2014 Annual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 6-14</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> New Orleans, Louisiana</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+            <div class="listing-category">
+                <a class="listing-href" href="https://drive.google.com/file/d/1e7GzBeUPpW6IRf4z4lGq7CDtCZr_hlil/view?usp=sharing" target="_blank" rel="noopener">
+                  <i class="fa-solid fa-download" style="color: $primary;"></i> Conference Program »
+                </a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
-</div>
-</div>
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Under Construction
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>More resources will be added to this page soon.</p>
 </div>
 </div>
 
