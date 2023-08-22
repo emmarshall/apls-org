@@ -1,0 +1,16 @@
+<section id="$idprefix$title-slide"$for(title-slide-attributes/pairs)$ $it.key$="$it.value$"$endfor$>
+  <img width="85" src="https://github.com/emmarshall/emmamarshall.com/raw/main/images/unlpsych.png">
+  <h1 class="title">$title$</h1>
+$if(subtitle)$
+  <h3 class="subtitle">$subtitle$</h3>
+$endif$
+$for(author)$
+  <p class="author">$author$</p>
+$endfor$
+$for(institute)$
+  <p class="institute">$institute$</p>
+$endfor$
+$if(date)$
+  <p class="date">$date$</p>
+$endif$
+</section>
