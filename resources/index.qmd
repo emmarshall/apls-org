@@ -11,8 +11,6 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../assets/apls_functions.R")
 ```
 
-
-
 ```{r}
 #| include: false
 #| echo: false
@@ -50,16 +48,16 @@ content = rowwise_table(
 setkeyv(content, "category")
 ```
 
-
-
 ### Stay up to date with the activities of AP-LS and its members.
 
 ```{r, echo = FALSE}
 resource_grid(content[.("general")])
 ```
 
-
-::: {.callout-caution}
+::: callout-caution
 ## Under Construction
+
 More resources will be added to this page soon.
 :::
+
+
