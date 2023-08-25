@@ -160,9 +160,9 @@ profile_circle_preview <- '
 <div class="visually-hidden">{alt}</div>
 </div>'
 profiles_cropped <- list(
-  image = "about/presidents/barry_rosenfeld.jpg",
+  image = "about/presidents/daniel_murrie.jpg",
   alt = c(
-    "Picture of Barry Rosenfeld"
+    "Picture of Daniel Murrie"
   )
 )
 profiles_cropped_html <- glue::glue_data(profiles_cropped, profile_circle_preview)

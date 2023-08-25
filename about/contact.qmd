@@ -14,8 +14,11 @@ To contact AP-LS, you can write, call, or send us an email. When you call the AP
 
 #### {{< fa people-group title="Group of people" >}} AP-LS Staff Team
 
--   Emma Paskoff, Mattison Corp
-
+| Name               | Position           |
+|--------------------|--------------------|
+| Joy DesMarais-Lanz | Executive Director |
+| Emma Paskoff       | Event Planner      |
+| Lane Velayo        | Partner            |
 
 > <p>**Business Hours:** Monday -- Friday, 8:30 AM -- 5:00 PM (Pacific Time) </br> {{< fa phone title="Phone" >}} (704) 456-7276 </br> {{< fa envelope title="Email" >}} office\@ap-ls.org </br> {{< fa location-dot title="Location" >}} 2150 N 107th St. Suite 205 Seattle, WA 98133 </br></p>
 :::
