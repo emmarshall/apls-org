@@ -136,7 +136,7 @@ info <- tibble(
   title = "Interested in AP-LS?",
   text = "Become a member.",
   ctr = "Join now",
-  link = "membership/membership.qmd",
+  link = "membership/index.html",
   icon = "fas fa-scale-balanced"
 )
 
@@ -209,9 +209,9 @@ Los Angeles, CA---March 21-23
 #| warning: false
 #| message: false
 content = rowwise_table(~name, ~icon, ~link,
-                        "Contact", "chat-dots", "about/contact.html",
+                        "Publications", "chat-dots", "publications/index.html",
   "Newsletter", "newspaper", "resources/newsletter/index.html",
-    "Job Posts", "briefcase-fill", "resources/job_postings/index.html", 
+    "Job Posts", "briefcase-fill", "resources/job-postings/index.html", 
     "APA", "award-fill", "https://convention.apa.org/future-conventions",
     "Videos", "play-circle", "resources/videos/index.html"
 )
