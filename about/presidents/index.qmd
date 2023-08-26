@@ -8,7 +8,7 @@ about:
   image-width: 14em
   links:
     - icon: people-fill
-      text: 2022-2023 Leadership
+      text: 2023-2024 Leadership
       href: ../leadership.html
       aria-label: Link to leadership page
     - icon: info-circle

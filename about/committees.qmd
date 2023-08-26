@@ -28,12 +28,12 @@ library(stringr)
 # Read in committee bylaw information
 cmts <- read.csv("committees.csv", stringsAsFactors = FALSE)
 # Get sheet names from current leadership listing
-sheet_names <- excel_sheets("Leadership 2022-23.xlsx")
+sheet_names <- excel_sheets("Leadership 2023-24.xlsx")
 
 excluded_names <- c("EC", "Conf_Chairs")
 # Read in the Excel file and store it as a list of data frames with sheet names as column
 excel_data <- lapply(sheet_names, function(sheet_name) {
-  read_excel("Leadership 2022-23.xlsx", sheet = sheet_name) %>% 
+  read_excel("Leadership 2023-24.xlsx", sheet = sheet_name) %>% 
     mutate(sheet_name = sheet_name)
 })
 # Combine the data frames into a single data frame

@@ -6,7 +6,7 @@ toc: false
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-source("../_site/apls_functions.R")
+source("../assets/apls_functions.R")
 ```
 
 # Officers of the Executive Committee
