@@ -17,9 +17,9 @@ source("../assets/apls_functions.R")
 
 content = rowwise_table(
   ~name, ~image, ~url, ~text,
-  "Barry Rosenfeld", "presidents/barry_rosenfeld.jpg", "mailto:rosenfeld@fordham.edu", "President",
-  "Daniel Murrie", "presidents/daniel_murrie.jpg", "mailto:murrie@virginia.edu", "President-elect",
-  "Lora Levett", "presidents/lora_levett.png", "mailto:llevett@ufl.edu", "Past President"
+  "Daniel Murrie", "presidents/daniel_murrie.jpg", "mailto:murrie@virginia.edu", "President",
+    "Christian Meisner", "presidents/christian_meissner.jpeg", "mailto:cameissn@iastate.edu", "President Elect",
+  "Barry Rosenfeld", "presidents/barry_rosenfeld.jpg", "mailto:rosenfeld@fordham.edu", "Past President"
 )
 div(class = "officer-grid",
   pmap(content, function(name, image, url, text) {
@@ -69,18 +69,18 @@ cat(html)
 #| echo: false
 content = rowwise_table(
   ~name, ~icon, ~url, ~text,
-  "Michael Lamb", "", "mailto:mel37@cam.ac.uk", "Secretary",
+  "Lindsay Malloy", "", "mailto:Lindsay.Malloy@ontariotechu.ca", "Secretary",
   "Jennifer Perillo", "", "mailto:treasurer@ap-ls.org", "Treasurer",
   "Virginia Barber-Rioja", "", "mailto:vibarber@hotmail.com", "Member-at-large",
   "Natalie Anumba", "", "mailto:natalie.anumba@umassmed.edu", "Member-at-large",
-  "Christopher Bishop", "", "mailto:bishopC@trinitydc.edu", "Member-at-large",
-  "Jason Cantone", "", "mailto:cantone@gmail.com", "APA Council Representative",
+  "Jessica Salerno", "", "mailto:jessica.salerno@asu.edu", "Member-at-large",
+  "Jennifer Groscup", "", "mailto:jgroscup@scrippscollege.edu", "APA Council Representative",
   "Margaret Kovera", "", "mailto:mkovera@jjay.cuny.edu", "APA Council Representative",
   "Bradley McAuliff", "", "mailto:bradley.mcauliff@csun.edu", "Law & Human Behavior editor",
   "Meg Ternes", "", "mailto:meg.ternes@smu.ca", "Newsletter editor",
   "Monica Miller", "", "mailto:mkmiller@unr.edu", "Book Series editor",
   "Lindsey Wylie", "", "mailto:webmaster@ap-ls.org", "Website editor",
-  "Kamar Tazi", "", "mailto:students@ap-ls.org", "Student Committee Chair"
+  "Cecilia Allan", "", "mailto:students@ap-ls.org", "Student Committee Chair"
 )
 div(class = "grid grid-three",
   pmap(content, function(name, icon, url, text, objective) {
@@ -96,16 +96,16 @@ div(class = "grid grid-three",
 )
 ```
 
-## 2023 Conference Co-Chairs
+## 2024 Conference Co-Chairs
 
 ```{r}
 #| echo: false
 content = rowwise_table(
   ~name, ~icon, ~url, ~text,
-  "Miko M. Wilford", "", "mailto:conference@ap-ls.org", "2023 AP-LS Conference",
-  "Andrea Avila", "", "mailto:conference@ap-ls.org", "2023 AP-LS Conference",
-  "Alicia Nijdam-Jones", "", "mailto:alicia.nijdam-jones@umanitoba.ca", "2023 APA Conference ",
-  "Andre Kehn", "", "mailto:Andre.kehn@und.edu", "2023 APA Conference"
+  "Caitlin Cavanagh", "", "mailto:conference@ap-ls.org", "2024 AP-LS Conference",
+  "Samantha Zottola", "", "mailto:conference@ap-ls.org", "2024 AP-LS Conference",
+  "Andre Kehn", "", "mailto:Andre.kehn@und.edu", "2024 APA Conference ",
+  "Tara Ryan", "", "mailto:tarajryan@gmail.com", "2024 APA Conference"
 )
 div(class = "officer-grid grid-two",
   pmap(content, function(name, icon, url, text, objective) {
