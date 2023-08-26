@@ -173,8 +173,8 @@ profiles_cropped_html <- htmltools::HTML(profiles_cropped_html)
 `r profiles_cropped_html`
 :::
 
-## Welcome from Our President
 
+# Welcome from Our President
 ::: vspace
 :::
 
