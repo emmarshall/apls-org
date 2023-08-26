@@ -51,7 +51,7 @@ info <- tibble(
   title = "",
   text = "View our list of past presidents and presidential addresses",
   ctr = "Learn more",
-  link = "presidents/presidents.html",
+  link = "presidents/presidents.qmd",
   icon = "fas fa-scale-balanced"
 )
 

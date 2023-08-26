@@ -9,15 +9,15 @@ about:
   links:
     - icon: people-fill
       text: 2023-2024 Leadership
-      href: "../leadership.html"
+      href: "https://ap-ls.org/about/leadership"
       aria-label: Link to leadership page
     - icon: info-circle
       text: About AP-LS
-      href: "../index.html"
+      href: "https://ap-ls.org/about"
       aria-label: Link to about page
     - icon: clock-history
       text: Past Presidents
-      href: "presidents.html"
+      href: "https://ap-ls.org/about/presidents/presidents"
       aria-label: Links to past presidents page
 ---
 
@@ -35,7 +35,7 @@ AP-LS is the premiere organization for students and professionals who are intere
 
 As an organization, we strive to support our members in their work using psychological science and practice to advance justice in our legal system.
 
-Among the many ways we promote scholarship and exemplary practice is through direct support of our members, both facilitating their research and recognizing their contributions to the field. For example, we provide multiple [grants opportunities](../../awards/index.html) and recognize members through a range of [awards](../../awards/index.html) for teaching, research and mentorship. We also hold an [Annual Conference](../../conferences/index.html), participate in the [APA Annual Convention](https://convention.apa.org/future-conventions), have an active [book series](../../publications/index.html), and are the home for our flagship journal, [Law and Human Behavior](https://www.apa.org/pubs/journals/lhb/).
+Among the many ways we promote scholarship and exemplary practice is through direct support of our members, both facilitating their research and recognizing their contributions to the field. For example, we provide multiple [grants opportunities](../../awards/) and recognize members through a range of [awards](../../awards/) for teaching, research and mentorship. We also hold an [Annual Conference](../../conferences/), participate in the [APA Annual Convention](https://convention.apa.org/future-conventions), have an active [book series](../../publications/), and are the home for our flagship journal, [Law and Human Behavior](https://www.apa.org/pubs/journals/lhb/).
 
 One of our most important resources is our incredibly active [Student Committee](https://www.apls-students.org/). The Student Committee oversees a range of resources and funding opportunities for undergraduate and graduate students and Early Career Professionals. For those of you who may be new to the organization, [we have a series of short videos](../../resources/videos/index.html) that were developed by our Broadening Representative Inclusion, Diversity, and Global Equity, or BRIDGE Committee (formerly our Minority Affairs Committee). Our [BRIDGE Committee](../committees.html) is also the steward of several awards and grants that align with our organizational commitment to goals centered around diversity, equity, and inclusion.
 
