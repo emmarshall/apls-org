@@ -1,12 +1,15 @@
 ---
 title: Graduate Programs in Psychology and Law
-draft: true
 title-block-banner: "../../images/default-banner.svg"
+categories:
+  - Training
 ---
 
 If you are interested in learning more about graduate programs, please review the links to the degree programs provided on this web site, and also review the Guide to Graduate Programs in Legal and Forensic Psychology, developed by members of the AP-LS Teaching, Training, and Careers Committee (TTC).
 
-{{< downloadthis files/guide_to_graduate_programs_in_forensic_and_legal_psychology_2020.pdf dname:"graduate-school-guidelines" label="Download Guide" icon=download type=primary >}}
+<center>
+{{< downloadthis files/guide_to_graduate_programs_in_forensic_and_legal_psychology_2020.pdf dname:"graduate-school-guidelines" label="Graduate Programs Guide" icon=download type=primary >}}
+</center>
 
 This guide lists current graduate programs in forensic and legal psychology.
 
