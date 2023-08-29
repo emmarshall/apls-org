@@ -354,12 +354,12 @@ div.navbar-collapse ul.navbar-nav li {
 #title-block-header {
     .quarto-title-banner {
         font-family: $headings-font-family;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: $secondary;
         
         .description {
             font-family: $navbar-font-family;
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             margin-top: 1rem !important;
         }
     }
@@ -368,7 +368,7 @@ div.navbar-collapse ul.navbar-nav li {
 
 // Shrink blocks of code
 pre.text, pre.sourceCode, .cell-output pre {
-    font-size: 0.775rem;
+    font-size: 0.75rem;
 }
 
 .navbar {
@@ -970,7 +970,7 @@ h5, .h5{
         font-family: $headings-font-family;
         
         .description {
-            font-size: .6em;
+            font-size: .75em;
             margin-top: 1em !important;
         }
     }
@@ -1026,7 +1026,6 @@ h1.title {
     .quarto-title .quarto-categories .quarto-category {
         background-color: shift-color($primary, -75%);
         color: $secondary;
-        font-size: 0.5em;
         opacity: 1;
     }
 
