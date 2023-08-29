@@ -4,14 +4,14 @@ draft: true
 title-block-banner: "../../images/default-banner.svg"
 ---
 
-If you are interested in learning more about graduate programs, please review the links to the degree programs provided on this web site, and also review the Guide to Graduate Programs in Legal and Forensic Psychology, developed by members of the AP-LS Teaching, Training, and Careers Committee (TTC). 
+If you are interested in learning more about graduate programs, please review the links to the degree programs provided on this web site, and also review the Guide to Graduate Programs in Legal and Forensic Psychology, developed by members of the AP-LS Teaching, Training, and Careers Committee (TTC).
 
-{{< downloadthis files/guide_to_graduate_programs_in_forensic_and_legal_psychology_2020.pdf dname:"graduate-school-guidelines" label="Download Guide" icon=download type=primary >}} 
+{{< downloadthis files/guide_to_graduate_programs_in_forensic_and_legal_psychology_2020.pdf dname:"graduate-school-guidelines" label="Download Guide" icon=download type=primary >}}
 
-This guide lists current graduate programs in forensic and legal psychology. 
+This guide lists current graduate programs in forensic and legal psychology.
 
-Programs are listed alphabetically by degree type: doctoral programs (PhD and PsyD), joint programs (PhD/JD, PsyD/JD, JD/MA, PhD/MLS), and masters-level programs. Each program is described using the same categories (program facts, admission criteria, opportunities for research or practica and funding availability) to help prospective students make informed choices about graduate training and education in psychology and law.
+Programs are listed alphabetically by degree type: doctoral programs (PhD and PsyD), joint programs (PhD/JD, PsyD/JD, JD/MA, PhD/MLS), and masters-level programs. Each program is described using the same categories (program facts, admission criteria, opportunities for research or practical and funding availability) to help prospective students make informed choices about graduate training and education in psychology and law.
 
-A separate page lists predoctoral internships offering training in forensic psychology.
-
-A separate page lists postdoctoral fellowship programs offering training in forensic psychology.
+::: callout-note
+Additional resources can be found on the [Student Committee website](https://www.apls-students.org/education--training.html)
+:::
