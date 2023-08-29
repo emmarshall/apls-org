@@ -21,7 +21,7 @@ source("../../assets/apls_functions.R")
 :::
 
 ::: callout-note
-Applications should be emailed directly to the Chair of the Practice Committee at `award.practice.apls@gmail.com` before annual November 1 deadline.  
+Applications should be emailed directly to the Chair of the Practice Committee at `practice@ap-ls.org` before annual November 1 deadline.  
 
 ```{r}
 #| echo: false
@@ -34,7 +34,7 @@ library(dplyr)
 links <- tibble(
   icon = c("circle-info", "envelope"),
   text = c("About Practice Committee", "Submit application"),
-  url = c("../../about/committees.html", "award.practice.apls@gmail.com")
+  url = c("../../about/committees.html", "practice@ap-ls.org")
 )
 
 # Create inline objects for each row of the tibble
