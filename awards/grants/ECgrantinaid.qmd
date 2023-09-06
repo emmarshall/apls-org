@@ -155,4 +155,19 @@ In evaluating each proposal, outside reviewers and the panel will evaluate and p
 Awardees must submit yearly progress reports on **Nov. 15** of each year until the project is complete.
 
 Upon completion of the project, awardees must submit an end-of-project report and should consider presenting the results of their research at either a subsequent AP-LS conference or in the division's APA program.
+
+## Mentoring Program
+
+The Early Career Professional’s Committee is introducing a mentoring program for early career researchers who are planning to apply for the Grant in Aid (GiA). 
+
+Through the mentoring program, you can connect with a researcher who was awarded the GiA and ask them questions regarding their experience with the grant, the application process (beyond practical information provided in the general guidance), the role the grant had in their career, or questions related to their proposal.
+
+::: callout-note
+
+Please note that mentors are not reviewers or co-authors and should provide general support in the application process. 
+
+If you’d like to connect with a mentor, please think about three keywords related to your project and send us an email to the [ECP committee](mailto:ecp@ap-ls.org) and include GiA Mentoring program connection request: [your keywords] as the subject. We will do our best to connect you with a mentor.
+
+:::
+
 :::
