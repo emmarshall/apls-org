@@ -9,7 +9,7 @@ categories:
   - Grants-in-Aid
 submission-info:
   sponsor: AP-LS Graduate Student Grants-in-Aid Committee
-  deadline: January 15 & September 15
+  deadline: January 15 & October 15
 ---
 
 
@@ -33,8 +33,8 @@ library(dplyr)
 # Important links for award
 links <- tibble(
   icon = c("circle-info", "envelope", "link"),
-  text = c("About Early Career Professionals Committee", "Contact", "Link to apply"),
-  url = c("../../about/committees.html", "ecp@apls.org", "https://awards.ap-ls.org/default.asp")
+  text = c("About Graduate Student Grants-in-Aid Committee", "Contact", "Link to apply"),
+  url = c("../../about/committees.html", "mailto:grantsinaid@apls.org", "https://awards.ap-ls.org/default.asp")
 )
 
 # Create inline objects for each row of the tibble
