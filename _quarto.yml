@@ -97,12 +97,11 @@ website:
             - resources/guidelines/Assessment.qmd
             - resources/guidelines/Communications.qmd
             - resources/guidelines/References.qmd
-        
+    
        
   page-footer:
     left: |
-      <b>© 2023 American Psychology-Law Society</b>  <br>
-      made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)
+      Copyright &copy; 2023 [American Psychology-Law Society](https://apls.memberclicks.net/)
     right:
       - icon: twitter
         aria-label: Link to Twitter

@@ -63,7 +63,7 @@ For all of the books within the prior series, please visit the [Oxford Universit
 
 You may also be interested in following other journals & books, not associated with AP-LS, that also publish about issues relevant to psychology and law.
 
-If there is a publication you think should be added to this list, please contact the [AP-LS Web Editor](mailto:webmaster@apls.org).
+If there is a publication you think should be added to this list, please contact the AP-LS Web Editor {{< fa envelope title="Email" >}} {{< var email.web >}}.
 
 ```{r}
 #| echo: false

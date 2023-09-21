@@ -3,12 +3,27 @@ version: 1.2
 email: 
   office: office@ap-ls.org
   web: webmaster@ap-ls.org
+  conference: 
+  ce: ce@ap-ls.org
+  corrections: corrections@ap-ls.org
+  dissertation: aplsdissertations@gmail.com
+  ecp: ecp@ap-ls.org
+  treasurer: treasurer@ap-ls.org
+  gradaid: grantsinaid@ap-ls.org
+  practice: practice@ap-ls.org
+  social: socialmedia@ap-ls.org
+  students: students@ap-ls.org
+  ttc: ttc@ap-ls.org
+  srp: apls.srp2@gmail.com
+  
+  
 
 sm: 
   twitter: "[twitter](https://twitter.com/apls41)"
   facebook: "[facebook](https://www.facebook.com/APLS41)"
   instagram: "[instagram](https://www.instagram.com/apls41/)"
 
-engine:
-  jupyter: "[Jupyter](https://jupyter.org)"
-  knitr: "[Knitr](<https://yihui.name/knitr>)"
+contact:
+  phone: "(704) 456-7276"
+  mail: "6510 Telecom Dr, Suite 200 Indianapolis, IN 46278"
+  

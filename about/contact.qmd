@@ -20,5 +20,5 @@ To contact AP-LS, you can write, call, or send us an email. When you call the AP
 | Emma Paskoff       | Event Planner      |
 | Lane Velayo        | Partner            |
 
-> <p>**Business Hours:** Monday -- Friday, 8:30 AM -- 5:00 PM (Pacific Time) </br> {{< fa phone title="Phone" >}} (704) 456-7276 </br> {{< fa envelope title="Email" >}} office\@ap-ls.org </br> {{< fa location-dot title="Location" >}} 2150 N 107th St. Suite 205 Seattle, WA 98133 </br></p>
+> <p>**Business Hours:** Monday -- Friday, 8:30 AM -- 5:00 PM (Pacific Time) </br> {{< fa phone title="Phone" >}} {{< var contact.phone >}} </br> {{< fa envelope title="Email" >}} {{< var email.office >}} </br> {{< fa location-dot title="Location" >}} {{< var contact.mail >}} </br></p>
 :::

@@ -13,7 +13,9 @@ source("../assets/apls_functions.R")
 ```
 
 ::: {.column-body-outset}
+
 ::: {.panel-tabset .box-shadow}
+
 ## Join
 
 ##### Interested in becoming a member of AP-LS?
@@ -236,10 +238,7 @@ Please complete this renewal form and continue receiving member benefits with AP
 
 If you have any questions about membership, please contact the **American Psychology-Law Society**:
 
-2150 N 107th Street Suite 205 </br>
-Seattle, WA 98133 </br>
-{{< fa phone >}} (704) 456-7276 </br>
-{{< fa envelope >}} office\@apls.org
+<p>{{< fa phone title="Phone" >}} {{< var contact.phone >}} </br> {{< fa envelope title="Email" >}} {{< var email.office >}} </br> {{< fa location-dot title="Location" >}} {{< var contact.mail >}}</p>
 
 
 ::: {.callout-tip collapse="true}

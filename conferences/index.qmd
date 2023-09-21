@@ -165,8 +165,8 @@ Caitlin Cavanagh, Ph.D. <br> Samantha Zottola, Ph.D.
 
 If you have any other questions, please contact:
 
-{{< fa envelope title="Email" >}} conference\@ap-ls.org
-{{< fa envelope >}} office\@apls.org
+{{< fa envelope title="Email" >}} {{< var email.conference >}}
+{{< fa envelope title="Email" >}} {{< var email.office >}}
 :::
 
 ## {{< fa person-running >}} Fun Run
@@ -259,7 +259,7 @@ Please note there is a limit of TWO first-author symposia/paper/data-blitz submi
 
 Please visit the AP-LS webpage for continuing conference-related updates.
 
-If you have any questions or comments regarding the call for proposals, or about the conference, please contact the conference co-chairs at [conference\@ap-ls.org](mailto:conference@ap-ls.org)
+If you have any questions or comments regarding the call for proposals, or about the conference, please contact the conference co-chairs at {{< fa envelope title="Email" >}} {{< var email.conference >}}
 
 Looking forward to seeing everyone in March!
 
@@ -377,9 +377,8 @@ The AP-LS Continuing Education (CE) Committee is accepting proposals for pre-con
 
 We are seeking workshop proposals for innovative and cutting-edge topics and will ask presenters to briefly describe how their proposed workshop promotes equity, inclusion, and justice in psychology and law.
 
-Workshop presenters will receive an honorarium commensurate with the workshop length (i.e., half day or full day). Proposals are due by 11:59 PM PDT, September 12, 2023, and can be submitted here. Contact Lisa Kan at [ce\@ap-ls.org](ce@ap-ls.org) with any questions.
+Workshop presenters will receive an honorarium commensurate with the workshop length (i.e., half day or full day). Proposals were due by 11:59 PM PDT, September 12, 2023. Contact Lisa Kan at {{< fa envelope title="Email" >}} {{< var email.ce >}}
 
-We look forward to receiving your pre-conference workshop proposals!
 
 <figcaption class="blockquote-footer">
 

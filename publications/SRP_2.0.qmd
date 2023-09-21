@@ -1,0 +1,45 @@
+---
+title: "Publications"
+toc: false
+draft: true
+title-block-banner: "files/publications-banner.svg"
+description: |
+  Call for members to review the latest AP-LS Scientific Review Paper
+---
+
+::: simple-info
+::: {.content-block .col-v-center}
+## New SRP draft available!
+:::
+:::
+
+::: grid
+::: {.g-col-12 .g-col-md-6 .col-v-center}
+The latest AP-LS Scientific Review Paper, **"Police-Induced Confessions, 2.0: Risk Factors and Recommendations"** draft is available here.
+
+::: vspace
+{{< downloadthis files/SRP_2.0_Confessions_Draft_7-23.pdf dname:"SRP_2.0_draft" icon=file-pdf type=outline-primary >}}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6 .col-v-center}
+![](files/SRP_confessions_2.0.png){fig-align="center" width="250"}
+:::
+:::
+
+## Request for feedback
+
+AP-LS Members are encouraged to read the current draft of this scientific review paper.
+
+Members can provide feedback to the authors in one of two ways.
+
+-   Some of the authors of the review paper will be hosting a session at the APA conference on Saturday, August 5th from 12pm - 12:50pm [Walter E. Washington Convention Center, Level 1, Room 154A](https://s3.amazonaws.com/amz.xcdsystem.com/roommapping/v4jvv78wzk82pjreimea6.jpg?room=989) where they will present an overview of the review paper and will receive feedback from attendees.
+
+-   Comments on the paper may also be emailed to the authors of the review paper at {{< var email.srp >}}.
+
+::: callout-warning
+
+Members will have another opportunity to attend a session on the Scientific Review Paper at AP-LS and/or send comments to the authors via email in March 2024.
+
+Questions or comments on the process of developing an AP-LS Scientific Review Paper may addressed to the Chair of the Scientific Review Paper Committee, [Lindsay Malloy](mailto:Lindsay.malloy@ontariotechu.ca%3E).
+:::
