@@ -148,7 +148,7 @@ Looking forward to seeing everyone in March!
 
 ### Important Dates
 
-**Proposals due:** October 2, 2023
+**Proposals due:** ~~October 2, 2023~~ [deadline extended to October 9, 2023!!!]{style="color: red;"}
 
 **Reviewer sign-up ends:** October 13, 2023
 
@@ -206,7 +206,7 @@ We invite proposal submissions for the 2024 Annual Conference of AP-LS. We stron
 
 [Sign up](https://ap-ls2024.exordo.com/){.btn-action-primary .btn-action .btn .btn-primary role="button"}
 
-##### All proposals must be submitted by ~~Monday, October 2, 2023~~ [the extended deadline of extended deadline of Monday, October 9, 2023 at]{style="color: red;"} 11:59 pm PST 
+##### All proposals must be submitted by ~~Monday, October 2, 2023~~ [the extended deadline of extended deadline of Monday, October 9, 2023 at]{style="color: red;"} 11:59 pm PST
 :::
 
 **Posters:** Posters will be presented at one of two poster sessions typically held Friday and Saturday evenings. Poster presentations are made in written format on display boards (size TBA). Submissions are limited to a 100-word abstract and 1000-word summary.
