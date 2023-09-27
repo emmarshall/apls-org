@@ -148,7 +148,7 @@ Looking forward to seeing everyone in March!
 
 ### Important Dates
 
-**Proposals due:** October 2, 2023 
+**Proposals due:** October 2, 2023
 
 **Reviewer sign-up ends:** October 13, 2023
 
@@ -165,12 +165,12 @@ Caitlin Cavanagh, Ph.D. <br> Samantha Zottola, Ph.D.
 
 If you have any other questions, please contact:
 
-{{< fa envelope title="Email" >}} {{< var email.conference >}}
-{{< fa envelope title="Email" >}} {{< var email.office >}}
+{{< fa envelope title="Email" >}} {{< var email.conference >}} {{< fa envelope title="Email" >}} {{< var email.office >}}
 :::
 
 ## {{< fa person-running >}} Fun Run
-::: {.simple-info}
+
+::: simple-info
 ##### Explore Los Angeles with colleagues on a 5k Fun Run, sponsored by the AP-LS Student Committee!
 
 ### Friday, March 22, 2024
@@ -195,7 +195,6 @@ REFRESHMENTS WILL BE PROVIDED AFTER THE RACE
 # Call for Proposals {#cfp}
 
 ::: {.panel-tabset .box-shadow}
-
 ## {{< fa bullhorn >}} 2024 Call for Proposals
 
 ### APLS 2024 Call for Proposals
@@ -207,7 +206,7 @@ We invite proposal submissions for the 2024 Annual Conference of AP-LS. We stron
 
 [Sign up](https://ap-ls2024.exordo.com/){.btn-action-primary .btn-action .btn .btn-primary role="button"}
 
-##### All proposals must be submitted by Monday, October 2, 2023 11:59 pm PST
+##### All proposals must be submitted by ~~Monday, October 2, 2023~~ [the extended deadline of extended deadline of Monday, October 9, 2023 at]{style="color: red;"} 11:59 pm PST 
 :::
 
 **Posters:** Posters will be presented at one of two poster sessions typically held Friday and Saturday evenings. Poster presentations are made in written format on display boards (size TBA). Submissions are limited to a 100-word abstract and 1000-word summary.
@@ -248,7 +247,6 @@ The papers would then be submitted as: \#### - Paper 1 -- Title of Paper 1 {{< f
 3975 -- Paper 4 -- Terms and conditions apply: The effect of probation details and duration on true and false guilty pleas
 :::
 
-
 ::: {.callout-note appearance="simple"}
 Please note there is a limit of TWO first-author symposia/paper/data-blitz submissions per person. There are no limits for the number of submissions for posters or appearances as a discussant or session chair.
 
@@ -288,11 +286,11 @@ Thank you for helping us make it a great conference.
 </figcaption>
 
 </figure>
-
 :::
 
 ::: vspace
 :::
+
 ::: column-screen
 ::: {.simple-info-blue .alt-background-blue}
 ::: content-block-blue
@@ -304,7 +302,6 @@ The 2023 APLS Annual Conference schedule and program is available to download an
 :::
 :::
 :::
-
 
 ::: vspace
 :::
@@ -332,8 +329,10 @@ Book a room through the AP-LS sponsored link for conference discount
 :::
 
 <hr>
+
 ::: vspace
 :::
+
 ::: {simple-info}
 # Registration {#register}
 
@@ -365,8 +364,10 @@ Book a room through the AP-LS sponsored link for conference discount
 :::
 
 <hr>
+
 ::: vspace
 :::
+
 ::: {simple-info}
 # Preconference Workshops {#preconference}
 
@@ -378,7 +379,6 @@ The AP-LS Continuing Education (CE) Committee is accepting proposals for pre-con
 We are seeking workshop proposals for innovative and cutting-edge topics and will ask presenters to briefly describe how their proposed workshop promotes equity, inclusion, and justice in psychology and law.
 
 Workshop presenters will receive an honorarium commensurate with the workshop length (i.e., half day or full day). Proposals were due by 11:59 PM PDT, September 12, 2023. Contact Lisa Kan at {{< fa envelope title="Email" >}} {{< var email.ce >}}
-
 
 <figcaption class="blockquote-footer">
 
@@ -431,13 +431,15 @@ Chair, AP-LS CE Committee <cite title="Lisa Kan, PhD Pronouns: she/her">Lisa Kan
 :::
 
 <hr>
+
 ::: vspace
 :::
+
 ::: simple-info
 # Schedule Overview {#schedule}
 
 ::: {.panel-tabset .box-shadow}
-## Preconference 
+## Preconference
 
 ### Wednesday, March 20, 2024
 
@@ -462,7 +464,6 @@ Pre-conference sessions throughout the day
 ### Saturday, March 23, 2024
 
 *More information available soon.*
-
 :::
 
 \*Program is subject to change
