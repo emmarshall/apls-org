@@ -96,7 +96,7 @@ Applicants are to provide a short grant proposal (a maximum of 2,000 words exclu
 1. A **cover sheet** indicating the title of the project, name, address, phone number, and email address of the investigator
 </li></p> 
 
-2. An **abstract** of 100 words or less summarizing the project
+2. An **abstract** of 200 words or less summarizing the project
 
 3. **Project background** that reviews purpose, theoretical rationale, and significance of the project
 
