@@ -1,7 +1,7 @@
 ---
 title: Clinicians' Travel Grants for American Psychology-Law Society Conference
 date: last-modified
-description: Provides travel awards to APLS members who serve as a caregiver in any capacity (e.g., child, parent) to attend the American Psychology-Law Society Conference.
+description: Provides travel awards to APLS members who are clinicians to attend the American Psychology-Law Society Conference.
 categories: 
   - Early Career Professionals
   - Conference Travel
