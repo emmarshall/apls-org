@@ -34,7 +34,7 @@ library(dplyr)
 links <- tibble(
   icon = c("circle-info", "envelope"),
   text = c("About Practice Committee", "Submit application"),
-  url = c("../../about/committees.html", "practice@ap-ls.org")
+  url = c("../../about/committees.html", "mailto:practice@ap-ls.org")
 )
 
 # Create inline objects for each row of the tibble
