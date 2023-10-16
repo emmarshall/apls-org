@@ -20,8 +20,9 @@ source("../../assets/apls_functions.R")
 :::
 
 ::: callout-note
-Submissions must be emailed to the Chair of the Dissertation Award Committee at `aplsdissertations@gmail.com` before December 31 annually. 
+Submissions must be emailed to the Chair of the Dissertation Award Committee at `dissertation@ap-ls.org` before December 31 annually. 
 ```{r}
+#| label: Award info
 #| echo: false
 #| output: asis
 
@@ -32,7 +33,7 @@ library(dplyr)
 links <- tibble(
   icon = c("circle-info", "envelope", "file-import"),
   text = c("About Dissertation Award Committee", "Contact", "Submit Nomination"),
-  url = c("../../about/committees.html", "mailto:aplsdissertations@gmail.com", "mailto:aplsdissertations@gmail.com")
+  url = c("../../about/committees.html", "mailto:dissertation@ap-ls.org", "mailto:dissertation@ap-ls.org")
 )
 
 # Create inline objects for each row of the tibble
@@ -65,7 +66,7 @@ To be eligible for the award, you must be a member of AP-LS and have defended yo
 You do not need to have graduated by December 31 to apply.
 
 ## How to Apply
-Email submissions to the [Chair of the Dissertation Awards Committee](mailto:aplsdissertations@gmail.com) before December 31 annually.
+Email submissions to the [Chair of the Dissertation Awards Committee](mailto:aplsdissertations@gmail.com) {{< var email.dissertation >}} before December 31 annually.
 
 :::{.callout-tip} 
 ## Submissions should include:
