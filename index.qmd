@@ -16,9 +16,7 @@ source("assets/apls_functions.R")
 
 
 ::: {#hero-banner .column-screen}
-::: {.grid .column-page}
-
-:::
+::: {.inner-container}
 
 
 ```{r}
@@ -83,10 +81,12 @@ padding-bottom: 1em;
 }
 </style>
 ```
-::: vspace
 :::
 
-::: {.column-screen .light-section}
+::: vspace2
+:::
+
+::: {.column-screen}
 ::: grid
 ```{r}
 #| label: Row of links
@@ -133,7 +133,7 @@ div(class = "bg-light",
 #| message: false
 
 info <- tibble(
-  title = "Interested in AP-LS?",
+  title = "Interested in APA Div. 41?",
   text = "Become a member.",
   ctr = "Join now",
   link = "membership/index.html",
@@ -191,17 +191,9 @@ profiles_cropped_html <- htmltools::HTML(profiles_cropped_html)
 :::
 :::
 
-::: {.simple-info-blue .alt-background-blue}
-::: content-block-blue
-### Get ready for the 2024 American Psychology-Law Society Conference!
 
-Los Angeles, CA---March 21-23
 
-[Learn more{{< fa arrow-right >}}](conferences/index.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
-:::
-:::
-
-::: {.column-screen .light-section}
+::: {.column-screen}
 ::: grid
 ```{r}
 #| label: Row of sub-links
@@ -236,5 +228,15 @@ div(class = "bg-light",
 )
 
 ```
+:::
+:::
+
+::: {.simple-info-blue .alt-background-blue}
+::: content-block-blue
+### Get ready for the 2024 American Psychology-Law Society Conference!
+
+Los Angeles, CA---March 21-23
+
+[Learn more{{< fa arrow-right >}}](conferences/index.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
 :::
 :::

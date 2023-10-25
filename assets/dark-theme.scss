@@ -2,8 +2,9 @@
 
 $theme: "flatly" !default;
 
+
 // gray colors 
-$gray: #737475;
+$gray: #838f9f;
 $gray-dark: #343a40;
 $gray-50:  #f5f5f5;
 $gray-100: #f8f9fa;
@@ -16,47 +17,59 @@ $gray-700: #7b8a8b;
 $gray-800: #343a40;
 $gray-900: #212529;
 
-
 // AP-LS brand colors 
 $blue: #1B3264;
 $steel: #4271B3;
 $cream: #FBF9F4;
 $yellow: #FAF61B;
-$gold: #ffcc00;
+$gold: #ffdc90;
 
-$primary:  $blue !default;
-$secondary: $cream !default;
-$info: $steel !default;
+
+
+$primary: #191E29 !default;
+$secondary: #0B0E14 !default;
+$info: $blue !default;
 $tip: $yellow !default;
+$dark: #262626 !default;
+$light: #faffd2 !default;
 
 // main content
-$body-bg:  #fdfdfd !default;
-$body-color:  $gray-900 !default;
-$headings-color: $primary !default;
-$card-border-color:  $primary !default;
-$form-select-border-color: $primary !default; 
+$body-bg:  $primary !default;
+$body-color:  #fdfdfd !default;
+$headings-color: #E1E8F5 !default;
+$card-border-color:  $yellow !default;
+$form-select-border-color: $yellow !default; 
 
 // text specials
-$link-color: $primary !default; 
-$link-hover-color: $gray-700 !default;
-$text-muted: gray !default;
+$link-color: $tip !default; 
+$link-hover-color: $light !default;
+
 
 // nav bar
-$navbar-bg: $primary;
-$navbar-fg: $secondary;
-$navbar-hl: $yellow;
+$navbar-bg: lighten($body-bg, 10%);
+//$navbar-fg: $yellow;
+//$navbar-hl: $yellow;
 
 // sidebar navigation
-$sidebar-bg: lighten($secondary, 10%);
-$sidebar-fg: $primary;
+$sidebar-bg: $secondary;
+//$sidebar-fg: lighten($secondary, 30%);
 
 // footer
-$footer-bg: $primary;
-$footer-fg: $secondary;
+$footer-bg: lighten($body-bg, 10%);
+//$footer-fg: lighten($secondary, 30%);
+
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 // fonts
 $headings-font-family: 'Cormorant Garamond', serif !default;
-$headings-font-weight: 600 !default;
+$headings-font-weight: 400 !default;
 $font-family-sans-serif: 'Proza Libre', sans-serif !default;
 $navbar-font-family: 'Proza Libre', sans-serif !default;
 $sidebar-font-family: 'Proza Libre', sans-serif !default;
@@ -74,27 +87,11 @@ $h5-font-size:     $font-size-base * 1.2 !default;
 $h6-font-size:     $font-size-base !default;
 
 
-// theme colors
-$code-bg: $secondary !default; //color for background of inline code
-$code-color: $primary !default; //color for the font of inline code
-$code-block-bg: $secondary !default; //color for background of blocks of code
-$code-block-color: $primary !default; //color for the font of blocks of code
-$code-block-border-color: $primary !default; //color for the border of blocks of code
-$btn-code-copy-color-active: $primary !default;
-
 
 /*-- scss:rules --*/
 
-.light-mode { display: block; }
-.dark-mode { display: none; }
-
-// fonts
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+.dark-mode { display: block; }
+.light-mode { display: none; }
 
 // navbar title
 .navbar-title {
@@ -294,7 +291,7 @@ div.navbar-collapse ul.navbar-nav li {
 
 
 .alt-background {
-  background-color: $secondary;
+  background-color: $light;
   border-top: 1px solid $secondary;
   border-bottom: 1px solid $secondary;
 }
@@ -327,7 +324,7 @@ div.navbar-collapse ul.navbar-nav li {
 
 
 .alt-background-blue {
-  background-color: $primary;
+  background-color: $light;
   border-top: 1px solid $secondary;
   border-bottom: 1px solid $secondary;
 }
@@ -345,9 +342,11 @@ div.navbar-collapse ul.navbar-nav li {
 }
 .simple-info-blue h3 {
    margin-top: 1rem;
-   color: $light;
+   color: $blue;
    margin-bottom: 2rem;
 }
+
+
 
 // title blocks
 #title-block-header {
@@ -383,11 +382,11 @@ pre.text, pre.sourceCode, .cell-output pre {
     padding-bottom: 0.1rem;
 
     .active {
-        font-weight: 400;
+        font-weight: 350;
     }
 
     #toc-title {
-        font-weight: 600;
+        font-weight: 500;
     }
 
 }
@@ -400,7 +399,7 @@ pre.text, pre.sourceCode, .cell-output pre {
 
     .quarto-listing-category {
         font-family: $toc-font-family;
-        font-weight: 400;
+        font-weight: 350;
         font-size: 0.85rem;
         line-height: 1;
         padding-left: 0.6rem;
@@ -412,14 +411,14 @@ pre.text, pre.sourceCode, .cell-output pre {
         }
 
         .active {
-            font-weight: 400;
+            font-weight: 350;
             color: $primary;
         }
 
         .quarto-category-count {
-            font-weight: 200;
+            font-weight: 150;
             font-size: 0.8rem;
-            color: $secondary;
+            color: $yellow;
         }
     }
 }
@@ -450,7 +449,7 @@ pre.text, pre.sourceCode, .cell-output pre {
 }
 
 .box-shadow {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px $yellow;
 }
 
 .tab-content {
@@ -470,21 +469,21 @@ pre.text, pre.sourceCode, .cell-output pre {
   margin-bottom: 10px;
   font-family: 'Proza Libre', sans-serif;
   font-size: 1.2rem;
-  font-weight: 600;
-  color: $gray-dark;
+  font-weight: 400;
+  color: $body-color;
   min-width: 102px;
   border-radius: inherit;
   border: inherit;
 }
 
 .nav-tabs .nav-link:hover {
-  border-bottom: 4px solid $primary;
+  border-bottom: 4px solid lighten($secondary, 30%);
   //padding-bottom: 2px;
 }
 
 .nav-tabs .nav-link.active {
-  color: $primary;
-  border-bottom: 4px solid $primary;
+  color: lighten($secondary, 30%);
+  border-bottom: 4px solid lighten($secondary, 30%);
   background-color: transparent;
 }
 
@@ -499,19 +498,20 @@ pre.text, pre.sourceCode, .cell-output pre {
 
 #card-primary-color {
   background-color: $body-bg;
-  border: 4px solid $primary;
+  border: 4px solid lighten($secondary, 30%);
   border-radius: 5px;
 }
 
-.home-card {
+.card {
   font-family: 'Proza Libre', sans-serif !important;
+  background-color: $blue;
 }
 
 .card-link {
-    background-color: $primary;
+    background-color: lighten($secondary, 30%);
     color: $secondary;
-    border: 4px solid $primary;
-    border-color: $primary;
+    border: 4px solid lighten($secondary, 30%);
+    border-color: lighten($secondary, 30%);
     padding: 5px .5rem 5px .5rem !important;
     margin: 0;
     border-radius: 5px; 
@@ -521,12 +521,12 @@ pre.text, pre.sourceCode, .cell-output pre {
 }
 
 .card-link:hover {
-  background-color: $white;
-  color: $primary;
+  background-color: $light;
+  color: lighten($secondary, 30%);
 }
 
 .card-footer-text {
-  color: $primary;
+  color: lighten($secondary, 30%);
   font-size: $h6-font-size;
   font-variant: small-caps;
 }
@@ -541,8 +541,8 @@ h5, .h5{
 
 .card:hover{
   transform: scale(1.05);
-  border-color: $primary;
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  border-color: lighten($primary, 30%);
+  box-shadow: 0 10px 20px $yellow, 0 4px 8px $yellow;
 }
 
 
@@ -570,11 +570,8 @@ h5, .h5{
 
 .feature-grid__i {
     font-size: 3rem;
-    color: #000;
+    color: $light;
 
-    &:hover {
-      color: $primary;
-    }
   }
 }
 
@@ -593,16 +590,13 @@ h5, .h5{
 
   &__item {
     border-top: $primary solid 5px;
-    box-shadow: 2px 2px #00000011;
+    box-shadow: 2px 2px $light;
     border-radius: 0px 0px 10px 0px;
     vertical-align: top;
     max-width: 420px;
     text-align: left;
     position: relative;
 
-    &:hover {
-      background-color: $secondary;
-    }
   }
 
   &__image-container {
@@ -628,20 +622,20 @@ h5, .h5{
 
   &__text {
     padding: 10px;
-    color: $primary;
+    color: $light;
   }
 
   &__name {
     margin-top: 0;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid $gray;
+    border-bottom: 1px solid lighten($secondary, 30%) !important;
     font-size: 1.2rem;
-    color: $primary;
+    color: lighten($secondary, 30%);
   }
   
   &__link {
-    color: $primary;
+    color: $light;
     border-bottom: 0px;
     text-decoration: none;
   }
@@ -679,9 +673,6 @@ h5, .h5{
     padding: 10px;
     position: relative;
 
-    &:hover {
-      background-color: $secondary;
-    }
   }
 
   &__title {
@@ -692,11 +683,11 @@ h5, .h5{
     display: inline-block;
     width: 100%;
     padding-bottom: 0.5rem;
-    color: $primary;
+    color: $light;
   }
 
   &__title-icon {
-    color: $black;
+    color: $light;
   }
 
   &__link-box {
@@ -717,7 +708,7 @@ h5, .h5{
   }
 
   &__title-link {
-    color: $primary;
+    color: $light;
     border-bottom: 0px;
     text-decoration: none;
   }
@@ -733,9 +724,6 @@ h5, .h5{
     font-size: 1.5rem;
     margin-left: 10px;
 
-    &:hover {
-      color: $steel;
-    }
   }
 
   &__link-footer {
@@ -759,7 +747,7 @@ h5, .h5{
 
 // boxed feature grid
 .bg-light {
-  background-color: $secondary !important;
+  background-color: $light !important;
 }
 .bg-breakout {
   position: relative;
@@ -803,10 +791,10 @@ h5, .h5{
   display: inline-block;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  background-color: lighten($secondary, 30%);
   min-height: 8.375rem;
-  border-bottom: 0.0625rem solid #dee2e6;
-  border-right: 0.0625rem solid #dee2e6;
+  border-bottom: 0.0625rem solid $gray;
+  border-right: 0.0625rem solid $gray;
 }
 
 .boxed-feature-grid__item {
@@ -835,16 +823,13 @@ h5, .h5{
     
     i {
     font-size: 3.125rem;
-    color: $primary;
+    color: $light;
   }
   
-  &:hover {
-    color: $steel;
-  }
 }
 
 .boxed-feature-grid__title {
-      color: $primary;
+      color: $light;
       margin-top: 1rem;
       font-weight: 600;
       text-align: center;
@@ -881,7 +866,7 @@ h5, .h5{
 }
 
 .rt-th {
-  border-bottom: 1px solid $secondary !important;
+  border-bottom: 1px solid lighten($secondary, 30%) !important;
 }
 
 .object-table__list {
@@ -926,7 +911,7 @@ h5, .h5{
             font-weight: 300;
             font-size: 0.9em;
             margin-bottom: 0.5rem;
-            color: $gray-700;
+            color: $light;
         }
         
         .date {
@@ -939,7 +924,7 @@ h5, .h5{
         ul.job-links {
             display: inline-block;
             white-space: nowrap;
-            background-color: $secondary;
+            background-color: lighten($secondary, 30%);
             margin: 0 0.2rem 0.4rem 0rem;
             padding: 0.2rem 0.4rem;
             font-size: 0.1rem;
@@ -968,9 +953,11 @@ h5, .h5{
 #title-block-header {
     .quarto-title-banner {
         font-family: $headings-font-family;
+        color: $light;
         
         .description {
             font-size: .75em;
+            color: $light;
             margin-top: 1em !important;
         }
     }
@@ -1024,8 +1011,8 @@ h1.title {
     }
     
     .quarto-title .quarto-categories .quarto-category {
-        background-color: shift-color($primary, -75%);
-        color: $secondary;
+        background-color: $light;
+        color: $light;
         opacity: 1;
     }
 
@@ -1094,7 +1081,7 @@ h1.title {
         }
 
         .details {
-            background-color: $primary;
+            background-color: $light;
             padding-right: 1.5em;
 
             a {
@@ -1104,67 +1091,6 @@ h1.title {
     }
 
 
-// newsletter archives
-.newsletter {
-    .archive-entry {
-        display: flex;
-        flex-direction: row;
-        font-family: $headings-font-family;
-        line-height: 1.3;
-        margin-bottom: 3em;
-        column-gap: 0.7em;
-
-        .body {
-            flex: 1 1 auto;
-        }
-
-        .image {
-            flex: 0 0 140px;
-
-            img {
-                width: 100%;
-            }
-        }
-
-        .issue-title {
-            font-weight: 500;
-            font-size: 1.25em;
-            margin-bottom: 0.2em;
-        }
-        
-        .issue-details {
-            font-weight: 300;
-            font-size: 0.9em;
-            margin-bottom: 0.5em;
-            color: $gray-800;
-        }
-
-        ul.course-semesters {
-            list-style: none;
-            padding: 0;
-            margin-bottom: 0;
-
-            li {
-                display: inline-block;
-                white-space: nowrap;
-                background-color: $red;
-                margin: 0 0.2em 0.4em 0;
-                padding: 0.2em 0.4em;
-                font-size: 0.85em;
-                border-radius: 0.25rem;
-
-                &.no-link {
-                    background-color: $white;
-                    border: 1px solid $black;
-                }
-
-                a {
-                    color: $white;
-                }
-            }
-        }
-    }
-}
 
 // Makes List of icons, text to insert into callout blocks with r function
 
@@ -1193,16 +1119,24 @@ h1.title {
 // info section-click link
 
 .info-section {
-  background-color: $primary;
-  color: $secondary;
+  background-color: $gold;
+  color: lighten($primary, 30%);
 
   a {
-    color: $yellow;
-    font-size: .8rem;
-    text-decoration-color: $primary;
-    text-transform: uppercase;
-    display: inline-block;
+    min-width: 130px;
+    height: 40px;
+    color: $primary;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
     position: relative;
+    display: inline-block;
+    outline: none;
+    border: 2px solid $gold;
+    background: $gold;
+    font-size: .8rem;
+    text-transform: uppercase;
 
     &::after {
       display: inline-block;
@@ -1217,15 +1151,17 @@ h1.title {
     font-weight: normal;
 
     &:hover {
-      font-size: 1rem;
+        background: #fff;
+      color: #ffd700
     }
   }
 }
 
+
 .icon-container i {
   display: flex;
   margin-left: 8rem; /* Add 10 pixels of space between the icon and text */
-  color: $secondary;
+  color: $gray;
 }
 
 // info bar-button
@@ -1242,8 +1178,8 @@ h1.title {
 }
 
 .info-bar {
-  background-color: $primary;
-  color: $secondary;
+  background-color: $gold;
+  color: $primary;
   display: flex;
   align-items: center;
   padding: 0 5rem;
@@ -1256,8 +1192,8 @@ h1.title {
   height: 4.35rem;
   margin-right: 5rem;
   font-size: 2.2rem;
-  background-color: $secondary;
-  color: $primary;
+  background-color: $body-bg;
+  color: $yellow;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1276,7 +1212,7 @@ h1.title {
   flex: 1;
   text-align: margin-left;
   order: 2;
-  color: $secondary;
+  color: $primary;
   text-size: .8rem;
 }
 
@@ -1342,3 +1278,13 @@ figcaption.blockquote-footer > cite {
   background-color: $secondary; /* Change the background color on hover */
 }
 
+// dark mode images
+@media (prefers-color-scheme: dark) {
+  img {
+    opacity: .75;
+    transition: opacity .5s ease-in-out;
+  }
+  img:hover {
+    opacity: 1;
+  }
+}

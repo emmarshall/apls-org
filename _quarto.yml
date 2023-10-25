@@ -124,7 +124,7 @@ website:
 format:
   html:
     theme: 
-      light: [flatly, assets/light-theme.scss]
+      light: [assets/light-theme.scss]
     css: assets/styles.css
     grid:
       sidebar-width: 250px

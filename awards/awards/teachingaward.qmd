@@ -104,7 +104,7 @@ The total nomination packages must be no more than 15 pages total.
 
 Self-nominations are encouraged.
 :::
-:::
+
 
 ## Past Recipients
 
@@ -131,3 +131,4 @@ Self-nominations are encouraged.
 | 2005   | Bette Bottoms and Jim Ogloff                          |                                   |
 | 2004   | Margaret Bull Kovera                                  |                                   |
 | 1996   | Gail Goodman (First time awarded)                     |                                   |
+:::
