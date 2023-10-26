@@ -39,12 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,7 +74,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-when','listing-image','listing-location','listing-program',{ data: ['index'] },{ data: ['categories'] }],
-      
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-when","listing-image","listing-location","listing-program"],
     };
 
@@ -204,7 +203,6 @@ background-size: cover;
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -510,10 +508,508 @@ background-size: cover;
       </div>
     </div>
   </div>
+  <div class="g-col-1" data-index="10">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2013 Annual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 7-9, 2013</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Portland, Oregon</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="11">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2012 Annual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 15-17, 2012</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> San Juan, Puerto Rico</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="12">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2011 Annual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 3-5, 2011</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Miami, Florida</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="13">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2010 Annual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 18-20, 2010</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Vancouver, BC, Canada</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="14">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2009 Annual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 5-8, 2009</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> San Antonio, Texas</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="15">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2008 Annual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 5-8, 2008</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Jacksonville, Florida</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="16">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2006 Biannual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 2-5, 2006</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> St. Petersburg, Florida</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="17">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2005 Biannual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 3-6, 2005</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> La Jolla, California</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="18">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2004 Biannual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 4-7, 2004</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Scottsdale, Arizona</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="19">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2002 Biannual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 7-10, 2022</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Austin, Texas</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="20">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">2000 Biannual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 9-11, 2000</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> New Orleans, Louisiana</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="21">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">1998 Biannual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">March 5-7, 1998</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Redondo Beach, California</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="22">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">1996 Biannual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">February 1996</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Hilton Head, California</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="23">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">1994 Biannual Conference</h5>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Santa Fe, New Mexico</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="24">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">1992 Biannual Conference</h5>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> San Diego, California</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="25">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">1990 Biannual Conference</h5>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Williamsburg, Virginia</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="26">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">1988 Biannual Conference</h5>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Miami, Florida</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="27">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">1986 Biannual Conference</h5>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Tucson, Arizona</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="28">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">1983 Biannual Conference</h5>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Chicago, Illinois</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="29">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">1981 AP-LS Biannual Conference</h5>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Boston, Massachusetts</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="30">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">1979 Biannual Conference</h5>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Baltimore, Maryland</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="31">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">1977 Biannual Conference</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">June 1977</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Snowmass, Colorado</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="32">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">1975 Biannual Conference</h5>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> Chicago, Illinois</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="g-col-1" data-index="33">
+    <div class="quarto-grid-item card h-75 card-left">
+      <div class="card-img-top quarto-card-img" style="height: 40%;"> <!-- Adjust the img height percentage -->
+          <img src="images/default.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+      </div>
+      <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;"> <!-- Adjust padding values -->
+        <h5 class="no-anchor card-title listing-title">1974 AP-LS Inagural Meeting</h5>
+          <div class="card-text listing-when" style="padding-top: 0.3em; font-size: 18px;">June 28-30, 1974</div>
+          <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="fa-solid fa-location-dot" style="color: red;"></i> San Francisco, California</div>
+        <style>
+          .listing-categories .listing-category .listing-href {
+            color: $primary; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            font-size: 14px; /* Add font size property */
+          }
+        </style>
+        <div class="listing-categories" style="padding-top: 1em;">
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="conferences-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 
 
@@ -540,121 +1036,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  let localAlternateSentinel = 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

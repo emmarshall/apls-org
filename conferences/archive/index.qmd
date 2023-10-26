@@ -5,6 +5,7 @@ title-block-banner: "../../images/default-banner.svg"
 listing:
   - id: conferences
     contents: apls-conferences.yml
+    type: table
     template: conference-listing.ejs
     filter-ui: true
 ---
