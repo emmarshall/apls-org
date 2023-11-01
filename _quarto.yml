@@ -125,6 +125,7 @@ format:
   html:
     theme: 
       light: [assets/light-theme.scss]
+      dark: [assets/dark-theme.scss]
     css: assets/styles.css
     grid:
       sidebar-width: 250px

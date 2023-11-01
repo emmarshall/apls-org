@@ -38,10 +38,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -231,6 +233,7 @@ background-size: cover;
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -267,24 +270,63 @@ background-size: cover;
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
 
-<div class="row align-items-center justify-content-center">
-<div class="col-md-6">
-<p><a href="https://apls.memberclicks.net/job-posting-request#!/" id="btn-guide" class="btn-action btn-action btn btn-primary" role="button">Request a Job Be Posted</a></p>
+<div class="column-page-inset">
+<div class="cell g-col-lg-6 g-col-12 g-col-md-12">
+<div class="cell-output-display">
+<div class="feature-grid">
+<div class="feature-grid__item">
+<div class="feature-grid__icon">
+<a href="https://apls.memberclicks.net/job-posting-request#!/" class="feature-grid__link">
+<i class="bi-send feature-grid__i"></i>
+</a>
+</div>
+Post a job
+</div>
+<div class="feature-grid__item">
+<div class="feature-grid__icon">
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSeyn6YEW7-mne6RsT-yzTMN8HNSXQjuHYPP1DtW7gQq11H9eA/viewform" class="feature-grid__link">
+<i class="bi-clipboard2-pulse feature-grid__i"></i>
+</a>
+</div>
+Clinical-forensic Postdoctoral Form
+</div>
+<div class="feature-grid__item">
+<div class="feature-grid__icon">
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSflLwIb_8pTwj_UF7zUDYlBV-4ZF5RhOTB8CJ4etbIPlncwoA/viewform" class="feature-grid__link">
+<i class="bi-clipboard2-data feature-grid__i"></i>
+</a>
+</div>
+Research Postdoctoral Form
 </div>
 </div>
-<div class="button-row">
-<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeyn6YEW7-mne6RsT-yzTMN8HNSXQjuHYPP1DtW7gQq11H9eA/viewform" class="btn-action btn-action btn btn-info" role="button">Clinical-forensic Postdoctoral Form</a></p>
-<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSflLwIb_8pTwj_UF7zUDYlBV-4ZF5RhOTB8CJ4etbIPlncwoA/viewform" class="btn-action btn btn-info" role="button">Research Postdoctoral Form</a></p>
+</div>
+</div>
 </div>
 <section id="fa-graduation-cap-academic-positions" class="level2">
 <h2 class="anchored" data-anchor-id="fa-graduation-cap-academic-positions"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> Academic Positions</h2>
 <div id="listing-academic" class="quarto-listing quarto-listing-container-custom">
 <div class="jobs">
+    <div class="job-entry">
+      <div class="metadata">
+        <p class="date">10/28/23</p>
+      </div>
+      <div class="body">
+        <p class="title">Director for the School of Interdisciplinary Forensics</p>
+            <p class="details">Arizona State University | Tempe, Arizona</p>
+    <ul class="job-links">
+      <li class="job-link">
+        <a href="https://www.agbsearch.com/searches/director-for-the-school-of-interdisciplinary-forensics-arizona-state-university" class="listing-name">
+        <i class="fa-solid fa-circle-info" style="color: $primary;"></i> View post »
+        </a>
+      </li>
+    </ul>
+  </div>  
+  </div>
     <div class="job-entry">
       <div class="metadata">
         <p class="date">10/25/23</p>
@@ -876,6 +918,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

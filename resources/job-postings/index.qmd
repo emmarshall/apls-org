@@ -16,20 +16,43 @@ listing:
     template: job-listing.ejs
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("../../assets/apls_functions.R")
+```
 
-::: {.row .align-items-center .justify-content-center}
-::: {.col-md-6}
+::: {.column-page-inset}
+```{r}
+#| label: Submit new jobs
+#| echo: false
+#| message: false
+#| warning: false
+#| classes: '.g-col-lg-6 .g-col-12 .g-col-md-12'
 
-[Request a Job Be Posted](https://apls.memberclicks.net/job-posting-request#!/){#btn-guide .btn-action .btn-action .btn .btn-primary role="button"}
-
-:::
-
-:::
-
-::: button-row
-[Clinical-forensic Postdoctoral Form](https://docs.google.com/forms/d/e/1FAIpQLSeyn6YEW7-mne6RsT-yzTMN8HNSXQjuHYPP1DtW7gQq11H9eA/viewform){.btn-action .btn-action .btn .btn-info role="button"}
-
-[Research Postdoctoral Form](https://docs.google.com/forms/d/e/1FAIpQLSflLwIb_8pTwj_UF7zUDYlBV-4ZF5RhOTB8CJ4etbIPlncwoA/viewform){.btn-action .btn .btn-info role="button"}
+content = rowwise_table(~icon, ~text, ~link,
+          "send",          
+            "Post a job",
+              "https://apls.memberclicks.net/job-posting-request#!/",
+          "clipboard2-pulse",          
+            "Clinical-forensic Postdoctoral Form",
+              "https://docs.google.com/forms/d/e/1FAIpQLSeyn6YEW7-mne6RsT-yzTMN8HNSXQjuHYPP1DtW7gQq11H9eA/viewform",
+          "clipboard2-data",          
+            "Research Postdoctoral Form",
+              "https://docs.google.com/forms/d/e/1FAIpQLSflLwIb_8pTwj_UF7zUDYlBV-4ZF5RhOTB8CJ4etbIPlncwoA/viewform"
+)
+div(class = "feature-grid",
+  pmap(content, function(icon, text, link) {
+    div(class = "feature-grid__item",
+        div(class="feature-grid__icon",
+          a(href = link, class = "feature-grid__link",
+            tags$i(class = sprintf("bi-%s feature-grid__i", icon))
+         )
+       ),
+      text
+    )
+  })
+)
+```
 :::
 
 

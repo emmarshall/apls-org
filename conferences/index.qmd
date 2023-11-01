@@ -62,7 +62,7 @@ source("../assets/apls_functions.R")
 ### Los Angeles, California \| March 21-23, 2024
 
 ::: hero-buttons
-[Submit Proposal](https://ap-ls2024.exordo.com/){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [Learn More](#cfp){.btn-action .btn .btn-secondary role="button"}
+[Register Now](https://apls.memberclicks.net/24conferencereg#!/){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [Learn More](#Info){.btn-action .btn .btn-secondary role="button"}
 :::
 :::
 :::
@@ -152,6 +152,8 @@ Looking forward to seeing everyone in March!
 
 **Reviewer sign-up ends:** October 13, 2023
 
+**Review of abstracts due:** November 2, 2023
+
 **Early bird-registration ends**: January 31, 2024
 
 ## {{< fa circle-user >}} Conference Organizers
@@ -185,6 +187,18 @@ REFRESHMENTS WILL BE PROVIDED AFTER THE RACE
 ***Funds raised are used to support student committee conference awards***
 :::
 :::
+
+## Student Volunteer Interest
+
+Students are eligible to receive complimentary conference registration by volunteering to serve as staff during the annual conference.
+
+**To apply:**
+
+1.  Submit a letter of intent to serve on official letterhead from your program chair, department head, or faculty to {{< fa envelope title="Email" >}} {{< var email.office >}} that includes the following statement:
+
+    | *"This letter of intent is made with the full understanding that \[insert student name here\] will volunteer as staff support for the AP-LS 2024 conference for which the registration scholarship has been awarded. Failure to serve will not only void the scholarship but will jeopardize future requests. Should I attend the conference and fail to serve, payment in full of applicable fees will be rendered to AP-LS upon request."*
+
+2.  All Submissions are due **November 24th, 2023** and will be reviewed and accepted by **November 30th**. If you are accepted you will receive a discount code for registration. We highly recommend waiting to register until receiving this discount code as refunds can often take some time.
 :::
 
 <hr>
@@ -199,94 +213,25 @@ REFRESHMENTS WILL BE PROVIDED AFTER THE RACE
 
 ### APLS 2024 Call for Proposals
 
-We invite proposal submissions for the 2024 Annual Conference of AP-LS. We strongly encourage proposals that are empirically based and that involve new and emerging topics within psychology and law, as well as proposals that include diverse populations. We also welcome legal proposals that can be offered for Continuing Legal Education credit. Proposals will be evaluated through a blind review process focused on intellectual merit, innovation, novelty, and integration of multiple aspects of the field.
-
-::: simple-info
-### Visit the conference website to register, submit your proposals, AND sign up as a reviewer!
-
-[Sign up](https://ap-ls2024.exordo.com/){.btn-action-primary .btn-action .btn .btn-primary role="button"}
-
-##### All proposals must be submitted by ~~Monday, October 2, 2023~~ [the extended deadline of extended deadline of Monday, October 9, 2023 at]{style="color: red;"} 11:59 pm PST
-:::
-
-**Posters:** Posters will be presented at one of two poster sessions typically held Friday and Saturday evenings. Poster presentations are made in written format on display boards (size TBA). Submissions are limited to a 100-word abstract and 1000-word summary.
-
-**Data-blitz:** A 5-minute presentation (limit 3 slides), covering a bite-sized piece of psycho-legal research. Submissions are limited to a 100-word abstract, 1000-word summary, and 1-2 learning objectives. The sessions will offer a fast-paced overview of the most exciting research emerging in psychology and law. Data-blitz sessions will include top-rated papers and will not be organized by topic (great for research and legal scholarship that does not traditionally fit with other AP-LS sessions!). Authors will indicate whether they would like to be considered as a paper and data-blitz, only for a paper, or only as a data-blitz.
-
-**Papers:** Presentation of a paper describing an individual research topic OR piece of legal scholarship. Submissions are limited to a 100-word abstract, 1000-word summary, and 1-2 learning objectives. After acceptances/rejections are completed, 3-5 paper presentations will be grouped into 60- or 80-minute sessions.
-
-**Symposia:** A coordinated group of presentations with a minimum of 3 and a maximum of 5 presentations, as well as an independent discussant. Symposia will be scheduled as 80-minute sessions. The participation of each presenter must be secured before submission.
-
-*Note that due to current limitations of the Ex Ordo submission portal, there are several symposia-specific submission instructions that MUST be followed to ensure it is appropriately reviewed.*
-
-::: {.callout-caution collapse="true"}
-## Please read the following instructions carefully.
-
-Symposia chairs will be expected to complete a submission for the full symposium, as well as for each paper to be included in the symposium (i.e., chairs should be completing 4 to 6 submissions).
-
-The full symposium submission will include the name and title for the symposium chair (listed first) as well as the name and title for the discussant (listed second). The symposium title must be preceded by a unique 4-digit numeric code (e.g., the last 4 digits of the chair's office phone). The symposium submission will also include a 100-word abstract, but in lieu of the 1000-word summary, symposia chair should submit 3-5 learning objectives for the symposia session and a minimum of 5 APA-formatted references (published in the last 10 years). Additionally, please identify the type of CE credit (e.g., program content focused on assessment/intervention, ethical/legal guidelines, or other practice, education, or research) and provide a brief description (\< 100 words) on how the offered content conforms to that CE presentation type. Finally, the discussant's CV will need to be uploaded to the submission portal.
-
-Each paper to be included in the symposium session should also be submitted by the symposium chairs. The submission should be identified as a symposium, but otherwise, will follow similar requirements as paper submissions. The exception being that the presenting author's CV will need to be submitted with each paper. In addition, the title of the paper should include the same 4-digit numeric code as the symposium title. It should also include a Paper \# to ensure the symposium is reviewed in the correct order.
-
-The full symposium proposal title would be submitted as:
-
-\#### - Title of Symposium {{< fa arrow-right >}} 3975 -- Using an interactive simulation of legal procedures to study plea decision-making
-
-The papers would then be submitted as: \#### - Paper 1 -- Title of Paper 1 {{< fa arrow-right >}} 3975 -- Paper 1 -- How to customize your own interactive simulation of legal procedures
-
-\#### - Paper 2 -- Title of Paper 2 {{< fa arrow-right >}}
-
-3975 -- Paper 2 -- Guilt status influences plea outcomes beyond the shadow of the trial
-
-\#### - Paper 3 -- Title of Paper 3 {{< fa arrow-right >}}
-
-3975 -- Paper 3 -- "Reject the offer": the asymmetric impact of defense attorneys' plea recommendations
-
-\#### - Paper 4 -- Title of Paper 4 {{< fa arrow-right >}}
-
-3975 -- Paper 4 -- Terms and conditions apply: The effect of probation details and duration on true and false guilty pleas
-:::
-
-::: {.callout-note appearance="simple"}
-Please note there is a limit of TWO first-author symposia/paper/data-blitz submissions per person. There are no limits for the number of submissions for posters or appearances as a discussant or session chair.
-
-##### **If you are an author on more than one submission, please use the same email address for each submission to avoid duplicate profiles.**
-:::
-
-**Reviewers:** Reviewers are invited for all content areas including both professional and graduate student reviewers. Proposals for review will be distributed by mid-October. Please sign up to be a reviewer using the submission portal when you submit your proposal, or, if you do not plan to submit a proposal, [using this Google form](https://forms.gle/dNDx2AtUU5tcb3oG8).
-
-Please visit the AP-LS webpage for continuing conference-related updates.
-
-If you have any questions or comments regarding the call for proposals, or about the conference, please contact the conference co-chairs at {{< fa envelope title="Email" >}} {{< var email.conference >}}
-
-Looking forward to seeing everyone in March!
-
-<figcaption class="blockquote-footer">
-
-2024 AP-LS Conference Co-Chairs <cite title="Cait Cavanagh, Ph.D. & Samantha Zottola, Ph.D.">Cait Cavanagh, Ph.D. & Samantha Zottola, Ph.D.</cite>
-
-</figcaption>
-
-</figure>
+Proposal submissions for the 2024 APLS Conference are now closed.
 
 ## {{< fa user-pen >}} Call for Reviewers
 
-We are so looking forward to APLS 2024. In order to make the conference a success, we need reviewers in all content areas. Please consider signing up! If you signed up to be a reviewer when you submitted your own conference proposal, there is no need to sign up again. If you didn't sign up to be a reviewer yet, it's not too late!
+If you signed up to review submission for the 2024 AP-LS annual conference you should have received an email with the link to complete your reviews.
 
-Interested reviewers should enter their information using the following link by **Oct. 13, 2023**
+The deadline for review of abstracts is the **Thursday, 2nd November 2023**.
 
-[Sign up](https://forms.gle/dNDx2AtUU5tcb3oG8){.btn-action-primary .btn-action .btn .btn-primary role="button"}
+::: {.callout-note appearance="simple"}
+We would be extremely grateful if you could complete your reviews before the deadline so that we can issue our notification to authors without delay.
 
-Thank you for helping us make it a great conference.
-
-<figcaption class="blockquote-footer">
-
-2024 AP-LS Conference Co-Chairs <cite title="Cait Cavanagh, Ph.D. & Samantha Zottola, Ph.D.">Cait Cavanagh, Ph.D. & Samantha Zottola, Ph.D.</cite>
-
-</figcaption>
-
-</figure>
+If you have any questions about the process or your review allocation, please contact {{< fa envelope title="Email" >}} {{< var email.conference >}}
 :::
+:::
+
+::: vspace
+:::
+
+<hr>
 
 ::: vspace
 :::
@@ -298,7 +243,7 @@ Thank you for helping us make it a great conference.
 
 The 2023 APLS Annual Conference schedule and program is available to download and view online
 
-[Learn more{{< fa arrow-right >}}](archive/2023/schedule.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
+[Learn more {{< fa arrow-right >}}](archive/2023/schedule.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
 :::
 :::
 :::
@@ -316,15 +261,29 @@ The 2023 APLS Annual Conference schedule and program is available to download an
 
 > The 2024 AP-LS Conference will be held at the [The Westin Bonaventure Hotel and Suites](https://www.marriott.com/en-us/hotels/laxbw-the-westin-bonaventure-hotel-and-suites-los-angeles/overview/)
 
+### Conference Rates
+
+AP-LS has rooms set aside for all attendees, which can be booked at a special group rate that is available for attendees:
+
+{{< fa credit-card >}} Group Rate \$249 </br>
+{{< fa calendar >}} Available March 19 - March 24 </br>
+{{< fa square-parking >}} Discounted Valet Parking (\$38/ night)
+
+Attendees must book their room by **February 25th, 2024** to take advantage of the special rate!
+
 ::: hero-buttons
-[{{< fa map-location-dot >}} Get Directions](https://goo.gl/maps/p6PCdg1nZ46NASuw9){.btn-action .btn .btn-info .ml-auto role="button"} [{{< fa hotel >}} Website](https://goo.gl/maps/p6PCdg1nZ46NASuw9){.btn-action .btn .btn-dark .ml-auto role="button"}
+[{{< fa bell-concierge >}} Book a Room](https://www.marriott.com/event-reservations/reservation-link.mi?id=1698166662825&key=GRP&app=resvlink){.btn-action .btn .btn-info .ml-auto role="button"} [{{< fa hotel >}} Website](https://goo.gl/maps/p6PCdg1nZ46NASuw9){.btn-action .btn .btn-dark .ml-auto role="button"}
 :::
 
-## Conference Rates
 
-Book a room through the AP-LS sponsored link for conference discount
 
-*More information available soon.*
+## Parking and Details
+**more information available soon**
+
+::: hero-buttons
+[{{< fa map-location-dot >}} Get Directions](https://goo.gl/maps/p6PCdg1nZ46NASuw9){.btn-action .btn .btn-info .ml-auto role="button"} 
+:::
+
 :::
 :::
 
@@ -336,8 +295,13 @@ Book a room through the AP-LS sponsored link for conference discount
 ::: {simple-info}
 # Registration {#register}
 
-*More information available soon.*
+::: {.panel-tabset .box-shadow}
+## Registration is open!
+We encourage you to register before January 31st to take advantage of the early bird pricing!
 
+[Register Now {{< fa arrow-up-right-from-square >}} ](https://apls.memberclicks.net/24conferencereg#!/){.btn-action .btn .btn-primary .ml-auto role="button"}
+
+## {{< fa circle-info >}} Pricing
 ::: {.callout-note appearance="simple"}
 ## REGISTRATION RATES & INCLUSIONS
 
@@ -347,20 +311,22 @@ Book a room through the AP-LS sponsored link for conference discount
 | Status                                  | Early Bird\     | Regular\      |
 |                                         | (before Jan 31) | (on Feb 1)    |
 +:========================================+:================+:==============+
-| Full Member                             | \$245           | \$275         |
+| Full Member                             | \$285           | \$315         |
 +-----------------------------------------+-----------------+---------------+
-| Early Career Professional\              | \$180           | \$210         |
-| Member                                  |                 |               |
+| Early Career Professional Member        | \$205           | \$235         |
+|                                         |                 |               |
 +-----------------------------------------+-----------------+---------------+
-| Student Member                          | \$65            | \$95          |
+| Student Member                          | \$80            | \$110          |
 +-----------------------------------------+-----------------+---------------+
-| Student Member *First-Author Presenter* | \$25            | \$25          |
+| Student Member *First-Author Presenter* | \$40            | \$40          |
 +-----------------------------------------+-----------------+---------------+
-| Student Non-member                      | \$115           | \$145         |
+| Student Non-member                      | \$140           | \$170         |
 +-----------------------------------------+-----------------+---------------+
 | Non-member                              | \$330           | \$400         |
 +-----------------------------------------+-----------------+---------------+
 :::
+:::
+
 :::
 
 <hr>
@@ -378,15 +344,9 @@ The AP-LS Continuing Education (CE) Committee is accepting proposals for pre-con
 
 We are seeking workshop proposals for innovative and cutting-edge topics and will ask presenters to briefly describe how their proposed workshop promotes equity, inclusion, and justice in psychology and law.
 
-Workshop presenters will receive an honorarium commensurate with the workshop length (i.e., half day or full day). Proposals were due by 11:59 PM PDT, September 12, 2023. Contact Lisa Kan at {{< fa envelope title="Email" >}} {{< var email.ce >}}
+Workshop presenters will receive an honorarium commensurate with the workshop length (i.e., half day or full day). Proposals were due by 11:59 PM PDT, September 12, 2023.
 
-<figcaption class="blockquote-footer">
-
-Chair, AP-LS CE Committee <cite title="Lisa Kan, PhD Pronouns: she/her">Lisa Kan, PhD Pronouns: she/her</cite>
-
-</figcaption>
-
-</figure>
+Contact Lisa Kan, Chair AP-LS CE Committee at {{< fa envelope title="Email" >}} {{< var email.ce >}}
 
 ## {{< fa circle-info >}} Pricing
 
@@ -445,7 +405,7 @@ Chair, AP-LS CE Committee <cite title="Lisa Kan, PhD Pronouns: she/her">Lisa Kan
 
 Pre-conference sessions throughout the day
 
-[Learn More{{< fa arrow-right >}}](#preconference){.btn-action .btn .btn-primary .btn-lg role="button"}
+[Learn More {{< fa arrow-right >}}](#preconference){.btn-action .btn .btn-primary .btn-lg role="button"}
 
 ## Day 1 (Thurs)
 

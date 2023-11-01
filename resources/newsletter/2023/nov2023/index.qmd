@@ -1,0 +1,63 @@
+---
+title: November 2023
+date: 11/1/2023
+image: featured.jpg
+draft: true
+---
+
+**On the Job or Postdoc Market? AP-LS Job Postings**
+
+![](https://apls.memberclicks.net/assets/Email_Files/Emails_Newsletter/image-asset.jpg){width="191"}
+
+Check out [**AP-LS's Job Postings Page**](https://ap-ls.org/job-postings) for up-to-date information on available psychology-law positions.
+
+**Newsletter Editorial Board**
+
+| Col1 | Col2 | Col3 |
+|------|------|------|
+|      |      |      |
+|      |      |      |
+|      |      |      |
+
+: copywrite
+{: .news-table }
+
+
+
+```{r}
+library(gt)
+library(epoxy)
+
+# Create a data frame with three columns
+data <- data.frame(
+  Title = c("EDITOR", "ASSOCIATE EDITOR", "STUDENT ASSISTANT EDITOR", "CONTENT EDITORS–RESEARCH BRIEFS"),
+  Name = c("Meg Ternes", "Leah Georges", "Sarah Shaw", "Kelly McWilliams"),
+  Email = c("meg.ternes@smu.ca", "leahgeorges@creighton.edu", "sarah.shaw@smu.ca", "kmcwilliams@jjay.cuny.edu")
+)
+
+titles <- c("EDITOR", "ASSOCIATE EDITOR", "STUDENT ASSISTANT EDITOR", "CONTENT EDITORS–RESEARCH BRIEFS", "CONTENT EDITOR-LEGAL UPDATE", "CONTENT EDITOR-TEACHING IN PSYCH & LAW", "CONTENT EDITOR-CAREER CORNER", "CONTENT EDITOR-CLINICAL & FORENSIC PRACTICE")
+names <- c("Meg Ternes", "Leah Georges", "Sarah Shaw", "Kelly McWilliams", "Veronica Johnson", "Lori Hoetger", "Casey LaDuke", "Kamar Tazi", "Danielle Rynczak")
+emails <- c("meg.ternes@smu.ca", "leahgeorges@creighton.edu", "sarah.shaw@smu.ca", "kmcwilliams@jjay.cuny.edu", "vjohnson@jjay.cuny.edu", "lhoetger@gmail.com", "ttc@ap-ls.org", "aplsstudent@gmail.com", "danielle.rynczak@umassmed.edu")
+
+
+# Use epoxy to paste the title, name, and email together
+epoxy_html(
+  "{Title}\n{Name}\n{Email}")
+
+# Create the table using gt
+my_table <- data |> 
+  select(CombinedInfo)  |>   # Select only the CombinedInfo column
+  gt()
+
+# Apply styling to center the text in all cells
+my_table <- my_table |> 
+  tab_style(
+    style = cell_text_align("center"),  # Center the text
+    locations = everything()  # Target all columns
+  )
+
+# Print the table
+my_table
+
+
+```

@@ -123,21 +123,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-archive .list');
+    const listingTargetEl = window.document.querySelector('#listing-news .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-filename','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-filename-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 30,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-filename","listing-file-modified"],
+      valueNames: ['listing-date','listing-title','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-date","listing-image","listing-categories","listing-links"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-archive'] = new List('listing-archive', options);
+    window['quarto-listings']['listing-news'] = new List('listing-news', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -302,7 +301,7 @@ background-size: cover;
   <div class="gallery__list-column">
 <div id="listing-twenty-two" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1669874400000" data-listing-file-modified-sort="1692634137910" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="77">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1669874400000" data-listing-file-modified-sort="1698525296379" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="73">
 <a href="../../resources/newsletter/2022/dec2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -313,14 +312,14 @@ background-size: cover;
 December 2022
 </h5>
 <div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
+<strong>Facebook | Twitter | LinkedIn</strong>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
 
 </div>
 <div class="listing-date">
-Dec 1, 2022
+December 2022
 </div>
 </div>
 </div>
@@ -345,7 +344,7 @@ November 2022
 
 </div>
 <div class="listing-date">
-Nov 1, 2022
+November 2022
 </div>
 </div>
 </div>
@@ -370,7 +369,7 @@ October 2022
 
 </div>
 <div class="listing-date">
-Oct 1, 2022
+October 2022
 </div>
 </div>
 </div>
@@ -395,7 +394,7 @@ September 2022
 
 </div>
 <div class="listing-date">
-Sep 1, 2022
+September 2022
 </div>
 </div>
 </div>
@@ -420,7 +419,7 @@ August 2022
 
 </div>
 <div class="listing-date">
-Aug 1, 2022
+August 2022
 </div>
 </div>
 </div>
@@ -445,7 +444,7 @@ July 2022
 
 </div>
 <div class="listing-date">
-Jul 1, 2022
+July 2022
 </div>
 </div>
 </div>
@@ -470,7 +469,7 @@ June 2022
 
 </div>
 <div class="listing-date">
-Jun 1, 2022
+June 2022
 </div>
 </div>
 </div>
@@ -495,7 +494,7 @@ May 2022
 
 </div>
 <div class="listing-date">
-May 1, 2022
+May 2022
 </div>
 </div>
 </div>
@@ -520,7 +519,7 @@ March 2022
 
 </div>
 <div class="listing-date">
-Mar 1, 2022
+March 2022
 </div>
 </div>
 </div>
@@ -545,7 +544,7 @@ February 2022
 
 </div>
 <div class="listing-date">
-Feb 1, 2022
+February 2022
 </div>
 </div>
 </div>
@@ -570,7 +569,7 @@ January 2022
 
 </div>
 <div class="listing-date">
-Jan 1, 2022
+January 2022
 </div>
 </div>
 </div>
@@ -595,7 +594,7 @@ April 2021
 
 </div>
 <div class="listing-date">
-Apr 1, 2021
+April 2021
 </div>
 </div>
 </div>
@@ -636,7 +635,7 @@ December 2021
 
 </div>
 <div class="listing-date">
-Dec 1, 2021
+December 2021
 </div>
 </div>
 </div>
@@ -661,7 +660,7 @@ November 2021
 
 </div>
 <div class="listing-date">
-Nov 1, 2021
+November 2021
 </div>
 </div>
 </div>
@@ -686,7 +685,7 @@ October 2021
 
 </div>
 <div class="listing-date">
-Oct 1, 2021
+October 2021
 </div>
 </div>
 </div>
@@ -711,7 +710,7 @@ September 2021
 
 </div>
 <div class="listing-date">
-Sep 1, 2021
+September 2021
 </div>
 </div>
 </div>
@@ -737,7 +736,7 @@ August 2021
 
 </div>
 <div class="listing-date">
-Aug 1, 2021
+August 2021
 </div>
 </div>
 </div>
@@ -763,7 +762,7 @@ July 2021
 
 </div>
 <div class="listing-date">
-Jul 1, 2021
+July 2021
 </div>
 </div>
 </div>
@@ -788,7 +787,7 @@ June 2021
 
 </div>
 <div class="listing-date">
-Jun 1, 2021
+June 2021
 </div>
 </div>
 </div>
@@ -813,7 +812,7 @@ May 2021
 
 </div>
 <div class="listing-date">
-May 1, 2021
+May 2021
 </div>
 </div>
 </div>
@@ -838,7 +837,7 @@ April 2022
 
 </div>
 <div class="listing-date">
-Apr 1, 2021
+April 2021
 </div>
 </div>
 </div>
@@ -863,7 +862,7 @@ March 2021
 
 </div>
 <div class="listing-date">
-Mar 1, 2021
+March 2021
 </div>
 </div>
 </div>
@@ -888,7 +887,7 @@ February 2021
 
 </div>
 <div class="listing-date">
-Feb 1, 2021
+February 2021
 </div>
 </div>
 </div>
@@ -913,7 +912,7 @@ January 2021
 
 </div>
 <div class="listing-date">
-Jan 1, 2021
+January 2021
 </div>
 </div>
 </div>
@@ -933,483 +932,54 @@ No matching items
       <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
   </div>
   <div class="gallery__list-column">
-<div id="listing-archive" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-archive-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-archive'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-filename-sort" data-direction="asc">
-          File Name
-        </option>
-         <option value="listing-file-modified-sort" data-direction="asc">
-          Modified - Oldest
-        </option>
-         <option value="listing-file-modified-sort" data-direction="desc">
-          Modified - Newest
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
+<div id="listing-news" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid quarto-listing-cols-3">
+    <div class="g-col-1" data-index="0" data-categories="pdf" data-listing-date-sort="875682000000">
+      <div class="quarto-grid-item card h-75 card-left">
+        <div class="card-img-top quarto-card-img" style="height: 60%;">
+            <img src="apls-news/fall1997/fall1997.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+        </div>
+        <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;">
+            <h5 class="no-anchor card-title listing-title">Fall 1997</h5>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=pdf">
+                            pdf
+                        </a></div>
+            </div>
+            <div class="card-text listing-date" style="padding-top: 0.3em; font-size: 18px;">October 1997</div>
+            <div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-left justify-content-sm-start" role="group" aria-label="Links">
+                <a href="apls-news/fall1997/fall1997.pdf" class="btn btn-rounded--primary custom-link">
+                  <i class="bi bi-file-earmark-pdf me-1"></i> Download
+                </a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="g-col-1" data-index="1" data-categories="pdf" data-listing-date-sort="844146000000">
+      <div class="quarto-grid-item card h-75 card-left">
+        <div class="card-img-top quarto-card-img" style="height: 60%;">
+            <img src="apls-news/fall1996/fall1996.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
+        </div>
+        <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;">
+            <h5 class="no-anchor card-title listing-title">Fall 1996</h5>
+            <div class="project-categories">
+                    <div class="project-category"><a href="#category=pdf">
+                            pdf
+                        </a></div>
+            </div>
+            <div class="card-text listing-date" style="padding-top: 0.3em; font-size: 18px;">October 1996</div>
+            <div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-left justify-content-sm-start" role="group" aria-label="Links">
+                <a href="apls-news/fall1996/fall1996.pdf" class="btn btn-rounded--primary custom-link">
+                  <i class="bi bi-file-earmark-pdf me-1"></i> Download
+                </a>
+            </div>
+        </div>
+      </div>
     </div>
 </div>
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-filename-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">File Name</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-file-modified-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Modified</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1692634138200" data-listing-filename-sort="fall1996.pdf">
-<td>
-<a href="../../resources/newsletter/fall1996/fall1996.pdf" class="filename listing-filename">fall1996.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1692634138203" data-listing-filename-sort="fall1997.pdf">
-<td>
-<a href="../../resources/newsletter/fall1997/fall1997.pdf" class="filename listing-filename">fall1997.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-file-modified-sort="1692634138205" data-listing-filename-sort="fall1998.pdf">
-<td>
-<a href="../../resources/newsletter/fall1998/fall1998.pdf" class="filename listing-filename">fall1998.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-file-modified-sort="1692634138207" data-listing-filename-sort="fall1999.pdf">
-<td>
-<a href="../../resources/newsletter/fall1999/fall1999.pdf" class="filename listing-filename">fall1999.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="4" data-listing-file-modified-sort="1692634138207" data-listing-filename-sort="fall2000.pdf">
-<td>
-<a href="../../resources/newsletter/fall2000/fall2000.pdf" class="filename listing-filename">fall2000.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="5" data-listing-file-modified-sort="1692634138209" data-listing-filename-sort="fall2001.pdf">
-<td>
-<a href="../../resources/newsletter/fall2001/fall2001.pdf" class="filename listing-filename">fall2001.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="6" data-listing-file-modified-sort="1692634138211" data-listing-filename-sort="fall2002.pdf">
-<td>
-<a href="../../resources/newsletter/fall2002/fall2002.pdf" class="filename listing-filename">fall2002.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="7" data-listing-file-modified-sort="1692634138212" data-listing-filename-sort="fall2003.pdf">
-<td>
-<a href="../../resources/newsletter/fall2003/fall2003.pdf" class="filename listing-filename">fall2003.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="8" data-listing-file-modified-sort="1692634138214" data-listing-filename-sort="fall2004.pdf">
-<td>
-<a href="../../resources/newsletter/fall2004/fall2004.pdf" class="filename listing-filename">fall2004.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="9" data-listing-file-modified-sort="1692634138216" data-listing-filename-sort="fall2005.pdf">
-<td>
-<a href="../../resources/newsletter/fall2005/fall2005.pdf" class="filename listing-filename">fall2005.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="10" data-listing-file-modified-sort="1692634138216" data-listing-filename-sort="fall2006.pdf">
-<td>
-<a href="../../resources/newsletter/fall2006/fall2006.pdf" class="filename listing-filename">fall2006.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="11" data-listing-file-modified-sort="1692634138219" data-listing-filename-sort="fall2007.pdf">
-<td>
-<a href="../../resources/newsletter/fall2007/fall2007.pdf" class="filename listing-filename">fall2007.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="12" data-listing-file-modified-sort="1692634138220" data-listing-filename-sort="fall2008.pdf">
-<td>
-<a href="../../resources/newsletter/fall2008/fall2008.pdf" class="filename listing-filename">fall2008.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="13" data-listing-file-modified-sort="1692634138222" data-listing-filename-sort="fall2009.pdf">
-<td>
-<a href="../../resources/newsletter/fall2009/fall2009.pdf" class="filename listing-filename">fall2009.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="14" data-listing-file-modified-sort="1692634138224" data-listing-filename-sort="fall2010.pdf">
-<td>
-<a href="../../resources/newsletter/fall2010/fall2010.pdf" class="filename listing-filename">fall2010.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="15" data-listing-file-modified-sort="1692634138228" data-listing-filename-sort="fall2014.pdf">
-<td>
-<a href="../../resources/newsletter/fall2014/fall2014.pdf" class="filename listing-filename">fall2014.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="16" data-listing-file-modified-sort="1692634138236" data-listing-filename-sort="fall2015.pdf">
-<td>
-<a href="../../resources/newsletter/fall2015/fall2015.pdf" class="filename listing-filename">fall2015.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="17" data-listing-file-modified-sort="1692634138249" data-listing-filename-sort="fall2016.pdf">
-<td>
-<a href="../../resources/newsletter/fall2016/fall2016.pdf" class="filename listing-filename">fall2016.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="18" data-listing-file-modified-sort="1692634138577" data-listing-filename-sort="spring1996.pdf">
-<td>
-<a href="../../resources/newsletter/spring1996/spring1996.pdf" class="filename listing-filename">spring1996.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="19" data-listing-file-modified-sort="1692634138582" data-listing-filename-sort="spring1997.pdf">
-<td>
-<a href="../../resources/newsletter/spring1997/spring1997.pdf" class="filename listing-filename">spring1997.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="20" data-listing-file-modified-sort="1692634138585" data-listing-filename-sort="spring1998.pdf">
-<td>
-<a href="../../resources/newsletter/spring1998/spring1998.pdf" class="filename listing-filename">spring1998.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="21" data-listing-file-modified-sort="1692634138586" data-listing-filename-sort="spring1999.pdf">
-<td>
-<a href="../../resources/newsletter/spring1999/spring1999.pdf" class="filename listing-filename">spring1999.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="22" data-listing-file-modified-sort="1692634138587" data-listing-filename-sort="spring2000.pdf">
-<td>
-<a href="../../resources/newsletter/spring2000/spring2000.pdf" class="filename listing-filename">spring2000.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="23" data-listing-file-modified-sort="1692634138590" data-listing-filename-sort="spring2001.pdf">
-<td>
-<a href="../../resources/newsletter/spring2001/spring2001.pdf" class="filename listing-filename">spring2001.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="24" data-listing-file-modified-sort="1692634138593" data-listing-filename-sort="spring2002.pdf">
-<td>
-<a href="../../resources/newsletter/spring2002/spring2002.pdf" class="filename listing-filename">spring2002.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="25" data-listing-file-modified-sort="1692634138595" data-listing-filename-sort="summer2003.pdf">
-<td>
-<a href="../../resources/newsletter/summer2003/summer2003.pdf" class="filename listing-filename">summer2003.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="26" data-listing-file-modified-sort="1692634138596" data-listing-filename-sort="summer2004.pdf">
-<td>
-<a href="../../resources/newsletter/summer2004/summer2004.pdf" class="filename listing-filename">summer2004.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="27" data-listing-file-modified-sort="1692634138598" data-listing-filename-sort="summer2005.pdf">
-<td>
-<a href="../../resources/newsletter/summer2005/summer2005.pdf" class="filename listing-filename">summer2005.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="28" data-listing-file-modified-sort="1692634138598" data-listing-filename-sort="summer2006.pdf">
-<td>
-<a href="../../resources/newsletter/summer2006/summer2006.pdf" class="filename listing-filename">summer2006.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="29" data-listing-file-modified-sort="1692634138601" data-listing-filename-sort="summer2007.pdf">
-<td>
-<a href="../../resources/newsletter/summer2007/summer2007.pdf" class="filename listing-filename">summer2007.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="30" data-listing-file-modified-sort="1692634138604" data-listing-filename-sort="summer2008.pdf">
-<td>
-<a href="../../resources/newsletter/summer2008/summer2008.pdf" class="filename listing-filename">summer2008.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="31" data-listing-file-modified-sort="1692634138607" data-listing-filename-sort="summer2009.pdf">
-<td>
-<a href="../../resources/newsletter/summer2009/summer2009.pdf" class="filename listing-filename">summer2009.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="32" data-listing-file-modified-sort="1692634138610" data-listing-filename-sort="summer2010.pdf">
-<td>
-<a href="../../resources/newsletter/summer2010/summer2010.pdf" class="filename listing-filename">summer2010.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="33" data-listing-file-modified-sort="1692634138612" data-listing-filename-sort="summer2011.pdf">
-<td>
-<a href="../../resources/newsletter/summer2011/summer2011.pdf" class="filename listing-filename">summer2011.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="34" data-listing-file-modified-sort="1692634138616" data-listing-filename-sort="summer2014.pdf">
-<td>
-<a href="../../resources/newsletter/summer2014/summer2014.pdf" class="filename listing-filename">summer2014.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="35" data-listing-file-modified-sort="1692634138621" data-listing-filename-sort="summer2015.pdf">
-<td>
-<a href="../../resources/newsletter/summer2015/summer2015.pdf" class="filename listing-filename">summer2015.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="36" data-listing-file-modified-sort="1692634138630" data-listing-filename-sort="summer2016.pdf">
-<td>
-<a href="../../resources/newsletter/summer2016/summer2016.pdf" class="filename listing-filename">summer2016.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="37" data-listing-file-modified-sort="1692634138639" data-listing-filename-sort="summer2017.pdf">
-<td>
-<a href="../../resources/newsletter/summer2017/summer2017.pdf" class="filename listing-filename">summer2017.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="38" data-listing-file-modified-sort="1692634138644" data-listing-filename-sort="winter1998.pdf">
-<td>
-<a href="../../resources/newsletter/winter1998/winter1998.pdf" class="filename listing-filename">winter1998.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="39" data-listing-file-modified-sort="1692634138646" data-listing-filename-sort="winter2000.pdf">
-<td>
-<a href="../../resources/newsletter/winter2000/winter2000.pdf" class="filename listing-filename">winter2000.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="40" data-listing-file-modified-sort="1692634138647" data-listing-filename-sort="winter2001.pdf">
-<td>
-<a href="../../resources/newsletter/winter2001/winter2001.pdf" class="filename listing-filename">winter2001.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="41" data-listing-file-modified-sort="1692634138649" data-listing-filename-sort="winter2002.pdf">
-<td>
-<a href="../../resources/newsletter/winter2002/winter2002.pdf" class="filename listing-filename">winter2002.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="42" data-listing-file-modified-sort="1692634138650" data-listing-filename-sort="winter2003.pdf">
-<td>
-<a href="../../resources/newsletter/winter2003/winter2003.pdf" class="filename listing-filename">winter2003.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="43" data-listing-file-modified-sort="1692634138653" data-listing-filename-sort="winter2004.pdf">
-<td>
-<a href="../../resources/newsletter/winter2004/winter2004.pdf" class="filename listing-filename">winter2004.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="44" data-listing-file-modified-sort="1692634138654" data-listing-filename-sort="winter2005.pdf">
-<td>
-<a href="../../resources/newsletter/winter2005/winter2005.pdf" class="filename listing-filename">winter2005.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="45" data-listing-file-modified-sort="1692634138655" data-listing-filename-sort="winter2006.pdf">
-<td>
-<a href="../../resources/newsletter/winter2006/winter2006.pdf" class="filename listing-filename">winter2006.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="46" data-listing-file-modified-sort="1692634138657" data-listing-filename-sort="winter2007.pdf">
-<td>
-<a href="../../resources/newsletter/winter2007/winter2007.pdf" class="filename listing-filename">winter2007.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="47" data-listing-file-modified-sort="1692634138659" data-listing-filename-sort="winter2008.pdf">
-<td>
-<a href="../../resources/newsletter/winter2008/winter2008.pdf" class="filename listing-filename">winter2008.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="48" data-listing-file-modified-sort="1692634138663" data-listing-filename-sort="winter2009.pdf">
-<td>
-<a href="../../resources/newsletter/winter2009/winter2009.pdf" class="filename listing-filename">winter2009.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="49" data-listing-file-modified-sort="1692634138665" data-listing-filename-sort="winter2010.pdf">
-<td>
-<a href="../../resources/newsletter/winter2010/winter2010.pdf" class="filename listing-filename">winter2010.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="50" data-listing-file-modified-sort="1692634138665" data-listing-filename-sort="winter2011.pdf">
-<td>
-<a href="../../resources/newsletter/winter2011/winter2011.pdf" class="filename listing-filename">winter2011.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="51" data-listing-file-modified-sort="1692634138671" data-listing-filename-sort="winter2014.pdf">
-<td>
-<a href="../../resources/newsletter/winter2014/winter2014.pdf" class="filename listing-filename">winter2014.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="52" data-listing-file-modified-sort="1692634138679" data-listing-filename-sort="winter2015.pdf">
-<td>
-<a href="../../resources/newsletter/winter2015/winter2015.pdf" class="filename listing-filename">winter2015.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-<tr data-index="53" data-listing-file-modified-sort="1692634138691" data-listing-filename-sort="winter2017.pdf">
-<td>
-<a href="../../resources/newsletter/winter2017/winter2017.pdf" class="filename listing-filename">winter2017.pdf</a>
-</td>
-<td>
-<span class="listing-file-modified">8/21/23, 11:08:58 AM</span>
-</td>
-</tr>
-</tbody>
-
-</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-<nav id="archive-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
 </div>
 
 

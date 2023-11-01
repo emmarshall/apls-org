@@ -1,0 +1,5 @@
+---
+title: "spring1996"
+image: "/Users/emma/Documents/R /newsletters/spring1996/spring1996.png"
+href: "/Users/emma/Documents/R /newsletters/spring1996/spring1996.pdf"
+---

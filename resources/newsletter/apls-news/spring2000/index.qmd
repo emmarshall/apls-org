@@ -1,0 +1,5 @@
+---
+title: "spring2000"
+image: "/Users/emma/Documents/R /newsletters/spring2000/spring2000.png"
+href: "/Users/emma/Documents/R /newsletters/spring2000/spring2000.pdf"
+---

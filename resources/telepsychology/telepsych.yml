@@ -1,0 +1,148 @@
+# Internal resource listing
+- cat: Forensic
+  name: Forensic Assessment via Videoconferencing: Issues and practice considerations.
+  cite: Adjorlolo, S., & Chan, H. C. O. (2015). Forensic Assessment via Videoconferencing: Issues and practice considerations. Journal of Forensic Psychology Practice, 15(3), 185-204.
+  url: https://doi.org/10.1080/15228932.2015.1015363
+
+- type: Forensic
+  name: Connecting the disconnected: Preliminary results and lessons learned from a telepsychology initiative with special management inmates.
+  cite: Batastini, A. B., & Morgan, R. D. (2016). Connecting the disconnected: Preliminary results and lessons learned from a telepsychology initiative with special management inmates. Psychological Services, 13(3), 283.
+  url: http://dx.doi.org/10.1037/ser0000078
+
+- name: Telepsychological services with criminal justice and substance abuse clients: A systematic review and meta-analysis.
+  cite: Batastini, A. B., King, C. M., Morgan, R. D., & McDaniel, B. (2016). Telepsychological services with criminal justice and substance abuse clients: A systematic review and meta-analysis. Psychological Services, 13(1), 20.
+  category:
+    - Forensic
+  links:
+    - icon: link-45deg
+      name: 
+      url: https://www.researchgate.net/publication/280219476_Telepsychological_Services_With_Criminal_Justice_and_Substance_Abuse_Clients_A_Systematic_Review_and_Meta-Analysis
+
+- type: Forensic
+  name: Videoteleconferencing in forensic and correctional practice.
+  cite: Batastini, A. B., McDonald, B. R., & Morgan, R. D. (2013). Videoteleconferencing in forensic and correctional practice. In K. Myers & C. L. Turvey (Eds.), Elsevier insights. Telemental health: Clinical, technical, and administrative foundations for evidence-based practice, 251-271. Elsevier.
+  url: https://psycnet.apa.org/record/2012-27199-013
+
+- type: Forensic
+  name: Perceptions and use of videoconferencing in forensic mental health assessments: A survey of evaluators and legal personnel.
+  cite: Batastini, A. B., Pike, M., Thoen, M. A., Jones, A. C., Davis, R. M., & Escalera, E. (2019). Perceptions and use of videoconferencing in forensic mental health assessments: A survey of evaluators and legal personnel. Psychology, Crime & Law, 1-21.
+  url: https://doi.org/10.1080/1068316X.2019.1708355
+
+- type: Forensic
+  name: A Statewide Elder Mistreatment Virtual Assessment Program: Preliminary Data.
+  cite: Burnett, J., Dyer, C. B., Clark, L. E., & Halphen, J. M. (2019). A Statewide Elder Mistreatment Virtual Assessment Program: Preliminary Data. Journal of the American Geriatrics Society, 67(1), 151–155.
+  url: https://pubmed.ncbi.nlm.nih.gov/30221757/
+
+- type: Forensic
+  name: Improving care quality with prison telemedicine: The effects of context and multiplicity on successful implementation and use.
+  cite: Edge, C., Black, G., King, E., George, J., Patel, S., & Hayward, A. (2019). Improving care quality with prison telemedicine: The effects of context and multiplicity on successful implementation and use. Journal of Telemedicine and Telecare, 1357633X19869131.
+  url: https://journals.sagepub.com/doi/abs/10.1177/1357633X19869131
+
+- type: Forensic
+  name: Telehealth technologies support participation in Community-Based OT (CBOT) services during postjail transition and integration.
+  cite: Hayes, C., Jaegers, L., Conners, B., & Barney, K. (2019). Telehealth technologies support participation in Community-Based OT (CBOT) services during postjail transition and integration. American Journal of Occupational Therapy, 73(4).
+  url: https://www.researchgate.net/profile/Karen_Barney/publication/337299046_Telehealth_Technologies_Support_Participation_in_Community-Based_OT_CBOT_Services_During_Postjail_Transition_and_Integration/links/5e5007ac458515072dafad89/Telehealth-Technologies-Support-Participation-in-Community-Based-OT-CBOT-Services-During-Postjail-Transition-and-Integration.pdf
+
+- type: Forensic
+  name: Lessons Learned in Prison and Jail-Based Telepsychiatry.
+  cite: Kaftarian, E. (2019). Lessons Learned in Prison and Jail-Based Telepsychiatry. Current Psychiatry Reports, 21(3), 15.
+  url: https://doi.org/10.1007/s11920-019-1004-5
+
+- type: Forensic
+  name: eHealth in treatment of offenders in forensic mental health: A review of the current state.
+  cite: Kip, H., Bouman, Y. H. A., Kelders, S. M., & Van Gemert-Pijnen, L. J. E. W. C. (2018). eHealth in treatment of offenders in forensic mental health: A review of the current state. Frontiers in Psychiatry.
+  url: https://www.frontiersin.org/articles/10.3389/fpsyt.2018.00042/full
+
+- type: Forensic
+  name: Use of video conferencing for psychiatric and forensic evaluations.
+  cite: Lexcen, F. J., Hawk, G. L., Herrick, S., & Blank, M. B. (2006). Use of video conferencing for psychiatric and forensic evaluations. Psychiatric Services, 57(5), 713-715.
+  url: https://psycnet.apa.org/record/2006-06489-019
+
+- type: Forensic
+  name: Forensic competency evaluations via videoconferencing: A feasibility review and best practice recommendations.
+  cite: Luxton, D. D., & Lexcen, F. J. (2018). Forensic competency evaluations via videoconferencing: A feasibility review and best practice recommendations. Professional Psychology: Research and Practice, 49(2), 124.
+  url: http://dx.doi.org/10.1037/pro0000179
+
+- type: Forensic
+  name: Implementation and Evaluation of Videoconferencing for Forensic Competency Evaluation.
+  cite: Luxton, D. D., & Niemi, J. (2019). Implementation and Evaluation of Videoconferencing for Forensic Competency Evaluation. Telemedicine and e-Health.
+  url: https://www.liebertpub.com/doi/abs/10.1089/tmj.2019.0150
+
+- type: Forensic
+  name: Forensic Competency Assessment with Digital Technologies.
+  cite: Luxton, D. D., Lexcen, F. J., & McIntyre, K. A. (2019). Forensic Competency Assessment with Digital Technologies. Current Psychiatry Reports. 21: 60.
+  url: https://link.springer.com/article/10.1007/s11920-019-1037-9
+
+- type: Forensic
+  name: The use of telemedicine to evaluate competency to stand trial: A preliminary randomized controlled study.
+  cite: Manguno-Mire, G. M., Thompson, J. W., Shore, J. H., Croy, C. D., Artecona, J. F., & Pickering, J. W. (2007). The use of telemedicine to evaluate competency to stand trial: A preliminary randomized controlled study. Journal of the American Academy of Psychiatry and the Law Online, 35(4), 481-489.
+  url: http://jaapl.org/content/35/4/481
+
+- type: Forensic
+  name: Teleconferencing model for forensic consultation, court testimony, and continuing education.
+  cite: Miller, T. W., Clark, J., Veltkamp, L. J., Burton, D. C., & Swope, M. (2008). Teleconferencing model for forensic consultation, court testimony, and continuing education. Behavioral Sciences & the Law, 26(3), 301-313.
+  url: https://psycnet.apa.org/record/2008-09306-005
+
+- type: Forensic
+  name: Does the use of telemental health alter the treatment experience? Inmates' perceptions of telemental health versus face-to-face treatment modalities.
+  cite: Morgan, R. D., Patrick, A. R., & Magaletta, P. R. (2008). Does the use of telemental health alter the treatment experience? Inmates' perceptions of telemental health versus face-to-face treatment modalities. Journal of Consulting and Clinical Psychology, 76(1), 158.
+  url: https://pubmed.ncbi.nlm.nih.gov/18229993/
+
+- type: Forensic
+  name: Telepsychiatry with incarcerated youth.
+  cite: Myers, K., Valentine, J., Morganthaler, R., & Melzer, S. (2006). Telepsychiatry with incarcerated youth. Journal of Adolescent Health, 38(6), 643-648.
+  url: https://doi.org/10.1016/j.jadohealth.2005.07.015
+
+- type: Forensic
+  name: Telehealth support of managed care for a correctional system: The open architecture telehealth model.
+  cite: Rappaport, E. S., Reynolds, H. N., Baucom, S., & Lehman, T. M. (2018). Telehealth support of managed care for a correctional system: The open architecture telehealth model. Telemedicine and e-Health, 24(1), 54-60.
+  url: http://doi.org/10.1089/tmj.2016.0275
+
+- type: Forensic
+  name: The use of telepsychiatry within forensic practice: A literature review on the use of videolink – a ten-year follow-up.
+  cite: Sales, C. P., McSweeney, L., Saleem, Y., & Khalifa, N. (2018). The use of telepsychiatry within forensic practice: A literature review on the use of videolink – a ten-year follow-up. The Journal of Forensic Psychiatry & Psychology, 29(3), 387-402.
+  url: https://www.tandfonline.com/doi/abs/10.1080/14789949.2017.1396487
+
+- type: Forensic
+  name: Telemedicine in the correctional setting: A scoping review.
+  cite: Senanayake, B., Wickramasinghe, S. I., Eriksson, L., Smith, A. C., & Edirippulige, S. (2018). Telemedicine in the correctional setting: A scoping review. Journal of telemedicine and telecare, 24(10), 669-675.
+  url: https://doi.org/10.1177/1357633x18800858
+
+- type: General
+  name: Guidelines for the Practice of Telepsychology
+  cite: American Psychological Association: Guidelines for the Practice of Telepsychology
+  url: https://www.apa.org/practice/guidelines/telepsychology
+
+- type: General
+  name: American Psychological Association: Office and Technology Checklist for Telepsychological Services
+  cite: American Psychological Association: Office and Technology Checklist for Telepsychological Services
+  url: https://www.apa.org/practice/programs/dmhi/research-information/telepsychological-services-checklist
+
+- type: General
+  name: American Psychological Association: Practice Management and Telepsychology
+  cite: American Psychological Association: Practice Management and Telepsychology
+  url: https://www.apa.org/members/your-growth/practice-management/telepsychology
+
+- type: General
+  name: American Psychological Association: Telehealth Continuing Education Resources
+  cite: American Psychological Association: Telehealth Continuing Education Resources
+  url: https://www.apa.org/ed/ce/telehealth
+
+- type: General
+  name: American Psychological Association: Telehealth Guidance by State During COVID-19
+  cite: American Psychological Association: Telehealth Guidance by State During COVID-19 (note: last updated to ensure accuracy of resource)
+  url: https://www.apaservices.org/practice/clinic/covid-19-telehealth-state-summary
+
+- type: General
+  name: Telepsychology practice: Primer and first steps.
+  cite: Martin, J. N., Millán, F., & Campbell, L. F. (2020). Telepsychology practice: Primer and first steps. Practice Innovations, 5(2), 114-127.
+  url: http://dx.doi.org/10.1037/pri0000111
+
+- type: General
+  name: American telemedicine association practice guidelines for telemental health with children and adolescents.
+  cite: Myers, K., Nelson, E.-L., Rabinowitz, T., Hilty, D., Baker, D., Barnwell, S. S., Boyce, G., Bufka, L. F., Cain, S., & Chui, L. (2017). American telemedicine association practice guidelines for telemental health with children and adolescents. Telemedicine and e-Health, 23(10), 779-804.
+  url: http://doi.org/10.1089/tmj.2017.0177
+
+- type: Non-forensic
+  name: Videoconferencing psychotherapy: A systematic review.
+  cite: Backhaus, A., Agha, Z., Maglione, M. L., Repp, A., Ross, B.,

@@ -15,63 +15,16 @@ listing:
     type: grid
     sort: "date desc"
     sort-ui: false
-  - id: archive
-    type: table
+  - id: news
     contents: 
-    - fall1996/*.pdf
-    - fall1997/*.pdf
-    - fall1998/*.pdf
-    - fall1999/*.pdf
-    - fall2000/*.pdf
-    - fall2001/*.pdf
-    - fall2002/*.pdf
-    - fall2003/*.pdf
-    - fall2004/*.pdf
-    - fall2005/*.pdf
-    - fall2006/*.pdf
-    - fall2007/*.pdf
-    - fall2008/*.pdf
-    - fall2009/*.pdf
-    - fall2010/*.pdf
-    - fall2014/*.pdf
-    - fall2015/*.pdf
-    - fall2016/*.pdf
-    - spring1996/*.pdf
-    - spring1997/*.pdf
-    - spring1998/*.pdf
-    - spring1999/*.pdf
-    - spring2000/*.pdf
-    - spring2001/*.pdf
-    - spring2002/*.pdf
-    - summer2003/*.pdf
-    - summer2004/*.pdf
-    - summer2005/*.pdf
-    - summer2006/*.pdf
-    - summer2007/*.pdf
-    - summer2008/*.pdf
-    - summer2009/*.pdf
-    - summer2010/*.pdf
-    - summer2011/*.pdf
-    - summer2014/*.pdf
-    - summer2015/*.pdf
-    - summer2016/*.pdf
-    - summer2017/*.pdf
-    - winter1998/*.pdf
-    - winter2000/*.pdf
-    - winter2001/*.pdf
-    - winter2002/*.pdf
-    - winter2003/*.pdf
-    - winter2004/*.pdf
-    - winter2005/*.pdf
-    - winter2006/*.pdf
-    - winter2007/*.pdf
-    - winter2008/*.pdf
-    - winter2009/*.pdf
-    - winter2010/*.pdf
-    - winter2011/*.pdf
-    - winter2014/*.pdf
-    - winter2015/*.pdf
-    - winter2017/*.pdf
+      - "apls-news/*.qmd"
+      - "news-archive.yml"
+    type: grid
+    fields: [date, title, image, categories]
+    sort: "date desc"
+    image-height: 100%
+    image-placeholder: logo.png
+    template: news-listing.ejs
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -112,5 +65,5 @@ source("../../assets/apls_functions.R")
   <div class="gallery__list-column">
 ```
 
-::: {#archive}
+::: {#news}
 :::

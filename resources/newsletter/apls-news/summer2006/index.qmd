@@ -1,0 +1,5 @@
+---
+title: "summer2006"
+image: "/Users/emma/Documents/R /newsletters/summer2006/summer2006.png"
+href: "/Users/emma/Documents/R /newsletters/summer2006/summer2006.pdf"
+---

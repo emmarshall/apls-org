@@ -1,16 +1,21 @@
-- title: Fall 1996
-  date: 9/1/1996
-  image: images/fall1996.png
-  filename: fall1996/fall1996.pdf
-  description: "In this issue: Moving forward as an organization, indigenous underrepresentation in canadian criminal juries, update on the Law and Human Behavior journal and more."
-- title: Fall 1997
-  date: 9/1/1997
-  image: images/fall1997.png
-  filename: fall1997/fall1997.pdf
-  description: "In this issue: Moving forward as an organization, indigenous underrepresentation in canadian criminal juries, update on the Law and Human Behavior journal and more."
-
-- title: Fall 1998
-  date: 9/1/1998
-  image: images/fall1998.png
-  filename: fall1998/fall1998.pdf
-  description: "In this issue: Moving forward as an organization, indigenous underrepresentation in canadian criminal juries, update on the Law and Human Behavior journal and more."
+- title: "Fall 1996"
+  date: 10/01/1996
+  image: "apls-news/fall1996/fall1996.png"
+  categories:
+  - pdf
+  links: 
+  - text: Download
+    icon: file-earmark-pdf
+    url: apls-news/fall1996/fall1996.pdf
+    local: true
+    
+- title: "Fall 1997"
+  date: 10/01/1997
+  image: "apls-news/fall1997/fall1997.png"
+  categories:
+  - pdf
+  links: 
+  - text: Download
+    icon: file-earmark-pdf
+    url: apls-news/fall1997/fall1997.pdf
+    local: true

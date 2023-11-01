@@ -1,0 +1,10 @@
+---
+title: "Fall 1996"
+date: 01/01/2005
+image: "fall1996.png"
+links:
+  - icon: filetype-pdf
+    name: PDF
+    url: fall1996.pdf
+    local: true
+---

@@ -1,0 +1,5 @@
+---
+title: "winter1998"
+image: "/Users/emma/Documents/R /newsletters/winter1998/winter1998.png"
+href: "/Users/emma/Documents/R /newsletters/winter1998/winter1998.pdf"
+---

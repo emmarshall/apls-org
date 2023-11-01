@@ -15,18 +15,18 @@ source("assets/apls_functions.R")
 
 
 
-::: {#hero-banner .column-screen}
+::: {.hero-banner .column-screen}
 ::: {.inner-container}
-
 
 ```{r}
 #| classes: '.g-col-lg-6 .g-col-12 .g-col-md-12'
 #| echo: false
-#| warning: false
+#| warning: false 
 #| message: false
 carousel("gallery-carousel", 5000, 
          yaml.load_file("carousel.yml"))
 ```
+
 
 :::
 
@@ -38,7 +38,6 @@ carousel("gallery-carousel", 5000,
 #hero-banner {
   padding-top: 35px;
   padding-bottom: 20px;
-  
 }
 #quarto-content main { 
   margin-top: 0;
@@ -81,6 +80,7 @@ padding-bottom: 1em;
 }
 </style>
 ```
+
 :::
 
 ::: vspace2

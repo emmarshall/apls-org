@@ -49,7 +49,7 @@ const imgHeightPercentage = 40; // Adjust this value as needed
             <div class="listing-category">
               <% if (item.program.url) { %>
                 <a class="listing-href" href="<%= item.program.url %>" target="_blank" rel="noopener">
-                  <%= item.program.name || '<i class="fa-solid fa-download" style="color: $primary;"></i> Conference Program »' %>
+                  <%= item.program.name || '<i class="fa-solid fa-download" style="color: $primary;"></i> Program »' %>
                 </a>
               <% } else if (item.program.text) { %>
                 <%= item.program.text %>

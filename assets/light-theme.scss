@@ -16,6 +16,17 @@ $gray-700: #7b8a8b;
 $gray-800: #343a40;
 $gray-900: #212529;
 
+// blue varients
+
+$blue-90: #e8ebf0;
+$blue-80: #d1d6e0;
+$blue-70: #bbc2d1;
+$blue-60: #a4adc1;
+$blue-50: #8d99b2;
+$blue-40: #7684a2;
+$blue-30: #5f7093;
+$blue-20: #495b83;
+$blue-10: #324774;
 
 // AP-LS brand colors 
 $blue: #1B3264;
@@ -26,20 +37,17 @@ $gold: #ffcc00;
 
 $primary:  $blue !default;
 $secondary: $cream !default;
-$info: $steel !default;
-$tip: $yellow !default;
+$tip: $steel !default;
 
 // main content
 $body-bg:  #fdfdfd !default;
 $body-color:  $gray-900 !default;
 $headings-color: $primary !default;
-$card-border-color:  $primary !default;
-$form-select-border-color: $primary !default; 
 
 // text specials
 $link-color: $primary !default; 
 $link-hover-color: $gray-700 !default;
-$text-muted: gray !default;
+$text-muted: $gray-700 !default;
 
 // nav bar
 $navbar-bg: $primary;
@@ -47,7 +55,6 @@ $navbar-fg: $secondary;
 $navbar-hl: $yellow;
 
 // sidebar navigation
-$sidebar-bg: lighten($secondary, 10%);
 $sidebar-fg: $primary;
 
 // footer
@@ -56,7 +63,6 @@ $footer-fg: $secondary;
 
 // fonts
 $headings-font-family: 'Cormorant Garamond', serif !default;
-$headings-font-weight: 600 !default;
 $font-family-sans-serif: 'Proza Libre', sans-serif !default;
 $navbar-font-family: 'Proza Libre', sans-serif !default;
 $sidebar-font-family: 'Proza Libre', sans-serif !default;
@@ -73,6 +79,19 @@ $h4-font-size:     $font-size-base * 1.3 !default;
 $h5-font-size:     $font-size-base * 1.2 !default;
 $h6-font-size:     $font-size-base !default;
 
+$headings-font-weight: 600 !default;
+$main-font-weight: 300 !default;
+
+
+// Cards
+$card-spacer-x:                     1.5rem !default;
+$card-cap-padding-y:                1rem !default;
+$card-cap-padding-x:                1.5rem !default;
+
+// List group
+
+$list-group-item-padding-y:         1rem !default;
+$list-group-item-padding-x:         1.5rem !default;
 
 // theme colors
 $code-bg: $secondary !default; //color for background of inline code
@@ -96,6 +115,8 @@ $btn-code-copy-color-active: $primary !default;
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+
+
 // navbar title
 .navbar-title {
   font-size: $font-size-base * 1.75;
@@ -115,14 +136,15 @@ div.navbar-collapse ul.navbar-nav li {
 
 div.navbar-collapse ul.navbar-nav li {
   a:hover {
-    color: $secondary;
+    color: $yellow;
+    background-color: $primary;
   }
 }
 
 
 // hover on navbar
 .navbar-expand-lg .navbar-nav .nav-link {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
     
 
@@ -412,14 +434,14 @@ pre.text, pre.sourceCode, .cell-output pre {
         }
 
         .active {
-            font-weight: 400;
+            font-weight: 300;
             color: $primary;
         }
 
         .quarto-category-count {
             font-weight: 200;
             font-size: 0.8rem;
-            color: $secondary;
+            color: $light;
         }
     }
 }
@@ -429,11 +451,14 @@ pre.text, pre.sourceCode, .cell-output pre {
 
 .btn-action-primary {
   color: $secondary;
-  background-color: $primary !important;
+  background-color: shade-color($primary, 10%);
+  
+  a {
+    color: $secondary;
 }
-
-.btn-action-primary:hover {
-  color: $secondary;
+  &:hover {
+    color: $white;
+}
 }
 
 .btn-action {
@@ -441,6 +466,41 @@ pre.text, pre.sourceCode, .cell-output pre {
   border-radius: 30px;
   border: none;
 }
+
+// Buttons
+
+.btn-light,
+.btn-outline-primary,
+.btn-outline-light {
+  color: $gray-800;
+
+  &:disabled,
+  &.disabled {
+    border: 1px solid shade-color($primary, 30%);
+  }
+}
+
+.btn-outline-primary {
+  border-color: shade-color($primary, 10%);
+
+  &:hover,
+  &:active {
+    background-color: shade-color($primary, 10%);
+    border-color: shade-color($primary, 10%);
+  }
+}
+
+.btn-light,
+.btn-outline-light {
+  border-color: shade-color($light, 10%);
+
+  &:hover,
+  &:active {
+    background-color: shade-color($light, 10%);
+    border-color: shade-color($light, 10%);
+  }
+}
+
 // set tabset panel styles
 
 .tab-pane {
@@ -493,56 +553,6 @@ pre.text, pre.sourceCode, .cell-output pre {
 
 .top-callout {
   font-family: 'Proza Libre', sans-serif;
-}
-
-// home page cards
-
-#card-primary-color {
-  background-color: $body-bg;
-  border: 4px solid $primary;
-  border-radius: 5px;
-}
-
-.home-card {
-  font-family: 'Proza Libre', sans-serif !important;
-}
-
-.card-link {
-    background-color: $primary;
-    color: $secondary;
-    border: 4px solid $primary;
-    border-color: $primary;
-    padding: 5px .5rem 5px .5rem !important;
-    margin: 0;
-    border-radius: 5px; 
-    display: inline-block;
-    text-decoration: none;  
-    font-size: $h5-font-size;
-}
-
-.card-link:hover {
-  background-color: $white;
-  color: $primary;
-}
-
-.card-footer-text {
-  color: $primary;
-  font-size: $h6-font-size;
-  font-variant: small-caps;
-}
-
-/* grid cards */
-h5, .h5{
-  font-family: $font-family-sans-serif;
-  font-size: 1rem;
-  text-decoration: bold;
-  
-}
-
-.card:hover{
-  transform: scale(1.05);
-  border-color: $primary;
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 
@@ -899,75 +909,110 @@ h5, .h5{
 // job post listings
 
 .jobs {
-    .job-entry {
-        display: flex;
-        flex-direction: row;
-        line-height: 1.3;
-        margin-left: 2rem;
-        margin-bottom: 1.5rem;
-        column-gap: 1rem;
+  .job-entry {
+    display: flex;
+    flex-direction: row;
+    line-height: 1.3;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    column-gap: 1rem;
 
-        .body {
-            flex: 1 1 80%;
-        }
-        
-        .metadata {
-            flex: 1 0 20%;
-        }
-
-        .title {
-            font-weight: 500;
-            font-size: 1.25em;
-            margin-bottom: 0.2em;
-            
-        }
-        
-        .details {
-            font-weight: 300;
-            font-size: 0.9em;
-            margin-bottom: 0.5rem;
-            color: $gray-700;
-        }
-        
-        .date {
-            font-weight: 300;
-            font-size: 0.85rem;
-            margin-top: 0.3rem;
-            text-align: right;
-        }
-        
-        ul.job-links {
-            display: inline-block;
-            white-space: nowrap;
-            background-color: $secondary;
-            margin: 0 0.2rem 0.4rem 0rem;
-            padding: 0.2rem 0.4rem;
-            font-size: 0.1rem;
-            border-radius: 0.25rem;
-            text-align: center;
-
-            .job-link {
-                display: inline-block;
-                white-space: nowrap;
-                margin: 0;
-                padding: 0.5rem 1rem 0.5rem 0;
-                font-size: 1rem;
-            }
-        }
+    .body {
+      flex: 1 1 80%;
     }
-    
-    .job-entry:hover {
-   
-    background-color: $secondary;
-  
+
+    .metadata {
+      flex: 1 0 20%;
+    }
+
+    .title {
+      font-weight: 500;
+      font-size: 1.25em;
+      margin-bottom: 0.2em;
+    }
+
+    .details {
+      font-weight: 300;
+      font-size: 0.9em;
+      margin-bottom: 0.5rem;
+      color: $gray-700; /* Replace with your desired text color */
+    }
+
+    .date {
+      font-weight: 300;
+      font-size: 0.85rem;
+      margin-top: 0.3rem;
+      text-align: right;
+    }
+
+    ul.job-links {
+      display: inline-block;
+      white-space: nowrap;
+      background-color: $secondary; /* Replace with your desired background color */
+      color: $primary; /* Replace with your desired text color */
+      margin: 0 0.2rem 0.4rem 0rem;
+      padding: 0.2rem 0.4rem;
+      font-size: 1rem;
+      text-decoration: none;
+      border-radius: 0.25rem;
+      text-align: center;
+
+      .job-link {
+        display: inline-block;
+        white-space: nowrap;
+        margin: 0;
+        padding: 0.5rem 1rem 0.5rem 0;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .job-entry:hover {
+    background-color: shift-color($primary, -85%);/* Replace with your desired hover background color */
   }
 }
+
+.job-listing-name {
+  color: white;
+  
+       &:hover {
+          color: $yellow;
+        }  
+}
+
+/* Style for the button */
+.job-btn {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  background: $primary;
+
+  &:hover {
+    background-color: $primary;
+  }
+
+  &:active {
+    top: 2px;
+  }
+}
+
 
 // awards listings
 
 #title-block-header {
     .quarto-title-banner {
-        font-family: $headings-font-family;
+        font-family: $font-family-sans-serif;
         
         .description {
             font-size: .75em;
@@ -976,13 +1021,14 @@ h5, .h5{
     }
 }
 
-.quarto-title-block {
-
-    .quarto-title .quarto-categories {
+.quarto-title .quarto-categories {
         padding-bottom: 0;
         flex-wrap: wrap;
-        row-gap: 0.4em;
+        gap: 0.4em;
     }
+    
+.quarto-title-block {
+
 
     .award-details {
         padding: 0.6em;
@@ -1009,10 +1055,6 @@ h5, .h5{
 
 }
 
-h1.title {
-  color: white;
-}
-
 
 .back-nav {
     margin-bottom: .5em;
@@ -1024,7 +1066,7 @@ h1.title {
     }
     
     .quarto-title .quarto-categories .quarto-category {
-        background-color: shift-color($primary, -75%);
+        background-color: lighten($primary, 30%);
         color: $secondary;
         opacity: 1;
     }
@@ -1103,68 +1145,152 @@ h1.title {
         }
     }
 
+// quarto grid listings
 
-// newsletter archives
-.newsletter {
-    .archive-entry {
-        display: flex;
-        flex-direction: row;
-        font-family: $headings-font-family;
-        line-height: 1.3;
-        margin-bottom: 3em;
-        column-gap: 0.7em;
 
-        .body {
-            flex: 1 1 auto;
-        }
+.quarto-title-banner .quarto-title .title {
+  font-weight: 400;
+  color: shift-color($primary, -75%);
+  font-size: calc(1.5rem + 1.14vw);
 
-        .image {
-            flex: 0 0 140px;
+  #title-block-header.quarto-title-block & {
+    margin-bottom: 0.5rem;
+  }
 
-            img {
-                width: 100%;
-            }
-        }
-
-        .issue-title {
-            font-weight: 500;
-            font-size: 1.25em;
-            margin-bottom: 0.2em;
-        }
-        
-        .issue-details {
-            font-weight: 300;
-            font-size: 0.9em;
-            margin-bottom: 0.5em;
-            color: $gray-800;
-        }
-
-        ul.course-semesters {
-            list-style: none;
-            padding: 0;
-            margin-bottom: 0;
-
-            li {
-                display: inline-block;
-                white-space: nowrap;
-                background-color: $red;
-                margin: 0 0.2em 0.4em 0;
-                padding: 0.2em 0.4em;
-                font-size: 0.85em;
-                border-radius: 0.25rem;
-
-                &.no-link {
-                    background-color: $white;
-                    border: 1px solid $black;
-                }
-
-                a {
-                    color: $white;
-                }
-            }
-        }
-    }
+  @include media-breakpoint-up(md) {
+    font-size: calc(2.5rem + 1.14vw);
+  }
 }
+
+
+div.quarto-post .listing-categories .listing-category,
+.quarto-title-block .quarto-title .quarto-categories .quarto-category {
+  border-color: $blue-30;
+  color: $blue-10;
+  background-color: $blue-90;
+  opacity: 0.6;
+}
+
+div.quarto-post a {
+  color: black;
+}
+
+#quarto-margin-sidebar .quarto-listing-category-title {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: .875rem;
+}
+
+.quarto-listing-category .category {
+  font-weight: 500;
+  font-size: .825rem;
+}
+
+.quarto-listing-category .category.active {
+  font-weight: 500;
+  color: $primary;
+}
+
+// hero-banner
+.hero-banner {
+  position: relative;
+  background-color: rgb(240,245,249);
+  display: flex;
+  justify-content: center;
+}
+
+
+// grid listing
+.card {
+  position: relative;
+  border: none;
+  flex: 1 1 100%;
+  margin: 31px 0;
+  padding: 15px 0;
+  background: lighten(#f8f8f8, 3%);
+  box-shadow:  0.3px 0.5px 0.7px hsl(216, 48%, 28%, 0.34),
+  0.4px 0.8px 1px -1.2px hsl(216, 48%, 28%, 0.34),
+  1px 2px 2.5px -2.5px hsl(216, 48%, 28%, 0.34);
+  
+    &-title {
+    color: inherit;
+  }
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(33.33% - (#{31px * 2} + #{20px * 2}));
+    margin: 0 31px;
+  }
+}
+
+.card .semester {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.75em;
+  padding: 1em;
+  line-height: 1em;
+  opacity: .8;
+}
+
+
+
+/* grid cards */
+h5, .h5{
+  font-family: $font-family-sans-serif;
+  font-size: 1.2rem;
+  text-decoration: bold;
+  
+}
+
+
+.quarto-grid-item {
+  transition: transform .5s;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 2s cubic-bezier(.165, .84, .44, 1);
+    box-shadow:
+      0.3px 0.5px 0.7px hsl(216, 48%, 28%, 0.36), 
+      0.8px 1.6px 2px -0.8px hsl(216, 48%, 28%, 0.36), 
+      2.1px 4.1px 5.2px -1.7px hsl(216, 48%, 28%, 0.36), 
+      5px 10px 12.6px -2.5px hsl(216, 48%, 28%, 0.36); 
+    content: '';
+    opacity: 0;
+    z-index: -1;
+  }
+
+  &:hover,
+  &:focus {
+    transform: scale3d(1.006, 1.006, 1);
+
+    &::after {
+      opacity: 1;
+    }
+  }
+}
+
+.quarto-grid-item .listing-categories {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: .5em;
+}
+
+.quarto-grid-item .listing-categories .listing-category {
+  color: $primary;
+  border: solid 1px $primary !important;
+  font-weight: 400;
+  font-size: .7em;
+}
+
+.quarto-grid-item .card-attribution.justify {
+  justify-content: left;
+}
+
+
 
 // Makes List of icons, text to insert into callout blocks with r function
 
@@ -1221,6 +1347,8 @@ h1.title {
     }
   }
 }
+
+
 
 .icon-container i {
   display: flex;
@@ -1290,55 +1418,310 @@ h1.title {
   order: 3;
 }
 
-// pets
-
-#about-pet-text {
-  align-items: end;
-  display: grid;
-}
 
 // blockquotes
 
 blockquote {
-  margin: 0 0 1em;
-  font-size: 1.25rem;
-}
-blockquote > :last-child {
-  margin-bottom: 0;
+  color: $text-muted;
 }
 
-figcaption.blockquote-footer {
-  font-size: 0.9rem;
-  font-weight: bold;
-  max-width: 100%;
+
+
+// committees listing 
+
+.committee-list {
+  font-family: $font-family-sans-serif;
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .committees-table {
+    margin-top: 1rem;
+    font-size: 0.9375rem;
+    border: 1px solid hsl(213, 33%, 93%);
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+
+    .header {
+      background-color: $primary;
+      border-bottom-color: $primary;
+      border-bottom-width: 1px;
+      color: #FBF9F4;
+
+      &[aria-sort]:hover,
+      &[aria-sort]:focus {
+        color: hsl(213, 55%, 50%);
+      }
+    }
+
+    .committee-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: $primary;
+    }
+
+    .committee-detail {
+      padding: 24px;
+      box-shadow: inset 0 1px 3px $gray;
+      background: shift-color(#FBF9F4, -55%);
+      font-family: $font-family-sans-serif;
+
+      .detail-label {
+        margin: 1.25rem 0 0.25rem;
+        font-size: 0.95rem;
+        color: $steel;
+        text-transform: uppercase;
+      }
+
+      .detail-header {
+        margin-bottom: 1rem;
+        font-size: 1.35rem;
+        font-weight: 600;
+      }
+
+      .detail-title {
+        margin-left: 1rem;
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: $gray-dark;
+      }
+
+      .detail-description {
+        font-size: 0.875rem;
+      }
+    }
+
+    .members-table {
+      max-width: 75rem;
+      border: 1px solid hsl(213, 33%, 93%);
+      border-radius: 4px;
+      box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.05);
+      font-size: 0.875rem;
+      font-family: $font-family-sans-serif;
+    }
+  }
+}
+
+// syllabi table
+
+.syllabi {
+  font-family: 'Proza Libre', sans-serif;
+  
+  h2 {
+    font-weight: 600;
+  }
+  
+  a {
+    color: yellow;
+    text-decoration: none;
+    
+    &:hover, &:focus {
+      text-decoration: underline;
+      text-decoration-thickness: max(1px, 0.0625rem);
+    }
+  }
+}
+
+.syllabi-tbl {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.header {
+  border-bottom-color: #7b8a8b;
+  color: #FBF9F4;
+  background: #1B3264;
+  font-weight: 500;
+  text-align: left;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  font-variant: small-caps;
+  padding: 5px;
+  border: 0;
+}
+
+.filters {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 20px;
+  margin-top: 1rem;
+  margin-left: -32px;
+  
+  .filter-input {
+    margin-top: 0.5rem;
+    margin-left: 32px;
+    flex: 1;
+    min-width: 250px;
+    
+    label {
+      color: #343a40;
+      font-weight: 600;
+      font-size: 0.80rem;
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+    }
+    
+    select,
+    input[type="search"] {
+      padding: 0 0.375rem;
+      height: 2rem;
+    }
+  }
 }
 
-figcaption.blockquote-footer > cite {
-  flex: 1 1 100%;
+/* When selected, the text is yellow */
+.header[aria-sort='ascending'],
+.header[aria-sort='descending'] {
+  color: yellow;
 }
 
-// button-row
-
-.button-row {
-  display: flex; /* Set the container to use flexbox layout */
-  flex-direction: row; /* Set the direction to row */
-  justify-content: space-between; /* Align the items along the row and distribute the space between them */
-  gap: 10px;
+@media only screen and (max-width: 600px) {
+  .screen-inset {
+    .my-reactable-table {
+      font-size: 14px;
+      width: 100%;
+    }
+    
+    .crosstalk-filtered-select {
+      width: 100%;
+    }
+    
+    .crosstalk-filtered-checkbox {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
 }
 
-.button-row button {
-  padding: 10px 20px; /* Add padding to the buttons */
-  background-color: $primary; /* Set a background color */
-  color: white; /* Set a text color */
-  border: none; /* Remove the border */
-  border-radius: 5px; /* Add a border radius */
-  cursor: pointer; /* Change the cursor to a pointer on hover */
+// pricing tables
+.price-card {
+  border-bottom-width: 2px;
+  border-color: rgba(0, 0, 0, .08);
+  border: 1px;
+  background-color: $body-bg;
+  box-shadow:
+    0.3px 0.5px 0.7px hsl(0deg 0% 63% / 0.36),
+    0.8px 1.6px 2px -0.8px hsl(0deg 0% 63% / 0.36),
+    2.1px 4.1px 5.2px -1.7px hsl(0deg 0% 63% / 0.36),
+    5px 10px 12.6px -2.5px hsl(0deg 0% 63% / 0.36);
+  border-radius: 0px;
+  transition: all .3s ease-in-out;
+  padding: 1.1rem 0;
+  position: relative;
+  will-change: transform;
+
+  
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background-color: $primary;
+    transition: 0.5s;
+  }
+  
+  &:hover {
+    transform: scale(1.05);
+    -webkit-box-shadow: 0 20px 35px 0 rgba(0, 0, 0, .08);
+    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, .08);
+    
+    &:after {
+      width: 100%;
+    }
+    
+  }
+  & .price-card-header {
+    background-color: $body-bg;
+    padding-left: 2rem;
+    border-bottom: 0px;
+  }
+  & .price-card-title {
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+  }
+  & .price-card-block {
+    padding-top: 0;
+  }
+  & .price-card-subtitle{
+    letter-spacing: 0;
+    color: $gray-800;
+    //font-variant: small-caps;
+    font-size: .9rem;
+    margin-left: 5px;
+    //text-align: center;
+    margin-bottom: .6rem;
+  }
+  .list-group-item {
+  border: 0px;
+  padding: .25rem;
+  color: $gray-dark;
+  font-weight: 300;
+  font-size: 1rem;
+  list-style: none; /* Remove default list item bullets */
+  position: relative; /* Create a relative position for ::before pseudo-element */
+  margin-left: 30px; /* Indent the list items by 30px */
+  display: flex; /* Use a flexbox layout */
+  align-items: center; 
+  margin-bottom: .5rem;
+  
+  &::before {
+    content: '\f058'; /* Unicode character for the circle check icon */
+    font-family: 'Font Awesome 5 Free'; /* Font Awesome font family */
+    font-weight: 900; /* Font weight for the circle check icon */
+    margin-right: 10px; /* Space between the icon and text */
+    display: inline-block;
+    width: 20px; /* Adjust the width as needed */
+    text-align: center;
+    color: $primary; /* Color of the icon */
+    font-size: 1rem; /* Font size of the icon */
+    position: absolute;
+    left: -30px; /* Adjust the position as needed */
+  }
+}
 }
 
-.button-row button:hover {
-  background-color: $secondary; /* Change the background color on hover */
+// Price
+.display-2 {
+  font-size: 7rem;
+  letter-spacing: -.35rem;
+  font-family: $headings-font-family;
+  color: $primary;
+  & .currency {
+    font-size: 2.75rem;
+    position: relative;
+    font-weight: 300 + 100;
+    top: -45px;
+    letter-spacing: 0px;
+  }
+  & .period {
+    font-size: 1.5rem;
+    color: lighten($gray-dark, 20%);
+    letter-spacing: 0px;
+  }
 }
+
+// Price Buttons
+.price-btn {
+  text-transform: uppercase;
+  font-size: .75rem;
+  font-weight: 300 + 200;
+  color: lighten($gray-dark, 15%);
+  border-radius: 0;
+  padding: .75rem 1.25rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+
+.price-btn-gradient { 
+  background-color: $body-bg;
+  transition: background .3s ease-in-out;
+  
+  &:hover {
+    color: white;
+    background-color: $primary;
+  }
+}
+
 
