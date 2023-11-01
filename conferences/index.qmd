@@ -298,8 +298,7 @@ Ubers and cabs directly from the airport can be costly.
 ::: {simple-info}
 # Registration {#register}
 
-::: {.panel-tabset .box-shadow}
-## {{< fa circle-info >}} Registration is open!
+## {{< fa circle-info >}} Registration is now open!
 We encourage you to register before January 31st to take advantage of the early bird pricing!
 
 
@@ -328,11 +327,9 @@ We encourage you to register before January 31st to take advantage of the early 
 +-----------------------------------------+-----------------+---------------+
 | Student Non-member                      | \$140           | \$170         |
 +-----------------------------------------+-----------------+---------------+
-| Non-member                              | \$380           | \$450         |
+| Non-member                              | \$400           | \$470         |
 +-----------------------------------------+-----------------+---------------+
 :::
-:::
-
 :::
 
 <hr>
