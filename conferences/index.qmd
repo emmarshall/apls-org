@@ -299,12 +299,15 @@ Ubers and cabs directly from the airport can be costly.
 # Registration {#register}
 
 ::: {.panel-tabset .box-shadow}
-## Registration is open!
+## {{< fa circle-info >}} Registration is open!
 We encourage you to register before January 31st to take advantage of the early bird pricing!
+
 
 [Register Now {{< fa arrow-up-right-from-square >}} ](https://apls.memberclicks.net/24conferencereg#!/){.btn-action .btn .btn-primary .ml-auto role="button"}
 
-## {{< fa circle-info >}} Pricing
+:::vspace
+:::
+
 ::: {.callout-note appearance="simple"}
 ## REGISTRATION RATES & INCLUSIONS
 
@@ -325,7 +328,7 @@ We encourage you to register before January 31st to take advantage of the early 
 +-----------------------------------------+-----------------+---------------+
 | Student Non-member                      | \$140           | \$170         |
 +-----------------------------------------+-----------------+---------------+
-| Non-member                              | \$330           | \$400         |
+| Non-member                              | \$380           | \$450         |
 +-----------------------------------------+-----------------+---------------+
 :::
 :::
