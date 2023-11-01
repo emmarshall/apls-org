@@ -62,7 +62,7 @@ source("../assets/apls_functions.R")
 ### Los Angeles, California \| March 21-23, 2024
 
 ::: hero-buttons
-[Register Now](https://apls.memberclicks.net/24conferencereg#!/){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [Learn More](#Info){.btn-action .btn .btn-secondary role="button"}
+[Register Now](https://apls.memberclicks.net/24conferencereg#!/){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [Learn More](#register){.btn-action .btn .btn-secondary role="button"}
 :::
 :::
 :::
@@ -277,8 +277,11 @@ Attendees must book their room by **February 25th, 2024** to take advantage of t
 
 
 
-## Parking and Details
-**more information available soon**
+## {{< fa plane >}} Plan your trip
+
+For attendees flying in to Los Angeles, the LAX FlyAway runs
+from LAX to the Union Station train station in downtown LA and is $10. The LAX FlyAway runs from LAX every 30 minutes and from Union Station every hour. Union Station is a short Uber or cab ride to the hotel but is a great option for individuals arriving alone as
+Ubers and cabs directly from the airport can be costly. 
 
 ::: hero-buttons
 [{{< fa map-location-dot >}} Get Directions](https://goo.gl/maps/p6PCdg1nZ46NASuw9){.btn-action .btn .btn-info .ml-auto role="button"} 
@@ -338,15 +341,11 @@ We encourage you to register before January 31st to take advantage of the early 
 # Preconference Workshops {#preconference}
 
 ::: {.panel-tabset .box-shadow}
-## {{< fa bullhorn >}} 2024 Call for Proposals
+## {{< fa bullhorn >}} Info
 
-The AP-LS Continuing Education (CE) Committee is accepting proposals for pre-conference workshops at the AP-LS Annual Conference. Workshops are scheduled to take place on Wednesday, March 20, 2024, in Los Angeles, CA.
+At this year's conference we are excited to offer 2 full day workshops and 4 half day
+workshops on that will take place on **Wednesday March 20**. Attendees will have the ability to register for the pre conference workshops with their conference registration.
 
-We are seeking workshop proposals for innovative and cutting-edge topics and will ask presenters to briefly describe how their proposed workshop promotes equity, inclusion, and justice in psychology and law.
-
-Workshop presenters will receive an honorarium commensurate with the workshop length (i.e., half day or full day). Proposals were due by 11:59 PM PDT, September 12, 2023.
-
-Contact Lisa Kan, Chair AP-LS CE Committee at {{< fa envelope title="Email" >}} {{< var email.ce >}}
 
 ## {{< fa circle-info >}} Pricing
 
