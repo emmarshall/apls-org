@@ -1,0 +1,23 @@
+---
+title: Workshop A
+subtitle: |
+  Conducting Competency and Responsibility Evaluations for the U.S. Military (R.C.M. 706)
+date: 03/20/2024
+author:
+  - Marcus VanSickle, PhD, ABPP
+categories: 
+  - Advanced
+  - Full Day
+description: |
+  The U.S. Military enforces a Uniformed Code of Military Justice (UCMJ) that has several parallels to federal law as well as multiple points of deviation.  Consistent with federal law, service members are assumed competent to stand trial and mentally responsible unless evaluated and demonstrated to be lacking in one or both of these domains. The paucity of forensically training military psychologists leaves a critical gap in the support of the military justice system and generates a need and opportunity for non-military forensic psychologists to develop competence in this domain. This workshop will review the history of the UCMJ, relevant case law, reporting requirements, and cultural factors necessary to competently conduct these evaluations.
+objectives:
+  - Learners will be able to explain the differences between U.S. Military and other Federal or State evaluation requirements.
+  - Learners will be able to identify the relevant case law governing RCM 706 Evaluations.
+  - Learners will be able to list the differences in key roles and court processes in military courts.
+  - Learners will be able to explain the two types of reports generated upon completion of an evaluation.
+  - Learners will be able to recognize critical cultural competencies necessary for working with military members to meet the growing need for forensic psychologists to conduct evaluations on this population.
+event-info:
+  credits: "7 CE hours"
+  time: "8:30 AM – 4:30 PM"
+---
+

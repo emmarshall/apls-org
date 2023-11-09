@@ -4,10 +4,10 @@ description: Previous annual meetings of the American Psychology-Law Society.
 title-block-banner: "../../images/default-banner.svg"
 page-layout: full
 listing:
-  - id: conferences
-    contents: apls-conferences.yml
+  - contents: apls-conferences.yml
     type: grid
-    filter-ui: true
+    categories: false
+    sort-ui: true
     template: conference-listing.ejs
     page-size: 36
 ---

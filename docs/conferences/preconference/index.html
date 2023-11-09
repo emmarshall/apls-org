@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The American Psychology-Law Society - Pre-conference Workshops</title>
+<title>preconference</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,9 +74,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-date','listing-author','listing-categories','listing-credits',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-subtitle","listing-date","listing-author","listing-categories","listing-credits"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -93,17 +93,12 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
-<style>
-
-      .quarto-title-block .quarto-title-banner {
-        background: ../../../images/default-banner.svg;
-      }
-</style>
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../assets/styles.css">
+<link rel="stylesheet" href="../index.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -209,34 +204,27 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Pre-conference Workshops</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 
 
-
-<section id="pricing-information" class="level2">
-<h2 class="anchored" data-anchor-id="pricing-information">Pricing Information</h2>
+<div class="column-screen">
+<div class="hero-banner">
+<section id="preconference-workshops" class="level1 content-block">
+<h1>2024 Preconference Workshops</h1>
+<section id="los-angeles-california-march-20-2024" class="level3">
+<h3 class="anchored" data-anchor-id="los-angeles-california-march-20-2024">Los Angeles, California | March 20, 2024</h3>
+</section>
+</section>
+</div>
+</div>
+<section id="price" class="level1">
+<h1>Pricing Information</h1>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Full-Day Workshop Rates</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Half-Day Workshop Rates</a></li></ul>
 <div class="tab-content">
@@ -322,7 +310,13 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<div class="#workshops">
+</section>
+<section id="details" class="level1">
+<h1>Descriptions &amp; Details</h1>
+<blockquote class="blockquote">
+<p>At this year’s conference we are excited to offer 2 full day workshops and 4 half day workshops. Learn more about each workshop below.</p>
+</blockquote>
+<div id="workshops">
 
 </div>
 
@@ -331,42 +325,151 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Advanced" data-listing-date-sort="1710910800000">
-<a href="" class="quarto-grid-link">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-categories="Advanced,Full Day" data-listing-date-sort="1710910800000" data-listing-file-modified-sort="1699226963754" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../conferences/preconference/workshopA/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Workshop A
 </h5>
 <div class="card-subtitle listing-subtitle">
-Conducting Competency and Responsibility Evaluations for the U.S. Military (R.C.M. 706)
+<p>Conducting Competency and Responsibility Evaluations for the U.S. Military (R.C.M. 706)</p>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Advanced'); return false;">
 Advanced
 </div>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Marcus VanSickle, PhD, ABPP
-</div>
-<div class="listing-date">
-Mar 20, 2024
+<div class="listing-category" onclick="window.quartoListingCategory('Full Day'); return false;">
+Full Day
 </div>
 </div>
-
-<table class="card-other-values">
-<tbody><tr>
-<td>
-credits
-</td>
-<td class="credits">
-7
-</td>
-</tr>
-
-</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Intermediate,Full Day" data-listing-date-sort="1710910800000" data-listing-file-modified-sort="1699227602183" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../conferences/preconference/workshopB/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Workshop B
+</h5>
+<div class="card-subtitle listing-subtitle">
+<p>Mitigating Racial and Cultural Unfairness and Bias in Violence Risk Assessment and Management</p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Intermediate'); return false;">
+Intermediate
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Full Day'); return false;">
+Full Day
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Intermediate,Half Day" data-listing-date-sort="1710910800000" data-listing-file-modified-sort="1699227895678" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../conferences/preconference/workshopC/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Workshop C
+</h5>
+<div class="card-subtitle listing-subtitle">
+<p>Feedback in Forensic Mental Health Assessment: Ethical and Practical Considerations</p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Intermediate'); return false;">
+Intermediate
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Half Day'); return false;">
+Half Day
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Intermediate,Half Day" data-listing-date-sort="1710910800000" data-listing-file-modified-sort="1699228580128" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../conferences/preconference/workshopD/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Workshop D
+</h5>
+<div class="card-subtitle listing-subtitle">
+<p>Dilemmas and Decisions: Ethical Forensic Report Writing</p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Intermediate'); return false;">
+Intermediate
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Half Day'); return false;">
+Half Day
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Beginner,Half Day" data-listing-date-sort="1710910800000" data-listing-file-modified-sort="1699228712425" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../conferences/preconference/workshopE/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Workshop E
+</h5>
+<div class="card-subtitle listing-subtitle">
+<p>Enhancing the Efficacy of Competency Restoration Treatments with Recovery-Oriented Cognitive Therapy (CT-R)</p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Beginner'); return false;">
+Beginner
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Half Day'); return false;">
+Half Day
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="Beginner,Half Day" data-listing-date-sort="1710910800000" data-listing-file-modified-sort="1699228807978" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../conferences/preconference/workshopF/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Workshop F
+</h5>
+<div class="card-subtitle listing-subtitle">
+<p>Creating Inclusive Courses: Designing and Teaching Psychology and Law Courses with Equity and Diversity in Mind</p>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Beginner'); return false;">
+Beginner
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Half Day'); return false;">
+Half Day
+</div>
+</div>
 </div>
 </div>
 </a>

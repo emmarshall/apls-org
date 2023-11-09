@@ -1,0 +1,35 @@
+---
+title: Workshop D
+subtitle: |
+  Dilemmas and Decisions: Ethical Forensic Report Writing
+date: 03/20/2024
+author:
+  - Kimberly S. Harrison, Ph.D., ABPP
+  - Marla L. Domino, Ph.D., ABPP
+categories: 
+  - Intermediate
+  - Half Day
+description: |
+  This workshop will address a variety of ethical topics encountered when writing forensic reports. Although there are numerous books, articles, and workshops guiding the mechanics of forensic reporting, to these presenters' knowledge, there are no educational offerings that specifically address common ethical dilemmas forensic psychologists face when writing their reports, such as:
+    
+  -   What information to include (or not) about an examinee's gender, sexual orientation, race, ethnicity, or appearance?
+  
+  -   When is it okay to offer a "no opinion" report, a conclusion without interviewing the examinee, "contingent" (if/then) opinions, or ultimate opinions?
+  
+  -   How can you avoid confirmation bias and maintain impartiality in your reports? When should you label an examinee as "malingering," if ever?
+  
+  -   How should you incorporate previous evaluators' poorly formulated or factually inaccurate reports?
+  
+  -   How can you respond to requests to revise/amend/correct your reports?
+  
+  Our presentation will also discuss how our Specialty Guidelines "map" onto forensic report writing, addressing elements of the Guidelines such as Responsibilities, Competence, diligence, Relationships, and Conflicts. De-identified case examples and reports will be used to facilitate discussion of the issues.
+objectives:
+  - Describe ways to avoid confirmation bias and maintain impartiality in forensic report writing.
+  - Identify the probative and prejudicial value of types of information commonly included in reports and how to weigh such information.
+  - Identify options for incorporating previous evaluators' reports that may be poorly formulated or inaccurate.
+  - Explain situations in which a "no opinion" or "contingent opinion" conclusion might be appropriate.
+  - Discuss how to respond to requests to revise or correct your report.
+event-info:
+  credits: "3.5 CE hours"
+  time: "8:30 AM – 12 PM"
+---

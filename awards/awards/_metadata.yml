@@ -1,6 +1,6 @@
 
 # Date format
-date-format: "MMMM YYYY"
+# date-format: "MMMM YYYY"
 
 # Default for table of contents
 toc: false

@@ -1,15 +1,31 @@
 ---
-title: Pre-conference Workshops
-title-block-banner: "../../../images/default-banner.svg"
+pagetitle: preconference
+css: ../index.css
 listing: 
     contents: 
-      - "workshops.yml"
+      - "**/*.qmd"
     type: grid
-    field-display-names:
-      author: "Presenter"
+    grid-columns: 2
+    categories: false
+    sort-ui: true
+    filter-ui: true
+    fields: [title, subtitle, categories]
 ---
+::: column-screen
+::: hero-banner
+::: content-block
+# 2024 Preconference Workshops
 
-## Pricing Information 
+### Los Angeles, California \| March 20, 2024
+
+
+:::
+:::
+:::
+
+
+
+# Pricing Information{#price} 
 
 ::: panel-tabset
 ## Full-Day Workshop Rates
@@ -44,6 +60,8 @@ listing:
 +--------------------+-----------------+----------------+
 :::
 
+# Descriptions & Details{#details}  
+> At this year's conference we are excited to offer 2 full day workshops and 4 half day workshops. Learn more about each workshop below. 
 
-::: #workshops
+::: {#workshops}
 :::

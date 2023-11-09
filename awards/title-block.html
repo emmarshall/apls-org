@@ -1,7 +1,7 @@
 <!-- Template based on https://www.andrewheiss.com/research/ -->
 
 <header id="title-block-header"
-    class="quarto-title-block awards default$if(quarto-template-params.banner-header-class)$ $quarto-template-params.banner-header-class$$endif$">
+    class="quarto-title-block award-post default">
     <div class="quarto-title-banner">
         $if(include-back-link)$
         <div class="#back-nav"><a href="../index.html" style="color:yellow">← Back to awards</a></div>
@@ -16,34 +16,45 @@
                 </div>
             </div>
             $endif$
-
-            $if(categories)$
-            $if(quarto-template-params.title-block-categories)$
-            <div class="quarto-categories">
-                $for(categories)$
-                <div class="quarto-category">$categories$</div>
-                $endfor$
-            </div>
-            $endif$
-            $endif$
             
-            $if(submission-info.sponsor)$
-            <div class="quarto-title-meta-heading manual"><i class="bi bi-people-fill me-1"></i>  Sponsor</div>
+
+        <!-- Sponsor -->
+        $if(submission-info.sponsor)$
+            <div class="quarto-title-meta-heading manual">
+                <i class="bi bi-people-fill me-1"></i> Sponsor
+            </div>
             <div class="quarto-title-meta-contents">
-                <p class="submission-sponsor">
+                <p class="submission-info">
                     $submission-info.sponsor$
                 </p>
             </div>
-            $endif$
-
-            $if(submission-info.deadline)$
-            <div class="quarto-title-meta-heading manual"><i class="bi bi-calendar-event"></i>  Deadline</div>
+        $endif$
+        
+        <!-- Deadline -->
+        $if(submission-info.deadline)$
+            <div class="quarto-title-meta-heading manual">
+                <i class="bi bi-calendar-event me-1"></i> Deadline</div>
+            $for(submission-info.deadline)$
             <div class="quarto-title-meta-contents">
-                <p class="submission-deadline">
+                <p class="submission-info">
                     $submission-info.deadline$
                 </p>
-            </div>
+            $endfor$
             $endif$
-        </div>
+
+    </div>        
+    
     </div>
+    </div>  
+          
+            
+          
+        $if(links)$
+<div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-center justify-content-sm-start" role="group" aria-label="Award Links">
+$for(links)$
+<a href="$links.url$" class="btn btn-outline-primary"><i class="bi bi-$links.icon$ me-1"></i> $links.name$</a>
+$endfor$
+</div>
+$endif$
+
 </header>

@@ -1,0 +1,24 @@
+---
+title: Workshop E
+subtitle: |
+  Enhancing the Efficacy of Competency Restoration Treatments with Recovery-Oriented Cognitive Therapy (CT-R)
+date: 03/20/2024
+author:
+  - Shelby Arnold, PhD
+  - Lindsey Pinto, LSW
+  - Paul Grant, PhD
+categories: 
+  - Beginner
+  - Half Day
+description: |
+  Recent litigation urges states to streamline competency restoration and move cases along more quickly. However, currently practiced competency restoration treatments demonstrate mixed effectiveness. Enhancing these approaches could (1) increase the speed to competency (thereby reducing forensic waitlists) and (2) decrease the number of individuals deemed non-restorable. A signature need is to improve educational or game-based approaches for individuals with serious mental health conditions who do not have competency restored by psychotropic medication alone.   
+  
+  Recovery-Oriented Cognitive Therapy (CT-R) is a theory-driven, empirically-supported approach for promoting recovery and resiliency in individuals given a serious mental health condition diagnosis (e.g., schizophrenia). CT-R posits that negative beliefs about the self, others, and future -- particularly defeatist beliefs (e.g., “things won’t work out for me” or “I won’t succeed”) -- can stymie a person. By experientially activating and strengthening positive beliefs (e.g., “I am capable,” “The future is hopeful or promising”), a person can actively pursue the life of their choosing. CT-R can be flexibly implemented as a standalone treatment, or it can synergistically combine with other treatment modalities. The workshop will review the core theory of CT-R, highlight how negative and defeatist beliefs can impact neurocognitive performance and impact competency, and provide strategies that competency restoration practitioners can use to enhance any existing restoration treatment protocols -- to strengthen an individual’s positive beliefs, enhance engagement in treatment, produce greater success. Workshop participants will leave with tangible, actionable skills to incorporate into their practice, regardless of what chosen competency restoration protocols are used at their home sites.
+objectives:
+  - Describe at least two ways to access motivation for competency restoration.
+  - Identify at least one way that aspirations can contextualize completion of competency restoration procedures.
+  - Transform at least one compliment into a guided discovery question to strengthen the positive beliefs of a person going through competency restoration.
+event-info:
+  credits: "3.5 CE hours"
+  time: "1 PM – 4:30 PM"
+---

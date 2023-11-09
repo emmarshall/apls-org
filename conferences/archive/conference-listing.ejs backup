@@ -1,0 +1,51 @@
+``` {=html}
+<%
+// Number of columns
+const cols = 2;
+
+// Card alignment
+const align = "left";
+
+// Borders
+const hideBorders = false;
+
+// Image height as a percentage of the card height
+const imgHeightPercentage = 70; // Adjust this value as needed
+
+%>
+
+<div class="list grid quarto-listing-cols-<%= cols %>">
+  <% for (const item of items) { %>
+  <div class="g-col-1" <%= metadataAttrs(item) %>>
+      <div class="quarto-grid-item card h-75 <%= align %> <%= hideBorders ? 'borderless' : '' %>">
+        <div class="card-img-top quarto-card-img" style="height: <%= imgHeightPercentage %>%;">
+          <% if (item.image) { %>
+            <img src="<%= item.image %>" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="<%= item['image-alt'] ? item['image-alt'] : 'Image' %>">
+          <% } else { %>
+            <div class="card-img-bg">&nbsp;</div>
+          <% } %>
+        </div>
+        <div class="card-body post-contents">
+          <% if (item.title) { %>
+            <h5 class="no-anchor card-title listing-title"><%= item.title %></h5>
+          <% } %>
+
+          <% if (item.location) { %>
+            <div class="card-text listing-location" style="padding-top: 0.3em;"><i class="bi bi-geo-alt-fill" style="color: red;"></i> <%= item.location %></div>
+          <% } %>
+          <% if (item.url) { %>
+            <div class="card-read-more">
+              <a href="<%= item.url %>" class="btn btn-link btn-block">Learn More <i class="bi bi-arrow-right-short"></i></a>
+          <% } else { %>
+          <div class="card-read-more">
+            <a href="#" class="btn btn-link btn-block">Learn More <i class="bi bi-wifi-off"></i></a>
+            <% } %>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  <% } %>
+</div>
+
+```

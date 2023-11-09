@@ -6,7 +6,12 @@ categories:
   - Book
 submission-info:
   sponsor: AP-LS Book Award Committee
-  deadline: November 1  
+  deadline: 
+  - November 1
+links:
+- icon: send
+  name: Submit here
+  url: "mailto:eefoster@widener.edu"
 ---
 
 
@@ -15,40 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
 
-::: vspace
-:::
-
-::: callout-note
-Nomination letters must be emailed to the Chair of the Book Award Committee, Elizabeth Foster at `eefoster@widener.edu` before November 1 annually. 
-```{r}
-#| echo: false
-#| output: asis
-
-library(tibble)
-library(dplyr)
-
-# Important links for award
-links <- tibble(
-  icon = c("circle-info", "envelope", "file-import"),
-  text = c("About Book Award Committee", "Contact", "Submit"),
-  url = c("../../about/committees.html", "mailto:eefoster@widener.edu", "mailto:eefoster@widener.edu")
-)
-
-# Create inline objects for each row of the tibble
-inline_objects <- lapply(seq_len(nrow(links)), function(i) {
-  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
-})
-
-# Combine the inline object strings into a single string
-inline_objects_str <- paste(inline_objects, collapse = "")
-
-# Print the HTML string
-cat(inline_objects_str)
-```
-:::
-
-::: vspace
-:::
+<hr>
 
 ::: panel-tabset
 ## Description
@@ -78,61 +50,76 @@ Email nomination letters to the [Chair of the Book Award Committee](emailto:eefo
 Self nominations are encouraged.
 
 :::
-:::
 
-```{=html}
+## Past Recipients
 
-    <!-- Past recipients -->
+```{r}
+#| label: Previous winners table 
+#| warning: false
+#| echo: false
+library(reactablefmtr)
+library(reactable)
+library(htmltools)
+library(dplyr)
 
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-        Past Recipients
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
-      <div class="accordion-body">  
-      
-      <strong>2021:</strong> Eve Brank, "The Psychology of Family Law"
- <br>
- 
-      <strong>2020:</strong> Thomas Grisso and Stanley L. Brodsky, "The Modern Roots of Psychology and Law"
+##load data from csv not google drive
 
- <br>
-      <strong>2019:</strong> Brian H. Bornstein and Edie Greene, "The Jury Under Fire: Myth, Controversy and Reform"
+data <- read.csv(file = "../data/book_awards.csv")
 
- <br>
-      <strong>2018:</strong> Margaret Bull Kovera, "The Psychology of Juries"
+data <- data |> 
+  select(img, year, author, title, url)
 
- <br>
-      <strong>2017:</strong> Adam Benforado, "Unfair: The New Science of Criminal Injustice"
 
- <br>
-      <strong>2016:</strong> Ronald Roesch and Patricia Zapf, "Forensic Assessments in Criminal and Civil Law: A Handbook"
+#create custom color palette for scale fill
+#pal_scale<-c("#F4FFFD","#E9DAEC","#A270E5","#43009A")
 
- <br>
-      <strong>2015:</strong> Dan Simon, "In Doubt: The Psychology of the Criminal Justice Process"
 
- <br>
-      <strong>2009-10:</strong> G. Daniel Lassiter and Christian A. Meissner, "Police Interrogations and False Confessions: Current Research, Practice, and Policy Recommendations"
+winners_tbl <- reactable(
+  data,
+  defaultPageSize = 20,
+  defaultSorted = list(year = "desc"),
+  static = TRUE,
+  sortable = FALSE,
+  theme = fivethirtyeight(centered = TRUE),
+  defaultColDef = colDef(vAlign="center",
+                         align="left"
+                         ##style = color_scales(df, span = 4:7, colors=pal_scale)
+                         ),
+ # columnGroups = list(
+ #   colGroup(name = "Book Details", columns=c("img", "title"))),
+  columns = list(
+    year = colDef(name = "",
+                  minWidth = 150,
+                  maxWidth = 200,
+                  cell = merge_column(data, 
+                            merged_name = "author",
+                            merged_size = 14,
+                            merged_color = "#343a40",
+                            merged_position = "below",
+                            size = 18,
+                            color = "#1B3264")),
+    img = colDef(name = "",
+                 maxWidth = 125,
+                 align = "center",
+                 cell = embed_img(., height= 100, width = 75)
+                 ),
+    title = colDef(html = TRUE,
+                   minWidth = 150,
+                   align = "left",
+                   name = "",
+                   cell = function(value, index) {
+       sprintf('<a href="%s" target="_blank">%s</a>', data$url[index], value)
+    }),
+    url = colDef(show = FALSE),
+    img = colDef(show = FALSE),
+    author = colDef(show = FALSE)
+                
+)
+) 
 
- <br>
-      <strong>2007-08:</strong> Roger J.R. Levesque, "Adolescents, Media, and the Law"
 
- <br>
-      <strong>2005-06:</strong> William Foote and Jane Goodman-Delahunty, "Evaluating Sexual Harassment: Psychological, Social and Legal Considerations in Forensic Examinations"
+div(winners_tbl)
 
- <br>
-      <strong>2003-04:</strong> Barry Rosenfeld, "Assisted Suicide and the Right to Die"
-
- <br>
-      <strong>2001-02:</strong> Kirk Heilbrun, "Principles of Forensic Mental Health Assessment" (First time awarded)
-
- <br>
-
-</div>
-</div>
-</div>
-  
 ```
+
+:::

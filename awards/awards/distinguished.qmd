@@ -7,6 +7,10 @@ categories:
 submission-info:  
   sponsor: AP-LS Executive Committee
   deadline: January 1
+links:
+- icon: send
+  name: Submit here
+  url: "mailto:rosenfeld@fordham.edu"
 ---
 
 ```{r setup, include=FALSE}
@@ -14,41 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
 
-::: vspace
-:::
-
-::: callout-note
-All nominations should be sent in a single file Word or pdf format to AP-LS Past President Lora Levett at `llevett@ufl.edu` by January 1, 2023. </br> Self-nominations will not be considered.
-
-```{r}
-#| echo: false
-#| output: asis
-
-library(tibble)
-library(dplyr)
-
-# Important links for award
-links <- tibble(
-  icon = c("file-import"),
-  text = c("Submit nomination"),
-  url = c("llevett@ufl.edu")
-)
-
-# Create inline objects for each row of the tibble
-inline_objects <- lapply(seq_len(nrow(links)), function(i) {
-  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
-})
-
-# Combine the inline object strings into a single string
-inline_objects_str <- paste(inline_objects, collapse = "")
-
-# Print the HTML string
-cat(inline_objects_str)
-```
-:::
-
-::: vspace
-:::
+<hr>
 
 ::: panel-tabset
 ## Description
@@ -61,9 +31,9 @@ This award is not exclusively for AP-LS members, and anyone who meets these crit
 
 ## How to Apply
 
-All nominations should be sent in a single file Word or pdf format to AP-LS Past President Lora Levett (llevett\@ufl.edu) by January 1, 2023.
+All nominations should be sent in a single file Word or pdf format to AP-LS Past President by January 1.
 
-:::{.callout-tip} 
+::: callout-tip
 ## Nominations must include:
 
 -   A copy of the nominee's CV
@@ -75,7 +45,8 @@ All nominations should be sent in a single file Word or pdf format to AP-LS Past
 Self-nominations will not be considered.
 :::
 
-:::
+## Past Recipients
+
 ```{=html}
 
     <!-- Past recipients -->
@@ -108,5 +79,6 @@ Self-nominations will not be considered.
       <strong>1990:</strong> Supreme Court Justice Harry Blackmun <br>
       <strong>1988:</strong> John Monahan and Laurens Walker <br>
       <strong>1986:</strong> Saleem Shah (First time awarded)
-```    
-      
+```
+
+:::

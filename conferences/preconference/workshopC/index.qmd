@@ -1,0 +1,27 @@
+---
+title: Workshop C
+subtitle: |
+  Feedback in Forensic Mental Health Assessment: Ethical and Practical Considerations
+date: 03/20/2024
+author:
+  - Sharon Kelley, JD, PhD
+  - Elizabeth E. Foster, PhD
+categories: 
+  - Intermediate
+  - Half Day
+description: |
+  Feedback to evaluees in forensic mental health assessment (FMHA) is an under-studied and under-discussed topic. In other psychological disciplines, feedback is a traditional part of the psychological assessment process, though there are many potential reasons that feedback in FMHA might be treated differently. Based on our review of the relevant literature, a survey about current feedback practices, and the results of three focus groups with forensic evaluators, the purpose of this talk is to provide considerations to guide evaluators' decisions about feedback in FMHA. Because feedback will often be a matter of evaluator discretion, we determined that reviewing relevant factors for carefully-considered practice would be useful to the forensic evaluator community.
+  
+  We created a decision tree for feedback (Kelley & Foster, 2023), which is grounded in the law and ethics surrounding the practice of FMHA and covers both logistical and substantive considerations for forensic evaluators. Ultimately, these considerations include potential problems or drawbacks related to providing feedback as well as potential benefits, both to the evaluee and the evaluation itself. Although feedback will not be appropriate in every situation, thoughtful consideration of the issue---and providing feedback when appropriate---is one way of respecting the rights and dignity of forensic evaluees.
+  
+  Because there appears to be a divided understanding about the legality and ethics surrounding feedback, our purpose is to go further than previous literature reviews and offer evaluators a systematic set of considerations to guide their decision-making about providing feedback to forensic evaluees.
+objectives: 
+  - Identify the ethical guidelines relevant to assessment feedback and their specific application to forensic mental health assessment.
+  - Describe gaps between ethics, research, and practice on feedback in forensic mental health assessment.
+  - Describe how feedback practices can be incorporated into the notification process.
+  - Apply relevant ethical standards, ethical principles, and practice guidelines to different scenarios involving feedback in forensic mental health assessment.
+event-info:
+  credits: "3.5 CE hours"
+  time: "8:30 AM – 12 PM"
+---
+

@@ -72,8 +72,8 @@ $callout-font-family: 'Proza Libre', sans-serif !default;
 
 // font sizes
 $font-size-base:   1rem !default; // Assumes the browser default, typically `16px`
-$h1-font-size:     $font-size-base * 3 !default;
-$h2-font-size:     $font-size-base * 2.5 !default;
+$h1-font-size:     $font-size-base * 2.8 !default;
+$h2-font-size:     $font-size-base * 2.3 !default;
 $h3-font-size:     $font-size-base * 2 !default;
 $h4-font-size:     $font-size-base * 1.3 !default;
 $h5-font-size:     $font-size-base * 1.2 !default;
@@ -371,20 +371,6 @@ div.navbar-collapse ul.navbar-nav li {
    margin-bottom: 2rem;
 }
 
-// title blocks
-#title-block-header {
-    .quarto-title-banner {
-        font-family: $headings-font-family;
-        font-size: 1.5rem;
-        color: $secondary;
-        
-        .description {
-            font-family: $navbar-font-family;
-            font-size: 1.4rem;
-            margin-top: 1rem !important;
-        }
-    }
-}
 
 
 // Shrink blocks of code
@@ -467,12 +453,13 @@ pre.text, pre.sourceCode, .cell-output pre {
   border: none;
 }
 
-// Buttons
+// Outline buttons
 
 .btn-light,
 .btn-outline-primary,
 .btn-outline-light {
   color: $gray-800;
+  text-transform: uppercase;
 
   &:disabled,
   &.disabled {
@@ -1007,146 +994,105 @@ pre.text, pre.sourceCode, .cell-output pre {
   }
 }
 
+// custom labels for metadata-quarto listings
 
-// awards listings
+.custom-meta {
+  .custom-meta-row {
+    display: flex;
+    flex-wrap: wrap; // Allow the items to wrap on smaller screens
 
-#title-block-header {
-    .quarto-title-banner {
-        font-family: $font-family-sans-serif;
+    // Target all items for default mobile view styling
+    > * {
+      flex: 0 0 100%; // Each item takes full width on smaller screens
+      margin-right: 0; // Reset any right margin on smaller screens
+      margin-bottom: 10px; // Adds a little space between items on mobile
+    }
+
+    // On larger screens, adjust the items to be in groups of two
+    @include media-breakpoint-up(md) {
+      > * {
+        flex: 0 0 calc(50% - 10px); // Each item takes up half the space minus margin on medium screens and up
+        // Apply margin to even items, so it creates space after every two items
+        &:nth-child(2n) {
+          margin-right: 0; // Even items don't need margin on the right
+        }
+        &:nth-child(2n+1) {
+          margin-right: 10px; // Odd items will have margin on the right
+        }
+      }
+    }
+  }
+}
+
+
+
+// workshops & event listings
+
+.event-post {
+    .quarto-title .title {
+      font-size: 1.2rem;
+    }
+    
+    .quarto-title .subtitle {
+      font-size: 1.2rem;
+    }
+    .quarto-title .quarto-categories {
+        margin-top: 0.5rem;
         
-        .description {
-            font-size: .75em;
-            margin-top: 1em !important;
+        .quarto-category {
+            background-color: shift-color($primary, -25%);
+            border-color: shift-color($primary, -45%);
+            color: $white;
+            font-size: 0.9em;
+            opacity: 1;
         }
-    }
-}
-
-.quarto-title .quarto-categories {
-        padding-bottom: 0;
-        flex-wrap: wrap;
-        gap: 0.4em;
     }
     
-.quarto-title-block {
-
-
-    .award-details {
-        padding: 0.6em;
-        margin: 1em 0;
+    .quarto-title-meta-heading {
+      margin-top: 0.5rem;
     }
-
-    .quarto-title-meta-heading.manual {
-        margin-top: 1.5em !important;
+    .quarto-title-meta-contents .objectives{
+        margin-top: 0.5rem;
+        padding-left: 20px;
+        font-size: .9rem;
     }
+}
 
-    .award-links {
-        padding: 0;
-        margin-bottom: 0;
-    }
 
-    .award-link {
-        display: inline-block;
-        white-space: nowrap;
-        padding: 0 1em 0 0;
-        font-weight: bold;
+// grants & awards listings
+
+.award-post {
+    .quarto-title .title {
+      font-size: 1.5rem;
     }
     
+    .quarto-title .description {
+      font-size: 1rem;
+      font-weight: 300;
+    }
+    .quarto-title .quarto-categories {
+        margin-top: 0.5rem;
+        
+        .quarto-category {
+            background-color: shift-color($primary, -25%);
+            border-color: shift-color($primary, -45%);
+            color: $white;
+            font-size: 1rem;
+            opacity: 1;
+        }
+    }
     
-
-}
-
-
-.back-nav {
-    margin-bottom: .5em;
-}
-
-.award {
-    .back-nav a {
-        color: shift-color($primary, -75%);
+    .quarto-title-meta-heading {
+      margin-bottom: 0.35rem;
+      font-size: 1.5rem;
     }
-    
-    .quarto-title .quarto-categories .quarto-category {
-        background-color: lighten($primary, 30%);
-        color: $secondary;
-        opacity: 1;
-    }
-
-    .award-categories {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0.35em 0 0.35em;
-        padding-top: 0.35em;
-        padding-left: 0.5em;
-        padding-bottom: 0;
-        row-gap: 0.2em;
-        column-gap: 0.3em;
-
-        .award-category {
-            padding: 0.25em 0.75em 0.25em 0em;
-            font-size: 0.4em;
-            text-transform: uppercase;
-        }
+    .quarto-title-meta-contents .submission-info{
+        padding-left: 0;
+        font-size: 1.1rem;
     }
 }
-
-.award-list {
-    ul {
-        list-style: none;
-        padding: 0;
-        margin: 0 0 2em;
-
-        li.award {
-            margin-bottom: 1.5em;
-            border-left: 6px solid shift-color($primary, -90%);
-
-            p {
-                margin: 0;
-            }
-        }
-    }
-
-    .award-content {
-        padding-left: 0.5em;
-}
-        .status {
-            font-size: .8rem;
-            font-weight: 250;
-            padding: 0.2em;
-            margin-right: 0.5em;
-        }
-    }
-
-    ul.award-links {
-        margin-bottom: 0;
-    }
-
-    .award-details-listing {
-        margin-top: 0.8em;
-        background-color: shift-color($primary, -75%);
-        font-size: 0.5rem;
-
-        @media (max-width: map-get($grid-breakpoints, md)) {
-            font-size: 0.7rem;
-        }
-
-        .award-link {
-            display: inline-block;
-            white-space: nowrap;
-            padding: 0.5em 0.5em 0.5em 1em;
-        }
-
-        .details {
-            background-color: $primary;
-            padding-right: 1.5em;
-
-            a {
-                color: #FFFFFF;
-            }
-        }
-    }
 
 // quarto grid listings
-
 
 .quarto-title-banner .quarto-title .title {
   font-weight: 400;
@@ -1158,7 +1104,7 @@ pre.text, pre.sourceCode, .cell-output pre {
   }
 
   @include media-breakpoint-up(md) {
-    font-size: calc(2.5rem + 1.14vw);
+    font-size: calc(2rem + 1.14vw);
   }
 }
 
@@ -1171,9 +1117,6 @@ div.quarto-post .listing-categories .listing-category,
   opacity: 0.6;
 }
 
-div.quarto-post a {
-  color: black;
-}
 
 #quarto-margin-sidebar .quarto-listing-category-title {
   font-weight: 500;
@@ -1194,7 +1137,7 @@ div.quarto-post a {
 // hero-banner
 .hero-banner {
   position: relative;
-  background-color: rgb(240,245,249);
+  background-color: lighten($secondary, 20%);
   display: flex;
   justify-content: center;
 }
@@ -1212,7 +1155,7 @@ div.quarto-post a {
   0.4px 0.8px 1px -1.2px hsl(216, 48%, 28%, 0.34),
   1px 2px 2.5px -2.5px hsl(216, 48%, 28%, 0.34);
   
-    &-title {
+  &-title {
     color: inherit;
   }
 
@@ -1220,27 +1163,51 @@ div.quarto-post a {
     flex-basis: calc(33.33% - (#{31px * 2} + #{20px * 2}));
     margin: 0 31px;
   }
+ 
 }
 
-.card .semester {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 0.75em;
-  padding: 1em;
-  line-height: 1em;
-  opacity: .8;
+/*event cards for quarto listing*/
+
+.event-card {
+  
+  .card-img-top {
+  width: 100%;
+  height: 33vw;
+  object-fit: cover;
+  }
+
+  .card-details {
+    font-size: .85rem;
+    padding: 1rem;
+    margin-bottom: .75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .card-read-more {
+    border-top: 1px solid $gray-300;
+    text-align: center;
+  }
+  
+  .card-read-more a {
+    text-decoration: none !important;
+    padding: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
 }
-
-
 
 /* grid cards */
 h5, .h5{
   font-family: $font-family-sans-serif;
-  font-size: 1.2rem;
+  font-size: 2rem;
+  font-weight: 800;
   text-decoration: bold;
-  
+  letter-spacing: 1px;
+  margin-top: 10px;
 }
+
+
 
 
 .quarto-grid-item {
@@ -1285,11 +1252,6 @@ h5, .h5{
   font-weight: 400;
   font-size: .7em;
 }
-
-.quarto-grid-item .card-attribution.justify {
-  justify-content: left;
-}
-
 
 
 // Makes List of icons, text to insert into callout blocks with r function
@@ -1503,7 +1465,7 @@ blockquote {
   }
 }
 
-// syllabi table
+// syllabi table with reactable()
 
 .syllabi {
   font-family: 'Proza Libre', sans-serif;
@@ -1593,7 +1555,7 @@ blockquote {
   }
 }
 
-// pricing tables
+// Pricing tables for membership
 .price-card {
   border-bottom-width: 2px;
   border-color: rgba(0, 0, 0, .08);
@@ -1682,7 +1644,7 @@ blockquote {
 }
 }
 
-// Price
+// Price in header for price table
 .display-2 {
   font-size: 7rem;
   letter-spacing: -.35rem;
@@ -1702,7 +1664,7 @@ blockquote {
   }
 }
 
-// Price Buttons
+// Pricing Buttons
 .price-btn {
   text-transform: uppercase;
   font-size: .75rem;

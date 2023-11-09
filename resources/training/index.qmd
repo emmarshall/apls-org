@@ -1,22 +1,55 @@
 ---
 title: Education and Training in Psychology and Law
 title-block-banner: "../../images/default-banner.svg"
+toc: true
 draft: true
 ---
 
 One goal of AP-LS is promoting the education of psychologists in matters of law and the education of legal personnel in matters of psychology. Information about pursuing a [career in psychology and law](career.qmd) can be found here. You can also learn more about the field through our [interviews with professionals' series](interviews.qmd). This page summarizes our ongoing educational activities.
 
-## Graduate Programs
+# Graduate Programs
 
-There are over 50 doctoral and master's programs that teach a combination of psychology and law. Information about, and links to, these programs can be found on the page about [graduate programs](graduate.qmd).
+There are over 50 doctoral and master's programs that teach a combination of psychology and law. Information about, and links to, these programs can be found below.
 
--   Members of the Teaching, Training, and Careers Committee (TTC) developed a [guide to assist students interested in psychology and law graduate programs](https://www.apls-students.org/graduate-program-guide.html).
+::: {.callout-note appearance="simple"}
+If you are interested in learning more about graduate programs, please review the links to the degree programs provided on this web site, and also review the resources on the [Student Committee website](https://www.apls-students.org/education--training.html)
+:::
+
+::: simple-info
+::: {.content-block .col-v-center}
+## Guide to Graduate Programs in Legal and Forensic Psychology
+:::
+
+::: grid
+
+::: {.g-col-12 .g-col-md-6}
+![](../../images/grad_guide_2023.png){width="300"}
+
+:::
+
+::: {.g-col-12 .g-col-md-6 .col-v-center}
+
+:::vspace2
+:::
+
+This guide was developed by members of the AP-LS Teaching, Training, and Careers Committee (TTC) and lists current graduate programs in forensic and legal psychology.
+
+[NEW! 2023 Guide](https://drive.google.com/file/d/1UmxNGjFb-fZciA-OxmWnGi6lhcpeaJ2U/view?usp=sharing){#btn-guide .btn-action .btn-action .btn .btn-primary role="button"}
+:::
+:::
+:::
+::: {.callout-note collapse="true" appearance="simple" icon="false"}
+Programs are listed alphabetically by degree type: doctoral programs (PhD and PsyD), joint programs (PhD/JD, PsyD/JD, JD/MA, PhD/MLS), and masters-level programs.
+
+Each program is described using the same categories (program facts, admission criteria, opportunities for research or practical and funding availability) to help prospective students make informed choices about graduate training and education in psychology and law.
+:::
+
 
 -   The [Resource Directory of Forensic Psychology Predoctoral Internships Training Programs](https://www.apls-students.org/clinical-internship-database.html) includes a listing of predoctoral internships offering training opportunities in forensic psychology.
 
 -   The [Education and Training Guidelines](https://3de0bcf9-0846-41d0-af8e-e2968fb7707d.filesusr.com/ugd/146c2d_52c33e4d7f2a4bff9a2a1a8452c5f73d.pdf), developed by the [Forensic Specialty Council](https://www.cospp.org/forensic-psychology) of the Council of Specialties in Professional Psychology, outline the required elements of an organized, sequential training program in forensic psychology, including postdoctoral residency training.
 
-## Awards and Recognition
+# Awards and Recognition
 
 -   [Best Undergraduate Paper](../../awards/undergradpaper.qmd): The AP-LS Award for Best Undergraduate Paper is awarded to an outstanding undergraduate research paper that is focused on the interdisciplinary study of psychology and law.
 
@@ -24,7 +57,7 @@ There are over 50 doctoral and master's programs that teach a combination of psy
 
 -   [Saleem Shah Award](../../awards/saleemshah.qmd): The Saleem Shah Award is co-sponsored by the American Psychology-Law Society (APA Division 41) and the American Academy of Forensic Psychology. The award is for early career excellence and contributions to the field of psychology and law. The focus on the nominee\'s contributions may be in any area of forensic practice, research, or public policy.
 
-## Teaching Resources
+# Teaching Resources
 
 -   [Syllabus Collection](../syllabi/): The AP-LS Teaching, Training, and Careers Committee is continuing its efforts to collect syllabi for courses in Psychology and Law or closely related topics. You may download any of the collected syllabi for undergraduate or graduate courses.
 
@@ -34,7 +67,7 @@ There are over 50 doctoral and master's programs that teach a combination of psy
 
 View list of other [available resources](teaching/) for those teaching courses in psychology and law.
 
-## Grants and Funding
+# Grants and Funding
 
 -   [AP-LS Grants in Aid](https://www.apadivisions.org/division-41/awards/student-grants "Grants in Aid for Students"): The Division 41 Grants-in-Aid Committee considers proposals for small grants (maximum of \$750) to support empirical graduate research that addresses psycholegal issues. The award is limited to graduate students who are student affiliate members of AP-LS.
 

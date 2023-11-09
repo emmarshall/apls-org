@@ -9,6 +9,13 @@ categories:
 submission-info:
   sponsor: AP-LS Dissertation Award Committee
   deadline: December 31 
+links:
+- icon: question-circle
+  name: Contact
+  url: "mailto:dissertation@ap-ls.org"
+- icon: send
+  name: Submit here
+  url: "mailto:dissertation@ap-ls.org"
 ---
 
 ```{r setup, include=FALSE}
@@ -16,41 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
 
-::: vspace
-:::
-
-::: callout-note
-Submissions must be emailed to the Chair of the Dissertation Award Committee at `dissertation@ap-ls.org` before December 31 annually. 
-```{r}
-#| label: Award info
-#| echo: false
-#| output: asis
-
-library(tibble)
-library(dplyr)
-
-# Important links for award
-links <- tibble(
-  icon = c("circle-info", "envelope", "file-import"),
-  text = c("About Dissertation Award Committee", "Contact", "Submit Nomination"),
-  url = c("../../about/committees.html", "mailto:dissertation@ap-ls.org", "mailto:dissertation@ap-ls.org")
-)
-
-# Create inline objects for each row of the tibble
-inline_objects <- lapply(seq_len(nrow(links)), function(i) {
-  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
-})
-
-# Combine the inline object strings into a single string
-inline_objects_str <- paste(inline_objects, collapse = "")
-
-# Print the HTML string
-cat(inline_objects_str)
-```
-:::
-
-::: vspace
-:::
+<hr>
 
 ::: panel-tabset
 ## Description
@@ -66,9 +39,10 @@ To be eligible for the award, you must be a member of AP-LS and have defended yo
 You do not need to have graduated by December 31 to apply.
 
 ## How to Apply
+
 Email submissions to the [Chair of the Dissertation Awards Committee](mailto:aplsdissertations@gmail.com) {{< var email.dissertation >}} before December 31 annually.
 
-:::{.callout-tip} 
+::: callout-tip
 ## Submissions should include:
 
 1.  Copy of the dissertation as it was submitted to the student's university (in Word or PDF format)
@@ -79,99 +53,92 @@ These items can be submitted via one email from the student, or via separate ema
 
 For more information, please contact the chair of the Dissertation Awards Committee.
 :::
+
+## Past Recipients
+
++--------------+---------------------------+-------------------------------+------------------------------------+
+| Year         | 1st place                 | 2nd place                     | 3rd place                          |
++==============+===========================+===============================+====================================+
+| 2023         | Jesse Grabman             | Tamara de Beuf                | Breanne Wylie                      |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2022         | Stephanie Cardenas        | Joseph Avery                  | Amy Dezember                       |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2021         | Catherine Shaffer-McCuish | Alejandra de la Fuente        | Adele Quigley-McBride              |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2020         | Christine Shahan Brugh    | Dylan T. Gatner               | Alicia Nijdam-Jones                |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2018         | Lucy Guarnera             | Pia Hollerbach                | Rachel Greenspan                   |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2017         | Nathalie Brackmann        | Melissa Colloff               | Lauren Kois                        |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2016         | Evan McCuish              | Caitlin Cavanaugh             | Kelsey Henderson                   |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2015         | Skye Stephens             | Laura White                   | Alana Krix                         |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2014         | Anthony Perillo           | (tie) Miko Wilford & Misun Yi | Jeffrey Kukucka                    |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2013         | Taeko Wachi               | Rebecca Weiss                 | Heather Butler                     |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2012         | Kaitlyn McLachlan         | Ekaterina Pivovarova          | Jessica Salerno                    |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2011         | Annelies Vredeveldt       | Jay P. Singh                  | Julia Clara Busso Kennard          |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2010         | Samantha Schwartz         | Caroline Crocker              | Ashley Christiansen                |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2009         | Tarika Daftary-Kapur      | Gianni Pirelli                | Bethany Young                      |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2008         | Margaret C. Stevenson     | Laura G. Kirsch               | Melanie R. Farkas & Lindsay Malloy |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2007         | Jeffrey Haun              | Kathryn Modecki               | Tracy Fass                         |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2006         | Amy Leach                 | Jessica Klaver                | Jessica Meyer                      |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2005         | Tara Mitchell             | Lisa Chraznowski              | Lora Levett &\                     |
+|              |                           |                               | Greg Kramer                        |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2004         | Jodi Viljoen              | Candice Odgers                | Martin Hildebrand                  |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2003         | Virginia Cooper           | Teri Forrest                  | Mary Ann Campbell & Alexis Kennedy |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2002         | Jennifer Groscup          | Tamara Haegerich              | Gina Vincent &\                    |
+|              |                           |                               | David DeMatteo                     |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2001         | Mark Phillips             | Christian Meissner            | Eve Brank                          |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 2000         | Bradley McAuliff          | Lyn Castrianno                | Kimberly Brown                     |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1999         | Jennifer Skeem            |                               | Dan Krauss                         |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1998         | Joanna Pozzulo            | Jennifer Robbennolt           | Dennis Stolle                      |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1997         | David Glass               | Stephen Anderer               | Richard Redding                    |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1996         | Kimberly Lonsway          | Charles R. Mullin             | Phyllis B. Gerstenfeld             |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1995         | Lori Beth Frank           | Mindy Mechanic                | Maithilee K. Pathak                |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1994         | Margaret Kovera           | Karen Leslie Steinberg        | Nancy Schneider                    |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1993         | Ann Tobey                 | Doug Narby                    |                                    |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1992         | Bette Bottoms             | \                             | Cathy Carter                       |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1991         | Barry Rosenfeld           |                               |                                    |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1990         | James Ogloff              | Regina Schuller               | Mark Small                         |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1989         |                           |                               |                                    |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1988         | Patricia Frazier          |                               |                                    |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1987         | Brian Cutler              |                               |                                    |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1986         | Roselle Wissler           |                               |                                    |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1985         | Nancy Brekke              | Carol Krafka                  |                                    |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1984         | Daniel Linz               |                               |                                    |
++--------------+---------------------------+-------------------------------+------------------------------------+
+| 1983         | Sarah Tanford             | Edie Greene                   |                                    |
++--------------+---------------------------+-------------------------------+------------------------------------+
 :::
-
-```{=html}
-
-  <!-- Past recipients -->
-
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-        Past Recipients
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
-      <div class="accordion-body">
-```
-+--------------+------------------------+-------------------------------+------------------------------------+
-| Year         | 1st place              | 2nd place                     | 3rd place                          |
-+==============+========================+===============================+====================================+
-| 2019         | Christine Shahan Brugh | Dylan T. Gatner               | Alicia Nijdam-Jones                |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2018         | Lucy Guarnera          | Pia Hollerbach                | Rachel Greenspan                   |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2017         | Nathalie Brackmann     | Melissa Colloff               | Lauren Kois                        |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2016         | Evan McCuish           | Caitlin Cavanaugh             | Kelsey Henderson                   |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2015         | Skye Stephens          | Laura White                   | Alana Krix                         |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2014         | Anthony Perillo        | (tie) Miko Wilford & Misun Yi | Jeffrey Kukucka                    |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2013         | Taeko Wachi            | Rebecca Weiss                 | Heather Butler                     |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2012         | Kaitlyn McLachlan      | Ekaterina Pivovarova          | Jessica Salerno                    |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2011         | Annelies Vredeveldt    | Jay P. Singh                  | Julia Clara Busso Kennard          |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2010         | Samantha Schwartz      | Caroline Crocker              | Ashley Christiansen                |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2009         | Tarika Daftary-Kapur   | Gianni Pirelli                | Bethany Young                      |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2008         | Margaret C. Stevenson  | Laura G. Kirsch               | Melanie R. Farkas & Lindsay Malloy |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2007         | Jeffrey Haun           | Kathryn Modecki               | Tracy Fass                         |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2006         | Amy Leach              | Jessica Klaver                | Jessica Meyer                      |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2005         | Tara Mitchell          | Lisa Chraznowski              | Lora Levett &\                     |
-|              |                        |                               | Greg Kramer                        |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2004         | Jodi Viljoen           | Candice Odgers                | Martin Hildebrand                  |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2003         | Virginia Cooper        | Teri Forrest                  | Mary Ann Campbell & Alexis Kennedy |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2002         | Jennifer Groscup       | Tamara Haegerich              | Gina Vincent &\                    |
-|              |                        |                               | David DeMatteo                     |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2001         | Mark Phillips          | Christian Meissner            | Eve Brank                          |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 2000         | Bradley McAuliff       | Lyn Castrianno                | Kimberly Brown                     |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1999         | Jennifer Skeem         |                               | Dan Krauss                         |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1998         | Joanna Pozzulo         | Jennifer Robbennolt           | Dennis Stolle                      |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1997         | David Glass            | Stephen Anderer               | Richard Redding                    |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1996         | Kimberly Lonsway       | Charles R. Mullin             | Phyllis B. Gerstenfeld             |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1995         | Lori Beth Frank        | Mindy Mechanic                | Maithilee K. Pathak                |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1994         | Margaret Kovera        | Karen Leslie Steinberg        | Nancy Schneider                    |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1993         | Ann Tobey              | Doug Narby                    |                                    |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1992         | Bette Bottoms          | \                             | Cathy Carter                       |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1991         | Barry Rosenfeld        |                               |                                    |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1990         | James Ogloff           | Regina Schuller               | Mark Small                         |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1989         |                        |                               |                                    |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1988         | Patricia Frazier       |                               |                                    |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1987         | Brian Cutler           |                               |                                    |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1986         | Roselle Wissler        |                               |                                    |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1985         | Nancy Brekke           | Carol Krafka                  |                                    |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1984         | Daniel Linz            |                               |                                    |
-+--------------+------------------------+-------------------------------+------------------------------------+
-| 1983         | Sarah Tanford          | Edie Greene                   |                                    |
-+--------------+------------------------+-------------------------------+------------------------------------+
-

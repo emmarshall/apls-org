@@ -98,7 +98,7 @@ content = rowwise_table(~name, ~icon, ~link,
   "Proposals", "megaphone", "#cfp",
   "Hotel", "airplane", "#hotel",
   "Registration", "person-badge", "#register",  
-  "Preconference", "person-workspace", "#preconference"
+  "Preconference", "person-workspace", "preconference/index.qmd"
 )
 div(class = "bg-light",
  div(class = "bg-breakout",
@@ -265,9 +265,7 @@ The 2023 APLS Annual Conference schedule and program is available to download an
 
 AP-LS has rooms set aside for all attendees, which can be booked at a special group rate that is available for attendees:
 
-{{< fa credit-card >}} Group Rate \$249 </br>
-{{< fa calendar >}} Available March 19 - March 24 </br>
-{{< fa square-parking >}} Discounted Valet Parking (\$38/ night)
+{{< fa credit-card >}} Group Rate \$249 </br> {{< fa calendar >}} Available March 19 - March 24 </br> {{< fa square-parking >}} Discounted Valet Parking (\$38/ night)
 
 Attendees must book their room by **February 25th, 2024** to take advantage of the special rate!
 
@@ -275,18 +273,13 @@ Attendees must book their room by **February 25th, 2024** to take advantage of t
 [{{< fa bell-concierge >}} Book a Room](https://www.marriott.com/event-reservations/reservation-link.mi?id=1698166662825&key=GRP&app=resvlink){.btn-action .btn .btn-info .ml-auto role="button"} [{{< fa hotel >}} Website](https://goo.gl/maps/p6PCdg1nZ46NASuw9){.btn-action .btn .btn-dark .ml-auto role="button"}
 :::
 
-
-
 ## {{< fa plane >}} Plan your trip
 
-For attendees flying in to Los Angeles, the LAX FlyAway runs
-from LAX to the Union Station train station in downtown LA and is $10. The LAX FlyAway runs from LAX every 30 minutes and from Union Station every hour. Union Station is a short Uber or cab ride to the hotel but is a great option for individuals arriving alone as
-Ubers and cabs directly from the airport can be costly. 
+For attendees flying in to Los Angeles, the LAX FlyAway runs from LAX to the Union Station train station in downtown LA and is \$10. The LAX FlyAway runs from LAX every 30 minutes and from Union Station every hour. Union Station is a short Uber or cab ride to the hotel but is a great option for individuals arriving alone as Ubers and cabs directly from the airport can be costly.
 
 ::: hero-buttons
-[{{< fa map-location-dot >}} Get Directions](https://goo.gl/maps/p6PCdg1nZ46NASuw9){.btn-action .btn .btn-info .ml-auto role="button"} 
+[{{< fa map-location-dot >}} Get Directions](https://goo.gl/maps/p6PCdg1nZ46NASuw9){.btn-action .btn .btn-info .ml-auto role="button"}
 :::
-
 :::
 :::
 
@@ -299,12 +292,12 @@ Ubers and cabs directly from the airport can be costly.
 # Registration {#register}
 
 ## {{< fa circle-info >}} Registration is now open!
+
 We encourage you to register before January 31st to take advantage of the early bird pricing!
 
+[Register Now {{< fa arrow-up-right-from-square >}}](https://apls.memberclicks.net/24conferencereg#!/){.btn-action .btn .btn-primary .ml-auto role="button"}
 
-[Register Now {{< fa arrow-up-right-from-square >}} ](https://apls.memberclicks.net/24conferencereg#!/){.btn-action .btn .btn-primary .ml-auto role="button"}
-
-:::vspace
+::: vspace
 :::
 
 ::: {.callout-note appearance="simple"}
@@ -312,23 +305,22 @@ We encourage you to register before January 31st to take advantage of the early 
 
 \*Rates may be subject to change
 
-+-----------------------------------------+-----------------+---------------+
-| Status                                  | Early Bird\     | Regular\      |
-|                                         | (before Jan 31) | (on Feb 1)    |
-+:========================================+:================+:==============+
-| Full Member                             | \$285           | \$315         |
-+-----------------------------------------+-----------------+---------------+
-| Early Career Professional Member        | \$205           | \$235         |
-|                                         |                 |               |
-+-----------------------------------------+-----------------+---------------+
-| Student Member                          | \$80            | \$110          |
-+-----------------------------------------+-----------------+---------------+
-| Student Member *First-Author Presenter* | \$40            | \$40          |
-+-----------------------------------------+-----------------+---------------+
-| Student Non-member                      | \$140           | \$170         |
-+-----------------------------------------+-----------------+---------------+
-| Non-member                              | \$400           | \$470         |
-+-----------------------------------------+-----------------+---------------+
++-----------------------------------------+-----------------+------------+-----------+
+| Status                                  | Early Bird\     | Regular\   |           |
+|                                         | (before Jan 31) | (on Feb 1) |           |
++:========================================+:================+:===========+===========+
+| Full Member                             | \$285           | \$315      |           |
++-----------------------------------------+-----------------+------------+-----------+
+| Early Career Professional Member        | \$205           | \$235      |           |
++-----------------------------------------+-----------------+------------+-----------+
+| Student Member                          | \$80            | \$110      |           |
++-----------------------------------------+-----------------+------------+-----------+
+| Student Member *First-Author Presenter* | \$40            | \$40       |           |
++-----------------------------------------+-----------------+------------+-----------+
+| Student Non-member                      | \$140           | \$170      |           |
++-----------------------------------------+-----------------+------------+-----------+
+| Non-member                              | \$400           | \$470      |           |
++-----------------------------------------+-----------------+------------+-----------+
 :::
 :::
 
@@ -337,19 +329,19 @@ We encourage you to register before January 31st to take advantage of the early 
 ::: vspace
 :::
 
-::: {simple-info}
 # Preconference Workshops {#preconference}
 
+::: simple-info
 ::: {.panel-tabset .box-shadow}
 ## {{< fa bullhorn >}} Info
 
-At this year's conference we are excited to offer 2 full day workshops and 4 half day
-workshops on that will take place on **Wednesday March 20**. Attendees will have the ability to register for the pre conference workshops with their conference registration.
+At this year's conference we are excited to offer [**two**]{.underline} full day workshops and [**four**]{.underline} half day workshops on that will take place on **Wednesday March 20**. Attendees will have the ability to register for the pre conference workshops with their conference registration.
 
+[Learn More {{< fa arrow-right >}}](preconference/index.qmd){.btn-action .btn .btn-primary .btn-lg role="button"}
 
 ## {{< fa circle-info >}} Pricing
 
-::: callout-note
+::: {.callout-note appearance="\"simple"}
 ## REGISTRATION RATES & INCLUSIONS
 
 \*Pricing is subject to change
@@ -403,8 +395,6 @@ workshops on that will take place on **Wednesday March 20**. Attendees will have
 ### Wednesday, March 20, 2024
 
 Pre-conference sessions throughout the day
-
-[Learn More {{< fa arrow-right >}}](#preconference){.btn-action .btn .btn-primary .btn-lg role="button"}
 
 ## Day 1 (Thurs)
 

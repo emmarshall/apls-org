@@ -127,6 +127,7 @@
   {
     "listing": "/newsletter/index.html",
     "items": [
+      "/resources/newsletter/2023/nov2023/index.html",
       "/resources/newsletter/2023/oct2023/index.html",
       "/resources/newsletter/2023/sep2023/index.html",
       "/resources/newsletter/2023/aug2023/index.html",
@@ -145,6 +146,37 @@
   },
   {
     "listing": "/conferences/preconference/index.html",
+    "items": [
+      "/conferences/preconference/workshopA/index.html",
+      "/conferences/preconference/workshopB/index.html",
+      "/conferences/preconference/workshopC/index.html",
+      "/conferences/preconference/workshopD/index.html",
+      "/conferences/preconference/workshopE/index.html",
+      "/conferences/preconference/workshopF/index.html"
+    ]
+  },
+  {
+    "listing": "/conferences/preconference/workshopC/index.html",
+    "items": []
+  },
+  {
+    "listing": "/conferences/preconference/workshopA/index.html",
+    "items": []
+  },
+  {
+    "listing": "/conferences/preconference/workshopB/index.html",
+    "items": []
+  },
+  {
+    "listing": "/conferences/preconference/workshopD/index.html",
+    "items": []
+  },
+  {
+    "listing": "/conferences/preconference/workshopE/index.html",
+    "items": []
+  },
+  {
+    "listing": "/conferences/preconference/workshopF/index.html",
     "items": []
   }
 ]
