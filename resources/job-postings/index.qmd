@@ -34,10 +34,10 @@ content = rowwise_table(~icon, ~text, ~link,
             "Post a job",
               "https://apls.memberclicks.net/job-posting-request#!/",
           "clipboard2-pulse",          
-            "Clinical-forensic Postdoctoral Form",
+            "Post a Clinical-forensic Postdoc",
               "https://docs.google.com/forms/d/e/1FAIpQLSeyn6YEW7-mne6RsT-yzTMN8HNSXQjuHYPP1DtW7gQq11H9eA/viewform",
           "clipboard2-data",          
-            "Research Postdoctoral Form",
+            "Post a Research Postdoc",
               "https://docs.google.com/forms/d/e/1FAIpQLSflLwIb_8pTwj_UF7zUDYlBV-4ZF5RhOTB8CJ4etbIPlncwoA/viewform"
 )
 div(class = "feature-grid",
@@ -55,7 +55,7 @@ div(class = "feature-grid",
 ```
 :::
 
-
+<hr>
 
 ## {{< fa graduation-cap >}} Academic Positions
 
