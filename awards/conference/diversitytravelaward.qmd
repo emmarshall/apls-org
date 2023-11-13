@@ -12,6 +12,13 @@ categories:
 submission-info:
   sponsor: AP-LS BRIDGE Committee
   deadline: January 15
+links:
+- icon: envelope-at
+  name: Contact
+  url: "mailto:ann38@drexel.edu"
+- icon: send
+  name: Apply here
+  url: "https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0"
 ---
 
 ```{r setup, include=FALSE}
@@ -19,52 +26,25 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
 
-::: vspace
-:::
+<hr>
 
-::: callout-note
-Please be aware that students can only receive funding from one BRIDGE program/award per year.
-
-For more information about the Diversity Travel Award program, please contact the program chair, [Amanda NeMoyer](mailto:ann38@drexel.edu).
-```{r}
-#| echo: false
-#| output: asis
-
-library(tibble)
-library(dplyr)
-
-# Important links for award
-links <- tibble(
-  icon = c("circle-info", "link"),
-  text = c("About BRIDGE Committee", "Link to Apply"),
-  url = c("../../about/committees.html", "https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0")
-)
-
-# Create inline objects for each row of the tibble
-inline_objects <- lapply(seq_len(nrow(links)), function(i) {
-  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
-})
-
-# Combine the inline object strings into a single string
-inline_objects_str <- paste(inline_objects, collapse = "")
-
-# Print the HTML string
-cat(inline_objects_str)
-```
-:::
-
-::: vspace
-:::
 
 :::{.panel-tabset}
+
 ## Description
 
 As part of an initiative to increase diversity within AP-LS, the BRIDGE Committee will provide travel awards to students from underrepresented groups who are presenting research at the American Psychology-Law Society Conference.
 
 Seven competitive travel awards in the amount of $500 will be given each year.
 
-
 Applications will be judged by members of the BRIDGE Committee. Awards will be made on a competitive basis, with consideration given to applicants' financial need.
+
+::: callout-caution
+Please be aware that students can only receive funding from one BRIDGE program/award per year.
+
+For more information about the Diversity Travel Award program, please contact the program chair, [Amanda NeMoyer](mailto:ann38@drexel.edu).
+
+:::
 
 ## Eligibility
 
@@ -72,7 +52,9 @@ Current graduate and undergraduate students from underrepresented groups (i.e., 
 
 Applicants must be a [Student Affiliate]("../../membership/membership.qmd") member of AP-LS and be presenting research at the annual conference.
 
-:::{.callout-note} These awards are intended to increase diversity at the conferences, especially among racial and ethnic minorities; in addition, the BRIDGE will consider proposals from first-generation college students, LGBTQIA individuals and physically disabled students. :::
+:::{.callout-note} 
+These awards are intended to increase diversity at the conferences, especially among racial and ethnic minorities; in addition, the BRIDGE will consider proposals from first-generation college students, LGBTQIA individuals and physically disabled students. 
+:::
 
 ## How to Apply
 

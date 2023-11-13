@@ -7,7 +7,17 @@ categories:
   - American Academy of Forensic Psychology
 submission-info:
   sponsor: AP-LS & American Academy of Forensic Psychology
-  deadline: November 30  
+  deadline: November 30 
+links:
+- icon: book
+  name: Learn More
+  url: "https://drive.google.com/file/d/12-EMOWANyIhRnrAsGaPMx-LSKcP4gYDy/view?usp=sharing"
+- icon: envelope-at
+  name: Contact
+  url: "https://aafpforensic.org/who-we-are/"
+- icon: send
+  name: Submit here
+  url: "mailto:jwmikesellphd@gmail.com"
 ---
 
 ```{r setup, include=FALSE}
@@ -15,55 +25,18 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
 
-::: vspace
-:::
-
-::: callout-note
-The Saleem Shah Award is co-sponsored by the American Psychology-Law Society and the [American Academy of Forensic Psychology (AAFP)](https://aafpforensic.org/awards/saleem-shah-award-for-early-career-excellence-in-psychology-and-law/).
-
-Nominations should be sent in PDF or Word format to the [President-Elect of the AAFP](https://aafpforensic.org/who-we-are/)
-
-```{r}
-#| echo: false
-#| output: asis
-
-library(tibble)
-library(dplyr)
-
-# Important links for award
-links <- tibble(
-  icon = c("circle-info", "file-import"),
-  text = c("About Saleem Shah", "Submit Nomination"),
-  url = c("https://aafpforensic.org/awards/saleem-shah-award-for-early-career-excellence-in-psychology-and-law/", "jwmikesellphd@gmail.com")
-)
-
-# Create inline objects for each row of the tibble
-inline_objects <- lapply(seq_len(nrow(links)), function(i) {
-  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
-})
-
-# Combine the inline object strings into a single string
-inline_objects_str <- paste(inline_objects, collapse = "")
-
-# Print the HTML string
-cat(inline_objects_str)
-```
-:::
-
-::: vspace
-:::
+<hr>
 
 ::: panel-tabset
 ## History
 
-::: callout-note
+::: {.callout-note collapse="true"}
+## Saleem's Rules
+
 At the 2012 AP-LS Conference there was a session titled:**"Saleem's Rules: Lessons in Mentoring, Knowing What's Right, and Changing the World - Why AP-LS Created a Saleem Shah Award"** with speakers Thomas Grisso, Henry J. Steadman, Edward Mulvey and John Monahan. Dr. Grisso wrote an article about that panel's discussions for the Summer 2012 AP-LS News newsletter.
 
-You can download a summary of that discussion below. 
-
-{{< downloadthis saleems-rules.pdf dname=File label="Saleems Rules" icon=file-earmark-pdf type=info >}}
+[Learn More {{< fa arrow-right >}}](https://drive.google.com/file/d/12-EMOWANyIhRnrAsGaPMx-LSKcP4gYDy/view?usp=sharing){.btn-action .btn .btn-primary .btn-lg role="button"}
 :::
-
 
 Saleem A. Shah, who was internationally known for his leadership in the field of law and mental health, died on Nov. 25, 1992, from injuries suffered when his automobile was struck by a drunken driver. Saleem was born on December 2, 1931, in Allahabad, India. After receiving a BA from Allahabad University, he came to the United States on a fellowship and earned his PhD in clinical psychology at Pennsylvania State University in 1957. He served as a graduate psychology intern at Spring Grove State Hospital, outside Baltimore, where he met his wife, Terry, with whom he had six daughters, all of whom survive him. After leaving Penn State, Saleem joined the Legal Psychiatric Services Division of the Department of Public Health in Washington, DC. He rose quickly to the post of chief psychologist and held this position until he joined the staff of the National Institute of Mental Health (NIMH) in 1966.
 
@@ -98,53 +71,58 @@ Email nominations in PDF or Word format to the [President-Elect of AAFP](https:/
 ::: callout-tip
 ## Anyone wishing to nominate a candidate should send:
 
-1.  A nomination letter detatiling the nominee's contributions to psychology and law
+1.  A nomination letter detailing the nominee's contributions to psychology and law
 2.  A copy of the nominee's vita
 :::
 
 Self-nominations will not be considered.
-:::
 
-```{=html}
-<div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Past Recipients
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
-      <div class="accordion-body">
-   
-      <strong>2020:</strong> Jeff Kukucka <br>
-      <strong>2019:</strong> Stephane Shepherd <br>
-      <strong>2018:</strong> Cynthia Najdowski <br>
-      <strong>2017:</strong> Jessica Salerno <br>
-      <strong>2016:</strong> Tess M.S. Neal <br>
-      <strong>2015:</strong> Jay Singh and Nicholas Scurich <br>
-      <strong>2014:</strong> Lindsay Malloy <br>
-      <strong>2013:</strong> Martin Selborn <br>
-      <strong>2012:</strong> Maria Hartwig <br>
-      <strong>2011:</strong> no award <br>
-      <strong>2010:</strong> Jodi Vijoen <br>
-      <strong>2009:</strong> Monica Miller <br>
-      <strong>2008:</strong> Samuel Sommers <br>
-      <strong>2007:</strong> Christian Meissner <br>
-      <strong>2006:</strong> Candice Odgers <br>
-      <strong>2005:</strong> Kevin Douglas <br>
-      <strong>2004:</strong> Jodi Quas <br>
-      <strong>2003:</strong> Jennifer Skeem <br>
-      <strong>2002:</strong> Eric Silver <br>
-      <strong>2001:</strong> John Edens and Randall Salekin <br>
-      <strong>2000:</strong> Margaret Bull Kovera and Richard Leo <br>
-      <strong>1999:</strong> no award <br>
-      <strong>1998:</strong> Bette Bottoms <br>
-      <strong>1997:</strong> Susan Limber <br>
-      <strong>1996:</strong> Randy Borum <br>
-      <strong>1995:</strong> Jim Ogloff and Steve Hart (First time awarded)
-   
-                    </div>
-      </div>
-    </div>
-  </div>
+## Past Recipients
+
+
+```{r}
+#| label: Previous winners table 
+#| warning: false
+#| echo: false
+library(reactablefmtr)
+library(reactable)
+library(htmltools)
+library(dplyr)
+
+##load data from csv not google drive
+
+data <- read.csv(file = "../data/saleem-shah.csv")
+
+data <- data |> 
+  select(year, name)
+
+saleem_tbl <- reactable(
+  data,
+  defaultPageSize = 50,
+  defaultSorted = list(year = "desc"),
+  static = TRUE,
+  sortable = FALSE,
+  theme = fivethirtyeight(centered = TRUE),
+  defaultColDef = colDef(vAlign="center",
+                         align="left"),
+  columns = list(
+    year = colDef(name = "",
+                  minWidth = 150,
+                  maxWidth = 200,
+                  cell = merge_column(data, 
+                            merged_name = "name",
+                            merged_size = 16,
+                            merged_color = "#343a40",
+                            merged_position = "below",
+                            size = 20,
+                            color = "#1B3264")),
+        name = colDef(show = FALSE)
+                
+)
+) 
+
+
+div(saleem_tbl)
+
 ```
+:::

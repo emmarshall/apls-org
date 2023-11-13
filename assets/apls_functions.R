@@ -88,8 +88,7 @@ create_inline_object <- function(icon, text, url) {
 ## Function to make info bars with icons
 generate_info_bar <- function(info) {
   # Define CSS class names
-  info_bar_class <- "info-bar"
-  info_bar_wrapper_class <- "info-bar-wrapper"
+  #info_bar_class <- "info-bar"
   inner_container_class <- "inner-container"
   info_bar_icon_class <- "info-bar__icon"
   info_bar_text_class <- "info-bar__text"
@@ -98,17 +97,17 @@ generate_info_bar <- function(info) {
   
   # Generate HTML code
   html <- paste0(
-    "<div class='", info_bar_class, "'>",
-    "<div class='", info_bar_wrapper_class, "'>",
-    "<div class='", info_bar_icon_class, "'>",
+    "<div class=info-bar container mt-3>",
+    "<div class=class=d-flex justify-content-around mb-3'>",
+    "<div class='", info_bar_icon_class, "' class=p-2'>",
     "<i class='", info$icon, "'></i>",
     "</div>",
-    "<div class='", info_bar_text_class, "'>",
+    "<div class='", info_bar_text_class, "' class=p-2'>",
     "<h3 class='", info_bar_title_class, "'>", info$title, "</h3>",
     "<p class='lead'>", info$text, "</p>",
     "</div>",
-    "<div class='", info_bar_center_class, "'>",
-    "<a href='", info$link, "' class='btn btn-warning'>", info$ctr, "</a>",
+    "<div class='", info_bar_center_class, "' class=p-2'>",
+    "<a href='", info$link, "' class='btn btn-outline-primary'>", info$ctr, "</a>",
     "</div>",
     "</div>",
     "</div>"

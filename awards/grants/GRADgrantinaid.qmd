@@ -9,7 +9,16 @@ categories:
   - Grants-in-Aid
 submission-info:
   sponsor: AP-LS Graduate Student Grants-in-Aid Committee
-  deadline: January 15 & October 15
+  deadline: 
+  - January 15 
+  - October 15
+links:
+- icon: envelope-at
+  name: Contact
+  url: "mailto:grantsinaid@apls.org"
+- icon: send
+  name: Apply here
+  url: "https://awards.ap-ls.org/default.asp"
 ---
 
 
@@ -18,40 +27,7 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
 
-::: vspace
-:::
-
-::: callout-note
-Applications should be submitted via the [AP-LS Awards Portal](https://awards.ap-ls.org/default.asp) before the annual October 15 deadline.  
-```{r}
-#| echo: false
-#| output: asis
-
-library(tibble)
-library(dplyr)
-
-# Important links for award
-links <- tibble(
-  icon = c("circle-info", "envelope", "link"),
-  text = c("About Graduate Student Grants-in-Aid Committee", "Contact", "Link to apply"),
-  url = c("../../about/committees.html", "mailto:grantsinaid@apls.org", "https://awards.ap-ls.org/default.asp")
-)
-
-# Create inline objects for each row of the tibble
-inline_objects <- lapply(seq_len(nrow(links)), function(i) {
-  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
-})
-
-# Combine the inline object strings into a single string
-inline_objects_str <- paste(inline_objects, collapse = "")
-
-# Print the HTML string
-cat(inline_objects_str)
-```
-:::
-
-::: vspace
-:::
+<hr>
 
 :::{.panel-tabset}
 ## Eligibility
@@ -59,7 +35,7 @@ The Division 41 Graduate Student Grants-in-Aid Committee is accepting proposals 
 
 This award is limited to graduate students who are  members of AP-LS. 
 
--   Awards are limited to current graduate students who are active [Student Affiliate]("../../membership/membership.qmd") members of AP-LS.
+-   Awards are limited to current graduate students who are active [Student Affiliate](../../membership/index.qmd) members of AP-LS.
 
 -   Applicants may submit only one application (either AP-LS Grants in Aid for Graduate Students or Grant in Aid for Graduate Students MacArthur Award) per funding cycle.
 
@@ -77,7 +53,7 @@ This award is limited to graduate students who are  members of AP-LS.
 
 Interested individuals should submit a complete award application via the AP-LS proposal management system by 11:59 p.m. PST on the date of the identified submission deadline. 
 
-Annual application deadlines are **January 15** and **September 15**
+Annual application deadlines are **October 15** and **January 15**.
 
 A complete Grant in Aid application includes:
 
@@ -87,7 +63,6 @@ A complete Grant in Aid application includes:
 
 -   Completed appropriate tax form: W-9 tax form for U.S. citizens and W-8BEN tax form for international students
 
-<a class="btn btn-primary" href="https://awards.ap-ls.org/default.asp" role="button">Link to Apply</a>
 
 ## Proposal Instructions and Guidelines
 

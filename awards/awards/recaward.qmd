@@ -10,6 +10,13 @@ categories:
 submission-info:
   sponsor: AP-LS Practice Committee
   deadline: November 1
+links:
+- icon: envelope-at
+  name: Contact
+  url: "mailto:practice@ap-ls.org"
+- icon: send
+  name: Submit here
+  url: "mailto:practice@ap-ls.org"
 ---
 
 ```{r setup, include=FALSE}
@@ -17,41 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
 
-::: vspace
-:::
-
-::: callout-note
-Applications should be emailed directly to the Chair of the Practice Committee at `practice@ap-ls.org` before annual November 1 deadline.  
-
-```{r}
-#| echo: false
-#| output: asis
-
-library(tibble)
-library(dplyr)
-
-# Important links for award
-links <- tibble(
-  icon = c("circle-info", "envelope"),
-  text = c("About Practice Committee", "Submit application"),
-  url = c("../../about/committees.html", "mailto:practice@ap-ls.org")
-)
-
-# Create inline objects for each row of the tibble
-inline_objects <- lapply(seq_len(nrow(links)), function(i) {
-  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
-})
-
-# Combine the inline object strings into a single string
-inline_objects_str <- paste(inline_objects, collapse = "")
-
-# Print the HTML string
-cat(inline_objects_str)
-```
-:::
-
-::: vspace
-:::
+<hr>
 
 ::: panel-tabset 
 ## Description 

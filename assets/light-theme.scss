@@ -1077,7 +1077,7 @@ pre.text, pre.sourceCode, .cell-output pre {
             background-color: shift-color($primary, -25%);
             border-color: shift-color($primary, -45%);
             color: $white;
-            font-size: 1rem;
+            font-size: .75rem;
             opacity: 1;
         }
     }
@@ -1088,7 +1088,7 @@ pre.text, pre.sourceCode, .cell-output pre {
     }
     .quarto-title-meta-contents .submission-info{
         padding-left: 0;
-        font-size: 1.1rem;
+        font-size: .9rem;
     }
 }
 
@@ -1197,16 +1197,15 @@ div.quarto-post .listing-categories .listing-category,
   }
 }
 
+
 /* grid cards */
 h5, .h5{
   font-family: $font-family-sans-serif;
-  font-size: 2rem;
-  font-weight: 800;
+  font-size: 1.5rem;
+  font-weight: 900;
   text-decoration: bold;
-  letter-spacing: 1px;
-  margin-top: 10px;
+  
 }
-
 
 
 
@@ -1254,39 +1253,31 @@ h5, .h5{
 }
 
 
-// Makes List of icons, text to insert into callout blocks with r function
-
-.inline-object {
-  font-family: 'Proza Libre', sans-serif;
-  display: inline-block;
-  padding-right: 20px; /* add padding between icon and text */
-  font-size: 1rem; /* adjust font size as desired */
-}
-
-.inline-object i {
-  display: inline-block;
-  color: $primary; /* adjust color as desired */
-  margin-right: 5px; /* add margin between icon and text */
-}
-
-.inline-object a {
-  text-decoration: none;
-  color: $primary; /* adjust color as desired */
-}
-
-.inline-object:hover {
-  background-color: $secondary;
-}
-
 // info section-click link
 
 .info-section {
   background-color: $primary;
   color: $secondary;
+  
+  .icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $secondary;
+  font-size: 40px;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  box-shadow:
+    0 2px 1px rgba(0, 0, 0, 0.05),
+    0 2px 3px rgba(0, 0, 0, 0.05),
+    0 4px 8px rgba(0, 0, 0, 0.05);
+}
 
   a {
     color: $yellow;
-    font-size: .8rem;
+    font-size: 1rem;
     text-decoration-color: $primary;
     text-transform: uppercase;
     display: inline-block;
@@ -1311,7 +1302,6 @@ h5, .h5{
 }
 
 
-
 .icon-container i {
   display: flex;
   margin-left: 8rem; /* Add 10 pixels of space between the icon and text */
@@ -1329,55 +1319,6 @@ h5, .h5{
   justify-content: center;
   width: 80%;
   margin: 0 auto;
-}
-
-.info-bar {
-  background-color: $primary;
-  color: $secondary;
-  display: flex;
-  align-items: center;
-  padding: 0 5rem;
-  justify-content: space-between;
-}
-
-.info-bar__icon {
-  //border-radius: 50%;
-  width: 4.35rem;
-  height: 4.35rem;
-  margin-right: 5rem;
-  font-size: 2.2rem;
-  background-color: $secondary;
-  color: $primary;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  order: 1;
-  border: 1px solid #D7DBDD;
-  border-radius: 100%;
-  box-shadow:
-    0 2px 1px rgba(0, 0, 0, 0.05),
-    0 2px 3px rgba(0, 0, 0, 0.05),
-    0 4px 8px rgba(0, 0, 0, 0.05);
-}
-
-
-.info-bar__text {
-  flex: 1;
-  text-align: margin-left;
-  order: 2;
-  color: $secondary;
-  text-size: .8rem;
-}
-
-.info-bar__text h3 {
-  color: $secondary;
-  text-decoration: bold;
-}
-.info-bar__center {
-  flex-shrink: 0;
-  margin-left: 1.5rem;
-  order: 3;
 }
 
 
@@ -1475,7 +1416,7 @@ blockquote {
   }
   
   a {
-    color: yellow;
+    color: $yellow;
     text-decoration: none;
     
     &:hover, &:focus {
@@ -1491,9 +1432,9 @@ blockquote {
 }
 
 .header {
-  border-bottom-color: #7b8a8b;
-  color: #FBF9F4;
-  background: #1B3264;
+  border-bottom-color: $gray-300;
+  color: $secondary;
+  background: $primary;
   font-weight: 500;
   text-align: left;
   font-size: 1.3rem;
@@ -1516,7 +1457,7 @@ blockquote {
     min-width: 250px;
     
     label {
-      color: #343a40;
+      color: $gray-dark;
       font-weight: 600;
       font-size: 0.80rem;
       letter-spacing: 0.4px;
@@ -1534,7 +1475,7 @@ blockquote {
 /* When selected, the text is yellow */
 .header[aria-sort='ascending'],
 .header[aria-sort='descending'] {
-  color: yellow;
+  color: $yellow;
 }
 
 @media only screen and (max-width: 600px) {

@@ -8,50 +8,21 @@ categories:
 submission-info:
   sponsor: AP-LS Early Career Professionals Committee
   deadline: October 15
+links:
+- icon: envelope-at
+  name: Contact
+  url: "mailto:ecp@apls.org"
+- icon: send
+  name: Submit here
+  url: "https://awards.ap-ls.org/default.asp"
 ---
-
-<a class="btn btn-primary btn-lg" href="https://awards.ap-ls.org/default.asp" role="button">Apply Here</a>
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
 
-::: vspace
-:::
-
-::: callout-note
-Applications should be submitted via the [AP-LS Awards Portal](https://awards.ap-ls.org/default.asp) before the annual October 15 deadline.
-
-```{r}
-#| echo: false
-#| output: asis
-
-library(tibble)
-library(dplyr)
-
-# Important links for award
-links <- tibble(
-  icon = c("circle-info", "envelope", "link"),
-  text = c("About Early Career Professionals Committee", "Contact", "Link to apply"),
-  url = c("../../about/committees.html", "mailto:ecp@apls.org", "https://awards.ap-ls.org/default.asp")
-)
-
-# Create inline objects for each row of the tibble
-inline_objects <- lapply(seq_len(nrow(links)), function(i) {
-  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
-})
-
-# Combine the inline object strings into a single string
-inline_objects_str <- paste(inline_objects, collapse = "")
-
-# Print the HTML string
-cat(inline_objects_str)
-```
-:::
-
-::: vspace
-:::
+<hr>
 
 ::: panel-tabset
 ## Description

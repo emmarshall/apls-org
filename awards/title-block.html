@@ -17,6 +17,16 @@
             </div>
             $endif$
             
+            
+            $if(categories)$
+            $if(quarto-template-params.title-block-categories)$
+            <div class="quarto-categories">
+                $for(categories)$
+                <div class="quarto-category">$categories$</div>
+                $endfor$
+            </div>
+            $endif$
+            $endif$
 
         <!-- Sponsor -->
         $if(submission-info.sponsor)$
@@ -34,19 +44,19 @@
         $if(submission-info.deadline)$
             <div class="quarto-title-meta-heading manual">
                 <i class="bi bi-calendar-event me-1"></i> Deadline</div>
+                <div class="quarto-title-meta-contents">
             $for(submission-info.deadline)$
-            <div class="quarto-title-meta-contents">
                 <p class="submission-info">
                     $submission-info.deadline$
                 </p>
             $endfor$
             $endif$
 
+
     </div>        
     
     </div>
     </div>  
-          
             
           
         $if(links)$

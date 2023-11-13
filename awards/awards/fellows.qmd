@@ -8,33 +8,58 @@ categories:
 submission-info:
   sponsor: AP-LS Fellows Committee
   deadline: December 15
+links:
+- icon: envelope-at
+  name: Contact
+  url: "mailto:ebrank2@unl.edu"
+- icon: file-earmark-pdf
+  name: Div. 41 Criteria
+  url: "https://drive.google.com/file/d/1A8u1YHNDpEHprrG4jJuqW7YPXIumLCAG/view?usp=sharing"
+- icon: send
+  name: Apply here
+  url: "https://www.apa.org/members/your-membership/fellows/index"
 ---
 
-As further explained on the [APA's website](https://www.apa.org/members/your-membership/fellows/index), [fellow status](https://www.apadivisions.org/division-41/membership/fellows/index) is an honor bestowed upon APA members who have shown evidence of unusual and outstanding contributions or performance in the field of psychology. AP-LS/Div. 41 is seeking nominations (including self-nominations) for fellow status.
+<hr>
 
-### Become a Fellow
+As further explained on the [APA's website](https://www.apa.org/members/your-membership/fellows/index), **fellow status** is an honor bestowed upon APA members who have shown evidence of unusual and outstanding contributions or performance in the field of psychology. 
+
+AP-LS/Div. 41 is seeking nominations (including self-nominations) for fellow status.
+
+::: {.panel-tabset}
+## Become a Fellow
 For members interested in advancement of psychology as a science and as a profession
 Fellowship is a special distinction for members who have received a doctoral degree in psychology or a related field from a regionally accredited institution and can show evidence of unusual and outstanding contributions in the field of psychology.
 
 Application for fellow status is open to any APA member who meets the criteria of both the sponsoring division and APA. Each division establishes its own criteria for nominations — sometimes the same as APA criteria, but usually involving additional requisites relevant to that division. Each division is responsible for providing the Fellows Committee with updated division criteria.
+
 Becoming a fellow recognizes outstanding contributions to psychology and is an honor valued by many members. Fellow nominations are made by a division to which the member belongs.
 
 #### The minimum standards for fellow status are:
 
 -   Doctoral degree based in part upon a psychological dissertation, or from a program primarily psychological in nature and conferred by a regionally accredited graduate or professional school.
 
--   Prior status as an APA member for at least one year.Active engagement at the time of nomination in the advancement of psychology in any of its aspects.
+-   Prior status as an APA member for at least one year. Active engagement at the time of nomination in the advancement of psychology in any of its aspects.
 
 -   Five years of acceptable professional experience subsequent to the granting of the doctoral degree.
 
 -   Evidence of unusual and outstanding contribution or performance in the field of psychology.
 
-Members nominated for fellow status through AP-LS must provide evidence of unusual and outstanding contributions in the area of psychology and law. Download the full list of official criteria below.
+## Nominations
 
-[{{< fa file-pdf >}} Download Div. 41 Fellowship Criteria](https://drive.google.com/file/d/1A8u1YHNDpEHprrG4jJuqW7YPXIumLCAG/view?usp=sharing){.btn-action .btn .btn-primary role="button"}
+Members nominated for fellow status through AP-LS must provide evidence of unusual and outstanding contributions in the area of psychology and law.
 
-The deadline for receipt of all application materials (nominee's materials and endorsers' materials) is Dec. 15.
+::: {.simple-info}
+Download the full list of official criteria below.
 
-For application materials and information about how to apply, please go to [APA Fellows](http://www.apa.org/members/your-membership/fellows/index.aspx).
+[{{< fa file-pdf >}} Div. 41 Fellowship Criteria](https://drive.google.com/file/d/1A8u1YHNDpEHprrG4jJuqW7YPXIumLCAG/view?usp=sharing){.btn-action .btn .btn-primary role="button"}
 
-For further information about the application process, please contact the [Fellows Committee chair](../../about/committees.html).
+:::
+
+📆 The deadline for receipt of all application materials (nominee's materials and endorsers' materials) is **December 15.**
+
+🔗 For application materials and information about how to apply, please go to [APA Fellows](http://www.apa.org/members/your-membership/fellows/index.aspx).
+
+📧 For further information about the application process, please contact the [Fellows Committee chair](../../about/committees.html).
+:::
+

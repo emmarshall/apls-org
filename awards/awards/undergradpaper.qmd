@@ -8,6 +8,10 @@ categories:
 submission-info:
   sponsor: AP-LS Undergraduate Paper Award Committee
   deadline: June 30
+links:
+- icon: send
+  name: Submit here
+  url: "mailto:undergrad_paper@ap-ls.org"
 ---
 
 ```{r setup, include=FALSE}
@@ -15,40 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
 
-::: vspace
-:::
-
-::: callout-note
-Submissions must be in Microsoft Word format and emailed to the Chair of the Undergraduate Paper Award Committee at `undergrad_paper@ap-ls.org` before the annual June 30 deadline. 
-```{r}
-#| echo: false
-#| output: asis
-
-library(tibble)
-library(dplyr)
-
-# Important links for award
-links <- tibble(
-  icon = c("circle-info", "envelope", "file-import"),
-  text = c("About Undergraduate Paper Committee", "Contact", "Submit"),
-  url = c("../../about/committees.html", "mailto:undergrad_paper@ap-ls.org", "mailto:undergrad_paper@ap-ls.org")
-)
-
-# Create inline objects for each row of the tibble
-inline_objects <- lapply(seq_len(nrow(links)), function(i) {
-  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
-})
-
-# Combine the inline object strings into a single string
-inline_objects_str <- paste(inline_objects, collapse = "")
-
-# Print the HTML string
-cat(inline_objects_str)
-```
-:::
-
-::: vspace
-:::
+<hr>
 
 ::: panel-tabset
 ## Description

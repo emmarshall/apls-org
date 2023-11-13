@@ -7,11 +7,18 @@ categories:
   - Undergraduate
   - Graduate
   - Grants-in-Aid
-  - Diversity
+  - Diversity, Equity & Inclusion
   - BRIDGE Committee
 submission-info:
   sponsor: AP-LS BRIDGE Committee
   deadline: January 15
+links:
+- icon: envelope-at
+  name: Contact
+  url: "mailto:evelyn.maeder@carleton.ca"
+- icon: send
+  name: Apply here
+  url: "https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0"
 ---
 
 
@@ -20,42 +27,7 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
 
-::: vspace
-:::
-
-::: callout-note
-Please be aware that students can only receive funding from one BRIDGE program/award per year.
-
-For more information about the Diversity Program, please contact the program chair, [Evelyn Maeder](evelyn.maeder@carleton.ca).
-```{r}
-#| echo: false
-#| output: asis
-
-library(tibble)
-library(dplyr)
-
-# Important links for award
-links <- tibble(
-  icon = c("circle-info", "link"),
-  text = c("About BRIDGE Committee", "Link to Apply"),
-  url = c("../../about/committees.html", "https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0")
-)
-
-# Create inline objects for each row of the tibble
-inline_objects <- lapply(seq_len(nrow(links)), function(i) {
-  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
-})
-
-# Combine the inline object strings into a single string
-inline_objects_str <- paste(inline_objects, collapse = "")
-
-# Print the HTML string
-cat(inline_objects_str)
-```
-:::
-
-::: vspace
-:::
+<hr>
 
 :::{.panel-tabset}
 ## Description
@@ -66,14 +38,14 @@ Each year the BRIDGE Committee will award up to five mini-grants in the amount o
 
 :::{.callout-caution}
 ## Keep in mind
-This award is not intended to be used to fund conference travel cost. If assistance is needed with funding travel costs to the AP-LS Conference, students should consider applying for a [Diversity Travel Award]("../awards/diversitytravelaward.qmd"). 
+This award is not intended to be used to fund conference travel cost. If assistance is needed with funding travel costs to the AP-LS Conference, students should consider applying for a [Diversity Travel Award](../conference/diversitytravelaward.qmd). 
 
 Please remember that applicants can only receive funding from one BRIDGE award per year. 
 :::
 
 ## Eligibility
 
-Applicants must be a [Student Affiliate]("../../membership/membership.qmd") member of AP-LS. 
+Applicants must be a [Student Affiliate](../../membership/index.qmd) member of AP-LS. 
 
 Both graduate and undergraduate students are eligible, and students from underrepresented groups are strongly encouraged to apply. Underrepresented groups include but are not limited to racial and ethnic minorities, first-generation college students, LGBTQIA individuals, and students with physical disabilities.
 
@@ -84,6 +56,8 @@ Applicants cannot receive more than one mini-grant from AP-LS for the same proje
 ## How to Apply
 
 Award submissions will be accepted from September 15 to January 15 annually.
+
+For more information about the Diversity Program, please contact the program chair, [Evelyn Maeder](mailto:evelyn.maeder@carleton.ca).
 
 ::: callout-tip
 ## A complete application should contain:
@@ -106,7 +80,6 @@ Award submissions will be accepted from September 15 to January 15 annually.
 6. A completed W-9 (U.S. citizen) or W-8 (non-citizen) tax form
 :::
 
-<a class="btn btn-primary" href="https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0" role="button">Link to Apply</a>
 
 ## Award Recipients
 

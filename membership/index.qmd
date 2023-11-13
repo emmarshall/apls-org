@@ -47,7 +47,7 @@ Please identify your membership category below and follow the instructions on ou
   <li class="list-group-item">Masters Degree</li>
   <li class="list-group-item">Terminal Bachelors Degree</li>
 </ul>
-<a href="#" class="price-btn price-btn-gradient mt-2">Join now</a>
+<a href="https://apls.memberclicks.net/membership-form#!/" class="price-btn price-btn-gradient mt-2">Join now</a>
 </div>
 </div>
 </div>
@@ -70,7 +70,7 @@ Please identify your membership category below and follow the instructions on ou
   <li class="list-group-item">Masters Degree</li>
   <li class="list-group-item">Terminal Bachelors Degree</li>
 </ul>
-<a href="#" class="price-btn price-btn-gradient mt-2">Join now</a>
+<a href="https://apls.memberclicks.net/membership-form#!/" class="price-btn price-btn-gradient mt-2">Join now</a>
 </div>
 </div>
 </div>
@@ -92,7 +92,7 @@ Please identify your membership category below and follow the instructions on ou
   <li class="list-group-item">Graduate Student</li>
 </ul>
 </div>
-<a href="#" class="price-btn price-btn-gradient mt-2">Join now</a>
+<a href="https://apls.memberclicks.net/membership-form#!/" class="price-btn price-btn-gradient mt-2">Join now</a>
 </div>
 </div>
 </div>

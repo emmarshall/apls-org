@@ -9,54 +9,29 @@ categories:
   - Grants-in-Aid
 submission-info:
   sponsor: AP-LS Graduate Grants-in-Aid Committee
-  deadline: January 15 & September 15
+  deadline: 
+  - January 15 
+  - September 15
+links:
+- icon: envelope-at
+  name: Contact
+  url: "mailto:grantsinaid@apls.org"
+- icon: send
+  name: Apply here
+  url: "https://awards.ap-ls.org/default.asp"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
-
-::: vspace
-:::
-
-::: callout-note
-Applications should be submitted via the [AP-LS Awards Portal](https://awards.ap-ls.org/default.asp) before the annual October 15 deadline.  
-```{r}
-#| echo: false
-#| output: asis
-
-library(tibble)
-library(dplyr)
-
-# Important links for award
-links <- tibble(
-  icon = c("circle-info", "envelope", "link"),
-  text = c("About Early Career Professionals Committee", "Contact", "Link to apply"),
-  url = c("../../about/committees.qmd", "ecp@apls.org", "https://awards.ap-ls.org/default.asp")
-)
-
-# Create inline objects for each row of the tibble
-inline_objects <- lapply(seq_len(nrow(links)), function(i) {
-  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
-})
-
-# Combine the inline object strings into a single string
-inline_objects_str <- paste(inline_objects, collapse = "")
-
-# Print the HTML string
-cat(inline_objects_str)
-```
-:::
-
-::: vspace
-:::
+<hr>
 
 :::{.panel-tabset}
 ## Description
-The AP-LS Student Grants-in-Aid (GIA) Committee is pleased to announce the availability of additional funding from the MacArthur Foundation to fund promising research in the area of criminal competence. 
+An extension of the Grants in Aid for Graduate Students outlined above, this award offers additional funding (maximum of $2,000) from the MacArthur Foundation to fund promising research in the area of criminal competence. 
 
-Interested applicants may submit research proposals to the GIA Committee and follow the same timeline as regular GIA applications.
+MacArthur Award applications should follow the same submission instructions and timeline provided for the general Grants in Aid applications above.
 
 ## Eligibility
 -   Awards are limited to research proposals addressing questions of adjudicative competence in juveniles and adults. Both "seed money" for larger projects and "stand alone" projects are acceptable.
@@ -79,7 +54,5 @@ Interested applicants may submit research proposals to the GIA Committee and fol
 Interested individuals should follow the application instructions provided on the general [Grants in Aid for Graduate Students award page]("../GRADgrantinaid.qmd").
 
 
-<a class="btn btn-primary" href="https://awards.ap-ls.org/default.asp" role="button">Link to Apply</a>
-
-Annual application deadlines are **January 15** and **September 15**
+Annual application deadlines are **October 15** and **January 15**
 :::

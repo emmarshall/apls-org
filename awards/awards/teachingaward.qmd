@@ -8,51 +8,17 @@ categories:
 submission-info:
   sponsor: AP-LS Teaching, Training and Career Committee
   deadline: December 15
+links:
+- icon: send
+  name: Submit here
+  url: "mailto:ttc@ap-ls.org"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
-
-::: vspace
-:::
-
-::: callout-note
-
-## Details
-Nominations should be submitted to {{< var email.ttc >}} before annual December 15 deadline.
-
-```{r}
-#| echo: false
-#| output: asis
-#| label: Details
-
-library(tibble)
-library(dplyr)
-
-# Important links for award
-links <- tibble(
-  icon = c("circle-info", "envelope"),
-  text = c("About TTC Committee", "Contact"),
-  url = c("../../about/committees.html", "mailto:ttc@ap-ls.org")
-)
-
-# Create inline objects for each row of the tibble
-inline_objects <- lapply(seq_len(nrow(links)), function(i) {
-  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
-})
-
-# Combine the inline object strings into a single string
-inline_objects_str <- paste(inline_objects, collapse = "")
-
-# Print the HTML string
-cat(inline_objects_str)
-```
-:::
-
-::: vspace
-:::
+<hr>
 
 ::: panel-tabset
 ## Description

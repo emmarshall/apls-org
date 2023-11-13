@@ -61,7 +61,9 @@ listing:
 :::
 
 # Descriptions & Details{#details}  
-> At this year's conference we are excited to offer 2 full day workshops and 4 half day workshops. Learn more about each workshop below. 
+> At this year's conference we are excited to offer [**two**]{.underline} full day workshops and [**four**]{.underline} half day workshops. 
+
+Click to learn more about each workshop below.
 
 ::: {#workshops}
 :::

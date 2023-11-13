@@ -7,7 +7,7 @@ listing:
   id: videos
   fields: [image, date, title, subtitle]
   type: default
-  categories: true
+  categories: false
   image-align: left
   contents: 
     - careers2022

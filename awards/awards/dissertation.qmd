@@ -10,7 +10,7 @@ submission-info:
   sponsor: AP-LS Dissertation Award Committee
   deadline: December 31 
 links:
-- icon: question-circle
+- icon: envelope-at
   name: Contact
   url: "mailto:dissertation@ap-ls.org"
 - icon: send

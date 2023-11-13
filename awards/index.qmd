@@ -1,7 +1,7 @@
 ---
 title: "AP-LS Awards, Grants and Funding"
 subtitle: The following awards and grants are sponsored by Div. 41
-toc: true
+toc: false
 title-block-banner: "files/awards-banner.svg"
 listing:
   - id: grants
@@ -11,9 +11,6 @@ listing:
     type: grid
     grid-columns: 1
     categories: true
-    sort: sortby
-    sort-ui: [categories]
-    filter-ui: [title, description, categories]
   - id: awards
     fields: [title, description, categories]
     contents: 

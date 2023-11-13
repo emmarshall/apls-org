@@ -6,7 +6,16 @@ categories:
   - Research
 submission-info: 
   sponsor: AP-LS Research Committee
-  deadline: October 15 (Pre-proposal) & December 16 (Full-proposal)
+  deadline: 
+  - October 15 (Pre-proposal) 
+  - December 16 (Full-proposal)
+links:
+- icon: envelope-at
+  name: Contact
+  url: "mailto:Colleen.berryessa@rutgers.edu"
+- icon: send
+  name: Apply here
+  url: "https://awards.ap-ls.org/default.asp"
 ---
 
 
@@ -14,42 +23,7 @@ submission-info:
 knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
-
-::: vspace
-:::
-
-::: callout-note
-Applications should be submitted via the [AP-LS Awards Portal](https://awards.ap-ls.org/default.asp) before the annual October 15 (11:59 pm PST) deadline.
-
-```{r}
-#| echo: false
-#| output: asis
-
-library(tibble)
-library(dplyr)
-
-# Important links for award
-links <- tibble(
-  icon = c("circle-info", "envelope", "link"),
-  text = c("About Research Committee", "Contact", "Link to apply"),
-  url = c("../../about/committees.html", "mailto:Colleen.berryessa@rutgers.edu", "https://awards.ap-ls.org/default.asp")
-)
-
-# Create inline objects for each row of the tibble
-inline_objects <- lapply(seq_len(nrow(links)), function(i) {
-  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
-})
-
-# Combine the inline object strings into a single string
-inline_objects_str <- paste(inline_objects, collapse = "")
-
-# Print the HTML string
-cat(inline_objects_str)
-```
-:::
-
-::: vspace
-:::
+<hr>
 
 :::{.panel-tabset} 
 ## Description
@@ -77,7 +51,7 @@ Applicants may submit only one small and one large proposal per funding cycle.
 
 A student cannot be a sole PI on any submission but are allowed to be a co-PI on a submission.
 
-At least one of the co-PIs needs to be an [AP-LS member](../../membership/membership.html).
+At least one of the co-PIs needs to be an [AP-LS member](../../membership/index.qmd).
 
 
 ## Pre-Proposal Process

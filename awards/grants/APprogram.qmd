@@ -11,6 +11,13 @@ categories:
 submission-info:
   sponsor: AP-LS BRIDGE Committee
   deadline: January 15
+links:
+- icon: envelope-at
+  name: Contact
+  url: "mailto:jason.lawrence@dmh.mo.gov"
+- icon: send
+  name: Apply here
+  url: "https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0"
 ---
 
 ```{r setup, include=FALSE}
@@ -18,45 +25,7 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
 
-::: vspace
-:::
-
-::: {.callout-note appearance="simple"}
-
-Please be aware that students can only receive funding from one BRIDGE program/award per year.
-
-For more information about the AP Program, please contact the program chair, [Jason Lawrence](mailto:jason.lawrence@dmh.mo.gov).
-
-
-```{r}
-#| echo: false
-#| output: asis
-
-library(tibble)
-library(dplyr)
-
-# Important links for award
-links <- tibble(
-  icon = c("circle-info", "link"),
-  text = c("About BRIDGE Committee", "Link to Apply"),
-  url = c("../../about/committees.html", "https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0")
-)
-
-# Create inline objects for each row of the tibble
-inline_objects <- lapply(seq_len(nrow(links)), function(i) {
-  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
-})
-
-# Combine the inline object strings into a single string
-inline_objects_str <- paste(inline_objects, collapse = "")
-
-# Print the HTML string
-cat(inline_objects_str)
-```
-:::
-
-::: vspace
-:::
+<hr>
 
 ::: panel-tabset
 ## Description
@@ -75,6 +44,7 @@ In addition, they will receive \$100 for research expenses and up to \$500 to at
 Six awards of \$3,000 (i.e., for year-long experiences) or a larger number of smaller awards (i.e., for part-year experiences) will be given.
 :::
 
+
 ## Eligibility
 
 Faculty are encouraged to identify promising undergraduate and terminal master's degree students from underrepresented groups who are interested in psychology and law and have the potential to become competitive graduate applicants.
@@ -92,6 +62,8 @@ It is the intention of the BRIDGE Committee that many of the students in the AP 
 :::
 
 ## How to Apply
+
+For more information about the AP Program, please contact the program chair, [Jason Lawrence](mailto:jason.lawrence@dmh.mo.gov).
 
 ::: callout-tip
 ## Award applications should include:
@@ -119,7 +91,6 @@ The research proposal should include the following, to the extent possible: - br
 5.  A completed W-9 (U.S. citizen) or W-8 (noncitizen) tax form
 :::
 
-<a class="btn btn-primary" href="https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0" role="button">Link to Apply</a>
 
 ## Program Requirements
 

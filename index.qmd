@@ -156,7 +156,7 @@ cat(html)
 ```{r}
 #| echo: false
 profile_circle_preview <- '
-<div class="p-3 text-center rounded-circle m-3 shadow-lg" style="background-size: cover; background-image: url({image}); width: 225px; height: 225px">
+<div class="p-3 text-center rounded-circle m-1 shadow-lg" style="background-size: cover; background-image: url({image}); width: 225px; height: 225px">
 <div class="visually-hidden">{alt}</div>
 </div>'
 profiles_cropped <- list(
