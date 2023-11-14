@@ -125,27 +125,6 @@ div(class = "bg-light",
 :::
 :::
 
-```{r}
-#| label: Membership info-bar 
-#| output: asis
-#| echo: false
-#| warning: false
-#| message: false
-
-info <- tibble(
-  title = "Interested in APA Div. 41?",
-  text = "Become a member.",
-  ctr = "Join now",
-  link = "membership/index.html",
-  icon = "fas fa-scale-balanced"
-)
-
-html <- generate_info_bar(info)
-
-cat(html)
-
-```
-
 ::: vspace
 :::
 
