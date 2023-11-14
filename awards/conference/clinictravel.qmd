@@ -10,48 +10,17 @@ categories:
 submission-info:
   sponsor: AP-LS Practice Committee
   deadline: December 1
+links:
+- icon: send
+  name: Apply here
+  url: "https://tinyurl.com/CTGapplication"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
-
-::: vspace
-:::
-
-::: callout-note
-Applications should be submitted using this [online form](https://tinyurl.com/CTGapplication) before annual December 1 deadline.
-
-```{r}
-#| echo: false
-#| output: asis
-
-library(tibble)
-library(dplyr)
-
-# Important links for award
-links <- tibble(
-  icon = c("circle-info", "envelope"),
-  text = c("About Practice Committee", "Submit application"),
-  url = c("../../about/committees.html", "https://tinyurl.com/CTGapplication")
-)
-
-# Create inline objects for each row of the tibble
-inline_objects <- lapply(seq_len(nrow(links)), function(i) {
-  create_inline_object(links[i, "icon"], links[i, "text"], links[i, "url"])
-})
-
-# Combine the inline object strings into a single string
-inline_objects_str <- paste(inline_objects, collapse = "")
-
-# Print the HTML string
-cat(inline_objects_str)
-```
-:::
-
-::: vspace
-:::
+<hr>
 
 ::: panel-tabset 
 ## Description
