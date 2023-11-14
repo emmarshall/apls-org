@@ -125,6 +125,16 @@ div(class = "bg-light",
 :::
 :::
 
+
+::: {.simple-info-blue .alt-background-blue}
+::: content-block-blue
+### Want to learn more about Division 41 of APA and the American Psychology-Law Society? 
+
+Become a member! 
+
+[Learn more {{< fa arrow-right >}}](membership/index.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
+:::
+:::
 ::: vspace
 :::
 
@@ -216,6 +226,6 @@ div(class = "bg-light",
 
 Los Angeles, CA---March 21-23
 
-[Learn more{{< fa arrow-right >}}](conferences/index.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
+[Learn more {{< fa arrow-right >}}](conferences/index.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
 :::
 :::
