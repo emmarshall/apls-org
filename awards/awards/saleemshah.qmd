@@ -9,12 +9,12 @@ submission-info:
   sponsor: AP-LS & American Academy of Forensic Psychology
   deadline: November 30 
 links:
-- icon: book
+- icon: info-circle
   name: Learn More
+  url: " https://aafpforensic.org/awards/saleem-shah-award-for-early-career-excellence-in-psychology-and-law/"
+- icon: book
+  name: History
   url: "https://drive.google.com/file/d/12-EMOWANyIhRnrAsGaPMx-LSKcP4gYDy/view?usp=sharing"
-- icon: envelope-at
-  name: Contact
-  url: "https://aafpforensic.org/who-we-are/"
 - icon: send
   name: Submit here
   url: "mailto:jwmikesellphd@gmail.com"
