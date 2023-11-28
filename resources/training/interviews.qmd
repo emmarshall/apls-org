@@ -2,7 +2,83 @@
 title: Careers in Psychology and Law
 draft: true
 title-block-banner: "../../images/default-banner.svg"
+format:
+  html: 
+    css: interviews.css
 ---
+
+
+::: {.stream}
+::: {.post}
+
+::: {.postUser}
+[{{< fa circle-user title="Person" >}}]{.postUser__portrait}
+
+[Emma M.]{.postUser__name}
+
+:::
+
+::: {.postBody}
+
+[I have built a tree house out...]{.postBody__content}
+
+
+:::
+
+:::
+::: {.post}
+
+::: {.postUser}
+[{{< fa circle-user title="Person" >}}]{.postUser__portrait}
+
+[Emma M.]{.postUser__name}
+
+:::
+
+::: {.postBody}
+
+[I have built a tree house out...]{.postBody__content}
+
+
+:::
+
+:::
+::: {.post}
+
+::: {.postUser}
+[{{< fa circle-user title="Person" >}}]{.postUser__portrait}
+
+[Emma M.]{.postUser__name}
+
+:::
+
+::: {.postBody}
+
+[I have built a tree house out...]{.postBody__content}
+
+
+:::
+
+:::
+::: {.post}
+
+::: {.postUser}
+[{{< fa circle-user title="Person" >}}]{.postUser__portrait}
+
+[Emma M.]{.postUser__name}
+
+:::
+
+::: {.postBody}
+
+[I have built a tree house out...]{.postBody__content}
+
+
+:::
+
+:::
+
+:::
 
 ::: {.column-body-outset} 
 ::: {.panel-tabset .box-shadow} 
@@ -11,9 +87,36 @@ title-block-banner: "../../images/default-banner.svg"
 
 ##### **What do you consider to be the most important skill and/or the most important lesson for students to learn in graduate school?**
 
--   Perseverance (Eve Brank)
 
--   I think there was a strong message of lifelong learning, because I would graduate with basic knowledge and skills, but I would still have a lot to learn would have to always work to keep up. (Mary Alice Conroy)
+::: {.stream}
+::: {.post}
+
+::: {.postUser}
+[{{< fa circle-user title="Person" >}}]{.postUser__portrait}
+
+[Eve Brank]{.postUser__name}
+
+:::
+
+::: {.postBody}
+
+[Perseverance]{.postBody__content}
+
+
+:::
+:::
+
+::: {.post}
+::: {.postUser}
+[{{< fa circle-user title="Person" >}}]{.postUser__portrait}
+[Mary Conroy]{.postUser__name}
+:::
+::: {.postBody}
+[I think there was a strong message of lifelong learning, because I would graduate with basic knowledge and skills, but I would still have a lot to learn would have to always work to keep up.]{.postBody__content}
+:::
+:::
+
+:::
 
 -   Learn how to write. For internship applications, that's the first thing they see: do you express your thoughts in a coherent and concise manner? It's a skill that I'll continue to develop for the rest of my career. When I try to explain it to my students about the importance of this, I ask them, are you explaining things to your clients, insurance companies, or the court in a way they can understand? (Lisa Kan)
 

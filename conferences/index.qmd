@@ -148,27 +148,12 @@ Looking forward to seeing everyone in March!
 
 ### Important Dates
 
-**Proposals due:** ~~October 2, 2023~~ [deadline extended to October 9, 2023!!!]{style="color: red;"}
-
-**Reviewer sign-up ends:** October 13, 2023
-
-**Review of abstracts due:** November 2, 2023
+**Caregiving Grants deadline**: December 31, 2023
 
 **Early bird-registration ends**: January 31, 2024
 
-## {{< fa circle-user >}} Conference Organizers
+**Hotel group-rate ends**: February 25, 2024 
 
-::: {.callout-note appearance="simple"}
-#### Conference Co-Chairs
-
-Caitlin Cavanagh, Ph.D. <br> Samantha Zottola, Ph.D.
-
-#### Questions?
-
-If you have any other questions, please contact:
-
-{{< fa envelope title="Email" >}} {{< var email.conference >}} {{< fa envelope title="Email" >}} {{< var email.office >}}
-:::
 
 ## {{< fa person-running >}} Fun Run
 
@@ -177,7 +162,7 @@ If you have any other questions, please contact:
 
 ### Friday, March 22, 2024
 
-::: callout-note
+::: {.callout-note appearance="simple"}
 #### **MEET IN LOBBY OF THE CONFERENCE HOTEL AT 7:00 AM**
 
 REFRESHMENTS WILL BE PROVIDED AFTER THE RACE
@@ -188,7 +173,7 @@ REFRESHMENTS WILL BE PROVIDED AFTER THE RACE
 :::
 :::
 
-## Student Volunteer Interest
+## {{< fa handshake-angle title="Volunteer" >}} Student Volunteers
 
 Students are eligible to receive complimentary conference registration by volunteering to serve as staff during the annual conference.
 
@@ -199,36 +184,38 @@ Students are eligible to receive complimentary conference registration by volunt
     | *"This letter of intent is made with the full understanding that \[insert student name here\] will volunteer as staff support for the AP-LS 2024 conference for which the registration scholarship has been awarded. Failure to serve will not only void the scholarship but will jeopardize future requests. Should I attend the conference and fail to serve, payment in full of applicable fees will be rendered to AP-LS upon request."*
 
 2.  All Submissions are due **November 24th, 2023** and will be reviewed and accepted by **November 30th**. If you are accepted you will receive a discount code for registration. We highly recommend waiting to register until receiving this discount code as refunds can often take some time.
+
+
+
+## {{< fa circle-info >}} For Presenters
+
+### Symposia, Paper, and Data Blitz Sessions
+
+Symposia sessions are 80 minutes long and paper and data blitz sessions are 60 minutes long. All sessions will have an assigned chair who will be responsible for ensuring that approximately 10 minutes are reserved for questions. The remaining time should be divided evenly across all the scheduled presenters.
+
+::: {.callout-caution appearance="simple"}
+While Audio/Visual should be available in session rooms, note that Internet will not be. Thus, presenters need to ensure that their A/V content is stored on their computer and thumb drive so that it can be transferred to the session room computer and played locally.
 :::
 
-<hr>
+### Posters
 
-::: vspace
-:::
+**Poster Sizing:** The poster boards for mounting a poster are 4 ft (height) x 8 ft (width). Presenters are free to print any size poster that will fit within this space. Pushpins will be provided.
 
-# Call for Proposals {#cfp}
+**Poster Board Numbering:** Posters are numbered in the conference program so that the number for the poster indicates the correct board on which the poster should be hung. Poster presenters should refer to these numbers to identify the poster board to hang their poster.
 
-::: {.panel-tabset .box-shadow}
-## {{< fa bullhorn >}} 2024 Call for Proposals
 
-### APLS 2024 Call for Proposals
+## {{< fa circle-user >}} Conference Organizers
 
-Proposal submissions for the 2024 APLS Conference are now closed.
+#### Conference Co-Chairs
 
-## {{< fa user-pen >}} Call for Reviewers
+Caitlin Cavanagh, Ph.D. <br> Samantha Zottola, Ph.D.
 
-If you signed up to review submission for the 2024 AP-LS annual conference you should have received an email with the link to complete your reviews.
+#### Questions?
 
-The deadline for review of abstracts is the **Thursday, 2nd November 2023**.
+If you have any other questions, please contact:
 
-::: {.callout-note appearance="simple"}
-We would be extremely grateful if you could complete your reviews before the deadline so that we can issue our notification to authors without delay.
+{{< fa envelope title="Email" >}} {{< var email.conference >}} <br> {{< fa envelope title="Email" >}} {{< var email.office >}}
 
-If you have any questions about the process or your review allocation, please contact {{< fa envelope title="Email" >}} {{< var email.conference >}}
-:::
-:::
-
-::: vspace
 :::
 
 <hr>
@@ -255,7 +242,7 @@ The 2023 APLS Annual Conference schedule and program is available to download an
 # Hotel Information {#hotel}
 
 ::: {.panel-tabset .box-shadow}
-## The Westin Bonaventure Hotel and Suites
+## {{< fa hotel >}} The Westin Bonaventure Hotel and Suites
 
 ![](https://upload.wikimedia.org/wikipedia/commons/3/3a/Westin_Bonaventure_Hotel.jpg){fig-align="center" height="300"}
 
@@ -288,18 +275,28 @@ For attendees flying in to Los Angeles, the LAX FlyAway runs from LAX to the Uni
 ::: vspace
 :::
 
-::: {simple-info}
+
+
 # Registration {#register}
 
-## {{< fa circle-info >}} Registration is now open!
+::: {.simple-info}
+::: {.panel-tabset .box-shadow}
+## {{< fa bullhorn >}} Info
 
-We encourage you to register before January 31st to take advantage of the early bird pricing!
-
-[Register Now {{< fa arrow-up-right-from-square >}}](https://apls.memberclicks.net/24conferencereg#!/){.btn-action .btn .btn-primary .ml-auto role="button"}
+##### Registration is now open!
 
 ::: vspace
 :::
 
+We encourage you to register before **January 31st** to take advantage of the early bird pricing!
+
+::: vspace
+:::
+
+[Register Now {{< fa arrow-up-right-from-square >}}](https://apls.memberclicks.net/24conferencereg#!/){.btn-action .btn .btn-primary .btn-lg role="button"}
+
+
+## {{< fa circle-info >}} Pricing
 ::: {.callout-note appearance="simple"}
 ## REGISTRATION RATES & INCLUSIONS
 
@@ -323,7 +320,7 @@ We encourage you to register before January 31st to take advantage of the early 
 +-----------------------------------------+-----------------+------------+-----------+
 :::
 :::
-
+:::
 <hr>
 
 ::: vspace
@@ -341,7 +338,7 @@ At this year's conference we are excited to offer [**two**]{.underline} full day
 
 ## {{< fa circle-info >}} Pricing
 
-::: {.callout-note appearance="\"simple"}
+::: {.callout-note appearance="simple"}
 ## REGISTRATION RATES & INCLUSIONS
 
 \*Pricing is subject to change

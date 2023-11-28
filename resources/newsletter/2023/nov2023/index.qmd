@@ -4,6 +4,7 @@ date: 11/1/2023
 image: featured.png 
 ---
 
+::: {.simple-info}
 ### Welcome to the November 2023 American Psychology-Law Society (AP-LS) Newsletter
 
 Our monthly Newsletter provides information about activities, upcoming events, and resources to connect the psychology law community.
@@ -11,6 +12,8 @@ Our monthly Newsletter provides information about activities, upcoming events, a
 AP-LS aspires to excel as a valuable, effective, and influential organization advancing the science of psychology-law and the translation of psychology-law knowledge into practice and policy.
 
 ![](featured.png){fig-align="center"}
+:::
+
 
 ### Psychology, Public Policy, & Law: Call for Editorial Fellows \*\*\*Applications due today\*\*\*
 

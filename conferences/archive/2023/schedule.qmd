@@ -30,6 +30,9 @@ title-block-banner: "../../../images/default-banner.svg"
 
 :::vspace
 :::
+
+::: column-screen-inset
+
 ```{r}
 #| echo: false
 #| warning: false
@@ -362,12 +365,12 @@ tbl <- tbl_grid |>
 #| echo: false
 #| warning: false
 #| message: false
-#| column: screen-inset
+#| column: page-inset-left
 
 bscols(
   # bootstrap is built off a 12 wide grid system,
   # so we have 1/6 and 5/6 width below
-  widths = c(12, 12),
+  widths = c(11, 11),
   list(
     tags$div(
       filter_checkbox("day", "DAY", sd, ~factor(day)),
@@ -385,3 +388,5 @@ bscols(
   )
 )
 ```
+
+:::

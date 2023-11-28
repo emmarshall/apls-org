@@ -1255,18 +1255,15 @@ h5, .h5{
 
 // info section-click link
 
-.info-section {
-  background-color: $primary;
-  color: $secondary;
-  
-  .icon {
+.icon {
   display: flex;
+  color: $primary;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid $secondary;
-  font-size: 40px;
-  width: 90px;
+  //border: 1px solid $primary;
+  font-size: 70px;
+  width: 100px;
   height: 90px;
   border-radius: 100%;
   box-shadow:
@@ -1275,38 +1272,8 @@ h5, .h5{
     0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
-  a {
-    color: $yellow;
-    font-size: 1rem;
-    text-decoration-color: $primary;
-    text-transform: uppercase;
-    display: inline-block;
-    position: relative;
-
-    &::after {
-      display: inline-block;
-      content: "→";
-      position: absolute;
-      margin-right: 2px;
-    }
-  }
-
-  .about-link a {
-    text-decoration: underline;
-    font-weight: normal;
-
-    &:hover {
-      font-size: 1rem;
-    }
-  }
-}
 
 
-.icon-container i {
-  display: flex;
-  margin-left: 8rem; /* Add 10 pixels of space between the icon and text */
-  color: $secondary;
-}
 
 // info bar-button
 
@@ -1626,5 +1593,7 @@ blockquote {
     background-color: $primary;
   }
 }
+
+
 
 

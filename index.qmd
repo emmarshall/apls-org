@@ -125,7 +125,6 @@ div(class = "bg-light",
 :::
 :::
 
-
 ::: {.simple-info-blue .alt-background-blue}
 ::: content-block-blue
 ### Want to learn more about Division 41 of APA and the American Psychology-Law Society? 

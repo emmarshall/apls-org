@@ -438,6 +438,14 @@ pre.text, pre.sourceCode, .cell-output pre {
     }
 }
 
+// hero-banner
+.hero-banner {
+  position: relative;
+  background-color: lighten($secondary, 20%);
+  display: flex;
+  justify-content: center;
+}
+
 
 // set primary buttons 
 
