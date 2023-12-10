@@ -1,0 +1,108 @@
+<header id="title-block-header"
+    class="quarto-title-block event-post default">
+    <div class="quarto-title-banner">
+        $if(include-back-link)$
+        <div class="#back-nav"><a href="../index.html" style="color:yellow; font-size: 24px;">← Back to workshops </a></div>
+        $endif$
+        
+        </p><div class="quarto-title column-body">
+            <p class="title">$title$</p>
+            
+            $if(subtitle)$
+            <p><h3 class="title lead">$subtitle$</h3></p>
+            $endif$
+          
+
+            $if(categories)$
+            $if(quarto-template-params.title-block-categories)$
+            <div class="quarto-categories">
+                $for(categories)$
+                <div class="quarto-category">$categories$</div>
+                $endfor$
+            </div>
+            $endif$
+            $endif$
+          </div>
+        </div>  
+            
+     <div class="custom-meta">
+    <!-- Credits and Time on the same line -->
+    <div class="custom-meta-row" style="display: flex; justify-content: space-between;">
+        
+    
+        <!-- Credits -->
+        $if(event-info.credits)$
+        <div class="event-credits" style="flex: 1;">
+            <div class="quarto-title-meta-heading manual">
+                <i class="bi bi-hourglass me-1"></i> Credits
+            </div>
+            <div class="quarto-title-meta-contents">
+                <p class="event-info">
+                    $event-info.credits$
+                </p>
+            </div>
+        </div>
+        $endif$
+
+        <!-- Time -->
+        $if(event-info.time)$
+        <div class="event-time" style="flex: 1;">
+            <div class="quarto-title-meta-heading manual">
+                <i class="bi bi-clock me-1"></i>Time
+            </div>
+            <div class="quarto-title-meta-contents">
+                <p class="event-info">
+                    $event-info.time$
+                </p>
+            </div>
+        </div>
+        $endif$
+        
+        
+      
+
+    </div>
+    
+      <!-- author -->
+    $if(author)$
+    <div class="description">
+        <div class="quarto-title-meta-heading manual">
+            <i class="bi bi-people-fill me-1"></i> Presenter(s)
+        </div>
+        
+        $for(author)$
+        <div class="quarto-title-meta-contents">
+        <p class="author">$author$</p>
+        </div>
+
+    $endfor$
+    $endif$
+  </div
+    
+      <!-- description -->
+           $if(description)$
+                <div class="description">
+                  <div class="quarto-title-meta-heading manual">
+                  <i class="bi bi-info-circle me-1"></i> Description</div>
+                <p class="description">$description$</p>
+            </div>
+            $endif$
+            
+       <div class="vspace2"</div>
+         
+       <!-- learning objectives -->
+           $if(objectives)$
+                  <div class="quarto-title-meta-heading manual">
+                  <i class="bi bi-lightbulb me-1"></i> Learning objectives</div>
+                  <div class="mt-1 justify-content-left">
+           $for(objectives)$
+               <div class="quarto-title-meta-contents">
+              
+                <p class="objectives"> <i class="bi bi-arrow-right-short me-1"></i> $objectives$</p>
+            $endfor$
+            $endif$
+       
+    </div>
+
+
+</header>

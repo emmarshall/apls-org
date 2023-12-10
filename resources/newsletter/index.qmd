@@ -6,9 +6,7 @@ toc: false
 listing:
   - id: monthly
     contents: 
-      - "2023/**/*.qmd"
-      - "2022/**/*.qmd"
-      - "2021/**/*.qmd"
+      - e-news
     type: grid
     grid-columns: 3
     sort: "date desc"
