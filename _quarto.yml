@@ -4,7 +4,7 @@ project:
   resources:
     - "*.css"
     - "*.pdf"
-    - "*.html"
+    - "*.Rhtml"
 
 execute:
     freeze: auto
