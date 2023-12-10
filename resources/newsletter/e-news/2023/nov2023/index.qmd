@@ -10,6 +10,8 @@ links:
 
 
 ```{=html}
-<iframe class="news ar4x3" src="nov23.Rhtml" title="November Newsletter"></iframe>
+
+<iframe class="news ar4x3" src="nov_2023.pdf" title="November Newsletter"></iframe>
+
 ```
 

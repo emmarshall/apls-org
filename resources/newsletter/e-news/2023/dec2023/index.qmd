@@ -1,6 +1,8 @@
 ---
 title: December 2023
 date: 12/1/2023
+include-after-body: 
+  - file: dec23.Rhtml
 image: "https://images.pexels.com/photos/10441017/pexels-photo-10441017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
 links:
 - icon: file-earmark-pdf

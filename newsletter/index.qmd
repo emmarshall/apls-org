@@ -5,7 +5,7 @@ title-block-banner: "../images/default-banner.svg"
 listing: 
   - id: newsletter
     contents: 
-    - "../resources/newsletter/2023/**/*.qmd"
+    - "../resources/newsletter/e-news/**/index.qmd"
     type: grid
     fields: [title, image, categories]
     sort: "date desc"
