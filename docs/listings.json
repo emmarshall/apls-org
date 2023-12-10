@@ -70,6 +70,18 @@
   {
     "listing": "/resources/newsletter/index.html",
     "items": [
+      "/resources/newsletter/2023/dec2023/index.html",
+      "/resources/newsletter/2023/nov2023/index.html",
+      "/resources/newsletter/2023/oct2023/index.html",
+      "/resources/newsletter/2023/sep2023/index.html",
+      "/resources/newsletter/2023/aug2023/index.html",
+      "/resources/newsletter/2023/july2023/index.html",
+      "/resources/newsletter/2023/june2023/index.html",
+      "/resources/newsletter/2023/may2023/index.html",
+      "/resources/newsletter/2023/apr2023/index.html",
+      "/resources/newsletter/2023/march2023/index.html",
+      "/resources/newsletter/2023/feb2023/index.html",
+      "/resources/newsletter/2023/jan2023/index.html",
       "/resources/newsletter/2022/dec2022/index.html",
       "/resources/newsletter/2022/nov2022/index.html",
       "/resources/newsletter/2022/oct2022/index.html",
@@ -81,7 +93,6 @@
       "/resources/newsletter/2022/mar2022/index.html",
       "/resources/newsletter/2022/feb2022/index.html",
       "/resources/newsletter/2022/jan2022/index.html",
-      "/resources/newsletter/2022/apr2022/index.html",
       "/resources/newsletter/2021/dec2021/index.html",
       "/resources/newsletter/2021/nov2021/index.html",
       "/resources/newsletter/2021/oct2021/index.html",
@@ -90,6 +101,7 @@
       "/resources/newsletter/2021/july2021/index.html",
       "/resources/newsletter/2021/june2021/index.html",
       "/resources/newsletter/2021/may2021/index.html",
+      "/resources/newsletter/2022/apr2022/index.html",
       "/resources/newsletter/2021/apr2021/index.html",
       "/resources/newsletter/2021/mar2021/index.html",
       "/resources/newsletter/2021/feb2021/index.html",
@@ -127,6 +139,7 @@
   {
     "listing": "/newsletter/index.html",
     "items": [
+      "/resources/newsletter/2023/dec2023/index.html",
       "/resources/newsletter/2023/nov2023/index.html",
       "/resources/newsletter/2023/oct2023/index.html",
       "/resources/newsletter/2023/sep2023/index.html",

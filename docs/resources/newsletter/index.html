@@ -67,20 +67,21 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-twenty-two .list');
+    const listingTargetEl = window.document.querySelector('#listing-monthly .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 18,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-twenty-two'] = new List('listing-twenty-two', options);
+    window['quarto-listings']['listing-monthly'] = new List('listing-monthly', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -95,48 +96,21 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-twenty-one .list');
+    const listingTargetEl = window.document.querySelector('#listing-archive .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 18,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-date","listing-image","listing-path"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-twenty-one'] = new List('listing-twenty-one', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-news .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-image','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
-      
-      searchColumns: ["listing-title","listing-date","listing-image","listing-categories","listing-links"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-news'] = new List('listing-news', options);
+    window['quarto-listings']['listing-archive'] = new List('listing-archive', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -292,16 +266,179 @@ background-size: cover;
 
 
 
-<section id="newsletters" class="level2">
-<h2 class="anchored" data-anchor-id="newsletters">2022 Newsletters</h2>
-<div class="gallery">
-  <div class="gallery__icon-column">
-      <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
-  </div>
-  <div class="gallery__list-column">
-<div id="listing-twenty-two" class="quarto-listing quarto-listing-container-grid">
+<section id="ap-ls-monthly-e-news" class="level2">
+<h2 class="anchored" data-anchor-id="ap-ls-monthly-e-news">AP-LS Monthly E-News</h2>
+<div id="listing-monthly" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1669874400000" data-listing-file-modified-sort="1698525296379" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="73">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1701410400000" data-listing-file-modified-sort="1702184261253" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../resources/newsletter/2023/dec2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://images.pexels.com/photos/10441017/pexels-photo-10441017.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+December 2023
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1702184335051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../resources/newsletter/2023/nov2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://images.pexels.com/photos/695207/pexels-photo-695207.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+November 2023
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1696136400000" data-listing-file-modified-sort="1702184407026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../resources/newsletter/2023/oct2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="https://images.pexels.com/photos/5422779/pexels-photo-5422779.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+October 2023
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1693544400000" data-listing-file-modified-sort="1702170907167" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../resources/newsletter/2023/sep2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../resources/newsletter/2023/sep2023/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+September 2023
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-date-sort="1690866000000" data-listing-file-modified-sort="1702170126216" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../resources/newsletter/2023/aug2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../resources/newsletter/2023/aug2023/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+August 2023
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-date-sort="1688187600000" data-listing-file-modified-sort="1702171440078" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../resources/newsletter/2023/july2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../resources/newsletter/2023/july2023/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+July 2023
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-date-sort="1685595600000" data-listing-file-modified-sort="1702171497892" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../resources/newsletter/2023/june2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../resources/newsletter/2023/june2023/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+June 2023
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-date-sort="1682917200000" data-listing-file-modified-sort="1702171542076" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../resources/newsletter/2023/may2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../resources/newsletter/2023/may2023/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+May 2023
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-listing-date-sort="1680325200000" data-listing-file-modified-sort="1702172213818" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../resources/newsletter/2023/apr2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../resources/newsletter/2023/apr2023/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+April 2023
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-listing-date-sort="1677650400000" data-listing-file-modified-sort="1702172283114" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../resources/newsletter/2023/march2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../resources/newsletter/2023/march2023/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+March 2023
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="Career Corner,Research Briefs,Legal Update" data-listing-date-sort="1675231200000" data-listing-file-modified-sort="1702172583973" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../resources/newsletter/2023/feb2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../resources/newsletter/2023/feb2023/featured.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+February 2023
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-listing-date-sort="1672552800000" data-listing-file-modified-sort="1702172499557" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../resources/newsletter/2023/jan2023/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../../resources/newsletter/2023/jan2023/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+January 2023
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-listing-date-sort="1669874400000" data-listing-file-modified-sort="1702174163055" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2022/dec2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -311,22 +448,11 @@ background-size: cover;
 <h5 class="no-anchor card-title listing-title">
 December 2022
 </h5>
-<div class="card-text listing-description">
-<strong>Facebook | Twitter | LinkedIn</strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-December 2022
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1667278800000" data-listing-file-modified-sort="1692634137983" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="68">
+<div class="g-col-1" data-index="13" data-listing-date-sort="1667278800000" data-listing-file-modified-sort="1702174345902" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2022/nov2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -336,22 +462,11 @@ December 2022
 <h5 class="no-anchor card-title listing-title">
 November 2022
 </h5>
-<div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-November 2022
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1664600400000" data-listing-file-modified-sort="1692634138017" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="57">
+<div class="g-col-1" data-index="14" data-listing-date-sort="1664600400000" data-listing-file-modified-sort="1702174486219" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2022/oct2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -361,22 +476,11 @@ November 2022
 <h5 class="no-anchor card-title listing-title">
 October 2022
 </h5>
-<div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-October 2022
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1662008400000" data-listing-file-modified-sort="1692634138018" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="56">
+<div class="g-col-1" data-index="15" data-listing-date-sort="1662008400000" data-listing-file-modified-sort="1702174547835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2022/sep2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -386,22 +490,11 @@ October 2022
 <h5 class="no-anchor card-title listing-title">
 September 2022
 </h5>
-<div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-September 2022
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1659330000000" data-listing-file-modified-sort="1692634137896" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="45">
+<div class="g-col-1" data-index="16" data-categories="Career Corner" data-listing-date-sort="1659330000000" data-listing-file-modified-sort="1702180317457" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2022/aug2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -411,22 +504,11 @@ September 2022
 <h5 class="no-anchor card-title listing-title">
 August 2022
 </h5>
-<div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-August 2022
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1656651600000" data-listing-file-modified-sort="1692634137959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="50">
+<div class="g-col-1" data-index="17" data-listing-date-sort="1656651600000" data-listing-file-modified-sort="1702174710363" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2022/july2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -436,485 +518,258 @@ August 2022
 <h5 class="no-anchor card-title listing-title">
 July 2022
 </h5>
-<div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-July 2022
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-date-sort="1654059600000" data-listing-file-modified-sort="1692634137960" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="60">
+<div class="g-col-1" data-index="18" data-listing-date-sort="1654059600000" data-listing-file-modified-sort="1702174770291" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2022/june2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2022/june2022/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2022/june2022/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 June 2022
 </h5>
-<div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-June 2022
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1651381200000" data-listing-file-modified-sort="1692634137962" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="48">
+<div class="g-col-1" data-index="19" data-categories="Research Briefs,Career Corner" data-listing-date-sort="1651381200000" data-listing-file-modified-sort="1702175411081" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2022/may2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2022/may2022/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2022/may2022/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 May 2022
 </h5>
-<div class="card-text listing-description">
-<strong>AP-LS Monthly E-News</strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-May 2022
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-listing-date-sort="1646114400000" data-listing-file-modified-sort="1692634137961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13">
+<div class="g-col-1" data-index="20" data-listing-date-sort="1646114400000" data-listing-file-modified-sort="1692634137961" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13">
 <a href="../../resources/newsletter/2022/mar2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2022/mar2022/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2022/mar2022/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 March 2022
 </h5>
-<div class="card-text listing-description">
-<strong>BRIDGE Awardees</strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-March 2022
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-listing-date-sort="1643695200000" data-listing-file-modified-sort="1692634137911" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18">
+<div class="g-col-1" data-index="21" data-listing-date-sort="1643695200000" data-listing-file-modified-sort="1692634137911" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18">
 <a href="../../resources/newsletter/2022/feb2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2022/feb2022/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2022/feb2022/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 February 2022
 </h5>
-<div class="card-text listing-description">
-<strong>Reigniting Our Why: Recognizing Member Contributions to the Field</strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-February 2022
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-listing-date-sort="1641016800000" data-listing-file-modified-sort="1692634137946" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="22" data-listing-date-sort="1641016800000" data-listing-file-modified-sort="1692634137946" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2022/jan2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2022/jan2022/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2022/jan2022/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 January 2022
 </h5>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-January 2022
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-listing-date-sort="1617253200000" data-listing-file-modified-sort="1692634137882" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15">
-<a href="../../resources/newsletter/2022/apr2022/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../../resources/newsletter/2022/apr2022/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-April 2021
-</h5>
-<div class="card-text listing-description">
-<strong><strong><strong>IN MEMORIAM</strong></strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-April 2021
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</div></div></section>
-<section id="newsletters-1" class="level2">
-<h2 class="anchored" data-anchor-id="newsletters-1">2021 Newsletters</h2>
-<div class="gallery">
-  <div class="gallery__icon-column">
-      <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
-  </div>
-  <div class="gallery__list-column">
-<div id="listing-twenty-one" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-date-sort="1638338400000" data-listing-file-modified-sort="1692634137872" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13">
+<div class="g-col-1" data-index="23" data-listing-date-sort="1638338400000" data-listing-file-modified-sort="1702182471388" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2021/dec2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2021/dec2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2021/dec2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 December 2021
 </h5>
-<div class="card-text listing-description">
-<strong>AP-LS 2020 Pre-Conference Workshop Descriptions and Grants</strong><br>
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-December 2021
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-listing-date-sort="1635742800000" data-listing-file-modified-sort="1692634137879" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10">
+<div class="g-col-1" data-index="24" data-categories="Career Corner" data-listing-date-sort="1635742800000" data-listing-file-modified-sort="1702180732578" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2021/nov2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2021/nov2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2021/nov2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 November 2021
 </h5>
-<div class="card-text listing-description">
-<strong>AP-LS Practice Committee Award</strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-November 2021
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-listing-date-sort="1633064400000" data-listing-file-modified-sort="1692634137880" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12">
+<div class="g-col-1" data-index="25" data-listing-date-sort="1633064400000" data-listing-file-modified-sort="1702179795881" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2021/oct2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2021/oct2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2021/oct2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 October 2021
 </h5>
-<div class="card-text listing-description">
-<strong>RESEARCH REFLECTIONS DURING COVID-19: AN AP-LS RESEARCH COMMITTEE OPEN FORUM</strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-October 2021
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-listing-date-sort="1630472400000" data-listing-file-modified-sort="1692634137881" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15">
+<div class="g-col-1" data-index="26" data-listing-date-sort="1630472400000" data-listing-file-modified-sort="1702179783460" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2021/sep2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2021/sep2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2021/sep2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 September 2021
 </h5>
-<div class="card-text listing-description">
-<strong><strong><strong><strong>AP-LS CO-CHAIR CALL FOR APA CONFERENCE</strong></strong></strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-September 2021
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-listing-date-sort="1627794000000" data-listing-file-modified-sort="1692634137870" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11">
+<div class="g-col-1" data-index="27" data-listing-date-sort="1627794000000" data-listing-file-modified-sort="1702182566439" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2021/aug2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2021/aug2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2021/aug2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 August 2021
 </h5>
-<div class="card-text listing-description">
-<strong><strong><strong><br>
-</strong></strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-August 2021
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-listing-date-sort="1625115600000" data-listing-file-modified-sort="1692634137874" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="g-col-1" data-index="28" data-listing-date-sort="1625115600000" data-listing-file-modified-sort="1702182123804" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2021/july2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2021/july2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2021/july2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 July 2021
 </h5>
-<div class="card-text listing-description">
-<strong><strong><strong><br>
-</strong></strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-July 2021
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-listing-date-sort="1622523600000" data-listing-file-modified-sort="1692634137876" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9">
+<div class="g-col-1" data-index="29" data-listing-date-sort="1622523600000" data-listing-file-modified-sort="1702181779520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2021/june2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2021/june2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2021/june2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 June 2021
 </h5>
-<div class="card-text listing-description">
-<strong><strong><strong>AAFP DISSERTATION GRANT WINNERS</strong></strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-June 2021
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1619845200000" data-listing-file-modified-sort="1692634137878" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13">
+<div class="g-col-1" data-index="30" data-categories="Research Briefs" data-listing-date-sort="1619845200000" data-listing-file-modified-sort="1702180845767" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2021/may2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2021/may2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2021/may2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 May 2021
 </h5>
-<div class="card-text listing-description">
-<strong><strong>CLINICAL AND FORENSIC PRACTICE</strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-May 2021
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-listing-date-sort="1617253200000" data-listing-file-modified-sort="1692634137868" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="31" data-listing-date-sort="1617253200000" data-listing-file-modified-sort="1702173891607" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../../resources/newsletter/2022/apr2022/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../../resources/newsletter/2022/apr2022/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+April 2021
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="32" data-listing-date-sort="1617253200000" data-listing-file-modified-sort="1702182686267" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2021/apr2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2021/apr2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2021/apr2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 April 2022
 </h5>
-<div class="card-text listing-description">
-
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-April 2021
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-listing-date-sort="1614578400000" data-listing-file-modified-sort="1692634137877" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16">
+<div class="g-col-1" data-index="33" data-listing-date-sort="1614578400000" data-listing-file-modified-sort="1702181581034" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2021/mar2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2021/mar2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2021/mar2021/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 March 2021
 </h5>
-<div class="card-text listing-description">
-<strong><strong>SAVE THE DATE!</strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-March 2021
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-listing-date-sort="1612159200000" data-listing-file-modified-sort="1692634137873" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15">
+<div class="g-col-1" data-index="34" data-categories="Legal Updates" data-listing-date-sort="1612159200000" data-listing-file-modified-sort="1702182377809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2021/feb2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2021/feb2021/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2021/feb2021/featured.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 February 2021
 </h5>
-<div class="card-text listing-description">
-<strong><strong><strong><strong><strong>NEW SPA PARTNERSHIP</strong></strong></strong></strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-February 2021
-</div>
-</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1692634137873" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14">
+<div class="g-col-1" data-index="35" data-categories="Research Briefs" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1702182247333" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../../resources/newsletter/2021/jan2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="../../resources/newsletter/2021/jan2021/featured.png" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="../../resources/newsletter/2021/jan2021/featured.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 January 2021
 </h5>
-<div class="card-text listing-description">
-<strong><strong><strong>EARLY CAREER GRANT IN AID AWARD WINNERS</strong></strong></strong>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-January 2021
-</div>
-</div>
 </div>
 </div>
 </a>
@@ -923,68 +778,783 @@ January 2021
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="monthly-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
-</div></div></section>
-<section id="archives" class="level2">
-<h2 class="anchored" data-anchor-id="archives">Archives</h2>
-<div class="gallery">
-  <div class="gallery__icon-column">
-      <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
-  </div>
-  <div class="gallery__list-column">
-<div id="listing-news" class="quarto-listing quarto-listing-container-custom">
+</section>
+<section id="newsletter-archives" class="level2">
+<h2 class="anchored" data-anchor-id="newsletter-archives">Newsletter Archives</h2>
+<div id="listing-archive" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-    <div class="g-col-1" data-index="0" data-categories="pdf" data-listing-date-sort="875682000000">
-      <div class="quarto-grid-item card h-75 card-left">
-        <div class="card-img-top quarto-card-img" style="height: 60%;">
-            <img src="apls-news/fall1997/fall1997.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
-        </div>
-        <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;">
-            <h5 class="no-anchor card-title listing-title">Fall 1997</h5>
-            <div class="project-categories">
-                    <div class="project-category"><a href="#category=pdf">
-                            pdf
-                        </a></div>
-            </div>
-            <div class="card-text listing-date" style="padding-top: 0.3em; font-size: 18px;">October 1997</div>
-            <div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-left justify-content-sm-start" role="group" aria-label="Links">
-                <a href="apls-news/fall1997/fall1997.pdf" class="btn btn-rounded--primary custom-link">
-                  <i class="bi bi-file-earmark-pdf me-1"></i> Download
-                </a>
-            </div>
-        </div>
-      </div>
-    </div>
-    <div class="g-col-1" data-index="1" data-categories="pdf" data-listing-date-sort="844146000000">
-      <div class="quarto-grid-item card h-75 card-left">
-        <div class="card-img-top quarto-card-img" style="height: 60%;">
-            <img src="apls-news/fall1996/fall1996.png" class="thumbnail-image card-img" style="object-fit: cover; height: 100%;" alt="">
-        </div>
-        <div class="card-body post-contents" style="padding-bottom: 0; padding-top: 0.5em;">
-            <h5 class="no-anchor card-title listing-title">Fall 1996</h5>
-            <div class="project-categories">
-                    <div class="project-category"><a href="#category=pdf">
-                            pdf
-                        </a></div>
-            </div>
-            <div class="card-text listing-date" style="padding-top: 0.3em; font-size: 18px;">October 1996</div>
-            <div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-left justify-content-sm-start" role="group" aria-label="Links">
-                <a href="apls-news/fall1996/fall1996.pdf" class="btn btn-rounded--primary custom-link">
-                  <i class="bi bi-file-earmark-pdf me-1"></i> Download
-                </a>
-            </div>
-        </div>
-      </div>
-    </div>
+<div class="g-col-1" data-index="0" data-listing-date-sort="1498885200000">
+<a href="apls-news/summer2017/summer2017.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/summer2017/summer2017.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Summer 2017
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1483250400000">
+<a href="apls-news/winter2017/winter2017.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/winter2017/winter2017.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winter 2017
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1475298000000">
+<a href="apls-news/fall2016/fall2016.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/fall2016/fall2016.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 2016
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1467349200000">
+<a href="apls-news/summer2016/summer2016.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/summer2016/summer2016.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Summer 2016
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-date-sort="1443675600000">
+<a href="apls-news/fall2015/fall2015.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/fall2015/fall2015.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 2015
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-listing-date-sort="1435726800000">
+<a href="apls-news/summer2015/summer2015.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/summer2015/summer2015.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Summer 2015
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-listing-date-sort="1420092000000">
+<a href="apls-news/winter2015/winter2015.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/winter2015/winter2015.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winter 2015
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-listing-date-sort="1412139600000">
+<a href="apls-news/fall2014/fall2014.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/fall2014/fall2014.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 2014
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-listing-date-sort="1404190800000">
+<a href="apls-news/summer2014/summer2014.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/summer2014/summer2014.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Summer 2014
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-listing-date-sort="1388556000000">
+<a href="apls-news/winter2014/winter2014.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/winter2014/winter2014.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winter 2014
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-listing-date-sort="1309496400000">
+<a href="apls-news/summer2011/summer2011.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/summer2011/summer2011.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Summer 2011
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-listing-date-sort="1293861600000">
+<a href="apls-news/winter2011/winter2011.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/winter2011/winter2011.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winter 2011
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-listing-date-sort="1285909200000">
+<a href="apls-news/fall2010/fall2010.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/fall2010/fall2010.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 2010
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="13" data-listing-date-sort="1277960400000">
+<a href="apls-news/summer2010/summer2010.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/summer2010/summer2010.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Summer 2010
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="14" data-listing-date-sort="1262325600000">
+<a href="apls-news/winter2010/winter2010.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/winter2010/winter2010.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winter 2010
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="15" data-listing-date-sort="1254373200000">
+<a href="apls-news/fall2009/fall2009.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/fall2009/fall2009.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 2009
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="16" data-listing-date-sort="1246424400000">
+<a href="apls-news/summer2009/summer2009.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/summer2009/summer2009.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Summer 2009
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="17" data-listing-date-sort="1230789600000">
+<a href="apls-news/winter2009/winter2009.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="apls-news/winter2009/winter2009.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winter 2009
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="18" data-listing-date-sort="1222837200000">
+<a href="apls-news/fall2008/fall2008.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/fall2008/fall2008.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 2008
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="19" data-listing-date-sort="1214888400000">
+<a href="apls-news/summer2008/summer2008.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/summer2008/summer2008.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Summer 2008
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="20" data-listing-date-sort="1199167200000">
+<a href="apls-news/winter2008/winter2008.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/winter2008/winter2008.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winter 2008
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="21" data-listing-date-sort="1191214800000">
+<a href="apls-news/fall2007/fall2007.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/fall2007/fall2007.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 2007
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="22" data-listing-date-sort="1183266000000">
+<a href="apls-news/summer2007/summer2007.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/summer2007/summer2007.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Summer 2007
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="23" data-listing-date-sort="1167631200000">
+<a href="apls-news/winter2007/winter2007.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/winter2007/winter2007.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winter 2007
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="24" data-listing-date-sort="1159678800000">
+<a href="apls-news/fall2006/fall2006.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/fall2006/fall2006.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 2006
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="25" data-listing-date-sort="1151730000000">
+<a href="apls-news/summer2006/summer2006.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/summer2006/summer2006.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Summer 2006
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="26" data-listing-date-sort="1136095200000">
+<a href="apls-news/winter2006/winter2006.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/winter2006/winter2006.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winter 2006
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="27" data-listing-date-sort="1128142800000">
+<a href="apls-news/fall2005/fall2005.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/fall2005/fall2005.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 2005
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="28" data-listing-date-sort="1120194000000">
+<a href="apls-news/summer2005/summer2005.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/summer2005/summer2005.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Summer 2005
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="29" data-listing-date-sort="1104559200000">
+<a href="apls-news/winter2005/winter2005.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/winter2005/winter2005.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winter 2005
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="30" data-listing-date-sort="1096606800000">
+<a href="apls-news/fall2004/fall2004.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/fall2004/fall2004.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 2004
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="31" data-listing-date-sort="1088658000000">
+<a href="apls-news/summer2004/summer2004.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/summer2004/summer2004.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Summer 2004
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="32" data-listing-date-sort="1072936800000">
+<a href="apls-news/winter2004/winter2004.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/winter2004/winter2004.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winter 2004
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="33" data-listing-date-sort="1064984400000">
+<a href="apls-news/fall2003/fall2003.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/fall2003/fall2003.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 2003
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="34" data-listing-date-sort="1057035600000">
+<a href="apls-news/summer2003/summer2003.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/summer2003/summer2003.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Summer 2003
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="35" data-listing-date-sort="1041400800000">
+<a href="apls-news/winter2003/winter2003.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/winter2003/winter2003.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winter 2003
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="36" data-listing-date-sort="1033448400000">
+<a href="apls-news/fall2002/fall2002.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/fall2002/fall2002.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 2002
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="37" data-listing-date-sort="1017640800000">
+<a href="apls-news/spring2002/spring2002.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/spring2002/spring2002.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Spring 2002
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="38" data-listing-date-sort="1009864800000">
+<a href="apls-news/winter2002/winter2002.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/winter2002/winter2002.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winter 2002
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="39" data-listing-date-sort="1001912400000">
+<a href="apls-news/fall2001/fall2001.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/fall2001/fall2001.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 2001
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="40" data-listing-date-sort="986104800000">
+<a href="apls-news/spring2001/spring2001.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/spring2001/spring2001.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Spring 2001
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="41" data-listing-date-sort="978328800000">
+<a href="apls-news/winter2001/winter2001.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/winter2001/winter2001.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winter 2001
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="42" data-listing-date-sort="970376400000">
+<a href="apls-news/fall2000/fall2000.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/fall2000/fall2000.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 2000
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="43" data-listing-date-sort="954568800000">
+<a href="apls-news/spring2000/spring2000.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/spring2000/spring2000.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Spring 2000
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="44" data-listing-date-sort="946706400000">
+<a href="apls-news/winter2000/winter2000.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/winter2000/winter2000.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winter 2000
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="45" data-listing-date-sort="938754000000">
+<a href="apls-news/fall1999/fall1999.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/fall1999/fall1999.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 1999
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="46" data-listing-date-sort="922946400000">
+<a href="apls-news/spring1999/spring1999.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/spring1999/spring1999.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Spring 1999
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="47" data-listing-date-sort="907218000000">
+<a href="apls-news/fall1998/fall1998.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/fall1998/fall1998.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 1998
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="48" data-listing-date-sort="891410400000">
+<a href="apls-news/spring1998/spring1998.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/spring1998/spring1998.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Spring 1998
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="49" data-listing-date-sort="883634400000">
+<a href="apls-news/winter1998/winter1998.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/winter1998/winter1998.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winter 1998
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="50" data-listing-date-sort="875682000000">
+<a href="apls-news/fall1997/fall1997.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/fall1997/fall1997.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 1997
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="51" data-listing-date-sort="859874400000">
+<a href="apls-news/spring1997/spring1997.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/spring1997/spring1997.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Spring 1997
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="52" data-listing-date-sort="844146000000">
+<a href="apls-news/fall1996/fall1996.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/fall1996/fall1996.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fall 1996
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="53" data-listing-date-sort="828338400000">
+<a href="apls-news/spring1996/spring1996.pdf" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="apls-news/spring1996/spring1996.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Spring 1996
+</h5>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="archive-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div>
 
 
 
-</div></div></section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

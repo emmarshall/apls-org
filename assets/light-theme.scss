@@ -1595,5 +1595,19 @@ blockquote {
 }
 
 
+// iframe for newsletters embedded on pages
 
+iframe.news {
+  border: 3px solid $gray-700;
+  width: 100%;
+  height: 100%;
+}
+
+.ar4x3 {
+  aspect-ratio: 4 / 3;  
+}
+
+.ar3x2 {
+  aspect-ratio: 3 / 2;  
+}
 

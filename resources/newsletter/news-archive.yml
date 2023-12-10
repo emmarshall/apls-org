@@ -1,21 +1,269 @@
 - title: "Fall 1996"
   date: 10/01/1996
   image: "apls-news/fall1996/fall1996.png"
-  categories:
-  - pdf
-  links: 
-  - text: Download
-    icon: file-earmark-pdf
-    url: apls-news/fall1996/fall1996.pdf
-    local: true
+  path: apls-news/fall1996/fall1996.pdf
     
 - title: "Fall 1997"
   date: 10/01/1997
   image: "apls-news/fall1997/fall1997.png"
-  categories:
-  - pdf
-  links: 
-  - text: Download
-    icon: file-earmark-pdf
-    url: apls-news/fall1997/fall1997.pdf
-    local: true
+  path: apls-news/fall1997/fall1997.pdf
+
+- title: "Fall 1998"
+  date: 10/01/1998
+  image: "apls-news/fall1998/fall1998.png"
+  path: apls-news/fall1998/fall1998.pdf
+
+- title: "Fall 1999"
+  date: 10/01/1999
+  image: "apls-news/fall1999/fall1999.png"
+  path: "apls-news/fall1999/fall1999.pdf"
+    
+- title: "Fall 2000"
+  date: 10/01/2000
+  image: "apls-news/fall2000/fall2000.png"
+  path: "apls-news/fall2000/fall2000.pdf"
+
+- title: "Fall 2001"
+  date: 10/01/2001
+  image: "apls-news/fall2001/fall2001.png"
+  path: "apls-news/fall2001/fall2001.pdf"
+        
+- title: "Fall 2002"
+  date: 10/01/2002
+  image: "apls-news/fall2002/fall2002.png"
+  path: "apls-news/fall2002/fall2002.pdf"
+
+- title: "Fall 2003"
+  date: 10/01/2003
+  image: "apls-news/fall2003/fall2003.png"
+  path: "apls-news/fall2003/fall2003.pdf"
+
+- title: "Fall 2004"
+  date: 10/01/2004
+  image: "apls-news/fall2004/fall2004.png"
+  path: "apls-news/fall2004/fall2004.pdf"
+  
+- title: "Fall 2005"
+  date: 10/01/2005
+  image: "apls-news/fall2005/fall2005.png"
+  path: "apls-news/fall2005/fall2005.pdf"
+  
+- title: "Fall 2006"
+  date: 10/01/2006
+  image: "apls-news/fall2006/fall2006.png"
+  path: "apls-news/fall2006/fall2006.pdf"
+ 
+- title: "Fall 2007"
+  date: 10/01/2007
+  image: "apls-news/fall2007/fall2007.png"
+  path: "apls-news/fall2007/fall2007.pdf"
+ 
+- title: "Fall 2008"
+  date: 10/01/2008
+  image: "apls-news/fall2008/fall2008.png"
+  path: "apls-news/fall2008/fall2008.pdf"
+  
+- title: "Fall 2009"
+  date: 10/01/2009
+  image: "apls-news/fall2009/fall2009.png"
+  path: "apls-news/fall2009/fall2009.pdf"
+  
+- title: "Fall 2010"
+  date: 10/01/2010
+  image: "apls-news/fall2010/fall2010.png"
+  path: "apls-news/fall2010/fall2010.pdf"
+  
+- title: "Fall 2014"
+  date: 10/01/2014
+  image: "apls-news/fall2014/fall2014.png"
+  path: "apls-news/fall2014/fall2014.pdf"
+
+- title: "Fall 2015"
+  date: 10/01/2015
+  image: "apls-news/fall2015/fall2015.png"
+  path: "apls-news/fall2015/fall2015.pdf"
+
+- title: "Fall 2016"
+  date: 10/01/2016
+  image: "apls-news/fall2016/fall2016.png"
+  path: "apls-news/fall2016/fall2016.pdf"
+
+- title: "Spring 1996"
+  date: 04/01/1996
+  image: "apls-news/spring1996/spring1996.png"
+  path: "apls-news/spring1996/spring1996.pdf"
+    
+- title: "Spring 1997"
+  date: 04/01/1997
+  image: "apls-news/spring1997/spring1997.png"
+  path: "apls-news/spring1997/spring1997.pdf"
+    
+- title: "Spring 1998"
+  date: 04/01/1998
+  image: "apls-news/spring1998/spring1998.png"
+  path: "apls-news/spring1998/spring1998.pdf"
+
+- title: "Spring 1999"
+  date: 04/01/1999
+  image: "apls-news/spring1999/spring1999.png"
+  path: "apls-news/spring1999/spring1999.pdf"
+
+- title: "Spring 2000"
+  date: 04/01/2000
+  image: "apls-news/spring2000/spring2000.png"
+  path: "apls-news/spring2000/spring2000.pdf"
+
+- title: "Spring 2001"
+  date: 04/01/2001
+  image: "apls-news/spring2001/spring2001.png"
+  path: "apls-news/spring2001/spring2001.pdf"
+
+- title: "Spring 2002"
+  date: 04/01/2002
+  image: "apls-news/spring2002/spring2002.png"
+  path: "apls-news/spring2002/spring2002.pdf"
+
+- title: "Summer 2003"
+  date: 07/01/2003
+  image: "apls-news/summer2003/summer2003.png"
+  path: "apls-news/summer2003/summer2003.pdf"
+    
+- title: "Summer 2004"
+  date: 07/01/2004
+  image: "apls-news/summer2004/summer2004.png"
+  path: "apls-news/summer2004/summer2004.pdf"
+    
+- title: "Summer 2005"
+  date: 07/01/2005
+  image: "apls-news/summer2005/summer2005.png"
+  path: "apls-news/summer2005/summer2005.pdf"
+
+- title: "Summer 2006"
+  date: 07/01/2006
+  image: "apls-news/summer2006/summer2006.png"
+  path: "apls-news/summer2006/summer2006.pdf"
+
+- title: "Summer 2007"
+  date: 07/01/2007
+  image: "apls-news/summer2007/summer2007.png"
+  path: "apls-news/summer2007/summer2007.pdf"
+
+- title: "Summer 2008"
+  date: 07/01/2008
+  image: "apls-news/summer2008/summer2008.png"
+  path: "apls-news/summer2008/summer2008.pdf"
+
+- title: "Summer 2009"
+  date: 07/01/2009
+  image: "apls-news/summer2009/summer2009.png"
+  path: "apls-news/summer2009/summer2009.pdf"
+
+- title: "Summer 2010"
+  date: 07/01/2010
+  image: "apls-news/summer2010/summer2010.png"
+  path: "apls-news/summer2010/summer2010.pdf"
+
+- title: "Summer 2011"
+  date: 07/01/2011
+  image: "apls-news/summer2011/summer2011.png"
+  path: "apls-news/summer2011/summer2011.pdf"
+
+- title: "Summer 2014"
+  date: 07/01/2014
+  image: "apls-news/summer2014/summer2014.png"
+  path: "apls-news/summer2014/summer2014.pdf"
+
+- title: "Summer 2015"
+  date: 07/01/2015
+  image: "apls-news/summer2015/summer2015.png"
+  path: "apls-news/summer2015/summer2015.pdf"
+
+- title: "Summer 2016"
+  date: 07/01/2016
+  image: "apls-news/summer2016/summer2016.png"
+  path: "apls-news/summer2016/summer2016.pdf"
+
+- title: "Summer 2017"
+  date: 07/01/2017
+  image: "apls-news/summer2017/summer2017.png"
+  path: "apls-news/summer2017/summer2017.pdf"
+
+- title: "Winter 1998"
+  date: 01/01/1998
+  image: "apls-news/winter1998/winter1998.png"
+  path: "apls-news/winter1998/winter1998.pdf"
+   
+- title: "Winter 2000"
+  date: 01/01/2000
+  image: "apls-news/winter2000/winter2000.png"
+  path: "apls-news/winter2000/winter2000.pdf"
+
+- title: "Winter 2001"
+  date: 01/01/2001
+  image: "apls-news/winter2001/winter2001.png"
+  path: "apls-news/winter2001/winter2001.pdf"
+
+- title: "Winter 2002"
+  date: 01/01/2002
+  image: "apls-news/winter2002/winter2002.png"
+  path: "apls-news/winter2002/winter2002.pdf"
+
+- title: "Winter 2003"
+  date: 01/01/2003
+  image: "apls-news/winter2003/winter2003.png"
+  path: "apls-news/winter2003/winter2003.pdf"
+
+- title: "Winter 2004"
+  date: 01/01/2004
+  image: "apls-news/winter2004/winter2004.png"
+  path: "apls-news/winter2004/winter2004.pdf"
+
+- title: "Winter 2005"
+  date: 01/01/2005
+  image: "apls-news/winter2005/winter2005.png"
+  path: "apls-news/winter2005/winter2005.pdf"
+
+- title: "Winter 2006"
+  date: 01/01/2006
+  image: "apls-news/winter2006/winter2006.png"
+  path: "apls-news/winter2006/winter2006.pdf"
+
+- title: "Winter 2007"
+  date: 01/01/2007
+  image: "apls-news/winter2007/winter2007.png"
+  path: "apls-news/winter2007/winter2007.pdf"
+
+- title: "Winter 2008"
+  date: 01/01/2008
+  image: "apls-news/winter2008/winter2008.png"
+  path: "apls-news/winter2008/winter2008.pdf"
+
+- title: "Winter 2009"
+  date: 01/01/2009
+  image: "apls-news/winter2009/winter2009.png"
+  path: "apls-news/winter2009/winter2009.pdf"
+
+- title: "Winter 2010"
+  date: 01/01/2010
+  image: "apls-news/winter2010/winter2010.png"
+  path: "apls-news/winter2010/winter2010.pdf"
+
+- title: "Winter 2011"
+  date: 01/01/2011
+  image: "apls-news/winter2011/winter2011.png"
+  path: "apls-news/winter2011/winter2011.pdf"
+
+- title: "Winter 2014"
+  date: 01/01/2014
+  image: "apls-news/winter2014/winter2014.png"
+  path: "apls-news/winter2014/winter2014.pdf"
+
+- title: "Winter 2015"
+  date: 01/01/2015
+  image: "apls-news/winter2015/winter2015.png"
+  path: "apls-news/winter2015/winter2015.pdf"
+
+- title: "Winter 2017"
+  date: 01/01/2017
+  image: "apls-news/winter2017/winter2017.png"
+  path: "apls-news/winter2017/winter2017.pdf"

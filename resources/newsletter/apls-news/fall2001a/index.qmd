@@ -1,5 +1,0 @@
----
-title: "fall2001a"
-image: "/Users/emma/Documents/R /newsletters/fall2001a/fall2001a.png"
-href: "/Users/emma/Documents/R /newsletters/fall2001a/fall2001a.pdf"
----

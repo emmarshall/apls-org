@@ -169,7 +169,7 @@ profiles_cropped_html <- htmltools::HTML(profiles_cropped_html)
 ::: president-intro
 <p>Welcome to the American Psychology-Law Society (AP-LS), Division 41 of the American Psychological Association.</p>
 
-<p>Our organizational mission is to "enhance well-being, justice, and human rights through the science and practice of psychology in legal contexts". AP-LS is the premiere organization for students and professionals who are interested in issues at the intersection of psychology and law.</p>
+<p>Our organizational mission is to "enhance well-being, justice, and human rights through the science and practice of psychology in legal contexts." AP-LS is the premiere organization for students and professionals who are interested in issues at the intersection of psychology and law.</p>
 
 <p>As an organization, we strive to support our members in their work using psychological science and practice to advance justice in our legal system.</p>
 :::

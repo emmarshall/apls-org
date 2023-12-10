@@ -2,6 +2,10 @@
 title: April 2022
 date: 4/1/2021
 image: featured.jpg 
+Categories:
+  - Teaching Corner
 ---
 
 ```{=html}
+<iframe class="news ar4x3" src="apr2021.Rhtml" title="April Newsletter"></iframe>
+```

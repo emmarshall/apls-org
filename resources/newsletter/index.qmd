@@ -2,68 +2,39 @@
 title: AP-LS Newsletter Archives
 title-block-banner: "../../images/default-banner.svg"
 page-layout: full
+toc: false
 listing:
-  - id: twenty-two
-    contents:
-    - "2022/**/*.qmd"
-    type: grid
-    sort: "date desc"
-    sort-ui: false
-  - id: twenty-one
-    contents:
-    - "2021/**/*.qmd"
-    type: grid
-    sort: "date desc"
-    sort-ui: false
-  - id: news
+  - id: monthly
     contents: 
-      - "apls-news/*.qmd"
+      - "2023/**/*.qmd"
+      - "2022/**/*.qmd"
+      - "2021/**/*.qmd"
+    type: grid
+    grid-columns: 3
+    sort: "date desc"
+    fields: [title, image]
+    image-placeholder: logo.png
+  - id: archive
+    contents: 
       - "news-archive.yml"
     type: grid
-    fields: [date, title, image, categories]
+    fields: [title, image]
     sort: "date desc"
-    image-height: 100%
     image-placeholder: logo.png
-    template: news-listing.ejs
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
 
+## AP-LS Monthly E-News
 
-## 2022 Newsletters
-```{=html}
-<div class="gallery">
-  <div class="gallery__icon-column">
-      <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
-  </div>
-  <div class="gallery__list-column">
-```
-
-::: {#twenty-two}
+::: {#monthly}
 :::
 
-## 2021 Newsletters
-```{=html}
-<div class="gallery">
-  <div class="gallery__icon-column">
-      <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
-  </div>
-  <div class="gallery__list-column">
-```
 
-::: {#twenty-one}
+## Newsletter Archives
+
+::: {#archive}
 :::
 
-## Archives
-```{=html}
-<div class="gallery">
-  <div class="gallery__icon-column">
-      <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
-  </div>
-  <div class="gallery__list-column">
-```
-
-::: {#news}
-:::

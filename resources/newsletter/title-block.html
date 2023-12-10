@@ -1,0 +1,43 @@
+<!-- Template based on https://www.andrewheiss.com/research/ -->
+
+<header id="title-block-header"
+    class="quarto-title-block award-post default">
+    <div class="quarto-title-banner">
+        $if(include-back-link)$
+        <div class="#back-nav"><a href="https://ap-ls.org/resources/newsletter/" style="color:yellow">← Back to newsletters</a></div>
+        $endif$
+        </p><div class="quarto-title column-body">
+            <h1 class="title">$title$</h1></p>
+
+            $if(description)$
+            <div>
+                <div class="description">
+                    $description$
+                </div>
+            </div>
+            $endif$
+            
+            $if(categories)$
+            $if(quarto-template-params.title-block-categories)$
+            <div class="quarto-categories">
+                $for(categories)$
+                <div class="quarto-category">$categories$</div>
+                $endfor$
+            </div>
+            $endif$
+            $endif$
+
+    </div>        
+    
+    </div>
+            
+          
+        $if(links)$
+<div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-center justify-content-sm-start" role="group" aria-label="PDF Links">
+$for(links)$
+<a href="$links.url$" class="btn btn-outline-primary"><i class="bi bi-$links.icon$ me-1"></i> $links.name$</a>
+$endfor$
+</div>
+$endif$
+
+</header>

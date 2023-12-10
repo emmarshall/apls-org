@@ -4,30 +4,22 @@ description: Our monthly newsletter provides information about activities, upcom
 title-block-banner: "../images/default-banner.svg"
 listing: 
   - id: newsletter
-    contents:
+    contents: 
     - "../resources/newsletter/2023/**/*.qmd"
     type: grid
+    fields: [title, image, categories]
     sort: "date desc"
-    sort-ui: false
+    max-items: 3
 ---
 
 
 ## Recent News
-```{=html}
-<div class="gallery">
-  <div class="gallery__icon-column">
-      <i class="fa-solid fa-newspaper fa-3x" title="Newsletter" aria-hidden="true"></i>
-  </div>
-  <div class="gallery__list-column">
-```
 
 ::: {#newsletter}
 :::
 
-```{=html}
-  <span class="gallery__link">
-    <a href="../resources/newsletter/">See Newsletter archives <i class="bi-arrow-right-short"> </i></a>
-  </span>
-  </div>
-</div>
-```
+
+::: about-link
+[View more newsletters](../resources/newsletter/)
+:::
+
