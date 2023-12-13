@@ -9,9 +9,5 @@ links:
 ---
 
 
-```{=html}
 
-<iframe class="news ar4x3" src="nov_2023.pdf" title="November Newsletter"></iframe>
-
-```
-
+{{< pdf nov_2023.pdf width=100% height=800 border=1 >}}
