@@ -10,7 +10,7 @@ categories:
 submission-info:
   sponsor: AP-LS Graduate Student Grants-in-Aid Committee
   deadline: 
-  - January 15 
+  - February 15 
   - October 15
 links:
 - icon: envelope-at
@@ -53,7 +53,7 @@ This award is limited to graduate students who are  members of AP-LS.
 
 Interested individuals should submit a complete award application via the AP-LS proposal management system by 11:59 p.m. PST on the date of the identified submission deadline. 
 
-Annual application deadlines are **October 15** and **January 15**.
+Annual application deadlines are **October 15** and **February 15**.
 
 A complete Grant in Aid application includes:
 

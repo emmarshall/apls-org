@@ -15,8 +15,3 @@ toc: false
 
 include-back-link: true
 
-format:
-  html:
-    self-contained: false
-    template-partials:
-     - "../title-block.html"

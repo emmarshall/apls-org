@@ -108,6 +108,6 @@ The job postings content is located in the `resources/job-postings/` directory. 
 
 -   Proofread content pages
 -   Create r package to store functions
--   Newsletter archives - index and format listings
+-   Newsletter archives - index and format listings (include pds)
 -   TTC Education and Teaching materials
 -   How to add a new post/page write up

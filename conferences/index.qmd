@@ -148,8 +148,6 @@ Looking forward to seeing everyone in March!
 
 ### Important Dates
 
-**Caregiving Grants deadline**: December 31, 2023
-
 **Early bird-registration ends**: January 31, 2024
 
 **Hotel group-rate ends**: February 25, 2024 
@@ -191,18 +189,26 @@ Students are eligible to receive complimentary conference registration by volunt
 
 ### Symposia, Paper, and Data Blitz Sessions
 
-Symposia sessions are 80 minutes long and paper and data blitz sessions are 60 minutes long. All sessions will have an assigned chair who will be responsible for ensuring that approximately 10 minutes are reserved for questions. The remaining time should be divided evenly across all the scheduled presenters.
+**Symposium sessions** are 80 minutes long. Allow approximately 10 minutes for questions and comments from the audience. Divide the remaining time evenly between the presenters and the discussant. 
 
-::: {.callout-caution appearance="simple"}
-While Audio/Visual should be available in session rooms, note that Internet will not be. Thus, presenters need to ensure that their A/V content is stored on their computer and thumb drive so that it can be transferred to the session room computer and played locally.
+**Paper sessions** are 60 minutes long. Most sessions have four or five papers; therefore, each presenter should plan to have 10-12 minutes to present. This will allow time at the end for audience questions. A chair will be assigned to paper sessions and will make introductions, help keep time, as well as guide questions at the end of the session. 
+
+**Data-Blitz sessions** are 60 minutes long. Data-blitz presenters have a maximum of 5 minutes each (3-5 slides), followed by approximately 10 minutes of questions from the audience at the end of the session. 
+
+::: {.callout-caution}
+All presentation rooms will be set up with a computer, screen, and projector. **Bring a flash drive** to download the presentation onto the computer, and do not count on the availability of the **internet** in presentation rooms. 
 :::
 
-### Posters
+### Poster Sessions
 
-**Poster Sizing:** The poster boards for mounting a poster are 4 ft (height) x 8 ft (width). Presenters are free to print any size poster that will fit within this space. Pushpins will be provided.
+Poster sessions are scheduled from 6:30-8:00 pm on Friday and Saturday evenings. Presenters are scheduled for either Friday or Saturday night and will be given a number to correspond with the board where they should display their posters. 
 
-**Poster Board Numbering:** Posters are numbered in the conference program so that the number for the poster indicates the correct board on which the poster should be hung. Poster presenters should refer to these numbers to identify the poster board to hang their poster.
+**Poster Sizing:** The boards for mounting a poster are 4 ft (height) x 8 ft (width). Presenters are free to create any size poster that will fit within that space. Presenters will need to bring push pins to hang their posters; we do not provide push pins. 
 
+::: {.callout-tip}
+We encourage poster presenters to use a [Better Poster format](https://convention.apa.org/blog/rethinking-the-science-poster).
+
+:::
 
 ## {{< fa circle-user >}} Conference Organizers
 
@@ -226,11 +232,10 @@ If you have any other questions, please contact:
 ::: column-screen
 ::: {.simple-info-blue .alt-background-blue}
 ::: content-block-blue
-### Not sure what to expect at the APLS annual conference?
+### The 2024 APLS Annual Conference DRAFT Program is now available! 
 
-The 2023 APLS Annual Conference schedule and program is available to download and view online
+[View Program {{< fa arrow-right >}}](https://drive.google.com/file/d/11XKPQH2qxnAYYbv0X5vNr1I2FfTPvf9e/view?usp=sharing){.btn-action .btn .btn-secondary .btn-lg role="button"}
 
-[Learn more {{< fa arrow-right >}}](archive/2023/schedule.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
 :::
 :::
 :::
@@ -275,8 +280,6 @@ For attendees flying in to Los Angeles, the LAX FlyAway runs from LAX to the Uni
 ::: vspace
 :::
 
-
-
 # Registration {#register}
 
 ::: {.simple-info}
@@ -293,7 +296,7 @@ We encourage you to register before **January 31st** to take advantage of the ea
 ::: vspace
 :::
 
-[Register Now {{< fa arrow-up-right-from-square >}}](https://apls.memberclicks.net/24conferencereg#!/){.btn-action .btn .btn-primary .btn-lg role="button"}
+[Register Now {{< fa arrow-right >}}](https://apls.memberclicks.net/24conferencereg#!/){.btn-action .btn .btn-primary .btn-lg role="button"}
 
 
 ## {{< fa circle-info >}} Pricing
@@ -410,14 +413,31 @@ Signing up as a Business Partner of AP-LS has never been easier. Select your spo
 :::
 :::
 
+<hr>
 
 ::: vspace
 :::
 
-::: simple-info
-# Schedule Overview {#schedule}
 
+# Schedule Overview {#schedule}
+::: simple-info
 ::: {.panel-tabset .box-shadow}
+
+
+## {{< fa file-pdf >}} Program Grid
+
+<div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-center justify-content-sm-start" role="group" aria-label="PDF Links">
+<a href="https://drive.google.com/file/d/11XKPQH2qxnAYYbv0X5vNr1I2FfTPvf9e/view?usp=sharing" class="btn btn-outline-primary"><i class="bi bi-file-earmark-pdf me-1"></i> Download </a>
+</div>
+
+::: vspace
+:::
+
+```{=html}
+<iframe class="news ar4x3" src="files/AP-LS_2024_Conference_Program_Grid_DRAFT.pdf" title="DRAFT Program Grid"></iframe>
+```
+
+
 ## Preconference
 
 ### Wednesday, March 20, 2024

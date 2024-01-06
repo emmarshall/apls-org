@@ -1,0 +1,14 @@
+---
+title: January 2024
+date: 1/1/2024
+image: "https://images.pexels.com/photos/1387577/pexels-photo-1387577.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+links:
+- icon: file-earmark-pdf
+  name: Download
+  url: "https://drive.google.com/file/d/1i5_ScEvJdHuyt0a0kr2aieub2zZfx1ip/view?usp=sharing"
+---
+
+
+```{=html}
+<iframe class="news ar4x3" src="jan_2024.pdf" title="December Newsletter"></iframe>
+```
