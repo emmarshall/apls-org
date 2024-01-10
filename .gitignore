@@ -12,6 +12,7 @@ _site/
 # other 
 design-assets/*
 static/etc/*
-.DS_Store
+**/.DS_Store
+
 
 /.luarc.json
