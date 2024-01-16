@@ -14,7 +14,7 @@ submission-info:
 links:
 - icon: envelope-at
   name: Contact
-  url: "mailto:jason.lawrence@dmh.mo.gov"
+  url: "mailto:cwillis-esqueda1@unl.edu"
 - icon: send
   name: Apply here
   url: "https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0"
