@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.542">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -52,7 +52,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -61,6 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -134,16 +141,43 @@ background-size: cover;
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="../../assets/styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../../images/logo-light.png" alt="" class="navbar-logo">
     </a>
@@ -155,91 +189,91 @@ background-size: cover;
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../about/index.html" rel="" target="">
+    <a class="dropdown-item" href="../../about/index.html">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/leadership.html" rel="" target="">
+    <a class="dropdown-item" href="../../about/leadership.html">
  <span class="dropdown-text">Leadership</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/committees.html" rel="" target="">
+    <a class="dropdown-item" href="../../about/committees.html">
  <span class="dropdown-text">Committees</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/statements.html" rel="" target="">
+    <a class="dropdown-item" href="../../about/statements.html">
  <span class="dropdown-text">Statements</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/bylaws.html" rel="" target="">
+    <a class="dropdown-item" href="../../about/bylaws.html">
  <span class="dropdown-text">AP-LS Bylaws</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../about/contact.html" rel="" target="">
+    <a class="dropdown-item" href="../../about/contact.html">
  <span class="dropdown-text">Contact us</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-publications" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-publications" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Publications</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-publications">    
         <li>
-    <a class="dropdown-item" href="../../newsletter/index.html" rel="" target="">
+    <a class="dropdown-item" href="../../newsletter/index.html">
  <span class="dropdown-text">AP-LS Newsletter</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../publications/index.html" rel="" target="">
+    <a class="dropdown-item" href="../../publications/index.html">
  <span class="dropdown-text">Publications</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="https://www.apa.org/pubs/journals/lhb/" rel="" target="">
+    <a class="dropdown-item" href="https://www.apa.org/pubs/journals/lhb/">
  <span class="dropdown-text">Law &amp; Human Behavior</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../awards/index.html" rel="" target="">
- <span class="menu-text">Awards</span></a>
+    <a class="nav-link" href="../../awards/index.html"> 
+<span class="menu-text">Awards</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-conferences" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-conferences" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Conferences</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-conferences">    
         <li>
-    <a class="dropdown-item" href="../../conferences/index.html" rel="" target="">
+    <a class="dropdown-item" href="../../conferences/index.html">
  <span class="dropdown-text">2024 AP-LS Conference</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../conferences/preconference/index.html" rel="" target="">
+    <a class="dropdown-item" href="../../conferences/preconference/index.html">
  <span class="dropdown-text">2024 Preconference Workshops</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../conferences/archive/index.html" rel="" target="">
+    <a class="dropdown-item" href="../../conferences/archive/index.html">
  <span class="dropdown-text">Past Conferences</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../resources/index.html" rel="" target="">
- <span class="menu-text">Resources</span></a>
+    <a class="nav-link" href="../../resources/index.html"> 
+<span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../membership/index.html" rel="" target="">
- <span class="menu-text">Membership</span></a>
+    <a class="nav-link" href="../../membership/index.html"> 
+<span class="menu-text">Membership</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -268,13 +302,14 @@ background-size: cover;
     <h2 id="toc-title">Job Type</h2>
    
   <ul>
-  <li><a href="#fa-graduation-cap-academic-positions" id="toc-fa-graduation-cap-academic-positions" class="nav-link active" data-scroll-target="#fa-graduation-cap-academic-positions"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> Academic Positions</a></li>
-  <li><a href="#fa-user-tie-professional-positions" id="toc-fa-user-tie-professional-positions" class="nav-link" data-scroll-target="#fa-user-tie-professional-positions"><i class="fa-solid fa-user-tie" aria-label="user-tie"></i> Professional Positions</a></li>
+  <li><a href="#academic-positions" id="toc-academic-positions" class="nav-link active" data-scroll-target="#academic-positions"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> Academic Positions</a></li>
+  <li><a href="#professional-positions" id="toc-professional-positions" class="nav-link" data-scroll-target="#professional-positions"><i class="fa-solid fa-user-tie" aria-label="user-tie"></i> Professional Positions</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
 
 
 
@@ -311,10 +346,37 @@ Post a Research Postdoc
 </div>
 </div>
 </div>
-<section id="fa-graduation-cap-academic-positions" class="level2">
-<h2 class="anchored" data-anchor-id="fa-graduation-cap-academic-positions"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> Academic Positions</h2>
+<section id="academic-positions" class="level2">
+<h2 class="anchored" data-anchor-id="academic-positions"><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> Academic Positions</h2>
 <div id="listing-academic" class="quarto-listing quarto-listing-container-custom">
+
 <div class="jobs">
+  
+    
+  
+
+    <div class="job-entry">
+      <div class="metadata">
+        <p class="date">1/16/24</p>
+      </div>
+      <div class="body">
+        <p class="title">Assistant or Associate Professor of Psychology</p>
+            <p class="details">University of North Texas | Denton, Texas</p>
+          
+    
+    <ul class="job-links">
+      <li class="job-link">
+        <a href="https://jobs.untsystem.edu/postings/78778" class="listing-name">
+        <i class="fa-solid fa-circle-info" style="color: $primary;"></i> View post »
+        </a>
+      </li>
+    </ul>
+  </div>  
+    
+  </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">12/9/23</p>
@@ -322,6 +384,8 @@ Post a Research Postdoc
       <div class="body">
         <p class="title">Teaching Faculty, Forensic Psychology - DC</p>
             <p class="details">The Chicago School of Professional Psychology | Washington, DC</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://apptrkr.com/4835177" class="listing-name">
@@ -330,7 +394,11 @@ Post a Research Postdoc
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">12/9/23</p>
@@ -338,6 +406,8 @@ Post a Research Postdoc
       <div class="body">
         <p class="title">Assistant Professor of Criminal Justice (Forensic Sciences)</p>
             <p class="details">California State University, Stanislaus | Turlock, California</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://careers.csustan.edu/st/en-us/job/526738/assistant-professor-of-criminal-justice-forensic-sciences" class="listing-name">
@@ -346,14 +416,20 @@ Post a Research Postdoc
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">12/9/23</p>
       </div>
       <div class="body">
         <p class="title">Tenure-Track in Clinical Psychology – Department of Psychology</p>
-            <p class="details">Saint Mary's University | Halifax, Nova Scotia CA</p>
+            <p class="details">Saint Marys University | Halifax, Nova Scotia CA</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://www.smu.ca/about/faculty-employment-opportunities.html" class="listing-name">
@@ -362,7 +438,11 @@ Post a Research Postdoc
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/20/23</p>
@@ -370,6 +450,8 @@ Post a Research Postdoc
       <div class="body">
         <p class="title">Assistant, Associate or Full Professor - Psychology &amp; Law</p>
             <p class="details">Cornell University | Ithaca, New York</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://academicjobsonline.org/ajo/jobs/26396" class="listing-name">
@@ -378,7 +460,11 @@ Post a Research Postdoc
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/9/23</p>
@@ -386,6 +472,8 @@ Post a Research Postdoc
       <div class="body">
         <p class="title">Presidential Postdoctoral Fellowship in Psychology (School of Interdisciplinary Forensics)</p>
             <p class="details">Arizona State University | ASUs West Campus</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://apply.interfolio.com/134016" class="listing-name">
@@ -394,7 +482,11 @@ Post a Research Postdoc
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/9/23</p>
@@ -402,6 +494,8 @@ Post a Research Postdoc
       <div class="body">
         <p class="title">Assistant Professor Forensic Psychology</p>
             <p class="details">Florida Tech | Melbourne, Florida</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://floridatech.wd5.myworkdayjobs.com/en-US/FloridaTechCareers/job/Assistant-Professor-Forensic-Psychology_R3606" class="listing-name">
@@ -410,13 +504,22 @@ Post a Research Postdoc
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+     
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
 <div class="hidden" data-render-id="pipeline-listing-professional">
+
 <div class="jobs">
+  
+    
+  
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">1/10/24</p>
@@ -424,6 +527,8 @@ No matching items
       <div class="body">
         <p class="title">Child Psychologist (Forensic)</p>
             <p class="details">Shared Health | Winnipeg, Manitoba</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://careers.wrha.mb.ca/job/Winnipeg-Psychologist-2-Child-Psychologist-%28Forensic%29-MB/575409817/" class="listing-name">
@@ -432,7 +537,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">1/10/24</p>
@@ -440,6 +549,8 @@ No matching items
       <div class="body">
         <p class="title">Clinical Director</p>
             <p class="details">Civil Commitment Unit | Cherokee, Iowa</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://www.governmentjobs.com/careers/iowa/jobs/4335357/clinical-director-ccuso?location[0]=cherokee%20-%2051012%20-%20cherokee%20county&amp;sort=PositionTitle%7CAscending&amp;pagetype=jobOpportunitiesJobs" class="listing-name">
@@ -448,7 +559,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">1/6/24</p>
@@ -456,6 +571,8 @@ No matching items
       <div class="body">
         <p class="title">Forensic Evaluator</p>
             <p class="details">Lithia Forensics &amp; Consulting, LLC | Salem, Oregon</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://lithiaforensics.com/employment" class="listing-name">
@@ -464,7 +581,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">12/13/23</p>
@@ -472,6 +593,8 @@ No matching items
       <div class="body">
         <p class="title">Forensic Clinical Psychologist</p>
             <p class="details">Selkirk Mental Health Centre | Selkirk, Manitoba</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://careers.wrha.mb.ca/job/Selkirk-Psychologist-3-Forensic-Program-SMHC-Repost-MB/572267717/" class="listing-name">
@@ -480,7 +603,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/28/23</p>
@@ -488,6 +615,8 @@ No matching items
       <div class="body">
         <p class="title">Counselor</p>
             <p class="details">Harris County CSCD | Houston, Texas</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://hccscd.bamboohr.com/careers/5" class="listing-name">
@@ -496,7 +625,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/28/23</p>
@@ -504,6 +637,8 @@ No matching items
       <div class="body">
         <p class="title">Clinical Assessment Specialist</p>
             <p class="details">Harris County CSCD | Houston, Texas</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://hccscd.bamboohr.com/careers/4" class="listing-name">
@@ -512,7 +647,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/20/23</p>
@@ -520,6 +659,8 @@ No matching items
       <div class="body">
         <p class="title">Forensic Evaluator - Psychologist</p>
             <p class="details">New Hampshire Office of the Forensic Examiner - Wexford Health Sources, Inc. | Concord, New Hampshire</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://jobs.wexfordhealth.com/job/17833-forensic-evaluator-psychologist-concord-nh/" class="listing-name">
@@ -528,7 +669,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/20/23</p>
@@ -536,6 +681,8 @@ No matching items
       <div class="body">
         <p class="title">Litigation Psychology Associate</p>
             <p class="details">Courtroom Sciences, Inc. | Irving, Texas or Remote</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://go.cultureindex.com/s/95op9WHd7m" class="listing-name">
@@ -544,7 +691,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/13/23</p>
@@ -552,6 +703,8 @@ No matching items
       <div class="body">
         <p class="title">Research Associate</p>
             <p class="details">Fillichio &amp; Hastings | Remote</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://www.linkedin.com/company/fillichio-hastings-inc/posts/?feedView=all" class="listing-name">
@@ -560,7 +713,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/9/23</p>
@@ -568,6 +725,8 @@ No matching items
       <div class="body">
         <p class="title">Forensic Psychologist</p>
             <p class="details">Cuyahoga County Court of Common Pleas, General Division, Court Psychiatric Clinic | Cleveland, Ohio</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://cp.cuyahogacounty.us/court-information/employment-opportunities/forensic-psychologist-full-time/" class="listing-name">
@@ -576,7 +735,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/9/23</p>
@@ -584,6 +747,8 @@ No matching items
       <div class="body">
         <p class="title">Treatment Program Administrator</p>
             <p class="details">State of Iowa Department of Health and Human Services/Civil Commitment Unit for Sexual Offenders | Cherokee, Iowa</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://www.governmentjobs.com/careers/iowa/jobs/4266039/treatment-program-administrator?location[0]=cherokee%20-%2051012%20-%20cherokee%20county&amp;sort=PositionTitle%7CAscending&amp;pagetype=jobOpportunitiesJobs" class="listing-name">
@@ -592,7 +757,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/9/23</p>
@@ -600,6 +769,8 @@ No matching items
       <div class="body">
         <p class="title">Psychology Administrator</p>
             <p class="details">Cherokee Mental Health Institute - Civil Commitment Unit | Cherokee, Iowa</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://www.governmentjobs.com/careers/iowa/jobs/4269163/psychology-administrator" class="listing-name">
@@ -608,7 +779,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/9/23</p>
@@ -616,6 +791,8 @@ No matching items
       <div class="body">
         <p class="title">Treatment Program Administrator</p>
             <p class="details">Cherokee Mental Health Institute - Civil Commitment Unit | Cherokee, Iowa</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://www.governmentjobs.com/careers/iowa/jobs/4266039/treatment-program-administrator" class="listing-name">
@@ -624,7 +801,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+     
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -633,10 +814,15 @@ No matching items
 
 </div>
 </section>
-<section id="fa-user-tie-professional-positions" class="level2">
-<h2 class="anchored" data-anchor-id="fa-user-tie-professional-positions"><i class="fa-solid fa-user-tie" aria-label="user-tie"></i> Professional Positions</h2>
+<section id="professional-positions" class="level2">
+<h2 class="anchored" data-anchor-id="professional-positions"><i class="fa-solid fa-user-tie" aria-label="user-tie"></i> Professional Positions</h2>
 <div id="listing-professional" class="quarto-listing quarto-listing-container-custom">
+
 <div class="jobs">
+  
+    
+  
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">1/10/24</p>
@@ -644,6 +830,8 @@ No matching items
       <div class="body">
         <p class="title">Child Psychologist (Forensic)</p>
             <p class="details">Shared Health | Winnipeg, Manitoba</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://careers.wrha.mb.ca/job/Winnipeg-Psychologist-2-Child-Psychologist-%28Forensic%29-MB/575409817/" class="listing-name">
@@ -652,7 +840,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">1/10/24</p>
@@ -660,6 +852,8 @@ No matching items
       <div class="body">
         <p class="title">Clinical Director</p>
             <p class="details">Civil Commitment Unit | Cherokee, Iowa</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://www.governmentjobs.com/careers/iowa/jobs/4335357/clinical-director-ccuso?location[0]=cherokee%20-%2051012%20-%20cherokee%20county&amp;sort=PositionTitle%7CAscending&amp;pagetype=jobOpportunitiesJobs" class="listing-name">
@@ -668,7 +862,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">1/6/24</p>
@@ -676,6 +874,8 @@ No matching items
       <div class="body">
         <p class="title">Forensic Evaluator</p>
             <p class="details">Lithia Forensics &amp; Consulting, LLC | Salem, Oregon</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://lithiaforensics.com/employment" class="listing-name">
@@ -684,7 +884,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">12/13/23</p>
@@ -692,6 +896,8 @@ No matching items
       <div class="body">
         <p class="title">Forensic Clinical Psychologist</p>
             <p class="details">Selkirk Mental Health Centre | Selkirk, Manitoba</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://careers.wrha.mb.ca/job/Selkirk-Psychologist-3-Forensic-Program-SMHC-Repost-MB/572267717/" class="listing-name">
@@ -700,7 +906,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/28/23</p>
@@ -708,6 +918,8 @@ No matching items
       <div class="body">
         <p class="title">Counselor</p>
             <p class="details">Harris County CSCD | Houston, Texas</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://hccscd.bamboohr.com/careers/5" class="listing-name">
@@ -716,7 +928,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/28/23</p>
@@ -724,6 +940,8 @@ No matching items
       <div class="body">
         <p class="title">Clinical Assessment Specialist</p>
             <p class="details">Harris County CSCD | Houston, Texas</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://hccscd.bamboohr.com/careers/4" class="listing-name">
@@ -732,7 +950,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/20/23</p>
@@ -740,6 +962,8 @@ No matching items
       <div class="body">
         <p class="title">Forensic Evaluator - Psychologist</p>
             <p class="details">New Hampshire Office of the Forensic Examiner - Wexford Health Sources, Inc. | Concord, New Hampshire</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://jobs.wexfordhealth.com/job/17833-forensic-evaluator-psychologist-concord-nh/" class="listing-name">
@@ -748,7 +972,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/20/23</p>
@@ -756,6 +984,8 @@ No matching items
       <div class="body">
         <p class="title">Litigation Psychology Associate</p>
             <p class="details">Courtroom Sciences, Inc. | Irving, Texas or Remote</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://go.cultureindex.com/s/95op9WHd7m" class="listing-name">
@@ -764,7 +994,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/13/23</p>
@@ -772,6 +1006,8 @@ No matching items
       <div class="body">
         <p class="title">Research Associate</p>
             <p class="details">Fillichio &amp; Hastings | Remote</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://www.linkedin.com/company/fillichio-hastings-inc/posts/?feedView=all" class="listing-name">
@@ -780,7 +1016,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/9/23</p>
@@ -788,6 +1028,8 @@ No matching items
       <div class="body">
         <p class="title">Forensic Psychologist</p>
             <p class="details">Cuyahoga County Court of Common Pleas, General Division, Court Psychiatric Clinic | Cleveland, Ohio</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://cp.cuyahogacounty.us/court-information/employment-opportunities/forensic-psychologist-full-time/" class="listing-name">
@@ -796,7 +1038,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/9/23</p>
@@ -804,6 +1050,8 @@ No matching items
       <div class="body">
         <p class="title">Treatment Program Administrator</p>
             <p class="details">State of Iowa Department of Health and Human Services/Civil Commitment Unit for Sexual Offenders | Cherokee, Iowa</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://www.governmentjobs.com/careers/iowa/jobs/4266039/treatment-program-administrator?location[0]=cherokee%20-%2051012%20-%20cherokee%20county&amp;sort=PositionTitle%7CAscending&amp;pagetype=jobOpportunitiesJobs" class="listing-name">
@@ -812,7 +1060,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/9/23</p>
@@ -820,6 +1072,8 @@ No matching items
       <div class="body">
         <p class="title">Psychology Administrator</p>
             <p class="details">Cherokee Mental Health Institute - Civil Commitment Unit | Cherokee, Iowa</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://www.governmentjobs.com/careers/iowa/jobs/4269163/psychology-administrator" class="listing-name">
@@ -828,7 +1082,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+
     <div class="job-entry">
       <div class="metadata">
         <p class="date">11/9/23</p>
@@ -836,6 +1094,8 @@ No matching items
       <div class="body">
         <p class="title">Treatment Program Administrator</p>
             <p class="details">Cherokee Mental Health Institute - Civil Commitment Unit | Cherokee, Iowa</p>
+          
+    
     <ul class="job-links">
       <li class="job-link">
         <a href="https://www.governmentjobs.com/careers/iowa/jobs/4266039/treatment-program-administrator" class="listing-name">
@@ -844,7 +1104,11 @@ No matching items
       </li>
     </ul>
   </div>  
+    
   </div>
+  
+     
+     
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -895,6 +1159,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -963,13 +1254,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -1048,10 +1341,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1061,8 +1353,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1075,6 +1376,120 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1118,6 +1533,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1143,6 +1559,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1205,8 +1647,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Copyright © 2023 <a href="https://apls.memberclicks.net/">American Psychology-Law Society</a></div>   
-    <div class="nav-footer-center"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfOL2JsE-YbvqH09-S6zcukZ6qiOycK98DjXa08MDygMTWBYA/viewform?usp=sf_link">Report an issue</a></div>
+    <div class="nav-footer-left">
+<p>Copyright © 2023 <a href="https://apls.memberclicks.net/">American Psychology-Law Society</a></p>
+</div>   
+    <div class="nav-footer-center">
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfOL2JsE-YbvqH09-S6zcukZ6qiOycK98DjXa08MDygMTWBYA/viewform?usp=sf_link">Report an issue</a></p>
+</div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
@@ -1243,6 +1689,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 
