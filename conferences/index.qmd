@@ -13,47 +13,6 @@ knitr::opts_chunk$set(echo = TRUE)
 source("../assets/apls_functions.R")
 ```
 
-```{=html}
-    <body id="page-top" data-spy="scroll" data-target="side-menu">
-      <nav class="side-menu">
-        <ul>
-          <li class="hidden active">
-            <a class="page-scroll" href="#page-top"></a>
-          </li>
-          <li>
-            <a href="#info" class="page-scroll">
-              <span class="menu-title">Info</span>
-              <span class="dot"></span>
-            </a>
-          </li>
-          <li>
-            <a href="#call" class="page-scroll">
-              <span class="menu-title">Call for Proposals</span>
-              <span class="dot"></span>
-            </a>
-          </li>
-          <li>
-          <a href="#hotel" class="page-scroll">
-              <span class="menu-title">Hotel</span>
-              <span class="dot"></span>
-            </a>
-          </li>
-          <li>
-            <a href="#preconference" class="page-scroll">
-              <span class="menu-title">Preconference</span>
-              <span class="dot"></span>
-            </a>
-          </li>
-          <li>
-          <a href="#schedule" class="page-scroll">
-              <span class="menu-title">Schedule</span>
-              <span class="dot"></span>
-            </a>
-          </li>
-          <li>
-        </ul>
-      </nav>
-```
 ::: column-screen
 ::: hero-banner
 ::: content-block
@@ -75,13 +34,17 @@ source("../assets/apls_functions.R")
 
 ::: grid
 ::: {.g-col-12 .g-col-md-6 .col-v-center}
+
+::: vspace
+:::
+
 The 2024 APLS Conference will be held at The Westin Bonaventure Hotel and Suites in Los Angeles, California from March 21-23.
 
 [Add to Calender](https://www.addevent.com/event/My18398113){.btn-action-primary .btn-action .btn .btn-primary role="button"}
 :::
 
 ::: {.g-col-12 .g-col-md-6 .col-v-center}
-![](images/2024_announcement.png){width="300"}
+![](images/2024_cover_banner.png){width="350"}
 :::
 :::
 :::
@@ -165,7 +128,7 @@ Looking forward to seeing everyone in March!
 
 REFRESHMENTS WILL BE PROVIDED AFTER THE RACE
 
-[COST: TBD]{.badge .bg-warning}
+[COST: $25]{.badge .bg-warning}
 
 ***Funds raised are used to support student committee conference awards***
 :::
