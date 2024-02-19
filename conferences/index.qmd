@@ -354,6 +354,10 @@ At this year's conference we are excited to offer [**two**]{.underline} full day
 ::: {.simple-info}
 ::: {.panel-tabset .box-shadow}
 
+## 2024 Sponsors 
+
+![](sponsors/2024/sponsors.png)
+
 ## {{< fa bullhorn >}} Info
 Signing up as a Business Partner of AP-LS has never been easier. Select your sponsorship, upload your logo, register your staff and make a payment all in one place.
 
