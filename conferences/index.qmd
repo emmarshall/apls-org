@@ -21,7 +21,7 @@ source("../assets/apls_functions.R")
 ### Los Angeles, California \| March 21-23, 2024
 
 ::: hero-buttons
-[Register Now](https://apls.memberclicks.net/24conferencereg#!/){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [Learn More](#register){.btn-action .btn .btn-secondary role="button"}
+[Register Now](https://apls.memberclicks.net/24conferencereg#!/){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [View Program](https://drive.google.com/file/d/1u76swGfinzz9w4rcVZWDajsBVyta_FDc/view?usp=sharing){.btn-action .btn .btn-secondary role="button"}
 :::
 :::
 :::
@@ -195,9 +195,9 @@ If you have any other questions, please contact:
 ::: column-screen
 ::: {.simple-info-blue .alt-background-blue}
 ::: content-block-blue
-### The 2024 APLS Annual Conference DRAFT Program is now available! 
+### The 2024 APLS Annual Conference Program Grid is now available! 
 
-[View Program {{< fa arrow-right >}}](https://drive.google.com/file/d/11XKPQH2qxnAYYbv0X5vNr1I2FfTPvf9e/view?usp=sharing){.btn-action .btn .btn-secondary .btn-lg role="button"}
+[View Program {{< fa arrow-right >}}](https://drive.google.com/file/d/1u76swGfinzz9w4rcVZWDajsBVyta_FDc/view?usp=sharing){.btn-action .btn .btn-secondary .btn-lg role="button"}
 
 :::
 :::
@@ -394,14 +394,14 @@ Signing up as a Business Partner of AP-LS has never been easier. Select your spo
 ## {{< fa file-pdf >}} Program Grid
 
 <div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-center justify-content-sm-start" role="group" aria-label="PDF Links">
-<a href="https://drive.google.com/file/d/11XKPQH2qxnAYYbv0X5vNr1I2FfTPvf9e/view?usp=sharing" class="btn btn-outline-primary"><i class="bi bi-file-earmark-pdf me-1"></i> Download </a>
+<a href="https://drive.google.com/file/d/1u76swGfinzz9w4rcVZWDajsBVyta_FDc/view?usp=sharing" class="btn btn-outline-primary"><i class="bi bi-file-earmark-pdf me-1"></i> Download </a>
 </div>
 
 ::: vspace
 :::
 
 ```{=html}
-<iframe class="news ar4x3" src="files/AP-LS_2024_Conference_Program_Grid_DRAFT.pdf" title="DRAFT Program Grid"></iframe>
+<iframe class="news ar4x3" src="files/AP-LS_2024_Conference_Program_Grid_Feb2024.pdf" title="FINAL Program Grid"></iframe>
 ```
 
 
