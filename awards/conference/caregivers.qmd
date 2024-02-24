@@ -12,7 +12,7 @@ categories:
   - Caregiving Grants
 submission-info:
   sponsor: AP-LS Professional Development of Women Committee
-  deadline: January 27
+  deadline: "January 27, `r format(Sys.Date(), '%Y')`"
 links:
 - icon: envelope-at
   name: Contact

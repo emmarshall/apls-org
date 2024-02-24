@@ -3,7 +3,7 @@ pagetitle: "Welcome From Our President"
 about: 
   id: hero-heading
   template: trestles
-  image: daniel_murrie.jpg
+  image: daniel_murrie.png
   image-shape: round
   image-width: 14em
   links:

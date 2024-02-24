@@ -373,6 +373,30 @@ div.navbar-collapse ul.navbar-nav li {
 
 
 
+// avatar
+
+.avatar {
+  // width: 250px;
+  // height: 250px;
+   margin-bottom: 70px;
+   margin-right: 50px;
+   position: relative;
+   float: left;
+  height: 16rem; // 16 * 0.25rem = 4rem
+  width: 16rem; // 16 * 0.25rem = 4rem
+  border-radius: 50%;
+  border: 4px solid $black;
+  background-size: cover;
+  background-position: center;
+  //box-shadow: $avatar-shadow;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: translateX(3px) translateY(3px);
+    box-shadow: none;
+  }
+}
+
 // Shrink blocks of code
 pre.text, pre.sourceCode, .cell-output pre {
     font-size: 0.75rem;
@@ -753,7 +777,7 @@ pre.text, pre.sourceCode, .cell-output pre {
   }
 }
 
-
+// carousel continer 
 // boxed feature grid
 .bg-light {
   background-color: $secondary !important;

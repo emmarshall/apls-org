@@ -152,15 +152,6 @@ div.quarto-about-jolla .about-image {
     margin-top: 2em;
 }
 
-.portrait {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 70px;
-    margin-right: 50px;
-    position: relative;
-    float: left;
-}
-
 /*carousel*/
 
 .card .source-code {
@@ -185,6 +176,7 @@ div.quarto-about-jolla .about-image {
 .carousel .carousel-control-next-icon {
   margin-bottom: 110px;
 }
+
 
 /*more info link thing*/
 

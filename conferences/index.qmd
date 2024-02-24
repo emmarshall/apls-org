@@ -121,6 +121,9 @@ Looking forward to seeing everyone in March!
 ::: simple-info
 ##### Explore Los Angeles with colleagues on a 5k Fun Run, sponsored by the AP-LS Student Committee!
 
+[Register Today {{< fa arrow-right >}}](https://apls.memberclicks.net/index.php?option=com_mcform&view=ngforms&id=2197091#!/){.btn-action .btn .btn-primary .btn-lg role="button"}
+
+
 ### Friday, March 22, 2024
 
 ::: {.callout-note appearance="simple"}
@@ -144,7 +147,7 @@ Students are eligible to receive complimentary conference registration by volunt
 
     | *"This letter of intent is made with the full understanding that \[insert student name here\] will volunteer as staff support for the AP-LS 2024 conference for which the registration scholarship has been awarded. Failure to serve will not only void the scholarship but will jeopardize future requests. Should I attend the conference and fail to serve, payment in full of applicable fees will be rendered to AP-LS upon request."*
 
-2.  All Submissions are due **November 24th, 2023** and will be reviewed and accepted by **November 30th**. If you are accepted you will receive a discount code for registration. We highly recommend waiting to register until receiving this discount code as refunds can often take some time.
+2.  Submissions for 2024 are **closed**. If you are accepted you will receive a discount code for registration. We highly recommend waiting to register until receiving this discount code as refunds can often take some time.
 
 
 

@@ -10,8 +10,8 @@ categories:
 submission-info:
   sponsor: AP-LS Undergraduate Paper Award Committee
   deadline: 
-  - January 15 
-  - September 15
+  - "January 15, `r format(Sys.Date(), '%Y')`" 
+  - "September 15, `r format(Sys.Date(), '%Y')`"
 links:
 - icon: envelope-at
   name: Apply here

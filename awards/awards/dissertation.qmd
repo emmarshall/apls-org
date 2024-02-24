@@ -8,7 +8,7 @@ categories:
   - Dissertation
 submission-info:
   sponsor: AP-LS Dissertation Award Committee
-  deadline: December 31 
+  deadline: "December 31, `r format(Sys.Date(), '%Y')`"
 links:
 - icon: envelope-at
   name: Contact
@@ -34,7 +34,7 @@ First, second and third-place awards are conferred annually, and winners will be
 
 ## Eligibility
 
-To be eligible for the award, you must be a member of AP-LS and have defended your dissertation during the calendar year of the submission deadline (e.g., if the deadline for submissions is December 31, 2023, then you must have defended your dissertation in 2023).
+To be eligible for the award, you must be a member of AP-LS and have defended your dissertation during the calendar year of the submission deadline (e.g., if the deadline for submissions is December 31, `r format(Sys.Date(), '%Y')`, then you must have defended your dissertation in `r format(Sys.Date(), '%Y')`).
 
 You do not need to have graduated by December 31 to apply.
 

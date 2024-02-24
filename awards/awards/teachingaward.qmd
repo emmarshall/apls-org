@@ -7,7 +7,7 @@ categories:
   - Early Career Professionals
 submission-info:
   sponsor: AP-LS Teaching, Training and Career Committee
-  deadline: December 15
+  deadline: "December 15, `r format(Sys.Date(), '%Y')`"
 links:
 - icon: send
   name: Submit here

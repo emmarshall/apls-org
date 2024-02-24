@@ -7,7 +7,7 @@ categories:
   - American Academy of Forensic Psychology
 submission-info:
   sponsor: AP-LS & American Academy of Forensic Psychology
-  deadline: November 30 
+  deadline: "November 30, `r format(Sys.Date(), '%Y')`" 
 links:
 - icon: info-circle
   name: Learn More

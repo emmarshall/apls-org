@@ -7,8 +7,8 @@ categories:
 submission-info: 
   sponsor: AP-LS Research Committee
   deadline: 
-  - October 15 (Pre-proposal) 
-  - December 16 (Full-proposal)
+  - "October 15, `r format(Sys.Date(), '%Y')` (Pre-proposal)"
+  - "December 16, `r format(Sys.Date(), '%Y')` (Full-proposal)"
 links:
 - icon: envelope-at
   name: Contact
@@ -56,7 +56,7 @@ At least one of the co-PIs needs to be an [AP-LS member](../../membership/index.
 
 ## Pre-Proposal Process
 
-Interested researchers should submit a 1,000-word prospectus to the committee by October 15 at 11:59 p.m. PST. All materials are submitted through the Div. 41 (AP-LS) awards page.
+Interested researchers should submit a 1,000-word prospectus to the committee by October 15, `r format(Sys.Date(), '%Y')` at 11:59 p.m. PST. All materials are submitted through the Div. 41 (AP-LS) awards page.
 
 <a class="btn btn-primary " href="https://awards.ap-ls.org/default.asp" role="button">Click to Apply</a>
 

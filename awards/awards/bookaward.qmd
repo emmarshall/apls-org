@@ -7,7 +7,7 @@ categories:
 submission-info:
   sponsor: AP-LS Book Award Committee
   deadline: 
-  - November 1
+  - "November 1, `r format(Sys.Date(), '%Y')`"
 links:
 - icon: send
   name: Submit here
@@ -57,6 +57,7 @@ Self nominations are encouraged.
 #| label: Previous winners table 
 #| warning: false
 #| echo: false
+#| cache: true
 library(reactablefmtr)
 library(reactable)
 library(htmltools)

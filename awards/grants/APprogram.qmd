@@ -10,7 +10,7 @@ categories:
   - BRIDGE Committee
 submission-info:
   sponsor: AP-LS BRIDGE Committee
-  deadline: January 15
+  deadline: "January 15, `r format(Sys.Date(), '%Y')`"
 links:
 - icon: envelope-at
   name: Contact

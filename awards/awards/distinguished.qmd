@@ -6,7 +6,7 @@ categories:
   - Distinguished Career
 submission-info:  
   sponsor: AP-LS Executive Committee
-  deadline: January 1
+  deadline: "January 1, `r format(Sys.Date(), '%Y')`"
 links:
 - icon: send
   name: Submit here

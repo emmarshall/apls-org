@@ -7,7 +7,7 @@ categories:
   - Undergraduate
 submission-info:
   sponsor: AP-LS Undergraduate Paper Award Committee
-  deadline: June 30
+  deadline: "June 30, `r format(Sys.Date(), '%Y')`"
 links:
 - icon: send
   name: Submit here

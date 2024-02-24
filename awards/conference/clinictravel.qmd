@@ -9,7 +9,7 @@ categories:
   - Practice
 submission-info:
   sponsor: AP-LS Practice Committee
-  deadline: December 1
+  deadline: "December 1, `r format(Sys.Date(), '%Y')`"
 links:
 - icon: send
   name: Apply here
@@ -49,7 +49,7 @@ Preference will be given to psychologists at any level who do not have or have l
 
 ## How to Apply
 
-Applications are due by December 1, 2023
+Applications are due by December 1, `r format(Sys.Date(), '%Y')`
 
 <a class="btn btn-primary" href="https://tinyurl.com/CTGapplication" role="button">Complete CTG Application here</a>
 

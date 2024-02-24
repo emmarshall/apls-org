@@ -65,7 +65,7 @@ padding-bottom: 1em;
   padding-top: 2em;
 }
 .carousel img {
-  width: 70%;
+  width: 40%;
   margin-bottom: 110px;
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -141,26 +141,11 @@ Become a member!
 :::
 
 ::: {.column .col-v-center width="70%"}
-```{r}
-#| echo: false
-profile_circle_preview <- '
-<div class="p-3 text-center rounded-circle m-1 shadow-lg" style="background-size: cover; background-image: url({image}); width: 225px; height: 225px">
-<div class="visually-hidden">{alt}</div>
-</div>'
-profiles_cropped <- list(
-  image = "about/presidents/daniel_murrie.jpg",
-  alt = c(
-    "Picture of Daniel Murrie"
-  )
-)
-profiles_cropped_html <- glue::glue_data(profiles_cropped, profile_circle_preview)
-profiles_cropped_html <- htmltools::HTML(profiles_cropped_html)
-```
 
-::: portrait
-`r profiles_cropped_html`
-:::
+::: vspace2
+::: 
 
+![](about/presidents/daniel_murrie.png){.avatar}
 
 # Welcome from Our President
 ::: vspace

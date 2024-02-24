@@ -7,7 +7,7 @@ categories:
   - Fellowship
 submission-info:
   sponsor: AP-LS Fellows Committee
-  deadline: December 15
+  deadline: "December 15, `r format(Sys.Date(), '%Y')`"
 links:
 - icon: envelope-at
   name: Contact
@@ -19,6 +19,11 @@ links:
   name: Apply here
   url: "https://www.apa.org/members/your-membership/fellows/index"
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("../../assets/apls_functions.R")
+```
 
 <hr>
 
