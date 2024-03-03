@@ -40,23 +40,25 @@ $gold: #ffdc90;
 $primary: #191E29 !default;
 $secondary: #0B0E14 !default;
 $dark: #262626 !default;
-$light: #faffd2 !default;
+$light: #E1E8F5 !default;
 
 //callouts
-$note: #E1E8F5 !default;
+$note: $light !default;
 $tip: $yellow !default;
 $caution: $gold !default; 
+$tip: $gold !default;
+$info: $steel !default;
 
 // main content
 $body-bg:  $primary !default;
 $body-color:  #fdfdfd !default;
-$headings-color: #E1E8F5 !default;
+$headings-color: #faffd2 !default;
 $card-border-color:  $light !default;
 $form-select-border-color: $yellow !default; 
 
 // text specials
-$link-color: $tip !default; 
-$link-hover-color: $light !default;
+$link-color: $light !default; 
+$link-hover-color: $gold  !default;
 
 
 // nav bar
@@ -328,6 +330,13 @@ div.navbar-collapse ul.navbar-nav li {
    margin-bottom: 2rem;
 }
 
+
+.simple-info h5 {
+   margin-top: 1rem;
+   color: $headings-color;
+   margin-bottom: 2rem;
+}
+
 // dark-alternative
 
 .content-block-blue {
@@ -345,9 +354,11 @@ div.navbar-collapse ul.navbar-nav li {
 }
 
 .simple-info-blue {
+   margin-top: 1rem;
    text-align: center;
    color: $secondary;
    padding-bottom: 2rem;
+   margin-bottom: 2rem;
 }
 
 .simple-info-blue h2 {
@@ -357,10 +368,42 @@ div.navbar-collapse ul.navbar-nav li {
 }
 .simple-info-blue h3 {
    margin-top: 1rem;
-   color: $blue;
+   color: $secondary;
    margin-bottom: 2rem;
 }
 
+.simple-info-blue h5 {
+   margin-top: 1rem;
+   font-size: 1.5rem;
+   color: $secondary;
+   margin-bottom: 1rem;
+}
+
+
+// highlighting 
+
+%common-highlight {
+  text-transform: uppercase;
+  padding: 4px;
+  font-weight: 900;
+  border-radius: 4px;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  font-size: calc(1em - 0.2em); // smaller than inherited font-size
+
+}
+
+.highlight {
+  @extend %common-highlight;
+  background-color: $primary;
+  color: $gold;
+}
+
+.highlight-bright {
+  @extend %common-highlight;
+  background-color: $gold;
+  color: $primary;
+}
 
 
 // title blocks
@@ -441,16 +484,69 @@ pre.text, pre.sourceCode, .cell-output pre {
 // hero-banner
 .hero-banner {
   position: relative;
-  background-color: lighten($secondary, 20%);
+  background-color: lighten($secondary, 30%);
   display: flex;
   justify-content: center;
 }
 
 
+.carousel-caption {
+  color: $secondary;
+}
+
+.carousel-caption {
+    position: absolute;
+    text-transform: uppercase;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center
+}
+
+
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+  margin-bottom: 110px;
+  color: #fff;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fff
+}
+
+.carousel-dark .carousel-caption {
+    color: #fff
+}
+
+
+.carousel-control-prev,.carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff !important;
+    text-align: center;
+    background: none;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease
+}
+
 // set primary buttons 
 
 .btn-action-primary {
-  color: $secondary;
+  color: $primary;
   background-color: $light !important;
 }
 
@@ -462,6 +558,43 @@ pre.text, pre.sourceCode, .cell-output pre {
   min-width: 165px;
   border-radius: 30px;
   border: none;
+}
+
+
+// Outline buttons
+
+.btn-light,
+.btn-outline-primary,
+.btn-outline-light {
+  color: $headings-color;
+  text-transform: uppercase;
+
+  &:disabled,
+  &.disabled {
+    border: 1px solid $headings-color;
+  }
+}
+
+.btn-outline-primary {
+  border-color: $headings-color;
+
+
+  &:hover,
+  &:active {
+    background-color: shade-color($primary, 10%);
+    border-color: shade-color($primary, 10%);
+  }
+}
+
+.btn-light,
+.btn-outline-light {
+  border-color: shade-color($light, 10%);
+
+  &:hover,
+  &:active {
+    background-color: shade-color($light, 10%);
+    border-color: shade-color($light, 10%);
+  }
 }
 // set tabset panel styles
 
@@ -478,6 +611,8 @@ pre.text, pre.sourceCode, .cell-output pre {
 .tab-content {
   border: none;
   padding: 0;
+  color: $body-color;
+  background-color: $secondary;
 }
 
 .nav-tabs {
@@ -800,10 +935,10 @@ h5, .h5{
   padding-left: 50px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
 }
 
 .boxed-wrapper {
@@ -1498,12 +1633,6 @@ figcaption.blockquote-footer > cite {
   }
 }
 
-.syllabi-tbl {
-  margin-top: 1rem;
-  font-size: 1rem;
-  background-color: $headings-color !important;
-}
-
 .header {
   border-bottom-color: $light;
   color: $light;
@@ -1517,25 +1646,52 @@ figcaption.blockquote-footer > cite {
   border: 0;
 }
 
+
 .filters {
   display: flex;
   flex-wrap: wrap;
   margin-top: 1rem;
   margin-left: -32px;
   
-  .filter-input {
+  .filter-checkbox {
     margin-top: 0.5rem;
-    margin-left: 32px;
+    margin-left: 35px;
     flex: 1;
     min-width: 250px;
     
     label {
-      color: $headings-color;
-      font-weight: 600;
-      font-size: 0.80rem;
+      color: $gray-300;
+      font-weight: 700;
+      font-size: 1.15rem;
       letter-spacing: 0.4px;
       text-transform: uppercase;
     }
+    .control-label {
+    margin-bottom: 0;
+    color: $gray-700;
+    vertical-align: middle;
+}
+}
+    
+  .filter-input {
+    margin-top: 0.5rem;
+    margin-left: 35px;
+    flex: 1;
+    min-width: 250px;
+    
+    label {
+      color: $gray-300;
+      font-weight: 700;
+      font-size: 1.15rem;
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+    }
+    
+    .control-label {
+    margin-bottom: 0;
+    color: $gray-700;
+    vertical-align: middle;
+}
     
     select,
     input[type="search"] {
@@ -1548,26 +1704,9 @@ figcaption.blockquote-footer > cite {
 /* When selected, the text is yellow */
 .header[aria-sort='ascending'],
 .header[aria-sort='descending'] {
-  color: yellow;
+  color: $gold;
 }
-
-@media only screen and (max-width: 600px) {
-  .screen-inset {
-    .my-reactable-table {
-      font-size: 14px;
-      width: 100%;
-    }
-    
-    .crosstalk-filtered-select {
-      width: 100%;
-    }
-    
-    .crosstalk-filtered-checkbox {
-      display: block;
-      margin-bottom: 10px;
-    }
-  }
-}
+  
 
 
 // pricing tables

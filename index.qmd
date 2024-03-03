@@ -47,8 +47,8 @@ html {
   scroll-behavior: smooth;
 }
 .headline {
-font-size: 1.25em;
-font-weight: 300;
+font-size: 1.25rem;
+font-weight: 600;
 padding-bottom: 1em;
 }
 .headline p {
@@ -56,6 +56,7 @@ padding-bottom: 1em;
   padding-bottom: 0.2rem;
 }
 .headline a {
+  color: #f8f8f8;
   text-decoration: none;
 }
 .headline ul li {
@@ -65,7 +66,7 @@ padding-bottom: 1em;
   padding-top: 2em;
 }
 .carousel img {
-  width: 40%;
+  width: 60%;
   margin-bottom: 110px;
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
@@ -83,7 +84,7 @@ padding-bottom: 1em;
 
 :::
 
-::: vspace2
+::: vspace
 :::
 
 ::: {.column-screen}
@@ -125,27 +126,16 @@ div(class = "bg-light",
 :::
 :::
 
-::: {.simple-info-blue .alt-background-blue}
-::: content-block-blue
-### Want to learn more about Division 41 of APA and the American Psychology-Law Society? 
-
-Become a member! 
-
-[Learn more {{< fa arrow-right >}}](membership/index.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
-:::
-:::
-::: vspace
-:::
 
 ::: {.column .col-v-center width="15%"}
 :::
 
 ::: {.column .col-v-center width="70%"}
 
-::: vspace2
+::: vspace
 ::: 
 
-![](about/presidents/daniel_murrie.png){.avatar}
+![](about/presidents/daniel_murrie.jpeg){.avatar}
 
 # Welcome from Our President
 ::: vspace
@@ -165,8 +155,15 @@ Become a member!
 :::
 
 
+::: column-screen
+::: {.simple-info-blue .alt-background-blue}
+::: content-block-blue
+##### Want to learn more about Division 41 of APA and the American Psychology-Law Society? 
 
-::: {.column-screen}
+[Membership {{< fa arrow-right >}}](membership/index.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
+:::
+:::
+
 ::: grid
 ```{r}
 #| label: Row of sub-links

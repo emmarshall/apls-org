@@ -2,99 +2,6 @@
 
 /* @import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css); */
 
-.navbar-title:hover > .icon-line {
-  animation-duration: 600ms;
-  animation-name: line-expand;
-}
-  
-@keyframes line-expand {
-  from {
-    width: 0%;
-  }
-  
-  to {
-    width: 100%;
-  }
-}
-
-div.sourceCode{
-  background-color: black;
-}
-
-
-
-pre{
-  color: var(--navbar-fg);
-  background-color: #FBF9F4;
-  padding: 5px 5px 5px 5px;
-  border-radius: 0.25rem;
-}
-
-code{
-  color: var(--navbar-fg);
-}
-
-
-
-.listing-title{
-  color: #1B3264;
-  font-weight: 400;
-  font-size: 1.5em;;
-}
-
-.listing-title:hover {
-  color: lighten(#1B3264, 15%);
-}
-
-
-
-/* inline code */
-.post-body>p>code{
-  background-color: rgba(255,255,255,.1);
-}
-
-a.btn-links:hover{
-  background-color: rgba(255,255,255,.1)!important;
-}
-
-
-/* navbar kink */
-@media screen and (min-width: 999px) {
-
-
-.navbar-brand>img {
-    max-height: 43px;
-    width: auto;
-    padding-right: 6px;
-}
-
-.navbar-brand {
-    position: relative;
-    width: 170px;
-    left: 15px;
-    background-size: contain;
-}
-
-
-.quarto-grid-item img.thumbnail-image {
-   object-fit: scale-down;
-    padding-top: 0.2em;
-    padding-left: 0.1em;
-    padding-right: 0.1em
-}
-
-.quarto-grid-link:hover {
-  text-decoration: bold;
-}
-
-
-
-
-.thumbnail-image:hover{
-  opacity:35%;
-}
-
-
 .borderless{
   background-color: #FBF9F4;
 }
@@ -104,25 +11,6 @@ a.btn-links:hover{
 .center {
   position: absolute;
   text-align: center;
-}
-
-
-div.column.col-v-center{
-   vertical-align: middle;
-}
-
-
-
-div.quarto-post {
-    display: flex;
-    gap: 2em;
-    margin-bottom: 1.5em;
-    border-bottom: 1px solid #dee2e6;
-    align-content: center;
-}
-
-.home-title{
-  font-size: 2em;
 }
 
 .vspace {
@@ -139,18 +27,6 @@ div.quarto-post {
      padding: 1%;
   }
 
-.main {
-    margin-top: 0em;
-    margin-bottom: 1em;
-}
-
-div.quarto-about-jolla .about-image {
-    object-fit: cover;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1.5em;
-    margin-top: 2em;
-}
 
 /*carousel*/
 
@@ -159,11 +35,13 @@ div.quarto-about-jolla .about-image {
 }
 
 .carousel.card {
-  font-size: 16px;
+  font-size: 1.2rem;
   padding-top: 2em;
+  background-color: #1B3264;
 }
 
 .carousel.card a {
+  color: #FBF9F4;
   text-decoration: none;
 }
 
@@ -175,6 +53,7 @@ div.quarto-about-jolla .about-image {
 .carousel .carousel-control-prev-icon,
 .carousel .carousel-control-next-icon {
   margin-bottom: 110px;
+  color: #1B3264;
 }
 
 

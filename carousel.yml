@@ -1,19 +1,15 @@
-- caption: ""
-  image: "images/2024_announcement.png"
+- caption: "Ready for APLS 2024? Register Today!"
+  image: "conferences/images/2024_cover_banner.png"
   link: "https://ap-ls.org/conferences/"
+  
+- caption: "Register for the APLS 2024 Student Committee Fun Run!"
+  image: "conferences/images/2024_fun_run.png"
+  link: "https://ap-ls.org/conferences/#info"
   
 - caption: "Follow Law & Human Behavior"
   image: "images/lhb_sm.png"
   link: "https://twitter.com/lhb_apls"
   
-- caption: "Apply before Jan 27, 2024!"
-  image: "images/caregivers_grant2024.jpeg"
-  link: "https://ap-ls.org/awards/conference/caregivers"
-
-- caption: "Call for nominations!"
-  image: "images/mentorship_2024.jpeg"
-  link: "https://ap-ls.org/awards/awards/recaward"
-
 - caption: "New! Updated guide to graduate programs"
   image: "images/graduate_guide.png"
   link: "https://ap-ls.org/resources/training/graduate"

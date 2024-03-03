@@ -1,6 +1,37 @@
 /* css for conference page */
 
-.content-block {
+:root {
+    /* Light mode colors */
+    --background-light: #FBF9F4;
+    --text-color-light: #1B3264;
+    --secondary-text-color-light: #737475;
+
+    /* Dark mode colors */
+    --background-dark: #202124;
+    --text-color-dark: #e8eaed;
+    --secondary-text-color-dark: #9aa0a6;
+    
+    /* Set default colors for light mode */
+    --background-color: var(--background-light);
+    --text-color: var(--text-color-light);
+    --secondary-text-color: var(--secondary-text-color-light);
+}
+
+/* Check for preference of dark mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Use dark mode colors when dark mode is preferred */
+        --background-color: var(--background-dark);
+        --text-color: var(--text-color-dark);
+        --secondary-text-color: var(--secondary-text-color-dark);
+    }
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 35px;
+}
+
+  .content-block {
   padding-top: 20px;
   padding-bottom: 10px;
   margin-left: 30px;
@@ -23,6 +54,174 @@
 }
 }
 
+/* Usage in classes */
+.session-time {
+    color: var(--text-color); /* Use text color based on theme */
+}
+
+.hero-banner {
+    background-color: var(--background-color); /* Use background color based on theme */
+    color: var(--text-color); /* Use text color based on theme */
+}
+
+
+/* featured sessions */
+
+.plenary {
+    font-weight: 900;
+    font-size: 2rem;
+    align-items: left; 
+    font-family: 'Proza Libre';
+    text-align: left;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-underline-offset: 10px;
+
+    text-decoration-line: underline;
+    text-decoration-thickness: 25%;
+    margin-bottom: 20px;
+  
+}
+
+.session-title {
+    font-weight: 900;
+    font-size: 1.4rem;
+    align-items: left; 
+    font-family: 'Proza Libre';
+    text-align: left;
+    line-height: 1;
+    margin-bottom: 10px;
+    margin-top: 40px;
+
+}
+
+
+.session-time {
+    font-weight: 900;
+    font-size: 1.1rem;
+    font-family: 'Proza Libre';
+    line-height: -1.1;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+
+}
+
+.session-loc {
+    font-weight: 600;
+    font-size: .875rem;
+    font-family: 'Proza Libre';
+    line-height: -1.1;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 30px;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+
+}
+
+.session-description {
+    font-weight: 400;
+    font-family: 'Proza Libre';
+    font-size: 1rem;
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+.session-chair {
+    font-weight: 800;
+    font-family: 'Cormorant Garamond';
+    font-size: 1.1rem;
+    line-height: 0.8;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.session-bio {
+    font-weight: 400;
+    font-family: 'Cormorant Garamond';
+    font-size: 0.9rem;
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+
+
+.schedule-tbl {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.filter-wrapper {
+  text-align: center;
+  width: 60%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.title {
+  font-size: 1.5rem;
+}
+
+
+.detail-label {
+  margin: 1.25rem 0 0.25rem;
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.detail-header {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.detail-title {
+  margin-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.detail-description {
+  font-size: 0.875rem;
+}
+
+
+.schedule-detail {
+  padding: 24px;
+  box-shadow: inset 0 1px 3px #5f7093;
+  background: shift-color(#5f7093, -25%);
+  'Proza Libre', sans-serif;
+  color: #343a40;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .screen-inset .my-reactable-table {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .screen-inset .crosstalk-filtered-select {
+    width: 100%;
+  }
+  
+  .screen-inset .crosstalk-filtered-checkbox {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+
 .hero-banner {
   position: relative;
   color: #FBF9F4;
@@ -30,7 +229,7 @@
   display: flex;
   justify-content: center;
     /* Add the following background image properties */
-  background-image: url('images/banner.svg');
+  background-image: url('images/2024_cover_banner.svg');
   background-size: cover;
   background-position: center;
 }
@@ -43,7 +242,7 @@
 
 .hero-banner h3 {
   color: #ffcc00;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 

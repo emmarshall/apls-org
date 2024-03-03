@@ -37,10 +37,11 @@ $gold: #ffcc00;
 
 $primary:  $blue !default;
 $secondary: $cream !default;
-$tip: $steel !default;
+$tip: $gold !default;
+$info: $steel !default;
 
 // main content
-$body-bg:  #fdfdfd !default;
+$body-bg:  lighten($secondary, 2%) !default;
 $body-color:  $gray-900 !default;
 $headings-color: $primary !default;
 
@@ -73,9 +74,9 @@ $callout-font-family: 'Proza Libre', sans-serif !default;
 // font sizes
 $font-size-base:   1rem !default; // Assumes the browser default, typically `16px`
 $h1-font-size:     $font-size-base * 2.8 !default;
-$h2-font-size:     $font-size-base * 2.3 !default;
+$h2-font-size:     $font-size-base * 2.4 !default;
 $h3-font-size:     $font-size-base * 2 !default;
-$h4-font-size:     $font-size-base * 1.3 !default;
+$h4-font-size:     $font-size-base * 1.5 !default;
 $h5-font-size:     $font-size-base * 1.2 !default;
 $h6-font-size:     $font-size-base !default;
 
@@ -322,8 +323,9 @@ div.navbar-collapse ul.navbar-nav li {
 }
 
 .simple-info {
-   text-align: center;
-   color: $primary;
+   text-align: left;
+   color: $body-color;
+   font-weight: 400;
    padding-bottom: 2rem;
 }
 
@@ -333,6 +335,12 @@ div.navbar-collapse ul.navbar-nav li {
    margin-bottom: 2rem;
 }
 .simple-info h3 {
+   margin-top: 1rem;
+   color: $primary;
+   margin-bottom: 2rem;
+}
+
+.simple-info h5 {
    margin-top: 1rem;
    color: $primary;
    margin-bottom: 2rem;
@@ -371,6 +379,38 @@ div.navbar-collapse ul.navbar-nav li {
    margin-bottom: 2rem;
 }
 
+.simple-info-blue h5 {
+   margin-top: 1rem;
+   color: $light;
+   font-size: 1.7rem;
+   margin-bottom: 1rem;
+}
+
+// highlighting 
+
+%common-highlight {
+  text-transform: uppercase;
+  padding: 4px;
+  font-weight: 900;
+  border-radius: 4px;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  font-size: calc(1em - 0.2em); // smaller than inherited font-size
+
+}
+
+.highlight {
+  @extend %common-highlight;
+  background-color: $primary;
+  color: $gold;
+}
+
+.highlight-bright {
+  @extend %common-highlight;
+  background-color: $gold;
+  color: $primary;
+}
+
 
 
 // avatar
@@ -378,14 +418,14 @@ div.navbar-collapse ul.navbar-nav li {
 .avatar {
   // width: 250px;
   // height: 250px;
-   margin-bottom: 70px;
-   margin-right: 50px;
+   margin-bottom: 40px;
+   margin-right: 25px;
    position: relative;
    float: left;
-  height: 16rem; // 16 * 0.25rem = 4rem
-  width: 16rem; // 16 * 0.25rem = 4rem
+  height: 14rem; // 16 * 0.25rem = 4rem
+  width: 14rem; // 16 * 0.25rem = 4rem
   border-radius: 50%;
-  border: 4px solid $black;
+  //border: 4px solid $black;
   background-size: cover;
   background-position: center;
   //box-shadow: $avatar-shadow;
@@ -394,6 +434,25 @@ div.navbar-collapse ul.navbar-nav li {
   &:hover {
     transform: translateX(3px) translateY(3px);
     box-shadow: none;
+  }
+
+  &:hover {
+    transform: translateX(3px) translateY(3px);
+    box-shadow: none;
+  }
+
+  // Adjust size for tablet screens
+  @media (min-width: 768px) and (max-width: 1199px) {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  // Adjust size for mobile screens
+  @media (max-width: 767px) {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 25px;
+    margin-right: 15px;
   }
 }
 
@@ -464,16 +523,17 @@ pre.text, pre.sourceCode, .cell-output pre {
   background-color: shade-color($primary, 10%);
   
   a {
-    color: $secondary;
+    color: $gold;
 }
   &:hover {
-    color: $white;
+    color: $gold;
 }
 }
 
 .btn-action {
   min-width: 165px;
   border-radius: 30px;
+  text-transform: uppercase;
   border: none;
 }
 
@@ -518,6 +578,7 @@ pre.text, pre.sourceCode, .cell-output pre {
   font-family: 'Proza Libre', sans-serif;
   padding: 5px;
   margin: 20px;
+
 }
 
 .box-shadow {
@@ -527,6 +588,7 @@ pre.text, pre.sourceCode, .cell-output pre {
 .tab-content {
   border: none;
   padding: 0;
+  background-color: lighten($secondary, 5%);
 }
 
 .nav-tabs {
@@ -605,7 +667,7 @@ pre.text, pre.sourceCode, .cell-output pre {
   grid-template-columns: repeat(1, 1fr);
   column-gap: 15px;
   row-gap: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   width: 100%;
 
   @media only screen and (min-width: 768px) {
@@ -620,6 +682,8 @@ pre.text, pre.sourceCode, .cell-output pre {
     max-width: 420px;
     text-align: left;
     position: relative;
+    font-family: $font-family-sans-serif;
+    font-weight: 900;
 
     &:hover {
       background-color: $secondary;
@@ -648,8 +712,9 @@ pre.text, pre.sourceCode, .cell-output pre {
   }
 
   &__text {
-    padding: 10px;
+    padding: 5px;
     color: $primary;
+    font-size: 1.1rem;
   }
 
   &__name {
@@ -777,10 +842,9 @@ pre.text, pre.sourceCode, .cell-output pre {
   }
 }
 
-// carousel continer 
 // boxed feature grid
 .bg-light {
-  background-color: $secondary !important;
+  background-color: $primary !important;
 }
 .bg-breakout {
   position: relative;
@@ -794,10 +858,10 @@ pre.text, pre.sourceCode, .cell-output pre {
   padding-left: 50px;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
 }
 
 .boxed-wrapper {
@@ -1161,11 +1225,63 @@ div.quarto-post .listing-categories .listing-category,
 // hero-banner
 .hero-banner {
   position: relative;
-  background-color: lighten($secondary, 20%);
+  background-color: lighten($primary, 5%);
   display: flex;
   justify-content: center;
 }
 
+.carousel-caption {
+  color: $secondary;
+}
+
+.carousel-caption {
+    position: absolute;
+    text-transform: uppercase;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center
+}
+
+
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+  margin-bottom: 110px;
+  color: #fff;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #fff
+}
+
+.carousel-dark .carousel-caption {
+    color: #fff
+}
+
+
+.carousel-control-prev,.carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff !important;
+    text-align: center;
+    background: none;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease
+}
 
 // grid listing
 .card {
@@ -1174,7 +1290,8 @@ div.quarto-post .listing-categories .listing-category,
   flex: 1 1 100%;
   margin: 31px 0;
   padding: 15px 0;
-  background: lighten(#f8f8f8, 3%);
+  background: lighten($secondary, 4%);
+
   box-shadow:  0.3px 0.5px 0.7px hsl(216, 48%, 28%, 0.34),
   0.4px 0.8px 1px -1.2px hsl(216, 48%, 28%, 0.34),
   1px 2px 2.5px -2.5px hsl(216, 48%, 28%, 0.34);
@@ -1422,38 +1539,51 @@ blockquote {
   font-size: 1rem;
 }
 
-.header {
-  border-bottom-color: $gray-300;
-  color: $secondary;
-  background: $primary;
-  font-weight: 500;
-  text-align: left;
-  font-size: 1.3rem;
-  letter-spacing: 0.1rem;
-  font-variant: small-caps;
-  padding: 5px;
-  border: 0;
-}
-
 .filters {
   display: flex;
   flex-wrap: wrap;
   margin-top: 1rem;
   margin-left: -32px;
   
-  .filter-input {
+  .filter-checkbox {
     margin-top: 0.5rem;
-    margin-left: 32px;
+    margin-left: 35px;
     flex: 1;
     min-width: 250px;
     
     label {
       color: $gray-dark;
-      font-weight: 600;
-      font-size: 0.80rem;
+      font-weight: 700;
+      font-size: 1.15rem;
       letter-spacing: 0.4px;
       text-transform: uppercase;
     }
+    .control-label {
+    margin-bottom: 0;
+    color: $gray-500;
+    vertical-align: middle;
+}
+}
+    
+  .filter-input {
+    margin-top: 0.5rem;
+    margin-left: 35px;
+    flex: 1;
+    min-width: 250px;
+    
+    label {
+      color: $gray-dark;
+      font-weight: 700;
+      font-size: 1.15rem;
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+    }
+    
+    .control-label {
+    margin-bottom: 0;
+    color: $gray-500;
+    vertical-align: middle;
+}
     
     select,
     input[type="search"] {
@@ -1466,14 +1596,60 @@ blockquote {
 /* When selected, the text is yellow */
 .header[aria-sort='ascending'],
 .header[aria-sort='descending'] {
-  color: $yellow;
+  color: $gray-600;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .screen-inset {
     .my-reactable-table {
       font-size: 14px;
       width: 100%;
+
+      table,
+      thead,
+      tbody,
+      th,
+      td,
+      tr {
+        display: block;
+      }
+
+      thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+      }
+
+      tr {
+        border: 1px solid #ccc;
+      }
+
+      td {
+        // Behave like a "row"
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align: left;
+      }
+
+      td:before {
+        // Now like a table header
+        position: absolute;
+        // Top/left values mimic padding
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align: left;
+        font-weight: bold;
+
+        // Use content to grab data-attributes, if needed
+        // content: attr(data-th) ": ";
+        // You can use data-th attribute in your HTML to populate this
+      }
     }
     
     .crosstalk-filtered-select {
@@ -1486,6 +1662,8 @@ blockquote {
     }
   }
 }
+
+
 
 // Pricing tables for membership
 .price-card {

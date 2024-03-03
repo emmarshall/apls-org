@@ -11,6 +11,7 @@ includesource: true
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 source("../assets/apls_functions.R")
+source("schedule_tbl.R")
 ```
 
 ::: column-screen
@@ -18,7 +19,9 @@ source("../assets/apls_functions.R")
 ::: content-block
 # 2024 Annual Conference of the American Psychology-Law Society
 
-### Los Angeles, California \| March 21-23, 2024
+### {{< fa location-dot aria-hidden="true" >}} Los Angeles, California
+
+### {{< fa calendar aria-hidden="true" >}} March 21-23, 2024
 
 ::: hero-buttons
 [Register Now](https://apls.memberclicks.net/24conferencereg#!/){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [View Program](https://drive.google.com/file/d/1u76swGfinzz9w4rcVZWDajsBVyta_FDc/view?usp=sharing){.btn-action .btn .btn-secondary role="button"}
@@ -34,17 +37,18 @@ source("../assets/apls_functions.R")
 
 ::: grid
 ::: {.g-col-12 .g-col-md-6 .col-v-center}
-
-::: vspace
+::: {.content-block .col-v-center}
+::: vspace2
 :::
 
 The 2024 APLS Conference will be held at The Westin Bonaventure Hotel and Suites in Los Angeles, California from March 21-23.
 
 [Add to Calender](https://www.addevent.com/event/My18398113){.btn-action-primary .btn-action .btn .btn-primary role="button"}
 :::
+:::
 
 ::: {.g-col-12 .g-col-md-6 .col-v-center}
-![](images/2024_cover_banner.png){width="350"}
+![](images/2024_road.svg){width="350"}
 :::
 :::
 :::
@@ -58,7 +62,7 @@ The 2024 APLS Conference will be held at The Westin Bonaventure Hotel and Suites
 
 content = rowwise_table(~name, ~icon, ~link,
   "Info", "info-circle", "#general",             
-  "Proposals", "megaphone", "#cfp",
+  "Program", "journal-text", "#schedule",
   "Hotel", "airplane", "#hotel",
   "Registration", "person-badge", "#register",  
   "Sponsors", "person-plus", "#sponsors"
@@ -86,6 +90,7 @@ div(class = "bg-light",
 ```
 :::
 
+
 # General Information {#info}
 
 <figure class="text-end">
@@ -106,38 +111,42 @@ Looking forward to seeing everyone in March!
 
 </figure>
 
+
 ::: {.panel-tabset .box-shadow}
-## {{< fa calendar >}} Important Dates
+
+## {{< fa calendar aria-hidden="true" >}} Important Dates
 
 ### Important Dates
 
-**Early bird-registration ends**: January 31, 2024
+**Early bird-registration ends**: January 31, 2024 **closed**
 
-**Hotel group-rate ends**: February 25, 2024 
+**Hotel group-rate ends**: February 25, 2024 **closed**
 
-
-## {{< fa person-running >}} Fun Run
+## {{< fa person-running aria-hidden="true" >}} Fun Run
 
 ::: simple-info
 ##### Explore Los Angeles with colleagues on a 5k Fun Run, sponsored by the AP-LS Student Committee!
 
-[Register Today {{< fa arrow-right >}}](https://apls.memberclicks.net/index.php?option=com_mcform&view=ngforms&id=2197091#!/){.btn-action .btn .btn-primary .btn-lg role="button"}
+##### [Friday, March 22, 2024]{.highlight}
 
+<center>
+![](images/2024_fun_run.png){width="500"}
 
-### Friday, March 22, 2024
+[Register {{< fa arrow-right aria-hidden="true" >}}](https://apls.memberclicks.net/index.php?option=com_mcform&view=ngforms&id=2197091#!/){.btn-action .btn .btn-primary .btn-lg role="button"}
 
+</center>
 ::: {.callout-note appearance="simple"}
 #### **MEET IN LOBBY OF THE CONFERENCE HOTEL AT 7:00 AM**
 
 REFRESHMENTS WILL BE PROVIDED AFTER THE RACE
 
-[COST: $25]{.badge .bg-warning}
+[COST: \$25]{.badge .bg-warning}
 
 ***Funds raised are used to support student committee conference awards***
 :::
 :::
 
-## {{< fa handshake-angle title="Volunteer" >}} Student Volunteers
+## {{< fa handshake-angle title="Volunteer" aria-hidden="true">}} Student Volunteers
 
 Students are eligible to receive complimentary conference registration by volunteering to serve as staff during the annual conference.
 
@@ -149,34 +158,31 @@ Students are eligible to receive complimentary conference registration by volunt
 
 2.  Submissions for 2024 are **closed**. If you are accepted you will receive a discount code for registration. We highly recommend waiting to register until receiving this discount code as refunds can often take some time.
 
-
-
-## {{< fa circle-info >}} For Presenters
+## {{< fa circle-info aria-hidden="true">}} For Presenters
 
 ### Symposia, Paper, and Data Blitz Sessions
 
-**Symposium sessions** are 80 minutes long. Allow approximately 10 minutes for questions and comments from the audience. Divide the remaining time evenly between the presenters and the discussant. 
+**Symposium sessions** are 80 minutes long. Allow approximately 10 minutes for questions and comments from the audience. Divide the remaining time evenly between the presenters and the discussant.
 
-**Paper sessions** are 60 minutes long. Most sessions have four or five papers; therefore, each presenter should plan to have 10-12 minutes to present. This will allow time at the end for audience questions. A chair will be assigned to paper sessions and will make introductions, help keep time, as well as guide questions at the end of the session. 
+**Paper sessions** are 60 minutes long. Most sessions have four or five papers; therefore, each presenter should plan to have 10-12 minutes to present. This will allow time at the end for audience questions. A chair will be assigned to paper sessions and will make introductions, help keep time, as well as guide questions at the end of the session.
 
-**Data-Blitz sessions** are 60 minutes long. Data-blitz presenters have a maximum of 5 minutes each (3-5 slides), followed by approximately 10 minutes of questions from the audience at the end of the session. 
+**Data-Blitz sessions** are 60 minutes long. Data-blitz presenters have a maximum of 5 minutes each (3-5 slides), followed by approximately 10 minutes of questions from the audience at the end of the session.
 
-::: {.callout-caution}
-All presentation rooms will be set up with a computer, screen, and projector. **Bring a flash drive** to download the presentation onto the computer, and do not count on the availability of the **internet** in presentation rooms. 
+::: callout-caution
+All presentation rooms will be set up with a computer, screen, and projector. **Bring a flash drive** to download the presentation onto the computer, and do not count on the availability of the **internet** in presentation rooms.
 :::
 
 ### Poster Sessions
 
-Poster sessions are scheduled from 6:30-8:00 pm on Friday and Saturday evenings. Presenters are scheduled for either Friday or Saturday night and will be given a number to correspond with the board where they should display their posters. 
+Poster sessions are scheduled from 6:30-8:00 pm on Friday and Saturday evenings. Presenters are scheduled for either Friday or Saturday night and will be given a number to correspond with the board where they should display their posters.
 
-**Poster Sizing:** The boards for mounting a poster are 4 ft (height) x 8 ft (width). Presenters are free to create any size poster that will fit within that space. Presenters will need to bring push pins to hang their posters; we do not provide push pins. 
+**Poster Sizing:** The boards for mounting a poster are 4 ft (height) x 8 ft (width). Presenters are free to create any size poster that will fit within that space. Presenters will need to bring push pins to hang their posters; we do not provide push pins.
 
-::: {.callout-tip}
+::: callout-tip
 We encourage poster presenters to use a [Better Poster format](https://convention.apa.org/blog/rethinking-the-science-poster).
-
 :::
 
-## {{< fa circle-user >}} Conference Organizers
+## {{< fa circle-user aria-hidden="true" >}} Conference Organizers
 
 #### Conference Co-Chairs
 
@@ -186,11 +192,10 @@ Caitlin Cavanagh, Ph.D. <br> Samantha Zottola, Ph.D.
 
 If you have any other questions, please contact:
 
-{{< fa envelope title="Email" >}} {{< var email.conference >}} <br> {{< fa envelope title="Email" >}} {{< var email.office >}}
+{{< fa envelope title="Email" aria-hidden="true" >}} {{< var email.conference >}} <br> {{< fa envelope title="Email" >}} {{< var email.office >}}
 
 :::
 
-<hr>
 
 ::: vspace
 :::
@@ -198,13 +203,236 @@ If you have any other questions, please contact:
 ::: column-screen
 ::: {.simple-info-blue .alt-background-blue}
 ::: content-block-blue
-### The 2024 APLS Annual Conference Program Grid is now available! 
+##### The 2024 APLS Annual Conference [Program Grid]{.highlight} is now available!
 
 [View Program {{< fa arrow-right >}}](https://drive.google.com/file/d/1u76swGfinzz9w4rcVZWDajsBVyta_FDc/view?usp=sharing){.btn-action .btn .btn-secondary .btn-lg role="button"}
+:::
+:::
+:::
 
+::: vspace
+:::
+
+# Program & Schedule {#schedule}
+
+::: vspace
+:::
+
+::: {.panel-tabset .box-shadow}
+## {{< fa circle-info aria-hidden="true" >}} Overview
+
+::: vspace
+:::
+
+##### [2024 APLS Program Grid]{.highlight} is now available online!
+
+::: {layout-ncol="2"}
+::: col
+<center>![](images/2024-program-guide.svg){width="277"}</center>
+:::
+
+::: col
+### ***Coming soon:*** Get the Guide on your mobile device.
+
+> tap "Download the app" to access the guide on your iOS or Android device. Prefer the web version? Some content and networking tools may be available to you online.
+
+<center>
+
+[{{< fa file-pdf >}} Download](https://drive.google.com/file/d/1u76swGfinzz9w4rcVZWDajsBVyta_FDc/view?usp=sharing){.btn .btn-outline-primary role="button"} [{{< fa mobile-screen >}} guidebook](https://guidebook.com/g/#/guides/apls2023/details){.btn .btn-outline-primary role="button"}
+
+::: vspace
+:::
+
+[View Full Details {{< fa arrow-right >}}](schedule.qmd){.btn-action .btn .btn-primary .btn-lg role="button"}
+
+</center>
+:::
+:::
+
+## Day 1 (Thurs)
+
+##### [{{< fa calendar aria-hidden="true" >}} Thursday, March 21, 2024]{.highlight}
+
+::: vspace
+:::
+
+[Opening Plenary]{.plenary}
+
+[{{< fa location aria-hidden="true" >}} San Francisco, Sacramento & San Jose]{.session-loc}
+
+[A New Frontier: Using Psychology to Strengthen Forensic Science Policy and Practice]{.session-title}
+
+[{{< fa clock aria-hidden="true" >}} 12:00PM - 2:00PM]{.session-time}
+
+::: session-description
+First, help us honor our 2024 award winners. Then, stay for an opening plenary session on Forensic Science. From crime labs to autopsies, improper forensic science is a leading cause of known wrongful convictions—yet it has historically received less research attention than other such causes. That tide is now turning, as researchers are shedding light on the potential for unconscious bias and human error in forensic experts’ decisions and working with community partners to strengthen forensic science policy and practice. In this session, a panel of psychologists, practitioners, attorneys, and policy experts will discuss ongoing progress and future directions in terms of rectifying past injustices and optimizing the human element of forensic science.
+:::
+
+::: inner-container
+![](images/speakers/kukucka_j.jpg){.avatar}
+
+[Chair: Dr. Jeff Kukucka, Towson University]{.session-chair}
+
+::: session-bio
+*Dr. Jeff Kukucka graduated summa cum laude and Phi Beta Kappa from Loyola College in Maryland. As an undergraduate, he became involved in research on conformity in eyewitness memory with Dr. Kerri Goodwin (Towson University) and research on child forensic interviewing and metacognition with Dr. Maggie Bruck (Johns Hopkins Medical Institute). He then graduated from the Ph.D. Program in Psychology & Law at the CUNY Graduate Center, where he worked primarily under Dr. Saul Kassin (John Jay College of Criminal Justice).*
+:::
+:::
+
+::: vspace
+:::
+
+```{r}
+#| label: thurs-overview
+#| echo: false
+#| warning: false
+#| message: false
+
+library(htmlwidgets)
+
+#add title, subtitle, footnote and source
+thurs <- tbl_thurs |> 
+  #title & subtitle
+  htmlwidgets::prependContent(
+    tagList(
+      tags$img(src = "https://github.com/emmarshall/apls-org/raw/main/images/logo-blue.png", style = "width:50px;height:50px;display:inline-block;vertical-align:middle;"),
+      tags$div("Day 1", style="font-size:32px;font-weight:bold;margin-left:5px;margin-bottom:0;display:inline-block;vertical-align:middle;"), 
+      tags$h3("Schedule at a glance", style="margin-bottom:20px;margin-top:0;font-weight:400;color:#8C8C8C;")
+  )
+  ) |> 
+  #footnote and source
+  htmlwidgets::appendContent(
+    tags$div(style="text-align:center;color:black;font-size:14pt;border-bottom-style:solid;border-top-style:solid;width:910px;padding-bottom:20px;padding-top:20px;border-color:#DADADA;",
+             tags$div("Last Updated: March 1, 2024", style="display:inline-block;vertical-align:middle;"))
+  )
+
+thurs
+```
+
+## Day 2 (Fri)
+
+##### [{{< fa calendar aria-hidden="true" >}} Friday, March 22, 2024]{.highlight}
+
+::: vspace
+:::
+
+[Presidential Plenary]{.plenary}
+
+[{{< fa location aria-hidden="true" >}} San Francisco & Sacramento]{.session-loc}
+
+[Beyond a competency crisis: California innovations addressing serious mental illness in the criminal legal system?]{.session-title}
+
+[{{< fa clock aria-hidden="true" >}} 10:45AM - 12:15PM]{.session-time}
+
+::: session-description
+For at least the past decade, the United States has experienced a grave “competency crisis,” That is, orders for competency evaluation and restoration have been increasing far more than states can provide those restoration services. One consequence of this public mental health crisis are lengthy waitlists of defendants with psychiatric illness, waiting for many months in jails for restoration treatment, as their symptoms grow worse. These conditions have prompted lawsuits and reform efforts in many states, though most states still struggle. Amid this crisis, California is worth watching. Their waitlist reached nearly 2,000 (second largest in the country), but through a variety of innovative practices has decreased by roughly 80%.
+
+This panel features California leaders who pioneered strategic practices to address the competence crisis. Psychiatrist Kate Warburton, director of the Department of State Hospitals, has overseen broad system reform efforts that extend far beyond the state hospitals. Psychiatrist Kristen Ochoa has overseen a one-of-a-kind outpatient restoration program for Los Angeles County. Finally, Judge James Bianco has been an innovator in his own docket, and a national voice in addressing the competency systems.
+:::
+
+::: inner-container
+![](images/speakers/murrie_d.jpg){.avatar}
+
+[Chair: Dr. Daniel Murrie, Institute of Law, Psychiatry, and Public Policy]{.session-chair}
+
+::: session-bio
+*Daniel Murrie is director of psychology at the Institute of Law, Psychiatry and Public Policy and an associate professor in the Department of Psychiatry and Neurobehavioral Sciences at the University of Virginia School of Medicine. Murrie's duties at the ILPPP involve training Virginia clinicians to perform forensic evaluations and supervising the ILPPP's psychiatric, post-doctoral and practicum trainees. Within the ILPPP's forensic clinic, Murrie performs criminal and civil forensic psychological evaluations of juveniles and adults. As a researcher, Murrie has published on a number of topics related to forensic assessment, psychopathy, diagnostic labeling and juvenile justice. His current work addresses bias and quality control in forensic evaluations.*
+:::
+:::
+
+```{r}
+#| label: fri-overview
+#| echo: false
+#| warning: false
+#| message: false
+
+library(htmlwidgets)
+
+#add title, subtitle, footnote and source
+fri <- tbl_fri |> 
+  #title & subtitle
+  htmlwidgets::prependContent(
+    tagList(
+      tags$img(src = "https://github.com/emmarshall/apls-org/raw/main/images/logo-blue.png", style = "width:50px;height:50px;display:inline-block;vertical-align:middle;"),
+      tags$div("Day 2 (Friday)", style="font-size:32px;font-weight:bold;margin-left:5px;margin-bottom:0;display:inline-block;vertical-align:middle;"), 
+      tags$h3("Schedule at a glance", style="margin-bottom:20px;margin-top:0;font-weight:400;color:#8C8C8C;")
+  )
+  ) |> 
+  #footnote and source
+  htmlwidgets::appendContent(
+    tags$div(style="text-align:center;color:black;font-size:14pt;border-bottom-style:solid;border-top-style:solid;width:910px;padding-bottom:20px;padding-top:20px;border-color:#DADADA;",
+             tags$div("Last Updated: March 1, 2024", style="display:inline-block;vertical-align:middle;"))
+  )
+
+fri
+
+```
+
+## Day 3 (Sat)
+
+##### [{{< fa calendar aria-hidden="true" >}} Saturday, March 23, 2024]{.highlight}
+
+::: vspace
+:::
+
+[Closing Plenary]{.plenary}
+
+[{{< fa location aria-hidden="true" >}} San Francisco, Sacramento & San Jose]{.session-loc}
+
+[The Creation of a Young Adult Court: A New Approach to Justice]{.session-title}
+
+[{{< fa clock aria-hidden="true" >}} 10:45AM - 12:15PM]{.session-time}
+
+::: session-description
+To achieve social justice, courts must find new ways to respond to those who engage in criminal behavior. It is well known that the “felon” label produces a wide variety of collateral consequences (e.g., employment, education, housing, voting) and the effects are even worse for young men of color. In an attempt to change how the justice system responds to felony offenses, Orange County, CA created a Young Adult Court (YAC) for young men between the ages of 18 and 25.
+
+The goal of this program is to reduce recidivism and promote positive life outcomes by (1) providing developmentally appropriate support to participants of the program and (2) permit them the opportunity to have their felony charge reduced to a misdemeanor or dismissed. To highlight how this court was created, the Presiding Judge of Orange County will describe what it takes to implement a Young Adult Court. The District Attorney and Public Defender will highlight the challenges each of their offices face. Finally, Dr. Cauffman will present preliminary data from the randomized control trial to provide insight into the effectiveness as well as the challenges between those processed in Young Adult Court and those processed through the traditional court system.
+:::
+
+::: inner-container
+![](images/speakers/cavanagh_c.jpg){.avatar}
+
+[Chair: Dr. Caitlin Cavanagh, Michigan State University]{.session-chair}
+
+::: session-bio
+*Caitlin Cavanagh is an Associate Professor and Director of Undergraduate Studies in the School of Criminal Justice at Michigan State University. Broadly, her research focuses on the intersections of psychology and the law, and how social contexts shape adolescent behavior. A developmental psychologist by training, she is particularly interested in the dynamic parent-child relationship. Her program of research seeks to produce developmentally sound research that can improve how the juvenile justice system interfaces with youth and their families.*
+
+::: vspace
 :::
 :::
 :::
+
+```{r}
+#| label: sat-overview
+#| echo: false
+#| warning: false
+#| message: false
+
+library(htmlwidgets)
+
+#add title, subtitle, footnote and source
+sat <- tbl_sat |> 
+  #title & subtitle
+  htmlwidgets::prependContent(
+    tagList(
+      tags$img(src = "https://github.com/emmarshall/apls-org/raw/main/images/logo-blue.png", style = "width:50px;height:50px;display:inline-block;vertical-align:middle;"),
+      tags$div("Saturday, March 23, 2024", style="font-size:32px;font-weight:bold;margin-left:5px;margin-bottom:0;display:inline-block;vertical-align:middle;"), 
+      tags$h3("Schedule at a glance", style="margin-bottom:20px;margin-top:0;font-weight:400;color:#8C8C8C;")
+  )
+  ) |> 
+  #footnote and source
+  htmlwidgets::appendContent(
+    tags$div(style="text-align:center;color:black;font-size:14pt;border-bottom-style:solid;border-top-style:solid;width:910px;padding-bottom:20px;padding-top:20px;border-color:#DADADA;",
+             tags$div("Last Updated: March 1, 2024", style="display:inline-block;vertical-align:middle;"))
+  )
+
+sat
+```
+:::
+
+::: vspace
+:::
+
+<hr>
 
 ::: vspace
 :::
@@ -213,7 +441,7 @@ If you have any other questions, please contact:
 # Hotel Information {#hotel}
 
 ::: {.panel-tabset .box-shadow}
-## {{< fa hotel >}} The Westin Bonaventure Hotel and Suites
+## {{< fa hotel aria-hidden="true" >}} The Westin Bonaventure Hotel and Suites
 
 ![](https://upload.wikimedia.org/wikipedia/commons/3/3a/Westin_Bonaventure_Hotel.jpg){fig-align="center" height="300"}
 
@@ -223,12 +451,12 @@ If you have any other questions, please contact:
 
 AP-LS has rooms set aside for all attendees, which can be booked at a special group rate that is available for attendees:
 
-{{< fa credit-card >}} Group Rate \$249 </br> {{< fa calendar >}} Available March 19 - March 24 </br> {{< fa square-parking >}} Discounted Valet Parking (\$38/ night)
+{{< fa credit-card aria-hidden="true" >}} Group Rate \$249 </br> {{< fa calendar aria-hidden="true" >}} Available March 19 - March 24 </br> {{< fa square-parking aria-hidden="true" >}} Discounted Valet Parking (\$38/ night)
 
 Attendees must book their room by **February 25th, 2024** to take advantage of the special rate!
 
 ::: hero-buttons
-[{{< fa bell-concierge >}} Book a Room](https://www.marriott.com/event-reservations/reservation-link.mi?id=1698166662825&key=GRP&app=resvlink){.btn-action .btn .btn-info .ml-auto role="button"} [{{< fa hotel >}} Website](https://goo.gl/maps/p6PCdg1nZ46NASuw9){.btn-action .btn .btn-dark .ml-auto role="button"}
+[{{< fa bell-concierge aria-hidden="true" >}} Book a Room](https://www.marriott.com/event-reservations/reservation-link.mi?id=1698166662825&key=GRP&app=resvlink){.btn-action .btn .btn-info .ml-auto role="button"} [{{< fa hotel aria-hidden="true" >}} Website](https://goo.gl/maps/p6PCdg1nZ46NASuw9){.btn-action .btn .btn-dark .ml-auto role="button"}
 :::
 
 ## {{< fa plane >}} Plan your trip
@@ -236,7 +464,7 @@ Attendees must book their room by **February 25th, 2024** to take advantage of t
 For attendees flying in to Los Angeles, the LAX FlyAway runs from LAX to the Union Station train station in downtown LA and is \$10. The LAX FlyAway runs from LAX every 30 minutes and from Union Station every hour. Union Station is a short Uber or cab ride to the hotel but is a great option for individuals arriving alone as Ubers and cabs directly from the airport can be costly.
 
 ::: hero-buttons
-[{{< fa map-location-dot >}} Get Directions](https://goo.gl/maps/p6PCdg1nZ46NASuw9){.btn-action .btn .btn-info .ml-auto role="button"}
+[{{< fa map-location-dot aria-hidden="true" >}} Get Directions](https://goo.gl/maps/p6PCdg1nZ46NASuw9){.btn-action .btn .btn-info .ml-auto role="button"}
 :::
 :::
 :::
@@ -248,7 +476,7 @@ For attendees flying in to Los Angeles, the LAX FlyAway runs from LAX to the Uni
 
 # Registration {#register}
 
-::: {.simple-info}
+::: simple-info
 ::: {.panel-tabset .box-shadow}
 ## {{< fa bullhorn >}} Info
 
@@ -262,34 +490,35 @@ We encourage you to register before **January 31st** to take advantage of the ea
 ::: vspace
 :::
 
-[Register Now {{< fa arrow-right >}}](https://apls.memberclicks.net/24conferencereg#!/){.btn-action .btn .btn-primary .btn-lg role="button"}
-
+[Register Now {{< fa arrow-right aria-hidden="true" >}}](https://apls.memberclicks.net/24conferencereg#!/){.btn-action .btn .btn-primary .btn-lg role="button"}
 
 ## {{< fa circle-info >}} Pricing
+
 ::: {.callout-note appearance="simple"}
 ## REGISTRATION RATES & INCLUSIONS
 
 \*Rates may be subject to change
 
-+-----------------------------------------+-----------------+------------+-----------+
-| Status                                  | Early Bird\     | Regular\   |           |
-|                                         | (before Jan 31) | (on Feb 1) |           |
-+:========================================+:================+:===========+===========+
-| Full Member                             | \$285           | \$315      |           |
-+-----------------------------------------+-----------------+------------+-----------+
-| Early Career Professional Member        | \$205           | \$235      |           |
-+-----------------------------------------+-----------------+------------+-----------+
-| Student Member                          | \$80            | \$110      |           |
-+-----------------------------------------+-----------------+------------+-----------+
-| Student Member *First-Author Presenter* | \$40            | \$40       |           |
-+-----------------------------------------+-----------------+------------+-----------+
-| Student Non-member                      | \$140           | \$170      |           |
-+-----------------------------------------+-----------------+------------+-----------+
-| Non-member                              | \$400           | \$470      |           |
-+-----------------------------------------+-----------------+------------+-----------+
++-----------------------------------------+-----------------+------------+------------+
+| Status                                  | Early Bird\     | Regular\   |            |
+|                                         | (before Jan 31) | (on Feb 1) |            |
++:========================================+:================+:===========+============+
+| Full Member                             | \$285           | \$315      |            |
++-----------------------------------------+-----------------+------------+------------+
+| Early Career Professional Member        | \$205           | \$235      |            |
++-----------------------------------------+-----------------+------------+------------+
+| Student Member                          | \$80            | \$110      |            |
++-----------------------------------------+-----------------+------------+------------+
+| Student Member *First-Author Presenter* | \$40            | \$40       |            |
++-----------------------------------------+-----------------+------------+------------+
+| Student Non-member                      | \$140           | \$170      |            |
++-----------------------------------------+-----------------+------------+------------+
+| Non-member                              | \$400           | \$470      |            |
++-----------------------------------------+-----------------+------------+------------+
 :::
 :::
 :::
+
 <hr>
 
 ::: vspace
@@ -299,11 +528,18 @@ We encourage you to register before **January 31st** to take advantage of the ea
 
 ::: simple-info
 ::: {.panel-tabset .box-shadow}
-## {{< fa bullhorn >}} Info
+## {{< fa bullhorn aria-hidden="true" >}} Info
 
-At this year's conference we are excited to offer [**two**]{.underline} full day workshops and [**four**]{.underline} half day workshops on that will take place on **Wednesday March 20**. Attendees will have the ability to register for the pre conference workshops with their conference registration.
+##### [{{< fa calendar aria-hidden="true" >}} Wednesday, March 20, 2024]{.highlight}
 
-[Learn More {{< fa arrow-right >}}](preconference/index.qmd){.btn-action .btn .btn-primary .btn-lg role="button"}
+At this year's conference we are excited to offer [**two**]{.underline} full day workshops and [**four**]{.underline} half day workshops on that will take place on **Wednesday March 20**.
+
+*Attendees will have the ability to register for the pre conference workshops with their conference registration.*
+
+[Learn More {{< fa arrow-right aria-hidden="true" >}}](preconference/index.qmd){.btn-action .btn .btn-primary .btn-lg role="button"}
+
+::: vspace
+:::
 
 ## {{< fa circle-info >}} Pricing
 
@@ -354,24 +590,28 @@ At this year's conference we are excited to offer [**two**]{.underline} full day
 
 # Exhibitors & Sponsors {#sponsors}
 
-::: {.simple-info}
+::: simple-info
 ::: {.panel-tabset .box-shadow}
 
-## 2024 Sponsors 
+## {{< fa circle-info aria-hidden="true" >}} Info
+
+##### Become a Sponsor
+
+Signing up as a Business Partner of AP-LS has never been easier. Select your sponsorship, upload your logo, register your staff and make a payment all in one place.
+
+<center>
+[Learn More {{< fa arrow-right aria-hidden="true" >}}](https://apls.memberclicks.net/Sponsor24#!/){.btn-action .btn .btn-primary .btn-lg role="button"}
+
+</center>
 
 ![](sponsors/2024/sponsors.png)
 
-## {{< fa bullhorn >}} Info
-Signing up as a Business Partner of AP-LS has never been easier. Select your sponsorship, upload your logo, register your staff and make a payment all in one place.
-
-
-[Become Sponsor {{< fa arrow-right >}}](https://apls.memberclicks.net/Sponsor24#!/){.btn-action .btn .btn-primary .btn-lg role="button"}
 
 ## {{< fa file-pdf >}} Exhibitor Prospectus
 
-<div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-center justify-content-sm-start" role="group" aria-label="PDF Links">
+::: {.mt-4 .d-flex .flex-row .flex-wrap .gap-1 .justify-content-center .justify-content-sm-start role="group" aria-label="PDF Links"}
 <a href="https://acrobat.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A97f69a95-55f9-34ea-8521-cda8f71b3ef1" class="btn btn-outline-primary"><i class="bi bi-file-earmark-pdf me-1"></i> Download </a>
-</div>
+:::
 
 ::: vspace
 :::
@@ -379,59 +619,5 @@ Signing up as a Business Partner of AP-LS has never been easier. Select your spo
 ```{=html}
 <iframe class="news ar4x3" src="files/2024_APLS_prospectus.pdf" title="Exhibitor Prospectus"></iframe>
 ```
-
 :::
-:::
-
-<hr>
-
-::: vspace
-:::
-
-
-# Schedule Overview {#schedule}
-::: simple-info
-::: {.panel-tabset .box-shadow}
-
-
-## {{< fa file-pdf >}} Program Grid
-
-<div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-center justify-content-sm-start" role="group" aria-label="PDF Links">
-<a href="https://drive.google.com/file/d/1u76swGfinzz9w4rcVZWDajsBVyta_FDc/view?usp=sharing" class="btn btn-outline-primary"><i class="bi bi-file-earmark-pdf me-1"></i> Download </a>
-</div>
-
-::: vspace
-:::
-
-```{=html}
-<iframe class="news ar4x3" src="files/AP-LS_2024_Conference_Program_Grid_Feb2024.pdf" title="FINAL Program Grid"></iframe>
-```
-
-
-## Preconference
-
-### Wednesday, March 20, 2024
-
-Pre-conference sessions throughout the day
-
-## Day 1 (Thurs)
-
-### Thursday, March 21, 2024
-
-*More information available soon.*
-
-## Day 2 (Fri)
-
-### Friday, March 22, 2024
-
-*More information available soon.*
-
-## Day 3 (Sat)
-
-### Saturday, March 23, 2024
-
-*More information available soon.*
-:::
-
-\*Program is subject to change
 :::

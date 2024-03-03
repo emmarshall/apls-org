@@ -19,6 +19,10 @@ listing:
 ### Los Angeles, California \| March 20, 2024
 
 
+::: hero-buttons
+[Go Back](../index.qmd){#btn-guide .btn-action .btn-action .btn .btn-success role="button"}
+:::
+
 :::
 :::
 :::
@@ -27,7 +31,7 @@ listing:
 
 # Pricing Information{#price} 
 
-::: panel-tabset
+::: {.panel-tabset .box-shadow}
 ## Full-Day Workshop Rates
 
 +--------------------+-----------------+----------------+

@@ -8,7 +8,10 @@ title-block-banner: "../../../images/default-banner.svg"
 ## Conference Program & Schedule 
 :::
 :::
+
+
 ::: grid
+
 ::: {.g-col-12 .g-col-md-6 .col-v-center}
 ![](images/ap-ls-cover-2023){fig-align="center" width="250"}
 :::
@@ -365,7 +368,6 @@ tbl <- tbl_grid |>
 #| echo: false
 #| warning: false
 #| message: false
-#| column: page-inset-left
 
 bscols(
   # bootstrap is built off a 12 wide grid system,

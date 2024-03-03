@@ -1,0 +1,17 @@
+{
+  "hash": "69ae790cdc08bb202c8e65d9fde416b7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "\n$theme: \"flatly\" !default;\n\n## AP-LS Colors\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/APLS Colors-1.png){width=672}\n:::\n:::\n\n\n\n// blue varients\n\n$blue-90: #e8ebf0;\n$blue-80: #d1d6e0;\n$blue-70: #bbc2d1;\n$blue-60: #a4adc1;\n$blue-50: #8d99b2;\n$blue-40: #7684a2;\n$blue-30: #5f7093;\n$blue-20: #495b83;\n$blue-10: #324774;\n\n\n// AP-LS brand colors \n$blue: #1B3264;\n$steel: #4271B3;\n$cream: #FBF9F4;\n$yellow: #FAF61B;\n$gold: #ffcc00;",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -158,11 +158,22 @@ tbl_grid <- reactable(sd,
     semester = colDef(show = FALSE)),
     highlight = TRUE,
     theme = reactableTheme(
-    highlightColor = "#FBF9F4",
-    borderColor = "#FBF9F4",
-    headerStyle = list(borderColor = "#FBF9F4"),
+    headerStyle = list(
+      borderWidth = "3px",
+      paddingTop = "12px",
+      verticalAlign = "bottom",
+      textAlign = "bottom",
+      background = "#1B3264",
+      textTransform = "uppercase",
+      borderColor = "#FBF9F4",
+      color = "#FBF9F4",
+      "&:hover" = list(background = "#333"),
+      "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "#5b5e5f"),
+      borderColor = "#333",
+      fontSize = "1.3rem"
+    ),
     paginationStyle = list(color = "#1B3264"),
-    pageButtonHoverStyle = list(backgroundColor = "yellow"),
+    pageButtonHoverStyle = list(backgroundColor = "#FAF61B"),
     pageButtonActiveStyle = list(backgroundColor = "#FBF9F4")),
                         class = "syllabi-tbl"
                         )

@@ -1,3 +1,4 @@
+# Script takes the files in a folder of sponsor logos and creates an object that will include all of them to display on the page. 
 library(ggplot2)
 library(ggimage)
 library(ragg)
@@ -18,7 +19,7 @@ create_sponsor_canvas <- function(file_paths, image_size = 0.2) {
   num_images <- length(file_paths)
   
   # Set the spacing between the images
-  spacing <- 3  # Adjust the spacing as needed
+  spacing <- 2  # Adjust the spacing as needed
   
   # Calculate the x positions for arranging the images in a row with even spacing
   x_positions <- seq(from = 1, to = num_images * spacing, by = spacing)
@@ -34,7 +35,7 @@ create_sponsor_canvas <- function(file_paths, image_size = 0.2) {
   )
   
   # Calculate the dimensions for the canvas using the golden ratio
-  width <- 8 # Initial width
+  width <- 6 # Initial width
   height <- width * 1.618 # Calculate height using the golden ratio
   
   # Create canvas with golden ratio aspect ratio
