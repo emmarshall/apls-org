@@ -1,0 +1,38 @@
+---
+title: Executive Committee and Committee Chair Resources
+draft: true
+---
+
+## Board Orientation
+
+```{=html}
+
+<iframe src="https://synergosamc.sharepoint.com/sites/AP-LS/_layouts/15/embed.aspx?UniqueId=62c7210c-bf19-47a7-b75b-8ddd03ba3d6e&embed=%7B%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" width="640" height="360" frameborder="0" scrolling="no" allowfullscreen title="MT_AP-LS_Boardorientation_2023-2024.mp4"></iframe>
+
+```
+## Budget Guidelines & Reimbursement Request Process
+
+::: {.button-row aria-label="Tax Document Links"}
+[{{< fa file-pdf aria-hidden="true" >}} View W9](https://www.irs.gov/pub/irs-pdf/fw9.pdf){.btn .btn-outline-primary role="button"}
+
+
+[{{< fa file-pdf aria-hidden="true" >}} View W8](https://www.irs.gov/pub/irs-pdf/fw8ben.pdf){.btn .btn-outline-primary role="button"}
+
+[{{< fa file-pdf aria-hidden="true" >}} GSA Per Diem Rates](www.gsa.gov/plan-book/per-diem-rates){.btn .btn-outline-primary role="button"}
+
+[{{< fa file-pdf aria-hidden="true" >}} ACH Direct Deposit Form](){.btn .btn-outline-primary role="button"}
+:::
+
+-   W9 \[hyperlink to: https://www.irs.gov/pub/irs-pdf/fw9.pdf\]
+
+-   W8 \[hyperlink to: https://www.irs.gov/pub/irs-pdf/fw8ben.pdf\]
+
+-   GSA Per Diem Rates \[hyperlink to www.gsa.gov/plan-book/per-diem-rates\]
+
+-   ACH Direct Deposit Form \[hyperlink to the APA form that Cody uses\]
+
+## Leadership Guidebook 
+
+(Last updated January 2024)
+
+-   Appointments are made by the incoming President by August of the preceding year 

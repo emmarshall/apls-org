@@ -35,6 +35,7 @@ resource_grid = function(content) {
 # Text description should be one sentence
 content = rowwise_table(
   ~category, ~name, ~icon, ~url, ~text,
+  #"general", "Governance", "info-circle", "committee/index.html", "Resources for Executive Committee & Chairs",
   "general", "Email list", "envelope-plus", "emails/index.html", "Request use of AP-LS Email list.",
   "general", "Job postings", "briefcase", "job-postings/index.html", "List of job opportunities related to law-psychology",
   "general", "Graduate Training", "info-circle", "training/graduate.html", "Graduate Programs in Psychology & Law",
@@ -54,11 +55,4 @@ setkeyv(content, "category")
 ```{r, echo = FALSE}
 resource_grid(content[.("general")])
 ```
-
-::: callout-caution
-## Under Construction
-
-More resources will be added to this page soon.
-:::
-
 

@@ -48,7 +48,7 @@ The 2024 APLS Conference will be held at The Westin Bonaventure Hotel and Suites
 :::
 
 ::: {.g-col-12 .g-col-md-6 .col-v-center}
-![](images/2024_road.svg){width="350"}
+![](images/2024_logo_alt.svg){width="350"}
 :::
 :::
 :::
@@ -205,7 +205,7 @@ If you have any other questions, please contact:
 ::: content-block-blue
 ##### The 2024 APLS Annual Conference [Program Grid]{.highlight} is now available!
 
-[View Program {{< fa arrow-right >}}](https://drive.google.com/file/d/1u76swGfinzz9w4rcVZWDajsBVyta_FDc/view?usp=sharing){.btn-action .btn .btn-secondary .btn-lg role="button"}
+[View Program {{< fa arrow-right aria-hidden="true"  >}}](https://drive.google.com/file/d/1u76swGfinzz9w4rcVZWDajsBVyta_FDc/view?usp=sharing){.btn-action .btn .btn-secondary .btn-lg role="button"}
 :::
 :::
 :::
@@ -238,12 +238,12 @@ If you have any other questions, please contact:
 
 <center>
 
-[{{< fa file-pdf >}} Download](https://drive.google.com/file/d/1u76swGfinzz9w4rcVZWDajsBVyta_FDc/view?usp=sharing){.btn .btn-outline-primary role="button"} [{{< fa mobile-screen >}} guidebook](https://guidebook.com/g/#/guides/apls2023/details){.btn .btn-outline-primary role="button"}
+[{{< fa file-pdf aria-hidden="true" >}} Download](https://drive.google.com/file/d/1u76swGfinzz9w4rcVZWDajsBVyta_FDc/view?usp=sharing){.btn .btn-outline-primary role="button"} [{{< fa mobile-screen aria-hidden="true" >}} guidebook](https://guidebook.com/g/#/guides/apls2023/details){.btn .btn-outline-primary role="button"}
 
 ::: vspace
 :::
 
-[View Full Details {{< fa arrow-right >}}](schedule.qmd){.btn-action .btn .btn-primary .btn-lg role="button"}
+[View Full Details {{< fa arrow-right aria-hidden="true" >}}](schedule.qmd){.btn-action .btn .btn-primary .btn-lg role="button"}
 
 </center>
 :::
@@ -295,7 +295,7 @@ thurs <- tbl_thurs |>
   htmlwidgets::prependContent(
     tagList(
       tags$img(src = "https://github.com/emmarshall/apls-org/raw/main/images/logo-blue.png", style = "width:50px;height:50px;display:inline-block;vertical-align:middle;"),
-      tags$div("Day 1", style="font-size:32px;font-weight:bold;margin-left:5px;margin-bottom:0;display:inline-block;vertical-align:middle;"), 
+      tags$div("Day 1 (Thursday)", style="font-size:32px;font-weight:bold;margin-left:5px;margin-bottom:0;display:inline-block;vertical-align:middle;"), 
       tags$h3("Schedule at a glance", style="margin-bottom:20px;margin-top:0;font-weight:400;color:#8C8C8C;")
   )
   ) |> 
@@ -415,7 +415,7 @@ sat <- tbl_sat |>
   htmlwidgets::prependContent(
     tagList(
       tags$img(src = "https://github.com/emmarshall/apls-org/raw/main/images/logo-blue.png", style = "width:50px;height:50px;display:inline-block;vertical-align:middle;"),
-      tags$div("Saturday, March 23, 2024", style="font-size:32px;font-weight:bold;margin-left:5px;margin-bottom:0;display:inline-block;vertical-align:middle;"), 
+      tags$div("Day 3 (Saturday)", style="font-size:32px;font-weight:bold;margin-left:5px;margin-bottom:0;display:inline-block;vertical-align:middle;"), 
       tags$h3("Schedule at a glance", style="margin-bottom:20px;margin-top:0;font-weight:400;color:#8C8C8C;")
   )
   ) |> 
