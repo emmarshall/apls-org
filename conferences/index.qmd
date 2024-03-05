@@ -38,8 +38,6 @@ source("schedule_tbl.R")
 ::: grid
 ::: {.g-col-12 .g-col-md-6 .col-v-center}
 ::: {.content-block .col-v-center}
-::: vspace2
-:::
 
 The 2024 APLS Conference will be held at The Westin Bonaventure Hotel and Suites in Los Angeles, California from March 21-23.
 
@@ -48,7 +46,7 @@ The 2024 APLS Conference will be held at The Westin Bonaventure Hotel and Suites
 :::
 
 ::: {.g-col-12 .g-col-md-6 .col-v-center}
-![](images/2024_logo_alt.svg){width="350"}
+![](images/2024_logo_alt.png){width="350"}
 :::
 :::
 :::
@@ -228,7 +226,7 @@ If you have any other questions, please contact:
 
 ::: {layout-ncol="2"}
 ::: col
-<center>![](images/2024-program-guide.svg){width="277"}</center>
+<center>![](images/2024_program_grid.png){width="277"}</center>
 :::
 
 ::: col

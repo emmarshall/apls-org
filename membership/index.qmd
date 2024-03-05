@@ -4,8 +4,7 @@ description: |
   AP-LS membership is for the calendar year January 1 - December 31.
 toc: false
 section-divs: false
-title-block-banner: "files/default-banner.svg"
-link-external-icon: false
+title-block-banner: "../images/banners/default-banner.png"
 ---
 
 ```{r setup, include=FALSE}
@@ -20,6 +19,9 @@ source("../assets/apls_functions.R")
 ::: {.panel-tabset .box-shadow}
 
 ## Join
+
+::: vspace
+:::
 
 ##### Interested in becoming a member of AP-LS?
 
@@ -99,7 +101,6 @@ Please identify your membership category below and follow the instructions on ou
 :::
 
 :::
-
 
 ## Renew
 

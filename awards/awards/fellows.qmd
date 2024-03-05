@@ -14,7 +14,7 @@ links:
   url: "mailto:ebrank2@unl.edu"
 - icon: file-earmark-pdf
   name: Div. 41 Criteria
-  url: "https://drive.google.com/file/d/1A8u1YHNDpEHprrG4jJuqW7YPXIumLCAG/view?usp=sharing"
+  url: "https://drive.google.com/file/d/1B9mm19GOm3521sVjjGZHJ9weTiYDA28m/view?usp=sharing"
 - icon: send
   name: Apply here
   url: "https://www.apa.org/members/your-membership/fellows/index"

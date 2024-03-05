@@ -229,7 +229,7 @@ h1, .h1, h2, .h2, h3, .h3 {
   display: flex;
   justify-content: center;
     /* Add the following background image properties */
-  background-image: url('images/2024_cover_banner.svg');
+  background-image: url('images/2024_cover_banner.png');
   background-size: cover;
   background-position: center;
 }

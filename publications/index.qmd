@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 toc: false
-title-block-banner: "files/publications-banner.svg"
+title-block-banner: "../images/banners/default-banner.png"
 description: |
   Scholarly journals, books and newsletters published by the American Psychology-Law Society. 
 ---
@@ -29,15 +29,16 @@ If you have any questions, contact the [AP-LS Scientific Paper Committee](../abo
 
 -   [**Policy and Procedure Recommendations for the Collection and Preservation of Eyewitness Identification Evidence (2020)**]{.smallcaps} [{{< fa arrow-up-right-from-square >}}](https://psycnet.apa.org/fulltext/2020-06220-002.html)
 
-    > {{< downloadthis files/eye_witness_2020.pdf label="Download" icon=file-earmark-pdf type=light class="btn-sm" >}}
+    > [{{< fa file-pdf aria-hidden="true" >}} Download](https://drive.google.com/file/d/1cPiFNYjdanDxyLkaUTXouFJNMsKIdQG9/view?usp=sharing){.btn .btn-outline-primary role="button"} 
 
 -   [**Police-induced Confessions: Risk Factors and Recommendations (2010)**]{.smallcaps} [{{< fa arrow-up-right-from-square >}}](https://psycnet.apa.org/record/2010-02823-002)
 
-    > {{< downloadthis files/confessions_2010.pdf label="Download" icon=file-earmark-pdf type=light class="btn-sm" >}}
+    > [{{< fa file-pdf aria-hidden="true" >}} Download](https://drive.google.com/file/d/1r1LJTL9QzYEuhODNCIkebVHS2uxeAMJo/view?usp=sharing){.btn .btn-outline-primary role="button"} 
 
 -   [**Eyewitness Identification Procedures: Recommendations for Lineups and Photospreads (1998)**]{.smallcaps} [{{< fa arrow-up-right-from-square >}}](https://psycnet.apa.org/fulltext/1998-03228-001.html)
 
-    > {{< downloadthis files/eye_witness_1998.pdf label="Download" icon=file-earmark-pdf type=light class="btn-sm" >}}
+    > [{{< fa file-pdf aria-hidden="true" >}} Download](https://drive.google.com/file/d/1hTEuZcgZMI3nQS7yF1_4KBEtH_8VXNeh/view?usp=sharing){.btn .btn-outline-primary role="button"} 
+
 
 ## Newsletter
 
