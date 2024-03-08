@@ -51,15 +51,8 @@ daily_overview <- function(day) {
       else tagList(div(class = "detail-label", name), ...)
     }
     
-    speakers <- lapply(paste0("people_", 1:5), function(who_col) {
-      if (is.na(dets[[who_col]])) {
-        NULL
-      } else {
-        div(dets[[who_col]])
-      }
-    })
     
-    speakers <- lapply(paste0("people_", 1:5), function(who_col) {
+    speakers <- lapply(paste0("people_", 1:10), function(who_col) {
       if (is.na(dets[[who_col]])) {
         NULL
       } else {

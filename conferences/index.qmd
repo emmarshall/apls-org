@@ -602,7 +602,11 @@ Signing up as a Business Partner of AP-LS has never been easier. Select your spo
 
 </center>
 
-![](sponsors/2024/sponsors.png)
+::: vspace
+:::
+
+
+![Thank you to our 2024 Conference Sponsors and Exhibitors!](sponsors/2024/2024_sponsors.png)
 
 
 ## {{< fa file-pdf >}} Exhibitor Prospectus
