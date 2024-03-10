@@ -32,12 +32,11 @@ $blue-10: #324774;
 $blue: #1B3264;
 $steel: #4271B3;
 $cream: #FBF9F4;
-$yellow: #FAF61B;
+$yellow: #ffcc00;
 $gold: #ffcc00;
 
 $primary:  $blue !default;
 $secondary: $cream !default;
-$tip: $gold !default;
 $info: $steel !default;
 
 // main content
@@ -386,16 +385,19 @@ div.navbar-collapse ul.navbar-nav li {
    margin-bottom: 1rem;
 }
 
+
 // highlighting 
 
 %common-highlight {
   text-transform: uppercase;
-  padding: 4px;
+  border-radius: 6px;
+  padding: 3px 6px;
+  //padding: 4px;
   font-weight: 900;
-  border-radius: 4px;
-  letter-spacing: 0.1rem;
+  //border-radius: 4px;
+  letter-spacing: 2px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-  font-size: calc(1em - 0.2em); // smaller than inherited font-size
+  font-size: calc(1em - 0.4em); // smaller than inherited font-size
 
 }
 
