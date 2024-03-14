@@ -150,13 +150,8 @@ Looking forward to seeing everyone in March!
 [San Diego Registration Booth in California Foyer]{.event-space-title} <br> *Hotel Second Level Meeting Space* <br> [Wednesday 7:30 AM - 4:30 PM]{.event-time} <br> [Thursday 7:30 AM - 4:30 PM]{.event-time} <br> [Friday 6:30 AM - 4:30 PM]{.event-time} <br> [Saturday 6:30 AM - 4:30 PM]{.event-time}
 
 
-[Registration is ***still*** open!]{.event-info}
+[Online registration is ***closed.*** On-site Registration will be available.]{.event-info}
 
-::: vspace
-:::
-
-
-[Register Online {{< fa arrow-right aria-hidden="true" >}}](https://apls.memberclicks.net/24conferencereg#!/){.btn-action .btn .btn-primary .btn-lg role="button"}
 :::
 
 
@@ -637,13 +632,8 @@ Attendees must book their room by **February 25th, 2024** to take advantage of t
 [San Diego Registration Booth in California Foyer]{.event-space-title} <br> *Hotel Second Level Meeting Space* <br> [Wednesday 7:30 AM - 4:30 PM]{.event-time} <br> [Thursday 7:30 AM - 4:30 PM]{.event-time} <br> [Friday 6:30 AM - 4:30 PM]{.event-time} <br> [Saturday 6:30 AM - 4:30 PM]{.event-time}
 
 
-[Registration is ***still*** open!]{.event-info}
+[Online registration is ***closed.*** On-site Registration will be available.]{.event-info}
 
-::: vspace
-:::
-
-
-[Register Online {{< fa arrow-right aria-hidden="true" >}}](https://apls.memberclicks.net/24conferencereg#!/){.btn-action .btn .btn-primary .btn-lg role="button"}
 :::
 
 
