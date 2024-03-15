@@ -24,7 +24,7 @@ source("schedule_tbl.R")
 ### {{< fa calendar aria-hidden="true" >}} March 21-23, 2024
 
 ::: hero-buttons
-[Register Now](https://apls.memberclicks.net/24conferencereg#!/){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [View Program](https://drive.google.com/file/d/1u76swGfinzz9w4rcVZWDajsBVyta_FDc/view?usp=sharing){.btn-action .btn .btn-secondary role="button"}
+[Register](#register){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [View Program](https://apls.memberclicks.net/assets/Conference/Full%20Program.pdf){.btn-action .btn .btn-secondary role="button"}
 :::
 :::
 :::
@@ -125,7 +125,6 @@ Looking forward to seeing everyone in March!
 ## {{< fa bullhorn aria-hidden="true" >}} Welcome!
 
 ::: inside-container
-
 ### [{{< fa bell-concierge aria-hidden="true" >}} Hotel Information]{.session-title}
 
 ::: callout-note
@@ -134,49 +133,86 @@ Looking forward to seeing everyone in March!
 [The Westin Bonaventure Hotel & Suite]{.event-info}<br> [404 South Figueroa Street<br>Los Angeles, California, USA, 90071]{.event-space-title}
 
 [{{< fa file-pdf aria-hidden="true" >}} Hotel Map](https://apls.memberclicks.net/assets/Email_Files/Westin%20Floor%20Plan.pdf){.btn .btn-outline-primary role="button"}
-
 :::
-
 
 ### [{{< fa id-badge aria-hidden="true" >}} Registration Information]{.session-title}
 
-
 ::: callout-note
 ## We highly recommend **pre-registered** attendees pick their badges up *Thursday 7:30 AM - 12 PM, Friday 6:30 AM - 9:30 AM, or Saturday 7 AM- 9AM.*
-
 
 ***Registration location and badge pick-up times.***
 
 [San Diego Registration Booth in California Foyer]{.event-space-title} <br> *Hotel Second Level Meeting Space* <br> [Wednesday 7:30 AM - 4:30 PM]{.event-time} <br> [Thursday 7:30 AM - 4:30 PM]{.event-time} <br> [Friday 6:30 AM - 4:30 PM]{.event-time} <br> [Saturday 6:30 AM - 4:30 PM]{.event-time}
 
-
 [Online registration is ***closed.*** On-site Registration will be available.]{.event-info}
-
 :::
-
 
 ### [{{< fa champagne-glasses aria-hidden="true" >}} Welcome & Poster Receptions]{.session-title}
 
 ::: callout-note
 ## All are welcome to attend!
+
 [Welcome Reception]{.event-info} <br> [Light Appetizers]{.badge .bg-info} [Cash Bar]{.badge .bg-info}<br> [Thursday 6:30 - 8 PM]{.event-time}<br> [San Diego Ballroom]{.event-space-title}<br> *Level 2*
 
 [Poster Receptions]{.event-info} <br> [Light Appetizers]{.badge .bg-info} [Cash Bar]{.badge .bg-info} <br> [Friday & Saturday 6:30 - 8 PM]{.event-time}<br> [Pasadena Room]{.event-space-title}<br> *Lower Level*
-
 :::
-
 :::
 
 ![Thank you to our 2024 Conference Sponsors and Exhibitors!](sponsors/2024/2024_sponsors.png)
 
+## {{< fa recycle >}} Mini Programs
+
+### Printed mini programs in lieu of full programs
+
+As a step toward being greener and cutting down on costs as an organization, we decided to forego the printing of the full programs again this year. Instead, conference goers will receive printed mini programs.
+
+
+
+::: callout-caution
+## Wireless Internet limitations in conference rooms
+
+While those staying at the conference hotels will have complimentary internet access in their individual rooms, the actual conference rooms will not include wireless Internet access.
+
+Thus, we recommend downloading the [full program PDF](https://apls.memberclicks.net/assets/Conference/Full%20Program.pdf) and the conference mobile app prior to arriving in Los Angeles.
+:::
+
+## {{< fa wifi >}} Social Media & Wifi
+
+### Policy for Social Media Use
+
+The American Psychology-Law Society values open dialogue about the data and issues presented at the conference, however we also value the rights and privacy of the conference participants. APLS encourages the use of social media (X/Twitter, Facebook, Instagram, YouTube, SnapChat, blogs, etc.) during paper, poster, and plenary and social events, including live tweeting, with some limitations. Before using social media at the conference, we ask that you review the following guidelines.
+
+Please DO:
+
+-   Follow APLS on social media (see below for accounts)
+
+-   Use the hashtag #APLS2024 and other relevant hashtags
+
+-   Engage with other conference attendees
+
+-   Be respectful in the tone and content of your posts - Silence all phones and tablets - Consider sitting near the back if using a laptop or tablet
+
+    **Please DON’T:**
+
+-   Share photos or videos of attendees without their consent
+
+-   Share data without the author’s consent
+
+-   Post about talks or posters where presenter uses the social media drop out symbol.
+
+## {{< fa head-side-cough >}} COVID Precautions
+
+::: callout-important
+If you are experiencing any COVID symptoms, do not visit any conference spaces. We appreciate everyone working together so we all stay healthy!
+:::
 
 ## {{< fa handshake-angle aria-hidden="true" >}} Conference Volunteers
 
 ::: inside-container
 ::: callout-note
 ## Consider volunteering as a session time keeper, helping at the registration table, and more <br>
-Have questions or need more information about volunteering?<br>
-Please contact Emma Paskoff emma@ap-ls.org
+
+Have questions or need more information about volunteering?<br> Please contact Emma Paskoff emma\@ap-ls.org
 
 [{{< fa mobile-screen aria-hidden="true" >}} Sign up](https://www.signupgenius.com/go/20F0449AEAB2CA0F94-47964875-apls#/){.btn .btn-outline-primary role="button"}
 :::
@@ -235,38 +271,26 @@ Indulge in all your favorite Mexican entrees at Tequila’s, our onsite Mexican 
 
 [Everyday: 11:00 AM-2:00 PM 4:00 PM-10:00 PM]{.event-time}<br>
 :::
-
 :::
 
 ## {{< fa person-running aria-hidden="true" >}} Fun Run
 
 ::: {.simple-info .inside-container}
-
 ##### Explore Los Angeles with colleagues on a 5k Fun Run, sponsored by the AP-LS Student Committee!
 
 ##### [Friday, March 22, 2024]{.highlight}
 
-::: {.callout-note}
+::: callout-note
 ## **MEET IN LOBBY OF THE CONFERENCE HOTEL AT 7:00 AM**
 
-
-![REFRESHMENTS WILL BE PROVIDED AFTER THE RACE
-](images/2024_fun_run.png){width="500"}
+![REFRESHMENTS WILL BE PROVIDED AFTER THE RACE](images/2024_fun_run.png){width="500"}
 
 <br>[COST: \$25]{.badge .bg-info}
 
-
 [Register {{< fa arrow-right aria-hidden="true" >}}](https://apls.memberclicks.net/index.php?option=com_mcform&view=ngforms&id=2197091#!/){.btn-action .btn .btn-primary .btn-lg role="button"}
 
-
-
-
 *Funds raised are used to support student committee conference awards*
-
-
 :::
-
-
 :::
 
 ## {{< fa circle-info aria-hidden="true">}} For Session Presenters
@@ -284,7 +308,6 @@ Indulge in all your favorite Mexican entrees at Tequila’s, our onsite Mexican 
 ::: callout-caution
 ## KEEP IN MIND
 
-
 ##### {{< fa screwdriver-wrench aria-hidden="true" >}} **AV**
 
 Please see the list below for all the AV equipment provided in each session room. **Presenters are required to bring their own laptop to project any slides, documents, etc. If you have a Mac laptop, we HIGHLY recommend bringing your own adapter to support HDMI hookups.** If you need assistance with the AV equipment in your session room, please call or text our lead technician, Gabe Bagdasarov.
@@ -298,12 +321,9 @@ Please see the list below for all the AV equipment provided in each session room
 -   [ ] Cables and Adaptors
 -   [ ] Podium
 
-
-
 ##### {{< fa wifi >}} **WIFI**
 
 There will be no access to Wi-Fi in the meeting rooms at this year’s conference. If you are staying at the hotel, you will have Wi-Fi access in your individual guest room. We recommend having all contents of your presentation pre-downloaded on your laptop as well as loaded on a flash drive.
-
 
 ##### {{< fa gears aria-hidden="true" >}} **Room Set Up**
 
@@ -331,7 +351,6 @@ We encourage poster presenters to use a [Better Poster format](https://conventio
 ***Event Director***<br> Emma Paskoff<br> {{< fa envelope title="Email" aria-hidden="true" >}} emma\@ap-ls.org
 
 ***Association Coordinator***<br> Marcus Fierek<br> {{< fa envelope title="Email" aria-hidden="true" >}} {{< var email.office >}}
-
 :::
 
 ::: vspace
@@ -342,7 +361,7 @@ We encourage poster presenters to use a [Better Poster format](https://conventio
 ::: content-block-blue
 ##### The 2024 APLS Annual Conference [Program Grid]{.highlight} is now available!
 
-[View Program {{< fa arrow-right aria-hidden="true" >}}](https://drive.google.com/file/d/1u76swGfinzz9w4rcVZWDajsBVyta_FDc/view?usp=sharing){.btn-action .btn .btn-secondary .btn-lg role="button"}
+[View Full Program {{< fa arrow-right aria-hidden="true" >}}](https://apls.memberclicks.net/assets/Conference/Full%20Program.pdf){.btn-action .btn .btn-secondary .btn-lg role="button"}
 :::
 :::
 :::
@@ -375,12 +394,12 @@ We encourage poster presenters to use a [Better Poster format](https://conventio
 
 <center>
 
-[{{< fa file-pdf aria-hidden="true" >}} Download](https://drive.google.com/file/d/1u76swGfinzz9w4rcVZWDajsBVyta_FDc/view?usp=sharing){.btn .btn-outline-primary role="button"} [{{< fa mobile-screen aria-hidden="true" >}} guidebook](https://guidebook.com/g/#/guides/apls2023/details){.btn .btn-outline-primary role="button"}
+[{{< fa file-pdf aria-hidden="true" >}} Download](https://apls.memberclicks.net/assets/Conference/Full%20Program.pdf){.btn .btn-outline-primary role="button"} [{{< fa mobile-screen aria-hidden="true" >}} guidebook](https://guidebook.com/g/#/guides/apls2023/details){.btn .btn-outline-primary role="button"}
 
 ::: vspace
 :::
 
-[View Full Details {{< fa arrow-right aria-hidden="true" >}}](schedule.qmd){.btn-action .btn .btn-primary .btn-lg role="button"}
+[View Online {{< fa arrow-right aria-hidden="true" >}}](schedule.qmd){.btn-action .btn .btn-primary .btn-lg role="button"}
 
 </center>
 :::
@@ -619,30 +638,21 @@ Attendees must book their room by **February 25th, 2024** to take advantage of t
 ## {{< fa bullhorn >}} Info
 
 ::: inside-container
-
 ### [{{< fa id-badge aria-hidden="true" >}} Registration & Badge Pick-Up]{.session-title}
-
 
 ::: callout-note
 ## We highly recommend pre-registered attendees pick their badges up ***Thursday 7:30 AM - 12 PM, Friday 6:30 AM - 9:30 AM, or Saturday 7 AM- 9AM.***
-
 
 ***Registration location and badge pick-up times.***
 
 [San Diego Registration Booth in California Foyer]{.event-space-title} <br> *Hotel Second Level Meeting Space* <br> [Wednesday 7:30 AM - 4:30 PM]{.event-time} <br> [Thursday 7:30 AM - 4:30 PM]{.event-time} <br> [Friday 6:30 AM - 4:30 PM]{.event-time} <br> [Saturday 6:30 AM - 4:30 PM]{.event-time}
 
-
 [Online registration is ***closed.*** On-site Registration will be available.]{.event-info}
-
 :::
-
-
-
 :::
 
 ::: vspace
 :::
-
 
 ## {{< fa circle-info >}} Pricing
 
@@ -751,7 +761,6 @@ At this year's conference we are excited to offer [**two**]{.underline} full day
 Signing up as a Business Partner of AP-LS has never been easier. Select your sponsorship, upload your logo, register your staff and make a payment all in one place.
 
 [Learn More {{< fa arrow-right aria-hidden="true" >}}](https://apls.memberclicks.net/Sponsor24#!/){.btn-action .btn .btn-primary .btn-lg role="button"}
-
 
 ## {{< fa file-pdf >}} Exhibitor Prospectus
 

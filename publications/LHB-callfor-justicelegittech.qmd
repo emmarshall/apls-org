@@ -1,5 +1,6 @@
 ---
 title: "Law and Human Behavior Call for Papers: Justice, Legitimacy, and Technology"
+draft: true
 ---
 
 Law and Human Behavior is a multidisciplinary forum for manuscripts examining the interface between human behavior and the law, the legal system, and the legal process. Although pure legal analysis falls outside the scope of the journal, Law and Human Behavior publishes compelling conceptual (methodological and theoretical) and empirical papers, and strongly encourages authors to situate their research within the context of the law and discuss implications for criminal justice and/or legal policies and practice. This includes the journal’s requirement that all manuscripts include a public significance statement upfront.

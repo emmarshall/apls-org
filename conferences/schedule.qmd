@@ -11,7 +11,7 @@ css: index.css
 ### Los Angeles, California \| March 21-23, 2024
 
 ::: hero-buttons
-[Go Back](index.qmd){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [View Program](https://drive.google.com/file/d/1u76swGfinzz9w4rcVZWDajsBVyta_FDc/view?usp=sharing){.btn-action .btn .btn-secondary role="button"}
+[Go Back](index.qmd){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [View Full Program](https://apls.memberclicks.net/assets/Conference/Full%20Program.pdf){.btn-action .btn .btn-secondary role="button"}
 :::
 :::
 :::
