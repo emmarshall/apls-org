@@ -24,7 +24,7 @@ source("schedule_tbl.R")
 ### {{< fa calendar aria-hidden="true" >}} March 21-23, 2024
 
 ::: hero-buttons
-[Register](#register){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [View Program](https://apls.memberclicks.net/assets/Conference/Full%20Program.pdf){.btn-action .btn .btn-secondary role="button"}
+[Register](#register){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [View Program](https://drive.google.com/file/d/1AdoNy8cd22t6B4I5YqhcjaI-ByK8x_eF/view?usp=sharing){.btn-action .btn .btn-secondary role="button"}
 :::
 :::
 :::
@@ -144,7 +144,7 @@ Looking forward to seeing everyone in March!
 
 [San Diego Registration Booth in California Foyer]{.event-space-title} <br> *Hotel Second Level Meeting Space* <br> [Wednesday 7:30 AM - 4:30 PM]{.event-time} <br> [Thursday 7:30 AM - 4:30 PM]{.event-time} <br> [Friday 6:30 AM - 4:30 PM]{.event-time} <br> [Saturday 6:30 AM - 4:30 PM]{.event-time}
 
-[Online registration is ***closed.*** On-site Registration will be available.]{.event-info}
+[Online registration is ***closed.*** <br> On-site Registration will be available.]{.event-info}
 :::
 
 ### [{{< fa champagne-glasses aria-hidden="true" >}} Welcome & Poster Receptions]{.session-title}
@@ -173,7 +173,7 @@ As a step toward being greener and cutting down on costs as an organization, we 
 
 While those staying at the conference hotels will have complimentary internet access in their individual rooms, the actual conference rooms will not include wireless Internet access.
 
-Thus, we recommend downloading the [full program PDF](https://apls.memberclicks.net/assets/Conference/Full%20Program.pdf) and the conference mobile app prior to arriving in Los Angeles.
+Thus, we recommend downloading the [full program PDF](https://drive.google.com/file/d/1AdoNy8cd22t6B4I5YqhcjaI-ByK8x_eF/view?usp=sharing) and the conference mobile app prior to arriving in Los Angeles.
 :::
 
 ## {{< fa wifi >}} Social Media & Wifi
@@ -361,7 +361,7 @@ We encourage poster presenters to use a [Better Poster format](https://conventio
 ::: content-block-blue
 ##### The 2024 APLS Annual Conference [Program Grid]{.highlight} is now available!
 
-[View Full Program {{< fa arrow-right aria-hidden="true" >}}](https://apls.memberclicks.net/assets/Conference/Full%20Program.pdf){.btn-action .btn .btn-secondary .btn-lg role="button"}
+[View Full Program {{< fa arrow-right aria-hidden="true" >}}](https://drive.google.com/file/d/1AdoNy8cd22t6B4I5YqhcjaI-ByK8x_eF/view?usp=sharing){.btn-action .btn .btn-secondary .btn-lg role="button"}
 :::
 :::
 :::
