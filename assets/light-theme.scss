@@ -1227,13 +1227,13 @@ div.quarto-post .listing-categories .listing-category,
 // hero-banner
 .hero-banner {
   position: relative;
-  background-color: lighten($primary, 5%);
+  background-color: lighten($secondary, 5%);
   display: flex;
   justify-content: center;
 }
 
 .carousel-caption {
-  color: $secondary;
+  color: $body-color;
 }
 
 .carousel-caption {
@@ -1244,7 +1244,7 @@ div.quarto-post .listing-categories .listing-category,
     left: 15%;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
-    color: #fff;
+    color: $body-color;
     text-align: center
 }
 
@@ -1252,15 +1252,15 @@ div.quarto-post .listing-categories .listing-category,
 .carousel .carousel-control-prev-icon,
 .carousel .carousel-control-next-icon {
   margin-bottom: 110px;
-  color: #fff;
+  color: $body-color;
 }
 
 .carousel-dark .carousel-indicators [data-bs-target] {
-    background-color: #fff
+    background-color: $body-bg;
 }
 
 .carousel-dark .carousel-caption {
-    color: #fff
+    color: $body-color;
 }
 
 
@@ -1277,7 +1277,7 @@ div.quarto-post .listing-categories .listing-category,
     -webkit-justify-content: center;
     width: 15%;
     padding: 0;
-    color: #fff !important;
+    color: $body-color !important;
     text-align: center;
     background: none;
     border: 0;
