@@ -1,0 +1,14 @@
+---
+title: March 2024
+date: 3/1/2024
+image: "https://oasis-prod01-unlayer.s3.us-east-1.amazonaws.com/1709052006076-gavelimage.jpg"
+links:
+- icon: file-earmark-pdf
+  name: Download
+  url: "https://drive.google.com/file/d/1THC04kAKhWST3a8Ikc79-IANnG2E5RkI/view?usp=sharing"
+---
+
+
+```{=html}
+<iframe class="news ar4x3" src="mar_2024.pdf" title="March Newsletter"></iframe>
+```
