@@ -27,6 +27,8 @@ website:
             href: about/committees.qmd
           - text: Statements
             href: about/statements.qmd
+          - text: Community Standards
+            href: about/standards.qmd
           - text: AP-LS Bylaws
             href: about/bylaws.qmd
           - text: Contact us

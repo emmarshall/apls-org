@@ -1,66 +1,5 @@
 [
   {
-    "listing": "/conferences/preconference/index.html",
-    "items": [
-      "/conferences/preconference/workshopA/index.html",
-      "/conferences/preconference/workshopB/index.html",
-      "/conferences/preconference/workshopC/index.html",
-      "/conferences/preconference/workshopD/index.html",
-      "/conferences/preconference/workshopE/index.html",
-      "/conferences/preconference/workshopF/index.html"
-    ]
-  },
-  {
-    "listing": "/conferences/archive/index.html",
-    "items": []
-  },
-  {
-    "listing": "/awards/index.html",
-    "items": [
-      "/awards/grants/APprogram.html",
-      "/awards/grants/diversityresearch.html",
-      "/awards/grants/ECgrantinaid.html",
-      "/awards/grants/GRADgrantinaid.html",
-      "/awards/grants/macarthur.html",
-      "/awards/grants/UNDgrantinaid.html",
-      "/awards/grants/impactgrant.html",
-      "/awards/awards/bookaward.html",
-      "/awards/awards/dissertation.html",
-      "/awards/awards/distinguished.html",
-      "/awards/awards/fellows.html",
-      "/awards/awards/recaward.html",
-      "/awards/awards/saleemshah.html",
-      "/awards/awards/teachingaward.html",
-      "/awards/awards/undergradpaper.html",
-      "/awards/conference/caregivers.html",
-      "/awards/conference/clinictravel.html",
-      "/awards/conference/diversitytravelaward.html",
-      "/awards/conference/studentawards.html"
-    ]
-  },
-  {
-    "listing": "/resources/videos/index.html",
-    "items": [
-      "/resources/videos/careers2022/Index.html",
-      "/resources/videos/DEIcorrections2022/index.html",
-      "/resources/videos/tele2021/index.html",
-      "/resources/videos/clinician2013/index.html",
-      "/resources/videos/diversity2013/index.html",
-      "/resources/videos/expert2013/index.html",
-      "/resources/videos/grad2013/index.html",
-      "/resources/videos/impact2013/index.html",
-      "/resources/videos/jury2013/index.html",
-      "/resources/videos/intro2013/index.html",
-      "/resources/videos/juvenile2013/index.html",
-      "/resources/videos/risk2013/index.html",
-      "/resources/videos/students2013/index.html"
-    ]
-  },
-  {
-    "listing": "/resources/job-postings/index.html",
-    "items": []
-  },
-  {
     "listing": "/resources/newsletter/index.html",
     "items": [
       "/resources/newsletter/e-news/2024/mar2024/index.html",
@@ -105,8 +44,70 @@
     ]
   },
   {
+    "listing": "/resources/videos/index.html",
+    "items": [
+      "/resources/videos/careers2022/Index.html",
+      "/resources/videos/DEIcorrections2022/index.html",
+      "/resources/videos/tele2021/index.html",
+      "/resources/videos/clinician2013/index.html",
+      "/resources/videos/diversity2013/index.html",
+      "/resources/videos/expert2013/index.html",
+      "/resources/videos/grad2013/index.html",
+      "/resources/videos/impact2013/index.html",
+      "/resources/videos/jury2013/index.html",
+      "/resources/videos/intro2013/index.html",
+      "/resources/videos/juvenile2013/index.html",
+      "/resources/videos/risk2013/index.html",
+      "/resources/videos/students2013/index.html"
+    ]
+  },
+  {
+    "listing": "/resources/job-postings/index.html",
+    "items": []
+  },
+  {
+    "listing": "/awards/index.html",
+    "items": [
+      "/awards/grants/APprogram.html",
+      "/awards/grants/diversityresearch.html",
+      "/awards/grants/ECgrantinaid.html",
+      "/awards/grants/GRADgrantinaid.html",
+      "/awards/grants/macarthur.html",
+      "/awards/grants/UNDgrantinaid.html",
+      "/awards/grants/impactgrant.html",
+      "/awards/awards/bookaward.html",
+      "/awards/awards/dissertation.html",
+      "/awards/awards/distinguished.html",
+      "/awards/awards/fellows.html",
+      "/awards/awards/recaward.html",
+      "/awards/awards/saleemshah.html",
+      "/awards/awards/teachingaward.html",
+      "/awards/awards/undergradpaper.html",
+      "/awards/conference/caregivers.html",
+      "/awards/conference/clinictravel.html",
+      "/awards/conference/diversitytravelaward.html",
+      "/awards/conference/studentawards.html"
+    ]
+  },
+  {
+    "listing": "/conferences/archive/index.html",
+    "items": []
+  },
+  {
+    "listing": "/conferences/preconference/index.html",
+    "items": [
+      "/conferences/preconference/workshopA/index.html",
+      "/conferences/preconference/workshopB/index.html",
+      "/conferences/preconference/workshopC/index.html",
+      "/conferences/preconference/workshopD/index.html",
+      "/conferences/preconference/workshopE/index.html",
+      "/conferences/preconference/workshopF/index.html"
+    ]
+  },
+  {
     "listing": "/newsletter/index.html",
     "items": [
+      "/resources/newsletter/e-news/2024/mar2024/index.html",
       "/resources/newsletter/e-news/2024/feb2024/index.html",
       "/resources/newsletter/e-news/2024/jan2024/index.html",
       "/resources/newsletter/e-news/2023/dec2023/index.html",

@@ -1,0 +1,183 @@
+---
+title: AP-LS Community Standards
+author: Governance Committee
+date: last-modified
+title-block-banner: "../images/default-banner.svg"
+---
+
+::: panel-tabset
+## Overview
+
+All AP-LS members and AP-LS event attendees are expected to play a role in creating and maintaining an environment free from harassment and discrimination by following the norms of professional respect that help to promote honest intellectual exchange and quality scholarship. These community standards affirm the positive and constructive behaviors to which AP-LS aspires as a professional and scientific society. All individuals have the right to expect they will be treated with respect regardless of factors such as gender, sexual orientation, disability, physical appearance, body size, race, nationality, caste, or religion, as well as career stage and professional specialty.
+
+[{{< fa file-pdf aria-hidden="true" >}} View Standards](https://drive.google.com/file/d/1DwVnUcWXCDJx-V6t8hGOBGvkcbGzcfmD/view?usp=sharing){.btn .btn-outline-primary role="button"}
+
+**Being Proactive**
+
+Members and attendees should be proactive about mitigating harm to others at AP-LS conferences, events, and meetings and helping to maintain a professional and welcoming environment. Participants can be proactive by: 
+
+1.  Recognizing that the power differences inherent in academia and in society can inhibit less powerful parties such as students and junior scholars from voicing their objections to offensive comments or behavior.
+
+2.  Recognizing that harassment may take the form of subtle forms of conduct, including unintentional conduct, that are harmful to groups that lack societal power.
+
+3.  Taking affirmative steps to include others in conversations or activities.
+
+4.  Being an active bystander if you observe potential harm to another participant.
+
+5.  Following the immediate response options if you notice a dangerous situation, someone in distress, or someone being harassed. [Learn More](#report) 
+
+::: callout-tip
+## Expected Behaviors
+
+Expected behavior includes, but is not limited to:
+
+-   Exercise consideration and respect in your speech and actions.
+
+-   Be mindful of your surroundings and of your fellow participants. 
+
+-   Treat all participants with kindness, respect, and consideration.
+
+-   Communicate openly, with respect for other participants, critiquing ideas rather than individuals.
+
+-   Use welcoming and inclusive language.
+
+-   Listen actively and think carefully before speaking.
+
+-   Be collaborative and offer a spirit of collegiality.
+
+-   Respect diversity.
+
+-   Respect individual differences in communication style, but note that communication that violates these community standards will not be tolerated.
+
+-   Respect the privacy of other participants.
+
+-   Be conscious of hierarchical structures, specifically the existence of power differentials between junior and senior members—noting that fear of retaliation from senior members can make it difficult for junior members to express discomfort, rebuff unwelcome advances, and report violations of the conduct policy.
+
+-   Be open to receiving feedback on your behavior and learning from others, without defensiveness.
+
+-   Be open to engaging in informal conflict resolution if requested. 
+
+-   Follow the social media policy regarding photos or videos of presentations, as specified in the AP-LS and APA social media policies. 
+
+-   Respect the rules and policies of the convention center, hotels, contracted facility, or any other venue.
+:::
+
+::: callout-warning
+## Prohibited Behaviors
+
+-   Promoting or participating in harassment (including sexual harassment), bullying, stalking, discrimination, or intimidation of any form on-site, online, and/or on social media.
+
+-   Use of unnecessary explicit, abusive, violent, or otherwise sensitive material/comments in presentations or public spaces.
+
+-   Engaging in disruptive or disrespectful behavior at presentations or other events, including:
+    -   Interrupting and talking over others who have the floor or otherwise disallowing participation by others
+
+    -   Sustained disruption of talks or other events (verbally or physically)
+
+-   Misuse of media/internet:
+    -   Knowingly and intentionally violating the APA and AP-LS social media policies. 
+
+    -   Posting (or threatening to post), without permission, other people’s private personally-identifying information online, including on social networking sites.
+
+-   Blocking or otherwise disrupting investigation of complaints, including retaliation against anyone reporting or participating in an investigation of a claim.
+
+-   Advocating for, encouraging, or dismissing concerns regarding any of the above behaviors. 
+
+-   Engaging in criminal behavior.
+:::
+
+##### [What should you do if you experience or see prohibited behavior?]{#report}
+
+-   To discuss behaviors or situations with an impartial party, please contact the AP-LS Ombuds. Discussions with the Ombuds are informal and confidential. 
+
+-   If you believe that prohibited behaviors are occurring in a manner that requires an immediate response, please contact a designated responder. 
+    -   For official conference events, designated responders are voting members of the AP-LS Executive Committee and AP-LS staff. 
+
+-   For events outside of the conference or events hosted by an AP-LS committee, the members of the hosting committee are designated responders.
+
+-   Contact information for the AP-LS Ombuds, Executive Committee, and staff is provided in the conference app and the conference program.
+
+-   If you wish to file a formal complaint, please use this link: bit.ly/AP-LSReport \[note: not operational yet\]. We encourage individuals to consider speaking with the AP-LS Ombuds before deciding whether to file a complaint. \
+
+## Background
+
+Background Information for the AP-LS Community Standards Policy
+
+What problems led to the creation of the AP-LS Community Standards? Unfortunately, we know that unacceptable behavior occurs at the AP-LS conference. Following a number of anecdotal reports of inappropriate behavior, in 2020, the Professional Development of Women conducted a Conference Climate Survey. Everyone who attended the 2019 and 2020 AP-LS conferences was invited to participate, and 351 individuals responded to the survey.
+
+The complete report is available to download.
+
+[{{< fa circle-info aria-hidden="true" >}} Learn more](../resources/reports/){.btn .btn-outline-primary role="button"}
+
+#### Here are some key findings from the survey:
+
+People are experiencing offensive, sexual, and non-inclusive behaviors at the AP-LS conference. For example, when respondents were asked about their personal experiences at AP-LS conferences during the past five years:
+
+-   **16.8%** reported that someone made offensive remarks in their presence. These remarks include insensitive or disparaging comments based on gender, racial/ethnic identity, age, political orientation, and speaking English as a second language.
+
+-   **14.8%** reported that someone made sexist remarks in their presence.
+
+-   **11.3%** reported that someone stared, leered, or ogled them in a way that made them feel uncomfortable.
+
+-   **2.5%** reported that someone touched them in a way that made them feel uncomfortable.
+
+-   **24.7%** reported that someone put them down or was condescending to them.
+
+-   **12.4%** reported being deliberately ignored, isolated, left out, or excluded.
+
+-   **5.3%** reported being intimidated or bullied. People are experiencing discrimination and harassment at the AP-LS conference and adjacent events.
+
+-   During the past five years, **9.6%** reported experiencing discrimination or harassment at formal meeting events (sessions, receptions, meetings listed on the AP-LS program).
+
+-   **7.0%** reported experiencing discrimination or harassment at a private party, meal, or event involving AP-LS participants (not on the AP-LS program).
+
+-   **7.7%** reported experiencing discrimination or harassment due to gender.
+
+-   **2.6%** reported experiencing discrimination or harassment due to race or ethnicity.
+
+-   **5.2%** reported experiencing discrimination or harassment due to age or generation.
+
+**What do AP-LS members and conference participants want?**
+
+In the survey, AP-LS members and conference participants expressed a strong desire for inclusivity and a clear process for reporting and investigating discrimination and harassment.
+
+-   Respondents strongly endorsed the statement, “**It is important to me that AP-LS is an inclusive conference”** (M=8.13, sd=1.23, on a 9-point scale).
+
+-   **81.4%** agreed with the statement, “Implementing a clear process for reporting discrimination or harassment at a conference should be a top priority for AP-LS.”
+
+-   **80.4%** agreed with the statement, “Implementing a clear process for investigating acts of discrimination or harassment at a conference should be a top priority for AP-LS.”
+
+-   Only **20.7%** agreed with the statement, “If I experienced or observed an act of discrimination or harassment while attending an AP-LS conference, I would know whom to contact to report the incident.”
+
+**What have other professional organizations done?**
+
+In recent years, many professional organizations have adopted codes of conduct or similarly named policies about acceptable and unacceptable behavior for their conferences, workshops, and other activities. These organizations include:
+
+-   The American Psychological Association Council of Representatives
+
+-   Other psychological organizations, such as the Society for Personality and Social Psychology
+
+-   Other forensic organizations, such as the Association for the Treatment of Sexual Abusers
+
+-   Other social science organizations, such as the Law and Society Association
+
+-   Natural science organizations, such as the Ecological Society of America
+
+-   The National Academies of Sciences, Engineering, and Medicine
+
+-   Legal organizations, such as the National Association of Criminal Defense Lawyers
+
+**What was the process for developing the AP-LS Community Standards Policy?**
+
+-   An ad-hoc Task Force was established. The Task Force included five individuals (Jennifer Hunt, Chair, Apryl Alexander, Jason Cantone, Emily Gottfried, and Jennifer Perillo) with diverse personal and professional identities.
+
+-   The Task Force gathered and reviewed Codes of Conduct from 17 professional organizations. Based on that review, the Task Force drafted the AP-LS Community Standards Policy.
+
+-   The draft policy was reviewed and initially approved by the AP-LS Executive Committee.
+
+-   AP-LS members were invited to provide comments on the policy. The comment period was one month (June, 2023). An invitation to provide comments was emailed at the beginning of the month, and a reminder was emailed during the final week.
+
+-   The policy was revised based on member comments.
+
+-   APA General Counsel reviewed the revised policy. The final Community Standards Policy was approved and enacted by the AP-LS Executive Committee on August 4, 2023.
+:::
