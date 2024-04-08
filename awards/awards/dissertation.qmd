@@ -15,7 +15,7 @@ links:
   url: "mailto:dissertation@ap-ls.org"
 - icon: send
   name: Submit here
-  url: "mailto:dissertation@ap-ls.org"
+  url: "https://forms.gle/Q2i4nknLaiKMq3fs8"
 ---
 
 ```{r setup, include=FALSE}
@@ -36,22 +36,44 @@ First, second and third-place awards are conferred annually, and winners will be
 
 To be eligible for the award, you must be a member of AP-LS and have defended your dissertation during the calendar year of the submission deadline (e.g., if the deadline for submissions is December 31, `r format(Sys.Date(), '%Y')`, then you must have defended your dissertation in `r format(Sys.Date(), '%Y')`).
 
+::: callout-note
 You do not need to have graduated by December 31 to apply.
+:::
+
+## Criteria
+
+-   **Originality**: A dissertation exhibits original work when it brings innovative and unique perspectives, advancing the breadth of knowledge with novel findings or methodologies that challenge and expand upon existing paradigms.
+
+-   **Quality**: Exceptional research is characterized by meticulous attention to detail, sophistication, and a rigorous, well-executed qualitative, quantitative, or mixed-method study design.
+
+-   **Contribution**: The value of a dissertation is measured by its capacity to significantly enhance the field, whether through pioneering ideas or the insightful re-evaluation of established data.
+
+-   **Presentation**: Clarity and structure in the dissertation are essential, with visual elements like tables and figures enhancing the narrative by being self-explanatory and succinct.
+
+-   **Contributions to Equity, Diversity, and Inclusion (EDI)**: The dissertation addresses and furthers AP-LS's commitment to EDI, providing insights that extend to traditionally underrepresented groups. The work may examine specific subgroups and/or propose broader applications that encourage inclusivity and address systemic disparities.
+
+-   **Pilot Criterion - Open-Science Practice**: The dissertation's alignment with open-science practices, including transparency, data sharing, and replicability, is explored as a provisional criterion for future consideration."
 
 ## How to Apply
 
-Email submissions to the [Chair of the Dissertation Awards Committee](mailto:aplsdissertations@gmail.com) {{< var email.dissertation >}} before December 31 annually.
+Please upload your submission to the [AP-LS Dissertation Award Google Form](https://forms.gle/Q2i4nknLaiKMq3fs8) before December 31 annually.
 
 ::: callout-tip
 ## Submissions should include:
 
-1.  Copy of the dissertation as it was submitted to the student's university (in Word or PDF format)
-2.  Copy of the dissertation with all author, advisor, and school identifying information removed (in Word or PDF format)
-3.  A signed letter of support (on letterhead) from the dissertation advisor.
+1.  **Copy of Dissertation Submission**: Provide a copy of the dissertation as it was submitted to the student’s university in either Word or PDF format.
 
-These items can be submitted via one email from the student, or via separate emails from the student and their advisor, respectively.
+2.  **De-identified Dissertation Copy**: Submit a copy of the dissertation with all author, advisor, and school identifying information removed, formatted in either Word or PDF.
 
-For more information, please contact the chair of the Dissertation Awards Committee.
+3.  **De-identified Letter (2 pages max)**: Include a de-identified letter, limited to two pages in PDF format, addressing the following:
+
+    1.  **Rationale for Dissertation Topic Selection**: Explain the reasons behind the choice of the dissertation topic, including its significance and relevance to the field of study.
+
+    2.  **Involvement in the Research Process**: Describe your comprehensive involvement in all stages of the research process, encompassing conceptualization, methodology design, data collection, analysis, and interpretation.
+
+    3.  **Alignment with Scoring Criteria**: Articulate how the dissertation fulfills each of the scoring categories outlined above, demonstrating its originality, quality, contribution to the field, clarity of presentation, and potential contributions to equity, diversity, and inclusion (EDI). Additionally, applicants may address the alignment of their research with open-science practices, if applicable.
+
+    For more information, please contact the chair of the Dissertation Awards Committee {{< var email.dissertation >}}.
 :::
 
 ## Past Recipients
@@ -59,6 +81,8 @@ For more information, please contact the chair of the Dissertation Awards Commit
 +--------------+---------------------------+-------------------------------+------------------------------------+
 | Year         | 1st place                 | 2nd place                     | 3rd place                          |
 +==============+===========================+===============================+====================================+
+| 2024         | Jacqueline Katzman        | Lauren Grove                  | Cassandra Flick                    |
++--------------+---------------------------+-------------------------------+------------------------------------+
 | 2023         | Jesse Grabman             | Tamara de Beuf                | Breanne Wylie                      |
 +--------------+---------------------------+-------------------------------+------------------------------------+
 | 2022         | Stephanie Cardenas        | Joseph Avery                  | Amy Dezember                       |
