@@ -72,9 +72,9 @@ Please upload your submission to the [AP-LS Dissertation Award Google Form](http
     2.  **Involvement in the Research Process**: Describe your comprehensive involvement in all stages of the research process, encompassing conceptualization, methodology design, data collection, analysis, and interpretation.
 
     3.  **Alignment with Scoring Criteria**: Articulate how the dissertation fulfills each of the scoring categories outlined above, demonstrating its originality, quality, contribution to the field, clarity of presentation, and potential contributions to equity, diversity, and inclusion (EDI). Additionally, applicants may address the alignment of their research with open-science practices, if applicable.
-
-    For more information, please contact the chair of the Dissertation Awards Committee {{< var email.dissertation >}}.
 :::
+
+For more information, please contact the chair of the Dissertation Awards Committee {{< fa envelope title="Email" >}} {{< var email.dissertation >}}.
 
 ## Past Recipients
 
