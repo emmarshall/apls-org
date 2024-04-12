@@ -164,42 +164,61 @@ div(class = "bg-light",
 :::
 :::
 
-::: grid
+
+
+::: {.column .col-v-center width="15%"}
+:::
+
+::: {.column .col-v-center width="70%"}
+
+::: vspace
+:::
+
 ```{r}
-#| label: Row of sub-links
+#| include: false
 #| echo: false
-#| warning: false
-#| message: false
-content = rowwise_table(~name, ~icon, ~link,
-                        "Publications", "chat-dots", "publications/index.html",
-  "Newsletter", "newspaper", "resources/newsletter/index.html",
-    "Job Posts", "briefcase-fill", "resources/job-postings/index.html", 
-    "APA", "award-fill", "https://convention.apa.org/future-conventions",
-    "Videos", "play-circle", "resources/videos/index.html"
-)
-div(class = "bg-light",
- div(class = "bg-breakout",
-    div(class = "inner-container",
-      div(class = "boxed-wrapper",
-            div(class = "boxed-feature-grid",
-          pmap(content, function(name, icon, link) {
-            div(class = "boxed-feature-grid__item",
-              div(class = "boxed-feature-grid__icon",
-                a(href = link, class = "boxed-feature-grid__link",
-                  tags$i(class = sprintf("bi-%s boxed-feature-grid__i", icon))
-                )),
-    div(class = "boxed-feature-grid__title", name)
-)
-          })
+
+resource_grid = function(content) {
+  div(class = "grid grid-three",
+    pmap(content, function(category, name, icon, url, text) {
+      div(class = "grid__item",
+        h3(class = "grid__title",
+          tags$i(class = sprintf("bi-%s grid__title-icon", icon)),
+          HTML("&nbsp;"),
+          name
+        ),
+        p(
+        paste0(text, "."),
+        a(href = url, "aria-label" = sprintf("Go to %s", name), span(class = "grid__link-box"))
         )
       )
-    )
+    })
   )
-)
+}
+# Text description should be one sentence
+content = rowwise_table(~category, ~name, ~icon, ~url, ~text,
+                        "general", "Publications", "journals", "publications/index.html", "Learn about journals, book series, etc. from APA Div. 41..",
+   "general", "Newsletter", "newspaper",  "newsletter/index.html", "Read the latest news from our membership..",
+    "general", "Job Posts", "briefcase-fill", "resources/job-postings/index.html", "Browse recent job listings..",
+      "general", "Community", "person-fill-exclamation", "about/standards.html", "NEW! Learn about the AP-LS Community Standards..",
 
+    "general", "Videos", "play-circle", "resources/videos/index.html", "Collection of webinars, talks and videos..",
+      "general", "Past Conferences", "chat-dots", "conferences/archive/index.html", "Browse programs from past AP-LS Conferences.."
+
+)
+setkeyv(content, "category")
 ```
+
+
+
+```{r, echo = FALSE}
+resource_grid(content[.("general")])
+```
+
 :::
 :::
+
+
 
 ::: {.simple-info-blue .alt-background-blue}
 ::: content-block-blue
