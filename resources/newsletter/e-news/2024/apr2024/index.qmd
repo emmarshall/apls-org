@@ -1,0 +1,14 @@
+---
+title: April 2024
+date: 4/1/2024
+image: featured.png
+links:
+- icon: file-earmark-pdf
+  name: Download
+  url: "https://drive.google.com/file/d/1SN_joYZKExHrB9djh3TUHY-lrMbU9iNz/view?usp=sharing"
+---
+
+
+```{=html}
+<iframe class="news ar4x3" src="apr_2024.pdf" title="March Newsletter"></iframe>
+```

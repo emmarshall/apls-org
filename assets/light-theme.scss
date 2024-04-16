@@ -1227,7 +1227,8 @@ div.quarto-post .listing-categories .listing-category,
 // hero-banner
 .hero-banner {
   position: relative;
-  background-color: lighten($secondary, 5%);
+  background-color: $secondary;
+  background-image: url(assets/asfalt-dark.png);
   display: flex;
   justify-content: center;
 }
@@ -1242,8 +1243,8 @@ div.quarto-post .listing-categories .listing-category,
     right: 15%;
     bottom: 1.25rem;
     left: 15%;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
     color: $body-color;
     text-align: center
 }
