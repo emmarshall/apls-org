@@ -485,10 +485,10 @@ pre.text, pre.sourceCode, .cell-output pre {
 .hero-banner {
   position: relative;
   background-color: lighten($secondary, 30%);
+  background-image: url(assets/asfalt-dark.png);
   display: flex;
   justify-content: center;
 }
-
 
 .carousel-caption {
   color: $secondary;
