@@ -10,7 +10,4 @@ links:
   url: "https://drive.google.com/file/d/1s8_ow8VeBxTOmfOvir9n2h_5U4eABNXf/view?usp=sharing"
 ---
 
-
-```{=html}
-<iframe class="news ar4x3" src="aug2022.Rhtml" title="August Newsletter"></iframe>
-```
+{{< html file="../../html/aug2022.html" >}}

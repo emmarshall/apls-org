@@ -9,6 +9,4 @@ links:
 ---
 
 
-```{=html}
-<iframe class="news ar4x3" src="dec2022.Rhtml" title="December Newsletter"></iframe>
-```
+{{< html file="../../html/dec2022.html" >}}

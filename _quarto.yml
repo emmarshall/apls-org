@@ -4,6 +4,8 @@ project:
   resources:
     - "*.css"
     - "*.pdf"
+    - "resources/newsletter/e-news/html/*"
+
 
 execute:
     freeze: auto

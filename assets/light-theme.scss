@@ -1227,8 +1227,8 @@ div.quarto-post .listing-categories .listing-category,
 // hero-banner
 .hero-banner {
   position: relative;
-  background-color: $secondary;
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7a/2k_Dissolve_Noise_Texture.png');
+  background-color: lighten($secondary, 4%);
+ // background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7a/2k_Dissolve_Noise_Texture.png');
   display: flex;
   justify-content: center;
 }

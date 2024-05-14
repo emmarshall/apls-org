@@ -9,7 +9,6 @@ links:
 ---
 
 
-```{=html}
-<iframe class="news ar4x3" src="june2022.Rhtml" title="June Newsletter"></iframe>
-```
+
+{{< html file="../../html/june2022.html" >}}
 

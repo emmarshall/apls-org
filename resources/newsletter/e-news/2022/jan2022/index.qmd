@@ -2,9 +2,7 @@
 title: January 2022
 date: 1/1/2022
 image: featured.jpg 
+draft: true
 ---
 
-```{=html}
-
-
-```
+{{< html file="../../html/jan2022.html" >}}
