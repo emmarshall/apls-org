@@ -17,7 +17,7 @@ source("../assets/apls_functions.R")
 
 content = rowwise_table(
   ~name, ~image, ~url, ~text,
-  "Daniel Murrie", "presidents/daniel_murrie.png", "mailto:murrie@virginia.edu", "President",
+  "Daniel Murrie", "presidents/daniel_murrie.jpeg", "mailto:murrie@virginia.edu", "President",
     "Christian Meisner", "presidents/christian_meissner.jpeg", "mailto:cameissn@iastate.edu", "President Elect",
   "Barry Rosenfeld", "presidents/barry_rosenfeld.jpg", "mailto:rosenfeld@fordham.edu", "Past President"
 )
@@ -54,7 +54,7 @@ content = rowwise_table(
   "Jessica Salerno", "", "mailto:jessica.salerno@asu.edu", "Member-at-large",
   "Jennifer Groscup", "", "mailto:jgroscup@scrippscollege.edu", "APA Council Representative",
   "Margaret Kovera", "", "mailto:mkovera@jjay.cuny.edu", "APA Council Representative",
-  "Bradley McAuliff", "", "mailto:bradley.mcauliff@csun.edu", "Law & Human Behavior editor",
+  	"Dave DeMatteo", "", "mailto:david.dematteo@drexel.edu", "Law & Human Behavior editor",
   "Meg Ternes", "", "mailto:meg.ternes@smu.ca", "Newsletter editor",
   "Monica Miller", "", "mailto:mkmiller@unr.edu", "Book Series editor",
   "Lindsey Wylie", "", "mailto:webmaster@ap-ls.org", "Website editor",
