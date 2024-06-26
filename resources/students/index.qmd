@@ -1,15 +1,30 @@
 ---
-title: Students
-draft: true
+title: AP-LS Student Committee
+title-block-banner: "../../images/banners/default-banner.png"
 ---
+
 
 The American Psychology-Law Society (AP-LS) Student Committee works to advance the interests of student affiliates within the division, including by enhancing communication among student affiliates and between student affiliates and other members in the society, enhancing the participation of student affiliates in society affairs, and generally advancing the professional development of student affiliates.
 
-Although many of our resources are reflected on this website, check out our dynamic [unofficial website](https://www.apls-students.org/) for up-to-date information on funding opportunities, job postings, webinars, and other student-focused programming. We are active on social media---please like our Facebook page or connect with us on Twitter @APLSsc for access to the most recent information from the Student Committee. Email us with direct questions.
+Although many of our resources are reflected on this website, check out our dynamic [unofficial website](https://www.apls-students.org/) for up-to-date information on funding opportunities, job postings, webinars, and other student-focused programming. We are active on social media---please like our Facebook page or connect with us on Twitter @APLSsc for access to the most recent information from the Student Committee. Email us with direct questions at {{< fa envelope title="Email" >}} {{< var email.students >}}.
 
 Students interested in getting involved with the Student Committee should first become student affiliates of AP-LS. In addition, they should consider joining Div. 41's parent association, the American Psychological Association (APA), as a student affiliate. Graduate students who join APA are also automatically members of the American Psychological Association of Graduate Students (APAGS). The yearly dues to each are offset by the numerous benefits afforded exclusively to student members.
 
 Undergraduate, graduate, or professional students (who are AP-LS student affiliates) may apply to serve as AP-LS Student Committee Campus Representatives. In addition, and as per our bylaws, elections for Student Committee officer positions are held each year in the summer.
+
+
+::: column-screen
+::: {.simple-info-blue .alt-background-blue}
+::: content-block-blue
+##### Want to learn more about the Student Campus Representative program? 
+
+[Learn More {{< fa arrow-right >}}](campus_reps.qmd){.btn-action .btn .btn-secondary .btn-lg role="button"}
+:::
+:::
+:::
+
+::: vspace
+:::
 
 ## Executive Committee
 
@@ -32,6 +47,22 @@ Elections for the Executive Committee are held annually. Any current student mem
 
 Keep an eye on our [Facebook](https://www.facebook.com/apls.sc) and [Twitter](https://twitter.com/APLSsc) pages for updates about the self-nomination process and the annual election.
 
+::: vspace
+:::
+
+::: column-screen
+::: {.simple-info-blue .alt-background-blue}
+::: content-block-blue
+##### Want to see who is on the AP-LS Student Committee? Check out their website! 
+
+[Learn More {{< fa arrow-right >}}](http://www.apls-students.org/){.btn-action .btn .btn-secondary .btn-lg role="button"}
+:::
+:::
+:::
+
+::: vspace
+:::
+
 ## Student Resources  
 
 #### Graduate Programs in Psychology and Law 
@@ -48,7 +79,7 @@ Check out our [unofficial website](https://www.apls-students.org/) for more grea
 
 ### Training resources 
 
-The Student Committee clinical liaison develops a [predoctoral internship resource guide](https://drive.google.com/file/d/0BwHHGLhi_4i-dnR4Q3FheHpaNW8/edit?resourcekey=0-K8LDLfwzZegBjpKQxGup-A), \[clinical postdoctoral positions\](https://www.apls-students.org/clinical.html) and hosts a listing of predoctoral internships and [research postdoctoral positions](https://www.apls-students.org/research.html) that have at least some element of training in forensic psychology.
+The Student Committee clinical liaison develops a [predoctoral internship resource guide](https://drive.google.com/file/d/0BwHHGLhi_4i-dnR4Q3FheHpaNW8/edit?resourcekey=0-K8LDLfwzZegBjpKQxGup-A), [clinical postdoctoral positions](https://www.apls-students.org/clinical.html) and hosts a listing of predoctoral internships and [research postdoctoral positions](https://www.apls-students.org/research.html) that have at least some element of training in forensic psychology.
 
 Students and professionals interested in legal training may be interested in reviewing the results of our law training survey. The data is available upon request.
 
@@ -65,3 +96,4 @@ Resources specifically for undergraduate students Current undergraduate students
 Many of the graduate programs in psychology and law (but not all) are featured in the guide to graduate programs in forensic and legal psychology, compiled by the Teaching, Training, and Careers Committee.
 
 Students from underrepresented groups who are interested in gaining more research experience to make themselves more competitive for graduate school should check out the Minority Affairs Committee's Access Path to Psychology and Law Experience (APPLE) program.
+

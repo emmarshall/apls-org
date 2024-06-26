@@ -298,7 +298,12 @@ Note
 </div>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p>For more information about the AP Program, please contact the program chair, <a href="mailto:cwillis-esqueda1@unl.edu">Cynthia Willis-Esqueda</a>.</p>
+<p>For more information about the AP Program, please contact the program chair, <script type="text/javascript">
+<!--
+h='&#x75;&#110;&#108;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#x63;&#x77;&#x69;&#108;&#108;&#x69;&#x73;&#x2d;&#x65;&#x73;&#x71;&#x75;&#x65;&#100;&#x61;&#x31;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x43;&#x79;&#110;&#116;&#104;&#x69;&#x61;&#32;&#x57;&#x69;&#108;&#108;&#x69;&#x73;&#x2d;&#x45;&#x73;&#x71;&#x75;&#x65;&#100;&#x61;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>Cynthia Willis-Esqueda (cwillis-esqueda1 at unl dot edu)</noscript>.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -598,6 +603,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

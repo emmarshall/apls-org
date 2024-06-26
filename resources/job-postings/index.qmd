@@ -2,7 +2,7 @@
 title: "Job Postings"
 toc: true
 toc-title: "Job Type"
-title-block-banner: "../../images/default-banner.svg"
+title-block-banner: "../../images/banners/default-banner.png"
 listing:
   - id: academic
     contents: academic-jobs.yml

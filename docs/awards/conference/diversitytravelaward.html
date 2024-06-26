@@ -273,7 +273,12 @@ Caution
 </div>
 <div class="callout-body-container callout-body">
 <p>Please be aware that students can only receive funding from one BRIDGE program/award per year.</p>
-<p>For more information about the Diversity Travel Award program, please contact the <a href="mailto:ann38@drexel.edu">BRIDGE Travel Award program chair</a>.</p>
+<p>For more information about the Diversity Travel Award program, please contact the <script type="text/javascript">
+<!--
+h='&#100;&#114;&#x65;&#120;&#x65;&#108;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#x61;&#110;&#110;&#x33;&#56;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#66;&#82;&#x49;&#68;&#x47;&#x45;&#32;&#84;&#114;&#x61;&#118;&#x65;&#108;&#32;&#x41;&#x77;&#x61;&#114;&#100;&#32;&#112;&#114;&#x6f;&#x67;&#114;&#x61;&#x6d;&#32;&#x63;&#104;&#x61;&#x69;&#114;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>BRIDGE Travel Award program chair (ann38 at drexel dot edu)</noscript>.</p>
 </div>
 </div>
 </div>
@@ -577,6 +582,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

@@ -105,8 +105,7 @@ website:
             - resources/guidelines/Assessment.qmd
             - resources/guidelines/Communications.qmd
             - resources/guidelines/References.qmd
-    
-       
+   
   page-footer:
     left: |
       Copyright &copy; 2024 [American Psychology-Law Society](https://apls.memberclicks.net/)
@@ -131,6 +130,8 @@ website:
 
 format:
   html:
+    email-obfuscation: javascript
+    link-external-newwindow: true
     theme: 
       light: [assets/light-theme.scss]
       dark: [assets/dark-theme.scss]

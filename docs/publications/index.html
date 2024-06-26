@@ -283,7 +283,12 @@ Do you have a proposal for a new book in this series?
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The series editor welcomes submissions of proposals for new books in this series. The society is interested in publishing scholarly work that advances the field of psychology and law by contributing to its theoretical and empirical knowledge base. The series editor will consider proposals in any area of psychology and law. If you would like more information about submitting a proposal, please contact the book series editor, <a href="mailto:mkmiller@unr.edu">Monica Miller</a>.</p>
+<p>The series editor welcomes submissions of proposals for new books in this series. The society is interested in publishing scholarly work that advances the field of psychology and law by contributing to its theoretical and empirical knowledge base. The series editor will consider proposals in any area of psychology and law. If you would like more information about submitting a proposal, please contact the book series editor, <script type="text/javascript">
+<!--
+h='&#x75;&#110;&#114;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#x6d;&#x6b;&#x6d;&#x69;&#108;&#108;&#x65;&#114;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x4d;&#x6f;&#110;&#x69;&#x63;&#x61;&#32;&#x4d;&#x69;&#108;&#108;&#x65;&#114;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>Monica Miller (mkmiller at unr dot edu)</noscript>.</p>
 </div>
 </div>
 <p>For all of the books within the prior series, please visit the <a href="https://global.oup.com/academic/content/series/a/american-psychology-law-society-series-plp/?cc=ca&amp;lang=en&amp;">Oxford University Press AP-LS book series page</a>.</p>
@@ -1095,6 +1100,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

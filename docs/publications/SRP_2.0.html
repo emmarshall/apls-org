@@ -267,7 +267,12 @@ Warning
 </div>
 <div class="callout-body-container callout-body">
 <p>Members will have another opportunity to attend a session on the Scientific Review Paper at AP-LS and/or send comments to the authors via email in March 2024.</p>
-<p>Questions or comments on the process of developing an AP-LS Scientific Review Paper may addressed to the Chair of the Scientific Review Paper Committee, <a href="mailto:Lindsay.malloy@ontariotechu.ca%3E">Lindsay Malloy</a>.</p>
+<p>Questions or comments on the process of developing an AP-LS Scientific Review Paper may addressed to the Chair of the Scientific Review Paper Committee, <script type="text/javascript">
+<!--
+h='&#x6f;&#110;&#116;&#x61;&#114;&#x69;&#x6f;&#116;&#x65;&#x63;&#104;&#x75;&#46;&#x63;&#x61;&#x25;&#x33;&#x45;';a='&#64;';n='&#76;&#x69;&#110;&#100;&#x73;&#x61;&#x79;&#46;&#x6d;&#x61;&#108;&#108;&#x6f;&#x79;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#76;&#x69;&#110;&#100;&#x73;&#x61;&#x79;&#32;&#x4d;&#x61;&#108;&#108;&#x6f;&#x79;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>Lindsay Malloy (Lindsay.malloy at ontariotechu dot ca%3E)</noscript>.</p>
 </div>
 </div>
 
@@ -514,6 +519,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

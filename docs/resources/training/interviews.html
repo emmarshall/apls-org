@@ -456,7 +456,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="how-can-students-with-backgrounds-primarily-in-law-e.g.-jd-students-but-with-an-interest-in-forensic-psychology-become-more-involved-in-the-field-should-law-students-with-an-interest-in-forensic-psychology-scholarship-consider-an-ll.m.-or-jsdsjd-degree-what-would-you-advise-those-students-of" class="level5">
 <h5 class="anchored" data-anchor-id="how-can-students-with-backgrounds-primarily-in-law-e.g.-jd-students-but-with-an-interest-in-forensic-psychology-become-more-involved-in-the-field-should-law-students-with-an-interest-in-forensic-psychology-scholarship-consider-an-ll.m.-or-jsdsjd-degree-what-would-you-advise-those-students-of"><strong>How can students with backgrounds primarily in law (e.g., JD students) but with an interest in forensic psychology become more involved in the field? Should law students with an interest in forensic psychology scholarship consider an LL.M. or JSD/SJD degree? What would you advise those students of?</strong></h5>
 <ul>
-<li><p>New York Law School offers 13 courses in mental disability law studies in a blended online format. All courses are open to law students both in the US and abroad who are interested in learning more about the intersection between these disciplines, and law students can cross-register for these courses. Please contact our senior program administrator, <a href="mailto:Lbass@nyls.edu">Liane Bass</a>, Esq. for details. Scope notes for the courses can be found at <a href="http://www.nyls.edu/mdl">online</a>.We also offer an M.A.&nbsp;degree in mental disability law studies (I believe it is the only one offered by an US law school) ; about half our students are law graduates with JD degrees. Distant students need not be in NYC for any sessions. (Michael Perlin)</p></li>
+<li><p>New York Law School offers 13 courses in mental disability law studies in a blended online format. All courses are open to law students both in the US and abroad who are interested in learning more about the intersection between these disciplines, and law students can cross-register for these courses. Please contact our senior program administrator, <script type="text/javascript">
+<!--
+h='&#110;&#x79;&#108;&#x73;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#76;&#98;&#x61;&#x73;&#x73;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#76;&#x69;&#x61;&#110;&#x65;&#32;&#66;&#x61;&#x73;&#x73;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>Liane Bass (Lbass at nyls dot edu)</noscript>, Esq. for details. Scope notes for the courses can be found at <a href="http://www.nyls.edu/mdl">online</a>.We also offer an M.A.&nbsp;degree in mental disability law studies (I believe it is the only one offered by an US law school) ; about half our students are law graduates with JD degrees. Distant students need not be in NYC for any sessions. (Michael Perlin)</p></li>
 <li><p>The joint degree programs at Nebraska and elsewhere. I doubt these degrees [LLM or JSD/SJD] help much by themselves, but if they results in one or more well-placed articles that can be a boon to an academic career. (Christopher Slobogin)</p></li>
 </ul>
 </section>
@@ -1064,6 +1069,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

@@ -346,7 +346,12 @@ Note
 </div>
 <div class="callout-body-container callout-body">
 <p>Please note that mentors are not reviewers or co-authors and should provide general support in the application process.</p>
-<p>If you’d like to connect with a mentor, please think about three keywords related to your project and send us an email to the <a href="mailto:ecp@ap-ls.org">ECP committee</a> and include GiA Mentoring program connection request: [your keywords] as the subject. We will do our best to connect you with a mentor.</p>
+<p>If you’d like to connect with a mentor, please think about three keywords related to your project and send us an email to the <script type="text/javascript">
+<!--
+h='&#x61;&#112;&#x2d;&#108;&#x73;&#46;&#x6f;&#114;&#x67;';a='&#64;';n='&#x65;&#x63;&#112;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x45;&#x43;&#80;&#32;&#x63;&#x6f;&#x6d;&#x6d;&#x69;&#116;&#116;&#x65;&#x65;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>ECP committee (ecp at ap-ls dot org)</noscript> and include GiA Mentoring program connection request: [your keywords] as the subject. We will do our best to connect you with a mentor.</p>
 </div>
 </div>
 </div>
@@ -595,6 +600,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

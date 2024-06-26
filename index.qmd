@@ -95,7 +95,7 @@ content = rowwise_table(~name, ~icon, ~link,
   "Committees", "person-rolodex", "about/committees.html",
     "Conference", "easel2-fill", "conferences/index.html", 
     "Funding", "award-fill", "awards/index.html",
-    "Students", "mortarboard-fill", "https://www.apls-students.org/resources.html"
+    "Students", "mortarboard-fill", "resources/students.html"
   
 )
 div(class = "bg-light",

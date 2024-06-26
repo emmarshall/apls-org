@@ -327,7 +327,12 @@ ul.task-list li input[type="checkbox"] {
 <figure class="text-end figure">
 <blockquote class="blockquote">
 <p class="mb-0">
-</p><p>If you have any questions or comments about the conference, please contact the conference co-chairs at <a href="mailto:conference@ap-ls.org">conference@ap-ls.org</a></p>
+</p><p>If you have any questions or comments about the conference, please contact the conference co-chairs at <script type="text/javascript">
+<!--
+h='&#x61;&#112;&#x2d;&#108;&#x73;&#46;&#x6f;&#114;&#x67;';a='&#64;';n='&#x63;&#x6f;&#110;&#102;&#x65;&#114;&#x65;&#110;&#x63;&#x65;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
+// -->
+</script><noscript>conference at ap-ls dot org</noscript></p>
 <p>Looking forward to seeing everyone in March!</p>
 <figcaption class="blockquote-footer">
 <p>2024 AP-LS Conference Co-Chairs <cite title="Cait Cavanagh, Ph.D. &amp; Samantha Zottola, Ph.D.">Cait Cavanagh, Ph.D.&nbsp;&amp; Samantha Zottola, Ph.D.</cite></p>
@@ -1343,6 +1348,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

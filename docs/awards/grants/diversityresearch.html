@@ -284,7 +284,12 @@ Keep in mind
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
 <p>Award submissions will be accepted from September 15 to January 15 annually.</p>
-<p>For more information about the Diversity Program, please contact the program chair, <a href="mailto:evelyn.maeder@carleton.ca">Evelyn Maeder</a>.</p>
+<p>For more information about the Diversity Program, please contact the program chair, <script type="text/javascript">
+<!--
+h='&#x63;&#x61;&#114;&#108;&#x65;&#116;&#x6f;&#110;&#46;&#x63;&#x61;';a='&#64;';n='&#x65;&#118;&#x65;&#108;&#x79;&#110;&#46;&#x6d;&#x61;&#x65;&#100;&#x65;&#114;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x45;&#118;&#x65;&#108;&#x79;&#110;&#32;&#x4d;&#x61;&#x65;&#100;&#x65;&#114;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>Evelyn Maeder (evelyn.maeder at carleton dot ca)</noscript>.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -561,6 +566,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
