@@ -56,7 +56,7 @@ renv::restore()
 4. To preview the site from your terminal use: 
 
 ``` r
-quarto preview mlr-org
+quarto preview apls-org
 ```
 
 ## How to Change the website
