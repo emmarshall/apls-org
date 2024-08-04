@@ -127,11 +127,14 @@ Looking forward to seeing everyone in March!
 ::: vspace
 :::
 
+
 ::: {.simple-info-center}
 
 [2025 Call for Proposals]{.plenary}
 
 [Annual Conference of the American Psychology-Law Society (AP-LS) <br> March 13-15, 2025 \| San Juan, Puerto Rico \| Sheraton Puerto Rico Resort & Casino]{.event-time}
+
+{{< downloadthis files/2025_Submission_Call.pdf dname="2025_submission_call" label="Download" icon="file-pdf" type="primary" >}}
 
 :::
 
