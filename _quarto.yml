@@ -47,12 +47,12 @@ website:
         text: Awards
       - text: Conferences
         menu:
-          - text: 2024 AP-LS Conference
+          - text: 2025 AP-LS Conference
             href: conferences/index.qmd
-          - text: 2024 Program & Schedule
-            href: conferences/schedule.qmd
-          - text: 2024 Preconference Workshops
-            href: conferences/preconference/index.qmd
+          #- text: 2024 Program & Schedule
+          #  href: conferences/schedule.qmd
+          #- text: 2024 Preconference Workshops
+          #  href: conferences/preconference/index.qmd
           - text: Past Conferences
             href: conferences/archive/index.qmd
       - href: resources/index.qmd
