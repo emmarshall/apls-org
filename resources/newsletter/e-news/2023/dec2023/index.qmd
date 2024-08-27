@@ -1,14 +1,14 @@
 ---
 title: December 2023
 date: 12/1/2023
-image: "https://images.pexels.com/photos/10441017/pexels-photo-10441017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+image: "https://oasis-prod01-unlayer.s3.us-east-1.amazonaws.com/1693337974901-shutterstock_789796180.jpg"
 links:
 - icon: file-earmark-pdf
   name: Download
-  url: "https://drive.google.com/file/d/1c1PQr0oCBgxG943LoQ50FEoaN0cmzhzb/view?usp=drive_link"
+  url: "https://drive.google.com/file/d/1c1PQr0oCBgxG943LoQ50FEoaN0cmzhzb/view?usp=sharing"
 ---
 
 
 ```{=html}
-<iframe class="news ar4x3" src="dec_2023.pdf" title="December Newsletter"></iframe>
+<iframe class="news ar4x3" src="./dec23.html" title="December Newsletter"></iframe>
 ```

@@ -1,6 +1,7 @@
 {
   "hash": "f08b59fde2575ff459ccaca70aff574d",
   "result": {
+    "engine": "knitr",
     "markdown": "---\ntitle: AP-LS Newsletter Archives\ntitle-block-banner: \"../../images/default-banner.svg\"\npage-layout: full\ntoc: false\nlisting:\n  - id: monthly\n    contents: \n      - e-news\n    type: grid\n    grid-columns: 3\n    sort: \"date desc\"\n    fields: [title, image]\n    image-placeholder: logo.png\n  - id: archive\n    contents: \n      - \"news-archive.yml\"\n    type: grid\n    fields: [title, image]\n    sort: \"date desc\"\n    image-placeholder: logo.png\n---\n\n\n\n\n## AP-LS Monthly E-News\n\n::: {#monthly}\n:::\n\n\n## Newsletter Archives\n\n::: {#archive}\n:::\n\n",
     "supporting": [],
     "filters": [

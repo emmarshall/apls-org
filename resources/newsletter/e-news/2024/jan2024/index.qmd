@@ -10,5 +10,5 @@ links:
 
 
 ```{=html}
-<iframe class="news ar4x3" src="jan_2024.pdf" title="January Newsletter"></iframe>
+<iframe class="news ar4x3" src="./jan24.html" title="January Newsletter"></iframe>
 ```

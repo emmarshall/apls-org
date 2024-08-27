@@ -1,0 +1,14 @@
+---
+title: June 2024
+date: 6/1/2024
+image: 'https://oasis-prod01-unlayer.s3.us-east-1.amazonaws.com/1716583327205-Image.jpg'
+links:
+- icon: file-earmark-pdf
+  name: Download
+  url: "https://drive.google.com/file/d/1seMUVO_Ouxa2h4N55YmwE5QjizCwJ0Px/view?usp=sharing"
+---
+
+```{=html}
+<iframe class="news ar4x3" src="./jun24.html" title="March Newsletter"></iframe>
+```
+

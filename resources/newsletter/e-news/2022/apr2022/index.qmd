@@ -1,6 +1,6 @@
 ---
-title: April 2021
-date: 4/1/2021
+title: April 2022
+date: 4/1/2022
 image: featured.jpg 
 links:
 - icon: file-earmark-pdf
@@ -8,4 +8,6 @@ links:
   url: ""
 ---
 
-{{< html file="../../html/apr2021.html" >}}
+```{=html}
+<iframe class="news ar4x3" src="./apr22.html" title="April Newsletter"></iframe>
+```

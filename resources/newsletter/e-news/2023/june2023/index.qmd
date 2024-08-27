@@ -5,11 +5,11 @@ image: featured.jpg
 links:
 - icon: file-earmark-pdf
   name: Download
-  url: "https://drive.google.com/file/d/1AAfzeQ5m9QoCed_gJjh3-_gXxqxQvtU_/view?usp=drive_link"
+  url: "https://drive.google.com/file/d/1AAfzeQ5m9QoCed_gJjh3-_gXxqxQvtU_/view?usp=sharing"
 ---
 
 
 ```{=html}
-<iframe class="news ar4x3" src="june2023.Rhtml" title="June Newsletter"></iframe>
+<iframe class="news ar4x3" src="./june23.html" title="June Newsletter"></iframe>
 ```
 

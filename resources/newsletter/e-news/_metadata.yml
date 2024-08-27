@@ -15,3 +15,15 @@ toc: false
 
 include-back-link: true
 
+# Default knitr options
+execute:
+  echo: false
+  message: false
+  warning: false
+
+# Collapse-callout blocks
+
+format:
+  html:
+    template-partials:
+      - "title-block.html"
