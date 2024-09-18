@@ -65,7 +65,7 @@ But students are not eligible to receive an award.
 
 ## How to Apply
 
-Submit a complete proposal to the online portal by October 15 at 11:59 PST.
+Submit a complete proposal to the online portal by October 31, `r format(Sys.Date(), '%Y')` at 11:59 PST.
 
 <a class="btn btn-primary" href="https://awards.ap-ls.org/default.asp" role="button">Click to Apply</a>
 
