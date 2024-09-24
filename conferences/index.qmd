@@ -134,7 +134,7 @@ Looking forward to seeing everyone in March!
 
 [Annual Conference of the American Psychology-Law Society (AP-LS) <br> March 13-15, 2025 \| San Juan, Puerto Rico \| Sheraton Puerto Rico Resort & Casino]{.event-time}
 
-{{< downloadthis files/2025_Submission_Call.pdf dname="2025_submission_call" label="Download" icon="file-pdf" type="primary" >}}
+[{{< fa file-pdf aria-hidden="true" >}} Download](https://drive.google.com/file/d/1NHBDCLiyNI43XsiBp2KBz8JPrUDE9Uv1/view?usp=sharing){.btn .btn-outline-primary role="button"}
 
 :::
 
@@ -150,7 +150,7 @@ Proposals will be evaluated through a blind review process focused on intellectu
 ## Submission Details
 
 <center>
-All proposals must be submitted on the conference website by <br> [Monday, September 30, 2024, 11:59 pm PST]{.session-time}
+All proposals must be submitted on the conference website by <br> [Monday, October 4, 2024, 11:59 pm PST]{.session-time}
 
 Visit the conference website to register, submit your proposals, AND sign up as a reviewer!
 
