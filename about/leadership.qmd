@@ -80,10 +80,11 @@ div(class = "grid grid-three",
 #| echo: false
 content = rowwise_table(
   ~name, ~icon, ~url, ~text,
-  "Caitlin Cavanagh", "", "mailto:conference@ap-ls.org", "2024 AP-LS Conference",
-  "Samantha Zottola", "", "mailto:conference@ap-ls.org", "2024 AP-LS Conference",
-  "Andre Kehn", "", "mailto:Andre.kehn@und.edu", "2024 APA Conference ",
-  "Tara Ryan", "", "mailto:tarajryan@gmail.com", "2024 APA Conference"
+  "Lori Hoetger", "", "mailto:conference@ap-ls.org", "2025 AP-LS Conference",
+  "Jennifer Cox", "", "mailto:conference@ap-ls.org", "2025 AP-LS Conference"
+  #,
+  ##"Andre Kehn", "", "mailto:Andre.kehn@und.edu", "2024 APA Conference ",
+ ## "Tara Ryan", "", "mailto:tarajryan@gmail.com", "2024 APA Conference"
 )
 div(class = "officer-grid grid-two",
   pmap(content, function(name, icon, url, text, objective) {
