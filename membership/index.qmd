@@ -35,7 +35,7 @@ Please identify your membership category below and follow the instructions on ou
 <div class="price-card h-100">
 <div class="card-body d-flex flex-column">
 <div class="price-card-header">
-<p class="display-2"><span class="currency">$</span>50<span class="period">/year</span></p>
+<p class="display-2"><span class="currency">$</span>100<span class="period">/year</span></p>
 </div>
 <div class="price-card-block">
 <h4 class="price-card-title">
@@ -60,7 +60,7 @@ Please identify your membership category below and follow the instructions on ou
 <div class="price-card h-100">
 <div class="card-body d-flex flex-column">
 <div class="price-card-header">
-<p class="display-2"><span class="currency">$</span>15<span class="period">/year</span></p>
+<p class="display-2"><span class="currency">$</span>50<span class="period">/year</span></p>
 </div>
 <div class="price-card-block">
 <h4 class="price-card-title"> Early Career </h4>
@@ -82,7 +82,7 @@ Please identify your membership category below and follow the instructions on ou
 <div class="price-card h-100">
 <div class="card-body d-flex flex-column">
 <div class="price-card-header">
-<p class="display-2"><span class="currency">$</span>15<span class="period">/year</span></p>
+<p class="display-2"><span class="currency">$</span>30<span class="period">/year</span></p>
 </div>
 <div class="price-card-block">
 <h4 class="price-card-title"> Student </h4>
