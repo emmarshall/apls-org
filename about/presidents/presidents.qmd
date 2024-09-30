@@ -5,55 +5,79 @@ title-block-banner: "../../images/default-banner.svg"
 ---
 
 
-## Div. 41 Presidents
-### American Psychology-Law Society
+```{r}
+#| label: setup
+#| warning: false
+#| error: false
+#| echo: false
+library(janitor)
+library(tidyverse)
+library(gt)
+library(stringr)
+library(purrr)
+library(htmltools)
+library(gtExtras)
 
-|         |                                |    
-|---------|--------------------------------|
-| 2022-23 | Barry Rosenfeld, PhD
-| 2021-22 | Lora M. Levett, PhD            |
-| 2020-21 | Allison Redlich, PhD           |
-| 2019-20 | Jennifer Groscup, JD, PhD      |
-| 2018-19 | Kevin S. Douglas, LLB, PhD     |
-| 2017-18 | Eve Brank, JD, PhD             |
-| 2016-17 | David DeMatteo, JD, PhD        |
-| 2015-16 | Jennifer Woolard, PhD          |
-| 2014-15 | Patricia Zapf, PhD             |
-| 2013-14 | Jennifer Skeem, PhD            |
-| 2012-13 | William E. Foote, PhD          |
-| 2011-12 | Brian L. Cutler, PhD           |
-| 2010-11 | Patricia A. Griffin, PhD       |
-| 2009-10 | Edward P. Mulvey, PhD          |
-| 2008-09 | Saul M. Kassin, PhD            |
-| 2007-08 | Margaret Bull Kovera, PhD      |
-| 2006-07 | Joel A. Dvoskin, PhD           |
-| 2005-06 | Gary L. Wells, PhD             |
-| 2004-05 | Edie Greene, PhD               |
-| 2003-04 | Solomon M. Fulero, PhD         |
-| 2002-03 | Randy K. Otto, PhD             |
-| 2001-02 | Stephen D. Hart, PhD           |
-| 2000-01 | Steve Penrod, PhD              |
-| 1999-00 | Murray Levine, PhD             |
-| 1998-99 | James R. P. Ogloff, PhD, JD    |
-| 1997-98 | John C. Brigham, PhD           |
-| 1996-97 | Gail S. Goodman, PhD           |
-| 1995-96 | Kirk Stephen Heilbrun, PhD     |
-| 1994-95 | Jane S. Goodman-Delahunty, PhD |
-| 1993-94 | Ronald Roesch, PhD             |
-| 1992-93 | Norman G. Poythress, Jr., PhD  |
-| 1991-92 | Stephen L. Golding, PhD        |
-| 1990-91 | Gary B. Melton, PhD            |
-| 1989-90 | Thomas Grisso, PhD             |
-| 1988-89 | Michael Jay Saks, PhD          |
-| 1987-88 | Shari Seidman Diamond, PhD     |
-| 1986-87 | Stephen J. Morse, PhD          |
-| 1985-86 | Bruce Dennis Sales, PhD        |
-| 1984-85 | Elizabeth F. Loftus, PhD       |
+# Fix gt with quarto
+library(knitr)
+knit_print.gt <- function(x, ...) {
+  # Two steps to avoid most Quarto changes of my table styles: 
+  # 1. as_raw_html() to use table styles *inline*
+  # 2. wrap output in a div that resets all Quarto styles
+  stringr::str_c(
+    "<div style='all:initial';>\n", 
+    gt::as_raw_html(x), 
+    "\n</div>"
+  ) |> 
+    knitr::asis_output()
+}
+registerS3method(
+  "knit_print", 'gt_tbl', knit_print.gt, 
+  envir = asNamespace("gt") 
+  # important to overwrite {gt}s knit_print
+)
 
-| Psychology and Law |                            |
-|--------------------|----------------------------|
-| 1983-84            | Patrick H. DeLeon, PhD, JD |
-| 1982-83            | David L. Rosenhan, PhD     |
-| 1981-82            | John Monahan, PhD          |
+```
+
+```{r echo=TRUE, warning=FALSE, message=FALSE}
+#| label: data.frame for board
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-cap: "Presidents of AP-LS"
+
+library(dplyr)
+pres <- readr::read_csv("pres_data.csv") 
+
+```
 
 
+::: {.column-body-outset-right}
+
+```{r}
+#| echo: false
+#| label: Hall of Presidents Table
+tbl <- pres |> 
+  select(image, name, date) |> 
+  gt() |> 
+    gtExtras::gt_img_rows(columns = "image", height = 100) |> 
+   gt_merge_stack(col1 = name, col2 = date, palette = c("#343A40", "#737475"),
+  font_size = c("30px", "15px")) |> 
+  cols_width(name ~ px(100),
+             image ~px(120)) |> 
+   cols_label(
+    name = img_header(
+      "Former AP-LS Presidents",
+      "https://emmarshall.github.io/runza/img/apls-presidents/logo.png",
+      height = 60,
+      font_size = 24
+    ),
+    image = ""
+  ) 
+    
+tbl
+
+
+```
+
+:::
