@@ -15,7 +15,7 @@ submission-info:
 links:
 - icon: envelope-at
   name: Contact
-  url: "mailto:evelyn.maeder@carleton.ca"
+  url: "mailto:andretta@bridgetownpsychological.com"
 - icon: send
   name: Apply here
   url: "https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0"
@@ -57,7 +57,7 @@ Applicants cannot receive more than one mini-grant from AP-LS for the same proje
 
 Award submissions will be accepted from September 15 to January 15 annually.
 
-For more information about the Diversity Program, please contact the program chair, [Evelyn Maeder](mailto:evelyn.maeder@carleton.ca).
+For more information about the Diversity Program, please contact the program chair, [James Andretta](mailto:andretta@bridgetownpsychological.com).
 
 ::: callout-tip
 ## A complete application should contain:

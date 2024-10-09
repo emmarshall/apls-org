@@ -47,6 +47,10 @@ Eligible individuals must be AP-LS members. Any practicing psychologist, startin
 
 Preference will be given to psychologists at any level who do not have or have limited institutional support to attend conferences, such as private practitioners or practitioners in public non-academic institutions. Special preference may be given to practicing psychologists who are presenting at the conference and have not previously been granted the grant. The funds shall be used for travel costs associated with attending the AP-LS conference exclusively.
 
+::: callout-note
+AP-LS membership and conference registration status will be checked ***before*** funds are processed
+:::
+
 ## How to Apply
 
 Applications are due by December 1, `r format(Sys.Date(), '%Y')`
