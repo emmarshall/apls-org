@@ -7,7 +7,7 @@ categories:
   - Practice
 submission-info:
   sponsor: AP-LS Early Career Professionals Committee
-  deadline: "TBD, `r format(Sys.Date(), '%Y')`"
+  deadline: "October 31, `r format(Sys.Date(), '%Y')`"
 links:
 - icon: envelope-at
   name: Contact
