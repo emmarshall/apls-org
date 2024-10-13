@@ -1,11 +1,11 @@
-- caption: "APLS 2025 Submission Deadline Extended!"
-  image: "images/2025-apls-call.png"
-  link: "https://ap-ls.org/conferences/"
-
 - caption: "Apply for Grants-in-Aid for Early Career Professionals!"
   image: "images/ecp-grants.png"
   link: "https://ap-ls.org/awards/grants/ECgrantinaid.html"
 
+- caption: "Learn More!"
+  image: "images/travel_2025.png"
+  link: "https://ap-ls.org/awards/conference/clinictravel"
+  
 - caption: "Get ready for APLS 2025!"
   image: "conferences/images/2025-pr-announcement.png"
   link: "https://ap-ls.org/conferences/"
@@ -13,4 +13,9 @@
 - caption: "Follow Law & Human Behavior"
   image: "images/lhb_sm.png"
   link: "https://twitter.com/lhb_apls"
+  
+- caption: "Learn More!"
+  image: "images/REC_award25.png"
+  link: "https://ap-ls.org/awards/awards/recaward"
+  
   
