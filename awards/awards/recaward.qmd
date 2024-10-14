@@ -9,7 +9,7 @@ categories:
   - Mentoring
 submission-info:
   sponsor: AP-LS Practice Committee
-  deadline: "January 1, `r format(Sys.Date(), '%Y')`"
+  deadline: "January 1"
 links:
 - icon: envelope-at
   name: Contact

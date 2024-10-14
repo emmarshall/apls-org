@@ -13,7 +13,7 @@ submission-info:
 links:
 - icon: send
   name: Apply here
-  url: "https://tinyurl.com/CTGapplication"
+  url: "https://forms.gle/Knyj3sWNnefF6ArA8"
 ---
 
 ```{r setup, include=FALSE}
@@ -55,6 +55,6 @@ AP-LS membership and conference registration status will be checked ***before***
 
 Applications are due by December 1, `r format(Sys.Date(), '%Y')`
 
-<a class="btn btn-primary" href="https://tinyurl.com/CTGapplication" role="button">Complete CTG Application here</a>
+<a class="btn btn-primary" href="https://forms.gle/Knyj3sWNnefF6ArA8" role="button">Complete CTG Application here</a>
 
 :::
