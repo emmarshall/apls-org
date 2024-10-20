@@ -17,9 +17,11 @@ source("../assets/apls_functions.R")
 
 content = rowwise_table(
   ~name, ~image, ~url, ~text,
-  "Daniel Murrie", "presidents/daniel_murrie.jpeg", "mailto:murrie@virginia.edu", "President",
-    "Christian Meisner", "presidents/christian_meissner.jpeg", "mailto:cameissn@iastate.edu", "President Elect",
-  "Barry Rosenfeld", "presidents/barry_rosenfeld.jpg", "mailto:rosenfeld@fordham.edu", "Past President"
+  "Christian Meisner", "presidents/img/christian_meissner.jpeg", "mailto:cameissn@iastate.edu", "President",
+  "Randy Salekin", "presidents/img/randy_salekin.jpeg", "mailto:rsalekin@ua.edu",
+  "President Elect",
+  "Daniel Murrie", "presidents/img/daniel_murrie.jpeg", "mailto:murrie@virginia.edu",
+  "Past President"
 )
 div(class = "officer-grid",
   pmap(content, function(name, image, url, text) {
@@ -50,15 +52,16 @@ content = rowwise_table(
   "Lindsay Malloy", "", "mailto:Lindsay.Malloy@ontariotechu.ca", "Secretary",
   "Jennifer Perillo", "", "mailto:treasurer@ap-ls.org", "Treasurer",
   "Virginia Barber-Rioja", "", "mailto:vibarber@hotmail.com", "Member-at-large",
-  "Natalie Anumba", "", "mailto:natalie.anumba@umassmed.edu", "Member-at-large",
-  "Jessica Salerno", "", "mailto:jessica.salerno@asu.edu", "Member-at-large",
+  "Caitlin Cavanagh", "", "mailto:natalie.anumba@umassmed.edu", "Member-at-large",
+  "Jessica Salerno", "", "mailto:caitcav@msu.edu", "Member-at-large",
   "Jennifer Groscup", "", "mailto:jgroscup@scrippscollege.edu", "APA Council Representative",
   "Margaret Kovera", "", "mailto:mkovera@jjay.cuny.edu", "APA Council Representative",
   	"Dave DeMatteo", "", "mailto:david.dematteo@drexel.edu", "Law & Human Behavior editor",
   "Meg Ternes", "", "mailto:meg.ternes@smu.ca", "Newsletter editor",
   "Monica Miller", "", "mailto:mkmiller@unr.edu", "Book Series editor",
   "Lindsey Wylie", "", "mailto:webmaster@ap-ls.org", "Website editor",
-  "Cecilia Allan", "", "mailto:students@ap-ls.org", "Student Committee Chair"
+  "Ana Belmonte", "", "mailto:anabelmontepsyd@gmail.com", "Incoming Website editor",
+  "Jordan Donson", "", "mailto:students@ap-ls.org", "Student Committee Chair"
 )
 div(class = "grid grid-three",
   pmap(content, function(name, icon, url, text, objective) {
@@ -74,7 +77,7 @@ div(class = "grid grid-three",
 )
 ```
 
-## 2024 Conference Co-Chairs
+## 2025 Conference Co-Chairs
 
 ```{r}
 #| echo: false

@@ -7,17 +7,17 @@ title-block-banner: "../images/default-banner.svg"
 
 The American Psychology-Law Society (AP-LS) is a professional organization. Our work is made possible by our volunteers and through support by our Executive Director and operational support provided by AP-LS Office.
 
-::: callout-note
-## Contact the American Psychology-Law Society
 
 To contact AP-LS, you can write, call, or send us an email. When you call the AP-LS Office, any one of the staff will be able to help you.
 
-#### {{< fa people-group title="Group of people" >}} AP-LS Staff Team
+::: {.callout-note appearance="simple"}
+## {{< fa people-group title="Group of people" >}} AP-LS Staff Team
 
 | Name               | Position           |
 |--------------------|--------------------|
-| Joy DesMarais-Lanz | Executive Director |
-| Emma Paskoff       | Event Planner      |
+| Robert Riggs       | Executive Director |
+| Veronica Rand      | Director           |
+| Marcus Fierek      | Coordinator        |
 | Lane Velayo        | Partner            |
 
 > <p>**Business Hours:** Monday -- Friday, 8:30 AM -- 5:00 PM (Pacific Time) </br> {{< fa phone title="Phone" >}} {{< var contact.phone >}} </br> {{< fa envelope title="Email" >}} {{< var email.office >}} </br> {{< fa location-dot title="Location" >}} {{< var contact.mail >}} </br></p>

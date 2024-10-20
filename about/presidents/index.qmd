@@ -3,12 +3,12 @@ pagetitle: "Welcome From Our President"
 about: 
   id: hero-heading
   template: trestles
-  image: daniel_murrie.jpeg
+  image: christin_meissner.jpeg
   image-shape: round
   image-width: 14em
   links:
     - icon: people-fill
-      text: 2023-2024 Leadership
+      text: 2024-2025 Leadership
       href: "https://ap-ls.org/about/leadership"
       aria-label: Link to leadership page
     - icon: info-circle
@@ -47,6 +47,6 @@ Thank you for visiting our website, and please feel free to reach out to our any
 
 Interested in joining? Please find details about [membership](../../membership/index.html) on our site, and we look forward to welcoming you into our organization!
 
-**Daniel Murrie**
+**Chris Meissner**
 
 *President, American Psychology-Law Society*
