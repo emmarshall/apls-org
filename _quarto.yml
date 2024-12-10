@@ -112,9 +112,8 @@ website:
     center: |
        [Report an issue](https://docs.google.com/forms/d/e/1FAIpQLSfOL2JsE-YbvqH09-S6zcukZ6qiOycK98DjXa08MDygMTWBYA/viewform?usp=sf_link)
     right:
-      - icon: twitter
-        aria-label: Link to Twitter
-        href: https://twitter.com/apls41
+      - text: "{{< iconify fa6-brands bluesky size=1.1em title='Bluesky' >}}"
+        href: https://bsky.app/profile/@apls41.bsky.social
       - icon: facebook
         aria-label: Link to Facebook
         href: https://www.facebook.com/APLS41 

@@ -1,0 +1,15 @@
+---
+title: November 2024
+date: 11/1/2024
+image: 'https://oasis-prod01-unlayer.s3.us-east-1.amazonaws.com/1730140780089-Award+Pic.jpg'
+links:
+- icon: file-earmark-pdf
+  name: Download
+  url: "https://drive.google.com/file/d/1V5Xp_e3gQve4Uz7ymkudNjH7C6KRJNAk/view?usp=drive_link"
+---
+
+
+```{=html}
+<iframe class="news ar4x3" src="./nov24.html" title="November Newsletter"></iframe>
+```
+

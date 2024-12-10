@@ -38,7 +38,7 @@ content = rowwise_table(~icon, ~text, ~link,
               "https://docs.google.com/forms/d/e/1FAIpQLSeyn6YEW7-mne6RsT-yzTMN8HNSXQjuHYPP1DtW7gQq11H9eA/viewform",
           "clipboard2-data",          
             "Post a Research Postdoc",
-              "https://docs.google.com/forms/d/e/1FAIpQLSflLwIb_8pTwj_UF7zUDYlBV-4ZF5RhOTB8CJ4etbIPlncwoA/viewform"
+              "https://docs.google.com/forms/d/e/1FAIpQLSfF4iosPXi8pDFG46leWvMk70mnu1qxNzxslH5qfp0JxBqL9A/viewform"
 )
 div(class = "feature-grid",
   pmap(content, function(icon, text, link) {

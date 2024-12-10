@@ -1,0 +1,15 @@
+---
+title: September 2024
+date: 9/1/2024
+image: 'https://apls.memberclicks.net/assets/images/shutterstock_1074565532.jpg'
+links:
+- icon: file-earmark-pdf
+  name: Download
+  url: "https://drive.google.com/file/d/1rlF0cHvBdIWkKKN6rt_amskQ9pNhXSMM/view?usp=drive_link"
+---
+
+
+```{=html}
+<iframe class="news ar4x3" src="./sep24.html" title="September Newsletter"></iframe>
+```
+
