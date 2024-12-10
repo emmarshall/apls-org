@@ -12,7 +12,7 @@ categories:
   - Caregiving Grants
 submission-info:
   sponsor: AP-LS Professional Development of Women Committee
-  deadline: "January 27, `r format(Sys.Date(), '%Y')`"
+  deadline: "December 31, `r format(Sys.Date(), '%Y')`"
 links:
 - icon: envelope-at
   name: Contact
@@ -31,11 +31,11 @@ source("../../assets/apls_functions.R")
 
 ::: panel-tabset
 # Details
-The AP-LS Professional Development of Women Committee is thrilled to offer Caregiving Grants of $500-$750 for 20-30 attendees of APLS Annual Conference, with priority to first authors, presenters, students, and early career professionals. 
+The AP-LS Professional Development of Women Committee is thrilled to offer Caregiving Grants of $250-$700 for 20-30 attendees of APLS Annual Conference, with priority to first authors, presenters, students, and early career professionals. 
 
 This grant is open to any APLS member (student and non-student) who serves as a caregiver in any capacity (e.g., child, parent). Funds can be used for any caregiving needs during the conference, including needs at the conference or at home.
 
  
-We will notify grantees by early February.
+We will notify grantees in late January.
 
 :::

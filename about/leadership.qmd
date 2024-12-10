@@ -56,12 +56,12 @@ content = rowwise_table(
   "Jessica Salerno", "", "mailto:caitcav@msu.edu", "Member-at-large",
   "Jennifer Groscup", "", "mailto:jgroscup@scrippscollege.edu", "APA Council Representative",
   "Margaret Kovera", "", "mailto:mkovera@jjay.cuny.edu", "APA Council Representative",
+  "Jordan Donson", "", "mailto:students@ap-ls.org", "Student Committee Chair",
   	"Dave DeMatteo", "", "mailto:david.dematteo@drexel.edu", "Law & Human Behavior editor",
   "Meg Ternes", "", "mailto:meg.ternes@smu.ca", "Newsletter editor",
   "Monica Miller", "", "mailto:mkmiller@unr.edu", "Book Series editor",
   "Lindsey Wylie", "", "mailto:webmaster@ap-ls.org", "Website editor",
-  "Ana Belmonte", "", "mailto:anabelmontepsyd@gmail.com", "Incoming Website editor",
-  "Jordan Donson", "", "mailto:students@ap-ls.org", "Student Committee Chair"
+  "Ana Belmonte", "", "mailto:anabelmontepsyd@gmail.com", "Incoming Website editor"
 )
 div(class = "grid grid-three",
   pmap(content, function(name, icon, url, text, objective) {
@@ -85,9 +85,9 @@ content = rowwise_table(
   ~name, ~icon, ~url, ~text,
   "Lori Hoetger", "", "mailto:conference@ap-ls.org", "2025 AP-LS Conference",
   "Jennifer Cox", "", "mailto:conference@ap-ls.org", "2025 AP-LS Conference"
-  #,
-  ##"Andre Kehn", "", "mailto:Andre.kehn@und.edu", "2024 APA Conference ",
- ## "Tara Ryan", "", "mailto:tarajryan@gmail.com", "2024 APA Conference"
+  ,
+  "Krystia Reed", "", "mailto:kmreed2@utep.edu", "2024 APA Conference",
+ "Tara Ryan", "", "mailto:tarajryan@gmail.com", "2024 APA Conference"
 )
 div(class = "officer-grid grid-two",
   pmap(content, function(name, icon, url, text, objective) {
