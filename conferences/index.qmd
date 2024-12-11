@@ -14,9 +14,9 @@ source("../assets/apls_functions.R")
 
 ```
 
-::: column-screen
-::: hero-banner
-::: content-block
+:::::: column-screen
+::::: hero-banner
+:::: content-block
 # 2025 Annual Conference of the American Psychology-Law Society
 
 ### {{< fa location-dot aria-hidden="true" >}} San Juan, Puerto Rico
@@ -26,9 +26,9 @@ source("../assets/apls_functions.R")
 ::: hero-buttons
 [Submit a Proposal](https://ap-ls2025.exordo.com/login){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [Call for Proposals](#proposals){.btn-action .btn .btn-secondary role="button"}
 :::
-:::
-:::
-:::
+::::
+:::::
+::::::
 
 ::: column-screen
 ```{r}
@@ -87,59 +87,48 @@ Looking forward to seeing everyone in March!
 
 </figure>
 
-
-::: {.panel-tabset .box-shadow} 
-
+::: {.panel-tabset .box-shadow}
 ## {{< fa circle-info aria-hidden="true" >}} Welcome!
 
 ![](images/2025-pr-announcement.png)
-
-
 :::
 
 ::: vspace
 :::
 
-::: column-screen
-::: {.simple-info-blue .alt-background-blue}
+::::: column-screen
+:::: {.simple-info-blue .alt-background-blue}
 ::: content-block-blue
 ##### Want to learn more about the [AP-LS Annual Conference]{.highlight}?
 
 [Learn More {{< fa arrow-right aria-hidden="true" >}}](archive/index.qmd){.btn-action .btn .btn-secondary .btn-lg role="button"}
 :::
-:::
-:::
-
+::::
+:::::
 
 ::: vspace
 :::
-
 
 # Submissions {#proposals}
 
 ::: vspace
 :::
 
-::: {.panel-tabset .box-shadow} 
-
+::::::::: {.panel-tabset .box-shadow}
 ## {{< fa bullhorn aria-hidden="true" >}} Call for Proposals
 
 ::: vspace
 :::
 
-
-::: {.simple-info-center}
-
+::: simple-info-center
 [2025 Call for Proposals]{.plenary}
 
 [Annual Conference of the American Psychology-Law Society (AP-LS) <br> March 13-15, 2025 \| San Juan, Puerto Rico \| Sheraton Puerto Rico Resort & Casino]{.event-time}
 
 [{{< fa file-pdf aria-hidden="true" >}} Download](https://drive.google.com/file/d/19-jPv9SXVbnE5ofgZZis9e4ZZkvkwqli/view?usp=sharing){.btn .btn-outline-primary role="button"}
-
 :::
 
 ::: {.callout-important appearance="simple"}
-
 ## Submissions for the 2025 Conferences are now CLOSED!
 :::
 
@@ -155,11 +144,8 @@ Looking forward to seeing everyone in March!
 ::: vspace
 :::
 
->If you have any questions or comments about the conference, please contact the conference co-chairs at [conference@ap-ls.org](mailto:conference@ap-ls.org)
-Looking forward to seeing everyone in March! <br>
-<br>*2025 AP-LS Conference Co-Chairs <br> Jenni Cox & Lori Hoetger Fendrick*
-
-:::
+> If you have any questions or comments about the conference, please contact the conference co-chairs at [conference\@ap-ls.org](mailto:conference@ap-ls.org) Looking forward to seeing everyone in March! <br> <br>*2025 AP-LS Conference Co-Chairs* <br> Jenni Cox & Lori Hoetger Fendrick
+:::::::::
 
 ::: vspace
 :::
@@ -169,49 +155,44 @@ Looking forward to seeing everyone in March! <br>
 ::: vspace
 :::
 
-::: simple-info
+::::::::::: simple-info
 # Hotel Information {#hotel}
 
-::: {.panel-tabset .box-shadow}
+:::::::::: {.panel-tabset .box-shadow}
 ## {{< fa hotel aria-hidden="true" >}} Sheraton Puerto Rico Resort & Casino
 
 ::: vspace
 :::
 
 ::: session-description
-
 The 2025 AP-LS Conference will be held at the [Sheraton Puerto Rico Resort & Casino](https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-hotel-and-casino/overview/what-to-expect/)
 :::
 
 ![](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/38/ab/9e/hotel-exterior.jpg?w=1200&h=-1&s=1){fig-align="center" fig-alt="Exterior view of the Sheraton"}
-
 
 ::: vspace
 :::
 
 [Conference Rates]{.plenary}
 
-::: session-description
-
+::::: session-description
 AP-LS has rooms set aside for all attendees, which can be booked at a special group rate that is available for attendees:
 
-{{< fa credit-card aria-hidden="true" >}} Group Rate \$259 to $559 USD/night </br> {{< fa calendar aria-hidden="true" >}} Available March 6 - March 18 </br>
+{{< fa credit-card aria-hidden="true" >}} Group Rate \$259 to \$559 USD/night </br> {{< fa calendar aria-hidden="true" >}} Available March 6 - March 18 </br>
 
 ::: hero-buttons
 [{{< fa bell-concierge aria-hidden="true" >}} Book a Room](https://www.marriott.com/event-reservations/reservation-link.mi?id=1710272897155&key=GRP&app=resvlink){.btn-action .btn .btn-info .ml-auto role="button"} [{{< fa hotel aria-hidden="true" >}} Website](https://maps.app.goo.gl/Fa5b26tUKbZRk8Eu5){.btn-action .btn .btn-dark .ml-auto role="button"}
 :::
 
-
 ::: callout-tip
 Attendees must book their room by **February 17th, 2025** to take advantage of the special rate!
 :::
-
-:::
+:::::
 
 ::: vspace
 :::
-:::
-:::
+::::::::::
+:::::::::::
 
 <hr>
 
@@ -220,8 +201,8 @@ Attendees must book their room by **February 17th, 2025** to take advantage of t
 
 # Registration {#register}
 
-::: simple-info
-::: {.panel-tabset .box-shadow}
+::::::: simple-info
+:::::: {.panel-tabset .box-shadow}
 ## {{< fa bullhorn >}} Info
 
 ::: inside-container
@@ -240,25 +221,25 @@ Attendees must book their room by **February 17th, 2025** to take advantage of t
 
 \*Rates based on 2024 and may be subject to change
 
-+-----------------------------------------+-----------------+------------+------------+
-| Status                                  | Early Bird\     | Regular\   |            |
-|                                         | (before Jan 31) | (on Feb 1) |            |
-+:========================================+:================+:===========+============+
-| Full Member                             | \$285           | \$315      |            |
-+-----------------------------------------+-----------------+------------+------------+
-| Early Career Professional Member        | \$205           | \$235      |            |
-+-----------------------------------------+-----------------+------------+------------+
-| Student Member                          | \$80            | \$110      |            |
-+-----------------------------------------+-----------------+------------+------------+
-| Student Member *First-Author Presenter* | \$40            | \$40       |            |
-+-----------------------------------------+-----------------+------------+------------+
-| Student Non-member                      | \$140           | \$170      |            |
-+-----------------------------------------+-----------------+------------+------------+
-| Non-member                              | \$400           | \$470      |            |
-+-----------------------------------------+-----------------+------------+------------+
++-----------------------------------------+-----------------+------------+
+| Status                                  | Early Bird\     | Regular\   |
+|                                         | (before Jan 31) | (on Feb 1) |
++:========================================+:================+:===========+
+| Full Member                             | \$345           | \$380      |
++-----------------------------------------+-----------------+------------+
+| Early Career Professional Member        | \$240           | \$270      |
++-----------------------------------------+-----------------+------------+
+| Student Member                          | \$90            | \$125      |
++-----------------------------------------+-----------------+------------+
+| Student Member *First-Author Presenter* | \$70            | \$70       |
++-----------------------------------------+-----------------+------------+
+| Student Non-member                      | \$170           | \$210      |
++-----------------------------------------+-----------------+------------+
+| Non-member                              | \$490           | \$575      |
++-----------------------------------------+-----------------+------------+
 :::
-:::
-:::
+::::::
+:::::::
 
 <hr>
 
@@ -267,8 +248,8 @@ Attendees must book their room by **February 17th, 2025** to take advantage of t
 
 # Preconference Workshops {#preconference}
 
-::: {.simple-info-center}
-::: {.panel-tabset .box-shadow}
+:::::: simple-info-center
+::::: {.panel-tabset .box-shadow}
 ## {{< fa bullhorn aria-hidden="true" >}} Info
 
 ##### [{{< fa calendar aria-hidden="true" >}} Wednesday, March 12, 2025]{.highlight}
@@ -319,5 +300,5 @@ Attendees must book their room by **February 17th, 2025** to take advantage of t
 | Student Non-member | \$50            | \$60           |
 +--------------------+-----------------+----------------+
 :::
-:::
-:::
+:::::
+::::::
