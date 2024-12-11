@@ -1,0 +1,15 @@
+{
+  "hash": "356fae1425114c4ec481d1410bef96d6",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: AP-LS Mid-Career Award\ndate: last-modified\ndescription: Recognizes members whose work has substantially contributed to the fields of forensic and legal psychology. \ncategories: \n  - Distinguished Career\nsubmission-info:  \n  sponsor: AP-LS Executive Committee\n  deadline: \"December 1, 2025\"\nlinks:\n- icon: send\n  name: Submit here\n  url: \"murrie@virginia.edu\"\n---\n\n\n\n\n\n<hr>\n\n::: panel-tabset\n## Description\n\nThe AP-LS Mid-Career Award recognizes members whose work has already substantially contributed to the fields of forensic and legal psychology.  Up to three awards may be given each year to recognize scholars who have contributed through research, theory, and/or practice within these fields (e.g., experimental, forensic, corrections, etc.). \n\n## Eligibility\n\nNominees will have completed their terminal degree 10 - 25 years before the nomination deadline. ***The nominee should be a member of AP-LS.***\n\n## How to Apply\n\nAll nominations should be sent in a single pdf document to the  AP-LS Past President by **December 1**. \n\n::: {.callout-tip appearance=\"simple\"}\n## The nomination packet should include: \n\n-   A copy of the nominee’s CV\n-   A letter detailing the nominee’s distinguished contributions to psychology and law; and\n-   Any additional letters of support that address the nominee’s service to the field \n:::\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

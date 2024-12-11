@@ -10,7 +10,7 @@ categories:
   - BRIDGE Committee
 submission-info:
   sponsor: AP-LS BRIDGE Committee
-  deadline: "January 15, `r format(Sys.Date(), '%Y')`"
+  deadline: "January 15, `r if (Sys.Date() > lubridate::mdy(paste('January 15', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())`"
 links:
 - icon: envelope-at
   name: Contact

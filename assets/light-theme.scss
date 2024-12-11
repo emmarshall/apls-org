@@ -1715,6 +1715,7 @@ blockquote {
   }
   & .price-card-title {
     margin-bottom: 1rem;
+    padding-left: .5rem;
     font-size: 1.75rem;
   }
   & .price-card-block {
@@ -1722,6 +1723,7 @@ blockquote {
   }
   & .price-card-subtitle{
     letter-spacing: 0;
+    padding-left: .5rem;
     color: $gray-800;
     //font-variant: small-caps;
     font-size: .9rem;
@@ -1731,6 +1733,7 @@ blockquote {
   }
   .list-group-item {
   border: 0px;
+  padding-left: .5rem;
   padding: .25rem;
   color: $gray-dark;
   font-weight: 300;
@@ -1743,6 +1746,7 @@ blockquote {
   margin-bottom: .5rem;
   
   &::before {
+    padding-left: .5rem;
     content: '\f058'; /* Unicode character for the circle check icon */
     font-family: 'Font Awesome 5 Free'; /* Font Awesome font family */
     font-weight: 900; /* Font weight for the circle check icon */
@@ -1784,6 +1788,7 @@ blockquote {
   font-size: .75rem;
   font-weight: 300 + 200;
   color: lighten($gray-dark, 15%);
+  background-color: lighten($primary, 40%);
   border-radius: 0;
   padding: .75rem 1.25rem;
   letter-spacing: 1px;

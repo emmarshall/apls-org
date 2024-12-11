@@ -1,0 +1,15 @@
+{
+  "hash": "6f76212bf96fef2e3ef9d5398f5ab05e",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Distinguished Service Award\ndate: last-modified\ndescription: Recognizes members that have contributed exceptional meritorious professional service to the Society and/or the field of legal/forensic psychology.\ncategories: \n  - Distinguished Career\nsubmission-info:  \n  sponsor: AP-LS Executive Committee\n  deadline: \"December 1, 2025\"\nlinks:\n- icon: send\n  name: Submit here\n  url: \"murrie@virginia.edu\"\n---\n\n\n\n\n\n<hr>\n\n::: panel-tabset\n## Description\n\nThe AP-LS Distinguished Service Award recognizes members that have contributed ***exceptional meritorious professional service*** to the Society and/or the field of legal/forensic psychology. \n\nExamples might include (but are not limited to): extensive committee service and leadership for the Society, community outreach/advocacy, services provided to state, local, or federal governments, or uncompensated consultation in legal or clinical services. \n\n## Eligibility\n\nThis award is not exclusively for AP-LS members, and anyone who meets these criteria may be nominated.\n\n## How to Apply\n\nAll nominations should be sent in a single pdf document to the  AP-LS Past President by **December 1**. \n\n::: {.callout-tip appearance=\"simple\"}\n## The nomination packet should include: \n\n-   A copy of the nominee’s CV\n-   A letter detailing the nominee’s distinguished contributions to psychology and law; and\n-   Any additional letters of support that address the nominee’s service to the field \n:::\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

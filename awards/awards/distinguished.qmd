@@ -6,11 +6,11 @@ categories:
   - Distinguished Career
 submission-info:  
   sponsor: AP-LS Executive Committee
-  deadline: "January 1, `r format(Sys.Date(), '%Y')`"
+  deadline: "December 1, `r if (Sys.Date() > lubridate::mdy(paste('December 1', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())`"
 links:
 - icon: send
   name: Submit here
-  url: "mailto:rosenfeld@fordham.edu"
+  url: "murrie@virginia.edu"
 ---
 
 ```{r setup, include=FALSE}

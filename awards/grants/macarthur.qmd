@@ -10,8 +10,8 @@ categories:
 submission-info:
   sponsor: AP-LS Graduate Grants-in-Aid Committee
   deadline: 
-  - "January 15, `r format(Sys.Date(), '%Y')`" 
-  - "September 15, `r format(Sys.Date(), '%Y')`"
+  - "January 15, `r if (Sys.Date() > lubridate::mdy(paste('January 15', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())`"
+  - "September 15, `r if (Sys.Date() > lubridate::mdy(paste('September 15', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())`"
 links:
 - icon: envelope-at
   name: Contact

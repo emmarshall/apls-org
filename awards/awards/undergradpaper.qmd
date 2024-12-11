@@ -7,7 +7,7 @@ categories:
   - Undergraduate
 submission-info:
   sponsor: AP-LS Undergraduate Paper Award Committee
-  deadline: "June 30, `r format(Sys.Date(), '%Y')`"
+  deadline: "June 30, `r if (Sys.Date() > lubridate::mdy(paste('June 30', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())`"
 links:
 - icon: send
   name: Submit here

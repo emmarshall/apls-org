@@ -196,3 +196,6 @@ rowwise_table = function(..., .key = NULL) {
   }
   tab
 }
+
+
+

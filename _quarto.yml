@@ -57,8 +57,12 @@ website:
             href: conferences/archive/index.qmd
       - href: resources/index.qmd
         text: Resources
-      - href: membership/index.qmd
-        text: Membership
+      - text: Membership
+        menu: 
+          - text: About
+            href: membership/index.qmd
+          - text: Renew Now! 
+            href: https://apls.memberclicks.net/membership-form#!/
         
   sidebar: 
     - id: about us

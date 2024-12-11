@@ -12,10 +12,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### The Society operates through a number of standing committees that work to carry out its mission and to accomplish particular tasks.
 
-::: {.callout-note collapse="true"}
+::: {.callout-note appearance="simple"}
 ## Executive Committee
 
-Occasionally, the President, in consultation with the Executive Committee, will also establish ad hoc committees and task forces. [Learn more about President and Executive Committee](leadership.html)
+Occasionally, the President, in consultation with the Executive Committee, will also establish ad hoc committees and task forces. 
+
+[Learn more about President and Executive Committee](leadership.html)
 :::
 
 ```{r table, echo=FALSE, warning=FALSE, message=FALSE}
@@ -26,21 +28,35 @@ library(readxl)
 library(dplyr)
 library(stringr)
 
-# Read in committee bylaw information
-cmts <- read.csv("committees.csv", stringsAsFactors = FALSE)
-# Get sheet names from current leadership listing
-sheet_names <- excel_sheets("Leadership 2024-25.xlsx")
+cmts <- read_excel("committees.xlsx")
 
-excluded_names <- c("EC", "Conf_Chairs")
+# Read in committee bylaw information with explicit encoding and clean special characters
+#cmts <- read.csv("committees.csv", stringsAsFactors = FALSE, fileEncoding = "UTF-8") |>
+#  mutate(across(where(is.character), function(x) {
+ #   x |>
+      # Replace problematic characters
+#      str_replace_all("\u2018|\u2019", "'") |>  # Smart single quotes
+#      str_replace_all("\u201C|\u201D", '"') |>  # Smart double quotes
+#      str_replace_all("\u2013|\u2014", "-") |>  # En and em dashes
+ #     str_replace_all("\u00A0", " ") |>         # Non-breaking spaces
+ #     str_replace_all("\u200B", "") |>          # Zero-width spaces
+ #     str_replace_all("‚Äô", "'") |>            # Specific problematic sequence
+ #     str_replace_all("‚Äú", '"') |>            # Specific problematic sequence
+  #    str_replace_all("‚Äù", '"')                # Specific problematic sequence
+ # }))
+# Read in committee bylaw information
+#cmts <- read.csv("committees.csv", stringsAsFactors = FALSE)
+# Get sheet names from current leadership listing
+sheet_names <- excel_sheets("Leadership_2024-25.xlsx")
+
 # Read in the Excel file and store it as a list of data frames with sheet names as column
 excel_data <- lapply(sheet_names, function(sheet_name) {
-  read_excel("Leadership 2024-25.xlsx", sheet = sheet_name) %>% 
+  read_excel("Leadership_2024-25.xlsx", sheet = sheet_name) |> 
     mutate(sheet_name = sheet_name)
 })
 # Combine the data frames into a single data frame
 combined_data <- bind_rows(excel_data)
 members <- combined_data |>
-  filter(!sheet_name %in% excluded_names) |> 
   rename(key = sheet_name) |> 
   select(`key`, `Position`, `Name`, `Term`,`Additional`)
 
@@ -54,7 +70,12 @@ row_details <- function(index) {
   
   detail <- div(
   class = "committee-detail",
-  div(class = "detail-header", cmt$name, span(class = "detail-title", cmt$chair)),
+  div(class = "detail-header", cmt$name,
+    span(
+      class = "detail-title", 
+      paste("Chair:", cmt$chair) # Prepending "Chair:" to the chair value
+    )
+  ),
   div(class = "detail-description", cmt$description),
   cmt_field("Responsibilities", cmt$responsibilities),
   cmt_field("Relation to AP-LS Vision, Mission and Values", cmt$values),
@@ -72,11 +93,16 @@ cmt$other <- Filter(Negate(is.null), cmt$other)
 if (length(cmt$other) == 0) {
   detail <- div(
     class = "committee-detail",
-  div(class = "detail-header", cmt$name, span(class = "detail-title", cmt$chair)),
+  div(class = "detail-header", cmt$name,
+      span(
+      class = "detail-title", 
+      paste0("Chair:", cmt$chair) # Prepending "Chair:" to the chair value
+    )
+  ),
   div(class = "detail-description", cmt$description),
   cmt_field("Responsibilities", cmt$responsibilities),
   cmt_field("Relation to AP-LS Vision, Mission and Values", cmt$values),
-  cmt_field("Additional", cmt$other),
+  #cmt_field("Additional", cmt$other),
   cmt_field("Contact", lapply(cmt$email, function(email) {
   if (grepl("@", email)) tags$a(href = paste0("mailto:", email), email)
   else if (identical(email, ",")) ", "
@@ -85,7 +111,9 @@ if (length(cmt$other) == 0) {
 )
 } else {
   detail <- div(class = "committee-detail",
-  div(class = "detail-header", cmt$name, span(class = "detail-title", cmt$chair)),
+  div(class = "detail-header", cmt$name
+       # Prepending "Chair:" to the chair value
+  ),
   div(class = "detail-description", cmt$description),
   cmt_field("Responsibilities", cmt$responsibilities),
   cmt_field("Relation to AP-LS Vision, Mission and Values", cmt$values),

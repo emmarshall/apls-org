@@ -7,7 +7,7 @@ categories:
   - American Academy of Forensic Psychology
 submission-info:
   sponsor: AP-LS & American Academy of Forensic Psychology
-  deadline: "November 30, `r format(Sys.Date(), '%Y')`" 
+  deadline: "November 30, `r if (Sys.Date() > lubridate::mdy(paste('November 30', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())`"
 links:
 - icon: info-circle
   name: Learn More
@@ -58,7 +58,7 @@ The award is co-sponsored by the [American Academy of Forensic Psychology](http:
 
 ## Eligibility
 
-Eligible individuals must have received a doctoral degree (Ph.D., Psy.D., M.D., or Ed.D.) or Juris Doctorate within the last six years.
+Eligible individuals must have received a doctoral degree (Ph.D., Psy.D., M.D., or Ed.D.) or Juris Doctorate within the last 10 years.
 
 ::: {callout-note}
 If candidate has earned more than one eligible degrees, the latest degree is considered for this award.

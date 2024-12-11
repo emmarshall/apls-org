@@ -3,7 +3,6 @@ title: "Membership"
 description: |
   AP-LS membership is for the calendar year January 1 - December 31.
 toc: false
-section-divs: false
 title-block-banner: "../images/banners/default-banner.png"
 ---
 
@@ -16,17 +15,7 @@ source("../assets/apls_functions.R")
 
 ::: {.column-body-outset}
 
-::: {.panel-tabset .box-shadow}
-
-## Join
-
-::: vspace
-:::
-
-##### Interested in becoming a member of AP-LS?
-
-Please identify your membership category below and follow the instructions on our membership management page to join today!
-
+# Interested in becoming a member?
 
 ::: {.grid}
 
@@ -42,14 +31,14 @@ Please identify your membership category below and follow the instructions on ou
         Full or Associate
       </h4>
 <h5 class="price-card-subtitle">
-  Individuals with degree in psych or related field: </h5>
+  Individuals with psych or related: </h5>
 <ul class="list-group">
   <li class="list-group-item">Doctoral Degree</li>
   <li class="list-group-item">Juris Doctorate</li>
   <li class="list-group-item">Masters Degree</li>
   <li class="list-group-item">Terminal Bachelors Degree</li>
 </ul>
-<a href="https://apls.memberclicks.net/membership-form#!/" class="price-btn price-btn-gradient mt-2">Join now</a>
+<center><a href="https://apls.memberclicks.net/membership-form#!/" class="price-btn price-btn-gradient mt-2">Join now</a></center>
 </div>
 </div>
 </div>
@@ -72,7 +61,7 @@ Please identify your membership category below and follow the instructions on ou
   <li class="list-group-item">Masters Degree</li>
   <li class="list-group-item">Terminal Bachelors Degree</li>
 </ul>
-<a href="https://apls.memberclicks.net/membership-form#!/" class="price-btn price-btn-gradient mt-2">Join now</a>
+<center><a href="https://apls.memberclicks.net/membership-form#!/" class="price-btn price-btn-gradient mt-2">Join now</a></center>
 </div>
 </div>
 </div>
@@ -94,7 +83,7 @@ Please identify your membership category below and follow the instructions on ou
   <li class="list-group-item">Graduate Student</li>
 </ul>
 </div>
-<a href="https://apls.memberclicks.net/membership-form#!/" class="price-btn price-btn-gradient mt-2">Join now</a>
+<center><a href="https://apls.memberclicks.net/membership-form#!/" class="price-btn price-btn-gradient mt-2">Join now</a></center>
 </div>
 </div>
 </div>
@@ -102,13 +91,8 @@ Please identify your membership category below and follow the instructions on ou
 
 :::
 
-## Renew
 
-##### Did you receive a renewal notice from the AP-LS Office?
-
-Please complete this renewal form and continue receiving member benefits with AP-LS.
-
-<a class="btn btn-primary" href="https://apls.memberclicks.net/membership-renewal-form#!/" role="button">Renew Membership</a>
+::: {.callout-note appearance="simple"}
 
 ## Questions?
 
@@ -116,23 +100,26 @@ If you have any questions about membership, please contact the **American Psycho
 
 <p>{{< fa phone title="Phone" >}} {{< var contact.phone >}} </br> {{< fa envelope title="Email" >}} {{< var email.office >}} </br> {{< fa location-dot title="Location" >}} {{< var contact.mail >}}</p>
 
+:::
 
-::: {.callout-tip collapse="true}
-## Forensic Psychology Diplomat 
+::: vspace
+:::
 
-If you are interested in obtaining Forensic Psychology Diplomat status in the American Board of Forensic Psychology and American Board of Professional Psychology, please contact: 
+::: {.simple-info-blue .alt-background-blue}
+::: content-block-blue
+##### Did you receive a renewal notice from the AP-LS Office? 
 
-ABPP </br>
-600 Market Street, 
-Suite 300 </br>
-Chapel Hill, NC 27516 </br>
-{{< fa phone >}} (919) 537-8031 </br>
-{{< fa fax >}} (919) 537-8034
+Please complete this renewal form and continue receiving member benefits with AP-LS.
 
-More information can be found on websites: [American Board of Forensic Psychology](http://www.abfp.com/) and [American Board of Professional Psychology](http://www.abpp.org/).
+[Renew Here! {{< fa arrow-right >}}](https://apls.memberclicks.net/membership-renewal-form#!/){.btn-action .btn .btn-secondary .btn-lg role="button"}
 :::
 :::
 
+
+
+:::
+
+::: vspace
 :::
 
 # Why join AP-LS?
@@ -181,13 +168,31 @@ div(class = "feature-grid",
 ```
 
 
+
 # Who can join?
 
 Membership is open to interested professionals and students in other disciplines beyond psychology. AP-LS encourages APA members, graduate and undergraduate students, and persons in related fields to consider joining.
 
+
+::: {.callout-note collapse="true" appearance="simple"}
+## Forensic Psychology Diplomat 
+
+If you are interested in obtaining Forensic Psychology Diplomat status in the American Board of Forensic Psychology and American Board of Professional Psychology, please contact: 
+
+ABPP </br>
+600 Market Street, 
+Suite 300 </br>
+Chapel Hill, NC 27516 </br>
+{{< fa phone >}} (919) 537-8031 </br>
+{{< fa fax >}} (919) 537-8034
+
+More information can be found on websites: [American Board of Forensic Psychology](http://www.abfp.com/) and [American Board of Professional Psychology](http://www.abpp.org/).
+:::
+
+
 ## Membership Types
 
-##### There are six categories of membership in AP-LS including:
+##### There are ***six*** categories of membership in AP-LS including:
 
 ```{r}
 #| echo: false
@@ -215,3 +220,6 @@ div(class = "grid grid-three",
 ```
 
 For a more detailed description of each category of membership, see the [AP-LS Bylaws](../about/bylaws.html).
+
+
+

@@ -7,7 +7,7 @@ categories:
   - Practice
 submission-info:
   sponsor: AP-LS Early Career Professionals Committee
-  deadline: "October 31, `r format(Sys.Date(), '%Y')`"
+  deadline: "October 31, `r if (Sys.Date() > lubridate::mdy(paste('October 31', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())`"
 links:
 - icon: envelope-at
   name: Contact
