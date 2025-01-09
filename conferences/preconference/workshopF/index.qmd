@@ -1,0 +1,21 @@
+---
+title: Workshop F
+lang: es 
+subtitle: |
+  Apoyando la reducción del riesgo de delincuencia y la construcción de fortalezas a través de la intervención específica del trauma:   Autorregulación y el modelo TARGET 
+date: 03/12/2025
+author:
+  - Rocio Chang, PsyD 
+categories: 
+  - Principiante 
+  - Half Day
+description: |
+  Los adolescentes involucrados en la justicia juvenil (AIJJ) experimentan eventos traumáticos y síntomas de estrés postraumático (TEPT) en tasas extremadamente altas aumentando el riesgo de entrada en el sistema y manteniendo la probabilidad de participación en el sistema.  Los profesionales reconocen que la exposición a eventos traumáticos y los síntomas de TEPT interactúan con los factores de riesgo de la delincuencia.  Sin embargo, el conocimiento de estas asociaciones a menudo impide a los profesionales desarrollar planes integrales de casos que aborden el trauma, apoyen la reducción del riesgo de delincuencia y la construcción de fortalezas que puedan amortiguar futuros contactos con el sistema. El modelo predominante con el que los profesionales de la justicia juvenil y la salud mental conceptualizan la delincuencia es el modelo Riesgo-Necesidades-Responsabilidad.  Numerosos estudios de investigación han demostrado que cuando los servicios de tratamiento se calibran de acuerdo con los principios de riesgo y necesidad, se logra una mayor reducción de la reincidencia; sin embargo, este modelo no integra el trauma de manera significativa.   Este taller proporcionará una revisión de la literatura disponible sobre la prevalencia del trauma, destacará los hallazgos empíricos que abordan las vías hacia el riesgo de delincuencia a través tanto del trauma como de los factores dinámicos de riesgo de delincuencia, y promoverá cómo los problemas con la autorregulación, la reducción del control personal y el afrontamiento de supervivencia específico del trauma son clave para integrar el trauma en las formulaciones y planes de caso basados en RNR.  A través de una presentación didáctica y ejercicios interactivos, este taller proporcionará una visión general de los conceptos clave de Trauma Affect Regulation:  Una Guía para la Educación y la Terapia (TARGET) para apoyar cómo los servicios TARGET cuando se prestan en entornos legales juveniles pueden apoyar los objetivos de reducción del riesgo de delincuencia y promoción de fortalezas.   
+objectives:
+  - Identificar las tasas de prevalencia de exposiciones a eventos traumáticos a lo largo de la vida y el TEPT entre los adolescentes que experimentan la participación en el sistema judicial de menores.
+  - Explicar cómo el trauma interactúa con los factores dinámicos de riesgo de delincuencia e informa la formulación y la planificación del caso a través del modelo Risk Needs Responsivity.
+  - Demostrar el uso de cuatro habilidades fundamentales de autorregulación a través del modelo TARGET y vincular el uso de habilidades para mejorar la autorregulación, la reducción del riesgo de delincuencia y la mejora de las fortalezas.
+event-info:
+  credits: "3.5 horas CE"
+  time: "13:00 – 16:30"
+---

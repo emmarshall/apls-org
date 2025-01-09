@@ -1,0 +1,25 @@
+---
+title: Workshop C
+subtitle: |
+  Conducting Evidence-Based Mitigation Evaluations in Non-Capital Cases: The Role of Trauma and Adversity 
+date: 03/12/2025
+author:
+  - Leah Crabb, PhD
+  - Simone Vijoen, PhD
+  - Julie M. Brovko, PhD
+categories: 
+  - Intermediate
+  - Half Day
+description: |
+  Mitigation evaluations represent a critical application of forensic psychology but can often be intimidating for forensic evaluators. Although existing literature provides guidelines for evidence-based approaches in capital sentencing cases, there is less direction on the implementation of these approaches in non-capital cases. This workshop will provide forensic evaluators with a practical and comprehensive training on mitigation evaluations in non-capital cases, with an emphasis on the role of trauma and adversity. A brief overview of the key issues in mitigation evaluations will be presented, including the concept of moral culpability and the importance of balancing empathy with objectivity. This workshop will also review research on the physiological effects of trauma and its impact on development. Additionally, the complexities associated with trauma-related diagnoses will be discussed, including the diversity of trauma symptomatology and differentiating between complex trauma and Cluster B personality disorders. Then, evidence-based procedures will be outlined, providing attendees with step-by-step guidelines that demystify the process of mitigation evaluations. In this section, specific recommendations for structuring interviews, obtaining collateral information, and selecting psychological assessments will be covered. Finally, key components of mitigation reports will be reviewed. This will include a discussion on how evaluators can effectively incorporate research into their reports and contextualize the impact of trauma for the Court. 
+objectives: 
+  - Explain the purpose of mitigation evaluations and their importance to sentencing, as well as how forensic evaluators can serve a unique role in contextualizing an individual’s life experiences for the Court.
+  - Describe gaps between ethics, research, and practice on feedback in forensic mental health assessment.
+  - Identify the key components of an evidence-based and trauma-informed approach to mitigation evaluations in non-capital cases, including interview, collateral record review, and incorporation of research.
+  - Demonstrate understanding of the research on the physiological and psychological impacts of childhood adversity and discuss special considerations for individuals involved in the criminal justice system that have a significant trauma history.
+  - Conduct a research-based analysis of the influences of mitigating factors on an individual’s development and life trajectory.
+event-info:
+  credits: "3.5 CE hours"
+  time: "8:30 AM – 12 PM"
+---
+

@@ -1,0 +1,20 @@
+---
+title: Workshop E
+subtitle: |
+  Supporting Delinquency Risk Reduction and Strengths Building Through Trauma-specific Intervention: Self-Regulation and the TARGET Model
+date: 03/12/2025
+author:
+  - Keith Cruise, PhD
+categories: 
+  - Beginner
+  - Half Day
+description: |
+  Adolescents involved in juvenile justice (AIJJ) experience traumatic events and posttraumatic stress (PTSD) symptoms at extremely high rates, increasing risk for system entry and sustaining the likelihood of system involvement. Professionals acknowledge that trauma event exposure and PTSD symptoms interact with delinquency risk factors. However, knowledge of these associations often prevents professionals to develop comprehensive case plans that address trauma, support delinquency risk reduction, and building of strengths that can buffer against future system contact. The predominant model by which juvenile justice and mental health professionals conceptualize delinquency is through the Risk-Needs-Responsivity model.     Numerous research studies have supported that when treatment services are calibrated consistent with the Risk and Need Principles, greater recidivism reduction is achieved; however, this model fails to integrate trauma in a meaningful way. This workshop will provide a review of the available literature on trauma prevalence, highlight empirical findings addressing pathways to delinquency risk through both trauma and dynamic delinquency risk factors, and promote how problems with self-regulation, reduced personal control, and trauma-specific survival coping are key to integrating trauma into RNR based formulations and case plans.  Through didactic presentation and interactive exercises, this workshop will provide an overview of key concepts from Trauma Affect Regulation: A Guide for Education and Therapy (TARGET) to support how TARGET services when delivered in juvenile legal settings can support the goals of delinquency risk reduction and strengths promotion.   
+objectives:
+  - Identify prevalence rates of lifetime traumatic event exposures and PTSD among adolescents experiencing juvenile legal system involvement.
+  - Explain how trauma interacts with dynamic delinquency risk factors and informs formulation and case planning through the Risk Needs Responsivity model.
+  - Demonstrate use of four foundational self-regulation skills through the TARGET model and link use of skills to enhanced self-regulation, delinquency risk reduction, and strengths enhancement.
+event-info:
+  credits: "3.5 CE hours"
+  time: "8:30 AM - 12 PM"
+---

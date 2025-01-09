@@ -1,0 +1,23 @@
+---
+title: Workshop B
+subtitle: |
+  Risky or Kinky? Understanding, Assessing, Treating, and Honoring Sexual Diversity among Individuals with Sexual Offense or Legal Histories 
+date: 03/12/2025
+author:
+  - Molly Shepard, PhD
+  - Kate Crawford, PsyD, MA
+categories: 
+  - Intermediate
+  - Full Day
+description: |
+  This workshop will provide an overview of cultural inclusivity and the theoretical frameworks relevant to sexually and relationally diverse individuals, subcultural sex, and sexual offending; that is, the Hays' (2022) ADDRESSING framework and the Risk-Need-Responsivity (RNR; Bonta & Andrews, 2007) principles, among others. Detailed education about sexual and relationship diversity, such as polyamory and kink, will be emphasized. The workshop will integrate diversity and cultural inclusivity through critical examination of sexual risk tools (i.e., Static-99R, STABLE-2007, RSVP-2, VRS-SO, and SAPROF-SO), interview questions, diagnoses, conceptualization, risk formulation, and evidenced-based treatment recommendations. We will discuss culturally responsive treatment interventions and risk mitigation strategies to use with sexually and relationally diverse individuals. For practical application of skills, a fictional case study will be integrated throughout the entire presentation, and attendee participation will be strongly encouraged through various interactive methods.
+objectives: 
+  - Describe how hetero-mono-normativity impacts sexual offense-specific assessment and treatment.
+  - Apply the elements of Hays' (2022) ADDRESSING framework and intersectionality to sexual offense-specific assessment and treatment.
+  - Identify the shared values of kink and polyamorous culture.
+  - Explain how sexual and relational diversity relate to dynamic risk factors relevant to sexual recidivism.
+  - Analyze the difference between kink interests and paraphilic disorders.
+event-info:
+  credits: "7 CE hours"
+  time: "8:30 AM – 4:30 PM"
+---

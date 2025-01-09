@@ -1,0 +1,73 @@
+---
+pagetitle: preconference
+css: ../index.css
+listing: 
+    contents: 
+      - "**/*.qmd"
+    type: grid
+    grid-columns: 2
+    categories: false
+    sort-ui: true
+    filter-ui: true
+    fields: [title, subtitle, categories]
+---
+::: column-screen
+::: hero-banner
+::: content-block
+# 2025 Preconference Workshops
+
+### San Juan, Puerto Rico \| March 12, 2025
+
+
+::: hero-buttons
+[{{< fa arrow-left-long aria-hidden="true" >}} Go Back](../index.qmd){#btn-guide .btn-action .btn-action .btn .btn-success role="button"}
+:::
+
+:::
+:::
+:::
+
+
+
+# Pricing Information{#price} 
+
+::: {.panel-tabset .box-shadow}
+## Full-Day Workshop Rates
+
++--------------------+-----------------+----------------+
+| Status             | Early Bird\     | Regular\       |
+|                    | (before Jan 31) | (on Feb 1)     |
++:===================+:================+:===============+
+| Member             | \$200           | \$230          |
++--------------------+-----------------+----------------+
+| Non-Member         | \$250           | \$280          |
++--------------------+-----------------+----------------+
+| Student Member     | \$80            | \$100          |
++--------------------+-----------------+----------------+
+| Student Non-member | \$100           | \$120          |
++--------------------+-----------------+----------------+
+
+
+## Half-Day Workshop Rates
+
++--------------------+-----------------+----------------+
+| Status             | Early Bird\     | Regular\       |
+|                    | (before Jan 31) | (on Feb 1)     |
++:===================+:================+:===============+
+| Member             | \$100           | \$115          |
++--------------------+-----------------+----------------+
+| Non-Member         | \$125           | \$140          |
++--------------------+-----------------+----------------+
+| Student Member     | \$40            | \$50           |
++--------------------+-----------------+----------------+
+| Student Non-member | \$50            | \$60           |
++--------------------+-----------------+----------------+
+:::
+
+# Descriptions & Details{#details}  
+> At this year's conference we are excited to offer [**two**]{.underline} full day workshops and [**four**]{.underline} half day workshops. 
+
+Click to learn more about each workshop below.
+
+::: {#workshops}
+:::

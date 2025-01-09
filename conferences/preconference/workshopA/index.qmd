@@ -1,0 +1,31 @@
+---
+title: Workshop A
+subtitle: |
+  Implementing the Mendez Principles in forensic interviews: A pathway towards collaborative practice for forensic psychology, the law and law enforcement
+date: 03/12/2025
+author:
+  - Luna Filipovic, PhD
+  - Shaun M. Sylvester, PhD
+  - Alberto Hijazo-Gascon, PhD
+  - Maria Gomez-Bedoya, PhD 
+categories: 
+  - Intermediate
+  - Full Day
+description: |
+  The Méndez Principles on Effective Interviewing are a set of guidelines that help countries implement the United Nations Convention against Torture (UNCAT). The principles are intended to improve police practices by replacing coercive interrogation methods with rapport-based interviewing. This workshop will provide attendees with practically applicable communication skills that are essential for ensuring effective and ethical forensic interviewing and/or confession elicitation. Using real-life cases as examples of forensic interviews and interrogations from both the British and American context respectively we demonstrate how, where, and why problems in communication may occur, in both monolingual and multilingual settings, and how non-coercive, culturally appropriate approach to information elicitation can lead to better quality evidence essential for psychological assessment and legal judgment as well as for more humane treatment of disadvantaged individuals. Crucially, the unique dataset from the United States available to the workshop team offers a first-hand insight of what the dangers are for individual outcomes as well as for a justice system as a whole when the Mendez Principles ARE NOT adhered to. <br><br>
+  The proposed workshop will address the following specifics relevant for the practice of forensic psychology, legal counsel, and law enforcement: 
+  <ol> 
+  <li> How to identify difficulties in forensic interviews (including cross-linguistic and cross- cultural barriers in rapport-building and rapport maintenance).</li> 
+  <li> How to prevent these difficulties (e.g., by quick-spotting language differences that necessitate reformulations in both monolingual and interpreter-mediated communication).</li> 
+  <li> How to resolve them when they happen (e.g., by resolving miscommunication effectively without alienating the interlocutor, ensuring rapport maintenance).</li>
+  </ol>
+objectives:
+  - Identify, define, and exemplify applications of the Mendez Principles (and detect their absence) in forensic interviews and law enforcement communication with suspects, victims, and witnesses.
+  - Anticipate, prevent, and resolve miscommunication in forensic interviews.
+  - Apply culturally appropriate empathy and rapport strategies in information elicitation situations.
+  - Prepare, design, and create communication strategies in order to remove communication barriers in forensic interviews stemming from language contrasts and interpreter mediation.
+  - Become equipped with key knowledge applicable in assessment of linguistically and culturally diverse individuals from minority communities.
+event-info:
+  credits: "7 CE hours"
+  time: "8:30 AM – 4:30 PM"
+---
