@@ -33,7 +33,7 @@ In 1968, at the American Psychological Association (APA) convention in San Franc
 
 The first conference was held in San Francisco in June 1974, with approximately 20 to 30 presenter/attendees. In 1977, Bruce Sales established both the law-psychology book series and Law and Human Behavior (LHB). A few years later, LHB was designated the official journal of AP-LS. Then in 1981, AP-LS became Division 41 of the American Psychological Association.
 
-::: {.callout-note collapse="true"}
+::: {.callout-note}
 ## References
 
 ::: {#refs}
