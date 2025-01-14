@@ -10,11 +10,11 @@ title-block-banner: "../images/default-banner.svg"
 
 All AP-LS members and AP-LS event attendees are expected to play a role in creating and maintaining an environment free from harassment and discrimination by following the norms of professional respect that help to promote honest intellectual exchange and quality scholarship. These community standards affirm the positive and constructive behaviors to which AP-LS aspires as a professional and scientific society. All individuals have the right to expect they will be treated with respect regardless of factors such as gender, sexual orientation, disability, physical appearance, body size, race, nationality, caste, or religion, as well as career stage and professional specialty.
 
-[{{< fa file-pdf aria-hidden="true" >}} View Standards](https://drive.google.com/file/d/1DwVnUcWXCDJx-V6t8hGOBGvkcbGzcfmD/view?usp=sharing){.btn .btn-outline-primary role="button"}
+[{{< fa file-pdf aria-hidden="true" >}} View Standards](https://drive.google.com/file/d/1DjkHP6YFb3G-fuGmZbW7IYeOob4GHx6X/view?usp=sharing){.btn .btn-outline-primary role="button"}
 
 **Being Proactive**
 
-Members and attendees should be proactive about mitigating harm to others at AP-LS conferences, events, and meetings and helping to maintain a professional and welcoming environment. Participants can be proactive by: 
+Members and attendees should be proactive about mitigating harm to others at AP-LS conferences, events, and meetings and helping to maintain a professional and welcoming environment. Participants can be proactive by:
 
 1.  Recognizing that the power differences inherent in academia and in society can inhibit less powerful parties such as students and junior scholars from voicing their objections to offensive comments or behavior.
 
@@ -24,7 +24,7 @@ Members and attendees should be proactive about mitigating harm to others at AP-
 
 4.  Being an active bystander if you observe potential harm to another participant.
 
-5.  Following the immediate response options if you notice a dangerous situation, someone in distress, or someone being harassed. [Learn More](#report) 
+5.  Following the immediate response options if you notice a dangerous situation, someone in distress, or someone being harassed. [Learn More](#report)
 
 ::: callout-tip
 ## Expected Behaviors

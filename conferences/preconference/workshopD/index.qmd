@@ -18,5 +18,5 @@ objectives:
   - Develop an individualized secondary traumatic stress toolkit.
 event-info:
   credits: "3.5 CE hours"
-  time: "8:30 AM – 12 PM"
+  time: "1 PM – 4:30 PM"
 ---
