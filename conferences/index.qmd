@@ -109,52 +109,6 @@ Looking forward to seeing everyone in March!
 ::: vspace
 :::
 
-# Submissions {#proposals}
-
-::: vspace
-:::
-
-::::::::: {.panel-tabset .box-shadow}
-## {{< fa bullhorn aria-hidden="true" >}} Call for Proposals
-
-::: vspace
-:::
-
-::: simple-info-center
-[2025 Call for Proposals]{.plenary}
-
-[Annual Conference of the American Psychology-Law Society (AP-LS) <br> March 13-15, 2025 \| San Juan, Puerto Rico \| Sheraton Puerto Rico Resort & Casino]{.event-time}
-
-[{{< fa file-pdf aria-hidden="true" >}} Download](https://drive.google.com/file/d/19-jPv9SXVbnE5ofgZZis9e4ZZkvkwqli/view?usp=sharing){.btn .btn-outline-primary role="button"}
-:::
-
-::: {.callout-important appearance="simple"}
-## Submissions for the 2025 Conferences are now CLOSED!
-:::
-
-::: vspace
-:::
-
-[Reviewers]{.plenary}
-
-::: session-description
-**Reviewers:** Reviewers are invited for all content areas including both professional and graduate student reviewers. Proposals will be distributed for review at the end of October. Please sign up to be a reviewer using the submission portal when you submit your proposal, or, if you do not plan to submit a proposal, using this [Google form](https://forms.gle/vUZyXUDbT6ydYVr67).
-:::
-
-::: vspace
-:::
-
-> If you have any questions or comments about the conference, please contact the conference co-chairs at [conference\@ap-ls.org](mailto:conference@ap-ls.org) Looking forward to seeing everyone in March! <br> <br>*2025 AP-LS Conference Co-Chairs* <br> Jenni Cox & Lori Hoetger Fendrick
-:::::::::
-
-::: vspace
-:::
-
-<hr>
-
-::: vspace
-:::
-
 # Program & Schedule {#schedule}
 
 ::: vspace
