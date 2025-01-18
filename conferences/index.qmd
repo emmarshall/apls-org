@@ -39,10 +39,10 @@ source("../assets/apls_functions.R")
 
 content = rowwise_table(~name, ~icon, ~link,
   "General", "info-circle", "#info",             
-  "Program", "calendar2-event", "#schedule",
+  "Program", "journal-text", "#schedule",
   "Hotel", "airplane", "#hotel",
   "Registration", "person-badge", "#register",  
-  "Archives", "journal-text", "archive/index.qmd"
+  "Preconference", "easel2", "#preconference"
 )
 div(class = "bg-light",
  div(class = "bg-breakout",
