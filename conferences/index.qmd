@@ -24,7 +24,7 @@ source("../assets/apls_functions.R")
 ### {{< fa calendar aria-hidden="true" >}} March 13-15, 2025
 
 ::: hero-buttons
-[Register Now!](https://apls.memberclicks.net/2025aplsconferenceregistration#!/){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [Preconference](preconference/index.qmd){.btn-action .btn .btn-secondary role="button"}
+[Register here!](https://apls.memberclicks.net/2025aplsconferenceregistration#!/){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [DRAFT Program](#schedule){.btn-action .btn .btn-secondary role="button"}
 :::
 ::::
 :::::
@@ -39,7 +39,7 @@ source("../assets/apls_functions.R")
 
 content = rowwise_table(~name, ~icon, ~link,
   "General", "info-circle", "#info",             
-  "Submissions", "send-exclamation", "#schedule",
+  "Program", "calendar2-event", "#schedule",
   "Hotel", "airplane", "#hotel",
   "Registration", "person-badge", "#register",  
   "Archives", "journal-text", "archive/index.qmd"
@@ -155,6 +155,29 @@ Looking forward to seeing everyone in March!
 ::: vspace
 :::
 
+# Program & Schedule {#schedule}
+
+::: vspace
+:::
+
+::::::::::: simple-info-center
+::::::::::: {.panel-tabset .box-shadow}
+## {{< fa circle-info aria-hidden="true" >}} Overview
+
+::: vspace
+:::
+
+##### [2025 APLS DRAFT Program Grid]{.highlight} <br> is now available!
+
+
+[View Here {{< fa arrow-right aria-hidden="true" >}}](https://drive.google.com/file/d/1omzJ6uTXgQ8uJOPkrbH2ENhyk-ZwQiaH/view?usp=sharing){.btn .btn-outline-primary role="button"} 
+
+::: vspace
+:::
+
+:::::::::::
+:::::::::::
+
 ::::::::::: simple-info
 # Hotel Information {#hotel}
 
@@ -201,18 +224,16 @@ Attendees must book their room by **February 17th, 2025** to take advantage of t
 
 # Registration {#register}
 
-::::::: simple-info
+:::::: simple-info-center
 :::::: {.panel-tabset .box-shadow}
 ## {{< fa bullhorn >}} Info
 
-::: inside-container
-### {{< fa id-badge aria-hidden="true" >}} Online registration is ***now*** open!
+### [{{< fa id-badge aria-hidden="true" >}} Online registration]{.highlight} is ***now*** open!
 
-::: hero-buttons
-[Click Here {{< fa arrow-right-long aria-hidden="true" >}} ](https://apls.memberclicks.net/2025aplsconferenceregistration#!/){.btn-action .btn .btn-info .ml-auto role="button"}
+::: vspace
 :::
 
-:::
+[Click Here {{< fa arrow-right-long aria-hidden="true" >}} ](https://apls.memberclicks.net/2025aplsconferenceregistration#!/){.btn .btn-outline-primary .ml-auto role="button"} 
 
 ::: vspace
 :::
@@ -260,9 +281,12 @@ Attendees must book their room by **February 17th, 2025** to take advantage of t
 ::: vspace
 :::
 
-::: hero-buttons
-[Learn More {{< fa arrow-right-long aria-hidden="true" >}} ](preconference/index.qmd){.btn-action .btn .btn-info .ml-auto role="button"}
+[Learn More {{< fa arrow-right-long aria-hidden="true" >}} ](preconference/index.qmd){.btn .btn-outline-primary .ml-auto role="button"} 
+
+
+::: vspace
 :::
+
 *Attendees will have the ability to register for the pre conference workshops with their conference registration.*
 
 ::: vspace
