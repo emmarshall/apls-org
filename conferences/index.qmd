@@ -228,7 +228,7 @@ Attendees must book their room by **February 17th, 2025** to take advantage of t
 :::::: {.panel-tabset .box-shadow}
 ## {{< fa bullhorn >}} Info
 
-### [{{< fa id-badge aria-hidden="true" >}} Online registration]{.highlight} is ***now*** open!
+#### {{< fa id-badge aria-hidden="true" >}} Online registration is ***now*** open!
 
 ::: vspace
 :::
@@ -278,16 +278,9 @@ Attendees must book their room by **February 17th, 2025** to take advantage of t
 
 ##### [{{< fa calendar aria-hidden="true" >}} Wednesday, March 12, 2025]{.highlight}
 
-::: vspace
-:::
+[*Attendees will have the ability to register for the pre conference workshops with their conference registration*]{.session-chair}
 
 [Learn More {{< fa arrow-right-long aria-hidden="true" >}} ](preconference/index.qmd){.btn .btn-outline-primary .ml-auto role="button"} 
-
-
-::: vspace
-:::
-
-*Attendees will have the ability to register for the pre conference workshops with their conference registration.*
 
 ::: vspace
 :::
