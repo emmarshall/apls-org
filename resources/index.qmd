@@ -41,6 +41,7 @@ content = rowwise_table(
   "general", "Graduate Training", "info-circle", "training/graduate.html", "Graduate Programs in Psychology & Law",
   "general", "Newsletter", "newspaper", "newsletter/index.html", "Archive of previous issues",
   "general", "Students", "question-circle", "http://www.apls-students.org/about.html", "Collection of information for students",
+  "general", "Executive Committee", "info-circle", "ECCommittee/index.html", "Collection of committee resources",
   "general", "AP-LS Videos", "file-earmark-play", "videos/index.html", "Collection of webinars, talks and videos.",
   "general", "Syllabi", "table", "syllabi/index.html", "Collection of syllabi for courses related to psychology and law.",
   "general", "Telepsychology", "telephone", "telepsychology/telepsychology.html", "Collection of articles and resources about telepsychology",

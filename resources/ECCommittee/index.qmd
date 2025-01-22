@@ -1,0 +1,43 @@
+---
+title: "Executive Committee and Committee Chair Resources"
+---
+
+::::: {.panel-tabset .box-shadow}
+## {{< fa circle-info aria-hidden="true" >}} Overview
+
+<center><iframe src="https://drive.google.com/file/d/1kRymWB7MnyTID0BD8rKdl3jL6YuOoCxc/preview" width="640" height="480" allow="autoplay"></iframe></center>
+
+
+### Additional Resources
+
+[**How to Use Memberclicks** {{< fa arrow-right aria-hidden="true" >}}](https://docs.google.com/document/d/11EVL5aD1BKMI4JDJ08RP7s5-ptOadn9GDh2J4U_XwU0/edit?usp=sharing){.btn .btn-outline-primary role="button"}
+
+
+## {{< fa dollar-sign aria-hidden="true" >}} Budget Guidelines & Reimbursement Request Process
+
+<center><iframe src="https://drive.google.com/file/d/1PEBDbC-o5fEXRRNqZh3z1zlMnR4Vxq4L/preview" width="640" height="480" allow="autoplay"></iframe></center>
+
+
+### Links to blank forms and referenced information
+
+[{{< fa file-pdf aria-hidden="true" >}} W9 Form](https://drive.google.com/file/d/1oI0dNMpak5MLlL5hN7bho-W1vElF3-Cx/view?usp=drive_link){.btn .btn-outline-primary role="button"}
+
+[{{< fa file-pdf aria-hidden="true" >}} W8 Form](https://drive.google.com/file/d/1qkwV-rzVw0PI7JRvb5IQDMEGnBl8ZXng/view?usp=drive_link){.btn .btn-outline-primary role="button"}
+
+
+[{{< fa file-pdf aria-hidden="true" >}} ACH Direct Deposit Form](https://drive.google.com/file/d/14YXpYcLz34kF390I3HrmyCTY4mGdj5uj/view?usp=sharing){.btn .btn-outline-primary role="button"}
+
+[{{< fa circle-info aria-hidden="true" >}} GSA Per Diem Rates](www.gsa.gov/plan-book/per-diem-rates){.btn .btn-outline-primary role="button"}
+
+### Additional Resources 
+
+
+[**AP-LS Payment/Reimbursement Form** {{< fa arrow-up-right-from-square aria-hidden="true" >}}](https://www.emailmeform.com/builder/form/Pk6L3uNWYrfc405aRxneafy){.btn .btn-outline-primary role="button"}
+
+[{{< fa circle-info aria-hidden="true" >}} Budget rules](https://docs.google.com/document/d/1-krwZrN1aHNckPEn4Emki_YTdOsMMyr8/edit?usp=sharing&ouid=111451743560874649725&rtpof=true&sd=true){.btn .btn-outline-primary role="button"}
+
+
+[{{< fa table aria-hidden="true" >}} AP-LS Budget Code Sheet](https://drive.google.com/file/d/1Ua6i_1IBgNIsXZUifOvLspfkAFkW10St/view?usp=sharing){.btn .btn-outline-primary role="button"}
+
+
+:::::
