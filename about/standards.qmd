@@ -33,7 +33,7 @@ Expected behavior includes, but is not limited to:
 
 -   Exercise consideration and respect in your speech and actions.
 
--   Be mindful of your surroundings and of your fellow participants. 
+-   Be mindful of your surroundings and of your fellow participants.
 
 -   Treat all participants with kindness, respect, and consideration.
 
@@ -55,9 +55,9 @@ Expected behavior includes, but is not limited to:
 
 -   Be open to receiving feedback on your behavior and learning from others, without defensiveness.
 
--   Be open to engaging in informal conflict resolution if requested. 
+-   Be open to engaging in informal conflict resolution if requested.
 
--   Follow the social media policy regarding photos or videos of presentations, as specified in the AP-LS and APA social media policies. 
+-   Follow the social media policy regarding photos or videos of presentations, as specified in the AP-LS and APA social media policies.
 
 -   Respect the rules and policies of the convention center, hotels, contracted facility, or any other venue.
 :::
@@ -75,29 +75,39 @@ Expected behavior includes, but is not limited to:
     -   Sustained disruption of talks or other events (verbally or physically)
 
 -   Misuse of media/internet:
-    -   Knowingly and intentionally violating the APA and AP-LS social media policies. 
+    -   Knowingly and intentionally violating the APA and AP-LS social media policies.
 
     -   Posting (or threatening to post), without permission, other people’s private personally-identifying information online, including on social networking sites.
 
 -   Blocking or otherwise disrupting investigation of complaints, including retaliation against anyone reporting or participating in an investigation of a claim.
 
--   Advocating for, encouraging, or dismissing concerns regarding any of the above behaviors. 
+-   Advocating for, encouraging, or dismissing concerns regarding any of the above behaviors.
 
 -   Engaging in criminal behavior.
 :::
 
 ##### [What should you do if you experience or see prohibited behavior?]{#report}
 
--   To discuss behaviors or situations with an impartial party, please contact the AP-LS Ombuds. Discussions with the Ombuds are informal and confidential. 
+-   To discuss behaviors or situations with an impartial party, please contact the AP-LS Ombuds. Discussions with the Ombuds are informal and confidential.
 
--   If you believe that prohibited behaviors are occurring in a manner that requires an immediate response, please contact a designated responder. 
-    -   For official conference events, designated responders are voting members of the AP-LS Executive Committee and AP-LS staff. 
+-   If you believe that prohibited behaviors are occurring in a manner that requires an immediate response, please contact a designated responder.
+
+    -   For official conference events, designated responders are voting members of the AP-LS Executive Committee and AP-LS staff.
 
 -   For events outside of the conference or events hosted by an AP-LS committee, the members of the hosting committee are designated responders.
 
--   Contact information for the AP-LS Ombuds, Executive Committee, and staff is provided in the conference app and the conference program.
+-   You can contact the AP-LS Ombuds at Ombuds@ap-ls.org or the AP-LS
+Executive Director at [Executive.Director@ap-ls.org](mailto:Executive.Director@ap-ls.org). You can also find contact
+information in the conference app and the conference program.
 
--   If you wish to file a formal complaint, please use this link: bit.ly/AP-LSReport \[note: not operational yet\]. We encourage individuals to consider speaking with the AP-LS Ombuds before deciding whether to file a complaint. \
+::: callout-important
+## How to File a Formal Complaint
+
+If you wish to file a formal complaint, please use this link: bit.ly/AP-LSReport (Note: link not operational yet). 
+
+We encourage individuals to consider speaking with the AP-LS Ombuds before deciding whether to file a complaint.
+
+:::
 
 ## Background
 
