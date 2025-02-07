@@ -9,11 +9,11 @@ categories:
   - Conference Travel
 submission-info:
   sponsor: AP-LS Student Committee
-  deadline: "February 22, `r if (Sys.Date() > lubridate::mdy(paste('February 22', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())`"
+  deadline: "February 28, `r if (Sys.Date() > lubridate::mdy(paste('February 28', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())`"
 links:
 - icon: info-circle
   name: Learn More
-  url: "http://www.apls-students.org/student-presentation-awards1.html"
+  url: "http://www.apls-students.org/student-presentation-awards.html"
 - icon: send
   name: Apply here
   url: "https://docs.google.com/forms/d/e/1FAIpQLSe80sfriAr71KEVvaj5CSVmR-UALYeB04ewjvv8M1NaBsjNIQ/viewform"
@@ -31,11 +31,11 @@ source("../../assets/apls_functions.R")
 :::
 
 ::: callout-note
-# `r format(lubridate::today() + lubridate::years(1), '%Y')` American Psychology-Law Conference
+# `r if (Sys.Date() > lubridate::mdy(paste('February 28', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())` American Psychology-Law Conference
 
-Student members with an accepted first author presentation for the `r format(lubridate::today() + lubridate::years(1), '%Y')` AP-LS Conference are eligible and highly encouraged to apply for a Student Presentation Award.
+Student members with an accepted first author presentation for the `r if (Sys.Date() > lubridate::mdy(paste('February 28', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())` AP-LS Conference are eligible and highly encouraged to apply for a Student Presentation Award.
 
-The AP-LS Student Committee will be awarding ten (10) student presentation awards at the `r format(lubridate::today() + lubridate::years(1), '%Y')` AP-LS Conference, totaling \$1,750. These awards include:
+The AP-LS Student Committee will be awarding ten (10) student presentation awards at the `r if (Sys.Date() > lubridate::mdy(paste('February 28', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())` AP-LS Conference, totaling \$1,750. These awards include:
 
 -   Two (2) Outstanding Student Paper awards (\$200 each);
 
@@ -55,6 +55,6 @@ These include:
 
 -   One (1) Outstanding Student Presentation in Novel-Topic Research award (\$175), for research on a topic not traditionally studied in law and psychology.
 
-    Full information on submission criteria, submission instructions, and the evaluation process is available on the [student committee website](https://www.apls-students.org/student-presentation-awards1.html).
+    Full information on submission criteria, submission instructions, and the evaluation process is available on the [student committee website](https://www.apls-students.org/student-presentation-awards.html).
 
 Completed submissions are due on the date of the deadline by 11:59 PM EST. Late or incomplete submissions will not be considered.
