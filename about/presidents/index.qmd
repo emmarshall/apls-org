@@ -3,7 +3,7 @@ pagetitle: "Welcome From Our President"
 about: 
   id: hero-heading
   template: trestles
-  image: christin_meissner.jpeg
+  image: img/christian_meissner.jpeg
   image-shape: round
   image-width: 14em
   links:

@@ -131,7 +131,7 @@ div(class = "bg-light",
 ::: vspace
 ::: 
 
-![](about/presidents/christian_meissner.jpeg){.avatar}
+![](about/presidents/img/christian_meissner.jpeg){.avatar}
 
 # Welcome from Our President
 ::: vspace
