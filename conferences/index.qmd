@@ -153,9 +153,13 @@ The 2025 AP-LS Conference will be held at the [Sheraton Puerto Rico Resort & Cas
 [Conference Rates]{.plenary}
 
 ::::: session-description
-AP-LS has rooms set aside for all attendees, which can be booked at a special group rate that is available for attendees:
+The Sheraton Puerto Rico Resort and Casino has been **sold out**. Another room block as been added at the nearby Courtyard San Juan Miramar
 
-{{< fa credit-card aria-hidden="true" >}} Group Rate \$259 to \$559 USD/night </br> {{< fa calendar aria-hidden="true" >}} Available March 6 - March 18 </br>
+Courtyard San Juan Miramar <br> 
+{{< fa credit-card aria-hidden="true" >}} 229.00 USD per night ($17 destination fee + 9% Government Tax additional)
+
+Available Sunday March 9th through Wednesday March 19th.
+Special Rate only available through Monday February 17th. 
 
 ::: hero-buttons
 [{{< fa bell-concierge aria-hidden="true" >}} Book a Room](https://www.marriott.com/event-reservations/reservation-link.mi?id=1710272897155&key=GRP&app=resvlink){.btn-action .btn .btn-info .ml-auto role="button"} [{{< fa hotel aria-hidden="true" >}} Website](https://maps.app.goo.gl/Fa5b26tUKbZRk8Eu5){.btn-action .btn .btn-dark .ml-auto role="button"}

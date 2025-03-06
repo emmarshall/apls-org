@@ -1,7 +1,7 @@
 ---
 title: Workshop D
 subtitle: |
-   Beyond self-care: Evidence-informed strategies to support resilience among those exposed to secondary traumatic stress in forensic contexts 
+   Beyond self-care: Evidence-informed strategies to support resilience among those exposed to secondary traumatic stress in forensic contexts (*Virtual* workshop) 
 date: 03/12/2025
 author:
   - Patricia K. Kerig, PhD
@@ -9,7 +9,7 @@ categories:
   - Beginner
   - Half Day
 description: |
-  Although the call to implement trauma-informed systems of care has been sounded across many contexts—including the justice system—less attention has been paid to the need to provide staff with the tools needed to carry out trauma-informed practices in ways that protect them from the potential risks of secondary traumatic stress, vicarious trauma, moral injury, and compassion fatigue. Furthermore, less well-recognized are the potential risks to researchers who study topics related to trauma and violence in the interface between psychology and law. To address these gaps, this workshop introduces participants to Resilience for Trauma-Informed Professionals (R-TIP; Kerig, 2019), an evidence-informed curriculum that has been developed to increase resilience to secondary traumatic stress reactions, specifically in the context of work that brings individuals into contact with trauma-related material or trauma-exposed individuals. Beyond individual “self-care,” emphasis also is placed on strategies that organizations and supervisors can utilize to prevent, monitor, and respond to STS and to foster STS-resilient workplaces. 
+  Although the call to implement trauma-informed systems of care has been sounded across many contexts—including the justice system—less attention has been paid to the need to provide staff with the tools needed to carry out trauma-informed practices in ways that protect them from the potential risks of secondary traumatic stress, vicarious trauma, moral injury, and compassion fatigue. Furthermore, less well-recognized are the potential risks to researchers who study topics related to trauma and violence in the interface between psychology and law. To address these gaps, this workshop introduces participants to Resilience for Trauma-Informed Professionals (R-TIP; Kerig, 2019), an evidence-informed curriculum that has been developed to increase resilience to secondary traumatic stress reactions, specifically in the context of work that brings individuals into contact with trauma-related material or trauma-exposed individuals. Beyond individual “self-care,” emphasis also is placed on strategies that organizations and supervisors can utilize to prevent, monitor, and respond to STS and to foster STS-resilient workplaces. *This workshop will be virtual.* 
 objectives:
   - Distinguish the factors that confer risk or resilience to secondary traumatic stress, vicarious trauma, and compassion fatigue.
   - Identify effective coping strategies in the moment when exposed to trauma-related material or traumatized individuals.
