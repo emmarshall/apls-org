@@ -56,7 +56,7 @@ renv::restore()
 4. To preview the site from your terminal use: 
 
 ``` r
-quarto preview mlr-org
+quarto preview apls-org
 ```
 
 ## How to Change the website
@@ -106,8 +106,6 @@ The job postings content is located in the `resources/job-postings/` directory. 
 
 ## To do:
 
--   Proofread content pages
 -   Create r package to store functions
--   Newsletter archives - index and format listings (include pds)
 -   TTC Education and Teaching materials
 -   How to add a new post/page write up
