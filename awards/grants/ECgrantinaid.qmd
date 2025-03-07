@@ -8,7 +8,7 @@ categories:
 submission-info:
   sponsor: AP-LS Early Career Professionals Committee
   deadline: 
-    - "May 19, `r if (Sys.Date() > lubridate::mdy(paste('October 31', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())`"
+    - "May 15, `r if (Sys.Date() > lubridate::mdy(paste('October 31', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())`"
 links:
 - icon: envelope-at
   name: Contact
@@ -66,9 +66,7 @@ But students are not eligible to receive an award.
 
 ## How to Apply
 
-Submit a complete proposal to the online portal by the appropriate deadline on 
-
-May 19, `r if (Sys.Date() > lubridate::mdy(paste('October 31', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())` at 11:59 PST.
+Submit a complete proposal to the online portal by the appropriate deadline on **May 15, `r if (Sys.Date() > lubridate::mdy(paste('October 31', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())` at 11:59 PST.**
 
 <a class="btn btn-primary" href="https://awards.ap-ls.org/default.asp" role="button">Click to Apply</a>
 
