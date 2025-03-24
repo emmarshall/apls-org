@@ -1,10 +1,24 @@
 ---
 title: Law and Human Behavior
+embed-resources: true
+format: html
+execute: 
+  echo: false
+  warning: false
+  messages: false
 draft: true
 ---
 
-[Law and Human Behavior®](https://www.apadivisions.org/division-41/publications/journals) This journal is a multidisciplinary forum for the publication of articles and discussions of issues arising from the relationships between human behavior and the law, the legal system, and the legal process.
 
-A place to provide additional information. For example, you could add the new requirements here. 
+```{r}
+library(dplyr)
+library(DT)
+library(purrr)
+library(stringr)
+library(lubridate)
+library(tidyRSS)
 
-{{< downloadthis files/LHB_requirements_121922.pdf dname:"lhb-requirements" label="Download" icon=file-earmark-pdf type=primary >}}
+lhb <- tidyfeed("https://psycnet.apa.org/journals/lhb.rss")
+
+datatable(lhb)
+```
