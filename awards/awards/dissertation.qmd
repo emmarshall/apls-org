@@ -25,7 +25,7 @@ source("../../assets/apls_functions.R")
 
 <hr>
 
-::: panel-tabset
+::::: panel-tabset
 ## Description
 
 The American Psychology-Law Society confers Dissertation Awards for scientific research and scholarship that is relevant to the promotion of the interdisciplinary study of psychology and law. Students who complete dissertations involving basic or applied research in psychology and law, including its application to public policy, are encouraged to apply for these awards.
@@ -81,6 +81,8 @@ For more information, please contact the chair of the Dissertation Awards Commit
 +--------------+---------------------------+-------------------------------+------------------------------------+
 | Year         | 1st place                 | 2nd place                     | 3rd place                          |
 +==============+===========================+===============================+====================================+
+| 2025         | Laura M. Stevens          | Emily Weinberger              | Dilhan Töredi                      |
++--------------+---------------------------+-------------------------------+------------------------------------+
 | 2024         | Jacqueline Katzman        | Lauren Grove                  | Cassandra Flick                    |
 +--------------+---------------------------+-------------------------------+------------------------------------+
 | 2023         | Jesse Grabman             | Tamara de Beuf                | Breanne Wylie                      |
@@ -165,4 +167,4 @@ For more information, please contact the chair of the Dissertation Awards Commit
 +--------------+---------------------------+-------------------------------+------------------------------------+
 | 1983         | Sarah Tanford             | Edie Greene                   |                                    |
 +--------------+---------------------------+-------------------------------+------------------------------------+
-:::
+:::::
