@@ -17,7 +17,7 @@ source("../assets/apls_functions.R")
 
 content = rowwise_table(
   ~name, ~image, ~url, ~text,
-  "Christian Meisner", "presidents/img/christian_meissner.jpeg", "mailto:cameissn@iastate.edu", "President",
+  "Christian Meissner", "presidents/img/christian_meissner.jpeg", "mailto:cameissn@iastate.edu", "President",
   "Randy Salekin", "presidents/img/randy_salekin.jpeg", "mailto:rsalekin@ua.edu",
   "President Elect",
   "Daniel Murrie", "presidents/img/daniel_murrie.jpeg", "mailto:murrie@virginia.edu",
