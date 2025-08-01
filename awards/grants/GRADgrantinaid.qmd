@@ -15,7 +15,7 @@ submission-info:
 links:
 - icon: envelope-at
   name: Contact
-  url: "mailto:grantsinaid@apls.org"
+  url: "mailto:grantsinaid@ap-ls.org"
 - icon: send
   name: Apply here
   url: "https://awards.ap-ls.org/default.asp"
