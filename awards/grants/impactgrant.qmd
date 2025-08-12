@@ -12,7 +12,7 @@ submission-info:
 links:
 - icon: envelope-at
   name: Contact
-  url: "mailto:Colleen.berryessa@rutgers.edu"
+  url: "mailto:research@ap-ls.org"
 - icon: send
   name: Apply here
   url: "https://awards.ap-ls.org/default.asp"
@@ -39,20 +39,18 @@ Proposals may be submitted into one of two funding categories:
 
 
 ::: callout-tip
-Funding should primarily support research activities and data collection efforts. Support for research assistants and necessary travel may be requested, but should not constitute the majority of the requested funds. No funds can be used to support the salary of the principal investigator (PI) or co-PI. 
+Funding should primarily support research activities and data collection efforts. Support for research assistants and necessary travel may be requested, but should not constitute the majority of the requested funds. Applicants may request up to 100% of funds to cover faculty FTE in the form of a stipend. This means that salary support and fringe can be covered.
 
 Funds for successful proposals will be awarded to the PI's academic institution (via the institution's Office of Sponsored Research or Foundation). No institutional indirect cost recovery will be permitted, and proposals submitted for consideration by this program must not be submitted for consideration by other grant programs (including AP-LS programs). 
 
 Proposals submitted but not funded in previous funding cycles may be resubmitted, but all proposals will be evaluated as new proposals.
 :::
 ## Eligibility
-
-Applicants may submit only one small and one large proposal per funding cycle.
+Applicants may submit only one small and one large proposal per funding cycle. Each proposal must describe a unique project; you may not submit the same project as both a large and small proposal in the same cycle.
 
 A student cannot be a sole PI on any submission but are allowed to be a co-PI on a submission.
 
 At least one of the co-PIs needs to be an [AP-LS member](../../membership/index.qmd).
-
 
 ## Pre-Proposal Process
 
@@ -73,7 +71,7 @@ The prospectus should include four sections:
 Your pre-proposal submission should also include the PI/co-PI name, title and email address.
 :::
 
-Based on review of the pre-proposals, investigators will be notified by November 15 about whether they are invited to submit a full proposal application. Full proposal applications will be due by December 16 at 11:59 p.m. PST.
+Based on review of the pre-proposals, investigators will be notified by November 15 about whether they are invited to submit a full proposal application. Full proposal applications will be due by December 16, `r format(Sys.Date(), '%Y')` at 11:59 p.m. PST.
 
 ### Pre-proposal review criteria
 
@@ -97,7 +95,7 @@ Contribution to the research initiative: To what extent and in what ways does th
 
 ## Full proposal process
 
-For investigators invited to submit full proposal applications, full proposal applications are due by December 16, 2021 at 11:59pm PST.
+For investigators invited to submit full proposal applications, full proposal applications are due by December 16, `r format(Sys.Date(), '%Y')` at 11:59pm PST.
 
 <a class="btn btn-primary " href="https://awards.ap-ls.org/default.asp" role="button">Click to Apply</a>
 
@@ -117,8 +115,8 @@ For investigators invited to submit full proposal applications, full proposal ap
 
 7.  A statement of significant financial interest that discloses whether the researchers have significant financial interest in the outcome of the research proposal.
 
-All submitted proposals will be reviewed by the AP-LS Research Committee and selected proposals will be recommended for funding to the AP-LS Executive Committee. External (ad hoc) peer-review of proposals will be solicited to facilitate the review process. Awards will be made following the March AP-LS annual meeting.\
-\
+All submitted proposals will be reviewed by the AP-LS Research Committee and selected proposals will be recommended for funding to the AP-LS Executive Committee. External (ad hoc) peer-review of proposals will be solicited to facilitate the review process. Awards will be made following the March AP-LS annual meeting.
+
 PIs of funded projects are expected to submit annual and final reports to the AP-LS Research Committee Chair that details the activities, findings, and budget expenditures associated with the proposed research. PIs also will be asked to present their findings at the AP-LS annual meeting during a special poster session highlighting this research initiative; the PI or members of the collaborating research team may also submit a symposium or individual paper to be reviewed in accordance with the normal conference review process.
 
 ### Proposal review criteria
