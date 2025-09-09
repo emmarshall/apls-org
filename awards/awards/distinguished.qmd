@@ -60,7 +60,11 @@ Self-nominations will not be considered.
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
       <div class="accordion-body">  
-      
+      <strong>2025:</strong> Margaret Bull Kovera, Ph.D. <br>
+      <strong>2024:</strong> Roy Malpass, Ph.D. <br>
+      <strong>2023:</strong> Patricia A. Griffin and Ronald Fisher, Ph.D. <br>
+      <strong>2022:</strong> Linda A. Teplin <br>
+      <strong>2021:</strong> Randy K. Otto <br>
       <strong>2018:</strong> James Ogloff <br>
       <strong>2017:</strong> Michael Saks <br>
       <strong>2016:</strong> Kirk Heilbrun and Chris Slobogin <br>

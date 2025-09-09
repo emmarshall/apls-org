@@ -57,14 +57,14 @@ Self nominations are encouraged.
 #| label: Previous winners table 
 #| warning: false
 #| echo: false
-#| cache: true
+#| cache: false
 library(reactablefmtr)
 library(reactable)
 library(htmltools)
 library(dplyr)
 
 ##load data from csv not google drive
-
+#update
 data <- read.csv(file = "../data/book_awards.csv")
 
 data <- data |> 
@@ -99,11 +99,11 @@ winners_tbl <- reactable(
                             merged_position = "below",
                             size = 18,
                             color = "#1B3264")),
-    img = colDef(name = "",
-                 maxWidth = 125,
-                 align = "center",
-                 cell = embed_img(., height= 100, width = 75)
-                 ),
+    #img = colDef(name = "",
+     #            maxWidth = 125,
+     #            align = "center",
+     #            cell = embed_img(., height= 100, width = 75)
+     #            ),
     title = colDef(html = TRUE,
                    minWidth = 150,
                    align = "left",

@@ -72,6 +72,27 @@ Proposals will be reviewed by members of the AP-LS Undergraduate Paper Award Com
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
       <div class="accordion-body">
+      <h4>2024</h4>
+       <br> Katerine Aminot<br />
+        <br> Sydney Reuter<br />
+        <br> Emma Bergquist<br />
+<br />    
+      
+      <h4>2023</h4>
+       <br> Mackenzie Thomas<br />
+        <br> Abey Akinseye <br />
+        <br> Siham Hagi<br />
+<br />    
+       <h4>2022</h4>
+       <br> Alexandra Bammel<br />
+        <br> Jennifer Krentz<br />
+        <br> Justin Cho<br />
+<br />       
+       <h4>2021</h4>
+       <br>Marguerite Himmen<br />
+        <br>Kate Hussey<br />
+        <br>Krystal Lowe<br />
+<br />
        <h4>2020</h4>
        Lexi Bammel (advisor: Narina Nunez)
         <br>Jennifer Krentz (advisor: Tonia Nichols and Ron Roesch)

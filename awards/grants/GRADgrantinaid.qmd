@@ -33,21 +33,19 @@ source("../../assets/apls_functions.R")
 ## Eligibility
 The Division 41 Graduate Student Grants-in-Aid Committee is accepting proposals for small grants (maximum of $2,000) to support empirical graduate research that addresses psycholegal issues.
 
-This award is limited to graduate students who are  members of AP-LS. 
-
 -   Awards are limited to current graduate students who are active [Student Affiliate](../../membership/index.qmd) members of AP-LS.
 
--   Applicants may submit only one application (either AP-LS Grants in Aid for Graduate Students or Grant in Aid for Graduate Students MacArthur Award) per funding cycle.
+-   Applicants may submit only one application (either AP-LS Grants-in-Aid for Graduate Students or Grant-in-Aid for Graduate Students MacArthur Award) per funding cycle.
 
 -   Research projects identified in proposals should request funding needed to complete future or early active research projects. Proposed funding requests for reimbursement of past research expenses of completed projects are not eligible.
 
--   Research projects identified in proposals are required to have ACTIVE Institutional Review Board approval from the host research institution(s) before the submission deadline. Proof of ethical (IRB) approval must be submitted along with the proposal document for an application to be deemed complete and eligible for review by the Grants in Aid Committee. This IRB approval MUST contain a clear approval and expiration date, and the title and project description must match the proposal project. If the project is exempt, an expiration date is not required. Any proposed research project without notification of ethical approval before the submission deadline will be considered ineligible for the award.
+-   Research projects identified in proposals are required to have ACTIVE Institutional Review Board approval from the host research institution(s) BEFORE the submission deadline. Proof of ethical (IRB) approval must be submitted along with the proposal document for an application to be deemed complete and eligible for review by the Grants-in-Aid Committee. This IRB approval MUST contain a clear approval and expiration date, and the title and project description must match the proposal project. If the project is exempt, an expiration date is not required. Any proposed research project without notification of ethical approval before the submission deadline will be considered ineligible for the award.
 
 -   The maximum for any individual award is set at $2,000. Any requests for funding beyond $2,000 will not be considered. Proposed research projects with an anticipated budget of over $2,000 should identify within the proposal the plan for covering the remaining costs to demonstrate that the research is feasible.
 
 -   Applicants who previously submitted a Grant in Aid proposal that was not selected for funding are permitted to revise and resubmit their proposal for consideration during the next funding cycle.
 
--   Applicants who previously received Grants in Aid funding from the committee are eligible to apply for the award again to fund a new research project provided that the research from the previous award has been completed. Past award winners must include an abstract (200 words or fewer) in their proposal application that succinctly summarizes the previous research funded by the award. Funding may be prioritized for applicants who have not yet received the Grant in Aid in prior cycles.
+-   Applicants who previously received Grants-in-Aid funding from the committee are eligible to apply for the award again to fund a new research project provided that the research from the previous award has been completed. Past award winners must include an abstract (200 words or fewer) in their proposal application that succinctly summarizes the previous research funded by the award. Funding may be prioritized for applicants who have not yet received the Grant in Aid in prior cycles.
 
 ## How to Apply
 
@@ -100,7 +98,7 @@ The use of AI tools to generate the written grant proposal will be considered pl
 :::
 
 ## Proposal Review Criteria
-The Grants in Aid Committee will review and evaluate your project proposal based on the following criteria:
+The Grants-in-Aid Committee will review and evaluate your project proposal based on the following criteria:
 
 -   **Relevancy:** The proposed research clearly addresses practice, research, and/or public policy directly relevant to the field of psychology and law.
 

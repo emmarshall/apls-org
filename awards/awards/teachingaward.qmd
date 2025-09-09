@@ -18,20 +18,19 @@ links:
 knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
+
 <hr>
 
-::: panel-tabset
+::::: panel-tabset
 ## Description
 
 The American Psychology-Law Society confers an award for Outstanding Teaching and Mentoring in the Field of Psychology and Law to recognize teaching excellence in a variety of contexts.
 
 Every year Div. 41 (American Psychology-Law Society) confers two awards for Outstanding Teaching and Mentoring in the Field of Psychology and Law to recognize teaching excellence in a variety of contexts: Outstanding Teaching and Mentoring Award and the Early Career Teaching and Mentoring Award. The winner of the awards will be announced at the annual meeting of the American Psychology-Law Society.
 
-In even-numbered awarding years (e.g., applying in December 2025, receiving the
-award in March 2026), the award will be given to a teacher/mentor from a program/department that is undergraduate-only or MA-terminus (category 1).
+In even-numbered awarding years (e.g., applying in December 2025, receiving the award in March 2026), the award will be given to a teacher/mentor from a program/department that is undergraduate-only or MA-terminus (category 1).
 
-In odd-numbered awarding years applying in December 2026, receiving the award in
-March 2027), the award will be given to a teacher/mentor from a program/department that has taught/mentored doctoral and/or postdoctoral students (category 2) including: law schools, medical schools, and non-university positions such as hospitals, clinics or other organizations.
+In odd-numbered awarding years applying in December 2026, receiving the award in March 2027), the award will be given to a teacher/mentor from a program/department that has taught/mentored doctoral and/or postdoctoral students (category 2) including: law schools, medical schools, and non-university positions such as hospitals, clinics or other organizations.
 
 Recipients of the awards will receive \$500 and a plaque at the AP-LS conference.
 
@@ -73,30 +72,31 @@ The total nomination packages must be no more than 15 pages total.
 Self-nominations are encouraged.
 :::
 
-
 ## Past Recipients
 
-| Year   | Outstanding Teaching and Mentoring Award              | Early Career Award                |
+| Year | Outstanding Teaching and Mentoring Award | Early Career Award |
 |------------------------|------------------------|------------------------|
-| 2023   | Angela Evans (category 2)                             | Ashley Batastini (category 2)     |
-| 2022   | Dan Krauss (category 1)                               | Apryl Alexander (category 1)      |
-| 2021\* | Allison Redlick (category 2)                          | Anthony Perillo (category 2)      |
-| 2020   | Garrett Berman (category 1)                           | Nesa E. Wasarhaley (category 1)   |
-| 2019   | Eve M. Brank and Robert E. Cochrane (category 2)      | Cynthia J. Najdowski (category 2) |
-| 2018   | Jennifer L. Groscup (category 1)                      | Tess M.S. Neal (category 1)       |
-| 2017   | Monica K. Miller and Jennifer Robbennolt (category 2) |                                   |
-| 2016   | Matthew Huss (category 1)                             | Amanda Zelechoski (category 1)    |
-| 2015   | Jodi Quas (category 2)                                |                                   |
-| 2014   | Bradley D. McAuliff (category 1)                      |                                   |
-| 2013   | Roderick C.L. Lindsay (category 2)                    |                                   |
-| 2012   | Amye R. Warren (category 1)                           |                                   |
-| 2011   | Brian Bornstein (category 2)                          |                                   |
-| 2010   | Mark Costanzo (category 1)                            |                                   |
-| 2009   | Ronald Roesch (category 2)                            |                                   |
-| 2008   | Edie Greene (category 1)                              |                                   |
-| 2007   | N. Dickson Reppucci (category 2)                      |                                   |
-| 2006   | Bette Bottoms and Jim Ogloff                          |                                   |
-| 2005   | Bette Bottoms and Jim Ogloff                          |                                   |
-| 2004   | Margaret Bull Kovera                                  |                                   |
-| 1996   | Gail Goodman (First time awarded)                     |                                   |
-:::
+| 2025 | Jenni Cox (category 2) | Ashley Votruba (category 2) |
+| 2024 | Margaret Stevenson (category 1) | **Jeff Kukucka** (category 1) |
+| 2023 | Angela Evans (category 2) | Ashley Batastini (category 2) |
+| 2022 | Dan Krauss (category 1) | Apryl Alexander (category 1) |
+| 2021\* | Allison Redlick (category 2) | Anthony Perillo (category 2) |
+| 2020 | Garrett Berman (category 1) | Nesa E. Wasarhaley (category 1) |
+| 2019 | Eve M. Brank and Robert E. Cochrane (category 2) | Cynthia J. Najdowski (category 2) |
+| 2018 | Jennifer L. Groscup (category 1) | Tess M.S. Neal (category 1) |
+| 2017 | Monica K. Miller and Jennifer Robbennolt (category 2) |  |
+| 2016 | Matthew Huss (category 1) | Amanda Zelechoski (category 1) |
+| 2015 | Jodi Quas (category 2) |  |
+| 2014 | Bradley D. McAuliff (category 1) |  |
+| 2013 | Roderick C.L. Lindsay (category 2) |  |
+| 2012 | Amye R. Warren (category 1) |  |
+| 2011 | Brian Bornstein (category 2) |  |
+| 2010 | Mark Costanzo (category 1) |  |
+| 2009 | Ronald Roesch (category 2) |  |
+| 2008 | Edie Greene (category 1) |  |
+| 2007 | N. Dickson Reppucci (category 2) |  |
+| 2006 | Bette Bottoms and Jim Ogloff |  |
+| 2005 | Bette Bottoms and Jim Ogloff |  |
+| 2004 | Margaret Bull Kovera |  |
+| 1996 | Gail Goodman (First time awarded) |  |
+:::::
