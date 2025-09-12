@@ -211,11 +211,14 @@ Submission requirements have been modified to be more convenient. Specifically, 
 # Hotel Information {#hotel}
 
 ::: {.panel-tabset .box-shadow}
-## {{< fa hotel aria-hidden="true" >}} Sheraton Puerto Rico Resort & Casino
+## {{< fa hotel aria-hidden="true" >}} Peppermill Resort Spa Casino
 
 ![](https://images.bestwestern.com/bwi/brochures/29095/photos/1024/25995732.jpg){fig-align="center" fig-alt="Exterior view of the Peppermill Resort Spa Casino"}
 
-<center>[{{< fa map aria-hidden="true" >}} Plan your trip](https://www.worldhotels.com/content/luxury-hotels/en_US/book/hotels-in-reno/peppermill-resort-spa-casino/propertyCode.29095.html){.btn .btn-outline-primary role="button"} [{{< fa location-dot aria-hidden="true" >}} Map](https://maps.app.goo.gl/Fa5b26tUKbZRk8Eu5){.btn .btn-outline-primary role="button"}</center>
+<center>[{{< fa map aria-hidden="true" >}} Plan your trip](https://www.worldhotels.com/content/luxury-hotels/en_US/book/hotels-in-reno/peppermill-resort-spa-casino/propertyCode.29095.html){.btn .btn-outline-primary role="button"} [{{< fa location-dot aria-hidden="true" >}} Map](){.btn .btn-outline-primary role="button"}</center>
+
+::: vspace2
+:::
 
 The 2025 AP-LS Conference will be held at the [Peppermill Resort Spa Casino](https://www.worldhotels.com/content/luxury-hotels/en_US/book/hotels-in-reno/peppermill-resort-spa-casino/propertyCode.29095.html)
 :::
