@@ -1,10 +1,10 @@
 ---
-pagetitle: "2025 American Psychology-Law Society Conference" 
+pagetitle: "2026 American Psychology-Law Society Conference" 
 toc: false
 css: index.css
 editor: source
 description: | 
-  The annual conference for the American Psychology-Law Society for 2025 will be held in San Juan, PR from March 13-15.
+  The annual conference for the American Psychology-Law Society for 2026 will be held in Reno, NV from March 13-15.
 includesource: true
 ---
 
@@ -17,14 +17,14 @@ source("../assets/apls_functions.R")
 :::::: column-screen
 ::::: hero-banner
 :::: content-block
-# 2025 Annual Conference of the American Psychology-Law Society
+# 2026 Annual Conference of the American Psychology-Law Society
 
-### {{< fa location-dot aria-hidden="true" >}} San Juan, Puerto Rico
+### {{< fa location-dot aria-hidden="true" >}} Reno, Nevada \| Peppermill Resort Spa Casino
 
-### {{< fa calendar aria-hidden="true" >}} March 13-15, 2025
+### {{< fa calendar aria-hidden="true" >}} March 12-14, 2026
 
 ::: hero-buttons
-[Register](https://apls.memberclicks.net/2025aplsconferenceregistration#!/){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [Program](#schedule){.btn-action .btn .btn-secondary role="button"}
+[Submit a Proposal](https://ap-ls2026.exordo.com/login){#btn-guide .btn-action .btn-action .btn .btn-success role="button"} [Call for Proposals](#proposals){.btn-action .btn .btn-secondary role="button"}
 :::
 ::::
 :::::
@@ -39,10 +39,10 @@ source("../assets/apls_functions.R")
 
 content = rowwise_table(~name, ~icon, ~link,
   "General", "info-circle", "#info",             
-  "Program", "journal-text", "#schedule",
+  "Submissions", "send-exclamation", "#schedule",
   "Hotel", "airplane", "#hotel",
-  "Registration", "person-badge", "#register",  
-  "Preconference", "easel2", "#preconference"
+  #"Registration", "person-badge", "#register",  
+  "Archives", "journal-text", "archive/index.qmd"
 )
 div(class = "bg-light",
  div(class = "bg-breakout",
@@ -81,7 +81,7 @@ Looking forward to seeing everyone in March!
 
 <figcaption class="blockquote-footer">
 
-2025 AP-LS Conference Co-Chairs <cite title="Jenni Cox & Lori Hoetger Fendrick">Jenni Cox & Lori Hoetger Fendrick</cite>
+2026 AP-LS Conference Co-Chairs <cite title="Heath Hodges & Luna Filipović">Heath Hodges & Luna Filipović</cite>
 
 </figcaption>
 
@@ -90,7 +90,7 @@ Looking forward to seeing everyone in March!
 ::: {.panel-tabset .box-shadow}
 ## {{< fa circle-info aria-hidden="true" >}} Welcome!
 
-![](images/2025-pr-announcement.png)
+![](../images/2026_announcement.png)
 :::
 
 ::: vspace
@@ -109,178 +109,114 @@ Looking forward to seeing everyone in March!
 ::: vspace
 :::
 
-# Program & Schedule {#schedule}
+# Submissions {#proposals}
 
 ::: vspace
 :::
 
-::::::::::: simple-info-center
-::::::::::: {.panel-tabset .box-shadow}
-## {{< fa circle-info aria-hidden="true" >}} Overview
+:::::: {.panel-tabset .box-shadow}
+
+## {{< fa bullhorn aria-hidden="true" >}} Call for Proposals
 
 ::: vspace
 :::
 
-##### [2025 APLS ***Updated*** Program Grid]{.highlight} <br> is now available!
+::: simple-info-center
+[2026 Call for Proposals]{.plenary}
 
+[Annual Conference of the American Psychology-Law Society (AP-LS) <br> March 13-15, 2026 \| Reno, NV]{.event-time}
 
-[View Here {{< fa arrow-right aria-hidden="true" >}}](https://drive.google.com/file/d/1LXtPfLygnGnq-00vZum399eNNBZ123o2/view?usp=drive_link){.btn .btn-outline-primary role="button"} 
+[{{< fa file-pdf aria-hidden="true" >}} Download](https://drive.google.com/file/d/1dfeKFF9RjJhLQjGZVyi71ctT_B2cy53s/view?usp=sharing){.btn .btn-outline-primary role="button"}
 
-::: vspace
-:::
-
-:::::::::::
-:::::::::::
-
-::::::::::: simple-info
-# Hotel Information {#hotel}
-
-:::::::::: {.panel-tabset .box-shadow}
-## {{< fa hotel aria-hidden="true" >}} Sheraton Puerto Rico Resort & Casino
-
-::: vspace
 :::
 
 ::: session-description
-The 2025 AP-LS Conference will be held at the [Sheraton Puerto Rico Resort & Casino](https://www.marriott.com/en-us/hotels/sjusi-sheraton-puerto-rico-hotel-and-casino/overview/what-to-expect/)
+We invite proposal submissions for the 2026 Annual Conference of AP-LS. We strongly encourage empirically based proposals, proposals that involve new and emerging topics within psychology and law, and proposals that incorporate historically marginalized or underrepresented populations. Proposals will be evaluated through a blind review process focused on intellectual merit, innovation, novelty, and integration of multiple aspects of the field.
+
+**Special Consideration for Artificial Intelligence (AI) Submissions**
+
+Special consideration will be given to proposals regarding the use of Artificial Intelligence (AI) in psychology and law. AI is defined as technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision making, creativity, and autonomy. We are particularly interested in empirical studies addressing machine models, deep learning models, and large learning models (LLMs).
 :::
 
-![](https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/38/ab/9e/hotel-exterior.jpg?w=1200&h=-1&s=1){fig-align="center" fig-alt="Exterior view of the Sheraton"}
+<center>
+
+All proposals must be submitted on the conference website by <br> [Wednesday, October 15, 2025, 11:59 pm PST]{.session-time}
+
+Visit the Ex Ordo portal to register, submit your proposals, AND sign up as a reviewer!
+
+[{{< fa user-plus aria-hidden="true" >}} Register here](https://ap-ls2026.exordo.com/login){.btn .btn-outline-primary role="button"}
+
+</center>
+
+> If you have any questions or comments about the conference, please contact the conference co-chairs at [conference\@ap-ls.org](mailto:conference@ap-ls.org) </br></br> *2026 AP-LS Conference Co-Chairs* <br> Heath Hodges & Luna Filipović
+
+## Proposal Types & Submission Requirements
+
+[Proposal Types & Submission Requirements]{.plenary}
+
+::: callout-note
+Submission requirements have been modified to be more convenient. Specifically, the 1,000-word summary requirement has been omitted for all submissions, except Symposia. In lieu of this, the word count for abstracts is a slightly larger (i.e., 400-500 words).
+:::
 
 ::: vspace
 :::
 
-[Conference Rates]{.plenary}
+[Symposia]{.plenary}
 
-::::: session-description
-The Sheraton Puerto Rico Resort and Casino has been **sold out**. Another room block as been added at the nearby Courtyard San Juan Miramar
-
-Courtyard San Juan Miramar <br> 
-{{< fa credit-card aria-hidden="true" >}} 229.00 USD per night ($17 destination fee + 9% Government Tax additional)
-
-Available Sunday March 9th through Wednesday March 19th.
-Special Rate only available through Monday February 17th. 
-
-::: hero-buttons
-[{{< fa bell-concierge aria-hidden="true" >}} Book a Room](https://www.marriott.com/event-reservations/reservation-link.mi?id=1710272897155&key=GRP&app=resvlink){.btn-action .btn .btn-info .ml-auto role="button"} [{{< fa hotel aria-hidden="true" >}} Website](https://maps.app.goo.gl/Fa5b26tUKbZRk8Eu5){.btn-action .btn .btn-dark .ml-auto role="button"}
+::: session-description
+**Symposia:** A 60-to-80-minute session with multiple presentations (i.e., papers) focused on a single topic. This includes an independent discussant/chair and a minimum of 3 papers and no more than 5 papers. 
 :::
 
-::: callout-tip
-Attendees must book their room by **February 17th, 2025** to take advantage of the special rate!
-:::
-:::::
+[Papers]{.plenary}
 
-::: vspace
-:::
-::::::::::
-:::::::::::
-
-<hr>
-
-::: vspace
+::: session-description
+**Papers:** A paper is a presentation describing an individual research topic or piece of legal scholarship. Accepted papers are clustered into 60-minute sessions, with 3-4 papers in each session. Whenever possible, papers are organized into themed sessions. 
 :::
 
-# Registration {#register}
+[Data-blitz]{.plenary}
 
-:::::: simple-info-center
-:::::: {.panel-tabset .box-shadow}
-## {{< fa bullhorn >}} Info
+::: session-description
+**Data-blitz:** A data-blitz is face-paced, 5-minute presentation (limited to 3 PowerPoint slides) covering a bite-sized piece of emerging psycho-legal research. Accepted proposals are clustered into 60-minute sessions, with approximately 10 data-blitz es in each session. Whenever possible, data-blitzes are loosely organized by topic.<br>
+:::
 
-#### {{< fa id-badge aria-hidden="true" >}} Online registration is ***now*** open!
+[Posters]{.plenary}
+
+::: session-description
+**Posters:** A poster is a concise, visual summary of research or legal scholarship that is displayed on a large poster board (e.g., 4’ x 6’). Accepted posters are presented during one of two evening poster sessions, typically Friday and Saturday evening, during the conference. They are not organized by topic. While not required, we encourage presenters to adhere to the [APA Convention Poster Instructions](https://convention.apa.org/presenters/posters), including the use of the [Better Poster format](https://convention.apa.org/blog/rethinking-the-science-poster).
+
+:::
 
 ::: vspace
 :::
 
-[Click Here {{< fa arrow-right-long aria-hidden="true" >}} ](https://apls.memberclicks.net/2025aplsconferenceregistration#!/){.btn .btn-outline-primary .ml-auto role="button"} 
+## Call for Reviewers
 
-::: vspace
+[Call for Reviewers]{.plenary}
+
+::: session-description
+**Posters:**  Reviewers, including professional and graduate student reviewers, are invited for all content areas. Proposals will be distributed for review in late October. Reviews will be due in late November, prior to Thanksgiving.
 :::
 
-## {{< fa circle-info >}} Pricing
-
-::: {.callout-note appearance="simple"}
-## REGISTRATION RATES & INCLUSIONS
-
-\*Rates based on 2024 and may be subject to change
-
-+-----------------------------------------+-----------------+------------+
-| Status                                  | Early Bird\     | Regular\   |
-|                                         | (before Jan 31) | (on Feb 1) |
-+:========================================+:================+:===========+
-| Full Member                             | \$345           | \$380      |
-+-----------------------------------------+-----------------+------------+
-| Early Career Professional Member        | \$240           | \$270      |
-+-----------------------------------------+-----------------+------------+
-| Student Member                          | \$90            | \$125      |
-+-----------------------------------------+-----------------+------------+
-| Student Member *First-Author Presenter* | \$70            | \$70       |
-+-----------------------------------------+-----------------+------------+
-| Student Non-member                      | \$170           | \$210      |
-+-----------------------------------------+-----------------+------------+
-| Non-member                              | \$490           | \$575      |
-+-----------------------------------------+-----------------+------------+
-:::
 ::::::
-:::::::
-
-<hr>
 
 ::: vspace
 :::
 
-# Preconference Workshops {#preconference}
 
-:::::: simple-info-center
-::::: {.panel-tabset .box-shadow}
-## {{< fa bullhorn aria-hidden="true" >}} Info
-
-##### [{{< fa calendar aria-hidden="true" >}} Wednesday, March 12, 2025]{.highlight}
-
-[*Attendees will have the ability to register for the pre conference workshops with their conference registration*]{.session-chair}
-
-[Learn More {{< fa arrow-right-long aria-hidden="true" >}} ](preconference/index.qmd){.btn .btn-outline-primary .ml-auto role="button"} 
 
 ::: vspace
 :::
 
-## {{< fa circle-info >}} Pricing
+:::: simple-info
+# Hotel Information {#hotel}
 
-::: {.callout-note appearance="simple"}
-## REGISTRATION RATES & INCLUSIONS
+::: {.panel-tabset .box-shadow}
+## {{< fa hotel aria-hidden="true" >}} Sheraton Puerto Rico Resort & Casino
 
-\*Rates based on 2024 and may be subject to change
+![](https://images.bestwestern.com/bwi/brochures/29095/photos/1024/25995732.jpg){fig-align="center" fig-alt="Exterior view of the Peppermill Resort Spa Casino"}
 
-### Full-Day Workshop Rates
+<center>[{{< fa map aria-hidden="true" >}} Plan your trip](https://www.worldhotels.com/content/luxury-hotels/en_US/book/hotels-in-reno/peppermill-resort-spa-casino/propertyCode.29095.html){.btn .btn-outline-primary role="button"} [{{< fa location-dot aria-hidden="true" >}} Map](https://maps.app.goo.gl/Fa5b26tUKbZRk8Eu5){.btn .btn-outline-primary role="button"}</center>
 
-+--------------------+-----------------+----------------+
-| Status             | Early Bird\     | Regular\       |
-|                    | (before Jan 31) | (on Feb 1)     |
-+:===================+:================+:===============+
-| Member             | \$200           | \$230          |
-+--------------------+-----------------+----------------+
-| Non-Member         | \$250           | \$280          |
-+--------------------+-----------------+----------------+
-| Student Member     | \$80            | \$100          |
-+--------------------+-----------------+----------------+
-| Student Non-member | \$100           | \$120          |
-+--------------------+-----------------+----------------+
-|                    |                 |                |
-+--------------------+-----------------+----------------+
-
-### Half-Day Workshop Rates
-
-+--------------------+-----------------+----------------+
-| Status             | Early Bird\     | Regular\       |
-|                    | (before Jan 31) | (on Feb 1)     |
-+:===================+:================+:===============+
-| Member             | \$100           | \$115          |
-+--------------------+-----------------+----------------+
-| Non-Member         | \$125           | \$140          |
-+--------------------+-----------------+----------------+
-| Student Member     | \$40            | \$50           |
-+--------------------+-----------------+----------------+
-| Student Non-member | \$50            | \$60           |
-+--------------------+-----------------+----------------+
+The 2025 AP-LS Conference will be held at the [Peppermill Resort Spa Casino](https://www.worldhotels.com/content/luxury-hotels/en_US/book/hotels-in-reno/peppermill-resort-spa-casino/propertyCode.29095.html)
 :::
-:::::
-::::::
+::::

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<meta name="generator" content="quarto-1.7.33">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -33,17 +33,20 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../assets/favicon_io/favicon.ico" rel="icon">
 <script src="../../site_libs/quarto-listing/list.min.js"></script>
 <script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-2d5703bb679253c8117388b98209fdfc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-0905b95e576ebf2231e73413a83da1af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-2d5703bb679253c8117388b98209fdfc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -171,7 +174,169 @@ window.Quarto = {
 <link rel="stylesheet" href="../../assets/styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -256,7 +421,7 @@ window.Quarto = {
  <span class="dropdown-text">2025 AP-LS Conference</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../conferences/archive/index.html">
+    <a class="dropdown-item" href="../../conferences/archive/index.qmd">
  <span class="dropdown-text">Past Conferences</span></a>
   </li>  
     </ul>
@@ -316,6 +481,7 @@ window.Quarto = {
 
 
 
+
 <section id="ap-ls-monthly-e-news" class="level2">
 <h2 class="anchored" data-anchor-id="ap-ls-monthly-e-news">AP-LS Monthly E-News</h2>
 <div id="listing-monthly" class="quarto-listing quarto-listing-container-grid">
@@ -331,8 +497,7 @@ window.Quarto = {
 December 2024
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="1" data-listing-date-sort="1730437200000" data-listing-file-modified-sort="1746729671589" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2024/nov2024/index.html" class="quarto-grid-link">
@@ -345,8 +510,7 @@ December 2024
 November 2024
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="2" data-listing-date-sort="1727758800000" data-listing-file-modified-sort="1746729671597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2024/oct2024/index.html" class="quarto-grid-link">
@@ -359,8 +523,7 @@ November 2024
 October 2024
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="3" data-listing-date-sort="1725166800000" data-listing-file-modified-sort="1746729671602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2024/sep2024/index.html" class="quarto-grid-link">
@@ -373,8 +536,7 @@ October 2024
 September 2024
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="4" data-listing-date-sort="1722488400000" data-listing-file-modified-sort="1746729671562" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2024/aug2024/index.html" class="quarto-grid-link">
@@ -387,8 +549,7 @@ September 2024
 August 2024
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="5" data-listing-date-sort="1719810000000" data-listing-file-modified-sort="1746729671575" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2024/jul2024/index.html" class="quarto-grid-link">
@@ -401,8 +562,7 @@ August 2024
 July 2024
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="6" data-listing-date-sort="1717218000000" data-listing-file-modified-sort="1746729671575" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2024/jun2024/index.html" class="quarto-grid-link">
@@ -415,8 +575,7 @@ July 2024
 June 2024
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="7" data-listing-date-sort="1714539600000" data-listing-file-modified-sort="1746729671587" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2024/may2024/index.html" class="quarto-grid-link">
@@ -429,8 +588,7 @@ June 2024
 May 2024
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="8" data-listing-date-sort="1711947600000" data-listing-file-modified-sort="1746729671548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2024/apr2024/index.html" class="quarto-grid-link">
@@ -443,8 +601,7 @@ May 2024
 April 2024
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="9" data-listing-date-sort="1709272800000" data-listing-file-modified-sort="1746729671580" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2024/mar2024/index.html" class="quarto-grid-link">
@@ -457,8 +614,7 @@ April 2024
 March 2024
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="10" data-listing-date-sort="1706767200000" data-listing-file-modified-sort="1746729671571" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2024/feb2024/index.html" class="quarto-grid-link">
@@ -471,8 +627,7 @@ March 2024
 February 2024
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="11" data-listing-date-sort="1704088800000" data-listing-file-modified-sort="1746729671571" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2024/jan2024/index.html" class="quarto-grid-link">
@@ -485,8 +640,7 @@ February 2024
 January 2024
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="12" data-listing-date-sort="1701410400000" data-listing-file-modified-sort="1746729671359" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2023/dec2023/index.html" class="quarto-grid-link">
@@ -499,8 +653,7 @@ January 2024
 December 2023
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="13" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1746729671467" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2023/nov2023/index.html" class="quarto-grid-link">
@@ -513,8 +666,7 @@ December 2023
 November 2023
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="14" data-listing-date-sort="1696136400000" data-listing-file-modified-sort="1746729671474" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2023/oct2023/index.html" class="quarto-grid-link">
@@ -527,8 +679,7 @@ November 2023
 October 2023
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="15" data-listing-date-sort="1693544400000" data-listing-file-modified-sort="1746729671484" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2023/sep2023/index.html" class="quarto-grid-link">
@@ -541,8 +692,7 @@ October 2023
 September 2023
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="16" data-listing-date-sort="1690866000000" data-listing-file-modified-sort="1746729671355" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2023/aug2023/index.html" class="quarto-grid-link">
@@ -555,8 +705,7 @@ September 2023
 August 2023
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="17" data-listing-date-sort="1688187600000" data-listing-file-modified-sort="1746729671397" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2023/july2023/index.html" class="quarto-grid-link">
@@ -569,8 +718,7 @@ August 2023
 July 2023
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="18" data-listing-date-sort="1685595600000" data-listing-file-modified-sort="1746729671423" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2023/june2023/index.html" class="quarto-grid-link">
@@ -583,8 +731,7 @@ July 2023
 June 2023
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="19" data-listing-date-sort="1682917200000" data-listing-file-modified-sort="1746729671458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2023/may2023/index.html" class="quarto-grid-link">
@@ -597,8 +744,7 @@ June 2023
 May 2023
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="20" data-listing-date-sort="1680325200000" data-listing-file-modified-sort="1746729671342" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2023/apr2023/index.html" class="quarto-grid-link">
@@ -611,8 +757,7 @@ May 2023
 April 2023
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="21" data-listing-date-sort="1677650400000" data-listing-file-modified-sort="1746729671447" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2023/march2023/index.html" class="quarto-grid-link">
@@ -625,10 +770,9 @@ April 2023
 March 2023
 </h5>
 </div>
+</div></a>
 </div>
-</a>
-</div>
-<div class="g-col-1" data-index="22" data-categories="Career Corner,Research Briefs,Legal Update" data-listing-date-sort="1675231200000" data-listing-file-modified-sort="1746729671366" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="g-col-1" data-index="22" data-categories="Q2FyZWVyJTIwQ29ybmVyJTJDUmVzZWFyY2glMjBCcmllZnMlMkNMZWdhbCUyMFVwZGF0ZQ==" data-listing-date-sort="1675231200000" data-listing-file-modified-sort="1746729671366" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2023/feb2023/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -639,8 +783,7 @@ March 2023
 February 2023
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="23" data-listing-date-sort="1672552800000" data-listing-file-modified-sort="1746729671379" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2023/jan2023/index.html" class="quarto-grid-link">
@@ -653,8 +796,7 @@ February 2023
 January 2023
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="24" data-listing-date-sort="1669874400000" data-listing-file-modified-sort="1746729671290" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
 <a href="../../resources/newsletter/e-news/2022/dec2022/index.html" class="quarto-grid-link">
@@ -667,8 +809,7 @@ January 2023
 December 2022
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="25" data-listing-date-sort="1667278800000" data-listing-file-modified-sort="1746729671319" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2022/nov2022/index.html" class="quarto-grid-link">
@@ -681,8 +822,7 @@ December 2022
 November 2022
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="26" data-listing-date-sort="1664600400000" data-listing-file-modified-sort="1746729671332" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2022/oct2022/index.html" class="quarto-grid-link">
@@ -695,8 +835,7 @@ November 2022
 October 2022
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="27" data-listing-date-sort="1662008400000" data-listing-file-modified-sort="1746729671333" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2022/sep2022/index.html" class="quarto-grid-link">
@@ -709,10 +848,9 @@ October 2022
 September 2022
 </h5>
 </div>
+</div></a>
 </div>
-</a>
-</div>
-<div class="g-col-1" data-index="28" data-categories="Career Corner" data-listing-date-sort="1659330000000" data-listing-file-modified-sort="1746729671286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<div class="g-col-1" data-index="28" data-categories="Q2FyZWVyJTIwQ29ybmVy" data-listing-date-sort="1659330000000" data-listing-file-modified-sort="1746729671286" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
 <a href="../../resources/newsletter/e-news/2022/aug2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -723,8 +861,7 @@ September 2022
 August 2022
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="29" data-listing-date-sort="1656651600000" data-listing-file-modified-sort="1746729671311" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
 <a href="../../resources/newsletter/e-news/2022/july2022/index.html" class="quarto-grid-link">
@@ -737,8 +874,7 @@ August 2022
 July 2022
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="30" data-listing-date-sort="1654059600000" data-listing-file-modified-sort="1746729671311" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
 <a href="../../resources/newsletter/e-news/2022/june2022/index.html" class="quarto-grid-link">
@@ -751,10 +887,9 @@ July 2022
 June 2022
 </h5>
 </div>
+</div></a>
 </div>
-</a>
-</div>
-<div class="g-col-1" data-index="31" data-categories="Research Briefs,Career Corner" data-listing-date-sort="1651381200000" data-listing-file-modified-sort="1746729671312" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="g-col-1" data-index="31" data-categories="UmVzZWFyY2glMjBCcmllZnMlMkNDYXJlZXIlMjBDb3JuZXI=" data-listing-date-sort="1651381200000" data-listing-file-modified-sort="1746729671312" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2022/may2022/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -765,8 +900,7 @@ June 2022
 May 2022
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="32" data-listing-date-sort="1648789200000" data-listing-file-modified-sort="1746729671281" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2022/apr2022/index.html" class="quarto-grid-link">
@@ -779,8 +913,7 @@ May 2022
 April 2022
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="33" data-listing-date-sort="1643695200000" data-listing-file-modified-sort="1746729671291" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
 <a href="../../resources/newsletter/e-news/2022/feb2022/index.html" class="quarto-grid-link">
@@ -793,8 +926,7 @@ April 2022
 February 2022
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="34" data-listing-date-sort="1638338400000" data-listing-file-modified-sort="1746729671275" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2021/dec2021/index.html" class="quarto-grid-link">
@@ -807,10 +939,9 @@ February 2022
 December 2021
 </h5>
 </div>
+</div></a>
 </div>
-</a>
-</div>
-<div class="g-col-1" data-index="35" data-categories="Career Corner" data-listing-date-sort="1635742800000" data-listing-file-modified-sort="1746729671279" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="g-col-1" data-index="35" data-categories="Q2FyZWVyJTIwQ29ybmVy" data-listing-date-sort="1635742800000" data-listing-file-modified-sort="1746729671279" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2021/nov2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -821,8 +952,7 @@ December 2021
 November 2021
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="36" data-listing-date-sort="1633064400000" data-listing-file-modified-sort="1746729671279" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2021/oct2021/index.html" class="quarto-grid-link">
@@ -835,8 +965,7 @@ November 2021
 October 2021
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="37" data-listing-date-sort="1630472400000" data-listing-file-modified-sort="1746729671280" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2021/sep2021/index.html" class="quarto-grid-link">
@@ -849,8 +978,7 @@ October 2021
 September 2021
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="38" data-listing-date-sort="1627794000000" data-listing-file-modified-sort="1746729671274" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2021/aug2021/index.html" class="quarto-grid-link">
@@ -863,8 +991,7 @@ September 2021
 August 2021
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="39" data-listing-date-sort="1625115600000" data-listing-file-modified-sort="1746729671276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2021/july2021/index.html" class="quarto-grid-link">
@@ -877,8 +1004,7 @@ August 2021
 July 2021
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="40" data-listing-date-sort="1622523600000" data-listing-file-modified-sort="1746729671278" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2021/june2021/index.html" class="quarto-grid-link">
@@ -891,10 +1017,9 @@ July 2021
 June 2021
 </h5>
 </div>
+</div></a>
 </div>
-</a>
-</div>
-<div class="g-col-1" data-index="41" data-categories="Research Briefs" data-listing-date-sort="1619845200000" data-listing-file-modified-sort="1746729671279" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="g-col-1" data-index="41" data-categories="UmVzZWFyY2glMjBCcmllZnM=" data-listing-date-sort="1619845200000" data-listing-file-modified-sort="1746729671279" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2021/may2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -905,8 +1030,7 @@ June 2021
 May 2021
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="42" data-listing-date-sort="1617253200000" data-listing-file-modified-sort="1746729671273" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2021/apr2021/index.html" class="quarto-grid-link">
@@ -919,8 +1043,7 @@ May 2021
 April 2022
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="43" data-listing-date-sort="1614578400000" data-listing-file-modified-sort="1746729671278" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2021/mar2021/index.html" class="quarto-grid-link">
@@ -933,10 +1056,9 @@ April 2022
 March 2021
 </h5>
 </div>
+</div></a>
 </div>
-</a>
-</div>
-<div class="g-col-1" data-index="44" data-categories="Legal Updates" data-listing-date-sort="1612159200000" data-listing-file-modified-sort="1746729671275" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="g-col-1" data-index="44" data-categories="TGVnYWwlMjBVcGRhdGVz" data-listing-date-sort="1612159200000" data-listing-file-modified-sort="1746729671275" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2021/feb2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -947,10 +1069,9 @@ March 2021
 February 2021
 </h5>
 </div>
+</div></a>
 </div>
-</a>
-</div>
-<div class="g-col-1" data-index="45" data-categories="Research Briefs" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1746729671276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+<div class="g-col-1" data-index="45" data-categories="UmVzZWFyY2glMjBCcmllZnM=" data-listing-date-sort="1609480800000" data-listing-file-modified-sort="1746729671276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
 <a href="../../resources/newsletter/e-news/2021/jan2021/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -961,13 +1082,10 @@ February 2021
 January 2021
 </h5>
 </div>
+</div></a>
 </div>
-</a>
 </div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 <nav id="monthly-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
@@ -988,8 +1106,7 @@ No matching items
 Summer 2017
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="1" data-listing-date-sort="1483250400000">
 <a href="apls-news/winter2017/winter2017.pdf" class="quarto-grid-link">
@@ -1002,8 +1119,7 @@ Summer 2017
 Winter 2017
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="2" data-listing-date-sort="1475298000000">
 <a href="apls-news/fall2016/fall2016.pdf" class="quarto-grid-link">
@@ -1016,8 +1132,7 @@ Winter 2017
 Fall 2016
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="3" data-listing-date-sort="1467349200000">
 <a href="apls-news/summer2016/summer2016.pdf" class="quarto-grid-link">
@@ -1030,8 +1145,7 @@ Fall 2016
 Summer 2016
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="4" data-listing-date-sort="1443675600000">
 <a href="apls-news/fall2015/fall2015.pdf" class="quarto-grid-link">
@@ -1044,8 +1158,7 @@ Summer 2016
 Fall 2015
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="5" data-listing-date-sort="1435726800000">
 <a href="apls-news/summer2015/summer2015.pdf" class="quarto-grid-link">
@@ -1058,8 +1171,7 @@ Fall 2015
 Summer 2015
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="6" data-listing-date-sort="1420092000000">
 <a href="apls-news/winter2015/winter2015.pdf" class="quarto-grid-link">
@@ -1072,8 +1184,7 @@ Summer 2015
 Winter 2015
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="7" data-listing-date-sort="1412139600000">
 <a href="apls-news/fall2014/fall2014.pdf" class="quarto-grid-link">
@@ -1086,8 +1197,7 @@ Winter 2015
 Fall 2014
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="8" data-listing-date-sort="1404190800000">
 <a href="apls-news/summer2014/summer2014.pdf" class="quarto-grid-link">
@@ -1100,8 +1210,7 @@ Fall 2014
 Summer 2014
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="9" data-listing-date-sort="1388556000000">
 <a href="apls-news/winter2014/winter2014.pdf" class="quarto-grid-link">
@@ -1114,8 +1223,7 @@ Summer 2014
 Winter 2014
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="10" data-listing-date-sort="1309496400000">
 <a href="apls-news/summer2011/summer2011.pdf" class="quarto-grid-link">
@@ -1128,8 +1236,7 @@ Winter 2014
 Summer 2011
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="11" data-listing-date-sort="1293861600000">
 <a href="apls-news/winter2011/winter2011.pdf" class="quarto-grid-link">
@@ -1142,8 +1249,7 @@ Summer 2011
 Winter 2011
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="12" data-listing-date-sort="1285909200000">
 <a href="apls-news/fall2010/fall2010.pdf" class="quarto-grid-link">
@@ -1156,8 +1262,7 @@ Winter 2011
 Fall 2010
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="13" data-listing-date-sort="1277960400000">
 <a href="apls-news/summer2010/summer2010.pdf" class="quarto-grid-link">
@@ -1170,8 +1275,7 @@ Fall 2010
 Summer 2010
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="14" data-listing-date-sort="1262325600000">
 <a href="apls-news/winter2010/winter2010.pdf" class="quarto-grid-link">
@@ -1184,8 +1288,7 @@ Summer 2010
 Winter 2010
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="15" data-listing-date-sort="1254373200000">
 <a href="apls-news/fall2009/fall2009.pdf" class="quarto-grid-link">
@@ -1198,8 +1301,7 @@ Winter 2010
 Fall 2009
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="16" data-listing-date-sort="1246424400000">
 <a href="apls-news/summer2009/summer2009.pdf" class="quarto-grid-link">
@@ -1212,8 +1314,7 @@ Fall 2009
 Summer 2009
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="17" data-listing-date-sort="1230789600000">
 <a href="apls-news/winter2009/winter2009.pdf" class="quarto-grid-link">
@@ -1226,8 +1327,7 @@ Summer 2009
 Winter 2009
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="18" data-listing-date-sort="1222837200000">
 <a href="apls-news/fall2008/fall2008.pdf" class="quarto-grid-link">
@@ -1240,8 +1340,7 @@ Winter 2009
 Fall 2008
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="19" data-listing-date-sort="1214888400000">
 <a href="apls-news/summer2008/summer2008.pdf" class="quarto-grid-link">
@@ -1254,8 +1353,7 @@ Fall 2008
 Summer 2008
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="20" data-listing-date-sort="1199167200000">
 <a href="apls-news/winter2008/winter2008.pdf" class="quarto-grid-link">
@@ -1268,8 +1366,7 @@ Summer 2008
 Winter 2008
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="21" data-listing-date-sort="1191214800000">
 <a href="apls-news/fall2007/fall2007.pdf" class="quarto-grid-link">
@@ -1282,8 +1379,7 @@ Winter 2008
 Fall 2007
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="22" data-listing-date-sort="1183266000000">
 <a href="apls-news/summer2007/summer2007.pdf" class="quarto-grid-link">
@@ -1296,8 +1392,7 @@ Fall 2007
 Summer 2007
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="23" data-listing-date-sort="1167631200000">
 <a href="apls-news/winter2007/winter2007.pdf" class="quarto-grid-link">
@@ -1310,8 +1405,7 @@ Summer 2007
 Winter 2007
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="24" data-listing-date-sort="1159678800000">
 <a href="apls-news/fall2006/fall2006.pdf" class="quarto-grid-link">
@@ -1324,8 +1418,7 @@ Winter 2007
 Fall 2006
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="25" data-listing-date-sort="1151730000000">
 <a href="apls-news/summer2006/summer2006.pdf" class="quarto-grid-link">
@@ -1338,8 +1431,7 @@ Fall 2006
 Summer 2006
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="26" data-listing-date-sort="1136095200000">
 <a href="apls-news/winter2006/winter2006.pdf" class="quarto-grid-link">
@@ -1352,8 +1444,7 @@ Summer 2006
 Winter 2006
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="27" data-listing-date-sort="1128142800000">
 <a href="apls-news/fall2005/fall2005.pdf" class="quarto-grid-link">
@@ -1366,8 +1457,7 @@ Winter 2006
 Fall 2005
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="28" data-listing-date-sort="1120194000000">
 <a href="apls-news/summer2005/summer2005.pdf" class="quarto-grid-link">
@@ -1380,8 +1470,7 @@ Fall 2005
 Summer 2005
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="29" data-listing-date-sort="1104559200000">
 <a href="apls-news/winter2005/winter2005.pdf" class="quarto-grid-link">
@@ -1394,8 +1483,7 @@ Summer 2005
 Winter 2005
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="30" data-listing-date-sort="1096606800000">
 <a href="apls-news/fall2004/fall2004.pdf" class="quarto-grid-link">
@@ -1408,8 +1496,7 @@ Winter 2005
 Fall 2004
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="31" data-listing-date-sort="1088658000000">
 <a href="apls-news/summer2004/summer2004.pdf" class="quarto-grid-link">
@@ -1422,8 +1509,7 @@ Fall 2004
 Summer 2004
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="32" data-listing-date-sort="1072936800000">
 <a href="apls-news/winter2004/winter2004.pdf" class="quarto-grid-link">
@@ -1436,8 +1522,7 @@ Summer 2004
 Winter 2004
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="33" data-listing-date-sort="1064984400000">
 <a href="apls-news/fall2003/fall2003.pdf" class="quarto-grid-link">
@@ -1450,8 +1535,7 @@ Winter 2004
 Fall 2003
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="34" data-listing-date-sort="1057035600000">
 <a href="apls-news/summer2003/summer2003.pdf" class="quarto-grid-link">
@@ -1464,8 +1548,7 @@ Fall 2003
 Summer 2003
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="35" data-listing-date-sort="1041400800000">
 <a href="apls-news/winter2003/winter2003.pdf" class="quarto-grid-link">
@@ -1478,8 +1561,7 @@ Summer 2003
 Winter 2003
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="36" data-listing-date-sort="1033448400000">
 <a href="apls-news/fall2002/fall2002.pdf" class="quarto-grid-link">
@@ -1492,8 +1574,7 @@ Winter 2003
 Fall 2002
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="37" data-listing-date-sort="1017640800000">
 <a href="apls-news/spring2002/spring2002.pdf" class="quarto-grid-link">
@@ -1506,8 +1587,7 @@ Fall 2002
 Spring 2002
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="38" data-listing-date-sort="1009864800000">
 <a href="apls-news/winter2002/winter2002.pdf" class="quarto-grid-link">
@@ -1520,8 +1600,7 @@ Spring 2002
 Winter 2002
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="39" data-listing-date-sort="1001912400000">
 <a href="apls-news/fall2001/fall2001.pdf" class="quarto-grid-link">
@@ -1534,8 +1613,7 @@ Winter 2002
 Fall 2001
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="40" data-listing-date-sort="986104800000">
 <a href="apls-news/spring2001/spring2001.pdf" class="quarto-grid-link">
@@ -1548,8 +1626,7 @@ Fall 2001
 Spring 2001
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="41" data-listing-date-sort="978328800000">
 <a href="apls-news/winter2001/winter2001.pdf" class="quarto-grid-link">
@@ -1562,8 +1639,7 @@ Spring 2001
 Winter 2001
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="42" data-listing-date-sort="970376400000">
 <a href="apls-news/fall2000/fall2000.pdf" class="quarto-grid-link">
@@ -1576,8 +1652,7 @@ Winter 2001
 Fall 2000
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="43" data-listing-date-sort="954568800000">
 <a href="apls-news/spring2000/spring2000.pdf" class="quarto-grid-link">
@@ -1590,8 +1665,7 @@ Fall 2000
 Spring 2000
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="44" data-listing-date-sort="946706400000">
 <a href="apls-news/winter2000/winter2000.pdf" class="quarto-grid-link">
@@ -1604,8 +1678,7 @@ Spring 2000
 Winter 2000
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="45" data-listing-date-sort="938754000000">
 <a href="apls-news/fall1999/fall1999.pdf" class="quarto-grid-link">
@@ -1618,8 +1691,7 @@ Winter 2000
 Fall 1999
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="46" data-listing-date-sort="922946400000">
 <a href="apls-news/spring1999/spring1999.pdf" class="quarto-grid-link">
@@ -1632,8 +1704,7 @@ Fall 1999
 Spring 1999
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="47" data-listing-date-sort="907218000000">
 <a href="apls-news/fall1998/fall1998.pdf" class="quarto-grid-link">
@@ -1646,8 +1717,7 @@ Spring 1999
 Fall 1998
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="48" data-listing-date-sort="891410400000">
 <a href="apls-news/spring1998/spring1998.pdf" class="quarto-grid-link">
@@ -1660,8 +1730,7 @@ Fall 1998
 Spring 1998
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="49" data-listing-date-sort="883634400000">
 <a href="apls-news/winter1998/winter1998.pdf" class="quarto-grid-link">
@@ -1674,8 +1743,7 @@ Spring 1998
 Winter 1998
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="50" data-listing-date-sort="875682000000">
 <a href="apls-news/fall1997/fall1997.pdf" class="quarto-grid-link">
@@ -1688,8 +1756,7 @@ Winter 1998
 Fall 1997
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="51" data-listing-date-sort="859874400000">
 <a href="apls-news/spring1997/spring1997.pdf" class="quarto-grid-link">
@@ -1702,8 +1769,7 @@ Fall 1997
 Spring 1997
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="52" data-listing-date-sort="844146000000">
 <a href="apls-news/fall1996/fall1996.pdf" class="quarto-grid-link">
@@ -1716,8 +1782,7 @@ Spring 1997
 Fall 1996
 </h5>
 </div>
-</div>
-</a>
+</div></a>
 </div>
 <div class="g-col-1" data-index="53" data-listing-date-sort="828338400000">
 <a href="apls-news/spring1996/spring1996.pdf" class="quarto-grid-link">
@@ -1730,13 +1795,10 @@ Fall 1996
 Spring 1996
 </h5>
 </div>
+</div></a>
 </div>
-</a>
 </div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 <nav id="archive-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
@@ -1748,388 +1810,260 @@ No matching items
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
     }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
       }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
         }
       });
     }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
         }
       }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
         } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
           }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
+          return note.innerHTML;
+        }
       } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
         }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -2137,185 +2071,161 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
