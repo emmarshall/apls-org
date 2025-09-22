@@ -344,6 +344,8 @@ h1, .h1, h2, .h2, h3, .h3 {
 }
 
 /* ===== Frosted Glass Panel (Left-Aligned with Content) ===== */
+
+/* ===== Frosted Glass Panel (Left-Aligned with Content) ===== */
 .hero-banner {
   position: relative;
   min-height: 100vh;
@@ -457,32 +459,6 @@ h1, .h1, h2, .h2, h3, .h3 {
 }
 
 
-
-
-.hero-banner .hero-image {
-  position: absolute;
-  display: none;
-  height: auto;
-}
-
-@media (min-width: 1000px) {
-.hero-banner .hero-image {
-  display: initial;
-  width: 270px;
-}
-}
-
-@media (min-width: 1200px) {
-.hero-banner .hero-image {
-  width: 340px;
-}
-}
-
-@media (min-width: 1400px) {
-.hero-banner .hero-image {
-  width: 440px;
-}
-}
 
 .hero-banner .hero-image p {
   margin-bottom: 0;

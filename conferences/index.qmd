@@ -25,7 +25,7 @@ source("../assets/apls_functions.R")
 
 ::: hero-buttons
 [Submit a Proposal](https://ap-ls2026.exordo.com/login){.button-17 .btn-guide role="button"} 
-[Call for Proposals](#proposals){.button-17 role="button"}
+[Learn More](#submission){.button-17 role="button"}
 :::
 
 
@@ -138,6 +138,15 @@ We invite proposal submissions for the 2026 Annual Conference of AP-LS. We stron
 **Special Consideration for Artificial Intelligence (AI) Submissions**
 
 Special consideration will be given to proposals regarding the use of Artificial Intelligence (AI) in psychology and law. AI is defined as technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision making, creativity, and autonomy. We are particularly interested in empirical studies addressing machine models, deep learning models, and large learning models (LLMs).
+
+
+::: callout-caution
+## Please note!! 
+
+There will be **no extension** to the abstract submission deadline!
+
+:::
+
 :::
 
 <center>
@@ -263,9 +272,9 @@ A poster is a concise, visual summary of research or legal scholarship that is d
 ::: vspace
 :::
 
-::::: simple-info
 # Hotel Information {#hotel}
 
+::::: simple-info
 :::: {.panel-tabset .box-shadow}
 ## {{< fa hotel aria-hidden="true" >}} Peppermill Resort Spa Casino
 
