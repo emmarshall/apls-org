@@ -24,7 +24,7 @@ source("../assets/apls_functions.R")
 #### {{< fa calendar aria-hidden="true" >}} March 12-14, 2026
 
 ::: hero-buttons
-[Submit a Proposal](https://ap-ls2026.exordo.com/login){.button-17 .btn-guide role="button"} [Learn More](#submission){.button-17 role="button"}
+[Submit a Proposal](https://ap-ls2026.exordo.com/){.button-17 .btn-guide role="button"} [Submit for Preconference](https://docs.google.com/forms/d/e/1FAIpQLScCMpSZYxr6JKElDfZIGK8DQHUJ3bgt0CYmfRm5mcmVxrsBYQ/viewform?usp=send_form){.button-17 role="button"}
 :::
 ::::
 :::::
