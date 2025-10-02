@@ -3,7 +3,7 @@ pagetitle: "Welcome From Our President"
 about: 
   id: hero-heading
   template: trestles
-  image: img/christian_meissner.jpeg
+  image: img/randy_salekin.jpg
   image-shape: round
   image-width: 14em
   links:
@@ -47,6 +47,6 @@ Thank you for visiting our website, and please feel free to reach out to our any
 
 Interested in joining? Please find details about [membership](../../membership/index.html) on our site, and we look forward to welcoming you into our organization!
 
-**Chris Meissner**
+**Randy Salekin**
 
 *President, American Psychology-Law Society*

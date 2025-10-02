@@ -24,14 +24,11 @@ source("../assets/apls_functions.R")
 #### {{< fa calendar aria-hidden="true" >}} March 12-14, 2026
 
 ::: hero-buttons
-[Submit a Proposal](https://ap-ls2026.exordo.com/login){.button-17 .btn-guide role="button"} 
-[Learn More](#submission){.button-17 role="button"}
-:::
-
-
+[Submit a Proposal](https://ap-ls2026.exordo.com/login){.button-17 .btn-guide role="button"} [Learn More](#submission){.button-17 role="button"}
 :::
 ::::
 :::::
+::::::
 
 ::: column-screen
 ```{r}
@@ -118,7 +115,7 @@ Looking forward to seeing everyone in March!
 ::: vspace
 :::
 
-:::::::::::::: {.panel-tabset .box-shadow}
+:::::::::::::::: {.panel-tabset .box-shadow}
 ## {{< fa bullhorn aria-hidden="true" >}} Call for Proposals
 
 ::: vspace
@@ -127,36 +124,32 @@ Looking forward to seeing everyone in March!
 ::: simple-info-center
 [2026 Call for Proposals]{.plenary}
 
-[Annual Conference of the American Psychology-Law Society (AP-LS) <br> March 13-15, 2026 | Reno, NV]{.event-time}
+[Annual Conference of the American Psychology-Law Society (AP-LS) <br> March 12-14, 2026 \| Reno, NV]{.event-time}
 
 [{{< fa file-pdf aria-hidden="true" >}} Download](https://drive.google.com/file/d/1684McZTkAQ73gBeITQHnYv_mjnpxa1Bw/view?usp=drive_link){.btn .btn-outline-primary role="button"}
+
+All proposals must be submitted on the conference website by <br> [Wednesday, October 15, 2025, 11:59 pm PST]{.session-time} <br>
+
+[Visit the Ex Ordo portal here](https://ap-ls2026.exordo.com/) to register, <br> submit your proposals, AND sign up as a reviewer!
+
 :::
 
-::: session-description
+
+
+:::: session-description
 We invite proposal submissions for the 2026 Annual Conference of AP-LS. We strongly encourage empirically based proposals, proposals that involve new and emerging topics within psychology and law, and proposals that incorporate historically marginalized or underrepresented populations. Proposals will be evaluated through a blind review process focused on intellectual merit, innovation, novelty, and integration of multiple aspects of the field.
 
 **Special Consideration for Artificial Intelligence (AI) Submissions**
 
 Special consideration will be given to proposals regarding the use of Artificial Intelligence (AI) in psychology and law. AI is defined as technology that enables computers and machines to simulate human learning, comprehension, problem solving, decision making, creativity, and autonomy. We are particularly interested in empirical studies addressing machine models, deep learning models, and large learning models (LLMs).
 
-
 ::: callout-caution
-## Please note!! 
+## Please note!!
 
 There will be **no extension** to the abstract submission deadline!
-
 :::
 
-:::
-
-<center>
-
-All proposals must be submitted on the conference website by <br> [Wednesday, October 15, 2025, 11:59 pm PST]{.session-time}
-
-[Visit the Ex Ordo portal here](https://ap-ls2026.exordo.com/login) to register, submit your proposals, AND sign up as a reviewer!
-
-
-</center>
+::::
 
 
 [Proposal Types & Submission Requirements]{.plenary}
@@ -243,7 +236,6 @@ A poster is a concise, visual summary of research or legal scholarship that is d
 ::: vspace
 :::
 
-
 [Call for Reviewers]{.plenary}
 
 ::: session-description
@@ -258,47 +250,16 @@ A poster is a concise, visual summary of research or legal scholarship that is d
     -   If you are submitting a proposal, you will be prompted to indicate your interest in Ex Ordo during the online submission process. You will subsequently receive an email and prompted to complete a brief [Reviewer Sign-Up Google Form](https://docs.google.com/forms/u/1/d/e/1FAIpQLSfQyLb9scWKPfGn7ZkkBQs8f32U5H96THQ6y5-NTlPsSam8Iw/viewform?usp=send_form).
 
     -   If you are not submitting a proposal, or if you would like to complete the Reviewer Sign-Up Google Form now, please select this [link](https://docs.google.com/forms/d/e/1FAIpQLSfQyLb9scWKPfGn7ZkkBQs8f32U5H96THQ6y5-NTlPsSam8Iw/viewform).
-    
 
 > If you have any questions or comments about the conference, please contact the conference co-chairs at [conference\@ap-ls.org](mailto:conference@ap-ls.org) </br></br> *2026 AP-LS Conference Co-Chairs* <br> Luna Filipović, *Ph.D. Cantab* <br> & Heath Hodges, *Ph.D., M.L.S., ABPP (Forensic)*
-
-
 :::
-::::::::::::::
+::::::::::::::::
 
 ::: vspace
 :::
 
 ::: vspace
 :::
-
-# Hotel Information {#hotel}
-
-::::: simple-info
-:::: {.panel-tabset .box-shadow}
-## {{< fa hotel aria-hidden="true" >}} Peppermill Resort Spa Casino
-
-![](https://images.bestwestern.com/bwi/brochures/29095/photos/1024/25995732.jpg){fig-align="center" fig-alt="Exterior view of the Peppermill Resort Spa Casino"}
-
-<center>[{{< fa map aria-hidden="true" >}} Plan your trip](https://www.worldhotels.com/content/luxury-hotels/en_US/book/hotels-in-reno/peppermill-resort-spa-casino/propertyCode.29095.html){.btn .btn-outline-primary role="button"} [{{< fa location-dot aria-hidden="true" >}} Map](){.btn .btn-outline-primary role="button"}</center>
-
-::: vspace
-:::
-
-
-[Conference Rates]{.plenary}
-
-::::: session-description
-Attendees can also call the Peppermill to make their reservation. They just need to mention your group code to receive your group rate and waived resort fee.
-
-Group code: `CAPLS26`
-
-::: hero-buttons
-[{{< fa bell-concierge aria-hidden="true" >}} Book a Room](https://book.passkey.com/event/51002110/owner/7268/home){.btn-action .btn .btn-info .ml-auto role="button"} [{{< fa hotel aria-hidden="true" >}} Website](https://www.worldhotels.com/content/luxury-hotels/en_US/book/hotels-in-reno/peppermill-resort-spa-casino/propertyCode.29095.html){.btn-action .btn .btn-dark .ml-auto role="button"}
-:::
-
-::::
-:::::
 
 # Pre-conference Workshops {#preconference}
 
@@ -335,3 +296,31 @@ We look forward to receiving your pre-conference workshop proposals!
 Sara Millspaugh, Ph.D. <br> Pronouns: she/her <br> Chair, AP-LS CE Committee
 :::::
 :::::::
+
+
+# Hotel Information {#hotel}
+
+:::::::::::: simple-info
+:::::: {.panel-tabset .box-shadow}
+## {{< fa hotel aria-hidden="true" >}} Peppermill Resort Spa Casino
+
+![](https://images.bestwestern.com/bwi/brochures/29095/photos/1024/25995732.jpg){fig-align="center" fig-alt="Exterior view of the Peppermill Resort Spa Casino"}
+
+<center>[{{< fa map aria-hidden="true" >}} Plan your trip](https://www.worldhotels.com/content/luxury-hotels/en_US/book/hotels-in-reno/peppermill-resort-spa-casino/propertyCode.29095.html){.btn .btn-outline-primary role="button"} [{{< fa location-dot aria-hidden="true" >}} Map](){.btn .btn-outline-primary role="button"}</center>
+
+::: vspace
+:::
+
+[Conference Rates]{.plenary}
+
+:::: session-description
+Attendees can also call the Peppermill to make their reservation. They just need to mention your group code to receive your group rate and waived resort fee.
+
+Group code: `CAPLS26`
+
+::: hero-buttons
+[{{< fa bell-concierge aria-hidden="true" >}} Book a Room](https://book.passkey.com/event/51002110/owner/7268/home){.btn-action .btn .btn-info .ml-auto role="button"} [{{< fa hotel aria-hidden="true" >}} Website](https://www.worldhotels.com/content/luxury-hotels/en_US/book/hotels-in-reno/peppermill-resort-spa-casino/propertyCode.29095.html){.btn-action .btn .btn-dark .ml-auto role="button"}
+:::
+::::
+::::::
+::::::::::::
