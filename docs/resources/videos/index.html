@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.23">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,18 +35,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-1fe81d0376b2c50856e68e651e390326.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-6f6599830d51be977da3b6af758f8eff.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-1fe81d0376b2c50856e68e651e390326.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-2d5703bb679253c8117388b98209fdfc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-0905b95e576ebf2231e73413a83da1af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-2d5703bb679253c8117388b98209fdfc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-135a31e260cec45a4f40b216f8caa0dd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-63b9c1c6233c5da13f2d0f7d446b6a74.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-135a31e260cec45a4f40b216f8caa0dd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
@@ -127,7 +128,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -317,7 +318,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/logo-light.png" alt="" class="navbar-logo">
+    <img src="../../images/logo-light.png" alt="" class="navbar-logo light-content">
+    <img src="../../images/logo-light.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -464,7 +466,7 @@ window.Quarto = {
 </div>
 <div id="listing-videos" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1643781600000" data-listing-file-modified-sort="1746729671729" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
+<div class="quarto-post image-left" data-index="0" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1643781600000" data-listing-file-modified-sort="1759774544575" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="164">
 <div class="thumbnail"><a href="../../resources/videos/careers2022/Index.html" class="no-external">
 
 <img loading="lazy" src="../../resources/videos/careers2022/featured.png" class="thumbnail-image">
@@ -486,7 +488,7 @@ Feb 2, 2022
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="1" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1643781600000" data-listing-file-modified-sort="1746729671728" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="138">
+<div class="quarto-post image-left" data-index="1" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1643781600000" data-listing-file-modified-sort="1759774544574" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="138">
 <div class="thumbnail"><a href="../../resources/videos/DEIcorrections2022/index.html" class="no-external">
 
 <img loading="lazy" src="../../resources/videos/DEIcorrections2022/featured.png" class="thumbnail-image">
@@ -508,7 +510,7 @@ Feb 2, 2022
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="2" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1643781600000" data-listing-file-modified-sort="1746729671738" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="395">
+<div class="quarto-post image-left" data-index="2" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1643781600000" data-listing-file-modified-sort="1759774544585" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="395">
 <div class="thumbnail"><a href="../../resources/videos/tele2021/index.html" class="no-external">
 
 <img loading="lazy" src="../../resources/videos/tele2021/featured.png" class="thumbnail-image">
@@ -530,7 +532,7 @@ Feb 2, 2022
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="3" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1746729671729" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+<div class="quarto-post image-left" data-index="3" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1759774544576" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
 <div class="thumbnail"><a href="../../resources/videos/clinician2013/index.html" class="no-external">
 
 <img loading="lazy" src="../../resources/videos/clinician2013/featured.png" class="thumbnail-image">
@@ -552,7 +554,7 @@ Nov 6, 2014
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="4" data-categories="YXBscw==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1746729671732" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<div class="quarto-post image-left" data-index="4" data-categories="YXBscw==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1759774544578" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
 <div class="thumbnail"><a href="../../resources/videos/diversity2013/index.html" class="no-external">
 
 <img loading="lazy" src="../../resources/videos/diversity2013/featured.png" class="thumbnail-image">
@@ -574,7 +576,7 @@ Nov 6, 2014
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="5" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1746729671732" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+<div class="quarto-post image-left" data-index="5" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1759774544578" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
 <div class="thumbnail"><a href="../../resources/videos/expert2013/index.html" class="no-external">
 
 <img loading="lazy" src="../../resources/videos/expert2013/featured.png" class="thumbnail-image">
@@ -596,7 +598,7 @@ Nov 6, 2014
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="6" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1746729671733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+<div class="quarto-post image-left" data-index="6" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1759774544579" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
 <div class="thumbnail"><a href="../../resources/videos/grad2013/index.html" class="no-external">
 
 <img loading="lazy" src="../../resources/videos/grad2013/featured.png" class="thumbnail-image">
@@ -618,7 +620,7 @@ Nov 6, 2014
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="7" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1746729671733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+<div class="quarto-post image-left" data-index="7" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1759774544579" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
 <div class="thumbnail"><a href="../../resources/videos/impact2013/index.html" class="no-external">
 
 <img loading="lazy" src="../../resources/videos/impact2013/featured.png" class="thumbnail-image">
@@ -640,7 +642,7 @@ Nov 6, 2014
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="8" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1746729671735" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
+<div class="quarto-post image-left" data-index="8" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1759774544582" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
 <div class="thumbnail"><a href="../../resources/videos/jury2013/index.html" class="no-external">
 
 <img loading="lazy" src="../../resources/videos/jury2013/featured.png" class="thumbnail-image">
@@ -662,7 +664,7 @@ Nov 6, 2014
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="9" data-categories="YXBscw==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1746729671735" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
+<div class="quarto-post image-left" data-index="9" data-categories="YXBscw==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1759774544582" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
 <div class="thumbnail"><a href="../../resources/videos/intro2013/index.html" class="no-external">
 
 <img loading="lazy" src="../../resources/videos/intro2013/featured.png" class="thumbnail-image">
@@ -684,7 +686,7 @@ Nov 6, 2014
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="10" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1746729671736" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
+<div class="quarto-post image-left" data-index="10" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1759774544583" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
 <div class="thumbnail"><a href="../../resources/videos/juvenile2013/index.html" class="no-external">
 
 <img loading="lazy" src="../../resources/videos/juvenile2013/featured.png" class="thumbnail-image">
@@ -706,7 +708,7 @@ Nov 6, 2014
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="11" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1746729671737" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
+<div class="quarto-post image-left" data-index="11" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1759774544584" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="49">
 <div class="thumbnail"><a href="../../resources/videos/risk2013/index.html" class="no-external">
 
 <img loading="lazy" src="../../resources/videos/risk2013/featured.png" class="thumbnail-image">
@@ -728,7 +730,7 @@ Nov 6, 2014
 </a>
 </div>
 </div>
-<div class="quarto-post image-left" data-index="12" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1746729671737" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+<div class="quarto-post image-left" data-index="12" data-categories="Y2FyZWVycyUyQ2FwYQ==" data-listing-date-sort="1415253600000" data-listing-file-modified-sort="1759774544584" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
 <div class="thumbnail"><a href="../../resources/videos/students2013/index.html" class="no-external">
 
 <img loading="lazy" src="../../resources/videos/students2013/featured.png" class="thumbnail-image">
@@ -822,13 +824,14 @@ Nov 6, 2014
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

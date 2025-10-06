@@ -56,13 +56,12 @@ content = rowwise_table(
   "Caitlin Cavanagh", "", "mailto:natalie.anumba@umassmed.edu", "Member-at-large",
   "Jessica Salerno", "", "mailto:caitcav@msu.edu", "Member-at-large",
   "Jennifer Groscup", "", "mailto:jgroscup@scrippscollege.edu", "APA Council Representative",
-  "Margaret Kovera", "", "mailto:mkovera@jjay.cuny.edu", "APA Council Representative",
-  "Jordan Donson", "", "mailto:students@ap-ls.org", "Student Committee Chair",
+  "Lavita Nadkarni", "", "mailto:Lavita.nadkarni@du.edu", "APA Council Representative",
+  "Cassidy White", "", "mailto:students@ap-ls.org", "Student Committee Chair",
   	"Dave DeMatteo", "", "mailto:david.dematteo@drexel.edu", "Law & Human Behavior editor",
   "Meg Ternes", "", "mailto:meg.ternes@smu.ca", "Newsletter editor",
   "Monica Miller", "", "mailto:mkmiller@unr.edu", "Book Series editor",
-  "Lindsey Wylie", "", "mailto:webmaster@ap-ls.org", "Website editor",
-  "Ana Belmonte", "", "mailto:anabelmontepsyd@gmail.com", "Incoming Website editor"
+  "Ana Belmonte", "", "mailto:webmaster@ap-ls.org", "Website editor"
 )
 div(class = "grid grid-three",
   pmap(content, function(name, icon, url, text, objective) {
@@ -84,8 +83,8 @@ div(class = "grid grid-three",
 #| echo: false
 content = rowwise_table(
   ~name, ~icon, ~url, ~text,
-  "Lori Hoetger", "", "mailto:conference@ap-ls.org", "2025 AP-LS Conference",
-  "Jennifer Cox", "", "mailto:conference@ap-ls.org", "2025 AP-LS Conference"
+  "Heath Hedges", "", "mailto:conference@ap-ls.org", "2026 AP-LS Conference",
+  "Luna Filipovic Hawkins", "", "mailto:conference@ap-ls.org", "2026 AP-LS Conference"
  
 )
 div(class = "officer-grid grid-two",

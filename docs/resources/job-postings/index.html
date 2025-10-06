@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.23">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -35,18 +35,19 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-1fe81d0376b2c50856e68e651e390326.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-6f6599830d51be977da3b6af758f8eff.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-1fe81d0376b2c50856e68e651e390326.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-2d5703bb679253c8117388b98209fdfc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-0905b95e576ebf2231e73413a83da1af.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-2d5703bb679253c8117388b98209fdfc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-135a31e260cec45a4f40b216f8caa0dd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-63b9c1c6233c5da13f2d0f7d446b6a74.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-135a31e260cec45a4f40b216f8caa0dd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
@@ -156,7 +157,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -345,7 +346,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/logo-light.png" alt="" class="navbar-logo">
+    <img src="../../images/logo-light.png" alt="" class="navbar-logo light-content">
+    <img src="../../images/logo-light.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -535,6 +537,28 @@ Post a Research Postdoc
 
     <div class="job-entry">
       <div class="metadata">
+        <p class="date">10/2/25</p>
+      </div>
+      <div class="body">
+        <p class="title">Assistant Professor</p>
+            <p class="details">John Jay College of Criminal Justice | New York, New York</p>
+          
+    
+    <ul class="job-links">
+      <li class="job-link">
+        <a href="https://cuny.jobs/new-york-ny/assistant-professor-tenure-track-department-of-psychology/2E1330496937425884735D5B53DC808A/job/" class="listing-name">
+        <i class="fa-solid fa-circle-info" style="color: $primary;"></i> View post »
+        </a>
+      </li>
+    </ul>
+  </div>  
+    
+  </div>
+  
+     
+
+    <div class="job-entry">
+      <div class="metadata">
         <p class="date">9/16/25</p>
       </div>
       <div class="body">
@@ -598,28 +622,6 @@ Post a Research Postdoc
   </div>
   
      
-
-    <div class="job-entry">
-      <div class="metadata">
-        <p class="date">7/22/25</p>
-      </div>
-      <div class="body">
-        <p class="title">Assistant Professor</p>
-            <p class="details">Department of Psychology - Bradley University | Peoria, Illinois</p>
-          
-    
-    <ul class="job-links">
-      <li class="job-link">
-        <a href="https://tinyurl.com/BUPSYJOB26" class="listing-name">
-        <i class="fa-solid fa-circle-info" style="color: $primary;"></i> View post »
-        </a>
-      </li>
-    </ul>
-  </div>  
-    
-  </div>
-  
-     
      
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -629,6 +631,72 @@ Post a Research Postdoc
   
     
   
+
+    <div class="job-entry">
+      <div class="metadata">
+        <p class="date">10/6/25</p>
+      </div>
+      <div class="body">
+        <p class="title">Forensic Psychologist</p>
+            <p class="details">State of Tennesee | Moccasin Bend Mental Health Institute</p>
+          
+    
+    <ul class="job-links">
+      <li class="job-link">
+        <a href="https://www.indeed.com/job/forensic-psychologist-b5cc65afa17a02a5" class="listing-name">
+        <i class="fa-solid fa-circle-info" style="color: $primary;"></i> View post »
+        </a>
+      </li>
+    </ul>
+  </div>  
+    
+  </div>
+  
+     
+
+    <div class="job-entry">
+      <div class="metadata">
+        <p class="date">10/6/25</p>
+      </div>
+      <div class="body">
+        <p class="title">Psychologist</p>
+            <p class="details">New Mexico Department of Health/New Mexico Behavioral Health Institute at Las Vegas | Las Vegas, New Mexico</p>
+          
+    
+    <ul class="job-links">
+      <li class="job-link">
+        <a href="https://www.spo.state.nm.us/work-for-new-mexico/" class="listing-name">
+        <i class="fa-solid fa-circle-info" style="color: $primary;"></i> View post »
+        </a>
+      </li>
+    </ul>
+  </div>  
+    
+  </div>
+  
+     
+
+    <div class="job-entry">
+      <div class="metadata">
+        <p class="date">10/6/25</p>
+      </div>
+      <div class="body">
+        <p class="title">Licensed Clinical Social Worker - Sununu Youth Services Center</p>
+            <p class="details">Dartmouth Health - Sununu Youth Services Center | Manchester, New Hampshire</p>
+          
+    
+    <ul class="job-links">
+      <li class="job-link">
+        <a href="https://careers-dartmouth-hitchcock.icims.com/jobs/33522/licensed-clinical-social-worker---sununu-youth-services-center/job?mode=view&amp;mobile=false&amp;width=2145&amp;height=500&amp;bga=true&amp;needsRedirect=false&amp;jan1offset=-300&amp;jun1offset=-240" class="listing-name">
+        <i class="fa-solid fa-circle-info" style="color: $primary;"></i> View post »
+        </a>
+      </li>
+    </ul>
+  </div>  
+    
+  </div>
+  
+     
 
     <div class="job-entry">
       <div class="metadata">
@@ -710,6 +778,72 @@ Post a Research Postdoc
   
     
   
+
+    <div class="job-entry">
+      <div class="metadata">
+        <p class="date">10/6/25</p>
+      </div>
+      <div class="body">
+        <p class="title">Forensic Psychologist</p>
+            <p class="details">State of Tennesee | Moccasin Bend Mental Health Institute</p>
+          
+    
+    <ul class="job-links">
+      <li class="job-link">
+        <a href="https://www.indeed.com/job/forensic-psychologist-b5cc65afa17a02a5" class="listing-name">
+        <i class="fa-solid fa-circle-info" style="color: $primary;"></i> View post »
+        </a>
+      </li>
+    </ul>
+  </div>  
+    
+  </div>
+  
+     
+
+    <div class="job-entry">
+      <div class="metadata">
+        <p class="date">10/6/25</p>
+      </div>
+      <div class="body">
+        <p class="title">Psychologist</p>
+            <p class="details">New Mexico Department of Health/New Mexico Behavioral Health Institute at Las Vegas | Las Vegas, New Mexico</p>
+          
+    
+    <ul class="job-links">
+      <li class="job-link">
+        <a href="https://www.spo.state.nm.us/work-for-new-mexico/" class="listing-name">
+        <i class="fa-solid fa-circle-info" style="color: $primary;"></i> View post »
+        </a>
+      </li>
+    </ul>
+  </div>  
+    
+  </div>
+  
+     
+
+    <div class="job-entry">
+      <div class="metadata">
+        <p class="date">10/6/25</p>
+      </div>
+      <div class="body">
+        <p class="title">Licensed Clinical Social Worker - Sununu Youth Services Center</p>
+            <p class="details">Dartmouth Health - Sununu Youth Services Center | Manchester, New Hampshire</p>
+          
+    
+    <ul class="job-links">
+      <li class="job-link">
+        <a href="https://careers-dartmouth-hitchcock.icims.com/jobs/33522/licensed-clinical-social-worker---sununu-youth-services-center/job?mode=view&amp;mobile=false&amp;width=2145&amp;height=500&amp;bga=true&amp;needsRedirect=false&amp;jan1offset=-300&amp;jun1offset=-240" class="listing-name">
+        <i class="fa-solid fa-circle-info" style="color: $primary;"></i> View post »
+        </a>
+      </li>
+    </ul>
+  </div>  
+    
+  </div>
+  
+     
 
     <div class="job-entry">
       <div class="metadata">
@@ -848,13 +982,14 @@ Post a Research Postdoc
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

@@ -1,0 +1,11 @@
+---
+title: August 2025
+date: 8/1/2025
+image: "../images/aug.png"
+links:
+- icon: file-earmark-pdf
+  name: Download
+  url: "https://drive.google.com/file/d/1VXfqh02H96cFHVK34Tys83_mS9xXQ6yh/view?usp=sharing"
+---
+
+![](aug_2025.pdf){#news .ar4x3}

@@ -1,0 +1,14 @@
+---
+title: December 2024
+date: 12/1/2024
+image: 'https://oasis-prod01-unlayer.s3.us-east-1.amazonaws.com/1732820006043-law+books.jpg'
+links:
+- icon: file-earmark-pdf
+  name: Download
+  url: "https://drive.google.com/file/d/1yUEjn5EPbfBWFJ0_-ZqrNJjDkEtzbmhX/view?usp=drive_link"
+---
+
+
+```{=html}
+<iframe class="news ar4x3" src="./dec24.html" title="October Newsletter"></iframe>
+```

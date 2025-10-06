@@ -10,6 +10,6 @@ links:
 
 
 ```{=html}
-<iframe class="news ar4x3" src="./sep24.html" title="September Newsletter"></iframe>
+<iframe class="news ar4x3" src="https://drive.google.com/file/d/1rlF0cHvBdIWkKKN6rt_amskQ9pNhXSMM/view?usp=drive_link" title="September Newsletter"></iframe>
 ```
 

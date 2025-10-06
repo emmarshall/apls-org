@@ -18,7 +18,7 @@ links:
   url: "mailto:andretta@bridgetownpsychological.com"
 - icon: send
   name: Apply here
-  url: "https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0"
+  url: "https://forms.gle/zrZgy2rzLuZbpWK86"
 ---
 
 
@@ -34,7 +34,7 @@ source("../../assets/apls_functions.R")
 
 The purpose of the Diversity in Psychology and Law Research Awards is to promote diversity within the American Psychology-Law Society by supporting student research on psycholegal issues related to diversity as well as research by students from underrepresented groups. Projects are eligible for consideration for this award if they investigate topics related to psychology, law, diversity, and/or multiculturalism (e.g., research pertaining to psycholegal issues on race, gender, culture, sexual orientation, etc.), or if the principal investigator is a member of an underrepresented group, including racial and ethnic minorities, first-generation college students, LGBT individuals, and students with disabilities. Consistent with the mission of the BRIDGE Committee, these awards are intended to facilitate the research of individuals from groups that are underrepresented in AP-LS, as well as research about issues of potential interest and importance to such groups. 
 
-Each year the BRIDGE Committee will award up to five mini-grants in the amount of $1,000, with an option to divide two of the awards into two $500 mini-grants.
+Each year the BRIDGE Committee will award up to three grants in the amount of `$2,000`, with an option to divide two of the awards into two `$1,000` mini-grants.
 
 :::{.callout-caution}
 ## Keep in mind
@@ -55,8 +55,6 @@ Applicants cannot receive more than one mini-grant from AP-LS for the same proje
 
 ## How to Apply
 
-Award submissions will be accepted from September 15 to January 15 annually.
-
 For more information about the Diversity Program, please contact the program chair, [James Andretta](mailto:andretta@bridgetownpsychological.com).
 
 ::: callout-tip
@@ -65,7 +63,6 @@ For more information about the Diversity Program, please contact the program cha
 1.  A cover letter on letterhead that provides all contact information and specifies how the project meets the eligibility requirements for this award
 
 2.  A five-page minimum/10-page maximum (double-spaced; not including references) project description. Project descriptions need to contain the following information:
-
     -   specific aims: a clear, concise statement of the research problem and the relevance of the project to the mission of the award. Applicants should describe the specific objectives to be accomplished during the award period.
     -   background and significance: an overview of relevant empirical literature related to the project. Applicants should discuss the project's likely impact on the overall field of psychology and law, as well as with respect to understanding and promoting diversity and/or multiculturalism. They also should address how this award will benefit the research, including its potential to generate ongoing future research.
     -   project design: a detailed description of the expected course of the project, including detailed information related to methodology (e.g., participants, procedures, measures) and analytic strategy.

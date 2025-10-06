@@ -17,7 +17,7 @@ links:
   url: "mailto:cwillis-esqueda1@unl.edu"
 - icon: send
   name: Apply here
-  url: "https://ssp.qualtrics.com/jfe/form/SV_ePbaazCXWwNreZ0"
+  url: "https://forms.gle/zrZgy2rzLuZbpWK86"
 ---
 
 ```{r setup, include=FALSE}
@@ -37,11 +37,13 @@ The purpose of the Access Path to Psychology and Law Experience (AP) Program is 
 AP is designed to encourage faculty members to recruit students from underrepresented groups into their research labs. It provides financial support for the students to obtain meaningful research experience and attend the AP-LS conference as well as other opportunities for mentoring and development.
 
 ::: callout-note
-The AP program will award up to \$3,000 per student, depending on the length of the research experience. Recipients will be given a stipend of \$1,200 per semester or \$800 per quarter or summer for up to one year.
 
-In addition, they will receive \$100 for research expenses and up to \$500 to attend the AP-LS conference.
+The AP program will award up to `$4,000` per student, depending on the length of the research experience. Recipients will be given a stipend of `$1,500` per semester.
 
-Six awards of \$3,000 (i.e., for year-long experiences) or a larger number of smaller awards (i.e., for part-year experiences) will be given.
+In addition, they will receive $1000 to attend the AP-LS conference (physically provided upon attendance at the conference).
+
+Four awards of `$4,000` (i.e., for year-long experiences) or a larger number of smaller awards (i.e., for part-year experiences) will be given.
+
 :::
 
 

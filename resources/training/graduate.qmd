@@ -14,32 +14,27 @@ If you are interested in learning more about graduate programs, please review th
 
 This guide was developed by members of the AP-LS Teaching, Training, and Careers Committee (TTC) and lists current graduate programs in forensic and legal psychology.
 
-
-
-
-::: simple-info
+:::::::: simple-info
 ::: {.content-block .col-v-center}
 ## Guide to Graduate Programs in Legal and Forensic Psychology
 :::
 
-::: grid
-
+:::::: grid
 ::: {.g-col-12 .g-col-md-6}
-![](../../images/grad_guide_2023.png){width="300"}
-
+![](../../images/grad_guide_2025.png){fig-alt="Cover of the report title Guide to Graduate Programs in Forensic and Legal Psychology 7th edition, a research for prospective students, published September 2025" width="300"}
 :::
 
-::: {.g-col-12 .g-col-md-6 .col-v-center}
-
-:::vspace2
+:::: {.g-col-12 .g-col-md-6 .col-v-center}
+::: vspace2
 :::
 
 This guide was developed by members of the AP-LS Teaching, Training, and Careers Committee (TTC) and lists current graduate programs in forensic and legal psychology.
 
-[NEW! 2023 Guide](https://drive.google.com/file/d/1UmxNGjFb-fZciA-OxmWnGi6lhcpeaJ2U/view?usp=sharing){#btn-guide .btn-action .btn-action .btn .btn-primary role="button"}
-:::
-:::
-:::
+[View Guide](https://drive.google.com/file/d/1sE2jvQ4oofu5mQc3WQl3CtHpWYqwDH1k/view?usp=sharing){#btn-guide .btn-action .btn-action .btn .btn-primary role="button"}
+::::
+::::::
+::::::::
+
 ::: {.callout-note collapse="true" appearance="simple" icon="false"}
 Programs are listed alphabetically by degree type: doctoral programs (PhD and PsyD), joint programs (PhD/JD, PsyD/JD, JD/MA, PhD/MLS), and masters-level programs.
 

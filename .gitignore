@@ -1,16 +1,18 @@
-# R 
+# R
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 
-# Quarto 
+# Quarto
 /.quarto/
 _site/
 **/*_cache/*
 
-# other 
+# other
 design-assets/*
 static/etc/*
 .DS_Store
 
+
+**/*.quarto_ipynb
