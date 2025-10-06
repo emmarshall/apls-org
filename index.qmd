@@ -131,7 +131,7 @@ div(class = "bg-light",
 ::: vspace
 ::: 
 
-![](about/presidents/img/christian_meissner.jpeg){.avatar}
+![](about/presidents/img/randy_salekin.jpg){.avatar}
 
 # Welcome from Our President
 ::: vspace
@@ -218,9 +218,9 @@ resource_grid(content[.("general")])
 
 ::: {.simple-info-blue .alt-background-blue}
 ::: content-block-blue
-### Get ready for the 2025 American Psychology-Law Society Conference!
+### Get ready for the 2026 American Psychology-Law Society Conference!
 
-San Juan, PR---March 13-15
+Reno, Nevada---March 12-14
 
 [Learn more {{< fa arrow-right >}}](conferences/index.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
 :::
