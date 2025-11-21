@@ -47,7 +47,7 @@ website:
         text: Awards
       - text: Conferences
         menu:
-          - text: 2025 AP-LS Conference
+          - text: 2026 AP-LS Conference
             href: conferences/index.qmd
           #- text: 2024 Program & Schedule
           #  href: conferences/schedule.qmd
@@ -135,6 +135,7 @@ format:
   html:
     email-obfuscation: javascript
     link-external-newwindow: true
+    anchor-sections: false
     theme: 
       light: [assets/light-theme.scss]
       dark: [assets/dark-theme.scss]
