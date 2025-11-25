@@ -1,0 +1,26 @@
+---
+title: Workshop 1
+subtitle: |
+  Aging Defendants and the Law: Neuropsychological Factors Impacting Practice Across the  Criminal Justice Continuum
+date: 03/11/2026
+author:
+  - Chriscelyn Tussey, Psy.D., ABPP
+  - Lisa Y. Kan, Ph.D.
+  - Beth C. Arredondo, Ph.D.,  ABPP
+  - Bernice A. Marcopulos, Ph.D., ABPP
+  - Shelby Hunter, Ph.D. 
+categories: 
+  - Intermediate
+  - Full Day
+description: |
+  The rapid growth of the aging population is reshaping the demands placed on  forensic psychologists. Older adults are increasingly involved in criminal, civil, and correctional  proceedings, yet present with unique clinical, ethical, and systemic challenges. This intermediate  workshop examines the integration of forensic and neuropsychology across each stage of the legal  continuum, using real-world examples to illustrate how an aging defendant may progress through  the system from referral through reentry. <br><br> This training will highlight distinctions between normative aging, neurodegenerative disease,  psychiatric comorbidities, and intellectual disability, emphasizing their implications for forensic  decision-making. Pretrial considerations will address competency, criminal responsibility, civil  capacity, and mitigation, with attention to engagement strategies for cognitively impaired  defendants and assessment challenges related to validity, fatigue, and sensory impairments. The  trial-related section of this workshop will focus on effective communication of neuropsychological  findings to courts, differentiating dementia, delirium, depression, and malingering, and testifying  ethically about age-related decline. Correctional and civil commitment contexts will explore risk  assessment, rehabilitation programming, and systemic barriers to adequate care. Reentry  discussions will emphasize housing, supervision, and advocacy needs for aging individuals  returning to the community. <br><br> Through case vignettes, interactive exercises, and role-play, participants will develop strategies  for navigating the complex intersection of aging, cognition, and law. This workshop equips  forensic psychologists, attorneys, and any practitioner in forensic mental health at all career stages  with the tools to address emerging demands in practice, research, and policy related to aging  populations in forensic contexts. 
+objectives:
+  - Describe normative aging, neurodegenerative disorders, psychiatric comorbidities, and  intellectual disability in aging forensic populations.
+  - Analyze systemic access issues and identify points of referral for geriatric neuropsychological  consultation. 
+  - Apply assessment strategies that account for sensory loss, fatigue, test validity, and age adjusted norms in forensic evaluations. 
+  - Explain how complex neuropsychological evidence can be translated to provide clear, accurate  testimony regarding aging defendants. 
+  - Evaluate correctional, release, and reentry considerations for older adults, including ethical and  advocacy roles of forensic psychologists.
+event-info:
+  credits: "7 CE hours"
+  time: "8:30 AM – 4:30 PM"
+---

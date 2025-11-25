@@ -195,5 +195,17 @@
       "/resources/newsletter/e-news/2021/feb2021/index.html",
       "/resources/newsletter/e-news/2021/jan2021/index.html"
     ]
+  },
+  {
+    "listing": "/conferences/preconference/index.html",
+    "items": [
+      "/conferences/preconference/workshop_1/index.html",
+      "/conferences/preconference/workshop_2/index.html",
+      "/conferences/preconference/workshop_3/index.html",
+      "/conferences/preconference/workshop_4/index.html",
+      "/conferences/preconference/workshop_5/index.html",
+      "/conferences/preconference/workshop_6/index.html",
+      "/conferences/preconference/workshop_7/index.html"
+    ]
   }
 ]

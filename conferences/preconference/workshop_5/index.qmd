@@ -1,0 +1,23 @@
+---
+title: Workshop 5
+subtitle: |
+  Use of Artificial Intelligence in Forensic Assessment: Providing Foundation, Communication, and  Practical Implementation Strategies 
+date: 03/11/2026
+author:
+  - Dana L. Formon, Ph.D., ABPP
+  - Natalie Armstrong, Ph.D., ABPP
+  - Jennifer  Christman, Psy.D., ABPP
+  - Benjamin Silber, Ph.D., ABPP 
+categories: 
+  - Intermediate
+  - Half Day
+description: |
+  Artificial intelligence (AI) is rapidly reshaping the landscape of psychological  assessment, data analysis, and professional communication (Olawade, 2025). For forensic  psychologists, the integration of AI into practice raises unique questions about ethics, competence,  transparency, and admissibility, particularly as the incorporation of AI into legal work has come  with mixed success (Merken, 2025). This workshop offers a practical exploration of how AI can  be responsibly incorporated into forensic psychology. The session will begin with an advanced  overview of defining AI, before transitioning into real-world application – reviewing examples of  AI tools relevant to assessment and report preparation, identifying potential risks and biases, and  applying structured checklists for ethical decision-making. Participants will also develop strategies  for communicating AI use clearly and accurately in written reports and courtroom testimony, with  attention to maintaining professional credibility and protecting client rights and privacy. Finally,  the workshop will address how psychologists can achieve and sustain competence in emerging  technologies through ongoing education, documentation, and ethical reflection. Designed for  practitioners and trainees alike, this interactive session moves beyond theory to focus on practical  skills, informed judgment, and ethical practice in an era of technological advancement. 
+objectives:
+  - Differentiate types and functions of artificial intelligence tools relevant to forensic psychology,  and evaluate their potential applications and limitations in assessment, report writing, and  professional communication. 
+  - Apply structured ethical and decision-making frameworks to determine when and how AI can  be responsibly used in forensic practice, with attention to competence, transparency, and bias  mitigation. 
+  - Develop clear strategies for documenting and communicating AI use in reports and courtroom  testimony to maintain professional credibility, protect client rights, and ensure adherence to  legal and ethical standards. 
+event-info:
+  credits: "3.5 CE hours"
+  time: "1 PM - 4:30 PM"
+---

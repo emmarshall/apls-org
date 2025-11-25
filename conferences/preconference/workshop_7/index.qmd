@@ -1,0 +1,22 @@
+---
+title: Workshop 7
+subtitle: |
+  An Overview of Correctional Psychology: Practice, Research, and Ethical Considerations
+date: 03/11/2026
+author:
+  - Virginia Barber-Rioja, Ph.D.
+  - Ashley Batastini, Ph.D. 
+categories: 
+  - Intermediate
+  - Half Day
+description: |
+  Jails and prisons have a constitutional obligation to provide healthcare to  incarcerated individuals. However, mental health services in correctional settings across the United  States are often insufficient, leading to high rates of suicide, overdose, and other adverse outcomes.  As a result, many jails and prisons face civil litigation over failures to meet established standards  of care. This issue is compounded by the ongoing “competency crisis,” which has placed additional  strain on jail mental health systems. <br><br>
+  The U.S. correctional mental health system provides significant opportunities for psychologists to  apply their expertise to improve mental health care in jails and prisons. This workshop will start  with providing a definition of correctional psychology, an overview of the different systems of  incarceration, and an overview of core competencies within correctional psychology, including  screening and assessment, treatment planning and delivery, assessment and treatment of people in  restrictive housing, suicide prevention, mortality reviews, and quality assurance processes. The  session will also address challenges and offer recommendations for conducting ethical and  effective research in correctional settings, as well as strategies for mitigating issues related to the  “competency crisis.” Special emphasis will be placed on interventions that move towards more  rehabilitative models and ethical considerations that arise across all areas of correctional practice. This workshop will rely on didactic material, group discussions, and case examples based on real world situations. 
+objectives:
+  -   Define correctional psychology relative to forensic psychology and understand key distinctions in ethics, training expectations, and practice. 
+  -   Identify high-prevalence clinical and criminogenic needs for incarcerated people and  empirically supported intervention approaches
+  -   Discuss practical and ethical considerations for conducting psychological research in correctional settings 
+event-info:
+  credits: "3.5 CE hours"
+  time: "1 PM - 4:30 PM"
+---

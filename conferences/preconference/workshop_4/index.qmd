@@ -1,0 +1,19 @@
+---
+title: Workshop 4
+subtitle: |
+   Using Forensic Experts’ Judgment to Improve Competence to Stand Trial Evaluations 
+date: 03/11/2026
+author:
+  - Tess Neal, Ph.D.
+  - Christian Stephens, B.S.
+  - Maya Irvin-Vitela, M.S.
+description: |
+  This interactive workshop will introduce and apply a decision-making framework – Linear Sequential Unmasking (LSU) – to the forensic context of competence to stand trial  evaluations with the goal of advancing evidence-based practices for bias mitigation and  transparency. To build legitimacy toward integrating LSU into forensic contexts and to generate  practical products for research and policy development, the workshop will include two major  components: a town hall discussion and a collaborative hackathon. Attendees will also be  introduced to an R-based expanded version of LSU called the LSU-E digital toolkit, which is designed to facilitate implementation, visualization, and data organization for LSU-informed workflows. <br><br> During the town hall, attendees will engage in a structured discussion of an expert blue-ribbon  panel-developed LSU process map for sequencing information in forensic evaluations of  competence to stand trial. Working in small groups and then in open discussion, attendees will  provide feedback on the clarity and feasibility of the proposed sequencing recommendations,  drawing on their professional experience to identify potential implementation challenges and  opportunities. Attendees will also be invited to suggest examples of information that may be  especially biasing or probative in their areas of practice. <br><br>The workshop will then transition to a hackathon in which small groups of attendees will be guided  by workshop facilitators to collaboratively design realistic vignettes that exemplify key LSU  decision points. Using the R-based LSU-E toolkit, groups will identify sources of bias, propose  debiasing strategies, and organize vignette elements to serve as candidate stimuli for empirical  studies testing LSU applications in forensic mental health assessment.
+objectives:
+  - Describe the linear sequential unmasking (LSU) framework and explain how information  sequencing has the potential to reduce bias in forensic decision-making.
+  - Evaluate the clarity, feasibility, and policy implications of LSU for forensic evaluations  through structured discussion and peer collaboration. 
+  - Apply LSU to construct and categorize realistic forensic vignettes that illustrate potential  sources of bias and strategies for debiasing in forensic mental health assessment. 
+event-info:
+  credits: "3.5 CE hours"
+  time: "8:30 AM – 12 PM"
+---

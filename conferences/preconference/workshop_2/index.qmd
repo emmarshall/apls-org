@@ -1,0 +1,21 @@
+---
+title: Workshop 2
+subtitle: |
+  Mental State at the Time of the Offense: Conducting Evaluations of Insanity and Diminished Capacity  
+date: 03/11/2026
+author:
+  - Jessica R. Hart, Ph.D., ABPP
+  - Dana L. Formon, Ph.D., ABPP
+categories: 
+  - Intermediate
+  - Half Day
+description: |
+  Mental state at the time of the offense (MSO) evaluations involve a retrospective  analysis of a defendant’s thoughts, emotions, and behaviors before, during, and immediately after  an alleged offense. This workshop (designed for individuals with some prior experience) will begin  with a brief review of landmark case law related to MSO evaluations, as well as a discussion of  jurisdictional differences (e.g., M’Naghten vs. ALI, know vs. appreciate). We will discuss best  practices in the field, including for conducting an MSO evaluation, writing the report for the trier  of fact, and testifying. Importantly, we will also discuss factors such as assessing for malingering,  considering amnesia for the time of the offense, handling pressures from attorneys, considering  state-specific case law (e.g., deific decree), weighing the influence of substance use on the  presenting symptoms, and common ethical scenarios encountered in this evaluation type. The final  portion of this workshop will involve a series of small and large group discussions on complex  case presentations to include considerations for insanity and diminished capacity opinions. 
+objectives: 
+  - Identify and differentiate between key legal standards governing mental state at the time of the  offense (MSO) evaluations, and articulate how jurisdictional variations influence forensic  evaluation procedures and testimony.  
+  - Demonstrate best practices in conducting MSO evaluations and communicating opinions to  the trier of fact, including data collection and integration, report writing, and ethical  presentation of findings during testimony.
+  - Critically analyze complex case scenarios involving factors such as malingering, claimed amnesia, substance-related impairment, and attorney pressures to form defensible, ethically  sound opinions consistent with forensic and legal standards. 
+event-info:
+  credits: "3.5 CE hours"
+  time: "8:30 AM – 12 PM"
+---

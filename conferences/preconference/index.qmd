@@ -1,0 +1,81 @@
+---
+pagetitle: preconference
+css: ../index.css
+listing: 
+    contents: 
+      - "**/*.qmd"
+    type: grid
+    grid-columns: 2
+    categories: false
+    sort-ui: true
+    filter-ui: true
+    fields: [title, subtitle, categories]
+---
+
+::: column-screen
+::: hero-banner
+::: content-block
+# 2026 Preconference Workshops
+
+### Reno, Nevada \| March 11, 2025
+
+
+::: hero-buttons
+[{{< fa arrow-left-long aria-hidden="true" >}} Go Back](../index.qmd){#btn-guide .btn-action .btn-action .btn .btn-success role="button"}
+:::
+
+:::
+:::
+:::
+
+
+
+# Pricing Information{#price} 
+
+::: {.panel-tabset .box-shadow}
+## REGISTRATION RATES & INCLUSIONS
+
+### Full-Day Workshop Rates
+
++-----------------------+-----------------+----------------+
+| Status                | Early Bird\     | Regular\       |
+|                       | (before Jan 31) | (on Feb 1)     |
++:======================+:================+:===============+
+| AP-LS Full Members    | \$200           | \$230          |
++-----------------------+-----------------+----------------+
+| AP-LS ECP Members     | \$200           | \$230          |
++-----------------------+-----------------+----------------+
+| Non Members           | \$250           | \$280          |
++-----------------------+-----------------+----------------+
+| AP-LS Student Members | \$80            | \$100          |
++-----------------------+-----------------+----------------+
+| Non Members Students  | \$100           | \$120          |
++-----------------------+-----------------+----------------+
+
+### Half-Day Workshop Rates
+
++-----------------------+-----------------+----------------+
+| Status                | Early Bird\     | Regular\       |
+|                       | (before Jan 31) | (on Feb 1)     |
++:======================+:================+:===============+
+| AP-LS Full Members    | \$100           | \$115          |
++-----------------------+-----------------+----------------+
+| AP-LS ECP Members     | \$100           | \$115          |
++-----------------------+-----------------+----------------+
+| Non Members           | \$125           | \$140          |
++-----------------------+-----------------+----------------+
+| AP-LS Student Members | \$80            | \$100          |
++-----------------------+-----------------+----------------+
+| Non Members Students  | \$50            | \$60           |
++-----------------------+-----------------+----------------+
+:::
+
+# Descriptions & Details{#details}  
+> At this year's conference we are excited to offer [**one**]{.underline} full day workshops and [**six**]{.underline} half day workshops. 
+
+Click to learn more about each workshop below.
+
+[download {{< fa arrow-right-long aria-hidden="true" >}}](https://drive.google.com/file/d/1Wsyd1wKizn0L44bmq-_TxDvxXLYEiOyV/view?usp=sharing){.btn .btn-outline-primary .ml-auto role="button"}
+
+::: {#workshops}
+:::
