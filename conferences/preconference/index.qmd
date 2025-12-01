@@ -75,7 +75,7 @@ listing:
 
 Click to learn more about each workshop below.
 
-[download {{< fa arrow-right-long aria-hidden="true" >}}](https://drive.google.com/file/d/1Wsyd1wKizn0L44bmq-_TxDvxXLYEiOyV/view?usp=sharing){.btn .btn-outline-primary .ml-auto role="button"}
+[download {{< fa arrow-right-long aria-hidden="true" >}}](https://drive.google.com/file/d/1KtACxrmj0E93GRh7GLa88o0vG3yuHIpV/view){.btn .btn-outline-primary .ml-auto role="button"}
 
 ::: {#workshops}
 :::

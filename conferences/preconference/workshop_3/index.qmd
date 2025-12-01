@@ -5,7 +5,7 @@ subtitle: |
 date: 03/11/2026
 author:
   - Mary Elizabeth Wood, Ph.D., ABPP
-  - Laura M. Grossi, Ph.D., ABSMIP
+  - Laura M. Grossi, Ph.D., ABPP
   - Natalie Armstrong, Ph.D., ABPP 
 categories: 
   - Intermediate
