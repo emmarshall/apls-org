@@ -126,7 +126,7 @@ Looking forward to seeing everyone in March!
 ::: vspace
 :::
 
-[Click Here {{< fa arrow-right-long aria-hidden="true" >}}](https://apls.memberclicks.net/apls2026conference/){.btn .btn-outline-primary .ml-auto role="button"}
+[Click Here {{< fa arrow-right-long aria-hidden="true" >}}]( https://apls.memberclicks.net/apls2026conference#){.btn .btn-outline-primary .ml-auto role="button"}
 
 ::: vspace
 :::
