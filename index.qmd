@@ -91,7 +91,7 @@ padding-bottom: 1rem;
 #| warning: false
 #| message: false
 content = rowwise_table(~name, ~icon, ~link,
-                        "About", "info-circle-fill", "about/about.html",
+                        "About", "info-circle-fill", "about/index.html",
   "Committees", "person-rolodex", "about/committees.html",
     "Conference", "easel2-fill", "conferences/index.html", 
     "Funding", "award-fill", "awards/index.html",
