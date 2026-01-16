@@ -14,8 +14,9 @@ base_path <- here::here("about", "presidents")
 
 #pres <- readr::read_csv(here(base_path, "pres_data.csv"))
 
-pres <- read_excel(here(base_path, "pres_data.xlsx"), sheet = "pres_data")
+pres <- read_excel("pres_data.xlsx", sheet = "pres_data")
 
+div41 <- read_excel("pres_data.xlsx", sheet = "div41_data")
 
 tbl <- pres |> 
   select(image, name, date) |> 

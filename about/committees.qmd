@@ -21,7 +21,6 @@ Occasionally, the President, in consultation with the Executive Committee, will 
 :::
 
 ```{r table, echo=FALSE, warning=FALSE, message=FALSE}
-#| label: Create committee table
 library(reactable)
 library(htmltools)
 library(readxl)
