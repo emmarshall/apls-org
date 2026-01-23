@@ -54,7 +54,7 @@ source("../assets/apls_functions.R")
 <div class="price-card-block">
 <h4 class="price-card-title"> Early Career </h4>
 <h5 class="price-card-subtitle">
-  Individuals within 10 years of receiving: </h5>
+  Individuals within first 3 years post terminal degree: </h5>
 <ul class="list-group">
   <li class="list-group-item">Doctoral Degree</li>
   <li class="list-group-item">Juris Doctorate</li>
