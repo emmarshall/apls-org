@@ -15,9 +15,8 @@ listing:
 ::: column-screen
 ::: hero-banner
 ::: content-block
-# 2026 Preconference Workshops
-
-### Reno, Nevada \| March 11, 2026
+### Preconference Workshops
+##### March 11, 2026
 
 
 ::: hero-buttons
@@ -30,8 +29,8 @@ listing:
 
 
 
-# Pricing Information{#price} 
-
+# {{< fa circle-info >}}Pricing Information{#price} 
+ 
 ::: {.panel-tabset .box-shadow}
 ## REGISTRATION RATES & INCLUSIONS
 

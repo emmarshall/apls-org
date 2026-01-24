@@ -41,7 +41,7 @@ content = rowwise_table(~name, ~icon, ~link,
   "General", "info-circle", "#info",             
   "Registration", "person-add", "#registration",
   "Hotel", "airplane", "#hotel",
-  "Pre-conference", "person-workspace", "#preconference",
+  "Program", "person-workspace", "#program",
   #"Registration", "person-badge", "#register",  
   "Archives", "journal-text", "archive/index.qmd"
 )
@@ -159,11 +159,27 @@ Looking forward to seeing everyone in March!
 ::: vspace
 :::
 
-# Preconference Workshops {#preconference}
+# Program & Schedule{#program}
 
 :::::: simple-info-center
 ::::: {.panel-tabset .box-shadow}
-## {{< fa bullhorn aria-hidden="true" >}} Info
+## {{< fa circle-info aria-hidden="true" >}} Overview
+
+::: vspace
+:::
+
+##### [2026 APLS ***Draft*** Program Grid]{.highlight} <br> is now available!
+
+
+[Download {{< fa arrow-right aria-hidden="true" >}}](https://drive.google.com/file/d/1RxEn0VcseMI4hxszr-4RrphdfqSeZ3o7/view?usp=sharing){.btn .btn-outline-primary role="button"} 
+
+::: vspace
+:::
+
+## {{< fa bullhorn aria-hidden="true" >}} Preconference Workshops
+
+::: vspace
+:::
 
 ##### [{{< fa calendar aria-hidden="true" >}} Wednesday, March 11, 2026]{.highlight}
 
@@ -181,46 +197,6 @@ Looking forward to seeing everyone in March!
 ::: vspace
 :::
 
-
-## {{< fa circle-info >}} Pricing
-
-::: {.callout-note appearance="simple"}
-## REGISTRATION RATES & INCLUSIONS
-
-### Full-Day Workshop Rates
-
-+-----------------------+-----------------+----------------+
-| Status                | Early Bird\     | Regular\       |
-|                       | (before Jan 31) | (on Feb 1)     |
-+:======================+:================+:===============+
-| AP-LS Full Members    | \$200           | \$230          |
-+-----------------------+-----------------+----------------+
-| AP-LS ECP Members     | \$200           | \$230          |
-+-----------------------+-----------------+----------------+
-| Non Members           | \$250           | \$280          |
-+-----------------------+-----------------+----------------+
-| AP-LS Student Members | \$80            | \$100          |
-+-----------------------+-----------------+----------------+
-| Non Members Students  | \$100           | \$120          |
-+-----------------------+-----------------+----------------+
-
-### Half-Day Workshop Rates
-
-+-----------------------+-----------------+----------------+
-| Status                | Early Bird\     | Regular\       |
-|                       | (before Jan 31) | (on Feb 1)     |
-+:======================+:================+:===============+
-| AP-LS Full Members    | \$100           | \$115          |
-+-----------------------+-----------------+----------------+
-| AP-LS ECP Members     | \$100           | \$115          |
-+-----------------------+-----------------+----------------+
-| Non Members           | \$125           | \$140          |
-+-----------------------+-----------------+----------------+
-| AP-LS Student Members | \$80            | \$100          |
-+-----------------------+-----------------+----------------+
-| Non Members Students  | \$50            | \$60           |
-+-----------------------+-----------------+----------------+
-:::
 :::::
 ::::::
 
