@@ -67,7 +67,7 @@ A complete Grant in Aid application includes:
 
 Applicants are to provide a grant proposal (a maximum of 3,000 words excluding title page, abstract and references, but inclusive of all other items) that includes:
 
-1. A **title page** indicating the title of the project, name, address, phone number, and email address of the investigator. Please also include the research menotr's name and title. 
+1. A **title page** indicating the title of the project, name, address, phone number, and email address of the investigator. Please also include the research mentor's name and title. 
 
 2. An **abstract** of 200 words or less summarizing the project
 
