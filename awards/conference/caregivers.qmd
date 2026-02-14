@@ -12,14 +12,7 @@ categories:
   - Caregiving Grants
 submission-info:
   sponsor: AP-LS Professional Development of Women Committee
-  deadline: "December 31, `r if (Sys.Date() > lubridate::mdy(paste('December 31', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())`"
-links:
-- icon: envelope-at
-  name: Contact
-  url: "mailto:jennifer.m.mcox@ua.edu"
-- icon: send
-  name: Apply here
-  url: "https://universityofalabama.az1.qualtrics.com/jfe/form/SV_4Jilv1WU81DVrGm"
+  deadline: "Solicitations and applications each fall using the APLS newsletter"
 ---
 
 ```{r setup, include=FALSE}
@@ -35,7 +28,8 @@ The AP-LS Professional Development of Women Committee is thrilled to offer Careg
 
 This grant is open to any APLS member (student and non-student) who serves as a caregiver in any capacity (e.g., child, parent). Funds can be used for any caregiving needs during the conference, including needs at the conference or at home.
 
- 
+Solicitations and applications take place each fall using the APLS newsletter.
+
 We will notify grantees in late January.
 
 :::
