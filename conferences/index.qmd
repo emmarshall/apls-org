@@ -223,6 +223,10 @@ Looking forward to seeing everyone in March!
 :::: session-description
 Attendees can also call the Peppermill to make their reservation. They just need to mention your group code to receive your group rate and waived resort fee.
 
+::: callout-important
+The 2026 room block is now closed!!  People can still book directly through the [hotel at this link](https://www.peppermillreno.com/).
+:::
+
 Group code: `CAPLS26`
 
 ::: hero-buttons
