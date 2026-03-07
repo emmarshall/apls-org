@@ -1,64 +1,136 @@
 // ── Buttons ───────────────────────────────────────────────────────────
-
-.btn-action {
-  min-width: 165px;
-  border-radius: 30px;
-  text-transform: uppercase;
-  border: none;
-}
-
-.btn-action-primary {
-  color: var(--apls-nav-fg);
-  background-color: var(--apls-primary);
-  a       { color: var(--apls-accent); }
-  &:hover { color: var(--apls-accent); background-color: var(--apls-primary-dark); }
-}
-
-.btn-light,
 .btn-outline-primary,
 .btn-outline-light {
-  color: var(--apls-fg);
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid var(--apls-primary-dark);
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: var(--apls-primary-dark);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: normal;
+  outline: none;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
   text-transform: uppercase;
-  &:disabled, &.disabled { border: 1px solid var(--apls-border); }
-}
+  letter-spacing: 0.5px;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
 
-.btn-outline-primary {
-  border-color: var(--apls-primary);
-  color: var(--apls-primary);
-  &:hover, &:active {
-    background-color: var(--apls-primary);
-    border-color: var(--apls-primary);
-    color: var(--apls-nav-fg);
+  &:disabled, &.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  &:hover {
+    color: var(--apls-nav-fg);                   /* was --apls-card-bg causing clash */
+    background-color: var(--apls-primary-dark);  /* was --apls-card-bg, now fills */
+    border-color: var(--apls-primary-dark);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  &:active {
+    box-shadow: none;
+    transform: translateY(0);
   }
 }
 
 .btn-outline-light {
   border-color: var(--apls-border);
   color: var(--apls-fg);
-  &:hover, &:active {
-    background-color: var(--apls-bg-alt);
-    border-color: var(--apls-border);
+  &:hover {
+    background-color: var(--apls-fg);
+    border-color: var(--apls-fg);
+    color: var(--apls-card-bg);
+  }
+}
+
+// Filled style (btn-action, btn-action-primary, btn-secondary, job-btn)
+.btn-action,
+.job-btn {
+  align-items: center;
+  background-color: var(--apls-card-bg);
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .1) 0 6px 20px;
+  box-sizing: border-box;
+  color: var(--apls-fg);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 0.85rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  outline: none;
+  padding: 0.6rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  touch-action: manipulation;
+  transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
+  min-width: 165px;
+
+  &:hover {
+    box-shadow: var(--apls-primary-dark) 0 0 0 3px, transparent 0 0 0 0;
+    color: var(--apls-fg);
+  }
+}
+
+.btn-action-primary {
+  background-color: var(--apls-primary);
+  color: var(--apls-nav-fg);
+
+  a { color: var(--apls-nav-fg); }              /* was --apls-accent, now matches button text */
+
+  &:hover {
+    box-shadow: var(--apls-primary-dark) 0 0 0 3px, transparent 0 0 0 0;
+    color: var(--apls-nav-fg);
+    background-color: var(--apls-primary);
+  }
+}
+
+.btn-secondary.btn-action {
+  background-color: var(--apls-card-bg);
+  color: var(--apls-primary-dark);
+  border: 2px solid var(--apls-primary-dark);
+
+  &:hover {
+    box-shadow: var(--apls-primary-dark) 0 0 0 3px, transparent 0 0 0 0;
+    color: var(--apls-primary-dark);
   }
 }
 
 .job-btn {
   min-width: 130px;
-  height: 40px;
+  background-color: var(--apls-primary);
   color: var(--apls-nav-fg);
-  padding: 5px 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: inline-block;
   border-radius: 5px;
-  border: none;
-  box-shadow:
-    inset 2px 2px 2px 0 rgba(255,255,255,.2),
-    7px 7px 20px 0 rgba(0,0,0,.2),
-    4px 4px 5px 0 rgba(0,0,0,.1);
-  background: var(--apls-primary);
-  &:hover  { opacity: 0.85; }
-  &:active { top: 2px; }
+
+  &:hover {
+    box-shadow: var(--apls-primary-dark) 0 0 0 3px, transparent 0 0 0 0;
+    opacity: 0.9;
+    color: var(--apls-nav-fg);
+  }
+  &:active { transform: translateY(2px); }
+}
+
+// Shared disabled state
+.btn-action,
+.btn-outline-primary,
+.btn-outline-light,
+.job-btn {
+  &:disabled, &.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
 }
 
 .job-listing-name {
@@ -66,6 +138,32 @@
   &:hover { color: var(--apls-accent); }
 }
 
+.btn-dark.btn-action {
+  background-color: var(--apls-primary-dark);
+  color: var(--apls-nav-fg);
+  border: 0;
+
+  &:hover {
+    box-shadow: var(--apls-primary-dark) 0 0 0 3px, transparent 0 0 0 0;
+    background-color: var(--apls-primary-dark);
+    color: var(--apls-nav-fg);
+    opacity: 0.9;
+  }
+}
+
+.btn.btn-action.btn-action-primary {
+  background-color: var(--apls-primary);
+  color: var(--apls-nav-fg) !important;  /* force over Bootstrap .btn color */
+  border: 0;
+
+  a { color: var(--apls-nav-fg); }
+
+  &:hover {
+    box-shadow: var(--apls-primary-dark) 0 0 0 3px, transparent 0 0 0 0;
+    background-color: var(--apls-primary);
+    color: var(--apls-nav-fg) !important;
+  }
+}
 // ── Tab panels ────────────────────────────────────────────────────────
 
 .tab-content {

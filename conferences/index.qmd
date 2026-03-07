@@ -230,7 +230,7 @@ The 2026 room block is now closed!!  People can still book directly through the 
 Group code: `CAPLS26`
 
 ::: hero-buttons
-[{{< fa bell-concierge aria-hidden="true" >}} Book a Room](https://book.passkey.com/event/51002110/owner/7268/home){.btn-action .btn .btn-info .ml-auto role="button"} [{{< fa hotel aria-hidden="true" >}} Website](https://www.worldhotels.com/content/luxury-hotels/en_US/book/hotels-in-reno/peppermill-resort-spa-casino/propertyCode.29095.html){.btn-action .btn .btn-dark .ml-auto role="button"}
+[{{< fa bell-concierge aria-hidden="true" >}} Book a Room](https://book.passkey.com/event/51002110/owner/7268/home){.btn-action .btn .btn-action .ml-auto role="button"} [{{< fa hotel aria-hidden="true" >}} Website](https://www.worldhotels.com/content/luxury-hotels/en_US/book/hotels-in-reno/peppermill-resort-spa-casino/propertyCode.29095.html){.btn-action .btn .btn-action-primary .ml-auto role="button"}
 :::
 ::::
 ::::::

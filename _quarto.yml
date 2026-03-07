@@ -142,6 +142,8 @@ format:
     theme:
       light: [default, theme.scss]
       dark:  [darkly, theme.scss]
+    filters:
+      - panel-accordion
     #css: assets/styles.css
 #    grid:
 #      sidebar-width: 250px
