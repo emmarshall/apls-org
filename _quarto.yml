@@ -4,12 +4,11 @@ project:
   resources:
     - "*.css"
     - "*.pdf"
+    - "about/imgs/"
+    - "about/presidents/imgs/*"
     - "resources/newsletter/e-news/html/*"
 
 
-execute:
-    freeze: auto
-    
 website:
   title: "The American Psychology-Law Society"
   favicon: "assets/favicon_io/favicon.ico"
@@ -131,19 +130,25 @@ website:
         aria-label: Link to email
         href: mailto:office@ap-ls.org
 
+
+brand: _brand.yml
+
+
 format:
   html:
     email-obfuscation: javascript
     link-external-newwindow: true
     anchor-sections: false
-    theme: 
-      light: [assets/light-theme.scss]
-      dark: [assets/dark-theme.scss]
-    css: assets/styles.css
-    grid:
-      sidebar-width: 250px
-      body-width: 900px
-      margin-width: 300px
+    theme:
+      light: [default, theme.scss]
+      dark:  [darkly, theme.scss]
+    #css: assets/styles.css
+#    grid:
+#      sidebar-width: 250px
+#      body-width: 900px
+#      margin-width: 300px
 
-
+execute:
+    freeze: auto
+    
 

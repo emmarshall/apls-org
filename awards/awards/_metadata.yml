@@ -19,4 +19,4 @@ include-back-link: true
 format:
   html:
     template-partials:
-      - "../title-block.html"
+      - "../../_partials/title-block.html"

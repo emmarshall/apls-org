@@ -1,24 +1,20 @@
 ---
 title: Presidential Archives
-#subtitle: List of former AP-LS Presidents
-#page-layout: custom
 title-block-banner: "../../images/default-banner.svg"
 ---
-
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
 ```
 
-
+::: {style="max-width: 500px; margin: 0 auto;"}
 
 ```{r}
 #| echo: false
 #| message: false
 #| warning: false
 #| label: data-prep
-
+library(janitor)
 library(tidyverse)
 library(gt)
 library(stringr)
@@ -28,123 +24,114 @@ library(gtExtras)
 library(dplyr)
 library(here)
 library(webshot2)
-library(readxl)
+library(googlesheets4)
+library(reactable)
+
+gs4_deauth()
+
+SHEET_ID <- "1iCz2Pss5GxP5J6G-3xA_-ePW-a6RQ4_fgRYvyrpYJTs"
 
 base_path <- here::here("about", "presidents")
 
-#pres <- readr::read_csv(here(base_path, "pres_data.csv"))
-
-pres <- read_excel(here(base_path, "pres_data.xlsx"), sheet = "pres_data")
-
-
-tbl <- pres |> 
-  select(image, name, date) |> 
-  gt() |> 
-  gtExtras::gt_img_rows(columns = "image", height = 100) |> 
-  gt_merge_stack(col1 = name, col2 = date, palette = c("#343A40", "#737475"),
-                 font_size = c("20px", "13px")) |> 
-  cols_width(name ~ px(800),
-             image ~px(250)) |> 
-  tab_header(
-    title = html("List of former <span style='color:#1B3264;'>American Psychology-Law Society</span> <br> & <span style='color:#1B3264;'>APA Div 41</span> Presidents (1982-PRESENT)"
-  )) |> 
-  opt_align_table_header(align = "left") |>
-  opt_vertical_padding(scale = 0.5) |> 
-  tab_style(
-    style = list(
-      cell_text(
-        size = "24px",
-        color = "#343A40",
-        weight = "bold"
-      )
-    ),
-    locations = list(
-      cells_title()
+pres <- read_sheet(SHEET_ID, sheet = "pres_data") |>
+  clean_names() |>
+  mutate(
+    name = paste(first, last),
+    first_clean = tolower(str_extract(first, "^\\S+")),
+    last_clean = tolower(last),
+    base_path = paste0("imgs/", first_clean, "_", last_clean),
+    image = case_when(
+      file.exists(here("about", "presidents", paste0(base_path, ".png")))  ~ paste0(base_path, ".png"),
+      file.exists(here("about", "presidents", paste0(base_path, ".jpg")))  ~ paste0(base_path, ".jpg"),
+      file.exists(here("about", "presidents", paste0(base_path, ".jpeg"))) ~ paste0(base_path, ".jpeg"),
+      .default = "imgs/placeholder.png"
     )
-  ) |> 
-  cols_label(
-    #name = img_header("AP-LS Presidents", "https://emmarshall.github.io/runza/img/apls-presidents/logo.png", height = 60,font_size = 24),
-    name = "",
-    image = ""
-  ) 
+  )
 
-#tbl |> 
-#  gtsave(here(base_path, "tbl_1.html")) 
+div41 <- read_sheet(SHEET_ID, sheet = "div41_data") |>
+  clean_names() |>
+  select(name, date)
 
-div41 <- read_excel(here(base_path, "pres_data.xlsx"), sheet = "div41_data")
+# Table 1 - Main presidents table
+tbl_data <- pres |>
+  select(image, name, date)
 
-tbl2 <- div41 |> 
-  select(name, date) |> 
-  gt() |> 
-  gt_merge_stack(col1 = name, col2 = date, palette = c("#343A40", "#737475"),
-                 font_size = c("20px", "13px")) |> 
-  cols_width(name ~ px(800)) |> 
-  tab_header(
-    title = html("APLS Presidents Prior to Merger with APA Division 41<br><span style='color:#1B3264;'>(1969-1983)</span>"),
-    subtitle = html("The American Psychology-Law Society (APLS) operated independently from 1969-1983.<br>APA Division 41 was established in 1981, and APLS merged with it in 1984.")
-  ) |> 
-  opt_align_table_header(align = "left") |>
-  opt_vertical_padding(scale = 0.5) |> 
-  tab_style(
-    style = list(
-      cell_text(
-        size = "24px",
-        color = "#343A40",
-        weight = "bold"
-      )
+tbl1 <- reactable(
+  tbl_data,
+  pagination = FALSE,
+  sortable = FALSE,
+  defaultColDef = colDef(headerClass = "header", align = "left"),
+  columns = list(
+    image = colDef(
+      name = "",
+      width = 120,
+      vAlign = "center",
+      cell = function(value) {
+        img(src = value, height = "100px", width = "100px",
+            style = "border-radius: 50%; object-fit: cover;")
+      }
     ),
-    locations = list(
-      cells_title(groups = "title")
-    )
-  ) |>
-  tab_style(
-    style = list(
-      cell_text(
-        size = "13px",
-        color = "#737475",
-        weight = "normal",
-        style = "italic"
-      )
+    name = colDef(
+      name = "",
+      minWidth = 100,
+      vAlign = "center",
+      cell = function(value, row_index) {
+        div(
+          div(style = "font-size: 16px; color: #343A40; font-weight: bold;", value),
+          div(style = "font-size: 11px; color: #737475;", tbl_data$date[row_index])
+        )
+      }
     ),
-    locations = list(
-      cells_title(groups = "subtitle")
-    )
-  ) |>
-  cols_label(
-    #name = img_header("AP-LS Presidents", "https://emmarshall.github.io/runza/img/apls-presidents/logo.png", height = 60,font_size = 24),
-    name = ""
-  ) 
+    date = colDef(show = FALSE)
+  ),
+  theme = reactableTheme(
+    cellPadding = "2px 4px",
+    highlightColor = "#FBF9F4",
+    rowStyle = list(alignItems = "center")
+  )
+)
 
+# Table 2 - APLS prior to merger
+tbl_data2 <- div41 |>
+  select(name, date)
+
+tbl2 <- reactable(
+  tbl_data2,
+  pagination = FALSE,
+  sortable = FALSE,
+  defaultColDef = colDef(headerClass = "header", align = "left"),
+  columns = list(
+    name = colDef(
+      name = "",
+      minWidth = 500,
+      cell = function(value, row_index) {
+        div(
+          div(style = "font-size: 18px; color: #343A40; font-weight: bold;", value),
+          div(style = "font-size: 15px; color: #737475;", tbl_data2$date[row_index])
+        )
+      }
+    ),
+    date = colDef(show = FALSE)
+  ),
+  theme = reactableTheme(
+    cellPadding = "8px 12px",
+    highlightColor = "#FBF9F4"
+  )
+)
+div(style = "max-width: 600px; margin: 0 auto;",
+  h3(HTML("List of former <span style='color:#1B3264;'>American Psychology-Law Society</span> & <span style='color:#1B3264;'>APA Div 41</span> Presidents")),
+  tbl1,
+  br(),
+  div(class = "simple-info-blue alt-background-blue",
+    div(class = "content-block-blue")
+  ),
+  br(),
+  h3(HTML("APLS Presidents Prior to Merger with APA Division 41 <span style='color:#1B3264;'>(1969-1983)</span>")),
+  p(style = "font-size: 15px; color: #737475; font-style: italic;",
+    HTML("The American Psychology-Law Society (APLS) operated independently from 1969-1983.<br>APA Division 41 was established in 1981, and APLS merged with it in 1984.")
+  ),
+  tbl2
+)
 ```
-
-
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-#| label: President table
-#| output: screen-inset
-
-tbl
-
-```
-
-
-
-::: {.simple-info-blue .alt-background-blue}
-::: content-block-blue
 
 :::
-:::
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-#| label: APLS table
-#| output: screen-inset
-
-tbl2
-
-```

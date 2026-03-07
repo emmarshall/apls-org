@@ -18,123 +18,139 @@ Occasionally, the President, in consultation with the Executive Committee, will 
 
 [Learn more about President and Executive Committee](leadership.html)
 :::
-```{r table, echo=FALSE, warning=FALSE, message=FALSE}
+```{r}
+#| label: leadership_tbl
+#| echo: false
+#| warning: false
+#| message: false
+
 library(reactable)
 library(htmltools)
-library(readxl)
 library(dplyr)
 library(stringr)
+library(googlesheets4)
 
-cmts <- read_excel("committees.xlsx")
+# ── Auth ──────────────────────────────────────────────────────────────
+gs4_deauth()
 
-# Get sheet names from current leadership listing
-sheet_names <- excel_sheets("Leadership_2025-26.xlsx")
+# ── Data ──────────────────────────────────────────────────────────────
+cmts <- read_sheet("https://docs.google.com/spreadsheets/d/17aXj7E4OE-vIgnRkNVZyw8BBjJ1MoXuroS71IqJ9rsI/edit?usp=sharing")
 
-# Function to parse markdown-style links [text](url) into HTML links
+leadership_url <- "https://docs.google.com/spreadsheets/d/16RGHgDI7snPwaHfvF1gxTLAMet1V5_kM_4iHog2h7m8/edit?usp=sharing"
+sheet_names <- sheet_names(leadership_url)
+
+combined_data <- bind_rows(
+  lapply(sheet_names, function(sheet_name) {
+    read_sheet(leadership_url, sheet = sheet_name) |>
+      mutate(sheet_name = sheet_name)
+  })
+)
+
+members <- combined_data |>
+  rename(key = sheet_name) |>
+  select(key, Position, Name, Email, Term, Additional)
+
+# ── Helpers ───────────────────────────────────────────────────────────
+
+obfuscate_email <- function(email) {
+  encoded <- base64enc::base64encode(charToRaw(email))
+  tags$a(
+    href = "#",
+    class = "obfuscated-email",
+    `data-email` = encoded,
+    onclick = "this.href='mailto:'+atob(this.dataset.email);",
+    email
+  )
+}
+
 parse_markdown_links <- function(text) {
-  # Handle vectors, NULLs, and NAs
   if (is.null(text)) return(NULL)
   if (length(text) == 0) return(NULL)
   if (length(text) > 1) text <- text[1]
   if (is.na(text) || text == "") return(NULL)
-  
-  # Pattern for [text](url)
+
   pattern <- "\\[([^\\]]+)\\]\\(([^)]+)\\)"
-  
-  # Check if there are any matches - if not, return as-is wrapped in span
+
   if (!str_detect(text, pattern)) return(span(text))
-  
-  # Extract all matches
+
   matches <- str_match_all(text, pattern)[[1]]
-  
-  # Split text around the links and build tagList
   result_parts <- list()
   remaining_text <- text
-  
- for (i in seq_len(nrow(matches))) {
+
+  for (i in seq_len(nrow(matches))) {
     full_match <- matches[i, 1]
-    link_text <- matches[i, 2]
-    url <- matches[i, 3]
-    
-    # Find position of this match
+    link_text  <- matches[i, 2]
+    url        <- matches[i, 3]
+
     match_pos <- str_locate(remaining_text, fixed(full_match))
-    
-    # Add text before the link
+
     if (match_pos[1] > 1) {
-      before_text <- str_sub(remaining_text, 1, match_pos[1] - 1)
-      result_parts <- c(result_parts, list(before_text))
+      result_parts <- c(result_parts, list(str_sub(remaining_text, 1, match_pos[1] - 1)))
     }
-    
-    # Add the link as an actual tag object
+
     result_parts <- c(result_parts, list(tags$a(href = url, link_text, target = "_blank")))
-    
-    # Update remaining text
     remaining_text <- str_sub(remaining_text, match_pos[2] + 1)
   }
-  
-  # Add any remaining text after the last link
+
   if (nchar(remaining_text) > 0) {
     result_parts <- c(result_parts, list(remaining_text))
   }
-  
-  # Return as tagList so htmltools renders it properly
- tagList(result_parts)
+
+  tagList(result_parts)
 }
 
-# Helper function for committee fields
 cmt_field <- function(name, content) {
-  # Handle NULL
   if (is.null(content)) return(NULL)
-  
-  # Handle vectors
   if (is.character(content) && length(content) > 1) content <- content[1]
-  
-  # Handle NA and empty strings
   if (is.character(content) && (is.na(content) || content == "")) return(NULL)
-  
   tagList(div(class = "detail-label", name), div(content))
 }
 
-# Read in the Excel file and store it as a list of data frames with sheet names as column
-excel_data <- lapply(sheet_names, function(sheet_name) {
-  read_excel("Leadership_2025-26.xlsx", sheet = sheet_name) |> 
-    mutate(sheet_name = sheet_name)
-})
-
-# Combine the data frames into a single data frame
-combined_data <- bind_rows(excel_data)
-members <- combined_data |>
-  rename(key = sheet_name) |> 
-  select(`key`, `Position`, `Name`, `Term`, `Additional`)
+# ── Row details ───────────────────────────────────────────────────────
 
 row_details <- function(index) {
   cmt <- cmts[index, ]
-  
-  # Build email contact section
-  email_content <- if (!is.null(cmt$email) && length(cmt$email) > 0 && !is.na(cmt$email[1])) {
-    lapply(cmt$email, function(email) {
-      if (is.na(email)) return(NULL)
-      if (grepl("@", email)) tags$a(href = paste0("mailto:", email), email)
-      else if (identical(email, ",")) ", "
-      else NULL
-    })
+
+  # Get chair/co-chair rows
+  chair_rows <- members |> 
+    filter(key == cmt$key[1], Position %in% c("Chair", "Co-chair", "Co-Chair"))
+
+  # Build chair name display
+  chair_name <- if (nrow(chair_rows) > 0) {
+    paste(chair_rows$Name, collapse = " & ")
+  } else {
+    cmt$chair[1]
+  }
+
+  # Build email content for all chairs
+  email_content <- if (nrow(chair_rows) > 0) {
+    emails <- chair_rows$Email
+    result <- list()
+    for (i in seq_along(emails)) {
+      email <- emails[i]
+      if (!is.null(email) && !is.na(email) && grepl("@", email)) {
+        if (i > 1) result <- c(result, list(", "))
+        result <- c(result, list(obfuscate_email(email)))
+      }
+    }
+    result
+  } else if (!is.null(cmt$email[1]) && !is.na(cmt$email[1])) {
+    list(obfuscate_email(cmt$email[1]))
   } else {
     NULL
   }
-  
+
   detail <- div(
     class = "committee-detail",
-    div(class = "detail-header", cmt$name[1],
-      span(
-        class = "detail-title", 
-        paste("Chair:", cmt$chair[1])
-      )
+    div(
+      class = "detail-header", cmt$name[1],
+      span(class = "detail-title", paste("Chair:", chair_name))
     ),
     div(class = "detail-description", parse_markdown_links(cmt$description)),
     cmt_field("Responsibilities", parse_markdown_links(cmt$responsibilities)),
     cmt_field("Relation to AP-LS Vision, Mission and Values", parse_markdown_links(cmt$values)),
     cmt_field("Additional", parse_markdown_links(cmt$other)),
-    if (!is.null(email_content)) {
+    if (!is.null(email_content) && length(email_content) > 0) {
       tagList(div(class = "detail-label", "Contact"), div(email_content))
     }
   )
@@ -147,40 +163,56 @@ row_details <- function(index) {
         pagination = FALSE,
         defaultColDef = colDef(headerClass = "header"),
         columns = list(
-          Position = colDef(name = "Position"),
-          Name = colDef(name = "Name"),
-          Term = colDef(name = "Term"),
-          key = colDef(show = FALSE),
+          Position   = colDef(name = "Position"),
+          Name       = colDef(name = "Name"),
+          Term       = colDef(name = "Term"),
+          key        = colDef(show = FALSE),
+          Email      = colDef(show = FALSE),
           Additional = colDef(show = FALSE)
         ),
         class = "members-table",
-        theme = reactableTheme(cellPadding = "8px 12px")
+        theme = reactableTheme(
+          color           = "var(--apls-fg)",
+          backgroundColor = "var(--apls-card-bg)",
+          borderColor     = "var(--apls-border)",
+          cellPadding     = "8px 12px"
+        )
       )
     )
     detail <- tagAppendChild(detail, membership)
   }
-  
+
   detail
 }
 
+# ── Table ─────────────────────────────────────────────────────────────
+
 tbl <- reactable(
-  cmts[, c("name", "chair")],
+  cmts[, c("name")],
   defaultPageSize = 30,
   onClick = "expand",
   defaultColDef = colDef(headerClass = "header"),
   columns = list(
-    name = colDef(name = "", minWidth = 250, class = "committee-title", cell = function(value) {
-      span(title = value, value)
-    }),
-    chair = colDef(show = FALSE)
+    name = colDef(
+      name = "", minWidth = 250, class = "committee-title",
+      cell = function(value) span(title = value, value)
+    )
   ),
   details = row_details,
   wrap = TRUE,
   class = "committees-table",
   rowStyle = list(cursor = "pointer"),
   theme = reactableTheme(
-    highlightColor = '#FBF9F4',
-    cellPadding = "8px 12px"
+    color                  = "var(--apls-fg)",
+    backgroundColor        = "var(--apls-card-bg)",
+    borderColor            = "var(--apls-border)",
+    stripedColor           = "var(--apls-card-bg-alt)",
+    highlightColor         = "var(--apls-bg-alt)",
+    inputStyle             = list(backgroundColor = "var(--apls-card-bg)"),
+    selectStyle            = list(backgroundColor = "var(--apls-card-bg)"),
+    pageButtonHoverStyle   = list(backgroundColor = "var(--apls-bg-alt)"),
+    pageButtonActiveStyle  = list(backgroundColor = "var(--apls-bg-alt)"),
+    cellPadding            = "8px 12px"
   )
 )
 

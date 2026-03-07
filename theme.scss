@@ -1,0 +1,295 @@
+/*-- scss:defaults --*/
+
+// ── Fixed palette extensions ──────────────────────────────────────────
+$steel:   #4271B3;
+$gold:    #ffcc00;
+$yellow:  #ffcc00;
+
+// ── Brand color aliases (mirror _brand.yml palette) ──────────────────
+$cream:       #FBF9F4;
+$dark-bg:     #191E29;
+$dark-bg-alt: #0B0E14;
+$dark-light:  #E1E8F5;
+
+$blue-90: #e8ebf0;
+$blue-80: #d1d6e0;
+$blue-70: #bbc2d1;
+$blue-60: #a4adc1;
+$blue-50: #8d99b2;
+$blue-40: #7684a2;
+$blue-30: #5f7093;
+$blue-20: #495b83;
+$blue-10: #324774;
+
+$gray:      #737475;
+$gray-50:   #f5f5f5;
+$gray-100:  #f8f9fa;
+$gray-200:  #ecf0f1;
+$gray-300:  #dee2e6;
+$gray-400:  #ced4da;
+$gray-500:  #b4bcc2;
+$gray-600:  #95a5a6;
+$gray-700:  #7b8a8b;
+$gray-800:  #343a40;
+$gray-900:  #212529;
+$gray-dark: #343a40;
+
+// ── Font scale ────────────────────────────────────────────────────────
+$font-size-base: 1rem;
+$h1-font-size:   $font-size-base * 2.8;
+$h2-font-size:   $font-size-base * 2.4;
+$h3-font-size:   $font-size-base * 2.0;
+$h4-font-size:   $font-size-base * 1.5;
+$h5-font-size:   $font-size-base * 1.2;
+$h6-font-size:   $font-size-base * 1.0;
+
+$headings-font-weight: 600;
+
+// ── Component spacing ─────────────────────────────────────────────────
+$card-spacer-x:             1.5rem;
+$card-cap-padding-y:        1rem;
+$card-cap-padding-x:        1.5rem;
+$list-group-item-padding-y: 1rem;
+$list-group-item-padding-x: 1.5rem;
+
+// ── REMOVED from defaults — now handled by _brand.yml ─────────────────
+// DO NOT redeclare these here. _brand.yml supplies light/dark values
+// and Quarto injects them correctly per mode. Redeclaring them here
+// with hardcoded values breaks dark mode:
+//
+// $body-bg          → comes from color.background in _brand.yml
+// $body-color       → comes from color.foreground in _brand.yml
+// $primary          → comes from color.primary in _brand.yml
+// $secondary        → comes from color.secondary in _brand.yml
+// $headings-color   → let Darkly/Flatly set this
+// $navbar-bg        → let Darkly/Flatly set this
+// $navbar-fg        → let Darkly/Flatly set this
+// $footer-bg        → let Darkly/Flatly set this
+// $code-bg          → let Darkly/Flatly set this
+// $code-color       → let Darkly/Flatly set this
+// $link-hover-color → let Darkly/Flatly set this
+// $text-muted       → let Darkly/Flatly set this
+// $info             → comes from color.info in _brand.yml
+
+
+/*-- scss:rules --*/
+
+// ===========================
+// APLS CSS CUSTOM PROPERTIES
+// ===========================
+
+:root,
+body {
+  --apls-fg:              #{$body-color};
+  --apls-bg:              #{$body-bg};
+  --apls-bg-alt:          #{$secondary};
+  --apls-bg-raised:       #{lighten($body-bg, 3%)};
+
+  --apls-primary:         #{$primary};
+  --apls-primary-light:   #{$steel};
+  --apls-primary-dark:    #{$blue-10};
+
+  --apls-accent:          #{$gold};
+  --apls-accent-contrast: #{$body-bg};
+
+  --apls-banner-bg:       #{$blue-10};
+  --apls-banner-fg:       #{$cream};
+
+  --apls-heading:         #{$headings-color};
+  --apls-muted:           #{$text-muted};
+  --apls-link:            #{$link-color};
+  --apls-link-hover:      #{$link-hover-color};
+
+  --apls-border:          #{$gray-300};
+  --apls-border-soft:     #{$gray-50};
+
+  --apls-nav-bg:          #{$navbar-bg};
+  --apls-nav-fg:          #{$navbar-fg};
+  --apls-nav-hl:          #{$yellow};
+
+  --apls-card-bg:         color-mix(in srgb, var(--apls-bg) 90%, white 10%);
+  --apls-card-bg-alt:     color-mix(in srgb, var(--apls-bg) 80%, white 10%);
+
+  --apls-code-bg:         #{$code-bg};
+  --apls-code-fg:         #{$body-color};
+
+  --apls-shadow:
+    0.3px 0.5px 0.7px hsl(216 48% 28% / 0.34),
+    0.4px 0.8px 1px -1.2px hsl(216 48% 28% / 0.34),
+    1px 2px 2.5px -2.5px hsl(216 48% 28% / 0.34);
+  --apls-shadow-hover:
+    0.3px 0.5px 0.7px hsl(216 48% 28% / 0.36),
+    0.8px 1.6px 2px -0.8px hsl(216 48% 28% / 0.36),
+    2.1px 4.1px 5.2px -1.7px hsl(216 48% 28% / 0.36),
+    5px 10px 12.6px -2.5px hsl(216 48% 28% / 0.36);
+}
+
+[data-bs-theme="dark"],
+.quarto-dark {
+  --apls-banner-bg:    #{$dark-bg-alt};
+  --apls-banner-fg:    #{$dark-light};
+  --apls-primary:      #{$blue-40};
+  --apls-primary-light: #{$blue-60};
+}
+// ===========================
+// BASE ELEMENT OVERRIDES
+// ===========================
+
+body {
+  background-color: var(--apls-bg);
+  color: var(--apls-fg);
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: var(--apls-heading);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--apls-heading);
+}
+
+// ── Links ─────────────────────────────────────────────────────────────
+
+a,
+a:link,
+a:visited {
+  color: var(--apls-primary);
+}
+
+a:hover,
+a:focus {
+  color: var(--apls-muted);
+}
+
+// ── Pagination ────────────────────────────────────────────────────────
+
+.pagination {
+  .page-link {
+    color: var(--apls-primary);
+    background-color: var(--apls-card-bg);
+    border-color: var(--apls-border);
+
+    &:hover,
+    &:focus {
+      color: var(--apls-nav-fg);
+      background-color: var(--apls-primary);
+      border-color: var(--apls-primary);
+    }
+  }
+
+  .page-item.active .page-link {
+    color: var(--apls-nav-fg);
+    background-color: var(--apls-primary);
+    border-color: var(--apls-primary);
+  }
+
+  .page-item.disabled .page-link {
+    color: var(--apls-muted);
+    background-color: var(--apls-card-bg);
+    border-color: var(--apls-border);
+  }
+}
+
+// ── Quarto-specific link contexts ─────────────────────────────────────
+
+.quarto-listing a,
+.quarto-post a,
+.listing-description a,
+.quarto-grid-item a {
+  color: var(--apls-primary);
+
+  &:hover {
+    color: var(--apls-primary-light);
+  }
+}
+
+.listing-title a {
+  color: var(--apls-heading);
+
+  &:hover {
+    color: var(--apls-primary);
+  }
+}
+
+#TOC a {
+  color: var(--apls-primary);
+
+  &:hover {
+    color: var(--apls-primary-light) !important;
+  }
+
+  &.active {
+    color: var(--apls-nav-fg);
+    font-weight: 600;
+  }
+}
+
+// ── Listing category counts ───────────────────────────────────────────
+
+#quarto-margin-sidebar {
+  .quarto-listing-category {
+    .quarto-category-count {
+      color: var(--apls-muted) !important;
+      font-weight: 200;
+      font-size: 0.8rem;
+    }
+
+    .category {
+      color: var(--apls-primary);
+      padding-bottom: 0.5rem;
+
+      &:hover {
+        color: var(--apls-primary-light);
+      }
+
+      &.active {
+        font-weight: 600;
+        color: var(--apls-primary);
+      }
+    }
+  }
+}
+
+.nav-footer a {
+  color: var(--apls-nav-fg);
+
+  &:hover {
+    color: var(--apls-nav-hl);
+  }
+}
+
+// ── Code ──────────────────────────────────────────────────────────────
+
+pre.text,
+pre.sourceCode,
+.cell-output pre {
+  font-size: 0.75rem;
+  background-color: var(--apls-code-bg) !important;
+  color: var(--apls-code-fg) !important;
+}
+
+code {
+  background-color: var(--apls-code-bg);
+  color: var(--apls-code-fg);
+}
+
+
+// ===========================
+// PARTIAL IMPORTS
+// ===========================
+
+@import '_partials/navbar';
+@import '_partials/footer';
+@import '_partials/layout';
+@import '_partials/cards';
+@import '_partials/components';
+@import '_partials/listings';
+@import '_partials/tables';
+@import '_partials/pricing';

@@ -2,102 +2,32 @@
 title: "Leadership"
 title-block-banner: "../images/default-banner.svg"
 toc: false
+listing:
+  - id: ec
+    contents: executive-committee.yml
+    template: ../_partials/about/leadership-grid.ejs
+  - id: conf-chairs
+    contents: conf-chairs.yml
+    template: ../_partials/about/leadership-grid.ejs
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 source("../assets/apls_functions.R")
+
+## uncomment this to update committee listing based on ec-leadership sheet on google drive
+#source("_update-ec.R")
+
 ```
 
 # Officers of the Executive Committee
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
 
-content = rowwise_table(
-  ~name, ~image, ~url, ~text,
-  "Randy Salekin", "presidents/img/randy_salekin.jpg", "mailto:rsalekin@ua.edu",
-  "President",
-  "Virginia Barber Rioja", "presidents/img/virginia_rioja.png", "mailto:rsalekin@ua.edu",
-  "President Elect",
-  "Christian Meissner", "presidents/img/christian_meissner.jpeg", "mailto:cameissn@iastate.edu",
-  "Past President"
-)
-div(class = "officer-grid",
-  pmap(content, function(name, image, url, text) {
-    div(class = "officer-grid__item",
-      div(class = "officer-grid__image-container",
-        img(class = "officer-grid__image", src = image)
-      ),
-      div(class = "officer-grid__text",
-        h3(class = "officer-grid__name",
-          a(class = "officer-grid__link", href = url, name)
-        ),
-        text
-      )
-    )
-  })
-)
-```
-
-
-
-::: vspace
+::: {#ec}
 :::
 
-```{r}
-#| echo: false
-content = rowwise_table(
-  ~name, ~icon, ~url, ~text,
-  "Lindsay Malloy", "", "mailto:Lindsay.Malloy@ontariotechu.ca", "Secretary",
-  "Jennifer Perillo", "", "mailto:treasurer@ap-ls.org", "Treasurer",
-  "Virginia Barber-Rioja", "", "mailto:vibarber@hotmail.com", "Member-at-large",
-  "Caitlin Cavanagh", "", "mailto:natalie.anumba@umassmed.edu", "Member-at-large",
-  "Jessica Salerno", "", "mailto:caitcav@msu.edu", "Member-at-large",
-  "Jennifer Groscup", "", "mailto:jgroscup@scrippscollege.edu", "APA Council Representative",
-  "Lavita Nadkarni", "", "mailto:Lavita.nadkarni@du.edu", "APA Council Representative",
-  "Cassidy White", "", "mailto:students@ap-ls.org", "Student Committee Chair",
-  	"Dave DeMatteo", "", "mailto:david.dematteo@drexel.edu", "Law & Human Behavior editor",
-  "Meg Ternes", "", "mailto:meg.ternes@smu.ca", "Newsletter editor",
-  "Monica Miller", "", "mailto:mkmiller@unr.edu", "Book Series editor",
-  "Ana Belmonte", "", "mailto:webmaster@ap-ls.org", "Website editor"
-)
-div(class = "grid grid-three",
-  pmap(content, function(name, icon, url, text, objective) {
-      div(class = "grid__item",
-        h3(class = "grid__title",
-          tags$i(class = sprintf("bi-%s grid__title-icon", icon)),
-          span(class = "grid__title-name", name)
-        ),
-        p(class = "grid__text", text),
-        a(href = url, span(class = "grid__link-box"))
-      )
-  })
-)
-```
+## 2026 Conference Co-Chairs
 
-## 2025 Conference Co-Chairs
+::: {#conf-chairs}
+:::
 
-```{r}
-#| echo: false
-content = rowwise_table(
-  ~name, ~icon, ~url, ~text,
-  "Heath Hedges", "", "mailto:conference@ap-ls.org", "2026 AP-LS Conference",
-  "Luna Filipovic Hawkins", "", "mailto:conference@ap-ls.org", "2026 AP-LS Conference"
- 
-)
-div(class = "officer-grid grid-two",
-  pmap(content, function(name, icon, url, text, objective) {
-      div(class = "grid__item",
-        h3(class = "grid__title",
-          tags$i(class = sprintf("bi-%s grid__title-icon", icon)),
-          span(class = "grid__title-name", name)
-        ),
-        p(class = "grid__text", text),
-        a(href = url, span(class = "grid__link-box"))
-      )
-  })
-)
-```
 

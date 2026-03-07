@@ -1,0 +1,29 @@
+```{=html}
+<div class="officer-grid">
+<% for (const item of items.filter(i => ['President', 'President Elect', 'Past President'].includes(i.text))) { %>
+  <div class="officer-grid__item">
+    <div class="officer-grid__image-container">
+      <img class="officer-grid__image" src="<%= item.image %>">
+    </div>
+    <div class="officer-grid__text">
+      <h3 class="officer-grid__name">
+        <a class="officer-grid__link" href="<%= item.url %>"><%= item.name %></a>
+      </h3>
+      <%= item.text %>
+    </div>
+  </div>
+<% } %>
+</div>
+
+<div class="grid grid-three">
+<% for (const item of items.filter(i => !['President', 'President Elect', 'Past President'].includes(i.text))) { %>
+  <div class="grid__item">
+    <h3 class="grid__title">
+      <span class="grid__title-name"><%= item.name %></span>
+    </h3>
+    <p class="grid__text"><%= item.text %></p>
+    <a href="<%= item.url %>"><span class="grid__link-box"></span></a>
+  </div>
+<% } %>
+</div>
+```

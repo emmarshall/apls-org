@@ -1,39 +1,41 @@
-``` {=html}
-
+```{=html}
 <div class="list grid" style="column-gap: 10px;">
-
   <% for (const item of items) { %>
-   <div class="card event-card quarto-grid-item rounded-3 g-col-12 g-col-sm-6 mb-2" <%= metadataAttrs(item) %>>
-   
-   <a href="<%- item.url %>">
+  <div class="card event-card quarto-grid-item rounded-3 g-col-12 g-col-sm-6 mb-2" <%= metadataAttrs(item) %>>
+
+    <a href="<%- item.url %>">
       <img src="<%- item.image %>" alt="<%- item.title %>" class="card-img-top"/>
     </a>
-    
-       <div class="card-body card-text py-1 px-2 inline-block">
-       <% if (item.title) { %>
-            <h5 class="no-anchor card-title listing-title"><%= item.title %></h5>
-          <% } %>
-          
-          <% if (item.location) { %>
-            <div class="text-muted card-details"><i class="bi bi-geo-alt-fill" style="color: red;"></i> <%= item.location %></div>
-          <% } %>
+
+    <div class="card-body card-text py-1 px-2">
+
+      <% if (item.title) { %>
+      <h5 class="no-anchor card-title listing-title"><%= item.title %></h5>
+      <% } %>
+
+      <% if (item.location) { %>
+      <div class="card-details">
+        <i class="bi bi-geo-alt-fill" style="color: #e74c3c;"></i> <%= item.location %>
       </div>
-        
-        
- 
-          <% if (item.url) { %>
-          <div class="card-read-more">
+      <% } %>
 
-              <a href="<%= item.url %>" class="btn btn-link btn-block">View More <i class="bi bi-arrow-right-short"></i></a>
-          <% } else { %>
-          <div class="card-read-more">
+    </div>
 
-            <a href="#" class="btn btn-link btn-block"> <i class="bi bi-wifi-off"></i></a>
-            <% } %>
-            </div>
-</div>
-        
+    <% if (item.url) { %>
+    <div class="card-read-more">
+      <a href="<%= item.url %>" class="btn btn-link btn-block">
+        View More <i class="bi bi-arrow-right-short"></i>
+      </a>
+    </div>
+    <% } else { %>
+    <div class="card-read-more">
+      <a href="#" class="btn btn-link btn-block">
+        <i class="bi bi-wifi-off"></i>
+      </a>
+    </div>
+    <% } %>
+
+  </div>
   <% } %>
 </div>
-
 ```

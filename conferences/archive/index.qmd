@@ -9,7 +9,7 @@ listing:
     categories: false
     sort-ui: true
     template: conference-listing.ejs
-    page-size: 36
+    page-size: 40
 ---
 
 ::: {#conferences}

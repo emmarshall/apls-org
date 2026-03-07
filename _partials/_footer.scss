@@ -1,0 +1,39 @@
+.nav-footer {
+  background-color: var(--apls-nav-bg);
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border: 0 !important;
+  min-height: 3rem;
+
+  a { color: var(--apls-nav-fg); }
+
+  .faux-block { display: block; padding-bottom: 0.4rem; }
+
+  .nav-footer-center {
+    text-align: center;
+    position: inherit;
+    margin-top: 0;
+
+    @media (max-width: map-get($grid-breakpoints, md)) {
+      margin-top: 0.5em;
+      margin-bottom: 1.5em;
+    }
+  }
+
+  .nav-footer-left,
+  .nav-footer-right,
+  .nav-footer-center {
+    text-align: center;
+    width: 100%;
+    min-height: 2em;
+  }
+
+  @media (min-width: map-get($grid-breakpoints, md)) {
+    .nav-footer-left  { text-align: left; }
+    .nav-footer-right { text-align: right; }
+
+    .nav-footer-left,
+    .nav-footer-right,
+    .nav-footer-center { flex: 1 1 33%; }
+  }
+}

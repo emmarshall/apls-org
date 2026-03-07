@@ -117,34 +117,6 @@ generate_info_bar <- function(info) {
 }
 
 
-## Function to make accordion objects
-make_accordion <- function(titles, contents) {
-  # Create a list of accordion items
-  items <- lapply(seq_along(titles), function(i) {
-    item_header <- tags$h2(class = "accordion-header", 
-                           tags$button(class = "accordion-button", 
-                                       type = "button", 
-                                       `data-bs-toggle` = "collapse", 
-                                       `data-bs-target` = paste0("#collapse", i), 
-                                       `aria-expanded` = ifelse(i == 1, "true", "false"), 
-                                       `aria-controls` = paste0("collapse", i), 
-                                       titles[i]))
-    item_body <- tags$div(class = ifelse(i == 1, "accordion-collapse collapse show", "accordion-collapse collapse"), 
-                          id = paste0("collapse", i), 
-                          `aria-labelledby` = paste0("heading", i), 
-                          `data-bs-parent` = "#accordionExample", 
-                          tags$div(class = "accordion-body", contents[i]))
-    tags$div(class = "accordion-item", item_header, item_body)
-  })
-  
-  # Combine the list of items into a single tag object
-  accordion <- tags$div(class = "accordion", id = "accordionExample", items)
-  
-  # Return the accordion tag object
-  return(accordion)
-}
-
-
 
 #Function to make rowwise_tables for 'data.table' credit to mlr3misc pkg 
 
@@ -196,6 +168,7 @@ rowwise_table = function(..., .key = NULL) {
   }
   tab
 }
+
 
 
 

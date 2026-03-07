@@ -1,0 +1,145 @@
+// ── Navbar base ───────────────────────────────────────────────────────
+
+.navbar {
+  background-color: var(--apls-nav-bg);
+  color: var(--apls-nav-fg);
+  min-height: 60px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+  .navbar-brand,
+  .navbar-text,
+  .nav-link,
+  .navbar-toggler {
+    color: var(--apls-nav-fg);
+  }
+
+  .navbar-toggler {
+    border-color: var(--apls-nav-fg);
+  }
+
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+}
+
+// ── Navbar brand ──────────────────────────────────────────────────────
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand-container {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-title {
+  font-size: 1.75rem;
+  line-height: 1;
+  color: var(--apls-nav-fg);
+}
+
+// ── Nav links ─────────────────────────────────────────────────────────
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 1.3rem;
+  line-height: 1;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: var(--apls-nav-fg);
+
+  &:hover {
+    color: var(--apls-nav-hl);
+  }
+
+  &.active {
+    color: var(--apls-nav-hl);
+  }
+}
+
+#navbarCollapse > ul > li > a:hover,
+#navbarCollapse > ul > li > a.nav-link.active {
+  color: var(--apls-nav-hl);
+}
+
+// ── Underline animation (desktop only) ───────────────────────────────
+
+@media screen and (min-width: 992px) {
+  a.nav-link {
+    position: relative;
+  }
+
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+
+    &::after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background-color: var(--apls-nav-hl);
+      width: 0%;
+      content: "";
+      height: 4px;
+      transition: all 0.3s;
+    }
+
+    &:hover::after {
+      width: 90%;
+    }
+  }
+}
+
+// ── Consistent height on all page types ──────────────────────────────
+// ── Remove gap between navbar and title banner ────────────────────────
+
+#quarto-document-content,
+#quarto-content,
+.quarto-title-block {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.quarto-title-banner {
+  margin-top: 0 !important;
+}
+
+#quarto-header .navbar,
+body.quarto-title-banner-page .navbar {
+  min-height: 60px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+// ── Quarto title banner ───────────────────────────────────────────────
+
+.quarto-title-banner {
+  background-color: var(--apls-banner-bg);
+  color: var(--apls-banner-fg);
+  margin-top: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  .quarto-title .title {
+    color: var(--apls-banner-fg);
+  }
+
+  .quarto-title-meta,
+  .quarto-title-meta-heading,
+  .quarto-title-meta-contents {
+    color: var(--apls-banner-fg);
+  }
+
+  .quarto-categories .quarto-category {
+    color: var(--apls-banner-fg);
+    border-color: var(--apls-banner-fg);
+    background-color: transparent;
+    opacity: 0.85;
+  }
+}

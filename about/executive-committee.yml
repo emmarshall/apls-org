@@ -1,0 +1,51 @@
+- name: Randy Salekin
+  text: President
+  url: mailto:rsalekin@ua.edu
+  image: presidents/imgs/randy_salekin.jpg
+- name: Christian Meissner
+  text: Past President
+  url: mailto:cameissn@iastate.edu
+  image: presidents/imgs/christian_meissner.jpeg
+- name: Virginia Barber Rioja
+  text: President Elect
+  url: mailto:vibarber@hotmail.com
+  image: presidents/imgs/virginia_barber-rioja.png
+- name: Lindsay Malloy
+  text: Secretary
+  url: mailto:Lindsay.Malloy@ontariotechu.ca
+- name: Jennifer Perillo
+  text: Treasurer
+  url: mailto:jtperillo@salud.unm.edu
+- name: Ashley Batastini
+  text: Member-at-Large
+  url: mailto:abatastini@swin.edu.au
+- name: Caitlin Cavanagh
+  text: Member-at-Large
+  url: mailto:caitcav@msu.edu
+- name: Jessica Salerno
+  text: Member-at-Large
+  url: mailto:jessica.salerno@gmail.com
+- name: Jen Groscup
+  text: APA Council Representative
+  url: mailto:jgroscup@scrippscollege.edu
+- name: Lavita Nadkarni
+  text: APA Council Representative
+  url: mailto:Lavita.nadkarni@du.edu
+- name: Cassidy White
+  text: Student Committee Chair
+  url: mailto:CSWhite7@crimson.au.edu
+- name: Monica Miller
+  text: Book Series Editor
+  url: mailto:mkmiller@unr.edu
+- name: Dave DeMatteo
+  text: Law and Human Behavior Editor
+  url: mailto:david.dematteo@drexel.edu
+- name: Meg Ternes
+  text: Newsletter Editor
+  url: mailto:Meg.Ternes@smu.ca
+- name: Ana Belmonte
+  text: Website Editor
+  url: mailto:anabelmontepsyd@gmail.com
+- name: Sidra Capriolo
+  text: Incoming Student Committee Chair
+  url: mailto:smcapriolo@crimson.ua.edu

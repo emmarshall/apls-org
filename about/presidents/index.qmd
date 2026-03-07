@@ -3,7 +3,7 @@ pagetitle: "Welcome From Our President"
 about: 
   id: hero-heading
   template: trestles
-  image: img/randy_salekin.jpg
+  image: imgs/randy_salekin.jpg
   image-shape: round
   image-width: 14em
   links:

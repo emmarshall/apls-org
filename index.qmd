@@ -30,6 +30,8 @@ carousel("gallery-carousel", 5000,
 
 :::
 
+::: {.alt-background}
+
 ::: {#gallery .column-page}
 :::
 
@@ -80,6 +82,7 @@ padding-bottom: 1rem;
 ```
 
 :::
+:::
 
 ::: {.column-screen}
 ::: grid
@@ -93,7 +96,7 @@ padding-bottom: 1rem;
 content = rowwise_table(~name, ~icon, ~link,
                         "About", "info-circle-fill", "about/index.html",
   "Committees", "person-rolodex", "about/committees.html",
-    "Conference", "easel2-fill", "conferences/index.html", 
+    "Membership", "people-fill", "membership/index.html", 
     "Funding", "award-fill", "awards/index.html",
     "Students", "mortarboard-fill", "resources/students.html"
   
@@ -131,7 +134,7 @@ div(class = "bg-light",
 ::: vspace
 ::: 
 
-![](about/presidents/img/randy_salekin.jpg){.avatar}
+![](about/presidents/imgs/randy_salekin.jpg){.avatar}
 
 # Welcome from Our President
 ::: vspace
@@ -154,9 +157,11 @@ div(class = "bg-light",
 ::: column-screen
 ::: {.simple-info-blue .alt-background-blue}
 ::: content-block-blue
-##### Want to learn more about Division 41 of APA and the American Psychology-Law Society? 
+### Get ready for the 2026 American Psychology-Law Society Conference!
 
-[Membership {{< fa arrow-right >}}](membership/index.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
+Reno, Nevada---March 12-14
+
+[Learn more {{< fa arrow-right >}}](conferences/index.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
 :::
 :::
 
@@ -167,7 +172,7 @@ div(class = "bg-light",
 
 ::: {.column .col-v-center width="70%"}
 
-::: vspace
+::: vspace2
 :::
 
 ```{r}
@@ -179,13 +184,13 @@ resource_grid = function(content) {
     pmap(content, function(category, name, icon, url, text) {
       div(class = "grid__item",
         h3(class = "grid__title",
-          tags$i(class = sprintf("bi-%s grid__title-icon", icon)),
+          tags$i(class = sprintf("bi bi-%s grid__title-icon", icon)),
           HTML("&nbsp;"),
           name
         ),
         p(
-        paste0(text, "."),
-        a(href = url, "aria-label" = sprintf("Go to %s", name), span(class = "grid__link-box"))
+          paste0(text, "."),
+          a(href = url, "aria-label" = sprintf("Go to %s", name), span(class = "grid__link-box"))
         )
       )
     })
@@ -215,13 +220,3 @@ resource_grid(content[.("general")])
 :::
 
 
-
-::: {.simple-info-blue .alt-background-blue}
-::: content-block-blue
-### Get ready for the 2026 American Psychology-Law Society Conference!
-
-Reno, Nevada---March 12-14
-
-[Learn more {{< fa arrow-right >}}](conferences/index.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
-:::
-:::

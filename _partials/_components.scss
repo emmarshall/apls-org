@@ -1,0 +1,194 @@
+// ── Buttons ───────────────────────────────────────────────────────────
+
+.btn-action {
+  min-width: 165px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.btn-action-primary {
+  color: var(--apls-nav-fg);
+  background-color: var(--apls-primary);
+  a       { color: var(--apls-accent); }
+  &:hover { color: var(--apls-accent); background-color: var(--apls-primary-dark); }
+}
+
+.btn-light,
+.btn-outline-primary,
+.btn-outline-light {
+  color: var(--apls-fg);
+  text-transform: uppercase;
+  &:disabled, &.disabled { border: 1px solid var(--apls-border); }
+}
+
+.btn-outline-primary {
+  border-color: var(--apls-primary);
+  color: var(--apls-primary);
+  &:hover, &:active {
+    background-color: var(--apls-primary);
+    border-color: var(--apls-primary);
+    color: var(--apls-nav-fg);
+  }
+}
+
+.btn-outline-light {
+  border-color: var(--apls-border);
+  color: var(--apls-fg);
+  &:hover, &:active {
+    background-color: var(--apls-bg-alt);
+    border-color: var(--apls-border);
+  }
+}
+
+.job-btn {
+  min-width: 130px;
+  height: 40px;
+  color: var(--apls-nav-fg);
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  box-shadow:
+    inset 2px 2px 2px 0 rgba(255,255,255,.2),
+    7px 7px 20px 0 rgba(0,0,0,.2),
+    4px 4px 5px 0 rgba(0,0,0,.1);
+  background: var(--apls-primary);
+  &:hover  { opacity: 0.85; }
+  &:active { top: 2px; }
+}
+
+.job-listing-name {
+  color: var(--apls-nav-fg);
+  &:hover { color: var(--apls-accent); }
+}
+
+// ── Tab panels ────────────────────────────────────────────────────────
+
+.tab-content {
+  border: none;
+  padding: 0;
+  background-color: var(--apls-card-bg);  // was lighten(#FBF9F4, 5%) — hardcoded
+  color: var(--apls-fg);
+}
+
+.tab-pane { padding: 5px; margin: 20px; }
+
+.nav-tabs {
+  border-bottom: none;
+
+  .nav-link {
+    text-align: center;
+    margin: 10px 10px 10px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--apls-fg);         
+    min-width: 102px;
+    border-radius: inherit;
+    border: inherit;
+
+    &:hover  { border-bottom: 4px solid var(--apls-primary); }
+    &.active {
+      color: var(--apls-primary);    // was hardcoded #1B3264
+      border-bottom: 4px solid var(--apls-primary);
+      background-color: transparent;
+    }
+  }
+}
+
+// ── Carousel ─────────────────────────────────────────────────────────
+
+.carousel-caption {
+  position: absolute;
+  text-transform: uppercase;
+  right: 15%; bottom: 1.25rem; left: 15%;
+  padding: 1.1rem 0;
+  color: var(--apls-fg);             // was $body-color — SCSS var baked at compile
+  text-align: center;
+}
+
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon { margin-bottom: 110px; }
+
+.carousel-dark {
+  .carousel-indicators [data-bs-target] { background-color: var(--apls-bg); }
+  .carousel-caption { color: var(--apls-fg); }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 0; bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: var(--apls-fg) !important;  // was $body-color
+  text-align: center;
+  background: none;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+// ── Custom metadata layout ────────────────────────────────────────────
+
+.custom-meta .custom-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+
+  > * { flex: 0 0 100%; margin-bottom: 10px; }
+
+  @include media-breakpoint-up(md) {
+    > *              { flex: 0 0 calc(50% - 10px); }
+    > *:nth-child(2n)   { margin-right: 0; }
+    > *:nth-child(2n+1) { margin-right: 10px; }
+  }
+}
+
+// ── Object table ──────────────────────────────────────────────────────
+
+.object-table__list {
+  display: inline-block;
+  padding: 0; margin: 0;
+  &-item { list-style-type: none; }
+}
+
+
+.about-link {
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--apls-primary);
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    transition: gap 0.2s ease-in-out;
+
+    &::after {
+      content: '→';
+      display: inline-block;
+      opacity: 0;
+      transform: translateX(-6px);
+      transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    }
+
+    &:hover {
+      gap: 0.75rem;
+      color: var(--apls-primary-dark);
+
+      &::after {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  }
+}

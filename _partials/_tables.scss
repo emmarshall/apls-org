@@ -1,0 +1,309 @@
+/*-- scss:rules --*/
+
+// ── Committees (reactable) ────────────────────────────────────────────
+
+.committee-list {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .committees-table {
+    margin-top: 1rem;
+    font-size: 0.9375rem;
+    border: 1px solid var(--apls-border);
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+
+    .header {
+      background-color: var(--apls-primary);
+      border-bottom: 1px solid var(--apls-primary);
+      color: var(--apls-nav-fg);
+
+      &[aria-sort]:hover,
+      &[aria-sort]:focus {
+        color: var(--apls-nav-hl);
+      }
+    }
+
+    .committee-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--apls-primary);
+    }
+
+    .committee-detail {
+      padding: 24px;
+      box-shadow: inset 0 1px 3px var(--apls-border);
+      background-color: var(--apls-card-bg-alt);
+
+      .detail-label {
+        margin: 1.25rem 0 0.25rem;
+        font-size: 0.95rem;
+        color: var(--apls-primary-light);
+        text-transform: uppercase;
+      }
+
+      .detail-header {
+        margin-bottom: 1rem;
+        font-size: 1.35rem;
+        font-weight: 600;
+        color: var(--apls-heading);
+      }
+
+      .detail-title {
+        margin-left: 1rem;
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: var(--apls-fg);
+      }
+
+      .detail-description {
+        font-size: 0.875rem;
+        color: var(--apls-fg);
+      }
+    }
+
+    .members-table {
+      max-width: 75rem;
+      border: 1px solid var(--apls-border);
+      border-radius: 4px;
+      box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.05);
+      font-size: 0.875rem;
+
+      .rt-tbody .rt-tr,
+      .rt-thead .rt-tr {
+        background-color: var(--apls-card-bg);
+        color: var(--apls-fg);
+      }
+    }
+  }
+}
+
+.header[aria-sort="ascending"],
+.header[aria-sort="descending"] {
+  color: var(--apls-muted);
+}
+
+.rt-th {
+  border-bottom: 1px solid var(--apls-border) !important;
+}
+
+// ── Shared reactable dark mode overrides ─────────────────────────────
+
+.rt-table {
+  background-color: var(--apls-card-bg);
+  color: var(--apls-fg);
+}
+
+.rt-thead {
+  background-color: var(--apls-card-bg-alt);
+  color: var(--apls-fg);
+  border-bottom: 1px solid var(--apls-border);
+}
+
+.rt-tbody {
+  .rt-tr {
+    background-color: var(--apls-card-bg);
+    color: var(--apls-fg);
+    border-top: 1px solid var(--apls-border);
+
+    &.-odd {
+      background-color: var(--apls-card-bg-alt);
+    }
+
+    &:hover {
+      background-color: var(--apls-bg-alt);
+    }
+  }
+
+  .rt-td {
+    color: var(--apls-fg);
+    border-right: 1px solid var(--apls-border);
+  }
+}
+
+.rt-th,
+.rt-td {
+  border-right: 1px solid var(--apls-border);
+}
+
+.rt-pagination {
+  background-color: var(--apls-card-bg);
+  color: var(--apls-fg);
+  border-top: 1px solid var(--apls-border);
+
+  .rt-page-button {
+    color: var(--apls-primary);
+    background-color: transparent;
+
+    &:hover,
+    &:focus {
+      background-color: var(--apls-bg-alt);
+    }
+
+    &.-current {
+      color: var(--apls-nav-fg);
+      background-color: var(--apls-primary);
+    }
+  }
+}
+
+// ── Syllabi pill buttons ──────────────────────────────────────────────
+// reactablefmtr inlines hex colors — we override per hex value
+// Light mode uses dark pills with white text
+// Dark mode uses lighter pills with white text
+
+.syllabi-tbl {
+
+  // Nuclear option — target every span and div inside the level column
+  .rt-td:first-child,
+  .rt-td:first-child * {
+    color: #ffffff !important;
+  }
+
+  .rt-td:first-child span,
+  .rt-td:first-child div,
+  .rt-td:first-child div span,
+  .rt-td:first-child span span {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+  }
+
+  // merge_column primary text
+  .rt-td:not(:first-child) div[style*="font-size: 16px"],
+  .rt-td:not(:first-child) div[style*="font-size:16px"] {
+    color: var(--apls-fg) !important;
+  }
+
+  // merge_column secondary text
+  .rt-td:not(:first-child) div[style*="font-size: 13px"],
+  .rt-td:not(:first-child) div[style*="font-size:13px"] {
+    color: var(--apls-muted) !important;
+  }
+
+  // Links inside table cells
+  .rt-td a {
+    color: var(--apls-fg) !important;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--apls-primary-light) !important;
+      text-decoration: underline;
+    }
+  }
+}
+
+// ── Syllabi wrapper ───────────────────────────────────────────────────
+
+.syllabi {
+  h2 {
+    font-weight: 600;
+  }
+
+  a {
+    color: var(--apls-primary);
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+      text-decoration-thickness: max(1px, 0.0625rem);
+    }
+  }
+}
+
+.syllabi-tbl {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+// ── Filters (crosstalk) ───────────────────────────────────────────────
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-left: -32px;
+
+  .filter-checkbox,
+  .filter-input {
+    margin-top: 0.5rem;
+    margin-left: 35px;
+    flex: 1;
+    min-width: 250px;
+
+    label {
+      color: var(--apls-fg);
+      font-weight: 700;
+      font-size: 1.15rem;
+      letter-spacing: 0.4px;
+      text-transform: uppercase;
+    }
+
+    .control-label {
+      margin-bottom: 0;
+      color: var(--apls-muted);
+      vertical-align: middle;
+    }
+  }
+
+  .filter-input select,
+  .filter-input input[type="search"] {
+    padding: 0 0.375rem;
+    height: 2rem;
+    background-color: var(--apls-card-bg);
+    color: var(--apls-fg);
+    border: 1px solid var(--apls-border);
+    border-radius: 4px;
+  }
+}
+
+// ── Responsive stacked layout (mobile) ───────────────────────────────
+
+@media only screen and (max-width: 800px) {
+  .screen-inset .my-reactable-table {
+    font-size: 14px;
+    width: 100%;
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+      display: block;
+    }
+
+    thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+
+    tr {
+      border: 1px solid var(--apls-border);
+    }
+
+    td {
+      border: none;
+      border-bottom: 1px solid var(--apls-border);
+      position: relative;
+      padding-left: 50%;
+      white-space: normal;
+      text-align: left;
+      color: var(--apls-fg);
+    }
+
+    td::before {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      width: 45%;
+      padding-right: 10px;
+      white-space: nowrap;
+      text-align: left;
+      font-weight: bold;
+      color: var(--apls-heading);
+    }
+  }
+}

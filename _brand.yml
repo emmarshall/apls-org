@@ -1,0 +1,74 @@
+meta:
+  name: AP-LS
+
+color:
+  palette:
+    # Light brand colors
+    blue:        "#1B3264"
+    steel:       "#4271B3"
+    cream:       "#FBF9F4"
+    gold:        "#ffcc00"
+    # Dark brand colors
+    dark-bg:     "#191E29"
+    dark-bg-alt: "#0B0E14"
+    dark-light:  "#E1E8F5"
+    dark-gold:   "#ffdc90"
+    dark-yellow: "#FAF61B"
+
+  background:
+    light: cream
+    dark:  dark-bg
+
+  foreground:
+    light: "#212529"
+    dark:  "#fdfdfd"
+
+  primary:
+    light: blue       
+    dark:  "#6B9FD4"  # lightened steel, passes AAA on #191E29 (8.1:1)
+
+  secondary:
+    light: cream
+    dark:  dark-bg-alt
+
+  info:
+    light: steel
+    dark:  steel
+
+  success:    "#2ecc71"
+  warning:
+    light: gold
+    dark:  dark-yellow
+
+  danger:     "#e74c3c"
+  
+  link:
+    light: blue
+    dark: dark-yellow
+
+typography:
+  fonts:
+    - family: Cormorant Garamond
+      source: google
+      weight: [400, 500, 600, 700]
+      style:  [normal, italic]
+    - family: Proza Libre
+      source: google
+      weight: [400, 500, 600, 700, 800]
+      style:  [normal, italic]
+    - family: Poppins
+      source: google
+      weight: [300, 400, 500, 600, 700, 800, 900]
+      style:  [normal, italic]
+
+  base:
+    family: Proza Libre
+    size:   1rem
+    weight: 300
+
+  headings:
+    family: Proza Libre #H2-H6
+    weight: 600
+
+  monospace:
+    family: monospace

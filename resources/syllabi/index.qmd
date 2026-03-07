@@ -50,140 +50,185 @@ library(tippy)
 library(htmlwidgets)
 library(forcats)
 
-syllabi_raw <- readr::read_csv("data/syllabi.csv") 
+# ── Data prep ─────────────────────────────────────────────────────────
 
-syllabi <- syllabi_raw |> 
-  clean_names() |> 
-  # make level variable
-  mutate(date = paste0(semester, " ", year),
-         level = case_when(
-           course_level == "Undergraduate" ~ "Undergrad",
-           course_level == "Graduate" ~ "Graduate",
-           course_level == "Undergraduate, Graduate" ~ "Mixed",
-           TRUE ~ "Other")
-  ) |> 
-  select(level, author_affiliation,
-         author, course_name, date, semester, year, attachment)
+syllabi_raw <- readr::read_csv("data/syllabi.csv")
 
-
-grid <- syllabi |> 
+syllabi <- syllabi_raw |>
+  clean_names() |>
   mutate(
-    #lvl_colors = case_when(level == 'Undergrad' ~ '#4271B3', level == 'Graduate' ~ '#1B3264', level == 'Mixed' ~ '#FBF9F4', TRUE ~ 'grey'),
+    date  = paste0(semester, " ", year),
+    level = case_when(
+      course_level == "Undergraduate"           ~ "Undergrad",
+      course_level == "Graduate"                ~ "Graduate",
+      course_level == "Undergraduate, Graduate" ~ "Mixed",
+      TRUE                                      ~ "Other"
+    )
+  ) |>
+  select(level, author_affiliation, author, course_name,
+         date, semester, year, attachment)
+
+grid <- syllabi |>
+  mutate(
+    lvl_colors = case_when(
+      level == "Undergrad" ~ "#4271B3",  # $steel / --apls-primary-light
+      level == "Graduate"  ~ "#1B3264",  # $blue / --apls-primary
+      level == "Mixed"     ~ "#324774",  # $blue-10 / --apls-banner-bg
+      TRUE                 ~ "#737475"   # $gray / --apls-muted
+    ),
     img = knitr::image_uri("images/file.png")
-) 
+  )
 
+# ── Ordered factors ───────────────────────────────────────────────────
 
-## Make ordered factors for filters 
-grid$level <- factor(grid$level, levels = c("Undergrad", "Graduate", "Mixed", "Other"))
-
-grid$semester <- factor(grid$semester, levels = c("Fall", "Spring", "Summer", "Other"))
-
+grid$level              <- factor(grid$level, levels = c("Undergrad", "Graduate", "Mixed", "Other"))
+grid$semester           <- factor(grid$semester, levels = c("Fall", "Spring", "Summer", "Other"))
 grid$author_affiliation <- fct_infreq(grid$author_affiliation)
 
-# See the ?tippy documentation to learn how to customize tooltips
+# ── Tooltip helper ────────────────────────────────────────────────────
+
 with_tooltip <- function(value, tooltip, ...) {
-  div(style = "cursor: help",
-      tippy(value, tooltip, ...))
+  div(
+    style = "cursor: help",
+    tippy(value, tooltip, ...)
+  )
 }
 
-# Create shared dataset to use with crosstalk
-sd <- SharedData$new(grid |>
-                       select(level, 
-                              #lvl_colors, 
-                              author_affiliation,
-         author, course_name, date, semester, year, attachment, img))
+# ── Shared data ───────────────────────────────────────────────────────
 
-# Make reactable table
-tbl_grid <- reactable(sd,
-                      searchable = FALSE,
-                      showPageSizeOptions = TRUE,
-                      defaultPageSize = 15,
-                      defaultSorted = "year",
-                      defaultSortOrder = "desc",
-                      defaultColDef = colDef(
-                        vAlign = "center",
-                        headerVAlign = "bottom",
-                        headerClass = "header"
-                      ),
-                      columns = list(
-                      level = colDef(
-        header = with_tooltip("Level", "Level of students enrolled in course"),
-        minWidth = 150,
-        align = "left",
-        cell = pill_buttons(
-          grid,
-          opacity = 0.8,
-          #color_ref = 'lvl_colors',
-          text_size = 13,
+sd <- SharedData$new(
+  grid |>
+    select(level, lvl_colors, author_affiliation, author,
+           course_name, date, semester, year, attachment, img)
+)
+
+# ── Table ─────────────────────────────────────────────────────────────
+
+tbl_grid <- reactable(
+  sd,
+  searchable         = FALSE,
+  showPageSizeOptions = TRUE,
+  defaultPageSize    = 15,
+  defaultSorted      = "year",
+  defaultSortOrder   = "desc",
+  defaultColDef = colDef(
+    vAlign      = "center",
+    headerVAlign = "bottom",
+    headerClass = "header"
+  ),
+  columns = list(
+    level = colDef(
+      header   = with_tooltip("Level", "Level of students enrolled in course"),
+      minWidth = 150,
+      align    = "left",
+      cell = pill_buttons(
+  grid,
+  opacity   = 1,
+  text_size = 13
+)
+    ),
+    author = colDef(
+  header   = with_tooltip("Instructor", "Course instructor name & institutional affiliation"),
+  minWidth = 250,
+  cell     = merge_column(
+    grid,
+    merged_name     = "author_affiliation",
+    merged_size     = 13,
+    merged_color    = "#737475",   # $gray
+    merged_position = "below",
+    size            = 16,
+    color           = "#1B3264"    # $blue
+  )
+),
+course_name = colDef(
+  header   = with_tooltip("Course", "Course title & semester"),
+  minWidth = 250,
+  cell     = merge_column(
+    grid,
+    merged_name     = "date",
+    merged_size     = 13,
+    merged_color    = "#737475",   # $gray
+    merged_position = "below",
+    size            = 16,
+    color           = "#1B3264"    # $blue
+  )
+),
+    img = colDef(
+      header     = with_tooltip("Link", "Link to view or download syllabi"),
+      align      = "center",
+      searchable = FALSE,
+      html       = TRUE,
+      cell       = function(value, index) {
+        sprintf(
+          '<a href="%s" target="_blank"><image src="%s" style="width:20px;height:30px;"/></a>',
+          grid$attachment[index], value
+        )
+      }
+    ),
+    date               = colDef(show = FALSE),
+    author_affiliation = colDef(show = FALSE),
+    lvl_colors         = colDef(show = FALSE),
+    attachment         = colDef(show = FALSE),
+    year               = colDef(show = FALSE),
+    semester           = colDef(show = FALSE)
+  ),
+  highlight = TRUE,
+  theme = reactableTheme(
+    color           = "var(--apls-fg)",
+    backgroundColor = "var(--apls-card-bg)",
+    borderColor     = "var(--apls-border)",
+    stripedColor    = "var(--apls-card-bg-alt)",
+    highlightColor  = "var(--apls-bg-alt)",
+    inputStyle = list(
+      backgroundColor = "var(--apls-card-bg)",
+      color           = "var(--apls-fg)",
+      borderColor     = "var(--apls-border)"
+    ),
+    selectStyle = list(
+      backgroundColor = "var(--apls-card-bg)",
+      color           = "var(--apls-fg)"
+    ),
+    headerStyle = list(
+      borderWidth   = "3px",
+      paddingTop    = "12px",
+      verticalAlign = "bottom",
+      textAlign     = "bottom",
+      background    = "var(--apls-primary)",
+      textTransform = "uppercase",
+      borderColor   = "var(--apls-border)",
+      color         = "var(--apls-nav-fg)",
+      fontSize      = "1.3rem",
+      "&:hover[aria-sort]" = list(
+        background = "var(--apls-primary-dark)"
+      ),
+      "&[aria-sort='ascending'], &[aria-sort='descending']" = list(
+        background = "var(--apls-primary-dark)"
       )
     ),
-                        
-                  author = colDef(
-                  header = with_tooltip("Instructor", "Course instructor name & institutional affiliation"),
-                  minWidth = 250,
-                  cell = merge_column(grid, 
-                            merged_name = "author_affiliation",
-                            merged_size = 13,
-                            merged_color = "#343a40",
-                            merged_position = "below",
-                            size = 16,
-                            color = "#1B3264")
-                  ),
-                  course_name = colDef(
-                  header = with_tooltip("Course", "Course title & semester"),
-                  minWidth = 250,
-                  cell = merge_column(grid, 
-                            merged_name = "date",
-                            merged_size = 13,
-                            merged_color = "#343a40",
-                            merged_position = "below",
-                            size = 16,
-                            color = "#1B3264")
-                  ),
-                        date = colDef(show = FALSE),
-                        img = colDef(
-                          header = with_tooltip("Link", "Link to view or download syllabi"),
-                          align = "center",
-                          searchable = FALSE,
-                          html = TRUE, 
-                          cell = function(value, index) {
-                            sprintf('<a href="%s" target="_blank"><image src="%s" style="width:20px;height:30px;"/></a>',
-                                    grid$attachment[index], value)
-                          }
-                        ),
-                        author_affiliation = colDef(show = FALSE),
-                        lvl_colors = colDef(show = FALSE),
-                        attachment = colDef(show = FALSE),
-                        year = colDef(show = FALSE),
-    semester = colDef(show = FALSE)),
-    highlight = TRUE,
-    theme = reactableTheme(
-    headerStyle = list(
-      borderWidth = "3px",
-      paddingTop = "12px",
-      verticalAlign = "bottom",
-      textAlign = "bottom",
-      background = "#1B3264",
-      textTransform = "uppercase",
-      borderColor = "#FBF9F4",
-      color = "#FBF9F4",
-      "&:hover" = list(background = "#333"),
-      "&[aria-sort='ascending'], &[aria-sort='descending']" = list(background = "#5b5e5f"),
-      borderColor = "#333",
-      fontSize = "1.3rem"
+    paginationStyle = list(
+      color           = "var(--apls-fg)",
+      backgroundColor = "var(--apls-card-bg)",
+      borderTop       = "1px solid var(--apls-border)"
     ),
-    paginationStyle = list(color = "#1B3264"),
-    pageButtonHoverStyle = list(backgroundColor = "#FAF61B"),
-    pageButtonActiveStyle = list(backgroundColor = "#FBF9F4")),
-                        class = "syllabi-tbl"
-                        )
+    pageButtonHoverStyle  = list(backgroundColor = "var(--apls-bg-alt)"),
+    pageButtonActiveStyle = list(
+      backgroundColor = "var(--apls-primary)",
+      color           = "var(--apls-nav-fg)"
+    ),
+    cellPadding = "8px 12px"
+  ),
+  class = "syllabi-tbl"
+)
 
-# add title, subtitle, footnote, and source
-tbl <- tbl_grid |> 
-  # footnote and source
+# ── Append footnote ───────────────────────────────────────────────────
+
+tbl <- tbl_grid |>
   appendContent(
     tags$div(
-      tags$div("Source: Syllabi data maintained by AP-LS TTC Committee", style = "display:inline-block;vertical-align:middle;")
+      tags$div(
+        "Source: Syllabi data maintained by AP-LS TTC Committee",
+        style = "display:inline-block;vertical-align:middle;"
+      )
     )
   )
 
