@@ -171,16 +171,15 @@ We hope you find this year's conference to be enjoyable, enlightening, and inspi
 [Friday 8:00 AM - 5:00 PM]{.event-time}<br> 
 [Saturday 8:00 AM - 5:00 PM]{.event-time}
 :::
-</center>
+
 
 ::: vspace
 :::
 
 ### Welcome & Poster Receptions
 
-<center>
 
-## All are welcome to attend!
+[All are welcome to attend!]{.session-title}
 
 [Welcome Reception]{.event-info}<br> 
 [Thursday 6:30 - 8:30 PM]{.event-time}<br> 
