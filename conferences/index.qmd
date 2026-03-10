@@ -206,11 +206,11 @@ We hope you find this year's conference to be enjoyable, enlightening, and inspi
 
 We've made it easy for you to plan and navigate your conference experience:
 
--   **AP-LS Program Grid** - An abbreviated schedule of conference events that provides a quick overview of sessions, times, and locations.
+-   **{{< fa file-pdf >}} AP-LS Program Grid** - An abbreviated schedule of conference events that provides a quick overview of sessions, times, and locations.
 
--   **AP-LS Conference Program** - A comprehensive program of conference events that incorporates and expands upon the Program Grid with full session details.
+-   **{{< fa file-pdf >}} AP-LS Conference Program** - A comprehensive program of conference events that incorporates and expands upon the Program Grid with full session details.
 
--   **AP-LS Book of Abstracts** - An extensive catalogue of all conference sessions including titles, authors, affiliations, and complete abstracts for every presentation.
+-   **{{< fa file-pdf >}} AP-LS Book of Abstracts** - An extensive catalogue of all conference sessions including titles, authors, affiliations, and complete abstracts for every presentation.
 
 ::: vspace
 :::
@@ -421,10 +421,14 @@ Heath Hodges, Ph.D., M.L.S., ABPP (Forensic)<br>
 ::: {.panel-tabset .box-shadow}
 ## {{< fa circle-info aria-hidden="true" >}} Overview
 
-::: vspace
-:::
 ::: {layout-ncol="2"}
 ::: {.col .img-vcenter}
+
+::: vspace
+:::
+
+::: vspace
+:::
 
 ![2026 AP-LS Conference Program cover featuring the conference logo and Reno, Nevada location](images/apls2026.png){width="277" fig-alt="Cover of the 2026 AP-LS Conference Program showing the conference branding"}
 :::
@@ -432,13 +436,13 @@ Heath Hodges, Ph.D., M.L.S., ABPP (Forensic)<br>
 ::: col
 ### Plan your conference experience:
 
-**{{< fa table-cells >}} Program Grid** - Quick reference schedule with session times and locations
+-   **{{< fa table-cells >}} Program Grid** - Quick reference schedule with session times and locations
 
-**{{< fa file-pdf >}} Conference Program** - Complete program with detailed session information and speaker bios
+-   **{{< fa file-pdf >}} Conference Program** - Complete program with detailed session information and speaker bios
 
-**{{< fa book >}} Book of Abstracts** - Full abstracts for all presentations, including author details
+-   **{{< fa book >}} Book of Abstracts** - Full abstracts for all presentations, including author details
 
-**{{< fa mobile-screen >}} Mobile App** - Real-time updates and networking tools (passphrase: `apls2026`)
+-   **{{< fa mobile-screen >}} Mobile App** - Real-time updates and networking tools (passphrase: `apls2026`)
 
 ::: vspace
 :::
@@ -564,14 +568,19 @@ Although leadership research has flourished in recent decades, empirical investi
 
 [{{< fa clock aria-hidden="true" >}} 5:00 PM - 6:00 PM]{.session-time}
 
-::: session-description
-This presentation will focus on conduct disorder (CD) in children and adolescents and how affiliated personality traits may help inform etiology and treatment of CD. The presentation first centers on a description of CD and its historical context. Second, the presentation focuses on the novel Proposed Specifiers for Conduct Disorder (PSCD) scale and its factor structure and psychometric properties. Third, the presentation centers on how children and adolescents with CD may look differently based on personality perturbations. Fourth, the presentation addresses how personality characteristics may inform differential diagnosis (e.g., ADHD). Fifth, the potential etiological mechanisms for CD are briefly discussed as well as what implications identifying mechanisms may have for innovating treatment. The Proposed Specifiers for Conduct Disorder (PSCD) has been gaining considerable empirical support (Bellamy et al., 2024). Across multiple studies the four-factor structure has been replicated, and this structure has been replicated across a variety of cultures and settings (e.g., community, forensic). The PSCD also has been shown to have good convergent and discriminant validity and has been shown to have meaningful relationships with theoretically relevant constructs which has further helped to inform its nomological network. In addition, the PSCD has been shown to be related to conduct problems, aggression, substance use problems, and other relevant criterion-based variables related to health.
-:::
 
 ::: inner-container
 ![Professional headshot of Dr. Randy Salekin](../about/presidents/imgs/randy_salekin.jpg){.avatar fig-alt="Portrait photograph of Dr. Randy Salekin"}
 
 [Speaker: Randy Salekin, Ph.D., AP-LS President]{.session-chair}
+:::
+
+::: session-description
+This presentation will focus on conduct disorder (CD) in children and adolescents and how affiliated personality traits may help inform etiology and treatment of CD. The presentation first centers on a description of CD and its historical context. Second, the presentation focuses on the novel Proposed Specifiers for Conduct Disorder (PSCD) scale and its factor structure and psychometric properties. Third, the presentation centers on how children and adolescents with CD may look differently based on personality perturbations. Fourth, the presentation addresses how personality characteristics may inform differential diagnosis (e.g., ADHD). Fifth, the potential etiological mechanisms for CD are briefly discussed as well as what implications identifying mechanisms may have for innovating treatment. The Proposed Specifiers for Conduct Disorder (PSCD) has been gaining considerable empirical support (Bellamy et al., 2024). Across multiple studies the four-factor structure has been replicated, and this structure has been replicated across a variety of cultures and settings (e.g., community, forensic). The PSCD also has been shown to have good convergent and discriminant validity and has been shown to have meaningful relationships with theoretically relevant constructs which has further helped to inform its nomological network. In addition, the PSCD has been shown to be related to conduct problems, aggression, substance use problems, and other relevant criterion-based variables related to health.
+:::
+
+
+::: vspace
 :::
 
 ::: vspace
@@ -585,15 +594,17 @@ This presentation will focus on conduct disorder (CD) in children and adolescent
 
 [{{< fa clock aria-hidden="true" >}} 5:00 PM - 6:00 PM]{.session-time}
 
-::: session-description
-Please join friends and colleagues to celebrate Dr. Saul Kassin's career, professional accomplishments, and research in the domain of false confessions over the past 50 years!
-:::
 
 ::: inner-container
 ![Professional headshot of Dr. Saul Kassin](../about/presidents/imgs/saul_kassin.png){.avatar fig-alt="Portrait photograph of Dr. Saul Kassin"}
 
 [Speaker: Saul Kassin]{.session-chair}
 :::
+
+::: session-description
+Please join friends and colleagues to celebrate Dr. Saul Kassin's career, professional accomplishments, and research in the domain of false confessions over the past 50 years!
+:::
+
 
 ::: vspace
 :::
@@ -845,7 +856,12 @@ The 2026 room block is now closed!! People can still book directly through the [
 ::: vspace
 :::
 
+<hr> 
+
 ::: vspace
 :::
 
+::: {.box-shadow}
 ![Logos of 2026 AP-LS Conference sponsors and exhibitors](images/apls2026_sponsors.png){fig-alt="Collection of sponsor and exhibitor logos for the 2026 AP-LS Conference"}
+
+:::
