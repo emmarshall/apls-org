@@ -820,7 +820,7 @@ The 2026 room block is now closed!! People can still book directly through the [
 
 ::: hero-buttons
 [{{< fa hotel aria-hidden="true" >}} Hotel Website](https://www.peppermillreno.com/){.btn-action .btn .btn-dark .ml-auto role="button"}
-[{{< fa location-dot aria-hidden="true" >}} Get Directions](https://goo.gl/maps/PeppermillReno){.btn .btn-outline-primary role="button"}
+[{{< fa location-dot aria-hidden="true" >}} Get Directions](https://www.google.com/maps?q=peppermill+reno&fb=1&gl=us&hq=peppermill+reno&cid=0,0,5940142782430245740&t=m&z=16&iwloc=A){.btn .btn-outline-primary role="button"}
 :::
 
 :::
