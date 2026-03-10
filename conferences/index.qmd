@@ -166,8 +166,7 @@ We hope you find this year's conference to be enjoyable, enlightening, and inspi
 
 [Conference Registration]{.event-space-title}<br> 
 *Tuscany E/F*<br> 
-[Wednesday 8:00 AM - 5:00 PM]{.event-time}<br> 
-[Thursday 8:00 AM - 5:00 PM]{.event-time}<br> 
+[Thursday 8:00 AM - 5:00 PM]{.event-time}<br>
 [Friday 8:00 AM - 5:00 PM]{.event-time}<br> 
 [Saturday 8:00 AM - 5:00 PM]{.event-time}
 :::
