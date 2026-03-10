@@ -344,8 +344,6 @@ h1, .h1, h2, .h2, h3, .h3 {
 }
 
 /* ===== Frosted Glass Panel (Left-Aligned with Content) ===== */
-
-/* ===== Frosted Glass Panel (Left-Aligned with Content) ===== */
 .hero-banner {
   position: relative;
   min-height: 100vh;
@@ -372,11 +370,12 @@ h1, .h1, h2, .h2, h3, .h3 {
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  clip-path: inset(10em 0 10em 0); /* Only clip top/bottom */
+  clip-path: inset(10em 0 10em 0);
   display: flex;
-  justify-content: flex-start; /* Left-align content */
+  justify-content: flex-start;
   align-items: center;
   padding-left: 2rem;
+  overflow: hidden; /* Prevent overflow */
 }
 
 /* Shadow and Border Effects */
@@ -407,6 +406,8 @@ h1, .h1, h2, .h2, h3, .h3 {
   z-index: 5;
   width: 100%;
   padding: 2rem;
+  overflow-y: auto; /* Allow vertical scrolling if needed */
+  max-height: 100%; /* Constrain to container */
   
   h1, p, .btn {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -439,22 +440,96 @@ h1, .h1, h2, .h2, h3, .h3 {
   .glass-container {
     width: 60%;
     left: 3vw;
+    height: auto; /* Allow dynamic height */
+    min-height: 50vh;
+    max-height: 80vh; /* Prevent taking full screen */
+  }
+  
+  .glass {
+    padding: 1.5rem 1rem;
+    align-items: flex-start; /* Align content to top on mobile */
+  }
+  
+  .glass-content {
+    padding: 1rem;
   }
 }
 
 @media (max-width: 640px) {
+  .hero-banner {
+    min-height: 100vh;
+    padding: 3rem 0;
+  }
+  
   .glass-container {
     width: calc(100% - 6vw);
     height: auto;
-    min-height: 50vh;
+    min-height: 60vh;
+    max-height: 85vh;
+    top: 3rem;
+    left: 3vw;
+    right: 3vw;
   }
+  
   .glass {
-    clip-path: inset(3em 0 3em 0);
-    padding-left: 1rem;
+    clip-path: inset(2em 0 2em 0);
+    padding: 1rem;
   }
+  
   .drop-shadow:before {
-    top: 3em;
-    height: calc(100% - 6em);
+    top: 2em;
+    height: calc(100% - 4em);
+  }
+  
+  .glass-content {
+    padding: 0.75rem;
+  }
+  
+  /* Adjust text sizes for mobile readability */
+  .hero-banner .content-block h3 {
+    font-size: 1.8em;
+  }
+  
+  .hero-banner .content-block h4 {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+}
+
+/* Ensure content block adapts properly */
+.hero-banner .content-block {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  min-width: 300px;
+  margin-right: auto;
+  margin-left: 2rem;
+  padding: 1.5rem;
+  z-index: 2;
+  position: relative;
+  max-height: calc(100vh - 10rem); /* Prevent overflow */
+  overflow-y: auto; /* Scroll if content too long */
+}
+
+@media (max-width: 768px) {
+  .hero-banner .content-block {
+    width: 60%;
+    min-width: auto;
+    margin: 0 auto;
+    max-height: 80vh;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-banner .content-block {
+    width: calc(100% - 3rem);
+    margin: 0 1.5rem;
+    padding: 1rem;
+    max-height: 85vh;
   }
 }
 
@@ -891,3 +966,9 @@ a:hover, a:focus, a:active, a:visited {
   white-space: pre-wrap;
 }
 
+.img-vcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

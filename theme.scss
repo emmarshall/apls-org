@@ -280,6 +280,16 @@ code {
   color: var(--apls-code-fg);
 }
 
+.box-shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.tab-content {
+  border: none;
+  padding: 0;
+  background-color: var(--apls-card-bg);
+}
+
 
 // ===========================
 // PARTIAL IMPORTS
