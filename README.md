@@ -103,6 +103,53 @@ The job postings content is located in the `resources/job-postings/` directory. 
   ```
 3. Render new `apls-org/resources/job-postings/index.qmd` file
 
+## Fixing Package Installation Issues on New Mac
+
+If you're setting up this project on a new Mac (especially M-series/Apple Silicon), you may encounter compilation errors when installing R packages. Follow these steps:
+
+### 1. Install Xcode Command Line Tools
+
+Open Terminal and run:
+
+```bash
+xcode-select --install
+```
+
+```r
+## To make this permanent, add the line above to your .Rprofile (located at ~/)
+
+options(install.packages.compile.from.source = "never")
+```
+
+
+3. Reinitialize renv
+```r
+# Remove old lockfile (in Terminal)
+rm renv.lock
+
+# In RStudio
+library(renv)
+renv::init(bare = TRUE)
+```
+
+4. Install Packages
+```r
+install.packages(c("tidyverse", "...")
+# Install all the packages your project needs
+```
+
+5. Fix Broken Symlinks (if needed)
+If you see "broken symlinks" errors:
+
+```r
+renv::repair()
+```
+
+6. Save Your Lockfile to update everything and make sure it works for next time. 
+
+```r
+renv::snapshot()
+```
 
 ## To do:
 
