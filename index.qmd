@@ -157,9 +157,9 @@ div(class = "bg-light",
 ::: column-screen
 ::: {.simple-info-blue .alt-background-blue}
 ::: content-block-blue
-### Get ready for the 2026 American Psychology-Law Society Conference!
+### Get ready for the 2027 American Psychology-Law Society Conference!
 
-Reno, Nevada---March 12-14
+Louisville, KY---March 18-20
 
 [Learn more {{< fa arrow-right >}}](conferences/index.html){.btn-action .btn .btn-secondary .btn-lg role="button"}
 :::
