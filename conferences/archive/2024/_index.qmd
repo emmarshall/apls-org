@@ -288,7 +288,7 @@ Indulge in all your favorite Mexican entrees at Tequila’s, our onsite Mexican 
 
 <br>[COST: \$25]{.badge .bg-info}
 
-[Register {{< fa arrow-right aria-hidden="true" >}}](https://apls.memberclicks.net/index.php?option=com_mcform&view=ngforms&id=2197091#!/){.btn-action .btn .btn-primary .btn-lg role="button"}
+[Register {{< fa arrow-right aria-hidden="true" >}}](https://apls.memberclicks.net/index.php?option=com_mcform&view=ngforms&id=2197091#!/){.btn-action-primary .btn-action .btn .btn-primary .btn-lg role="button"}
 
 *Funds raised are used to support student committee conference awards*
 :::
@@ -400,7 +400,7 @@ We encourage poster presenters to use a [Better Poster format](https://conventio
 ::: vspace
 :::
 
-[View Online {{< fa arrow-right aria-hidden="true" >}}](schedule.qmd){.btn-action .btn .btn-primary .btn-lg role="button"}
+[View Online {{< fa arrow-right aria-hidden="true" >}}](schedule.qmd){.btn-action-primary .btn-action .btn .btn-primary .btn-lg role="button"}
 
 </center>
 :::
@@ -699,7 +699,7 @@ At this year's conference we are excited to offer [**two**]{.underline} full day
 
 *Attendees will have the ability to register for the pre conference workshops with their conference registration.*
 
-[Learn More {{< fa arrow-right aria-hidden="true" >}}](preconference/index.qmd){.btn-action .btn .btn-primary .btn-lg role="button"}
+[Learn More {{< fa arrow-right aria-hidden="true" >}}](preconference/index.qmd){.btn-action-primary .btn-action .btn .btn-primary .btn-lg role="button"}
 
 ::: vspace
 :::
@@ -761,7 +761,7 @@ At this year's conference we are excited to offer [**two**]{.underline} full day
 
 Signing up as a Business Partner of AP-LS has never been easier. Select your sponsorship, upload your logo, register your staff and make a payment all in one place.
 
-[Learn More {{< fa arrow-right aria-hidden="true" >}}](https://apls.memberclicks.net/Sponsor24#!/){.btn-action .btn .btn-primary .btn-lg role="button"}
+[Learn More {{< fa arrow-right aria-hidden="true" >}}](https://apls.memberclicks.net/Sponsor24#!/){.btn-action-primary .btn-action .btn .btn-primary .btn-lg role="button"}
 
 ## {{< fa file-pdf >}} Exhibitor Prospectus
 

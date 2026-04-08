@@ -7,23 +7,19 @@ categories:
   - Fellowship
 submission-info:
   sponsor: AP-LS Fellows Committee
-  deadline: "December 15, `r if (Sys.Date() > lubridate::mdy(paste('December 15', lubridate::year(Sys.Date())))) lubridate::year(Sys.Date()) + 1 else lubridate::year(Sys.Date())`"
+  deadline: "December 15"
 links:
 - icon: envelope-at
   name: Contact
   url: "mailto:ebrank2@unl.edu"
 - icon: file-earmark-pdf
   name: Div. 41 Criteria
-  url: "https://drive.google.com/file/d/1B9mm19GOm3521sVjjGZHJ9weTiYDA28m/view?usp=sharing"
+  url: "https://drive.google.com/file/d/1VURnmVe-ny-KON_QR2vumENH0BuFp-ni/view?usp=sharing"
 - icon: send
   name: Apply here
   url: "https://www.apa.org/members/your-membership/fellows/index"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-source("../../assets/apls_functions.R")
-```
 
 <hr>
 
@@ -33,8 +29,7 @@ AP-LS/Div. 41 is seeking nominations (including self-nominations) for fellow sta
 
 ::: {.panel-tabset}
 ## Become a Fellow
-For members interested in advancement of psychology as a science and as a profession
-Fellowship is a special distinction for members who have received a doctoral degree in psychology or a related field from a regionally accredited institution and can show evidence of unusual and outstanding contributions in the field of psychology.
+For members interested in advancement of psychology as a science and as a profession Fellowship is a special distinction for members who have received a doctoral degree in psychology or a related field from a regionally accredited institution and can show evidence of unusual and outstanding contributions in the field of psychology.
 
 Application for fellow status is open to any APA member who meets the criteria of both the sponsoring division and APA. Each division establishes its own criteria for nominations — sometimes the same as APA criteria, but usually involving additional requisites relevant to that division. Each division is responsible for providing the Fellows Committee with updated division criteria.
 
@@ -57,7 +52,7 @@ Members nominated for fellow status through AP-LS must provide evidence of unusu
 ::: {.simple-info}
 Download the full list of official criteria below.
 
-[{{< fa file-pdf >}} Div. 41 Fellowship Criteria](https://drive.google.com/file/d/1A8u1YHNDpEHprrG4jJuqW7YPXIumLCAG/view?usp=sharing){.btn-action .btn .btn-primary role="button"}
+[{{< fa file-pdf >}} Div. 41 Fellowship Criteria](https://drive.google.com/file/d/1VURnmVe-ny-KON_QR2vumENH0BuFp-ni/view?usp=sharing){.btn-action-primary .btn-action .btn .btn-primary role="button"}
 
 :::
 

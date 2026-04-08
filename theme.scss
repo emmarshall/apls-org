@@ -129,6 +129,7 @@ body {
   --apls-banner-bg:    #{$dark-bg-alt};
   --apls-banner-fg:    #{$dark-light};
   --apls-primary:      #{$blue-40};
+  --apls-primary-dark: #{$blue-60};   // #a4adc1 — 7.4:1 on dark-bg (AAA)
   --apls-primary-light: #{$blue-60};
 }
 // ===========================
@@ -194,6 +195,17 @@ a:focus {
     color: var(--apls-muted);
     background-color: var(--apls-card-bg);
     border-color: var(--apls-border);
+  }
+}
+
+// Dark-mode pagination – same contrast fix as filled buttons
+[data-bs-theme="dark"] .pagination,
+.quarto-dark .pagination {
+  .page-link:hover,
+  .page-link:focus,
+  .page-item.active .page-link {
+    background-color: $steel;
+    border-color: $steel;
   }
 }
 

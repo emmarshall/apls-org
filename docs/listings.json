@@ -1,5 +1,17 @@
 [
   {
+    "listing": "/conferences/archive/2026/preconference/index.html",
+    "items": [
+      "/conferences/archive/2026/preconference/workshop_1/index.html",
+      "/conferences/archive/2026/preconference/workshop_2/index.html",
+      "/conferences/archive/2026/preconference/workshop_3/index.html",
+      "/conferences/archive/2026/preconference/workshop_4/index.html",
+      "/conferences/archive/2026/preconference/workshop_5/index.html",
+      "/conferences/archive/2026/preconference/workshop_6/index.html",
+      "/conferences/archive/2026/preconference/workshop_7/index.html"
+    ]
+  },
+  {
     "listing": "/awards/index.html",
     "items": [
       "/awards/grants/APprogram.html",
@@ -129,18 +141,6 @@
     "items": []
   },
   {
-    "listing": "/conferences/preconference/index.html",
-    "items": [
-      "/conferences/preconference/workshop_1/index.html",
-      "/conferences/preconference/workshop_2/index.html",
-      "/conferences/preconference/workshop_3/index.html",
-      "/conferences/preconference/workshop_4/index.html",
-      "/conferences/preconference/workshop_5/index.html",
-      "/conferences/preconference/workshop_6/index.html",
-      "/conferences/preconference/workshop_7/index.html"
-    ]
-  },
-  {
     "listing": "/newsletter/index.html",
     "items": [
       "/resources/newsletter/e-news/2025/oct2025/index.html",
@@ -199,18 +199,6 @@
       "/resources/newsletter/e-news/2021/mar2021/index.html",
       "/resources/newsletter/e-news/2021/feb2021/index.html",
       "/resources/newsletter/e-news/2021/jan2021/index.html"
-    ]
-  },
-  {
-    "listing": "/conferences/archive/2026/preconference/index.html",
-    "items": [
-      "/conferences/archive/2026/preconference/workshop_1/index.html",
-      "/conferences/archive/2026/preconference/workshop_2/index.html",
-      "/conferences/archive/2026/preconference/workshop_3/index.html",
-      "/conferences/archive/2026/preconference/workshop_4/index.html",
-      "/conferences/archive/2026/preconference/workshop_5/index.html",
-      "/conferences/archive/2026/preconference/workshop_6/index.html",
-      "/conferences/archive/2026/preconference/workshop_7/index.html"
     ]
   }
 ]

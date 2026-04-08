@@ -5,7 +5,7 @@ toc: true
 draft: true
 ---
 
-One goal of AP-LS is promoting the education of psychologists in matters of law and the education of legal personnel in matters of psychology. Information about pursuing a [career in psychology and law](career.qmd) can be found here. You can also learn more about the field through our [interviews with professionals' series](interviews.qmd). This page summarizes our ongoing educational activities.
+One goal of AP-LS is promoting the education of psychologists in matters of law and the education of legal personnel in matters of psychology. Information about pursuing a [career in psychology and law](careers.qmd) can be found here. You can also learn more about the field through our [interviews with professionals' series](interviews.qmd). This page summarizes our ongoing educational activities.
 
 # Graduate Programs
 
@@ -34,7 +34,7 @@ If you are interested in learning more about graduate programs, please review th
 
 This guide was developed by members of the AP-LS Teaching, Training, and Careers Committee (TTC) and lists current graduate programs in forensic and legal psychology.
 
-[NEW! 2023 Guide](https://drive.google.com/file/d/1UmxNGjFb-fZciA-OxmWnGi6lhcpeaJ2U/view?usp=sharing){#btn-guide .btn-action .btn-action .btn .btn-primary role="button"}
+[NEW! 2023 Guide](https://drive.google.com/file/d/1UmxNGjFb-fZciA-OxmWnGi6lhcpeaJ2U/view?usp=sharing){#btn-guide .btn-action-primary .btn-action .btn .btn-primary role="button"}
 :::
 :::
 :::
@@ -51,11 +51,11 @@ Each program is described using the same categories (program facts, admission cr
 
 # Awards and Recognition
 
--   [Best Undergraduate Paper](../../awards/undergradpaper.qmd): The AP-LS Award for Best Undergraduate Paper is awarded to an outstanding undergraduate research paper that is focused on the interdisciplinary study of psychology and law.
+-   [Best Undergraduate Paper](../../awards/awards/undergradpaper.qmd): The AP-LS Award for Best Undergraduate Paper is awarded to an outstanding undergraduate research paper that is focused on the interdisciplinary study of psychology and law.
 
--   [Dissertation Award](../../awards/dissertation.qmd): The American Psychology-Law Society confers Dissertation Awards for scientific research and scholarship that is relevant to the promotion of the interdisciplinary study of psychology and law. Students who complete dissertations involving basic or applied research in psychology and law, including its application to public policy, are encouraged to apply for these awards.
+-   [Dissertation Award](../../awards/awards/dissertation.qmd): The American Psychology-Law Society confers Dissertation Awards for scientific research and scholarship that is relevant to the promotion of the interdisciplinary study of psychology and law. Students who complete dissertations involving basic or applied research in psychology and law, including its application to public policy, are encouraged to apply for these awards.
 
--   [Saleem Shah Award](../../awards/saleemshah.qmd): The Saleem Shah Award is co-sponsored by the American Psychology-Law Society (APA Division 41) and the American Academy of Forensic Psychology. The award is for early career excellence and contributions to the field of psychology and law. The focus on the nominee\'s contributions may be in any area of forensic practice, research, or public policy.
+-   [Saleem Shah Award](../../awards/awards/saleemshah.qmd): The Saleem Shah Award is co-sponsored by the American Psychology-Law Society (APA Division 41) and the American Academy of Forensic Psychology. The award is for early career excellence and contributions to the field of psychology and law. The focus on the nominee\'s contributions may be in any area of forensic practice, research, or public policy.
 
 # Teaching Resources
 

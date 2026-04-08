@@ -35,7 +35,7 @@ source("../../assets/apls_functions.R")
 
 At the 2012 AP-LS Conference there was a session titled:**"Saleem's Rules: Lessons in Mentoring, Knowing What's Right, and Changing the World - Why AP-LS Created a Saleem Shah Award"** with speakers Thomas Grisso, Henry J. Steadman, Edward Mulvey and John Monahan. Dr. Grisso wrote an article about that panel's discussions for the Summer 2012 AP-LS News newsletter.
 
-[Learn More {{< fa arrow-right >}}](https://drive.google.com/file/d/12-EMOWANyIhRnrAsGaPMx-LSKcP4gYDy/view?usp=sharing){.btn-action .btn .btn-primary .btn-lg role="button"}
+[Learn More {{< fa arrow-right >}}](https://drive.google.com/file/d/12-EMOWANyIhRnrAsGaPMx-LSKcP4gYDy/view?usp=sharing){.btn-action-primary .btn-action .btn .btn-primary .btn-lg role="button"}
 :::
 
 Saleem A. Shah, who was internationally known for his leadership in the field of law and mental health, died on Nov. 25, 1992, from injuries suffered when his automobile was struck by a drunken driver. Saleem was born on December 2, 1931, in Allahabad, India. After receiving a BA from Allahabad University, he came to the United States on a fellowship and earned his PhD in clinical psychology at Pennsylvania State University in 1957. He served as a graduate psychology intern at Spring Grove State Hospital, outside Baltimore, where he met his wife, Terry, with whom he had six daughters, all of whom survive him. After leaving Penn State, Saleem joined the Legal Psychiatric Services Division of the Department of Public Health in Washington, DC. He rose quickly to the post of chief psychologist and held this position until he joined the staff of the National Institute of Mental Health (NIMH) in 1966.

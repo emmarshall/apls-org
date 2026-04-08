@@ -15,7 +15,7 @@ submission-info:
 links:
 - icon: envelope-at
   name: Apply here
-  url: "mailto:lekois@ua.edu"
+  url: "mailto:undergrad_grants@ap-ls.org"
 ---
 
 ```{r setup, include=FALSE}

@@ -164,6 +164,45 @@
     color: var(--apls-nav-fg) !important;
   }
 }
+
+// ── Dark-mode button contrast overrides ──────────────────────────────
+// In dark mode the desaturated blue palette can't simultaneously give
+// 4.5:1 with white text AND stand out on #191E29.  Use $steel (#4271B3)
+// for filled buttons (white text 4.9:1 AA) and flip outline hover text
+// to the dark background colour on the lighter fill (7.4:1 AAA).
+
+[data-bs-theme="dark"],
+.quarto-dark {
+  .btn-action-primary,
+  .btn.btn-action.btn-action-primary {
+    background-color: $steel;
+
+    &:hover {
+      background-color: $steel;
+    }
+  }
+
+  .job-btn {
+    background-color: $steel;
+
+    &:hover {
+      background-color: $steel;
+    }
+  }
+
+  .btn-outline-primary {
+    &:hover {
+      color: var(--apls-bg);  // dark text on light fill (#a4adc1)
+    }
+  }
+
+  .btn-dark.btn-action {
+    &:hover {
+      color: var(--apls-bg);
+    }
+  }
+}
+
 // ── Tab panels ────────────────────────────────────────────────────────
 
 .tab-content {

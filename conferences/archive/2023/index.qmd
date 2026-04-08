@@ -437,7 +437,7 @@ Rate not inclusive of final taxes/fees
 +----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 :::
 
-[Conference Program {{< fa arrow-right >}}](schedule.html){.btn-action .btn .btn-primary .btn-lg role="button"}
+[Conference Program {{< fa arrow-right >}}](schedule.html){.btn-action-primary .btn-action .btn .btn-primary .btn-lg role="button"}
 :::
 :::
 

@@ -30,7 +30,7 @@ This guide was developed by members of the AP-LS Teaching, Training, and Careers
 
 This guide was developed by members of the AP-LS Teaching, Training, and Careers Committee (TTC) and lists current graduate programs in forensic and legal psychology.
 
-[View Guide](https://drive.google.com/file/d/1sE2jvQ4oofu5mQc3WQl3CtHpWYqwDH1k/view?usp=sharing){#btn-guide .btn-action .btn-action .btn .btn-primary role="button"}
+[View Guide](https://drive.google.com/file/d/1sE2jvQ4oofu5mQc3WQl3CtHpWYqwDH1k/view?usp=sharing){#btn-guide .btn-action-primary .btn-action .btn .btn-primary role="button"}
 ::::
 ::::::
 ::::::::

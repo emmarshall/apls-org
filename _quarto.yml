@@ -143,6 +143,7 @@ format:
       light: [default, theme.scss]
       dark:  [darkly, theme.scss]
     filters:
+      - _filters/deadline-year.lua
       - panel-accordion
     #css: assets/styles.css
 #    grid:
