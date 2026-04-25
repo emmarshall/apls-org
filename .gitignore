@@ -16,3 +16,4 @@ static/etc/*
 
 
 **/*.quarto_ipynb
+.positai
