@@ -65,33 +65,21 @@ A complete Grant in Aid application includes:
 
 ## Proposal Instructions and Guidelines
 
-Applicants are to provide a grant proposal (a maximum of 3,000 words excluding title page, abstract and references, but inclusive of all other items) that includes:
+Applicants are to provide the proposal through the Grant-in-Aid portal. Applicants will be asked to submit the following documents in PDF format:
 
 1. A **title page** indicating the title of the project, name, address, phone number, and email address of the investigator. Please also include the research mentor's name and title. 
 
-2. An **abstract** of 200 words or less summarizing the project
-
-3. **Project background** that reviews purpose, theoretical rationale, and significance of the project
-
-4. **Project method** that provides a detailed description of the project’s participants, design, materials, and/or procedures to be employed. The proposal is required to address open science practices. 
-
-5. **Analytic plan** that describes the proposed analyses that will be used to analyze the research questions/hypotheses. 
-6. **Significance** section that identifies the importance of the research and how the project furthers the field of psychology and law. 
-
-7. **Budget and justification** that identifies the specific amount requested, including a detailed project budget and justification for expenses as needed
-
-8. **Timeline** that includes a detailed timeline of when the project will be completed. Please also note any plans for dissemination of the findings. 
-
-10. **References**
-
-Proposal documents should be formatted according to the Publication Manual of the American Psychological Association, Seventh Edition, and submitted in an electronic format (preferably MS Word or PDF). Please note, the IRB approval and Tax forms should be attached separately to the application and not included in the main document. 
+2. A **Grant-in-Aid proposal**, which should include the following sections: Abstract (200 words), Project Background, Project Method, Analytic Plan, Significance, Budget and Justification, Timeline, and References. All sections, except the Abstract and References, should not exceed 3000 words. Proposals that exceed this word limit will not be considered. The proposal should be single-spaced with 1-inch margins.
+Applicants who previously received Grant-in-Aid funding from the committee must include an additional abstract (200 words) in their proposal that succinctly summarizes the previous research funded by the award. This abstract will not count toward the 3000 word limit of the proposal.
 
 
-Applicants who previously received Grants-in-Aid funding from the committee must include an additional abstract (200 words or less) in their proposal application that succinctly summarizes the previous research funded by the award.
+3. **IRB/ethics** approval or exemption documentation. IRB/ethics approval must be obtained and submitted by the submission deadline. The title of the IRB/ethics approval should match or clearly reflect the project title. 
 
-Budget items typically funded include (but are not limited to) payment of subjects, photocopying, purchase of testing materials, software not typically provided via universities and electronic media. The committee does not typically provide funds for computers (though peripherals may be funded), office supplies and furniture (e.g., file cabinets), mileage, paying research assistants and software, or equipment typically available within universities.  If a student is requesting specific software or equipment that is typically available within universities, they must provide sufficient justification for why they cannot obtain the resources from their university and the necessity of the software/equipment for the project. Conference and other travel costs are not funded.
+Some Notes on the Budget and Justification: 
+Budget items typically funded include (but are not limited to) payment of subjects, photocopying, purchase of testing materials, software not typically provided via universities and electronic media. The committee does not typically provide funds for computers (though peripherals may be funded), office supplies and furniture (e.g., file cabinets), mileage, paying research assistants and software, or equipment typically available within universities. If a student is requesting specific software or equipment that is typically available within universities, they must provide sufficient justification for why they cannot obtain the resources from their university and the necessity of the software/equipment for the project. Conference and other travel costs are not funded.
 
-Proposed research projects with an anticipated budget of over $2,000 should explain in the budget how these additional project costs intend to be covered. Projects requesting funding for payment of subjects should provide appropriate justification for both the number of participants being requested (e.g., a power analysis) and the amount of compensation being awarded for each participant. Projects requesting funding for payment of subjects from online sources (MTurk, Qualtrics panels, etc.) should provide justification for the amount of compensation being provided to subjects and account for any overhead costs charged by the site for using their services within the budget.
+Proposed research projects with an anticipated budget of over $2,000 should explain in the budget and justification how these additional project costs intend to be covered. Projects requesting funding for payment of subjects should provide appropriate justification for both the number of participants being requested (e.g., a power analysis) and the amount of compensation being awarded for each participant. Projects requesting funding for payment of subjects from online sources (MTurk, Qualtrics panels, etc.) should provide justification for the amount of compensation being provided to subjects and account for any overhead costs charged by the site for using their services.
+
 
 ::: callout-note
 The use of AI tools to generate the written grant proposal will be considered plagiarism. This grant is expected to reflect your own work and thinking. If you are uncertain whether the programs you are utilizing comply with the AI policy of the grant, please contact committee chair. 
