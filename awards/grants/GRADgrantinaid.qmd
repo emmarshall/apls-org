@@ -21,7 +21,6 @@ links:
   url: "https://awards.ap-ls.org/default.asp"
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 source("../../assets/apls_functions.R")
@@ -29,80 +28,79 @@ source("../../assets/apls_functions.R")
 
 <hr>
 
-:::{.panel-tabset}
+:::: panel-tabset
 ## Eligibility
-The Division 41 Graduate Student Grants-in-Aid Committee is accepting proposals for small grants (maximum of $2,000) to support empirical graduate research that addresses psycholegal issues.
 
--   Awards are limited to current graduate students who are active [Student Affiliate](../../membership/index.qmd) members of AP-LS.
+The Division 41 Graduate Student Grants-in-Aid Committee is accepting proposals for small grants (maximum of \$2,000) to support empirical graduate research that addresses psycholegal issues.
 
--   Applicants may submit only one application (either AP-LS Grants-in-Aid for Graduate Students or Grant-in-Aid for Graduate Students MacArthur Award) per funding cycle.
+- Awards are limited to current graduate students who are active [Student Affiliate](../../membership/index.qmd) members of AP-LS.
 
--   Research projects identified in proposals should request funding needed to complete future or early active research projects. Proposed funding requests for reimbursement of past research expenses of completed projects are not eligible.
+- Applicants may submit only one application (either AP-LS Grants-in-Aid for Graduate Students or Grant-in-Aid for Graduate Students MacArthur Award) per funding cycle.
 
--   Research projects identified in proposals are required to have ACTIVE Institutional Review Board approval from the host research institution(s) BEFORE the submission deadline. Proof of ethical (IRB) approval must be submitted along with the proposal document for an application to be deemed complete and eligible for review by the Grants-in-Aid Committee. This IRB approval MUST contain a clear approval and expiration date, and the title and project description must match the proposal project. If the project is exempt, an expiration date is not required. Any proposed research project without notification of ethical approval before the submission deadline will be considered ineligible for the award.
+- Research projects identified in proposals should request funding needed to complete future or early active research projects. Proposed funding requests for reimbursement of past research expenses of completed projects are not eligible.
 
--   The maximum for any individual award is set at $2,000. Any requests for funding beyond $2,000 will not be considered. Proposed research projects with an anticipated budget of over $2,000 should identify within the proposal the plan for covering the remaining costs to demonstrate that the research is feasible.
+- Research projects identified in proposals are required to have ACTIVE Institutional Review Board approval from the host research institution(s) BEFORE the submission deadline. Proof of ethical (IRB) approval must be submitted along with the proposal document for an application to be deemed complete and eligible for review by the Grants-in-Aid Committee. This IRB approval MUST contain a clear approval and expiration date, and the title and project description must match the proposal project. If the project is exempt, an expiration date is not required. Any proposed research project without notification of ethical approval before the submission deadline will be considered ineligible for the award.
 
--   Applicants who previously submitted a Grant in Aid proposal that was not selected for funding are permitted to revise and resubmit their proposal for consideration during the next funding cycle.
+- The maximum for any individual award is set at \$2,000. Any requests for funding beyond \$2,000 will not be considered. Proposed research projects with an anticipated budget of over \$2,000 should identify within the proposal the plan for covering the remaining costs to demonstrate that the research is feasible.
 
--   Applicants who previously received Grants-in-Aid funding from the committee are eligible to apply for the award again to fund a new research project provided that the research from the previous award has been completed. Past award winners must include an abstract (200 words or fewer) in their proposal application that succinctly summarizes the previous research funded by the award. Funding may be prioritized for applicants who have not yet received the Grant in Aid in prior cycles.
+- Applicants who previously submitted a Grant in Aid proposal that was not selected for funding are permitted to revise and resubmit their proposal for consideration during the next funding cycle.
+
+- Applicants who previously received Grants-in-Aid funding from the committee are eligible to apply for the award again to fund a new research project provided that the research from the previous award has been completed. Past award winners must include an abstract (200 words or fewer) in their proposal application that succinctly summarizes the previous research funded by the award. Funding may be prioritized for applicants who have not yet received the Grant in Aid in prior cycles.
 
 ## How to Apply
 
-Interested individuals should submit a complete award application via the AP-LS proposal management system by 11:59 p.m. PST on the date of the identified submission deadline. 
+Interested individuals should submit a complete award application via the AP-LS proposal management system by 11:59 p.m. PST on the date of the identified submission deadline.
 
 Annual application deadlines are **October 15** and **February 15**.
 
 A complete Grant in Aid application includes:
 
--   A grant proposal (see proposal instructions and guidelines below)
- 
--   Documentation of ACTIVE IRB approval status for the proposed research project from the host research institution(s). That is, the IRB submission has to be approved by the IRB; in submission IRB applications are not sufficient. The IRB approval documentation MUST contain a clear approval and expiration date, and the title and project description must match the proposal project. 
+- A grant proposal (see proposal instructions and guidelines below)
 
+- Documentation of ACTIVE IRB approval status for the proposed research project from the host research institution(s). That is, the IRB submission has to be approved by the IRB; in submission IRB applications are not sufficient. The IRB approval documentation MUST contain a clear approval and expiration date, and the title and project description must match the proposal project.
 
--   Completed appropriate SIGNED tax form: W-9 tax form for U.S. citizens and W-8BEN tax form for international students. Tax forms submitted that do not include the signature will be considered incomplete applications. 
-
+- Completed appropriate SIGNED tax form: W-9 tax form for U.S. citizens and W-8BEN tax form for international students. Tax forms submitted that do not include the signature will be considered incomplete applications.
 
 ## Proposal Instructions and Guidelines
 
-Applicants are to provide the proposal through the Grant-in-Aid portal. Applicants will be asked to submit the following documents in PDF format:
+Applicants are to provide the proposal through the Grant-in-Aid portal. Applicants will be asked to submit the following documents in PDF format[^1]:
 
-1. A **title page** indicating the title of the project, name, address, phone number, and email address of the investigator. Please also include the research mentor's name and title. 
+1.  A **title page** indicating the title of the project, name, address, phone number, and email address of the investigator. Please also include the research mentor's name and title.
 
-2. A **Grant-in-Aid proposal**, which should include the following sections: Abstract (200 words), Project Background, Project Method, Analytic Plan, Significance, Budget and Justification, Timeline, and References. All sections, except the Abstract and References, should not exceed 3000 words. Proposals that exceed this word limit will not be considered. The proposal should be single-spaced with 1-inch margins.
-Applicants who previously received Grant-in-Aid funding from the committee must include an additional abstract (200 words) in their proposal that succinctly summarizes the previous research funded by the award. This abstract will not count toward the 3000 word limit of the proposal.
+2.  A **Grant-in-Aid proposal**, which should include the following sections: Abstract (200 words), Project Background, Project Method, Analytic Plan, Significance, Budget and Justification, Timeline, and References. All sections, except the Abstract and References, should not exceed 3000 words. Proposals that exceed this word limit will not be considered. The proposal should be single-spaced with 1-inch margins.
 
+    Applicants who previously received Grant-in-Aid funding from the committee must include an additional abstract (200 words) in their proposal that succinctly summarizes the previous research funded by the award. This abstract will not count toward the 3000 word limit of the proposal.
 
-3. **IRB/ethics** approval or exemption documentation. IRB/ethics approval must be obtained and submitted by the submission deadline. The title of the IRB/ethics approval should match or clearly reflect the project title. 
-
-Some Notes on the Budget and Justification: 
-Budget items typically funded include (but are not limited to) payment of subjects, photocopying, purchase of testing materials, software not typically provided via universities and electronic media. The committee does not typically provide funds for computers (though peripherals may be funded), office supplies and furniture (e.g., file cabinets), mileage, paying research assistants and software, or equipment typically available within universities. If a student is requesting specific software or equipment that is typically available within universities, they must provide sufficient justification for why they cannot obtain the resources from their university and the necessity of the software/equipment for the project. Conference and other travel costs are not funded.
-
-Proposed research projects with an anticipated budget of over $2,000 should explain in the budget and justification how these additional project costs intend to be covered. Projects requesting funding for payment of subjects should provide appropriate justification for both the number of participants being requested (e.g., a power analysis) and the amount of compensation being awarded for each participant. Projects requesting funding for payment of subjects from online sources (MTurk, Qualtrics panels, etc.) should provide justification for the amount of compensation being provided to subjects and account for any overhead costs charged by the site for using their services.
-
+3.  **IRB/ethics** approval or exemption documentation. IRB/ethics approval must be obtained and submitted by the submission deadline. The title of the IRB/ethics approval should match or clearly reflect the project title.
 
 ::: callout-note
-The use of AI tools to generate the written grant proposal will be considered plagiarism. This grant is expected to reflect your own work and thinking. If you are uncertain whether the programs you are utilizing comply with the AI policy of the grant, please contact committee chair. 
+## Some Notes on the Budget and Justification:
+
+Budget items typically funded include (but are not limited to) payment of subjects, photocopying, purchase of testing materials, software not typically provided via universities and electronic media. The committee does not typically provide funds for computers (though peripherals may be funded), office supplies and furniture (e.g., file cabinets), mileage, paying research assistants and software, or equipment typically available within universities. If a student is requesting specific software or equipment that is typically available within universities, they must provide sufficient justification for why they cannot obtain the resources from their university and the necessity of the software/equipment for the project. Conference and other travel costs are not funded.
+
+Proposed research projects with an anticipated budget of over \$2,000 should explain in the budget and justification how these additional project costs intend to be covered. Projects requesting funding for payment of subjects should provide appropriate justification for both the number of participants being requested (e.g., a power analysis) and the amount of compensation being awarded for each participant. Projects requesting funding for payment of subjects from online sources (MTurk, Qualtrics panels, etc.) should provide justification for the amount of compensation being provided to subjects and account for any overhead costs charged by the site for using their services.
+
 :::
 
 ## Proposal Review Criteria
+
 The Grants-in-Aid Committee will review and evaluate your project proposal based on the following criteria:
 
--   **Relevancy:** The proposed research clearly addresses practice, research, and/or public policy directly relevant to the field of psychology and law.
+- **Relevancy:** The proposed research clearly addresses practice, research, and/or public policy directly relevant to the field of psychology and law.
 
--   **Rationale:** The proposed research includes a sound, thoughtful, and logical rationale for the proposed project; the logic of the proposal and literature review is clear and strong; the proposed method flows from the rationale itself.
+- **Rationale:** The proposed research includes a sound, thoughtful, and logical rationale for the proposed project; the logic of the proposal and literature review is clear and strong; the proposed method flows from the rationale itself.
 
--   **Methodology:** The proposed research provides a complete and clear description of the sample, design, and procedure to be employed that demonstrates a sound research strategy appropriate to answer the research question(s). This includes an appropriate analytic plan.
+- **Methodology:** The proposed research provides a complete and clear description of the sample, design, and procedure to be employed that demonstrates a sound research strategy appropriate to answer the research question(s). This includes an appropriate analytic plan.
 
--   **Significance:** The proposed research will have meaning for the field of psychology and law, or contribute significantly to theory or knowledge on such topics.
+- **Significance:** The proposed research will have meaning for the field of psychology and law, or contribute significantly to theory or knowledge on such topics.
 
--   **Open Science:** The proposed research employs practices that increase the transparency and accessibility of the science itself, such as (but not limited to): commitment to pre-registering hypotheses, making code and data easily accessible, and/or having a plan for disseminating findings.
+- **Open Science:** The proposed research employs practices that increase the transparency and accessibility of the science itself, such as (but not limited to): commitment to pre-registering hypotheses, making code and data easily accessible, and/or having a plan for disseminating findings.
 
--   **Feasibility:** The proposed research can realistically be completed by students as outlined in the proposal based on the planned time, sample accessibility, materials, supports, and applicant’s research training and abilities.
+- **Feasibility:** The proposed research can realistically be completed by students as outlined in the proposal based on the planned time, sample accessibility, materials, supports, and applicant’s research training and abilities.
 
--   **Budget:** The requested budget items are critical to the completion of the project, clearly detailed, justified and within the scope of the identified items traditionally funded by the Grants-in-Aid Committee. If the student is paying online participants, the fees are adequately calculated and appropriate for the amount of time participants spend.
+- **Budget:** The requested budget items are critical to the completion of the project, clearly detailed, justified and within the scope of the identified items traditionally funded by the Grants-in-Aid Committee. If the student is paying online participants, the fees are adequately calculated and appropriate for the amount of time participants spend.
 
 Strong proposals will clearly articulate and support the above-noted areas within the proposal.
-:::
+::::
 
-  
+[^1]: The use of AI tools to generate the written grant proposal will be considered plagiarism. This grant is expected to reflect your own work and thinking. If you are uncertain whether the programs you are utilizing comply with the AI policy of the grant, please contact committee chair.
