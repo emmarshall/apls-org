@@ -25,7 +25,7 @@ source("../assets/apls_functions.R")
 ::: {#ec}
 :::
 
-## 2026 Conference Co-Chairs
+## 2027 Conference Co-Chairs
 
 ::: {#conf-chairs}
 :::

@@ -1,11 +1,9 @@
 {
-  "hash": "58d04f084e9b78633f12ec21e3638c7e",
+  "hash": "b9f13627ff64a4748ee961da7680b6f1",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Leadership\"\ntitle-block-banner: \"../images/default-banner.svg\"\ntoc: false\nlisting:\n  - id: ec\n    contents: executive-committee.yml\n    template: ../_partials/about/leadership-grid.ejs\n  - id: conf-chairs\n    contents: conf-chairs.yml\n    template: ../_partials/about/leadership-grid.ejs\n---\n\n\n\n# Officers of the Executive Committee\n\n::: {#ec}\n:::\n\n## 2026 Conference Co-Chairs\n\n::: {#conf-chairs}\n:::\n\n\n",
-    "supporting": [
-      "leadership_files"
-    ],
+    "markdown": "---\ntitle: \"Leadership\"\ntitle-block-banner: \"../images/default-banner.svg\"\ntoc: false\nlisting:\n  - id: ec\n    contents: executive-committee.yml\n    template: ../_partials/about/leadership-grid.ejs\n  - id: conf-chairs\n    contents: conf-chairs.yml\n    template: ../_partials/about/leadership-grid.ejs\n---\n\n\n\n# Officers of the Executive Committee\n\n::: {#ec}\n:::\n\n## 2027 Conference Co-Chairs\n\n::: {#conf-chairs}\n:::\n\n\n",
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
