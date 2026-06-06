@@ -81,48 +81,13 @@ Self-nominations will not be considered.
 
 
 ```{r}
-#| label: Previous winners table 
+#| label: Previous winners table
 #| warning: false
 #| echo: false
-library(reactablefmtr)
-library(reactable)
-library(htmltools)
-library(dplyr)
 
-##load data from csv not google drive
+# Data: awards/data/saleem-shah.csv (refresh via awards/_update-awards.R)
+data <- read.csv("../data/saleem-shah.csv")
 
-data <- read.csv(file = "../data/saleem-shah.csv")
-
-data <- data |> 
-  select(year, name)
-
-saleem_tbl <- reactable(
-  data,
-  defaultPageSize = 50,
-  defaultSorted = list(year = "desc"),
-  static = TRUE,
-  sortable = FALSE,
-  theme = fivethirtyeight(centered = TRUE),
-  defaultColDef = colDef(vAlign="center",
-                         align="left"),
-  columns = list(
-    year = colDef(name = "",
-                  minWidth = 150,
-                  maxWidth = 200,
-                  cell = merge_column(data, 
-                            merged_name = "name",
-                            merged_size = 16,
-                            merged_color = "#343a40",
-                            merged_position = "below",
-                            size = 20,
-                            color = "#1B3264")),
-        name = colDef(show = FALSE)
-                
-)
-) 
-
-
-div(saleem_tbl)
-
+awards_table(data, name = "name")
 ```
 :::

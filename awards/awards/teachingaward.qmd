@@ -74,29 +74,25 @@ Self-nominations are encouraged.
 
 ## Past Recipients
 
-| Year | Outstanding Teaching and Mentoring Award | Early Career Award |
-|----|----|----|
-| 2025 | Jenni Cox (category 2) | Ashley Votruba (category 2) |
-| 2024 | Margaret Stevenson (category 1) | **Jeff Kukucka** (category 1) |
-| 2023 | Angela Evans (category 2) | Ashley Batastini (category 2) |
-| 2022 | Dan Krauss (category 1) | Apryl Alexander (category 1) |
-| 2021\* | Allison Redlick (category 2) | Anthony Perillo (category 2) |
-| 2020 | Garrett Berman (category 1) | Nesa E. Wasarhaley (category 1) |
-| 2019 | Eve M. Brank and Robert E. Cochrane (category 2) | Cynthia J. Najdowski (category 2) |
-| 2018 | Jennifer L. Groscup (category 1) | Tess M.S. Neal (category 1) |
-| 2017 | Monica K. Miller and Jennifer Robbennolt (category 2) |  |
-| 2016 | Matthew Huss (category 1) | Amanda Zelechoski (category 1) |
-| 2015 | Jodi Quas (category 2) |  |
-| 2014 | Bradley D. McAuliff (category 1) |  |
-| 2013 | Roderick C.L. Lindsay (category 2) |  |
-| 2012 | Amye R. Warren (category 1) |  |
-| 2011 | Brian Bornstein (category 2) |  |
-| 2010 | Mark Costanzo (category 1) |  |
-| 2009 | Ronald Roesch (category 2) |  |
-| 2008 | Edie Greene (category 1) |  |
-| 2007 | N. Dickson Reppucci (category 2) |  |
-| 2006 | Bette Bottoms and Jim Ogloff |  |
-| 2005 | Bette Bottoms and Jim Ogloff |  |
-| 2004 | Margaret Bull Kovera |  |
-| 1996 | Gail Goodman (First time awarded) |  |
+```{r}
+#| label: teaching-winners
+#| warning: false
+#| echo: false
+library(dplyr)
+
+# Data: awards/data/teaching.csv (refresh via awards/_update-awards.R)
+data <- read.csv("../data/teaching.csv") |>
+  mutate(
+    label = case_when(
+      tolower(trimws(type)) == "outstanding" ~ "Outstanding Teaching & Mentoring",
+      tolower(trimws(type)) == "early"       ~ "Early Career Teaching & Mentoring",
+      TRUE                                   ~ as.character(type)
+    ),
+    detail = ifelse(is.na(affiliation) | affiliation == "",
+                    label, paste0(label, " · ", affiliation))
+  )
+
+awards_table(data, name = "name", detail = "detail")
+
+```
 :::::

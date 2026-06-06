@@ -54,72 +54,15 @@ Self nominations are encouraged.
 ## Past Recipients
 
 ```{r}
-#| label: Previous winners table 
+#| label: Previous winners table
 #| warning: false
 #| echo: false
 #| cache: false
-library(reactablefmtr)
-library(reactable)
-library(htmltools)
-library(dplyr)
 
-##load data from csv not google drive
-#update
-data <- read.csv(file = "../data/book_awards.csv")
+# Data: awards/data/book_awards.csv (refresh via awards/_update-awards.R)
+data <- read.csv("../data/book_awards.csv")
 
-data <- data |> 
-  select(img, year, author, title, url)
-
-
-#create custom color palette for scale fill
-#pal_scale<-c("#F4FFFD","#E9DAEC","#A270E5","#43009A")
-
-
-winners_tbl <- reactable(
-  data,
-  defaultPageSize = 20,
-  defaultSorted = list(year = "desc"),
-  static = TRUE,
-  sortable = FALSE,
-  theme = fivethirtyeight(centered = TRUE),
-  defaultColDef = colDef(vAlign="center",
-                         align="left"
-                         ##style = color_scales(df, span = 4:7, colors=pal_scale)
-                         ),
- # columnGroups = list(
- #   colGroup(name = "Book Details", columns=c("img", "title"))),
-  columns = list(
-    year = colDef(name = "",
-                  minWidth = 150,
-                  maxWidth = 200,
-                  cell = merge_column(data, 
-                            merged_name = "author",
-                            merged_size = 14,
-                            merged_color = "#343a40",
-                            merged_position = "below",
-                            size = 18,
-                            color = "#1B3264")),
-    #img = colDef(name = "",
-     #            maxWidth = 125,
-     #            align = "center",
-     #            cell = embed_img(., height= 100, width = 75)
-     #            ),
-    title = colDef(html = TRUE,
-                   minWidth = 150,
-                   align = "left",
-                   name = "",
-                   cell = function(value, index) {
-       sprintf('<a href="%s" target="_blank">%s</a>', data$url[index], value)
-    }),
-    url = colDef(show = FALSE),
-    img = colDef(show = FALSE),
-    author = colDef(show = FALSE)
-                
-)
-) 
-
-
-div(winners_tbl)
+book_awards_table(data)
 
 ```
 
