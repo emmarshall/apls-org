@@ -11,7 +11,7 @@ submission-info:
 links:
 - icon: send
   name: Submit here
-  url: "mailto:eefoster@widener.edu"
+  url: "mailto:Catherine.burke@yale.edu"
 ---
 
 
@@ -34,7 +34,7 @@ The AP-LS Book Award was renamed the Lawrence S. Wrightsman Book Award by the Am
 Books are eligible for consideration if published within the 2 previous years based on the year of the conference.
 
 ## How to Apply
-Email nomination letters to the [Chair of the Book Award Committee](emailto:eefoster@widener.edu) before November 1 annually.
+Email nomination letters to the **Chair of the Book Award Committee** before November 1 annually.
 
 :::{.callout-tip} 
 ## Submissions should include:
