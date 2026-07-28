@@ -10,7 +10,7 @@ submission-info:
 links:
 - icon: send
   name: Submit here
-  url: "murrie@virginia.edu"
+  url: "https://docs.google.com/forms/d/e/1FAIpQLSef301UHyAe44KhBskPecs2r979AqxFU4GP0DDOdUsJhkBYQQ/viewform?usp=dialog"
 ---
 
 ```{r setup, include=FALSE}

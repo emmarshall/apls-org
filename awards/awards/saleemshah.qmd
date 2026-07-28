@@ -17,7 +17,7 @@ links:
   url: "https://drive.google.com/file/d/12-EMOWANyIhRnrAsGaPMx-LSKcP4gYDy/view?usp=sharing"
 - icon: send
   name: Submit here
-  url: "mailto:jwmikesellphd@gmail.com"
+  url: "https://docs.google.com/forms/d/e/1FAIpQLSef301UHyAe44KhBskPecs2r979AqxFU4GP0DDOdUsJhkBYQQ/viewform?usp=dialog"
 ---
 
 ```{r setup, include=FALSE}
